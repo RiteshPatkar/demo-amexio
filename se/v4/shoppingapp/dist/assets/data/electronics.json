@@ -1,0 +1,47 @@
+[
+  {
+    "text": "APPLIANCE",
+    "icon": "fa fa-sitemap",
+    "expand":true,
+    "children": [
+      {
+        "text": "TV",
+        "icon": "fa fa-desktop",
+        "expand":true,
+        "children": [
+          {
+            "text": "Sony",
+            "icon": "fa fa-television",
+            "routeLink": "electronics/Sony",
+            "key":"Sony"
+          },
+          {
+            "text": "LG",
+            "icon": "fa fa-laptop",
+            "routeLink": "electronics/LG",
+            "key":"lg"
+          }
+        ]
+      },
+      {
+        "text": "Refrigerator",
+        "icon": "fa fa-building",
+        "expand":true,
+        "children": [
+          {
+            "text": "Godrej",
+            "icon": "fa fa-building-o",
+            "routeLink": "electronics/Godrej",
+            "key":"Godrej"
+          },
+          {
+            "text": "Samsung",
+            "icon": "fa fa-building-o",
+            "routeLink": "electronics/Samsung",
+            "key":"Samsung"
+          }
+        ]
+      }
+    ]
+  }
+]

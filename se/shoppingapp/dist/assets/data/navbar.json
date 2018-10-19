@@ -1,0 +1,26 @@
+[
+    {
+      "text" : "Home",
+      "link" : "home",
+      "fileName":"home"
+    },
+    {
+      "text" : "Electronics",
+      "link" : "electronics",
+      "fileName":"electronics"
+    },
+  
+    {
+      "text" : "Kids",
+      "link" : "kids",
+      "fileName":"kids"
+    },
+    {
+      "text" : "Offer ",
+      "link" : "offer",
+      "fileName":"offer"
+    }
+    
+    
+
+  ]

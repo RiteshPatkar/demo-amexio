@@ -1,0 +1,44 @@
+{
+    "Data":[
+              {
+                  "label":"Motorola",
+                  "imgpath":"assets/images/products/home/h8.jpg",
+                  "offer":"60% Off",
+                  "model":"Motorola",
+                  "desc":"Motorola TurboPower™ 15+ Wall Charger with Micro-USB Data Cable · TurboPower™ 15 Universal",
+                  "rating":"2.5",
+                  "price":"1200"
+              },
+              {
+                  "label":"Apple",
+                  "imgpath":"assets/images/products/home/h9.jpeg",
+                  "offer":"40% Off",
+                  "model":"Apple",
+                  "desc":"I received the Gomeir Power Bank 13000mAh Portable External Battery Pack 2 USB Port Portable Charger for Apple",
+                  "rating":"3",
+                  "price":"6789"
+                  
+              },
+              {
+                  "label":"Sandisk",
+                  "imgpath":"assets/images/products/home/h10.jpg",
+                  "offer":"50% Off",
+                  "model":"Toshiba",
+                  "desc":"The Higadget SanDisk 16GB Cruzer Blade USB Flash Drive from Higadget is a compact, portable USB flash drive",
+                  "rating":"4",
+                  "price":"499"
+                  
+              },
+              {
+                  "label":"Sony",
+                  "imgpath":"assets/images/products/home/h11.jpeg",
+                  "offer":"70% Off",
+                  "model":"Sony",
+                  "desc":"Discover an innovative smartphone watch from Sony – SmartWatch 3. .",
+                  "rating":"4.5",
+                  "price":"4999"
+                
+              }
+
+           ]
+}

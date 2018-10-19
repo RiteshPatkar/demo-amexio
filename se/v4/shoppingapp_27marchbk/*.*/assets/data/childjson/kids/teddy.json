@@ -1,0 +1,162 @@
+
+{
+    "Data":[
+                {
+                    "label":"Gifted Teddy Bear",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t1.jpeg",
+                    "offer":"50% Off",
+                    "model":"Gifted Teddy Bear",
+                    "price":"456",
+                    "rating":"3",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears."
+                },
+
+                {
+                    "label":"Teddy Bear  ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t2.jpeg",
+                    "offer":"70% Off",
+                    "model":"Teddy Bear ",
+                    "price":"876",
+                    "rating":"5",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears. "
+                },
+                {
+                    "label":"Colorfull Teddy Bear",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t3.jpeg",
+                    "offer":"50% Off",
+                    "model":"colorfull Teddy Bear",
+                    "price":"499",
+                    "rating":"4",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears."
+                },
+
+                {
+                    "label":"Cute Teddy Bear  ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t4.jpeg",
+                    "offer":"70% Off",
+                    "model":"cute Teddy Bear ",
+                    "price":"399",
+                    "rating":"4.5",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears. "
+                },
+                {
+                    "label":"Awesome Teddy Bear",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t5.jpeg",
+                    "offer":"50% Off",
+                    "model":"awesome Teddy Bear",
+                    "price":"599",
+                    "rating":"5",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears."
+                },
+
+                {
+                    "label":"Edian Teddy Bear  ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t6.jpeg",
+                    "offer":"70% Off",
+                    "model":"edian Teddy Bear ",
+                    "price":"299",
+                    "rating":"4",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears. "
+                },
+                {
+                    "label":"Pink Teddy Bear",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t7.jpeg",
+                    "offer":"50% Off",
+                    "model":"pink Teddy Bear",
+                    "price":"799",
+                    "rating":"5",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears."
+                },
+
+                {
+                    "label":"Red Teddy Bear  ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t8.jpeg",
+                    "offer":"70% Off",
+                    "model":"red Teddy Bear ",
+                    "price":"299",
+                    "rating":"3",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears. "
+                },
+                {
+                    "label":"Gifted Teddy Bear",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t9.jpeg",
+                    "offer":"50% Off",
+                    "model":"gifted Teddy Bear",
+                    "price":"199",
+                    "rating":"3.5",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears."
+                },
+
+                {
+                    "label":"Teddy Bear  ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t10.jpeg",
+                    "offer":"70% Off",
+                    "model":"Teddy Bear ",
+                    "price":"899",
+                    "rating":"5",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears. "
+                },
+                {
+                    "label":"Colorfull Teddy Bear",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t11.jpeg",
+                    "offer":"50% Off",
+                    "model":"colorfull Teddy Bear",
+                    "price":"299",
+                    "rating":"2",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears."
+                },
+
+                {
+                    "label":"Cuteful Teddy Bear  ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t12.jpeg",
+                    "offer":"70% Off",
+                    "model":"cuteful Teddy Bear ",
+                    "price":"566",
+                    "rating":"4",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears. "
+                },
+                {
+                    "label":"Awesome Teddy Bear",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t13.jpeg",
+                    "offer":"50% Off",
+                    "model":"awesome Teddy Bear",
+                    "price":"888",
+                    "rating":"4.5",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears."
+                },
+
+                {
+                    "label":"Assdian Teddy Bear  ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t14.jpeg",
+                    "offer":"70% Off",
+                    "model":"assdian Teddy Bear ",
+                    "price":"399",
+                    "rating":"2",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears. "
+                },
+                {
+                    "label":"Blue Teddy Bear",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t15.jpeg",
+                    "offer":"50% Off",
+                    "model":"blue Teddy Bear",
+                    "price":"777",
+                    "rating":"4",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears."
+                },
+
+                {
+                    "label":"   Alexia Teddy Bear  ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/teddy/t16.jpeg",
+                    "offer":"70% Off",
+                    "model":"   alexia Teddy Bear ",
+                    "price":"503",
+                    "rating":"4",
+                    "desc":"We just like to introduce you to a few famous Teddy Bear Brands we love ourselves. ... Steiff Teddy Bears. "
+                }
+
+
+            ]
+
+        }
+
+     

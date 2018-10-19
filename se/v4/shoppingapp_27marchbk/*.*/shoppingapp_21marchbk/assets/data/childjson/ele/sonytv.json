@@ -1,0 +1,160 @@
+{
+    "Data":[
+                {
+                    "label":" Sony Bravia OL A1",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s1.jpeg",
+                    "offer":"50% Off",
+                    "model":"sony OLED TVs",
+                    "desc":"Entertain your family and guests better with SONY range of TVs .",
+                    "price":"26789",
+                    "rating":"1"
+                },
+
+                {
+                    "label":"sony QLED Q8C",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s2.jpeg",
+                    "offer":"70% Off",
+                    "model":"sony SUPER UHD 4K TVs",
+                    "desc":"Entertain your family and guests better with SONY range of TVs .",
+                    "price":"35648",
+                    "rating":"1.5"
+                },
+
+                {
+                    "label":"Sony Br HD TV",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s3.jpeg",
+                    "offer":"40% Off",
+                    "model":"sony TVs",
+                    "desc":"Entertain your family and guests better with SONY range of TVs .",
+                    "price":"27899",
+                    "rating":"2"
+                },
+
+                {
+                    "label":"Sony 65 inch HD",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s4.jpeg",
+                    "offer":"30% Off",
+                    "model":"sony LED TVs",
+                    "desc":"Entertain your family and guests better with SONY range of TVs .",
+                    "price":"25389",
+                    "rating":"2.5"
+                },
+                {
+                    "label":" SONY OLED TVs",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s5.jpeg",
+                    "offer":"50% Off",
+                    "model":"sony OLED TVs",
+                    "desc":"Entertain your family and guests better with SONY range of TVs .",
+                    "price":"34567",
+                    "rating":"3"
+                },
+
+                {
+                    "label":"SONY SK TVs",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s6.jpeg",
+                    "offer":"70% Off",
+                    "model":"SONY SK TVs",
+                    "price":"780000",
+                    "desc":"Entertain your family and guests better with SONY's range of TVs .",
+                    "rating":"3.5"
+                },
+                {
+                    "label":" Sony BD A1",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s7.jpeg",
+                    "offer":"50% Off",
+                    "model":"SONY OLED TVs",
+                    "price":"350000",
+                    "desc":"Entertain your family and guests better with SONY's range of TVs .",
+                    "rating":"4"
+
+                },
+
+                {
+                    "label":"sony QLED Q8C",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s8.jpeg",
+                    "offer":"70% Off",
+                    "model":"SONY TVs",
+                    "price":"560000",
+                    "desc":"Entertain your family and guests better with SONY's range of TVs .",
+                    "rating":"4.5"
+                },
+
+                {
+                    "label":"Sony Bravia TV",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s9.jpeg",
+                    "offer":"40% Off",
+                    "model":"SONY Bravia TVs",
+                    "price":"1350000",
+                    "desc":"Entertain your family and guests better with SONY's range of TVs .",
+                    "rating":"5"
+                },
+
+                {
+                    "label":"Sony 65 inch ",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s10.jpeg",
+                    "offer":"30% Off",
+                    "model":"SONY LED TVs",
+                    "price":"4250000",
+                    "desc":"Entertain your family and guests better with SONY's range of TVs .",
+                    "rating":"4.5"
+                },
+                {
+                    "label":" SONY OD TVs",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s11.jpeg",
+                    "offer":"50% Off",
+                    "model":"SONY OD TVs",
+                    "price":"8730000",
+                    "desc":"Entertain your family and guests better with SONY's range of TVs .",
+                    "rating":"4"
+                },
+
+                {
+                    "label":"SONY SUP TVs",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s12.jpeg",
+                    "offer":"70% Off",
+                    "model":"SONY SUP TVs",
+                     "price":"1560000",
+                    "desc":"Entertain your family and guests better with SONY's range of TVs .",
+                    "rating":"4.5"
+                },
+                {
+                    "label":"Son HD TV",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s13.jpeg",
+                    "offer":"40% Off",
+                    "model":"SONY HD TVs",
+                    "price":"2340000",
+                    "desc":"Entertain your family and guests better with SONY's range of TVs .",
+                    "rating":"3"
+                },
+
+                {
+                    "label":"Sony 70 inch KD 65X9300D",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s14.jpeg",
+                    "offer":"30% Off",
+                    "model":"SONY LED TVs",
+                    "price":"557000",
+                    "desc":"Entertain your family and guests better with SONY's range of TVs .",
+                    "rating":"3.5"
+                },
+                {
+                    "label":" SONY OLED TVs",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s15.jpeg",
+                    "offer":"50% Off",
+                    "model":"SONY OLED TVs",
+                    "price":"858000",
+                    "desc":"Entertain your family and guests better with SONY's range of TVs .",
+                    "rating":"4"
+                },
+
+                {
+                    "label":"SONY L1 TVs",
+                    "imgpath":"assets/images/cardimg/electronics/sonytv/s6.jpeg",
+                    "offer":"70% Off",
+                    "model":"SONY L1 TVs",
+                    "price":"750000",
+                    "desc":"Entertain your family and guests better with SONY's range of TVs .",
+                    "rating":"2"
+                }
+            ]
+
+        }

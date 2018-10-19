@@ -1,0 +1,6 @@
+ [
+    ['Location', 'Parent', 'Market trade value(size)', 'Market increase/decrease(color)'],
+   ['Global',     null,        0                     ,                   0              ],
+   ['India',      'Global',     0                    ,                   0              ],
+   ['Andhra Pradesh','India',   11                   ,                    10              ]   
+]

@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "name": "LG Altra HD Tv",
+      "imgName": "lgA",
+      "productDetails": 
+        {
+          "Desc": "watch with Ultra HD and 4K LED TV/ TVs. Discover our LED flat screen Smart TVs with android / Internet connectivity ",
+          "Price":"1000"
+          
+        }
+      
+    },
+    {
+      "name": "LG Bravia Tv",
+      "imgName": "lgB",
+      "productDetails": 
+        {
+          "Desc": "new technology found on all new BRAVIA TVs. Television viewing will be experienced in a whole new way..",
+          "Price":"1000"
+          
+        }
+    },
+        {
+      "name": "LG LED Tv",
+      "imgName": "lgC",
+      "productDetails": 
+        {
+          "Desc": "new technology found on all new LED TVs. Television viewing will be experienced in a whole new way..",
+          "Price":"1000"
+          
+        }
+      
+    },
+    {
+      "name": "LG LcD Tv",
+      "imgName": "lgD",
+      "productDetails": 
+        {
+          "Desc": "new technology found on all new LCD TVs. Television viewing will be experienced in a whole new way..",
+          "Price":"1000"
+          
+        }
+      
+    }
+  ]
+}

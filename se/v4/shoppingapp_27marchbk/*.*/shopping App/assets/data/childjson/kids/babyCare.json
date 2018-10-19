@@ -1,0 +1,159 @@
+
+
+{
+    "Data":[
+                {
+                    "label":" Johnson's Baby Soap",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b1.jpeg",
+                    "offer":"50% Off",
+                    "model":"Johnson's Baby Soap",
+                    "price":"99",
+                    "rating":"3.5",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand."
+                },
+
+                {
+                    "label":"Baby Care Soap ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b2.jpeg",
+                    "offer":"70% Off",
+                    "model":"Baby Care Soap",
+                    "price":"122",
+                    "rating":"4",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand. "
+                },
+                {
+                    "label":" Himalaya's Baby Soap",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b3.jpeg",
+                    "offer":"50% Off",
+                    "model":"Himalaya's Baby Soap",
+                    "price":"67",
+                    "rating":"3",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand."
+                },
+
+                {
+                    "label":"Johnsone Soap ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b4.jpeg",
+                    "offer":"70% Off",
+                    "model":"Johnsonn Soap",
+                    "price":"56",
+                    "rating":"2",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand. "
+                },
+                {
+                    "label":" Baby Soap",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b5.jpeg",
+                    "offer":"50% Off",
+                    "model":" Baby Soap",
+                    "price":"56",
+                    "rating":"2.5",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand."
+                },
+
+                {
+                    "label":"Baby Care Soap and lotion ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b1.jpeg",
+                    "offer":"70% Off",
+                    "model":"Baby Care Soap and lotion",
+                    "price":"188",
+                    "rating":"4",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand. "
+                },
+                {
+                    "label":" Handmade Soap",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b7.jpeg",
+                    "offer":"50% Off",
+                    "model":"Handmade Soap",
+                    "price":"299",
+                    "rating":"3",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand."
+                },
+
+                {
+                    "label":"Yardley Baby Soap ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b8.jpeg",
+                    "offer":"70% Off",
+                    "model":"Yardley Baby Soap",
+                    "price":"77",
+                    "rating":"2",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand. "
+                },
+                {
+                    "label":" SK Baby Furniture",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b9.jpeg",
+                    "offer":"50% Off",
+                    "model":"SK Baby Furniture",
+                    "price":"7856",
+                    "rating":"3",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand."
+                },
+
+                {
+                    "label":"PK Baby Furniture ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b10.jpeg",
+                    "offer":"70% Off",
+                    "model":"PK Baby Furniture",
+                    "price":"2345",
+                    "rating":"4",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand. "
+                },
+                {
+                    "label":" KK Baby Furniture",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b11.jpeg",
+                    "offer":"50% Off",
+                    "model":"KK Baby Furniture",
+                    "price":"2512",
+                    "rating":"1",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand."
+                },
+
+                {
+                    "label":"QWE Baby  Furniture",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b12.jpeg",
+                    "offer":"70% Off",
+                    "model":"QWE baby Furniture",
+                    "price":"4566",
+                    "rating":"2",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand. "
+                },
+                {
+                    "label":" Kids Small Toys",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b13.jpeg",
+                    "offer":"50% Off",
+                    "model":"kids small Toys",
+                    "price":"299",
+                    "rating":"4",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand."
+                },
+
+                {
+                    "label":"Multiple Toys ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b14.jpeg",
+                    "offer":"70% Off",
+                    "model":"Multiple Toys",
+                    "price":"99",
+                    "rating":"4.5",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand. "
+                },
+                {
+                    "label":"Girl Toys ",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b15.jpeg",
+                    "offer":"50% Off",
+                    "model":"Girl Toys",
+                    "price":"399",
+                    "rating":"5",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand."
+                },
+
+                {
+                    "label":"Baby  Toys",
+                    "imgpath":"assets/images/cardimg/kidsbaby/babycare/b16.jpeg",
+                    "offer":"70% Off",
+                    "model":"Baby  Toys",
+                    "price":"567",
+                    "rating":"4",
+                    "desc":"Everything For Your Lil' One.Get The Best Baby Products From A Trusted Brand. "
+                }
+            ]
+
+        }

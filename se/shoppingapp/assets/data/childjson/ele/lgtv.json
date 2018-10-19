@@ -1,0 +1,167 @@
+{
+    "Data":[
+                {
+                    "label":" LG MK TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l1.jpeg",
+                    "offer":"50% Off",
+                    "model":"LG MK TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"23000",
+                    "rating":"3"
+
+                },
+
+                {
+                    "label":"LG J1  TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l14.jpeg",
+                    "offer":"70% Off",
+                    "model":"LG J1  TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"27000",
+                    "rating":"3.5"
+                },
+
+                {
+                    "label":"LG OP TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l3.jpeg",
+                    "offer":"40% Off",
+                    "model":"LG OP TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"34000",
+                    "rating":"4"
+
+                },
+
+                {
+                    "label":"LG LED TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l4.jpeg",
+                    "offer":"30% Off",
+                    "model":"LG LED TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"38000",
+                    "rating":"4.5"
+
+                },
+                {
+                    "label":" LG K2 TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l5.jpeg",
+                    "offer":"50% Off",
+                    "model":"LG K2 TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"45000",
+                    "rating":"5"
+                },
+
+                {
+                    "label":"LG GD TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l6.jpeg",
+                    "offer":"70% Off",
+                    "model":"LG GD TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"36899",
+                    "rating":"3.5"
+                },
+
+                {
+                    "label":"LG FULL TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l7.jpeg",
+                    "offer":"40% Off",
+                    "model":"LG FULL TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"33333",
+                    "rating":"4"
+                },
+
+                {
+                    "label":"LG OK TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l8.jpeg",
+                    "offer":"30% Off",
+                    "model":"LG OK TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"22222",
+                    "rating":"5"
+                },
+                {
+                    "label":" LG QR TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l9.jpeg",
+                    "offer":"50% Off",
+                    "model":"LG QR TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"45678",
+                    "rating":"1.5"
+                },
+
+                {
+                    "label":"LG S TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l10.jpeg",
+                    "offer":"70% Off",
+                    "model":"LG S TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"45679",
+                    "rating":"2"
+                },
+
+                {
+                    "label":"LG U TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l11.jpeg",
+                    "offer":"40% Off",
+                    "model":"LG U TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"34568",
+                    "rating":"3"
+                },
+
+                {
+                    "label":"LG HD TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l12.jpeg",
+                    "offer":"30% Off",
+                    "model":"LG HD TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"24789",
+                    "rating":"4.5"
+                },
+                {
+                    "label":" LG MP TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l13.jpeg",
+                    "offer":"50% Off",
+                    "model":"LG MP TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"26789",
+                    "rating":"2.5"
+                },
+
+                {
+                    "label":"LG H1D TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l14.jpeg",
+                    "offer":"70% Off",
+                    "model":"LG H1D TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"34000",
+                    "rating":"3"
+                },
+
+                {
+                    "label":"LG H5D  TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l15.jpeg",
+                    "offer":"40% Off",
+                    "model":"LG H5D  TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"35645",
+                    "rating":"3.5"
+                },
+
+                {
+                    "label":"LG B3D TVs",
+                    "imgpath":"assets/images/cardimg/electronics/Lgtv/l16.jpeg",
+                    "offer":"30% Off",
+                    "model":"LG B3D TVs",
+                    "desc":"Entertain your family and guests better with LG's range of TVs .",
+                    "price":"44444",
+                    "rating":"4"
+                }
+
+
+
+
+            ]
+}

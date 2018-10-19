@@ -1,0 +1,160 @@
+{
+    "Data":[
+                {
+                    "label":" Samsung RD EDGESX",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s1.jpeg",
+                    "offer":"50% Off",
+                    "model":"Samsung RD EDGESX",
+                    "price":"15000",
+                    "rating":"1",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ."
+                },
+
+                {
+                    "label":"Samsung 185 L ",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s2.jpeg",
+                    "offer":"70% Off",
+                    "model":"Samsung 185 L",
+                    "price":"16000",
+                    "rating":"1.5",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ."
+                },
+
+                {
+                    "label":"Samsung 236 L  ",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s3.jpeg",
+                    "offer":"40% Off",
+                    "model":"Samsung 236 L",
+                    "price":"17000",
+                    "rating":"2",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ." 
+                },
+
+                {
+                    "label":"Samsung 255 L",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s4.jpeg",
+                    "offer":"30% Off",
+                    "model":"Samsung 255 L",
+                    "price":"18000",
+                    "rating":"2.5",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ."
+                },
+                {
+                    "label":" Samsung KD EDGESX",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s5.jpeg",
+                    "offer":"50% Off",
+                    "model":"Samsung KD EDGESX",
+                    "price":"19000",
+                    "rating":"3",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ."
+                },
+
+                {
+                    "label":"Samsung 123 L ",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s6.jpeg",
+                    "offer":"70% Off",
+                    "model":"Samsung 123 L",
+                    "price":"20230",
+                    "rating":"3.5",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ."
+                },
+
+                {
+                    "label":"Samsung 346 L  ",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s7.jpeg",
+                    "offer":"40% Off",
+                    "model":"Samsung 346 L",
+                    "price":"23456",
+                    "rating":"4",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ." 
+                },
+
+                {
+                    "label":"Samsung 251 L",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s8.jpeg",
+                    "offer":"30% Off",
+                    "model":"Samsung 251 L",
+                    "price":"23456",
+                    "rating":"4.5",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ."
+                },
+                {
+                    "label":"Samsung 2q5 k",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s9.jpeg",
+                    "offer":"30% Off",
+                    "model":"Samsung 2q5 k",
+                    "price":"34567",
+                    "rating":"5",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ."
+                },
+                {
+                    "label":" Samsung KD ",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s10.jpeg",
+                    "offer":"50% Off",
+                    "model":"Samsung KD ",
+                    "price":"34789",
+                    "rating":"4",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ."
+                },
+
+                {
+                    "label":"Samsung 12 af ",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s11.jpeg",
+                    "offer":"70% Off",
+                    "model":"Samsung 12 af",
+                    "price":"33333",
+                    "rating":"3",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ."
+                },
+
+                {
+                    "label":"Samsung 36 d  ",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s12.jpeg",
+                    "offer":"40% Off",
+                    "model":"Samsung 36 d",
+                    "price":"45000",
+                    "rating":"2",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ." 
+                },
+
+                {
+                    "label":"Samsung 21 h",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s13.jpeg",
+                    "offer":"30% Off",
+                    "model":"Samsung 21 h",
+                    "price":"43000",
+                    "rating":"1.5",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ."
+                },
+                {
+                    "label":" Samsung KD2 ",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s14.jpeg",
+                    "offer":"50% Off",
+                    "model":"Samsung KD2 ",
+                    "price":"23567",
+                    "rating":"2.5",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ."
+                },
+
+                {
+                    "label":"Samsung 12t5 af ",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s15.jpeg",
+                    "offer":"70% Off",
+                    "model":"Samsung 12t5 af",
+                    "price":"44456",
+                    "rating":"3.5",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ."
+                },
+
+                {
+                    "label":"Samsung A36 d  ",
+                    "imgpath":"assets/images/cardimg/electronics/samsungRef/s16.jpeg",
+                    "offer":"40% Off",
+                    "model":"Samsung A36 d",
+                    "price":"67890",
+                    "rating":"4.5",
+                    "desc":"Keeping your food fresh and clean is extremely easy with samsung refrigerators ." 
+                }
+            ]
+        }
+        

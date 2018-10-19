@@ -1,0 +1,309 @@
+{
+    "response": {
+      "success": true,
+        "message": "Fetching  Data  Request Succeeded: Profile",
+        "data": [
+        {
+          "name": "Arizona",
+          "democratic": "45.1",				
+          "republican": "48.7"
+        },
+          
+        {
+            "name": "Colorado",
+            "democratic": "45.1",				
+            "republican": "48.7"
+        },
+        {
+            "name":"Florida",
+            "democratic": "47.8",				
+            "republican": "49.0"
+        },
+        {
+            "name":"Iowa",
+            "democratic": "41.7",				
+            "republican": "51.1"
+        },
+        {
+            "name":"Maine",
+            "democratic": "47.8",				
+            "republican": "44.9"
+        },
+        {
+            "name":"Michigan",
+            "democratic": "47.3",				
+            "republican": "47.5"
+        },
+        {
+            "name":"Minnesota",
+            "democratic": "46.4",				
+            "republican": "44.9"
+        },
+        {
+            "name":"Nevada",
+            "democratic": "47.9",				
+            "republican": "45.5"
+
+        },
+        {
+            "name":"New Hampshire",
+            "democratic": "46.8",				
+            "republican": "46.5"
+
+        },
+        {
+            "name":"North Carolina",
+            "democratic":"46.2",
+            "republican":"49.8"
+
+        },
+        {
+            "name":"Ohio",
+            "democratic": "43.6",				
+            "republican": "51.7"
+
+        },
+        {
+            "name":"Pennsylvania",
+            "democratic": "47.9",				
+            "republican": "48.6"
+
+        },
+        {
+            "name":"Wisconsin",
+            "democratic": "46.5",				
+            "republican": "47.2"
+
+        },
+        {
+            "name":"Alabama",
+            "democratic": "34.4",				
+            "republican": "62.1"
+
+        },
+        {
+            "name":"Alaska",
+            "democratic": "36.6",				
+            "republican": "51.3"
+
+        },
+        {
+            "name":"Arkansas",
+            "democratic": "33.7",				
+            "republican": "60.6"
+
+        },
+        {
+            "name":"California",
+            "democratic": "61.7",				
+            "republican": "31.6"
+
+        },
+        {
+            "name":"Connecticut",
+            "democratic": "54.6",				
+            "republican": "40.9"
+
+        },
+        {
+            "name":"Delaware",
+            "democratic":"53.4",
+            "republican":"41.9"
+
+        },
+        {
+            "name":"District of Columbia",
+            "democratic":"90.9",
+            "republican":"4.1"
+
+        },
+        {
+            "name":"Georgia",
+            "democratic":"45.9",
+            "republican":"51.0"
+
+        },
+        {
+            "name":"Hawaii",
+            "democratic":"62.2",
+            "republican":"30.0"
+
+        },
+        {
+            "name":"Idaho",
+            "democratic":"27.5",
+            "republican":" 59.3"
+
+        },
+        {
+            "name":"Illinois",
+            "democratic":"55.8",
+            "republican":"38.8"
+
+        },
+        {
+            "name":"Indiana",
+            "democratic":"37.8",
+            "republican":"56.9"
+
+        },
+        {
+            "name":"Kansas",
+            "democratic":"36.1",
+            "republican":"56.7"
+
+        },
+        {
+            "name":"Kentucky",
+            "democratic":"32.7",
+            "republican":"62.5"
+
+        },
+        {
+            "name":"Louisiana",
+            "democratic":"38.4",
+            "republican":"58.1"
+
+        },
+        {
+            "name":"Maryland",
+            "democratic":"60.3",
+            "republican":"33.9"
+
+        },
+        {
+            "name":"Massachusetts",
+            "democratic":"60.0",
+            "republican":"32.8"
+
+        },
+        {
+            "name":"Mississippi",
+            "democratic":"40.1",
+            "republican":"57.9"
+
+        },
+        {
+            "name":"Missouri",
+            "democratic":"38.1",
+            "republican":"56.8"
+
+        },
+        {
+            "name":"Montana",
+            "democratic":"35.7",
+            "republican":"56.2"
+
+        },
+        {
+            "name":"Nebraska",
+            "democratic":"8.5",
+            "republican":"20.5"
+
+        },
+        {
+            "name":"New Jersey",
+            "democratic":"55.5",
+            "republican":"41.4"
+
+        },
+        {
+            "name":"New Mexico",
+            "democratic":"48.3",
+            "republican":"40.0"
+
+        },
+        {
+            "name":"New York",
+            "democratic":"59.0",
+            "republican":"36.5"
+
+        },
+        {
+            "name":"North Dakota",
+            "democratic":"27.2",
+            "republican":"63.0"
+
+        },
+        {
+            "name":"Oklahoma",
+            "democratic":"28.9",
+            "republican":"65.3"
+
+        },
+        {
+            "name":"Oregon",
+            "democratic":"50.1",
+            "republican":"39.1"
+
+        },
+        {
+            "name":"Rhode Island",
+            "democratic":"54.4",
+            "republican":"38.9"
+
+        },
+        {
+            "name":"South Carolina",
+            "democratic":"40.7",
+            "republican":"54.9"
+
+        },
+        {
+            "name":"South Dakota",
+            "democratic":"31.7",
+            "republican":"61.5"
+
+        },
+        {
+            "name":"Tennessee",
+            "democratic":"34.7",
+            "republican":"60.7"
+
+        },
+        {
+            "name":"Texas",
+            "democratic":"43.2",
+            "republican":"52.2"
+
+        },
+        {
+            "name":"Utah",
+            "democratic":"27.5",
+            "republican":"45.5"
+
+        },
+        {
+            "name":"Vermont",
+            "democratic":"30.3",
+            "republican":"13.1"
+
+        },
+        {
+            "name":"Virginia",
+            "democratic":"49.8",
+            "republican":"44.4"
+
+        },
+        {
+            "name":"Washington",
+            "democratic":"51.8",
+            "republican":"36.3"
+
+        },
+        {
+            "name":"West Virginia",
+            "democratic":"26.5",
+            "republican":"68.6"
+
+        },
+        {
+            "name":"Wyoming",
+            "democratic":"21.9",
+            "republican":"68.2"
+
+        }
+
+         ]
+    }
+}

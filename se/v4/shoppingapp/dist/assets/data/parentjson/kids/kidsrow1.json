@@ -1,0 +1,42 @@
+{
+    "Data":[
+             {
+                 "label":"Toy Car",
+                 "imgpath":"assets/images/products/kids/k1.jpg",
+                 "offer":"70% Off",
+                 "model":"Toy Car",
+                 "price":"700",
+                 "desc":"Remote Controlled Cars & Trucks. ... higadgetTM Remote Control Racing Car.Remote Controlled",
+                 "rating":"2.5"
+             },
+             {
+                 "label":"Ferrari  Car",
+                 "imgpath":"assets/images/products/kids/k2.jpg",
+                 "offer":"67% Off",
+                 "model":"Ferrari  Car",
+                 "price":"1300",
+                 "desc":"Solar Powered Cells,The Mini Solar Racer is a toy car which claims to be the world's smallest solar powered car",
+                 "rating":"3"
+             },
+             {
+                 "label":"Pink Teddy",
+                 "imgpath":"assets/images/products/kids/k3.jpg",
+                 "offer":"70% Off",
+                 "model":"Pink Teddy",
+                 "price":"500",
+                 "desc":"Soft furr,Perfect precious pink – from sassy to sweet, if pink is her signature color, then she totally needs a big pink teddy bear ",
+                 "rating":"3.5"
+             },
+             {
+                 "label":"Soft toy Tiger",
+                 "imgpath":"assets/images/products/kids/k4.jpg",
+                 "offer":"89% Off",
+                 "model":"Soft toy Tiger",
+                 "price":"299",
+                 "desc":"Cute Tiger Teddy Bear Soft Lovely Toys - 49 cm Cute Tiger Teddy Bear Soft Lovely Toys ",
+                 "rating":"4"
+             }
+
+
+           ]
+}

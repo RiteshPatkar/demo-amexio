@@ -1,0 +1,40 @@
+{
+    "Data":[
+             {
+                 "label":"Samsung mobile",
+                 "imgpath":"assets/images/products/electronics/e1.jpg",
+                 "offer":"40% Off",
+                 "model":"Samsung",
+                 "price":"3789",
+                 "desc":"Best Smartphones - View complete range of Samsung smartphones with 3G, 4G, Dual sim ",
+                 "rating":"3"
+             },
+             {
+                 "label":"Sony Mobile",
+                 "imgpath":"assets/images/products/electronics/e2.jpg",
+                 "offer":"37% Off",
+                 "model":"Sony",
+                 "price":"5678",
+                 "desc":"The official Sony Mobile Communications website: Xperia phones, tablets, smart products",
+                 "rating":"3.5"
+             },
+             {
+                 "label":"Karbonn Mobile",
+                 "imgpath":"assets/images/products/electronics/e3.jpg",
+                 "offer":"50% Off",
+                 "model":"Karbonn",
+                 "price":"6789",
+                 "desc":"All functionalities, features, specifications and other product information provided  ",
+                 "rating":"4"
+             },
+             {
+                 "label":"Redmi Mobile",
+                 "imgpath":"assets/images/products/electronics/e4.jpg",
+                 "offer":"60% Off",
+                 "model":"Redmi",
+                 "price":"5678",
+                 "desc":" Redmi 5A has a stunning 5 inch HD display, Snapdrago 425 CPU, 13MP Sony camera and 3000mAh all-day battery. ",
+                 "rating":"4.5"
+             }
+           ]
+}

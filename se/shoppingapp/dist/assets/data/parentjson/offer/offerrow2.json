@@ -1,0 +1,41 @@
+{
+    "Data":[
+             {
+                 "label":"Firstaid Box",
+                 "imgpath":"assets/images/products/offer/o5.jpg",
+                 "offer":"80% Off",
+                 "model":"irstaid Box",
+                 "price":"199",
+                 "desc":"A first aid kit is a collection of supplies and equipment that is used to give medical treatment. ",
+                 "rating":"3.5"
+             },
+             {
+                 "label":"Dough Kneading Machine",
+                 "imgpath":"assets/images/products/offer/o6.jpg",
+                 "offer":"45% off",
+                 "model":"Dough Kneading Machine",
+                 "price":"599",
+                 "desc":"10 powerful multi speed dough kneading machines that surpass in whipping or whisking. ",
+                 "rating":"4"
+             },
+             {
+                 "label":"Dressing Table",
+                 "imgpath":"assets/images/products/offer/o7.jpg",
+                 "offer":"67% Off",
+                 "model":"Dressing Table",
+                 "price":"2999",
+                 "desc":"Wooden Furniture, a wide range of Dreesing table with mirror & Dressing table. ",
+                 "rating":"4.5"
+             },
+             {
+                 "label":"Emergency Light",
+                 "imgpath":"assets/images/products/offer/o8.jpg",
+                 "offer":"80% Off",
+                 "model":"Emergency Light",
+                 "price":"199",
+                 "desc":"An emergency light is a battery-operated lighting device that is used during conditions like power shortage or low light.",
+                 "rating":"5"
+             }
+
+           ]
+}

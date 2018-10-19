@@ -1,0 +1,40 @@
+{
+    "Data":[
+             {
+                 "label":"Selfie Stick",
+                 "imgpath":"assets/images/products/offer/o1.jpg",
+                 "offer":"55% Off",
+                 "model":"Selfie Stick",
+                 "price":"299",
+                 "desc":"its main purpose is to snap that Instagram-worthy photo of yourself, these selfie sticks different sizes.",
+                 "rating":"3"
+             },
+             {
+                 "label":"Literature Book",
+                 "imgpath":"assets/images/products/offer/o2.jpg",
+                 "offer":"56% Off",
+                 "model":"Literature Book",
+                 "price":"499",
+                 "desc":"The Literature Book is a fascinating journey through the greatest works of world literature.",
+                 "rating":"3.5"
+             },
+             {
+                 "label":"Dog Food",
+                 "imgpath":"assets/images/products/offer/o3.jpg",
+                 "offer":"70% Off",
+                 "model":"Pedigree Dog Food",
+                 "price":"399",
+                 "desc":"Wholesome Meal · Complete & Balanced Food · Health & Grooming Tips · Tasty Gravy · Feed Nutrients.",
+                 "rating":"4"
+             },
+             {
+                 "label":"Juicer",
+                 "imgpath":"assets/images/products/offer/o4.jpg",
+                 "offer":"50% Off",
+                 "model":"Juicer",
+                 "price":"599",
+                 "desc":"The Bajaj juicer mixer grinder is a convenient kitchen appliance that can whip up tasty juices.",
+                 "rating":"4.5"
+             }
+           ]
+}

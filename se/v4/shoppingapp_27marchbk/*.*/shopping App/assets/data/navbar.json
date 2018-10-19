@@ -1,0 +1,26 @@
+[
+    {
+      "label" : "Home",
+      "link" : "home",
+      "fileName":"home"
+    },
+    {
+      "label" : "Electronics",
+      "link" : "electronics",
+      "fileName":"electronics"
+    },
+  
+    {
+      "label" : "Kids",
+      "link" : "kids",
+      "fileName":"kids"
+    },
+    {
+      "label" : "Offer ",
+      "link" : "offer",
+      "fileName":"offer"
+    }
+    
+    
+
+  ]

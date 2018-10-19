@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "name": "Sony Altra HD Tv",
+      "imgName": "sonyA",
+      "productDetails": 
+        {
+          "Desc": "watch with Ultra HD and 4K LED TV/ TVs. Discover our LED flat screen Smart TVs with android / Internet connectivity ",
+          "Price":"1000"
+          
+        }
+      
+    },
+    {
+      "name": "Sony Bravia Tv",
+      "imgName": "sonyB",
+      "productDetails": 
+        {
+          "Desc": "new technology found on all new BRAVIA TVs. Television viewing will be experienced in a whole new way..",
+          "Price":"1000"
+          
+        }
+    },
+        {
+      "name": "Sony LED Tv",
+      "imgName": "sonyC",
+      "productDetails": 
+        {
+          "Desc": "new technology found on all new LED TVs. Television viewing will be experienced in a whole new way..",
+          "Price":"1000"
+          
+        }
+      
+    },
+    {
+      "name": "Sony LcD Tv",
+      "imgName": "sonyD",
+      "productDetails": 
+        {
+          "Desc": "new technology found on all new LCD TVs. Television viewing will be experienced in a whole new way..",
+          "Price":"1000"
+          
+        }
+      
+    }
+  ]
+}
