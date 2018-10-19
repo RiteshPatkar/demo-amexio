@@ -4,13 +4,13 @@
                     Common CSS Helper Classes
 *****************************************************************************/
 body {
-  background: #eceff1;
+  background: #ECEFF1;
   min-height: 100%;
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
   font-weight: 400;
-  color: navy;
+  color: #000080;
   font-size: 1em;
   margin: 0px;
   padding: 0px; }
@@ -64,7 +64,7 @@ body {
   border-right: 1px solid #cccccc; }
 
 .header {
-  background-color: navy;
+  background-color: #000080;
   color: white;
   padding: 10px;
   overflow: hidden; }
@@ -95,7 +95,7 @@ body {
   cursor: not-allowed; }
 
 .defaultcolor {
-  color: navy; }
+  color: #000080; }
 
 .verticalalign-tableft {
   vertical-align: top !important;
@@ -132,10 +132,8 @@ Spin animation for .loading-mask::after
 @keyframes spin {
   from {
     transform: rotate(0deg); }
-
   to {
     transform: rotate(359deg); } }
-
 label {
   display: inline-block;
   margin-top: 5px;
@@ -144,7 +142,7 @@ label {
   font-weight: 500; }
 
 a {
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 textarea {
   font-family: inherit; }
@@ -165,7 +163,7 @@ image using the content attribute.
   position: absolute;
   border-width: 3px;
   border-style: solid;
-  border-color: transparent navy navy;
+  border-color: transparent #000080 #000080;
   border-radius: 50%;
   width: 24px;
   height: 24px;
@@ -178,7 +176,6 @@ image using the content attribute.
 @keyframes spinner {
   to {
     transform: rotate(360deg); } }
-
 .spinner:before {
   content: '';
   box-sizing: border-box;
@@ -191,8 +188,8 @@ image using the content attribute.
   margin-left: -10px;
   border-radius: 50%;
   border: 2px solid transparent;
-  border-top-color: navy;
-  border-bottom-color: navy;
+  border-top-color: #000080;
+  border-bottom-color: #000080;
   animation: spinner .8s ease infinite; }
 
 .row-disabled {
@@ -206,7 +203,7 @@ image using the content attribute.
    240a00: #240a00 rgb(36,10,0,0.0);
 */
 .amexio-red-light {
-  background-color: coral;
+  background-color: #ff7f50;
   color: #240a00; }
 
 /** Amexio Colors --- 
@@ -214,7 +211,7 @@ image using the content attribute.
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-red {
-  background-color: crimson;
+  background-color: #dc143c;
   color: #fffafb; }
 
 /** Amexio Colors --- 
@@ -222,7 +219,7 @@ image using the content attribute.
    002400: #002400 rgb(0,36,0,0.0);
 */
 .amexio-green-light {
-  background-color: lime;
+  background-color: #00ff00;
   color: #002400; }
 
 /** Amexio Colors --- 
@@ -230,7 +227,7 @@ image using the content attribute.
    f0faf4: #f0faf4 rgb(240,250,244,0.0);
 */
 .amexio-green {
-  background-color: seagreen;
+  background-color: #2e8b57;
   color: #f0faf4; }
 
 /** Amexio Colors --- 
@@ -238,7 +235,7 @@ image using the content attribute.
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-purple-light {
-  background-color: magenta;
+  background-color: #ff00ff;
   color: #050005; }
 
 /** Amexio Colors --- 
@@ -246,7 +243,7 @@ image using the content attribute.
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-purple {
-  background-color: darkmagenta;
+  background-color: #8b008b;
   color: #050005; }
 
 /** Amexio Colors --- 
@@ -254,7 +251,7 @@ image using the content attribute.
    f0fbff: #f0fbff rgb(240,251,255,0.0);
 */
 .amexio-blue-light {
-  background-color: deepskyblue;
+  background-color: #00bfff;
   color: #000507; }
 
 /** Amexio Colors --- 
@@ -262,7 +259,7 @@ image using the content attribute.
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-blue {
-  background-color: darkblue;
+  background-color: #00008b;
   color: #f5f5ff; }
 
 /** Amexio Colors --- 
@@ -270,7 +267,7 @@ image using the content attribute.
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-brown-light {
-  background-color: sandybrown;
+  background-color: #f4a460;
   color: #211102; }
 
 /** Amexio Colors --- 
@@ -278,7 +275,7 @@ image using the content attribute.
    ffebeb: #ffebeb rgb(255,235,235,0.0);
 */
 .amexio-brown {
-  background-color: maroon;
+  background-color: #800000;
   color: #ffebeb; }
 
 /** Amexio Colors --- 
@@ -286,7 +283,7 @@ image using the content attribute.
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-yellow-light {
-  background-color: gold;
+  background-color: #ffd700;
   color: #241e00; }
 
 /** Amexio Colors --- 
@@ -302,16 +299,16 @@ image using the content attribute.
    White: #ffffff rgb(255,255,255,0.0);
 */
 .amexio-black {
-  background-color: black;
-  color: white; }
+  background-color: #000000;
+  color: #ffffff; }
 
 /** Amexio Colors --- 
    White: #ffffff rgb(255,255,255,0.0);
    Black: #000000 rgb(0,0,0,0.0);
 */
 .amexio-white {
-  background-color: white;
-  color: black; }
+  background-color: #ffffff;
+  color: #000000; }
 
 /* Misc Variables */
 /****************************************************************************
@@ -320,24 +317,24 @@ image using the content attribute.
 *****************************************************************************/
 /** button - Visual CSS **/
 .button-secondary {
-  background-color: white;
-  border-color: navy;
-  color: navy; }
+  background-color: #ffffff;
+  border-color: #000080;
+  color: #000080; }
 
 .button-secondary:hover:enabled {
   background-color: #e6e6e6; }
 
 .btn-badge {
   background-color: #8080ff;
-  color: navy; }
+  color: #000080; }
 
 .btn-primary-badge {
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 .btn-secondary-badge {
-  background-color: navy;
-  color: white; }
+  background-color: #000080;
+  color: #ffffff; }
 
 .btn-success-badge {
   background-color: white;
@@ -352,17 +349,17 @@ image using the content attribute.
   color: #f0ad4e; }
 
 .btn-transparent-badge {
-  background-color: navy;
+  background-color: #000080;
   color: white; }
 
 .button-primary {
-  background-color: navy;
-  border-color: navy;
+  background-color: #000080;
+  border-color: #000080;
   color: white; }
 
 .disabled {
   background-color: #a09e9e;
-  color: navy; }
+  color: #000080; }
 
 .button-primary:hover:enabled {
   background-color: #00004d; }
@@ -393,7 +390,7 @@ image using the content attribute.
 
 .button-transparent {
   background: white;
-  color: navy; }
+  color: #000080; }
 
 /** button - Structure CSS **/
 button {
@@ -408,7 +405,7 @@ button {
   -ms-user-select: none;
   outline: none;
   user-select: none;
-  border: 1px solid navy;
+  border: 1px solid #000080;
   padding: .5rem 1rem;
   border-radius: 5px;
   transition: all .2s ease-in-out; }
@@ -525,20 +522,20 @@ button {
 *****************************************************************************/
 /** buttongroup - Visual CSS **/
 .button-secondary {
-  background-color: white;
-  border-color: navy;
-  color: navy; }
+  background-color: #ffffff;
+  border-color: #000080;
+  color: #000080; }
 
 .button-secondary:hover:enabled {
   background-color: #e6e6e6; }
 
 .btn-group-primary-badge {
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 .btn-group-secondary-badge {
-  background-color: navy;
-  color: white; }
+  background-color: #000080;
+  color: #ffffff; }
 
 .btn-group-success-badge {
   background-color: white;
@@ -553,17 +550,17 @@ button {
   color: #f0ad4e; }
 
 .btn-group-transparent-badge {
-  background-color: navy;
+  background-color: #000080;
   color: white; }
 
 .button-primary {
-  background-color: navy;
-  border-color: navy;
+  background-color: #000080;
+  border-color: #000080;
   color: white; }
 
 .disabled {
   background-color: #a09e9e;
-  color: navy; }
+  color: #000080; }
 
 .button-primary:hover:enabled {
   background-color: #00004d; }
@@ -594,13 +591,13 @@ button {
 
 .button-transparent {
   background: white;
-  color: navy; }
+  color: #000080; }
 
 /** buttongroup - Structure CSS **/
 .btn-group span {
-                  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
-
- cursor: pointer; /* Pointer/hand icon */ }
+  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
+  
+   cursor: pointer; /* Pointer/hand icon */ }
 
 .btn-group button {
   cursor: pointer; }
@@ -741,7 +738,7 @@ button {
 
 .disabled {
   background-color: #a09e9e;
-  color: navy; }
+  color: #000080; }
 
 /** buttondropdown - Structure CSS **/
 .btn-dropdown-badge {
@@ -759,7 +756,7 @@ button {
   position: absolute;
   padding: .5rem 1rem;
   font-size: 1rem;
-  border: 3px solid navy;
+  border: 3px solid #000080;
   z-index: 3; }
 
 .button-dropdown-up {
@@ -770,20 +767,6 @@ button {
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** datetime - Visual CSS **/
-.datedropdown {
-  background: white; }
-  .datedropdown .dropdownlist {
-    color: navy; }
-  .datedropdown li:hover {
-    color: navy;
-    background: #e6e6ff;
-    width: 30px; }
-  .datedropdown .active {
-    background: #8080ff;
-    color: #6f2da8; }
-  .datedropdown li {
-    color: navy; }
-
 .datetimepicker {
   background: white; }
   .datetimepicker .datetimepickertopbar {
@@ -793,31 +776,13 @@ button {
   .datetimepicker .days {
     background: white; }
     .datetimepicker .days li {
-      color: navy; }
+      color: #000080; }
     .datetimepicker .days li:hover {
       color: #8080ff; }
     .datetimepicker .days .active {
       background: #8080ff;
-      color: #6f2da8; }
+      color: #6F2DA8; }
     .datetimepicker .days .currentMonth {
-      font-weight: bold; }
-
-.datetimepicker1 {
-  background: white; }
-  .datetimepicker1 .datetimepickertopbar {
-    background: #8080ff; }
-    .datetimepicker1 .datetimepickertopbar ul li {
-      color: white; }
-  .datetimepicker1 .days {
-    background: white; }
-    .datetimepicker1 .days li {
-      color: navy; }
-    .datetimepicker1 .days li:hover {
-      color: #8080ff; }
-    .datetimepicker1 .days .active {
-      background: #8080ff;
-      color: #6f2da8; }
-    .datetimepicker1 .days .currentMonth {
       font-weight: bold; }
 
 .datetimepicker-up {
@@ -825,28 +790,18 @@ button {
 
 .datetimepicker:disabled {
   background-color: #a09e9e;
-  color: navy; }
+  color: #000080; }
 
 @media screen and (max-width: 600px) {
   .datetimepicker .days .date-today {
     padding-top: 1%;
     padding-left: 36%; } }
-.dropspan2 {
-  border-color: navy; }
-
-.datedropbtn {
-  background-color: navy;
-  color: white; }
-
-.change4 {
-  background-color: #8080ff; }
-
 /** datetime - Structure CSS **/
 .datetimepicker {
   display: block;
-  border: 3px solid navy;
+  border: 3px solid #000080;
   position: absolute;
-  box-shadow: 0 1px 3px 0 navy;
+  box-shadow: 0 1px 3px 0 #000080;
   z-index: 3;
   width: 290px; }
   .datetimepicker .datetimepickertopbar {
@@ -900,63 +855,6 @@ button {
       padding-top: 1%;
       padding-left: 42%; }
 
-.datetimepicker1 {
-  display: block;
-  border: 3px solid navy;
-  box-shadow: 0 1px 3px 0 navy;
-  z-index: 3;
-  width: 290px; }
-  .datetimepicker1 .datetimepickertopbar {
-    padding: 10px 25px;
-    text-align: center; }
-    .datetimepicker1 .datetimepickertopbar .title {
-      font-size: 18px;
-      cursor: pointer; }
-    .datetimepicker1 .datetimepickertopbar ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-    .datetimepicker1 .datetimepickertopbar ul li {
-      font-size: 18px;
-      text-transform: uppercase;
-      letter-spacing: 3px; }
-    .datetimepicker1 .datetimepickertopbar .prev {
-      float: left;
-      padding-top: 10px;
-      cursor: pointer; }
-    .datetimepicker1 .datetimepickertopbar .next {
-      float: right;
-      padding-top: 10px;
-      cursor: pointer; }
-  .datetimepicker1 .weekdays {
-    margin: 0;
-    padding: 10px 0;
-    list-style: none; }
-    .datetimepicker1 .weekdays li {
-      display: inline-block;
-      width: 13.6%;
-      text-align: center; }
-  .datetimepicker1 .days {
-    padding: 10px 0;
-    margin: 0;
-    cursor: pointer;
-    list-style: none; }
-    .datetimepicker1 .days li {
-      list-style-type: none;
-      display: inline-block;
-      width: 13.6%;
-      height: 20px;
-      text-align: center;
-      margin-bottom: 5px;
-      font-size: 12px;
-      cursor: pointer; }
-    .datetimepicker1 .days .active {
-      border-radius: 135px;
-      padding: 5px; }
-    .datetimepicker1 .days .date-today {
-      padding-top: 1%;
-      padding-left: 42%; }
-
 .datetimepicker-up {
   bottom: 100%; }
 
@@ -965,83 +863,10 @@ button {
 
 .invaliddays {
   opacity: .40;
-  cursor: not-allowed; }
+  pointer-events: none; }
 
 .disabled {
   opacity: .40;
-  cursor: not-allowed; }
-
-.datedropdown {
-  display: block;
-  border: 3px solid navy;
-  box-shadow: 0 1px 3px 0 navy;
-  z-index: 3; }
-  .datedropdown li {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 5px;
-    cursor: pointer; }
-
-.dropdiv1 {
-  width: 100%; }
-
-.dropspan1 {
-  float: left;
-  width: 25%; }
-
-.dropul1 {
-  list-style-type: none;
-  -webkit-padding-start: 5px; }
-
-.dropspan2 {
-  width: 25%;
-  float: left;
-  border-right: 1px solid navy; }
-
-.dropspan4 {
-  width: 25%;
-  display: table-row-group; }
-
-.dropul2 {
-  list-style-type: none;
-  -webkit-padding-start: 15px; }
-
-.dropiconpadding {
-  cursor: pointer;
-  -webkit-padding-start: 20px; }
-
-.btndiv1 {
-  position: relative;
-  bottom: 0; }
-
-.datedropbtn {
-  border: none;
-  padding: 6px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer; }
-
-.dropbtnspan {
-  display: inline-flex;
-  padding-left: 105px; }
-
-.change4 {
-  padding-left: 3px;
-  padding-right: 4px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 30px; }
-
-.disablearrow {
-  opacity: .40;
-  cursor: not-allowed;
   pointer-events: none; }
 
 /****************************************************************************
@@ -1053,11 +878,11 @@ button {
   background-color: white; }
 
 .dropdown-list .list-items:hover {
-  color: navy;
+  color: #000080;
   background-color: #e6e6ff; }
 
 .dropdown-list .list-items-active {
-  color: navy;
+  color: #000080;
   background-color: #8080ff; }
 
 .drodown-caret-down {
@@ -1065,7 +890,7 @@ button {
 
 .list-items-selected {
   background-color: #e6e6ff;
-  color: navy; }
+  color: #000080; }
 
 /** dropdown - Structure CSS **/
 .dropdown {
@@ -1077,7 +902,7 @@ button {
   width: 100%;
   max-height: 200px;
   opacity: 1.01;
-  box-shadow: 0 1px 3px 0 navy; }
+  box-shadow: 0 1px 3px 0 #000080; }
 
 .dropdown-up {
   bottom: 100%; }
@@ -1098,8 +923,7 @@ button {
   font-weight: 400;
   margin: 1px 0;
   padding: .186em .313em;
-  text-align: left;
-  margin-left: 8px; }
+  text-align: left; }
 
 .drodown-caret-down {
   position: absolute;
@@ -1129,18 +953,18 @@ button {
 .input-control {
   font-size: 14px;
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 ::placeholder {
-  color: navy; }
+  color: #000080; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: navy; }
+  color: #000080; }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: navy; }
+  color: #000080; }
 
 .input-control:focus {
   border-color: #5cb3fd; }
@@ -1181,7 +1005,7 @@ button {
   line-height: 2;
   border-radius: 0px;
   border: none;
-  border-bottom: 2px solid navy;
+  border-bottom: 2px solid #000080;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; }
 
 .input-control:focus {
@@ -1199,7 +1023,7 @@ button {
   pointer-events: none; }
 
 .inputgroup .tooltiptext {
-  border: 3px solid navy;
+  border: 3px solid #000080;
   position: absolute;
   z-index: 1;
   padding-left: 5px; }
@@ -1210,12 +1034,12 @@ button {
 *****************************************************************************/
 /** fileupload - Visual CSS **/
 .upload-drop-zone {
-  color: navy;
-  border-color: navy; }
+  color: #000080;
+  border-color: #000080; }
 
 .upload-drop-zone.drop {
-  color: navy;
-  border-color: navy; }
+  color: #000080;
+  border-color: #000080; }
 
 /** fileupload - Structure CSS **/
 .upload-drop-zone {
@@ -1279,7 +1103,7 @@ textarea:required {
 /** collapsible-search - Structure CSS **/
 .search {
   background: #ededed url("search-icon.png") no-repeat 9px center;
-  border: solid 1px navy;
+  border: solid 1px #000080;
   padding: 9px 10px 9px 32px;
   outline: none;
   transition: all .5s;
@@ -1312,7 +1136,7 @@ textarea:required {
   left: 0;
   height: 20px;
   width: 20px;
-  border: 3px solid navy;
+  border: 3px solid #000080;
   border-radius: 50%; }
 
 /* Create the input-box-container-label/indicator (hidden when not checked) */
@@ -1339,15 +1163,15 @@ textarea:required {
 *****************************************************************************/
 /** checkbox - Visual CSS **/
 .input-box .default {
-  background: #eceff1; }
+  background: #ECEFF1; }
 
 .input-box .active {
-  background: navy;
-  color: white; }
+  background: #000080;
+  color: #000080; }
 
 /* When the checkbox is checked, add a blue background */
 .input-box-container input:checked ~ .input-box-checkbox-label {
-  background-color: navy; }
+  background-color: #000080; }
 
 .checkbox-disable {
   opacity: 0.55;
@@ -1376,10 +1200,10 @@ textarea:required {
   border-radius: 100%; }
 
 .input-box .default {
-  border: 3px solid navy; }
+  border: 3px solid #000080; }
 
 .input-box .active {
-  border: 3px solid navy; }
+  border: 3px solid #000080; }
 
 .input-box-container {
   display: block;
@@ -1403,7 +1227,7 @@ textarea:required {
   left: 0;
   height: 20px;
   width: 20px;
-  border: 3px solid navy; }
+  border: 3px solid #000080; }
 
 /* When the checkbox is checked, add a blue background */
 /* Create the input-box-container-label/indicator (hidden when not checked) */
@@ -1422,7 +1246,7 @@ textarea:required {
   top: 1px;
   width: 5px;
   height: 10px;
-  border: solid navy;
+  border: solid #000080;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg); }
 
@@ -1434,7 +1258,7 @@ textarea:required {
 .tag-input .tag {
   font-size: 11px;
   background-color: white;
-  color: navy; }
+  color: #000080; }
   .tag-input .tag .closebtn {
     font-size: 20px;
     color: #e6e6ff; }
@@ -1453,7 +1277,7 @@ textarea:required {
     padding: 0 13px;
     height: 30px;
     line-height: 30px;
-    border: 3px solid navy; }
+    border: 3px solid #000080; }
     .tag-input .tag .closebtn {
       padding-left: 10px;
       font-weight: bold;
@@ -1467,39 +1291,36 @@ textarea:required {
 /** notification - Visual CSS **/
 .notification {
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 /** notification - Structure CSS **/
 .notification-content {
   position: fixed;
   z-index: 3; }
 
-.notification-vertical-top {
-  top: 10%; }
-
-.notification-vertical-center {
-  left: 40%;
-  top: 50%; }
-
-.notification-vertical-bottom {
-  bottom: 10px; }
-
-.notification-horizontal-left {
+.notification-left {
   left: 10px; }
 
-.notification-horizontal-center {
-  left: 40%; }
-
-.notification-horizontal-right {
+.notification-right {
   right: 0px; }
+
+.notification-top {
+  top: 10px; }
+
+.notification-center {
+  top: 50%;
+  left: 50%; }
+
+.notification-bottom {
+  bottom: 10px; }
 
 .notification {
   margin: 10px;
-  padding: 12px;
-  bottom: 10px;
+  padding: 10px;
   min-width: 250px;
-  text-align: start;
+  text-align: center;
   border-radius: 2px;
+  padding: 16px;
   z-index: 1;
   display: block; }
   .notification i {
@@ -1512,7 +1333,7 @@ textarea:required {
 /** progress - Visual CSS **/
 .progress {
   position: relative;
-  background: #eceff1; }
+  background: #ECEFF1; }
   .progress .success {
     background-color: #5cb85c; }
   .progress .warning {
@@ -1555,10 +1376,8 @@ textarea:required {
 @-webkit-keyframes move {
   0% {
     background-position: 0 0; }
-
   100% {
     background-position: 50px 50px; } }
-
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none; }
 
@@ -1571,11 +1390,11 @@ textarea:required {
   font-style: normal; }
 
 .star-icon {
-  color: navy;
+  color: #000080;
   font-size: 2em; }
 
 .star-icon:before {
-  color: navy; }
+  color: #000080; }
 
 .rating.disabled .star-icon:before {
   color: #a09e9e; }
@@ -1584,7 +1403,6 @@ textarea:required {
   /* Firefox Hack */
   .star-icon {
     font-size: 50px; } }
-
 /** rating - Structure CSS **/
 .rating {
   cursor: pointer;
@@ -1601,9 +1419,9 @@ textarea:required {
   font-style: normal; }
 
 .star-icon {
-  color: navy;
+  color: #000080;
   position: relative;
-  border-color: 3px solid navy; }
+  border-color: 3px solid #000080; }
 
 .star-icon:before {
   content: attr(data-icon) " ";
@@ -1649,7 +1467,6 @@ textarea:required {
   /* Firefox Hack */
   .star-icon {
     line-height: 34px; } }
-
 /****************************************************************************
     Component Name : Toggle
     Version : Amexio v4.0 onwards
@@ -1678,7 +1495,7 @@ input:checked + .toggle-slider {
 .toggle-slider {
   position: absolute;
   cursor: pointer;
-  border: 3px solid navy;
+  border: 3px solid #000080;
   top: 0;
   left: 0;
   right: 0;
@@ -1697,7 +1514,7 @@ input:checked + .toggle-slider {
   transition: .4s; }
 
 input:focus + .toggle-slider {
-  box-shadow: 0 0 1px navy; }
+  box-shadow: 0 0 1px #000080; }
 
 input:checked + .toggle-slider:before {
   -webkit-transform: translateX(26px);
@@ -1707,7 +1524,7 @@ input:checked + .toggle-slider:before {
 /* Rounded sliders */
 .round {
   border-radius: 34px;
-  border: 3px solid navy; }
+  border: 3px solid #000080; }
 
 .round:before {
   border-radius: 50%; }
@@ -1725,7 +1542,7 @@ input:checked + .toggle-slider:before {
 
 .ui-widget-content {
   background: white;
-  color: navy; }
+  color: #000080; }
 
 .ui-widget {
   font-size: 1em; }
@@ -1735,7 +1552,7 @@ input:checked + .toggle-slider:before {
 
 .ui-slider .ui-slider-range {
   font-size: 0.7em;
-  background: navy;
+  background: #000080;
   /** use card header here **/ }
 
 .ui-widget-header {
@@ -1900,11 +1717,10 @@ input:checked + .toggle-slider:before {
 /** label - Visual CSS **/
 .label-badge {
   color: white;
-  background-color: navy; }
+  background-color: #000080; }
 
 /** label - Structure CSS **/
 .label-badge {
-  margin-left: 10px;
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
@@ -1917,8 +1733,7 @@ input:checked + .toggle-slider:before {
   border-radius: 10px; }
 
 .large {
-  font-size: 36px;
-  line-height: 34px; }
+  font-size: 36px; }
 
 .medium {
   font-size: 20px; }
@@ -1928,8 +1743,7 @@ input:checked + .toggle-slider:before {
 
 .large-bold {
   font-size: 36px;
-  font-weight: bold;
-  line-height: 40px; }
+  font-weight: bold; }
 
 .medium-bold {
   font-size: 20px;
@@ -1945,38 +1759,38 @@ input:checked + .toggle-slider:before {
 *****************************************************************************/
 /** box - Visual CSS **/
 .bg-highlight {
-  color: navy;
+  color: #000080;
   background-color: #ffeb3b; }
 
 .bg-red {
-  color: navy;
+  color: #000080;
   background-color: #ffcab6; }
 
 .bg-green {
-  color: navy;
+  color: #000080;
   background-color: #99ff99; }
 
 .bg-yellow {
-  color: navy;
+  color: #000080;
   background-color: #ffe766; }
 
 .bg-blue {
-  color: navy;
+  color: #000080;
   background-color: #ccf2ff; }
 
 .bg-purple {
-  color: navy;
+  color: #000080;
   background-color: #ffccff; }
 
 .bg-brown {
-  color: navy;
+  color: #000080;
   background-color: #fbdbbf; }
 
 .box-default {
   background-color: white; }
 
 .bg-theme-color {
-  color: navy;
+  color: #000080;
   background-color: #e6e6ff; }
 
 /** box - Structure CSS **/
@@ -2004,25 +1818,25 @@ input:checked + .toggle-slider:before {
   border-left: 6px solid !important; }
 
 .box-default {
-  border-color: navy; }
+  border-color: #000080; }
 
 .padding {
   padding: 8px 8px 8px 8px; }
 
 .border-red {
-  border-color: crimson !important; }
+  border-color: #dc143c !important; }
 
 .border-blue {
-  border-color: darkblue !important; }
+  border-color: #00008b !important; }
 
 .border-green {
-  border-color: seagreen !important; }
+  border-color: #2e8b57 !important; }
 
 .border-brown {
-  border-color: maroon !important; }
+  border-color: #800000 !important; }
 
 .border-purple {
-  border-color: darkmagenta !important; }
+  border-color: #8b008b !important; }
 
 .border-yellow {
   border-color: #ff9900 !important; }
@@ -2037,7 +1851,7 @@ input:checked + .toggle-slider:before {
   border-style: dotted; }
 
 .border-theme-color {
-  border-color: navy; }
+  border-color: #000080; }
 
 /****************************************************************************
     Component Name : Image
@@ -2045,7 +1859,7 @@ input:checked + .toggle-slider:before {
 *****************************************************************************/
 /** image - Visual CSS **/
 .profile-image a {
-  color: navy; }
+  color: #000080; }
 
 /** image - Structure CSS **/
 .profile-image img {
@@ -2073,8 +1887,8 @@ input:checked + .toggle-slider:before {
 .image-responsive {
   max-width: 100%;
   width: 100%;
-  border-top: 1px solid navy;
-  border-bottom: 1px solid navy;
+  border-top: 1px solid #000080;
+  border-bottom: 1px solid #000080;
   margin-top: 10px;
   margin-bottom: 10px; }
 
@@ -2131,8 +1945,8 @@ input:checked + .toggle-slider:before {
   filter: opacity(50%); }
 
 .image-shadow {
-  -webkit-filter: drop-shadow(8px 8px 10px navy);
-  filter: drop-shadow(8px 8px 10px navy); }
+  -webkit-filter: drop-shadow(8px 8px 10px #000080);
+  filter: drop-shadow(8px 8px 10px #000080); }
 
 .img-fluid {
   max-width: 100%;
@@ -2341,7 +2155,7 @@ input:checked + .toggle-slider:before {
 *****************************************************************************/
 /** float-button - Visual CSS **/
 .button-float {
-  background-color: navy;
+  background-color: #000080;
   color: white; }
 
 /** float-button - Structure CSS **/
@@ -2365,7 +2179,7 @@ input:checked + .toggle-slider:before {
   background-color: #ffffff; }
 
 .floatingbutton-theme-color {
-  background-color: navy;
+  background-color: #000080;
   color: white; }
 
 .floatingbutton-green {
@@ -2382,7 +2196,7 @@ input:checked + .toggle-slider:before {
 
 .floatingbutton-default-disabled {
   background-color: #a09e9e;
-  color: navy; }
+  color: #000080; }
 
 .floatingbutton-theme-color-disabled {
   background-color: #0000e6;
@@ -2405,7 +2219,7 @@ input:checked + .toggle-slider:before {
   z-index: 3;
   text-align: center;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  border-color: navy;
+  border-color: #000080;
   cursor: pointer; }
 
 .floatingbutton-relative {
@@ -2464,7 +2278,7 @@ input:checked + .toggle-slider:before {
 *****************************************************************************/
 /** dropdownmenu - Visual CSS **/
 .dropdown-menu {
-  background-color: navy;
+  background-color: #000080;
   color: white; }
 
 .dropdown-menu-content {
@@ -2472,14 +2286,14 @@ input:checked + .toggle-slider:before {
   box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
 
 .dropdown-menu-content .dropdowndivider {
-  border-bottom: solid 1px navy; }
+  border-bottom: solid 1px #000080; }
 
 .nav-dropdown-content .dropdowndivider {
-  border-bottom: solid 1px navy; }
+  border-bottom: solid 1px #000080; }
 
 .dropdown-menu-content a:hover {
   background-color: #e6e6ff;
-  color: navy; }
+  color: #000080; }
 
 /** dropdownmenu - Structure CSS **/
 .dropdown-menu {
@@ -2518,10 +2332,10 @@ input:checked + .toggle-slider:before {
   background-color: white; }
 
 .toolbaritemseperatorleft {
-  border-left: 1px solid navy; }
+  border-left: 1px solid #000080; }
 
 .toolbaritemseperatorright {
-  border-right: 1px solid navy; }
+  border-right: 1px solid #000080; }
 
 /** Toolbar - Structure CSS **/
 .toolbar {
@@ -2564,29 +2378,29 @@ input:checked + .toggle-slider:before {
 ****************************************************************************/
 /** Searchbox - Visual CSS **/
 .hrclass {
-  border-color: navy; }
+  border-color: #000080; }
 
 .advancesearchform {
   background-color: white;
-  border-color: navy; }
+  border-color: #000080; }
 
 .input-group-text-search {
-  background-color: navy;
-  border-color: navy; }
+  background-color: #000080;
+  border-color: #000080; }
 
 .form-control {
-  color: navy;
+  color: #000080;
   background-color: white;
-  border-color: navy; }
+  border-color: #000080; }
 
 .search-form-label {
-  color: navy; }
+  color: #000080; }
 
 .iconColor {
   color: white; }
 
 .advancesearchbtn {
-  background-color: navy;
+  background-color: #000080;
   color: white; }
 
 .search-dropdown-list .search-list-items {
@@ -2599,7 +2413,7 @@ input:checked + .toggle-slider:before {
   background-color: #e6e6ff !important; }
 
 .search-dropdown-list {
-  border-color: navy;
+  border-color: #000080;
   background-color: white; }
 
 /** Searchbox - Structure CSS **/
@@ -2700,8 +2514,7 @@ input:checked + .toggle-slider:before {
 
 .advancesearchbtn {
   height: 37px;
-  font-weight: bold;
-  cursor: pointer; }
+  font-weight: bold; }
 
 /****************************************************************************
     Component Name : Enterprise Content
@@ -2709,23 +2522,23 @@ input:checked + .toggle-slider:before {
 *****************************************************************************/
 /** enterprise-content - Visual CSS **/
 .content-title {
-  color: navy; }
+  color: #000080; }
 
 .content-area {
-  color: navy; }
+  color: #000080; }
 
 /* Button Related CSS */
 .content-button {
-  color: navy; }
+  color: #000080; }
 
 header .billboard .content-button {
-  color: navy; }
+  color: #000080; }
 
 .content-button i {
-  color: navy; }
+  color: #000080; }
 
 .content-button-small i {
-  color: navy; }
+  color: #000080; }
 
 .close-button {
   color: gray; }
@@ -2879,7 +2692,7 @@ header .billboard .content-button {
 .close-button {
   cursor: pointer;
   padding-left: 98%;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
 
 /****************************************************************************
     Component Name : Enterprise Youtube
@@ -2888,7 +2701,7 @@ header .billboard .content-button {
 /** enterprise-youtube - Visual CSS **/
 .close-button {
   color: grey;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
 
 .close-button i:hover {
   color: red; }
@@ -2912,21 +2725,21 @@ header .billboard .content-button {
   font-size: 20px; }
 
 .tile__details {
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
 
 .tile__details:after,
 .tile__details:before {
-  display: black; }
+  display: #000; }
 
 .tile__details_v {
   font-size: 10px;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
 
 .tile__details_v:after,
 .tile__details_v:before {
-  display: black; }
+  display: #000; }
 
 .tile__title {
   color: white; }
@@ -2938,14 +2751,14 @@ header .billboard .content-button {
   color: dimgrey; }
 
 .textonly {
-  color: navy;
+  color: #000080;
   background-color: transparent; }
 
 .match {
   color: lightgreen; }
 
 .age {
-  color: navy; }
+  color: #000080; }
 
 .actionpanel {
   color: red;
@@ -3050,7 +2863,7 @@ header .billboard .content-button {
   position: absolute;
   top: 50%;
   left: 50%;
-  display: black; }
+  display: #000; }
 
 .tile__details_v:after {
   margin-top: -25px;
@@ -3179,10 +2992,10 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Datapoints - Visual CSS **/
 .datapoints .datapoints-north {
-  color: #6f2da8; }
+  color: #6F2DA8; }
 .datapoints .datapoint-south {
-  background-color: #6f2da8;
-  color: #6f2da8; }
+  background-color: #6F2DA8;
+  color: #6F2DA8; }
 .datapoints .datapoint-west {
   padding: 5px; }
 .datapoints .datapoint-east {
@@ -3190,14 +3003,14 @@ header .billboard .content-button {
 
 .datapoint {
   background: white;
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 /** Datapoints - Structure CSS **/
 .datapoints {
   font-size: 125%;
   /* Border */
   border-radius: 0px;
-  border: 3px solid navy;
+  border: 3px solid #000080;
   padding: 0px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
   .datapoints .datapoints {
@@ -3218,16 +3031,16 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Datatable - Structure CSS **/
 .datatable-height::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .datatable-height::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .datatable-height::-webkit-scrollbar-thumb {
   background-color: white; }
 
 .datatable .datatable-header {
-  background-color: navy;
+  background-color: #000080;
   color: white; }
 
 .datatable .datatable-row:hover {
@@ -3238,7 +3051,7 @@ header .billboard .content-button {
   background-color: #8080ff !important; }
 
 .datatable-row:nth-child(odd) {
-  background-color: #eceff1; }
+  background-color: #ECEFF1; }
 
 /** Datatable - Visual CSS **/
 .datatabletitle {
@@ -3247,7 +3060,7 @@ header .billboard .content-button {
 
 .datatable {
   display: table;
-  border: 3px solid navy;
+  border: 3px solid #000080;
   border-collapse: collapse;
   margin: 0;
   padding: 0;
@@ -3280,7 +3093,7 @@ header .billboard .content-button {
   vertical-align: middle; }
 
 .datatable .datatable-row {
-  border: 3px solid navy;
+  border: 3px solid #000080;
   display: table-row;
   height: 50px; }
 
@@ -3317,11 +3130,11 @@ header .billboard .content-button {
 /** Horizontaltreeview - Visual CSS **/
 .horizontaltreeview-node-label {
   background-color: #8080ff;
-  color: navy; }
+  color: #000080; }
 
 .horizontaltreeview-node-label:hover {
   border-color: #4d4dff;
-  color: navy;
+  color: #000080;
   background-color: #e6e6ff; }
 
 /** Horizontaltreeview - Structure CSS **/
@@ -3406,7 +3219,7 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Itemselector - Visual CSS **/
 .item-selector-action-panel .actionbar .actionbarinner .action {
-  background-color: navy;
+  background-color: #000080;
   color: white; }
 .item-selector-action-panel .actionbar .actionbarinner .actiondisable {
   background-color: #a09e9e; }
@@ -3464,10 +3277,10 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Listbox - Visual CSS **/
 .listbox-height::-webkit-scrollbar-track {
-  background-color: navy; }
+  background-color: #000080; }
 
 .listbox-height::-webkit-scrollbar {
-  background-color: navy; }
+  background-color: #000080; }
 
 .listbox-height::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -3488,7 +3301,7 @@ header .billboard .content-button {
 /** Listbox - Structure CSS **/
 .listbox {
   margin-bottom: 1rem;
-  border: 3px solid navy; }
+  border: 3px solid #000080; }
 
 .listbox-height {
   overflow-y: auto;
@@ -3511,7 +3324,7 @@ header .billboard .content-button {
 
 .listbox .list .list-items {
   list-style: none;
-  border-bottom: 3px solid navy;
+  border-bottom: 3px solid #000080;
   cursor: pointer;
   font-weight: 400;
   margin: 1px 0;
@@ -3543,30 +3356,11 @@ header .billboard .content-button {
 }*/
 .tree-node-label-hover:hover {
   background-color: #e6e6ff;
-  color: navy; }
+  color: #000080; }
 
 .treenode-label-active {
   background-color: #8080ff;
-  color: navy; }
-
-.tree-badge {
-  background-color: navy;
-  color: white; }
-
-.context-menu-list li:hover {
-  background-color: #e6e6ff;
-  color: navy; }
-
-.context-menu-list-items-selected {
-  background-color: #8080ff !important;
-  color: navy; }
-
-.tree-node-label-selected {
-  background-color: #8080ff;
-  color: navy; }
-
-.context-menu-separator {
-  border-bottom: 1px solid gray; }
+  color: #000080; }
 
 /** Treenode - Structure CSS **/
 .treeview {
@@ -3611,45 +3405,8 @@ header .billboard .content-button {
 
 .tree-node-label {
   white-space: nowrap;
-  display: inline-block;
-  vertical-align: middle;
+  display: inline;
   cursor: pointer; }
-
-.tree-node-label-hover {
-  width: 100%; }
-
-.tree-badge {
-  margin-left: 10px;
-  display: inline-block;
-  min-width: 10px;
-  padding: 3px 7px;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  border-radius: 10px; }
-
-.context-menu-list {
-  display: block;
-  position: absolute;
-  flex-direction: column;
-  min-width: 180px;
-  cursor: pointer;
-  max-height: 150px;
-  z-index: 1;
-  padding: 10px 0px;
-  overflow-y: auto;
-  background-color: white !important;
-  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
-
-.context-menu-list .context-menu-list-items {
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px !important;
-  padding: 5px;
-  display: block; }
 
 /****************************************************************************
     Component Name : Border Layout
@@ -3677,8 +3434,7 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'north north north north north north' 'east center center center center west' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-N-E-C-W-S aside {
   border: 0px solid none; }
@@ -3688,8 +3444,7 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'north north north north north north' 'east center center center center center' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-N-E-C-S aside {
   border: 0px solid none; }
@@ -3699,8 +3454,7 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'north north north north north north' 'center center center center center west' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-N-C-W-S aside {
   border: 0px solid none; }
@@ -3710,8 +3464,7 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'east center center center center west' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-E-C-W-S aside {
   border: 0px solid none; }
@@ -3721,8 +3474,7 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'north north north north north north' 'center center center center center center' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-N-C-S aside {
   border: 0px solid none; }
@@ -3732,8 +3484,7 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'east center center center center center' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-E-C-S aside {
   border: 0px solid none; }
@@ -3743,8 +3494,7 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'center center center center center west' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-C-W-S aside {
   border: 0px solid none; }
@@ -3754,8 +3504,7 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'north north north north north north' 'center center center center center center';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-N-C aside {
   border: 0px solid none; }
@@ -3765,8 +3514,7 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'center center center center center center' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-C-S aside {
   border: 0px solid none; }
@@ -3851,14 +3599,14 @@ header .billboard .content-button {
 *****************************************************************************/
 /** menubar - Visual CSS **/
 .menubar .menuheader .menulink a {
-  color: navy; }
+  color: #000080; }
 
 .menubar .menuheader .menulink:hover a {
-  color: navy; }
+  color: #000080; }
 
 .menulink:hover {
   background-color: #e6e6ff;
-  color: navy; }
+  color: #000080; }
 
 .menu-content {
   background: white; }
@@ -3868,17 +3616,17 @@ header .billboard .content-button {
 
 .menu-content .menu-content-cols .content .menu-links-header {
   font-weight: bold;
-  color: navy; }
+  color: #000080; }
 
 .menu-content .menu-content-cols .content .menu-links-header:hover {
-  color: navy;
+  color: #000080;
   background-color: #e6e6ff; }
 
 .menu-content .menu-content-cols .content .menulinks {
-  color: navy; }
+  color: #000080; }
 
 .menu-content .menu-content-cols .content .menulinks:hover {
-  color: navy;
+  color: #000080;
   background-color: #e6e6ff; }
 
 /** menubar - Structure CSS **/
@@ -3918,7 +3666,7 @@ header .billboard .content-button {
   padding: 10px;
   position: fixed;
   z-index: 99;
-  box-shadow: 0 0 5px 0 navy; }
+  box-shadow: 0 0 5px 0 #000080; }
 
 .menu-content-display {
   display: block !important; }
@@ -3950,7 +3698,7 @@ header .billboard .content-button {
   padding-right: 10px; }
 
 .menu-content .menu-content-cols .content .menu-links-header {
-  border-bottom: 1px solid navy;
+  border-bottom: 1px solid #000080;
   padding: 10px;
   cursor: pointer; }
 
@@ -3966,46 +3714,46 @@ header .billboard .content-button {
 /** navbar - Visual CSS **/
 .topnav {
   background-color: white;
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .top-nav-button {
   background-color: inherit;
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .topnav a {
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .topnav a label {
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .topnavbarunit2-mobile {
   background-color: white;
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .topnavmainbarinneritems .nav-dropdown-content {
   background-color: white;
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .topnavmainbarinneritems-mobile .nav-dropdown-content {
   background-color: white;
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .topnavmainbarinneritems .nav-dropdown-content a {
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .topnavmainbarinneritems .nav-dropdown-content a:hover {
   background-color: #e6e6ff;
-  color: navy !important; }
+  color: #000080 !important; }
 
 .nav-dropdown:active {
   background-color: white;
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .topnavmainbarinneritems-mobile .top-nav-input-control {
   width: 100%; }
 
 .mobilebar {
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .topnav input {
   background-color: inherit;
@@ -4013,10 +3761,10 @@ header .billboard .content-button {
 
 .nav-dropdown:hover .nav-dropdown-content .nav-menu-container {
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 .nav-dropdown:hover .nav-dropdown-content .nav-menu-container a {
-  color: navy; }
+  color: #000080; }
 
 /** navbar - Structure CSS **/
 .topnav {
@@ -4039,7 +3787,7 @@ header .billboard .content-button {
   border-radius: 0px;
   padding: 0px 8px;
   border: none;
-  border-bottom: 2px solid navy;
+  border-bottom: 2px solid #000080;
   font-size: 1rem;
   line-height: 1.5;
   outline: none; }
@@ -4066,7 +3814,7 @@ header .billboard .content-button {
 
 .topnavbarunit2-mobile {
   width: 100%;
-  box-shadow: 0px 0px 2px 0px navy; }
+  box-shadow: 0px 0px 2px 0px #000080; }
 
 .topnavmainbar {
   display: flex;
@@ -4089,7 +3837,7 @@ header .billboard .content-button {
 
 .topnavmainbarinneritems-mobile {
   width: 100%;
-  border-bottom: 1px solid navy; }
+  border-bottom: 1px solid #000080; }
 
 .topnavmainbarinneritems .nav-dropdown {
   float: left;
@@ -4168,11 +3916,11 @@ header .billboard .content-button {
 
 .paginator .paginator-pages .paginator-page:hover {
   background-color: #e6e6ff;
-  color: navy; }
+  color: #000080; }
 
 .paginator .paginator-pages .active {
   background-color: #8080ff;
-  color: navy; }
+  color: #000080; }
 
 /** paginator - Structure CSS **/
 .paginator {
@@ -4196,7 +3944,7 @@ header .billboard .content-button {
   margin-right: .063em;
   text-decoration: none;
   vertical-align: middle;
-  border: 3px solid navy;
+  border: 3px solid #000080;
   border-radius: 5px; }
 
 /****************************************************************************
@@ -4205,23 +3953,23 @@ header .billboard .content-button {
 *****************************************************************************/
 /** sidenav - Visual CSS **/
 .sidenav-mobile-bar {
-  color: navy; }
+  color: #000080; }
 
 .sidenav-mobile-bar-left {
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .sidenav-mobile-bar-right {
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .sidenav {
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 .sidenav::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .sidenav::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .sidenav::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4234,30 +3982,26 @@ header .billboard .content-button {
 
 .sidenav .title {
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 .sidenav .headernode {
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 .sidenav .headernode:hover {
   background-color: #e6e6ff;
-  color: navy; }
+  color: #000080; }
 
 .sidenav .defaultnode:hover {
   background-color: #e6e6ff;
-  color: navy; }
+  color: #000080; }
 
 .sidenav .activenode {
   background-color: #8080ff;
   color: inherit; }
 
 .sidenav .border {
-  border-bottom: 3px solid navy; }
-
-.nav-badge {
-  background-color: navy;
-  color: white; }
+  border-bottom: 3px solid #000080; }
 
 /** sidenav - Structure CSS **/
 .sidenav-mobile-bar {
@@ -4292,14 +4036,14 @@ header .billboard .content-button {
   position: fixed;
   overflow: auto;
   z-index: 1;
-  box-shadow: 0 0 5px 0 navy; }
+  box-shadow: 0 0 5px 0 #000080; }
 
 .right {
   right: 0;
   position: fixed;
   overflow: auto;
   z-index: 1;
-  box-shadow: 0 0 5px 0 navy; }
+  box-shadow: 0 0 5px 0 #000080; }
 
 .sidenav ul {
   list-style: none;
@@ -4331,7 +4075,7 @@ header .billboard .content-button {
 .sidenav .border {
   padding-left: 100%;
   margin-left: -100%;
-  border-bottom: 3px solid navy; }
+  border-bottom: 3px solid #000080; }
 
 .sidenav .headernode .node-icon {
   padding-right: 20px; }
@@ -4354,27 +4098,14 @@ header .billboard .content-button {
   max-height: 1000px;
   overflow: auto; }
 
-.nav-badge {
-  margin-left: 10px;
-  display: inline-block;
-  min-width: 10px;
-  padding: 3px 7px;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  border-radius: 10px; }
-
 /****************************************************************************
     Component Name : Dockbar
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** dockbar - Visual CSS **/
 .dockbar {
-  background-color: navy;
-  color: navy; }
+  background-color: #000080;
+  color: #000080; }
 
 .dockbar-content {
   background-color: white; }
@@ -4382,29 +4113,29 @@ header .billboard .content-button {
 /* Style the buttons inside the tab */
 .dockbar button {
   background-color: inherit;
-  color: navy; }
+  color: #000080; }
 
 /* Change background color of buttons on hover */
 .dockbar button:hover {
   background-color: #8080ff;
-  color: navy; }
+  color: #000080; }
 
 /* Create an active/current "tab button" class */
 .dockbar button.active {
   background-color: #8080ff;
-  color: navy; }
+  color: #000080; }
 
 .dockbar-label-highlight {
   color: black; }
 
 .dockbar-item-close-bar {
-  color: #6f2da8; }
+  color: #6F2DA8; }
 
 .dockbar-height::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .dockbar-height::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .dockbar-height::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4414,8 +4145,8 @@ header .billboard .content-button {
   float: left;
   width: 70px;
   position: relative;
-  border-top: 3px solid navy;
-  border-bottom: 5px solid navy; }
+  border-top: 3px solid #000080;
+  border-bottom: 5px solid #000080; }
 
 /* Style the buttons inside the tab */
 .dockbar button {
@@ -4428,13 +4159,13 @@ header .billboard .content-button {
   cursor: pointer;
   transition: 0.3s;
   font-size: 17px;
-  border-bottom: 3px solid navy;
-  border-left: 3px solid navy;
+  border-bottom: 3px solid #000080;
+  border-left: 3px solid #000080;
   height: 50px; }
 
 /* Create an active/current "tab button" class */
 .dockbar button.active {
-  border-left: 3px solid #6f2da8; }
+  border-left: 3px solid #6F2DA8; }
 
 .dockbar-label-highlight {
   font-weight: bold; }
@@ -4449,12 +4180,12 @@ header .billboard .content-button {
   font-size: 17px;
   font-weight: 500;
   padding: 15px 10px 10px 10px;
-  border-bottom: 1px solid #6f2da8; }
+  border-bottom: 1px solid #6F2DA8; }
 
 .dockbar-active-content {
-  border-top: 3px solid #6f2da8;
-  border-right: 3px solid #6f2da8;
-  border-bottom: 3px solid #6f2da8;
+  border-top: 3px solid #6F2DA8;
+  border-right: 3px solid #6F2DA8;
+  border-bottom: 3px solid #6F2DA8;
   height: 100%; }
 
 .dockbar-height {
@@ -4473,19 +4204,19 @@ header .billboard .content-button {
 *****************************************************************************/
 /** accordion - Visual CSS **/
 .accordion {
-  background-color: navy;
+  background-color: #000080;
   color: white; }
 
 .accordion .active-accordion, .accordion:hover {
   background-color: #8080ff;
-  color: navy; }
+  color: #000080; }
 
 .accordion:after {
   color: red; }
 
 .panel {
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 /** Transparent Styling **/
 .accordion-transparent {
@@ -4499,7 +4230,7 @@ header .billboard .content-button {
   cursor: pointer;
   padding: 10px;
   width: 100%;
-  border-color: navy;
+  border-color: #000080;
   text-align: left;
   outline: none;
   font-size: 15px;
@@ -4525,7 +4256,7 @@ header .billboard .content-button {
   font-size: 15px;
   transition: 0.4s;
   box-shadow: none;
-  border-top: 3px solid navy; }
+  border-top: 3px solid #000080; }
 
 .accordion-transparent:after {
   font-weight: bold;
@@ -4543,17 +4274,17 @@ header .billboard .content-button {
 /** cards - Visual CSS **/
 .card-container {
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 .card-header {
-  background: navy;
+  background: #000080;
   color: white; }
 
 .cardbody::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .cardbody::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .cardbody::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4567,7 +4298,7 @@ header .billboard .content-button {
   position: relative;
   display: flex;
   flex-direction: column;
-  border: 3px solid navy;
+  border: 3px solid #000080;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14); }
 
 .card-container > * {
@@ -4577,7 +4308,7 @@ header .billboard .content-button {
 .card-header {
   display: flex;
   padding: 10px 24px;
-  border-bottom: 3px solid navy;
+  border-bottom: 3px solid #000080;
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize; }
@@ -4593,12 +4324,11 @@ header .billboard .content-button {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
 
 .cardbody::-webkit-scrollbar {
-  width: 6px;
-  height: 6px; }
+  width: 6px; }
 
 .card-footer {
   display: flex;
-  border-top: 3px solid navy; }
+  border-top: 3px solid #000080; }
 
 /****************************************************************************
     Component Name : Form
@@ -4607,21 +4337,21 @@ header .billboard .content-button {
 /** cards - Visual CSS **/
 .form-container {
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 .form-error {
-  color: navy;
+  color: #000080;
   font-weight: bold; }
 
 .form-header {
-  background: navy;
+  background: #000080;
   color: white; }
 
 .formbody::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .formbody::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .formbody::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4632,14 +4362,14 @@ header .billboard .content-button {
 
 .form-tooltip .form-tooltiptext {
   background-color: #e6e6ff;
-  color: navy; }
+  color: #000080; }
 
 /** cards - Structure CSS **/
 .form-container {
   position: relative;
   display: flex;
   flex-direction: column;
-  border: 3px solid navy;
+  border: 3px solid #000080;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14); }
 
 .form-container > * {
@@ -4649,7 +4379,7 @@ header .billboard .content-button {
 .form-header {
   display: flex;
   padding: 10px 24px;
-  border-bottom: 3px solid navy;
+  border-bottom: 3px solid #000080;
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize;
@@ -4670,7 +4400,7 @@ header .billboard .content-button {
 
 .form-footer {
   display: flex;
-  border-top: 3px solid navy; }
+  border-top: 3px solid #000080; }
 
 .form-tooltip {
   position: relative;
@@ -4711,7 +4441,7 @@ header .billboard .content-button {
 /** fieldset - Visual CSS **/
 /** fieldset - Structure CSS **/
 fieldset {
-  border: 3px solid navy;
+  border: 3px solid #000080;
   border-radius: 2px; }
 
 .collapsible-legend {
@@ -4736,24 +4466,24 @@ fieldset {
 *****************************************************************************/
 /** steps - Visual CSS **/
 .step-label-highlight {
-  color: navy;
+  color: #000080;
   font-weight: bold; }
 
 .stepwizard-step p {
   color: #a09e9e; }
 
 .step-block-icon-disable {
-  color: navy; }
+  color: #000080; }
 
 .stepwizard-row:before {
-  background-color: #eceff1; }
+  background-color: #ECEFF1; }
 
 .btn-circle {
   font-size: 12px; }
 
 .step-box-table-item {
-  background-color: #eceff1;
-  color: navy; }
+  background-color: #ECEFF1;
+  color: #000080; }
 
 .step-box-table-item.active {
   background-color: #8080ff !important; }
@@ -4806,7 +4536,7 @@ fieldset {
   white-space: nowrap;
   outline: none;
   user-select: none;
-  border: 1px solid navy;
+  border: 1px solid #000080;
   transition: all .2s ease-in-out;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -4826,7 +4556,7 @@ fieldset {
   text-align: center;
   vertical-align: middle;
   line-height: 15px;
-  border: 1px solid navy;
+  border: 1px solid #000080;
   padding-top: 5px;
   cursor: pointer; }
 
@@ -4849,16 +4579,16 @@ fieldset {
 /** tab - Visual CSS **/
 .verticalnavtab .defaultnode {
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 .verticalnavtab .leftactivetab {
   background-color: #8080ff;
   font-weight: bold;
-  color: navy; }
+  color: #000080; }
 
 .verticalnavtab .rightactivetab {
   background-color: #8080ff;
-  color: navy; }
+  color: #000080; }
 
 /** Theme Colors for Tab*/
 /** CSS Class definitions for the Amexio Colors --- */
@@ -4867,8 +4597,8 @@ fieldset {
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-bottom-tab-red {
-  color: crimson;
-  border-top: 1px solid crimson !important; }
+  color: #dc143c;
+  border-top: 1px solid #dc143c !important; }
 
 /** Amexio Colors --- 
    SeaGreen: #2e8b57 rgb(46,139,87,0.0);
@@ -4883,56 +4613,56 @@ fieldset {
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-bottom-tab-purple {
-  border-top: 1px solid darkmagenta !important;
-  color: darkmagenta; }
+  border-top: 1px solid #8b008b !important;
+  color: #8b008b; }
 
 /** Amexio Colors --- 
    DarkBlue: #00008b rgb(0,0,139,0.0);
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-bottom-tab-blue {
-  border-top: 1px solid darkblue !important;
-  color: darkblue; }
+  border-top: 1px solid #00008b !important;
+  color: #00008b; }
 
 /** Amexio Colors --- 
    SandyBrown: #f4a460 rgb(244,164,96,0.0);
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-bottom-tab-brown {
-  border-top: 1px solid maroon !important;
-  color: maroon; }
+  border-top: 1px solid #800000 !important;
+  color: #800000; }
 
 /** Amexio Colors --- 
    Gold: #ffd700 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-yellow {
-  border-top: 1px solid yellow !important;
-  color: yellow; }
+  border-top: 1px solid #FFFF00 !important;
+  color: #FFFF00; }
 
 /** Amexio Colors --- 
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-pink {
-  border-top: 1px solid hotpink !important;
-  color: hotpink; }
+  border-top: 1px solid #FF69B4 !important;
+  color: #FF69B4; }
 
 /** Amexio Colors --- 
    Orange: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-orange {
-  border-top: 1px solid orange !important;
-  color: orange; }
+  border-top: 1px solid #FFA500 !important;
+  color: #FFA500; }
 
 /** Amexio Colors --- 
    Black: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-black {
-  border-top: 1px solid black !important;
-  color: black; }
+  border-top: 1px solid #000000 !important;
+  color: #000000; }
 
 /** CSS Class definitions for the Amexio Colors --- */
 /** Amexio Colors --- 
@@ -4940,8 +4670,8 @@ fieldset {
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-top-tab-red {
-  color: crimson;
-  border-bottom: 1px solid crimson !important; }
+  color: #dc143c;
+  border-bottom: 1px solid #dc143c !important; }
 
 /** Amexio Colors --- 
    SeaGreen: #2e8b57 rgb(46,139,87,0.0);
@@ -4956,56 +4686,56 @@ fieldset {
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-top-tab-purple {
-  border-bottom: 1px solid darkmagenta !important;
-  color: darkmagenta; }
+  border-bottom: 1px solid #8b008b !important;
+  color: #8b008b; }
 
 /** Amexio Colors --- 
    DarkBlue: #00008b rgb(0,0,139,0.0);
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-top-tab-blue {
-  border-bottom: 1px solid darkblue !important;
-  color: darkblue; }
+  border-bottom: 1px solid #00008b !important;
+  color: #00008b; }
 
 /** Amexio Colors --- 
    SandyBrown: #f4a460 rgb(244,164,96,0.0);
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-top-tab-brown {
-  border-bottom: 1px solid maroon !important;
-  color: maroon; }
+  border-bottom: 1px solid #800000 !important;
+  color: #800000; }
 
 /** Amexio Colors --- 
    Gold: #ffd700 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-yellow {
-  border-bottom: 1px solid yellow !important;
-  color: yellow; }
+  border-bottom: 1px solid #FFFF00 !important;
+  color: #FFFF00; }
 
 /** Amexio Colors --- 
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-pink {
-  border-bottom: 1px solid hotpink !important;
-  color: hotpink; }
+  border-bottom: 1px solid #FF69B4 !important;
+  color: #FF69B4; }
 
 /** Amexio Colors --- 
    Orange: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-orange {
-  border-bottom: 1px solid orange !important;
-  color: orange; }
+  border-bottom: 1px solid #FFA500 !important;
+  color: #FFA500; }
 
 /** Amexio Colors --- 
    Black: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-black {
-  border-bottom: 1px solid black !important;
-  color: black; }
+  border-bottom: 1px solid #000000 !important;
+  color: #000000; }
 
 /** tab - Structure CSS **/
 .tab {
@@ -5013,7 +4743,7 @@ fieldset {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  border-bottom: 3px solid navy; }
+  border-bottom: 3px solid #000080; }
 
 .tab li {
   display: table-cell;
@@ -5030,7 +4760,7 @@ fieldset {
   white-space: nowrap; }
 
 .activetab {
-  border-bottom: 5px solid #6f2da8 !important; }
+  border-bottom: 5px solid #6F2DA8 !important; }
 
 .disabled-tab {
   cursor: not-allowed !important;
@@ -5059,7 +4789,7 @@ fieldset {
 
 .verticalnavtab .defaultnode {
   cursor: pointer;
-  color: navy;
+  color: #000080;
   padding: 10px; }
 
 .verticalnavtab .defaultnode:hover {
@@ -5067,11 +4797,11 @@ fieldset {
 
 .verticalnavtab .leftactivetab {
   font-weight: bold;
-  border-right: 3px solid #6f2da8; }
+  border-right: 3px solid #6F2DA8; }
 
 .verticalnavtab .rightactivetab {
   font-weight: bold;
-  border-left: 3px solid #6f2da8; }
+  border-left: 3px solid #6F2DA8; }
 
 .verticalnavtab-left {
   font-weight: bold; }
@@ -5081,11 +4811,11 @@ fieldset {
 
 verticalalign-tableft {
   vertical-align: top !important;
-  border-right: 3px solid navy !important; }
+  border-right: 3px solid #000080 !important; }
 
 .verticalalign-tabright {
   vertical-align: top !important;
-  border-left: 3px solid navy !important; }
+  border-left: 3px solid #000080 !important; }
 
 .verticalalign-tabcontent {
   vertical-align: top !important; }
@@ -5117,7 +4847,7 @@ verticalalign-tableft {
   max-width: 980px; }
 
 .bottomActivetab {
-  border-bottom: 5px solid #6f2da8 !important; }
+  border-bottom: 5px solid #6F2DA8 !important; }
 
 .activebottomcolortab {
   border-top: 3px solid !important; }
@@ -5163,13 +4893,8 @@ verticalalign-tableft {
 .modal-window-content {
   background-color: white; }
 
-.modal-window-material {
-  background-color: white;
-  font-size: 20px;
-  color: black; }
-
 .modal-window-header {
-  background: navy;
+  background: #000080;
   font-size: 20px;
   color: white; }
 
@@ -5177,16 +4902,16 @@ verticalalign-tableft {
   font-size: 14px; }
 
 .modal-window-middle::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .modal-window-middle::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .modal-window-middle::-webkit-scrollbar-thumb {
   background-color: white; }
 
 .modal-window-footer {
-  background-color: white;
+  background-color: #000080;
   color: white; }
 
 /** window - Structure CSS **/
@@ -5207,7 +4932,6 @@ verticalalign-tableft {
   position: absolute;
   margin: auto;
   padding: 0px;
-  border-radius: .3rem;
   border: 1px solid #888;
   width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -5222,17 +4946,9 @@ verticalalign-tableft {
   top: 0% !important;
   left: 0% !important; }
 
-.window-material-design-header {
-  display: flex;
-  border-bottom: 3px solid navy;
-  font-weight: 300;
-  border-radius: .3rem;
-  font-size: 20px;
-  text-transform: capitalize; }
-
 .modal-window-header {
   display: flex;
-  border-bottom: 3px solid navy;
+  border-bottom: 3px solid #000080;
   font-weight: 300;
   text-transform: capitalize; }
 
@@ -5252,16 +4968,9 @@ verticalalign-tableft {
 .modal-window-middle::-webkit-scrollbar {
   width: 6px; }
 
-.window-material-design-footer {
-  display: flex;
-  border-top: 1px solid #eceeef;
-  padding-right: 16px;
-  background-color: white;
-  border-radius: 0 0 .3rem .3rem; }
-
 .modal-window-footer {
   display: flex;
-  border-top: 3px solid navy; }
+  border-top: 3px solid #000080; }
 
 .modal-window-table {
   display: table;
@@ -5269,11 +4978,6 @@ verticalalign-tableft {
 
 .modal-window-table .tablerow {
   display: table-row; }
-
-.window-material-design-header .modal-window-table .tablerow .tablecol {
-  display: table-cell;
-  vertical-align: middle;
-  padding-bottom: 15px; }
 
 .modal-window-table .tablerow .tablecol {
   display: table-cell;
@@ -5314,13 +5018,9 @@ verticalalign-tableft {
 .dialogue-content {
   background-color: white; }
 
-.dialogue-material-design {
-  background-color: white;
-  color: black; }
-
 .dialogue-header {
-  background: navy;
-  color: navy; }
+  background: #000080;
+  color: #000080; }
 
 .dialogue-footer {
   background-color: white;
@@ -5363,7 +5063,6 @@ verticalalign-tableft {
   padding: 0px;
   width: 80%;
   height: 80%;
-  border-radius: .3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .dialogue-min {
@@ -5371,16 +5070,6 @@ verticalalign-tableft {
 
 .dialogue-content > * {
   padding: 5px; }
-
-.dialogue-material-design {
-  display: flex;
-  border-radius: .3rem;
-  font-size: 20px;
-  font-weight: 300;
-  text-transform: capitalize;
-  color: black;
-  padding: 10px;
-  border-bottom: 1px solid #eceeef; }
 
 .dialogue-header {
   display: flex;
@@ -5390,8 +5079,6 @@ verticalalign-tableft {
   text-transform: capitalize; }
 
 .dialogue-middle {
-  padding-top: 20px;
-  padding-bottom: 20px;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -5401,24 +5088,9 @@ verticalalign-tableft {
   overflow-y: hidden;
   overflow-x: hidden; }
 
-.dialogue-material-design-footer {
-  display: flex;
-  border-top: 1px solid #eceeef;
-  padding: 5px; }
-  .dialogue-material-design-footer .button-transparent {
-    border: none !important;
-    box-shadow: none !important;
-    font-size: 1rem; }
-  .dialogue-material-design-footer .custom-btn .button-text {
-    font-size: 1rem;
-    color: blue; }
-
 .dialogue-footer {
   display: flex;
-  border-top: 3px solid navy; }
-  .dialogue-footer .button-transparent {
-    border: none !important;
-    box-shadow: none !important; }
+  border-top: 3px solid #000080; }
 
 .dialogue-message {
   display: flex;
@@ -5438,11 +5110,6 @@ verticalalign-tableft {
 .dialogue-table .tablerow {
   display: table-row; }
 
-.dialogue-material-design .dialogue-table .tablerow .tablecol {
-  display: table-cell;
-  vertical-align: middle;
-  color: black; }
-
 .dialogue-table .tablerow .tablecol {
   display: table-cell;
   vertical-align: middle;
@@ -5457,7 +5124,7 @@ verticalalign-tableft {
 *****************************************************************************/
 /** panel - Visual CSS **/
 .panel-accordion {
-  background-color: navy;
+  background-color: #000080;
   color: white;
   font-size: 15px; }
 
@@ -5467,13 +5134,13 @@ verticalalign-tableft {
 
 .panel-panel {
   background-color: white;
-  color: navy; }
+  color: #000080; }
 
 .panel-panel::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .panel-panel::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .panel-panel::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -5482,7 +5149,7 @@ verticalalign-tableft {
 .panel-accordion {
   cursor: pointer;
   padding: 10px;
-  border-color: navy;
+  border-color: #000080;
   text-align: left;
   outline: none;
   transition: 0.4s; }
@@ -5498,7 +5165,7 @@ verticalalign-tableft {
   transition: max-height 0.2s ease-out; }
 
 .panel-box {
-  border: 2px solid navy;
+  border: 2px solid #000080;
   width: 100%; }
 
 .panel-panel::-webkit-scrollbar-track {
@@ -5541,14 +5208,14 @@ verticalalign-tableft {
     font-weight: 700; }
   .card-container .card-footer {
     border-top: none;
-    border: 3px solid navy;
+    border: 3px solid #000080;
     border-radius: 5px; }
   .card-container .card-body {
-    border: 3px solid navy;
+    border: 3px solid #000080;
     border-radius: 5px; }
 
 .listbox .header {
-  border-bottom: 3px solid navy; }
+  border-bottom: 3px solid #000080; }
 .listbox .list .list-items {
   border-bottom: 1px solid #1b1d22; }
 
@@ -5556,10 +5223,10 @@ verticalalign-tableft {
 /*        Byzantine (Grape) Navy -Visual         */
 /*----------------------------------------------------------------------*/
 a {
-  color: navy; }
+  color: #000080; }
 
 .toggle-slider:before {
-  background-color: navy; }
+  background-color: #000080; }
 
 .listbox {
   background: rgba(255, 255, 255, 0.6); }
@@ -5567,33 +5234,35 @@ a {
     background: rgba(255, 255, 255, 0.6); }
     .listbox .list .title {
       font-size: 18px;
-      color: #6f2da8; }
+      color: #6F2DA8; }
       .listbox .list .title a {
         font-size: 16px;
-        color: navy; }
+        color: #000080; }
 
 .card-container {
   background: none; }
   .card-container .card-header {
     font-size: 20px;
     background: none;
-    color: navy; }
+    color: #000080; }
   .card-container .card-body {
     background: rgba(255, 255, 255, 0.6); }
 
 .listbox .listbox .list .title {
-  color: navy !important; }
+  color: #000080 !important; }
 .listbox .header {
   background: none;
-  color: navy !important; }
+  color: #000080 !important; }
 .listbox .list {
   background: none; }
 
 .topnav {
   background-color: white; }
   .topnav .topnav .navbar-logo-unit a {
-    color: navy; }
+    color: #000080; }
 
 .datapoints .datapoint-south {
-  background-color: navy;
+  background-color: #000080;
   color: white; }
+
+/*# sourceMappingURL=at-am-navy-grape.css.map */

@@ -47,7 +47,7 @@
                     Common CSS Helper Classes
 *****************************************************************************/
 body {
-  background: whitesmoke;
+  background: #f5f5f5;
   min-height: 100%;
   height: 100%;
   overflow-x: hidden;
@@ -175,10 +175,8 @@ Spin animation for .loading-mask::after
 @keyframes spin {
   from {
     transform: rotate(0deg); }
-
   to {
     transform: rotate(359deg); } }
-
 label {
   display: inline-block;
   margin-top: 5px;
@@ -221,7 +219,6 @@ image using the content attribute.
 @keyframes spinner {
   to {
     transform: rotate(360deg); } }
-
 .spinner:before {
   content: '';
   box-sizing: border-box;
@@ -249,7 +246,7 @@ image using the content attribute.
    240a00: #240a00 rgb(36,10,0,0.0);
 */
 .amexio-red-light {
-  background-color: coral;
+  background-color: #ff7f50;
   color: #240a00; }
 
 /** Amexio Colors --- 
@@ -257,7 +254,7 @@ image using the content attribute.
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-red {
-  background-color: crimson;
+  background-color: #dc143c;
   color: #fffafb; }
 
 /** Amexio Colors --- 
@@ -265,7 +262,7 @@ image using the content attribute.
    002400: #002400 rgb(0,36,0,0.0);
 */
 .amexio-green-light {
-  background-color: lime;
+  background-color: #00ff00;
   color: #002400; }
 
 /** Amexio Colors --- 
@@ -273,7 +270,7 @@ image using the content attribute.
    f0faf4: #f0faf4 rgb(240,250,244,0.0);
 */
 .amexio-green {
-  background-color: seagreen;
+  background-color: #2e8b57;
   color: #f0faf4; }
 
 /** Amexio Colors --- 
@@ -281,7 +278,7 @@ image using the content attribute.
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-purple-light {
-  background-color: magenta;
+  background-color: #ff00ff;
   color: #050005; }
 
 /** Amexio Colors --- 
@@ -289,7 +286,7 @@ image using the content attribute.
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-purple {
-  background-color: darkmagenta;
+  background-color: #8b008b;
   color: #050005; }
 
 /** Amexio Colors --- 
@@ -297,7 +294,7 @@ image using the content attribute.
    f0fbff: #f0fbff rgb(240,251,255,0.0);
 */
 .amexio-blue-light {
-  background-color: deepskyblue;
+  background-color: #00bfff;
   color: #000507; }
 
 /** Amexio Colors --- 
@@ -305,7 +302,7 @@ image using the content attribute.
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-blue {
-  background-color: darkblue;
+  background-color: #00008b;
   color: #f5f5ff; }
 
 /** Amexio Colors --- 
@@ -313,7 +310,7 @@ image using the content attribute.
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-brown-light {
-  background-color: sandybrown;
+  background-color: #f4a460;
   color: #211102; }
 
 /** Amexio Colors --- 
@@ -321,7 +318,7 @@ image using the content attribute.
    ffebeb: #ffebeb rgb(255,235,235,0.0);
 */
 .amexio-brown {
-  background-color: maroon;
+  background-color: #800000;
   color: #ffebeb; }
 
 /** Amexio Colors --- 
@@ -329,7 +326,7 @@ image using the content attribute.
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-yellow-light {
-  background-color: gold;
+  background-color: #ffd700;
   color: #241e00; }
 
 /** Amexio Colors --- 
@@ -345,16 +342,16 @@ image using the content attribute.
    White: #ffffff rgb(255,255,255,0.0);
 */
 .amexio-black {
-  background-color: black;
-  color: white; }
+  background-color: #000000;
+  color: #ffffff; }
 
 /** Amexio Colors --- 
    White: #ffffff rgb(255,255,255,0.0);
    Black: #000000 rgb(0,0,0,0.0);
 */
 .amexio-white {
-  background-color: white;
-  color: black; }
+  background-color: #ffffff;
+  color: #000000; }
 
 /** Initialze Component variables ------------ */
 /****************************************************************************
@@ -363,7 +360,7 @@ image using the content attribute.
 *****************************************************************************/
 /** button - Visual CSS **/
 .button-secondary {
-  background-color: white;
+  background-color: #ffffff;
   border-color: #ced4da;
   color: #121212; }
 
@@ -375,33 +372,33 @@ image using the content attribute.
   color: #81d4f9; }
 
 .btn-primary-badge {
-  background-color: white;
+  background-color: #ffffff;
   color: #81d4f9; }
 
 .btn-secondary-badge {
   background-color: #121212;
-  color: white; }
+  color: #ffffff; }
 
 .btn-success-badge {
-  background-color: white;
+  background-color: #ffffff;
   color: #5cb85c; }
 
 .btn-danger-badge {
-  background-color: white;
+  background-color: #ffffff;
   color: #d9534f; }
 
 .btn-warning-badge {
-  background-color: white;
+  background-color: #ffffff;
   color: #f0ad4e; }
 
 .btn-transparent-badge {
   background-color: #121212;
-  color: white; }
+  color: #ffffff; }
 
 .button-primary {
   background-color: #81d4f9;
   border-color: #81d4f9;
-  color: white; }
+  color: #ffffff; }
 
 .disabled {
   background-color: #c2d3db;
@@ -413,7 +410,7 @@ image using the content attribute.
 .button-success {
   background-color: #5cb85c;
   border-color: #5cb85c;
-  color: white; }
+  color: #ffffff; }
 
 .button-success:hover:enabled {
   background-color: #449d44; }
@@ -421,7 +418,7 @@ image using the content attribute.
 .button-danger {
   background-color: #d9534f;
   border-color: #d9534f;
-  color: white; }
+  color: #ffffff; }
 
 .button-danger:hover:enabled {
   background-color: #c9302c; }
@@ -429,13 +426,13 @@ image using the content attribute.
 .button-warning {
   background-color: #f0ad4e;
   border-color: #f0ad4e;
-  color: white; }
+  color: #ffffff; }
 
 .button-warning:hover:enabled {
   background-color: #ec971f; }
 
 .button-transparent {
-  background: white;
+  background: #ffffff;
   color: #121212; }
 
 /** button - Structure CSS **/
@@ -568,7 +565,7 @@ button {
 *****************************************************************************/
 /** buttongroup - Visual CSS **/
 .button-secondary {
-  background-color: white;
+  background-color: #ffffff;
   border-color: #ced4da;
   color: #121212; }
 
@@ -576,33 +573,33 @@ button {
   background-color: #e6e6e6; }
 
 .btn-group-primary-badge {
-  background-color: white;
+  background-color: #ffffff;
   color: #81d4f9; }
 
 .btn-group-secondary-badge {
   background-color: #121212;
-  color: white; }
+  color: #ffffff; }
 
 .btn-group-success-badge {
-  background-color: white;
+  background-color: #ffffff;
   color: #5cb85c; }
 
 .btn-group-danger-badge {
-  background-color: white;
+  background-color: #ffffff;
   color: #d9534f; }
 
 .btn-group-warning-badge {
-  background-color: white;
+  background-color: #ffffff;
   color: #f0ad4e; }
 
 .btn-group-transparent-badge {
   background-color: #121212;
-  color: white; }
+  color: #ffffff; }
 
 .button-primary {
   background-color: #81d4f9;
   border-color: #81d4f9;
-  color: white; }
+  color: #ffffff; }
 
 .disabled {
   background-color: #c2d3db;
@@ -614,7 +611,7 @@ button {
 .button-success {
   background-color: #5cb85c;
   border-color: #5cb85c;
-  color: white; }
+  color: #ffffff; }
 
 .button-success:hover:enabled {
   background-color: #449d44; }
@@ -622,7 +619,7 @@ button {
 .button-danger {
   background-color: #d9534f;
   border-color: #d9534f;
-  color: white; }
+  color: #ffffff; }
 
 .button-danger:hover:enabled {
   background-color: #c9302c; }
@@ -630,20 +627,20 @@ button {
 .button-warning {
   background-color: #f0ad4e;
   border-color: #f0ad4e;
-  color: white; }
+  color: #ffffff; }
 
 .button-warning:hover:enabled {
   background-color: #ec971f; }
 
 .button-transparent {
-  background: white;
+  background: #ffffff;
   color: #121212; }
 
 /** buttongroup - Structure CSS **/
 .btn-group span {
-                  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
-
- cursor: pointer; /* Pointer/hand icon */ }
+  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
+  
+   cursor: pointer; /* Pointer/hand icon */ }
 
 .btn-group button {
   cursor: pointer; }
@@ -777,7 +774,7 @@ button {
   color: white; }
 
 .button-dropdown {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .button-dropdown > div:hover {
   background-color: #b8e8ff; }
@@ -813,28 +810,14 @@ button {
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** datetime - Visual CSS **/
-.datedropdown {
-  background: white; }
-  .datedropdown .dropdownlist {
-    color: #628ea3; }
-  .datedropdown li:hover {
-    color: #0f7075;
-    background: #f6fdfe;
-    width: 30px; }
-  .datedropdown .active {
-    background: #6bd0ff;
-    color: #4ddfe8; }
-  .datedropdown li {
-    color: #628ea3; }
-
 .datetimepicker {
-  background: white; }
+  background: #ffffff; }
   .datetimepicker .datetimepickertopbar {
     background: #6bd0ff; }
     .datetimepicker .datetimepickertopbar ul li {
       color: #01141d; }
   .datetimepicker .days {
-    background: white; }
+    background: #ffffff; }
     .datetimepicker .days li {
       color: #628ea3; }
     .datetimepicker .days li:hover {
@@ -843,24 +826,6 @@ button {
       background: #6bd0ff;
       color: #4ddfe8; }
     .datetimepicker .days .currentMonth {
-      font-weight: bold; }
-
-.datetimepicker1 {
-  background: white; }
-  .datetimepicker1 .datetimepickertopbar {
-    background: #6bd0ff; }
-    .datetimepicker1 .datetimepickertopbar ul li {
-      color: #01141d; }
-  .datetimepicker1 .days {
-    background: white; }
-    .datetimepicker1 .days li {
-      color: #628ea3; }
-    .datetimepicker1 .days li:hover {
-      color: #6bd0ff; }
-    .datetimepicker1 .days .active {
-      background: #6bd0ff;
-      color: #4ddfe8; }
-    .datetimepicker1 .days .currentMonth {
       font-weight: bold; }
 
 .datetimepicker-up {
@@ -874,16 +839,6 @@ button {
   .datetimepicker .days .date-today {
     padding-top: 1%;
     padding-left: 36%; } }
-.dropspan2 {
-  border-color: #628ea3; }
-
-.datedropbtn {
-  background-color: #81d4f9;
-  color: white; }
-
-.change4 {
-  background-color: #6bd0ff; }
-
 /** datetime - Structure CSS **/
 .datetimepicker {
   display: block;
@@ -943,63 +898,6 @@ button {
       padding-top: 1%;
       padding-left: 42%; }
 
-.datetimepicker1 {
-  display: block;
-  border: 1px solid #ced4da;
-  box-shadow: 0 1px 3px 0 #ced4da;
-  z-index: 3;
-  width: 290px; }
-  .datetimepicker1 .datetimepickertopbar {
-    padding: 10px 25px;
-    text-align: center; }
-    .datetimepicker1 .datetimepickertopbar .title {
-      font-size: 18px;
-      cursor: pointer; }
-    .datetimepicker1 .datetimepickertopbar ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-    .datetimepicker1 .datetimepickertopbar ul li {
-      font-size: 18px;
-      text-transform: uppercase;
-      letter-spacing: 3px; }
-    .datetimepicker1 .datetimepickertopbar .prev {
-      float: left;
-      padding-top: 10px;
-      cursor: pointer; }
-    .datetimepicker1 .datetimepickertopbar .next {
-      float: right;
-      padding-top: 10px;
-      cursor: pointer; }
-  .datetimepicker1 .weekdays {
-    margin: 0;
-    padding: 10px 0;
-    list-style: none; }
-    .datetimepicker1 .weekdays li {
-      display: inline-block;
-      width: 13.6%;
-      text-align: center; }
-  .datetimepicker1 .days {
-    padding: 10px 0;
-    margin: 0;
-    cursor: pointer;
-    list-style: none; }
-    .datetimepicker1 .days li {
-      list-style-type: none;
-      display: inline-block;
-      width: 13.6%;
-      height: 20px;
-      text-align: center;
-      margin-bottom: 5px;
-      font-size: 12px;
-      cursor: pointer; }
-    .datetimepicker1 .days .active {
-      border-radius: 135px;
-      padding: 5px; }
-    .datetimepicker1 .days .date-today {
-      padding-top: 1%;
-      padding-left: 42%; }
-
 .datetimepicker-up {
   bottom: 100%; }
 
@@ -1008,83 +906,10 @@ button {
 
 .invaliddays {
   opacity: .40;
-  cursor: not-allowed; }
+  pointer-events: none; }
 
 .disabled {
   opacity: .40;
-  cursor: not-allowed; }
-
-.datedropdown {
-  display: block;
-  border: 1px solid #ced4da;
-  box-shadow: 0 1px 3px 0 #ced4da;
-  z-index: 3; }
-  .datedropdown li {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 5px;
-    cursor: pointer; }
-
-.dropdiv1 {
-  width: 100%; }
-
-.dropspan1 {
-  float: left;
-  width: 25%; }
-
-.dropul1 {
-  list-style-type: none;
-  -webkit-padding-start: 5px; }
-
-.dropspan2 {
-  width: 25%;
-  float: left;
-  border-right: 1px solid #628ea3; }
-
-.dropspan4 {
-  width: 25%;
-  display: table-row-group; }
-
-.dropul2 {
-  list-style-type: none;
-  -webkit-padding-start: 15px; }
-
-.dropiconpadding {
-  cursor: pointer;
-  -webkit-padding-start: 20px; }
-
-.btndiv1 {
-  position: relative;
-  bottom: 0; }
-
-.datedropbtn {
-  border: none;
-  padding: 6px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer; }
-
-.dropbtnspan {
-  display: inline-flex;
-  padding-left: 105px; }
-
-.change4 {
-  padding-left: 3px;
-  padding-right: 4px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  border-radius: 5px;
-  cursor: pointer;
-  width: 30px; }
-
-.disablearrow {
-  opacity: .40;
-  cursor: not-allowed;
   pointer-events: none; }
 
 /****************************************************************************
@@ -1093,7 +918,7 @@ button {
 *****************************************************************************/
 /** dropdown - Visual CSS **/
 .dropdown {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .dropdown-list .list-items:hover {
   color: #003852;
@@ -1141,8 +966,7 @@ button {
   font-weight: 400;
   margin: 1px 0;
   padding: .186em .313em;
-  text-align: left;
-  margin-left: 8px; }
+  text-align: left; }
 
 .drodown-caret-down {
   position: absolute;
@@ -1171,7 +995,7 @@ button {
 /** input - Visual CSS **/
 .input-control {
   font-size: 14px;
-  background-color: white;
+  background-color: #ffffff;
   color: #121212; }
 
 ::placeholder {
@@ -1317,7 +1141,7 @@ textarea:required {
 *****************************************************************************/
 /** collapsible-search - Visual CSS **/
 .search:focus {
-  background-color: white; }
+  background-color: #ffffff; }
 
 /** collapsible-search - Structure CSS **/
 .search {
@@ -1382,11 +1206,11 @@ textarea:required {
 *****************************************************************************/
 /** checkbox - Visual CSS **/
 .input-box .default {
-  background: whitesmoke; }
+  background: #f5f5f5; }
 
 .input-box .active {
   background: #81d4f9;
-  color: #01141d; }
+  color: #00151f; }
 
 /* When the checkbox is checked, add a blue background */
 .input-box-container input:checked ~ .input-box-checkbox-label {
@@ -1476,7 +1300,7 @@ textarea:required {
 /** taginput - Visual CSS **/
 .tag-input .tag {
   font-size: 11px;
-  background-color: white;
+  background-color: #ffffff;
   color: #121212; }
   .tag-input .tag .closebtn {
     font-size: 20px;
@@ -1509,7 +1333,7 @@ textarea:required {
 *****************************************************************************/
 /** notification - Visual CSS **/
 .notification {
-  background-color: white;
+  background-color: #ffffff;
   color: #121212; }
 
 /** notification - Structure CSS **/
@@ -1517,32 +1341,29 @@ textarea:required {
   position: fixed;
   z-index: 3; }
 
-.notification-vertical-top {
-  top: 10%; }
-
-.notification-vertical-center {
-  left: 40%;
-  top: 50%; }
-
-.notification-vertical-bottom {
-  bottom: 10px; }
-
-.notification-horizontal-left {
+.notification-left {
   left: 10px; }
 
-.notification-horizontal-center {
-  left: 40%; }
-
-.notification-horizontal-right {
+.notification-right {
   right: 0px; }
+
+.notification-top {
+  top: 10px; }
+
+.notification-center {
+  top: 50%;
+  left: 50%; }
+
+.notification-bottom {
+  bottom: 10px; }
 
 .notification {
   margin: 10px;
-  padding: 12px;
-  bottom: 10px;
+  padding: 10px;
   min-width: 250px;
-  text-align: start;
+  text-align: center;
   border-radius: 2px;
+  padding: 16px;
   z-index: 1;
   display: block; }
   .notification i {
@@ -1555,7 +1376,7 @@ textarea:required {
 /** progress - Visual CSS **/
 .progress {
   position: relative;
-  background: whitesmoke; }
+  background: #f5f5f5; }
   .progress .success {
     background-color: #5cb85c; }
   .progress .warning {
@@ -1598,10 +1419,8 @@ textarea:required {
 @-webkit-keyframes move {
   0% {
     background-position: 0 0; }
-
   100% {
     background-position: 50px 50px; } }
-
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none; }
 
@@ -1627,7 +1446,6 @@ textarea:required {
   /* Firefox Hack */
   .star-icon {
     font-size: 50px; } }
-
 /** rating - Structure CSS **/
 .rating {
   cursor: pointer;
@@ -1692,14 +1510,13 @@ textarea:required {
   /* Firefox Hack */
   .star-icon {
     line-height: 34px; } }
-
 /****************************************************************************
     Component Name : Toggle
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** toggle - Visual CSS **/
 .toggle-slider {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .toggle-slider:before {
   background-color: #6bd0ff; }
@@ -1767,7 +1584,7 @@ input:checked + .toggle-slider:before {
   background: #c2d3db; }
 
 .ui-widget-content {
-  background: white;
+  background: #ffffff;
   color: #001d1f; }
 
 .ui-widget {
@@ -1782,16 +1599,16 @@ input:checked + .toggle-slider:before {
   /** use card header here **/ }
 
 .ui-widget-header {
-  background: white 0 0 repeat-x;
-  background: -moz-linear-gradient(top, white 0%, white 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, white));
-  background: -webkit-linear-gradient(top, white 0%, white 100%);
-  background: -o-linear-gradient(top, white 0%, white 100%);
-  background: -ms-linear-gradient(top, white 0%, white 100%);
-  background: linear-gradient(to bottom, white 0%, white 100%); }
+  background: #ffffff 0 0 repeat-x;
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%); }
 
 .ui-widget-header {
-  background: white;
+  background: #ffffff;
   color: #01141d;
   font-weight: normal; }
 
@@ -1947,7 +1764,6 @@ input:checked + .toggle-slider:before {
 
 /** label - Structure CSS **/
 .label-badge {
-  margin-left: 10px;
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
@@ -1960,8 +1776,7 @@ input:checked + .toggle-slider:before {
   border-radius: 10px; }
 
 .large {
-  font-size: 36px;
-  line-height: 34px; }
+  font-size: 36px; }
 
 .medium {
   font-size: 20px; }
@@ -1971,8 +1786,7 @@ input:checked + .toggle-slider:before {
 
 .large-bold {
   font-size: 36px;
-  font-weight: bold;
-  line-height: 40px; }
+  font-weight: bold; }
 
 .medium-bold {
   font-size: 20px;
@@ -2016,7 +1830,7 @@ input:checked + .toggle-slider:before {
   background-color: #fbdbbf; }
 
 .box-default {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .bg-theme-color {
   color: #003852;
@@ -2053,19 +1867,19 @@ input:checked + .toggle-slider:before {
   padding: 8px 8px 8px 8px; }
 
 .border-red {
-  border-color: crimson !important; }
+  border-color: #dc143c !important; }
 
 .border-blue {
-  border-color: darkblue !important; }
+  border-color: #00008b !important; }
 
 .border-green {
-  border-color: seagreen !important; }
+  border-color: #2e8b57 !important; }
 
 .border-brown {
-  border-color: maroon !important; }
+  border-color: #800000 !important; }
 
 .border-purple {
-  border-color: darkmagenta !important; }
+  border-color: #8b008b !important; }
 
 .border-yellow {
   border-color: #ff9900 !important; }
@@ -2409,19 +2223,19 @@ input:checked + .toggle-slider:before {
 
 .floatingbutton-theme-color {
   background-color: #81d4f9;
-  color: white; }
+  color: #ffffff; }
 
 .floatingbutton-green {
   background-color: #5cb85c;
-  color: white; }
+  color: #ffffff; }
 
 .floatingbutton-red {
   background-color: #d9534f;
-  color: white; }
+  color: #ffffff; }
 
 .floatingbutton-yellow {
   background-color: #f0ad4e;
-  color: white; }
+  color: #ffffff; }
 
 .floatingbutton-default-disabled {
   background-color: #c2d3db;
@@ -2429,19 +2243,19 @@ input:checked + .toggle-slider:before {
 
 .floatingbutton-theme-color-disabled {
   background-color: #e2f5fe;
-  color: white; }
+  color: #ffffff; }
 
 .floatingbutton-green-disabled {
   background-color: #a3d7a3;
-  color: white; }
+  color: #ffffff; }
 
 .floatingbutton-red-disabled {
   background-color: #eba5a3;
-  color: white; }
+  color: #ffffff; }
 
 .floatingbutton-yellow-disabled {
   background-color: #f8d9ac;
-  color: white; }
+  color: #ffffff; }
 
 /** floatingbutton - Structure CSS **/
 .floatingbutton {
@@ -2511,7 +2325,7 @@ input:checked + .toggle-slider:before {
   color: #01141d; }
 
 .dropdown-menu-content {
-  background-color: white !important;
+  background-color: #ffffff !important;
   box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
 
 .dropdown-menu-content .dropdowndivider {
@@ -2558,7 +2372,7 @@ input:checked + .toggle-slider:before {
 ****************************************************************************/
 /** Toolbar - Visual CSS **/
 .toolbar {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .toolbaritemseperatorleft {
   border-left: 1px solid #ced4da; }
@@ -2610,7 +2424,7 @@ input:checked + .toggle-slider:before {
   border-color: #ced4da; }
 
 .advancesearchform {
-  background-color: white;
+  background-color: #ffffff;
   border-color: #ced4da; }
 
 .input-group-text-search {
@@ -2619,21 +2433,21 @@ input:checked + .toggle-slider:before {
 
 .form-control {
   color: #00151f;
-  background-color: white;
+  background-color: #ffffff;
   border-color: #ced4da; }
 
 .search-form-label {
   color: #00151f; }
 
 .iconColor {
-  color: white; }
+  color: #ffffff; }
 
 .advancesearchbtn {
   background-color: #81d4f9;
-  color: white; }
+  color: #ffffff; }
 
 .search-dropdown-list .search-list-items {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .search-dropdown-list li:hover {
   background: #b8e8ff; }
@@ -2643,7 +2457,7 @@ input:checked + .toggle-slider:before {
 
 .search-dropdown-list {
   border-color: #ced4da;
-  background-color: white; }
+  background-color: #ffffff; }
 
 /** Searchbox - Structure CSS **/
 .hrclass {
@@ -2743,8 +2557,7 @@ input:checked + .toggle-slider:before {
 
 .advancesearchbtn {
   height: 37px;
-  font-weight: bold;
-  cursor: pointer; }
+  font-weight: bold; }
 
 /****************************************************************************
     Component Name : Enterprise Content
@@ -2922,7 +2735,7 @@ header .billboard .content-button {
 .close-button {
   cursor: pointer;
   padding-left: 98%;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
 
 /****************************************************************************
     Component Name : Enterprise Youtube
@@ -2931,7 +2744,7 @@ header .billboard .content-button {
 /** enterprise-youtube - Visual CSS **/
 .close-button {
   color: grey;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
 
 .close-button i:hover {
   color: red; }
@@ -2955,21 +2768,21 @@ header .billboard .content-button {
   font-size: 20px; }
 
 .tile__details {
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
 
 .tile__details:after,
 .tile__details:before {
-  display: black; }
+  display: #000; }
 
 .tile__details_v {
   font-size: 10px;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
 
 .tile__details_v:after,
 .tile__details_v:before {
-  display: black; }
+  display: #000; }
 
 .tile__title {
   color: white; }
@@ -3093,7 +2906,7 @@ header .billboard .content-button {
   position: absolute;
   top: 50%;
   left: 50%;
-  display: black; }
+  display: #000; }
 
 .tile__details_v:after {
   margin-top: -25px;
@@ -3232,7 +3045,7 @@ header .billboard .content-button {
   padding: 5px; }
 
 .datapoint {
-  background: white;
+  background: #ffffff;
   color: #00151f; }
 
 /** Datapoints - Structure CSS **/
@@ -3281,7 +3094,7 @@ header .billboard .content-button {
   background-color: #6bd0ff !important; }
 
 .datatable-row:nth-child(odd) {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 /** Datatable - Visual CSS **/
 .datatabletitle {
@@ -3522,7 +3335,7 @@ header .billboard .content-button {
   background-color: #b8e8ff; }
 
 .listbox .list {
-  background-color: white; }
+  background-color: #ffffff; }
   .listbox .list .title {
     color: rgba(0, 0, 0, 0.87); }
     .listbox .list .title a {
@@ -3592,25 +3405,6 @@ header .billboard .content-button {
   background-color: #6bd0ff;
   color: #00151f; }
 
-.tree-badge {
-  background-color: #81d4f9;
-  color: #01141d; }
-
-.context-menu-list li:hover {
-  background-color: #b8e8ff;
-  color: #003852; }
-
-.context-menu-list-items-selected {
-  background-color: #6bd0ff !important;
-  color: #00151f; }
-
-.tree-node-label-selected {
-  background-color: #6bd0ff;
-  color: #00151f; }
-
-.context-menu-separator {
-  border-bottom: 1px solid gray; }
-
 /** Treenode - Structure CSS **/
 .treeview {
   height: 100%;
@@ -3654,45 +3448,8 @@ header .billboard .content-button {
 
 .tree-node-label {
   white-space: nowrap;
-  display: inline-block;
-  vertical-align: middle;
+  display: inline;
   cursor: pointer; }
-
-.tree-node-label-hover {
-  width: 100%; }
-
-.tree-badge {
-  margin-left: 10px;
-  display: inline-block;
-  min-width: 10px;
-  padding: 3px 7px;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  border-radius: 10px; }
-
-.context-menu-list {
-  display: block;
-  position: absolute;
-  flex-direction: column;
-  min-width: 180px;
-  cursor: pointer;
-  max-height: 150px;
-  z-index: 1;
-  padding: 10px 0px;
-  overflow-y: auto;
-  background-color: white !important;
-  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
-
-.context-menu-list .context-menu-list-items {
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px !important;
-  padding: 5px;
-  display: block; }
 
 /****************************************************************************
     Component Name : Menubar
@@ -3710,7 +3467,7 @@ header .billboard .content-button {
   color: #121212; }
 
 .menu-content {
-  background: white; }
+  background: #ffffff; }
 
 .menu-content .menu-content-cols .col-menu-nodes {
   background: none; }
@@ -3861,7 +3618,7 @@ header .billboard .content-button {
   color: inherit; }
 
 .nav-dropdown:hover .nav-dropdown-content .nav-menu-container {
-  background-color: white;
+  background-color: #ffffff;
   color: #003852; }
 
 .nav-dropdown:hover .nav-dropdown-content .nav-menu-container a {
@@ -4063,7 +3820,7 @@ header .billboard .content-button {
   color: #041e20; }
 
 .sidenav {
-  background-color: white;
+  background-color: #ffffff;
   color: #121212; }
 
 .sidenav::-webkit-scrollbar-track {
@@ -4076,17 +3833,17 @@ header .billboard .content-button {
   background-color: #81d4f9; }
 
 .left {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .right {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .sidenav .title {
-  background-color: white;
+  background-color: #ffffff;
   color: #121212; }
 
 .sidenav .headernode {
-  background-color: white;
+  background-color: #ffffff;
   color: #121212; }
 
 .sidenav .headernode:hover {
@@ -4103,10 +3860,6 @@ header .billboard .content-button {
 
 .sidenav .border {
   border-bottom: 1px solid #ced4da; }
-
-.nav-badge {
-  background-color: #81d4f9;
-  color: #01141d; }
 
 /** sidenav - Structure CSS **/
 .sidenav-mobile-bar {
@@ -4203,19 +3956,6 @@ header .billboard .content-button {
   max-height: 1000px;
   overflow: auto; }
 
-.nav-badge {
-  margin-left: 10px;
-  display: inline-block;
-  min-width: 10px;
-  padding: 3px 7px;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  border-radius: 10px; }
-
 /****************************************************************************
     Component Name : Dockbar
     Version : Amexio v4.0 onwards
@@ -4226,7 +3966,7 @@ header .billboard .content-button {
   color: #ced4da; }
 
 .dockbar-content {
-  background-color: white; }
+  background-color: #ffffff; }
 
 /* Style the buttons inside the tab */
 .dockbar button {
@@ -4334,12 +4074,12 @@ header .billboard .content-button {
   color: red; }
 
 .panel {
-  background-color: white;
+  background-color: #ffffff;
   color: #121212; }
 
 /** Transparent Styling **/
 .accordion-transparent {
-  background: white; }
+  background: #ffffff; }
 
 .accordion-transparent:after {
   color: red; }
@@ -4369,7 +4109,7 @@ header .billboard .content-button {
   cursor: pointer;
   padding: 10px;
   width: 100%;
-  border-color: white;
+  border-color: #ffffff;
   text-align: left;
   outline: none;
   font-size: 15px;
@@ -4392,7 +4132,7 @@ header .billboard .content-button {
 *****************************************************************************/
 /** cards - Visual CSS **/
 .card-container {
-  background-color: white;
+  background-color: #ffffff;
   color: #121212; }
 
 .card-header {
@@ -4409,7 +4149,7 @@ header .billboard .content-button {
   background-color: #81d4f9; }
 
 .card-footer {
-  background-color: white;
+  background-color: #ffffff;
   color: #07638d; }
 
 /** cards - Structure CSS **/
@@ -4443,8 +4183,7 @@ header .billboard .content-button {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
 
 .cardbody::-webkit-scrollbar {
-  width: 6px;
-  height: 6px; }
+  width: 6px; }
 
 .card-footer {
   display: flex;
@@ -4456,7 +4195,7 @@ header .billboard .content-button {
 *****************************************************************************/
 /** cards - Visual CSS **/
 .form-container {
-  background-color: white;
+  background-color: #ffffff;
   color: #121212; }
 
 .form-error {
@@ -4477,7 +4216,7 @@ header .billboard .content-button {
   background-color: #81d4f9; }
 
 .form-footer {
-  background-color: white;
+  background-color: #ffffff;
   color: #07638d; }
 
 .form-tooltip .form-tooltiptext {
@@ -4596,13 +4335,13 @@ fieldset {
   color: #628ea3; }
 
 .stepwizard-row:before {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .btn-circle {
   font-size: 12px; }
 
 .step-box-table-item {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   color: #121212; }
 
 .step-box-table-item.active {
@@ -4698,7 +4437,7 @@ fieldset {
 *****************************************************************************/
 /** tab - Visual CSS **/
 .verticalnavtab .defaultnode {
-  background-color: white;
+  background-color: #ffffff;
   color: #121212; }
 
 .verticalnavtab .leftactivetab {
@@ -4717,8 +4456,8 @@ fieldset {
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-bottom-tab-red {
-  color: crimson;
-  border-top: 1px solid crimson !important; }
+  color: #dc143c;
+  border-top: 1px solid #dc143c !important; }
 
 /** Amexio Colors --- 
    SeaGreen: #2e8b57 rgb(46,139,87,0.0);
@@ -4733,56 +4472,56 @@ fieldset {
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-bottom-tab-purple {
-  border-top: 1px solid darkmagenta !important;
-  color: darkmagenta; }
+  border-top: 1px solid #8b008b !important;
+  color: #8b008b; }
 
 /** Amexio Colors --- 
    DarkBlue: #00008b rgb(0,0,139,0.0);
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-bottom-tab-blue {
-  border-top: 1px solid darkblue !important;
-  color: darkblue; }
+  border-top: 1px solid #00008b !important;
+  color: #00008b; }
 
 /** Amexio Colors --- 
    SandyBrown: #f4a460 rgb(244,164,96,0.0);
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-bottom-tab-brown {
-  border-top: 1px solid maroon !important;
-  color: maroon; }
+  border-top: 1px solid #800000 !important;
+  color: #800000; }
 
 /** Amexio Colors --- 
    Gold: #ffd700 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-yellow {
-  border-top: 1px solid yellow !important;
-  color: yellow; }
+  border-top: 1px solid #FFFF00 !important;
+  color: #FFFF00; }
 
 /** Amexio Colors --- 
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-pink {
-  border-top: 1px solid hotpink !important;
-  color: hotpink; }
+  border-top: 1px solid #FF69B4 !important;
+  color: #FF69B4; }
 
 /** Amexio Colors --- 
    Orange: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-orange {
-  border-top: 1px solid orange !important;
-  color: orange; }
+  border-top: 1px solid #FFA500 !important;
+  color: #FFA500; }
 
 /** Amexio Colors --- 
    Black: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-black {
-  border-top: 1px solid black !important;
-  color: black; }
+  border-top: 1px solid #000000 !important;
+  color: #000000; }
 
 /** CSS Class definitions for the Amexio Colors --- */
 /** Amexio Colors --- 
@@ -4790,8 +4529,8 @@ fieldset {
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-top-tab-red {
-  color: crimson;
-  border-bottom: 1px solid crimson !important; }
+  color: #dc143c;
+  border-bottom: 1px solid #dc143c !important; }
 
 /** Amexio Colors --- 
    SeaGreen: #2e8b57 rgb(46,139,87,0.0);
@@ -4806,56 +4545,56 @@ fieldset {
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-top-tab-purple {
-  border-bottom: 1px solid darkmagenta !important;
-  color: darkmagenta; }
+  border-bottom: 1px solid #8b008b !important;
+  color: #8b008b; }
 
 /** Amexio Colors --- 
    DarkBlue: #00008b rgb(0,0,139,0.0);
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-top-tab-blue {
-  border-bottom: 1px solid darkblue !important;
-  color: darkblue; }
+  border-bottom: 1px solid #00008b !important;
+  color: #00008b; }
 
 /** Amexio Colors --- 
    SandyBrown: #f4a460 rgb(244,164,96,0.0);
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-top-tab-brown {
-  border-bottom: 1px solid maroon !important;
-  color: maroon; }
+  border-bottom: 1px solid #800000 !important;
+  color: #800000; }
 
 /** Amexio Colors --- 
    Gold: #ffd700 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-yellow {
-  border-bottom: 1px solid yellow !important;
-  color: yellow; }
+  border-bottom: 1px solid #FFFF00 !important;
+  color: #FFFF00; }
 
 /** Amexio Colors --- 
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-pink {
-  border-bottom: 1px solid hotpink !important;
-  color: hotpink; }
+  border-bottom: 1px solid #FF69B4 !important;
+  color: #FF69B4; }
 
 /** Amexio Colors --- 
    Orange: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-orange {
-  border-bottom: 1px solid orange !important;
-  color: orange; }
+  border-bottom: 1px solid #FFA500 !important;
+  color: #FFA500; }
 
 /** Amexio Colors --- 
    Black: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-black {
-  border-bottom: 1px solid black !important;
-  color: black; }
+  border-bottom: 1px solid #000000 !important;
+  color: #000000; }
 
 /** tab - Structure CSS **/
 .tab {
@@ -5007,16 +4746,11 @@ verticalalign-tableft {
 *****************************************************************************/
 /** window - Visual CSS **/
 .root-window {
-  background-color: white;
+  background-color: #ffffff;
   /* Black w/ opacity */ }
 
 .modal-window-content {
-  background-color: white; }
-
-.modal-window-material {
-  background-color: white;
-  font-size: 20px;
-  color: black; }
+  background-color: #ffffff; }
 
 .modal-window-header {
   background: #81d4f9;
@@ -5036,7 +4770,7 @@ verticalalign-tableft {
   background-color: #81d4f9; }
 
 .modal-window-footer {
-  background-color: white;
+  background-color: #f5fcff;
   color: #07638d; }
 
 /** window - Structure CSS **/
@@ -5057,7 +4791,6 @@ verticalalign-tableft {
   position: absolute;
   margin: auto;
   padding: 0px;
-  border-radius: .3rem;
   border: 1px solid #888;
   width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -5071,14 +4804,6 @@ verticalalign-tableft {
   height: 100%;
   top: 0% !important;
   left: 0% !important; }
-
-.window-material-design-header {
-  display: flex;
-  border-bottom: 1px solid #ced4da;
-  font-weight: 300;
-  border-radius: .3rem;
-  font-size: 20px;
-  text-transform: capitalize; }
 
 .modal-window-header {
   display: flex;
@@ -5102,13 +4827,6 @@ verticalalign-tableft {
 .modal-window-middle::-webkit-scrollbar {
   width: 6px; }
 
-.window-material-design-footer {
-  display: flex;
-  border-top: 1px solid #eceeef;
-  padding-right: 16px;
-  background-color: white;
-  border-radius: 0 0 .3rem .3rem; }
-
 .modal-window-footer {
   display: flex;
   border-top: 1px solid #ced4da; }
@@ -5119,11 +4837,6 @@ verticalalign-tableft {
 
 .modal-window-table .tablerow {
   display: table-row; }
-
-.window-material-design-header .modal-window-table .tablerow .tablecol {
-  display: table-cell;
-  vertical-align: middle;
-  padding-bottom: 15px; }
 
 .modal-window-table .tablerow .tablecol {
   display: table-cell;
@@ -5162,18 +4875,14 @@ verticalalign-tableft {
   background: rgba(128, 127, 127, 0.6); }
 
 .dialogue-content {
-  background-color: white; }
-
-.dialogue-material-design {
-  background-color: white;
-  color: black; }
+  background-color: #ffffff; }
 
 .dialogue-header {
   background: #81d4f9;
   color: #121212; }
 
 .dialogue-footer {
-  background-color: white;
+  background-color: #ffffff;
   color: #07638d; }
 
 .dialogue-success {
@@ -5213,7 +4922,6 @@ verticalalign-tableft {
   padding: 0px;
   width: 80%;
   height: 80%;
-  border-radius: .3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .dialogue-min {
@@ -5221,16 +4929,6 @@ verticalalign-tableft {
 
 .dialogue-content > * {
   padding: 5px; }
-
-.dialogue-material-design {
-  display: flex;
-  border-radius: .3rem;
-  font-size: 20px;
-  font-weight: 300;
-  text-transform: capitalize;
-  color: black;
-  padding: 10px;
-  border-bottom: 1px solid #eceeef; }
 
 .dialogue-header {
   display: flex;
@@ -5240,8 +4938,6 @@ verticalalign-tableft {
   text-transform: capitalize; }
 
 .dialogue-middle {
-  padding-top: 20px;
-  padding-bottom: 20px;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -5251,24 +4947,9 @@ verticalalign-tableft {
   overflow-y: hidden;
   overflow-x: hidden; }
 
-.dialogue-material-design-footer {
-  display: flex;
-  border-top: 1px solid #eceeef;
-  padding: 5px; }
-  .dialogue-material-design-footer .button-transparent {
-    border: none !important;
-    box-shadow: none !important;
-    font-size: 1rem; }
-  .dialogue-material-design-footer .custom-btn .button-text {
-    font-size: 1rem;
-    color: blue; }
-
 .dialogue-footer {
   display: flex;
   border-top: 1px solid #ced4da; }
-  .dialogue-footer .button-transparent {
-    border: none !important;
-    box-shadow: none !important; }
 
 .dialogue-message {
   display: flex;
@@ -5287,11 +4968,6 @@ verticalalign-tableft {
 
 .dialogue-table .tablerow {
   display: table-row; }
-
-.dialogue-material-design .dialogue-table .tablerow .tablecol {
-  display: table-cell;
-  vertical-align: middle;
-  color: black; }
 
 .dialogue-table .tablerow .tablecol {
   display: table-cell;
@@ -5316,7 +4992,7 @@ verticalalign-tableft {
   font-weight: bold; }
 
 .panel-panel {
-  background-color: white;
+  background-color: #ffffff;
   color: #121212; }
 
 .panel-panel::-webkit-scrollbar-track {
@@ -5394,8 +5070,7 @@ verticalalign-tableft {
   display: grid;
   grid-template-areas: 'north north north north north north' 'east center center center center west' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-N-E-C-W-S aside {
   border: 0px solid none; }
@@ -5405,8 +5080,7 @@ verticalalign-tableft {
   display: grid;
   grid-template-areas: 'north north north north north north' 'east center center center center center' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-N-E-C-S aside {
   border: 0px solid none; }
@@ -5416,8 +5090,7 @@ verticalalign-tableft {
   display: grid;
   grid-template-areas: 'north north north north north north' 'center center center center center west' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-N-C-W-S aside {
   border: 0px solid none; }
@@ -5427,8 +5100,7 @@ verticalalign-tableft {
   display: grid;
   grid-template-areas: 'east center center center center west' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-E-C-W-S aside {
   border: 0px solid none; }
@@ -5438,8 +5110,7 @@ verticalalign-tableft {
   display: grid;
   grid-template-areas: 'north north north north north north' 'center center center center center center' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-N-C-S aside {
   border: 0px solid none; }
@@ -5449,8 +5120,7 @@ verticalalign-tableft {
   display: grid;
   grid-template-areas: 'east center center center center center' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-E-C-S aside {
   border: 0px solid none; }
@@ -5460,8 +5130,7 @@ verticalalign-tableft {
   display: grid;
   grid-template-areas: 'center center center center center west' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-C-W-S aside {
   border: 0px solid none; }
@@ -5471,8 +5140,7 @@ verticalalign-tableft {
   display: grid;
   grid-template-areas: 'north north north north north north' 'center center center center center center';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-N-C aside {
   border: 0px solid none; }
@@ -5482,8 +5150,7 @@ verticalalign-tableft {
   display: grid;
   grid-template-areas: 'center center center center center center' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px;
-  grid-template-columns: auto; }
+  padding: 2px; }
 
 .borderlayout-container-C-S aside {
   border: 0px solid none; }
@@ -5568,14 +5235,11 @@ verticalalign-tableft {
 *****************************************************************************/
 @keyframes checkboxripple {
   0% {
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0); }
-
+    box-shadow: 0px 0px 0px 1px transparent; }
   50% {
     box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1); }
-
   100% {
-    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0); } }
-
+    box-shadow: 0px 0px 0px 15px transparent; } }
 /* Show the input-box-container-label when checked */
 .input-box-container input:checked ~ .input-box-checkbox-label:after {
   animation: checkboxripple .3s ease-in; }
@@ -5585,14 +5249,11 @@ verticalalign-tableft {
 *****************************************************************************/
 @keyframes radioripple {
   0% {
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0); }
-
+    box-shadow: 0px 0px 0px 1px transparent; }
   50% {
     box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1); }
-
   100% {
-    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0); } }
-
+    box-shadow: 0px 0px 0px 15px transparent; } }
 /* Show the input-box-container-label when checked */
 .input-box-container input:checked ~ .input-box-radiobox-label:after {
   animation: radioripple 0.3s linear forwards; }
@@ -5629,7 +5290,7 @@ button {
   left: 50%;
   width: 5px;
   height: 5px;
-  background: white;
+  background: #ffffff;
   opacity: 0;
   border-radius: 100%;
   transform: scale(1, 1) translate(-50%);
@@ -5668,7 +5329,7 @@ button {
   left: 50%;
   width: 5px;
   height: 5px;
-  background: white;
+  background: #ffffff;
   opacity: 0;
   border-radius: 100%;
   transform: scale(1, 1) translate(-50%);
@@ -5678,15 +5339,12 @@ button {
   0% {
     transform: scale(0, 0);
     opacity: 1; }
-
   20% {
     transform: scale(25, 25);
     opacity: 1; }
-
   100% {
     opacity: 0;
     transform: scale(40, 40); } }
-
 button:focus:not(:active)::after {
   animation: ripple 1s ease-out; }
 
@@ -5721,17 +5379,13 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /****************************************************************************
                 Animation CSS for Progress Bar
 *****************************************************************************/
-.progress {
-  @keyframes progressbar-animate-stripes {
-    0% {
-      background-position: 0 0; }
-
-    100% {
-      background-position: 60px 0; } }
- }
-  .progress .stripped {
-    animation: progressbar-animate-stripes 3s linear infinite; }
-
+.progress .stripped {
+  animation: progressbar-animate-stripes 3s linear infinite; }
+@keyframes progressbar-animate-stripes {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 60px 0; } }
 /** Initialze Responsive Design variables ------------ */
 /****************************************************************************
                     Media Query for width - 375
@@ -6103,21 +5757,6 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /*        BORDER LAYOUT Media Q COMPONENT                                */
 /************************************************************************/
 @media only screen and (max-width: 767px) {
-  .borderlayout-N {
-    grid-area: north; }
-
-  .borderlayout-S {
-    grid-area: south; }
-
-  .borderlayout-E {
-    grid-area: east; }
-
-  .borderlayout-W {
-    grid-area: west; }
-
-  .borderlayout-C {
-    grid-area: center; }
-
   .borderlayout-container-N-E-C-W-S {
     grid-template-areas: 'north north north north north north' 'east east east east east east ' 'center center center center center center' 'west west west west west west' 'south south south south south south'; }
 
@@ -6314,21 +5953,6 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /*        BORDER LAYOUT Media Q COMPONENT         */
 /************************************************************************/
 @media only screen and (max-width: 767px) {
-  .borderlayout-N {
-    grid-area: north; }
-
-  .borderlayout-S {
-    grid-area: south; }
-
-  .borderlayout-E {
-    grid-area: east; }
-
-  .borderlayout-W {
-    grid-area: west; }
-
-  .borderlayout-C {
-    grid-area: center; }
-
   .borderlayout-container-N-E-C-W-S {
     grid-template-areas: 'north north north north north north' 'east east east east east east ' 'center center center center center center' 'west west west west west west' 'south south south south south south'; }
 
@@ -6525,21 +6149,6 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /*        BORDER LAYOUT Media Q COMPONENT         */
 /************************************************************************/
 @media only screen and (max-width: 767px) {
-  .borderlayout-N {
-    grid-area: north; }
-
-  .borderlayout-S {
-    grid-area: south; }
-
-  .borderlayout-E {
-    grid-area: east; }
-
-  .borderlayout-W {
-    grid-area: west; }
-
-  .borderlayout-C {
-    grid-area: center; }
-
   .borderlayout-container-N-E-C-W-S {
     grid-template-areas: 'north north north north north north' 'east east east east east east ' 'center center center center center center' 'west west west west west west' 'south south south south south south'; }
 
@@ -6722,21 +6331,6 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /*        BORDER LAYOUT Media Q COMPONENT         */
 /************************************************************************/
 @media only screen and (max-width: 767px) {
-  .borderlayout-N {
-    grid-area: north; }
-
-  .borderlayout-S {
-    grid-area: south; }
-
-  .borderlayout-E {
-    grid-area: east; }
-
-  .borderlayout-W {
-    grid-area: west; }
-
-  .borderlayout-C {
-    grid-area: center; }
-
   .borderlayout-container-N-E-C-W-S {
     grid-template-areas: 'north north north north north north' 'east east east east east east ' 'center center center center center center' 'west west west west west west' 'south south south south south south'; }
 
@@ -6932,3 +6526,5 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
   Forum    : http://forum.metamagicglobal.com
   API Docs : http://api.amexio.tech/
 */
+
+/*# sourceMappingURL=at-md-maya.css.map */
