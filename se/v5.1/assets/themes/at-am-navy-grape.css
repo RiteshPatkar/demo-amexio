@@ -4,13 +4,13 @@
                     Common CSS Helper Classes
 *****************************************************************************/
 body {
-  background: #ECEFF1;
+  background: #eceff1;
   min-height: 100%;
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
   font-weight: 400;
-  color: #000080;
+  color: navy;
   font-size: 1em;
   margin: 0px;
   padding: 0px; }
@@ -64,7 +64,7 @@ body {
   border-right: 1px solid #cccccc; }
 
 .header {
-  background-color: #000080;
+  background-color: navy;
   color: white;
   padding: 10px;
   overflow: hidden; }
@@ -95,7 +95,7 @@ body {
   cursor: not-allowed; }
 
 .defaultcolor {
-  color: #000080; }
+  color: navy; }
 
 .verticalalign-tableft {
   vertical-align: top !important;
@@ -132,8 +132,10 @@ Spin animation for .loading-mask::after
 @keyframes spin {
   from {
     transform: rotate(0deg); }
+
   to {
     transform: rotate(359deg); } }
+
 label {
   display: inline-block;
   margin-top: 5px;
@@ -142,7 +144,7 @@ label {
   font-weight: 500; }
 
 a {
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 textarea {
   font-family: inherit; }
@@ -163,7 +165,7 @@ image using the content attribute.
   position: absolute;
   border-width: 3px;
   border-style: solid;
-  border-color: transparent #000080 #000080;
+  border-color: transparent navy navy;
   border-radius: 50%;
   width: 24px;
   height: 24px;
@@ -176,6 +178,7 @@ image using the content attribute.
 @keyframes spinner {
   to {
     transform: rotate(360deg); } }
+
 .spinner:before {
   content: '';
   box-sizing: border-box;
@@ -188,8 +191,8 @@ image using the content attribute.
   margin-left: -10px;
   border-radius: 50%;
   border: 2px solid transparent;
-  border-top-color: #000080;
-  border-bottom-color: #000080;
+  border-top-color: navy;
+  border-bottom-color: navy;
   animation: spinner .8s ease infinite; }
 
 .row-disabled {
@@ -203,7 +206,7 @@ image using the content attribute.
    240a00: #240a00 rgb(36,10,0,0.0);
 */
 .amexio-red-light {
-  background-color: #ff7f50;
+  background-color: coral;
   color: #240a00; }
 
 /** Amexio Colors --- 
@@ -211,7 +214,7 @@ image using the content attribute.
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-red {
-  background-color: #dc143c;
+  background-color: crimson;
   color: #fffafb; }
 
 /** Amexio Colors --- 
@@ -219,7 +222,7 @@ image using the content attribute.
    002400: #002400 rgb(0,36,0,0.0);
 */
 .amexio-green-light {
-  background-color: #00ff00;
+  background-color: lime;
   color: #002400; }
 
 /** Amexio Colors --- 
@@ -227,7 +230,7 @@ image using the content attribute.
    f0faf4: #f0faf4 rgb(240,250,244,0.0);
 */
 .amexio-green {
-  background-color: #2e8b57;
+  background-color: seagreen;
   color: #f0faf4; }
 
 /** Amexio Colors --- 
@@ -235,7 +238,7 @@ image using the content attribute.
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-purple-light {
-  background-color: #ff00ff;
+  background-color: magenta;
   color: #050005; }
 
 /** Amexio Colors --- 
@@ -243,7 +246,7 @@ image using the content attribute.
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-purple {
-  background-color: #8b008b;
+  background-color: darkmagenta;
   color: #050005; }
 
 /** Amexio Colors --- 
@@ -251,7 +254,7 @@ image using the content attribute.
    f0fbff: #f0fbff rgb(240,251,255,0.0);
 */
 .amexio-blue-light {
-  background-color: #00bfff;
+  background-color: deepskyblue;
   color: #000507; }
 
 /** Amexio Colors --- 
@@ -259,7 +262,7 @@ image using the content attribute.
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-blue {
-  background-color: #00008b;
+  background-color: darkblue;
   color: #f5f5ff; }
 
 /** Amexio Colors --- 
@@ -267,7 +270,7 @@ image using the content attribute.
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-brown-light {
-  background-color: #f4a460;
+  background-color: sandybrown;
   color: #211102; }
 
 /** Amexio Colors --- 
@@ -275,7 +278,7 @@ image using the content attribute.
    ffebeb: #ffebeb rgb(255,235,235,0.0);
 */
 .amexio-brown {
-  background-color: #800000;
+  background-color: maroon;
   color: #ffebeb; }
 
 /** Amexio Colors --- 
@@ -283,7 +286,7 @@ image using the content attribute.
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-yellow-light {
-  background-color: #ffd700;
+  background-color: gold;
   color: #241e00; }
 
 /** Amexio Colors --- 
@@ -299,16 +302,16 @@ image using the content attribute.
    White: #ffffff rgb(255,255,255,0.0);
 */
 .amexio-black {
-  background-color: #000000;
-  color: #ffffff; }
+  background-color: black;
+  color: white; }
 
 /** Amexio Colors --- 
    White: #ffffff rgb(255,255,255,0.0);
    Black: #000000 rgb(0,0,0,0.0);
 */
 .amexio-white {
-  background-color: #ffffff;
-  color: #000000; }
+  background-color: white;
+  color: black; }
 
 /* Misc Variables */
 /****************************************************************************
@@ -317,24 +320,24 @@ image using the content attribute.
 *****************************************************************************/
 /** button - Visual CSS **/
 .button-secondary {
-  background-color: #ffffff;
-  border-color: #000080;
-  color: #000080; }
+  background-color: white;
+  border-color: navy;
+  color: navy; }
 
 .button-secondary:hover:enabled {
   background-color: #e6e6e6; }
 
 .btn-badge {
   background-color: #8080ff;
-  color: #000080; }
+  color: navy; }
 
 .btn-primary-badge {
   background-color: white;
-  color: #000080; }
+  color: navy; }
 
 .btn-secondary-badge {
-  background-color: #000080;
-  color: #ffffff; }
+  background-color: navy;
+  color: white; }
 
 .btn-success-badge {
   background-color: white;
@@ -349,17 +352,17 @@ image using the content attribute.
   color: #f0ad4e; }
 
 .btn-transparent-badge {
-  background-color: #000080;
+  background-color: navy;
   color: white; }
 
 .button-primary {
-  background-color: #000080;
-  border-color: #000080;
+  background-color: navy;
+  border-color: navy;
   color: white; }
 
 .disabled {
   background-color: #a09e9e;
-  color: #000080; }
+  color: navy; }
 
 .button-primary:hover:enabled {
   background-color: #00004d; }
@@ -390,7 +393,7 @@ image using the content attribute.
 
 .button-transparent {
   background: white;
-  color: #000080; }
+  color: navy; }
 
 /** button - Structure CSS **/
 button {
@@ -405,7 +408,7 @@ button {
   -ms-user-select: none;
   outline: none;
   user-select: none;
-  border: 1px solid #000080;
+  border: 1px solid navy;
   padding: .5rem 1rem;
   border-radius: 5px;
   transition: all .2s ease-in-out; }
@@ -522,20 +525,20 @@ button {
 *****************************************************************************/
 /** buttongroup - Visual CSS **/
 .button-secondary {
-  background-color: #ffffff;
-  border-color: #000080;
-  color: #000080; }
+  background-color: white;
+  border-color: navy;
+  color: navy; }
 
 .button-secondary:hover:enabled {
   background-color: #e6e6e6; }
 
 .btn-group-primary-badge {
   background-color: white;
-  color: #000080; }
+  color: navy; }
 
 .btn-group-secondary-badge {
-  background-color: #000080;
-  color: #ffffff; }
+  background-color: navy;
+  color: white; }
 
 .btn-group-success-badge {
   background-color: white;
@@ -550,17 +553,17 @@ button {
   color: #f0ad4e; }
 
 .btn-group-transparent-badge {
-  background-color: #000080;
+  background-color: navy;
   color: white; }
 
 .button-primary {
-  background-color: #000080;
-  border-color: #000080;
+  background-color: navy;
+  border-color: navy;
   color: white; }
 
 .disabled {
   background-color: #a09e9e;
-  color: #000080; }
+  color: navy; }
 
 .button-primary:hover:enabled {
   background-color: #00004d; }
@@ -591,13 +594,13 @@ button {
 
 .button-transparent {
   background: white;
-  color: #000080; }
+  color: navy; }
 
 /** buttongroup - Structure CSS **/
 .btn-group span {
-  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
-  
-   cursor: pointer; /* Pointer/hand icon */ }
+                  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
+
+ cursor: pointer; /* Pointer/hand icon */ }
 
 .btn-group button {
   cursor: pointer; }
@@ -738,7 +741,7 @@ button {
 
 .disabled {
   background-color: #a09e9e;
-  color: #000080; }
+  color: navy; }
 
 /** buttondropdown - Structure CSS **/
 .btn-dropdown-badge {
@@ -756,7 +759,7 @@ button {
   position: absolute;
   padding: .5rem 1rem;
   font-size: 1rem;
-  border: 3px solid #000080;
+  border: 3px solid navy;
   z-index: 3; }
 
 .button-dropdown-up {
@@ -767,6 +770,20 @@ button {
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** datetime - Visual CSS **/
+.datedropdown {
+  background: white; }
+  .datedropdown .dropdownlist {
+    color: navy; }
+  .datedropdown li:hover {
+    color: navy;
+    background: #e6e6ff;
+    width: 30px; }
+  .datedropdown .active {
+    background: #8080ff;
+    color: #6f2da8; }
+  .datedropdown li {
+    color: navy; }
+
 .datetimepicker {
   background: white; }
   .datetimepicker .datetimepickertopbar {
@@ -776,13 +793,31 @@ button {
   .datetimepicker .days {
     background: white; }
     .datetimepicker .days li {
-      color: #000080; }
+      color: navy; }
     .datetimepicker .days li:hover {
       color: #8080ff; }
     .datetimepicker .days .active {
       background: #8080ff;
-      color: #6F2DA8; }
+      color: #6f2da8; }
     .datetimepicker .days .currentMonth {
+      font-weight: bold; }
+
+.datetimepicker1 {
+  background: white; }
+  .datetimepicker1 .datetimepickertopbar {
+    background: #8080ff; }
+    .datetimepicker1 .datetimepickertopbar ul li {
+      color: white; }
+  .datetimepicker1 .days {
+    background: white; }
+    .datetimepicker1 .days li {
+      color: navy; }
+    .datetimepicker1 .days li:hover {
+      color: #8080ff; }
+    .datetimepicker1 .days .active {
+      background: #8080ff;
+      color: #6f2da8; }
+    .datetimepicker1 .days .currentMonth {
       font-weight: bold; }
 
 .datetimepicker-up {
@@ -790,18 +825,28 @@ button {
 
 .datetimepicker:disabled {
   background-color: #a09e9e;
-  color: #000080; }
+  color: navy; }
 
 @media screen and (max-width: 600px) {
   .datetimepicker .days .date-today {
     padding-top: 1%;
     padding-left: 36%; } }
+.dropspan2 {
+  border-color: navy; }
+
+.datedropbtn {
+  background-color: navy;
+  color: white; }
+
+.change4 {
+  background-color: #8080ff; }
+
 /** datetime - Structure CSS **/
 .datetimepicker {
   display: block;
-  border: 3px solid #000080;
+  border: 3px solid navy;
   position: absolute;
-  box-shadow: 0 1px 3px 0 #000080;
+  box-shadow: 0 1px 3px 0 navy;
   z-index: 3;
   width: 290px; }
   .datetimepicker .datetimepickertopbar {
@@ -855,6 +900,63 @@ button {
       padding-top: 1%;
       padding-left: 42%; }
 
+.datetimepicker1 {
+  display: block;
+  border: 3px solid navy;
+  box-shadow: 0 1px 3px 0 navy;
+  z-index: 3;
+  width: 290px; }
+  .datetimepicker1 .datetimepickertopbar {
+    padding: 10px 25px;
+    text-align: center; }
+    .datetimepicker1 .datetimepickertopbar .title {
+      font-size: 18px;
+      cursor: pointer; }
+    .datetimepicker1 .datetimepickertopbar ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+    .datetimepicker1 .datetimepickertopbar ul li {
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 3px; }
+    .datetimepicker1 .datetimepickertopbar .prev {
+      float: left;
+      padding-top: 10px;
+      cursor: pointer; }
+    .datetimepicker1 .datetimepickertopbar .next {
+      float: right;
+      padding-top: 10px;
+      cursor: pointer; }
+  .datetimepicker1 .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    list-style: none; }
+    .datetimepicker1 .weekdays li {
+      display: inline-block;
+      width: 13.6%;
+      text-align: center; }
+  .datetimepicker1 .days {
+    padding: 10px 0;
+    margin: 0;
+    cursor: pointer;
+    list-style: none; }
+    .datetimepicker1 .days li {
+      list-style-type: none;
+      display: inline-block;
+      width: 13.6%;
+      height: 20px;
+      text-align: center;
+      margin-bottom: 5px;
+      font-size: 12px;
+      cursor: pointer; }
+    .datetimepicker1 .days .active {
+      border-radius: 135px;
+      padding: 5px; }
+    .datetimepicker1 .days .date-today {
+      padding-top: 1%;
+      padding-left: 42%; }
+
 .datetimepicker-up {
   bottom: 100%; }
 
@@ -863,10 +965,83 @@ button {
 
 .invaliddays {
   opacity: .40;
-  pointer-events: none; }
+  cursor: not-allowed; }
 
 .disabled {
   opacity: .40;
+  cursor: not-allowed; }
+
+.datedropdown {
+  display: block;
+  border: 3px solid navy;
+  box-shadow: 0 1px 3px 0 navy;
+  z-index: 3; }
+  .datedropdown li {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer; }
+
+.dropdiv1 {
+  width: 100%; }
+
+.dropspan1 {
+  float: left;
+  width: 25%; }
+
+.dropul1 {
+  list-style-type: none;
+  -webkit-padding-start: 5px; }
+
+.dropspan2 {
+  width: 25%;
+  float: left;
+  border-right: 1px solid navy; }
+
+.dropspan4 {
+  width: 25%;
+  display: table-row-group; }
+
+.dropul2 {
+  list-style-type: none;
+  -webkit-padding-start: 15px; }
+
+.dropiconpadding {
+  cursor: pointer;
+  -webkit-padding-start: 20px; }
+
+.btndiv1 {
+  position: relative;
+  bottom: 0; }
+
+.datedropbtn {
+  border: none;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+.dropbtnspan {
+  display: inline-flex;
+  padding-left: 105px; }
+
+.change4 {
+  padding-left: 3px;
+  padding-right: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30px; }
+
+.disablearrow {
+  opacity: .40;
+  cursor: not-allowed;
   pointer-events: none; }
 
 /****************************************************************************
@@ -878,11 +1053,11 @@ button {
   background-color: white; }
 
 .dropdown-list .list-items:hover {
-  color: #000080;
+  color: navy;
   background-color: #e6e6ff; }
 
 .dropdown-list .list-items-active {
-  color: #000080;
+  color: navy;
   background-color: #8080ff; }
 
 .drodown-caret-down {
@@ -890,7 +1065,7 @@ button {
 
 .list-items-selected {
   background-color: #e6e6ff;
-  color: #000080; }
+  color: navy; }
 
 /** dropdown - Structure CSS **/
 .dropdown {
@@ -902,7 +1077,7 @@ button {
   width: 100%;
   max-height: 200px;
   opacity: 1.01;
-  box-shadow: 0 1px 3px 0 #000080; }
+  box-shadow: 0 1px 3px 0 navy; }
 
 .dropdown-up {
   bottom: 100%; }
@@ -923,7 +1098,8 @@ button {
   font-weight: 400;
   margin: 1px 0;
   padding: .186em .313em;
-  text-align: left; }
+  text-align: left;
+  margin-left: 8px; }
 
 .drodown-caret-down {
   position: absolute;
@@ -953,18 +1129,18 @@ button {
 .input-control {
   font-size: 14px;
   background-color: white;
-  color: #000080; }
+  color: navy; }
 
 ::placeholder {
-  color: #000080; }
+  color: navy; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #000080; }
+  color: navy; }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #000080; }
+  color: navy; }
 
 .input-control:focus {
   border-color: #5cb3fd; }
@@ -1005,7 +1181,7 @@ button {
   line-height: 2;
   border-radius: 0px;
   border: none;
-  border-bottom: 2px solid #000080;
+  border-bottom: 2px solid navy;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; }
 
 .input-control:focus {
@@ -1023,7 +1199,7 @@ button {
   pointer-events: none; }
 
 .inputgroup .tooltiptext {
-  border: 3px solid #000080;
+  border: 3px solid navy;
   position: absolute;
   z-index: 1;
   padding-left: 5px; }
@@ -1034,12 +1210,12 @@ button {
 *****************************************************************************/
 /** fileupload - Visual CSS **/
 .upload-drop-zone {
-  color: #000080;
-  border-color: #000080; }
+  color: navy;
+  border-color: navy; }
 
 .upload-drop-zone.drop {
-  color: #000080;
-  border-color: #000080; }
+  color: navy;
+  border-color: navy; }
 
 /** fileupload - Structure CSS **/
 .upload-drop-zone {
@@ -1103,7 +1279,7 @@ textarea:required {
 /** collapsible-search - Structure CSS **/
 .search {
   background: #ededed url("search-icon.png") no-repeat 9px center;
-  border: solid 1px #000080;
+  border: solid 1px navy;
   padding: 9px 10px 9px 32px;
   outline: none;
   transition: all .5s;
@@ -1136,7 +1312,7 @@ textarea:required {
   left: 0;
   height: 20px;
   width: 20px;
-  border: 3px solid #000080;
+  border: 3px solid navy;
   border-radius: 50%; }
 
 /* Create the input-box-container-label/indicator (hidden when not checked) */
@@ -1163,15 +1339,15 @@ textarea:required {
 *****************************************************************************/
 /** checkbox - Visual CSS **/
 .input-box .default {
-  background: #ECEFF1; }
+  background: #eceff1; }
 
 .input-box .active {
-  background: #000080;
-  color: #000080; }
+  background: navy;
+  color: white; }
 
 /* When the checkbox is checked, add a blue background */
 .input-box-container input:checked ~ .input-box-checkbox-label {
-  background-color: #000080; }
+  background-color: navy; }
 
 .checkbox-disable {
   opacity: 0.55;
@@ -1200,10 +1376,10 @@ textarea:required {
   border-radius: 100%; }
 
 .input-box .default {
-  border: 3px solid #000080; }
+  border: 3px solid navy; }
 
 .input-box .active {
-  border: 3px solid #000080; }
+  border: 3px solid navy; }
 
 .input-box-container {
   display: block;
@@ -1227,7 +1403,7 @@ textarea:required {
   left: 0;
   height: 20px;
   width: 20px;
-  border: 3px solid #000080; }
+  border: 3px solid navy; }
 
 /* When the checkbox is checked, add a blue background */
 /* Create the input-box-container-label/indicator (hidden when not checked) */
@@ -1246,7 +1422,7 @@ textarea:required {
   top: 1px;
   width: 5px;
   height: 10px;
-  border: solid #000080;
+  border: solid navy;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg); }
 
@@ -1258,7 +1434,7 @@ textarea:required {
 .tag-input .tag {
   font-size: 11px;
   background-color: white;
-  color: #000080; }
+  color: navy; }
   .tag-input .tag .closebtn {
     font-size: 20px;
     color: #e6e6ff; }
@@ -1277,7 +1453,7 @@ textarea:required {
     padding: 0 13px;
     height: 30px;
     line-height: 30px;
-    border: 3px solid #000080; }
+    border: 3px solid navy; }
     .tag-input .tag .closebtn {
       padding-left: 10px;
       font-weight: bold;
@@ -1291,36 +1467,39 @@ textarea:required {
 /** notification - Visual CSS **/
 .notification {
   background-color: white;
-  color: #000080; }
+  color: navy; }
 
 /** notification - Structure CSS **/
 .notification-content {
   position: fixed;
   z-index: 3; }
 
-.notification-left {
+.notification-vertical-top {
+  top: 10%; }
+
+.notification-vertical-center {
+  left: 40%;
+  top: 50%; }
+
+.notification-vertical-bottom {
+  bottom: 10px; }
+
+.notification-horizontal-left {
   left: 10px; }
 
-.notification-right {
+.notification-horizontal-center {
+  left: 40%; }
+
+.notification-horizontal-right {
   right: 0px; }
-
-.notification-top {
-  top: 10px; }
-
-.notification-center {
-  top: 50%;
-  left: 50%; }
-
-.notification-bottom {
-  bottom: 10px; }
 
 .notification {
   margin: 10px;
-  padding: 10px;
+  padding: 12px;
+  bottom: 10px;
   min-width: 250px;
-  text-align: center;
+  text-align: start;
   border-radius: 2px;
-  padding: 16px;
   z-index: 1;
   display: block; }
   .notification i {
@@ -1333,7 +1512,7 @@ textarea:required {
 /** progress - Visual CSS **/
 .progress {
   position: relative;
-  background: #ECEFF1; }
+  background: #eceff1; }
   .progress .success {
     background-color: #5cb85c; }
   .progress .warning {
@@ -1376,8 +1555,10 @@ textarea:required {
 @-webkit-keyframes move {
   0% {
     background-position: 0 0; }
+
   100% {
     background-position: 50px 50px; } }
+
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none; }
 
@@ -1390,11 +1571,11 @@ textarea:required {
   font-style: normal; }
 
 .star-icon {
-  color: #000080;
+  color: navy;
   font-size: 2em; }
 
 .star-icon:before {
-  color: #000080; }
+  color: navy; }
 
 .rating.disabled .star-icon:before {
   color: #a09e9e; }
@@ -1403,6 +1584,7 @@ textarea:required {
   /* Firefox Hack */
   .star-icon {
     font-size: 50px; } }
+
 /** rating - Structure CSS **/
 .rating {
   cursor: pointer;
@@ -1419,9 +1601,9 @@ textarea:required {
   font-style: normal; }
 
 .star-icon {
-  color: #000080;
+  color: navy;
   position: relative;
-  border-color: 3px solid #000080; }
+  border-color: 3px solid navy; }
 
 .star-icon:before {
   content: attr(data-icon) " ";
@@ -1467,6 +1649,7 @@ textarea:required {
   /* Firefox Hack */
   .star-icon {
     line-height: 34px; } }
+
 /****************************************************************************
     Component Name : Toggle
     Version : Amexio v4.0 onwards
@@ -1495,7 +1678,7 @@ input:checked + .toggle-slider {
 .toggle-slider {
   position: absolute;
   cursor: pointer;
-  border: 3px solid #000080;
+  border: 3px solid navy;
   top: 0;
   left: 0;
   right: 0;
@@ -1514,7 +1697,7 @@ input:checked + .toggle-slider {
   transition: .4s; }
 
 input:focus + .toggle-slider {
-  box-shadow: 0 0 1px #000080; }
+  box-shadow: 0 0 1px navy; }
 
 input:checked + .toggle-slider:before {
   -webkit-transform: translateX(26px);
@@ -1524,7 +1707,7 @@ input:checked + .toggle-slider:before {
 /* Rounded sliders */
 .round {
   border-radius: 34px;
-  border: 3px solid #000080; }
+  border: 3px solid navy; }
 
 .round:before {
   border-radius: 50%; }
@@ -1542,7 +1725,7 @@ input:checked + .toggle-slider:before {
 
 .ui-widget-content {
   background: white;
-  color: #000080; }
+  color: navy; }
 
 .ui-widget {
   font-size: 1em; }
@@ -1552,7 +1735,7 @@ input:checked + .toggle-slider:before {
 
 .ui-slider .ui-slider-range {
   font-size: 0.7em;
-  background: #000080;
+  background: navy;
   /** use card header here **/ }
 
 .ui-widget-header {
@@ -1717,10 +1900,11 @@ input:checked + .toggle-slider:before {
 /** label - Visual CSS **/
 .label-badge {
   color: white;
-  background-color: #000080; }
+  background-color: navy; }
 
 /** label - Structure CSS **/
 .label-badge {
+  margin-left: 10px;
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
@@ -1733,7 +1917,8 @@ input:checked + .toggle-slider:before {
   border-radius: 10px; }
 
 .large {
-  font-size: 36px; }
+  font-size: 36px;
+  line-height: 34px; }
 
 .medium {
   font-size: 20px; }
@@ -1743,7 +1928,8 @@ input:checked + .toggle-slider:before {
 
 .large-bold {
   font-size: 36px;
-  font-weight: bold; }
+  font-weight: bold;
+  line-height: 40px; }
 
 .medium-bold {
   font-size: 20px;
@@ -1759,38 +1945,38 @@ input:checked + .toggle-slider:before {
 *****************************************************************************/
 /** box - Visual CSS **/
 .bg-highlight {
-  color: #000080;
+  color: navy;
   background-color: #ffeb3b; }
 
 .bg-red {
-  color: #000080;
+  color: navy;
   background-color: #ffcab6; }
 
 .bg-green {
-  color: #000080;
+  color: navy;
   background-color: #99ff99; }
 
 .bg-yellow {
-  color: #000080;
+  color: navy;
   background-color: #ffe766; }
 
 .bg-blue {
-  color: #000080;
+  color: navy;
   background-color: #ccf2ff; }
 
 .bg-purple {
-  color: #000080;
+  color: navy;
   background-color: #ffccff; }
 
 .bg-brown {
-  color: #000080;
+  color: navy;
   background-color: #fbdbbf; }
 
 .box-default {
   background-color: white; }
 
 .bg-theme-color {
-  color: #000080;
+  color: navy;
   background-color: #e6e6ff; }
 
 /** box - Structure CSS **/
@@ -1818,25 +2004,25 @@ input:checked + .toggle-slider:before {
   border-left: 6px solid !important; }
 
 .box-default {
-  border-color: #000080; }
+  border-color: navy; }
 
 .padding {
   padding: 8px 8px 8px 8px; }
 
 .border-red {
-  border-color: #dc143c !important; }
+  border-color: crimson !important; }
 
 .border-blue {
-  border-color: #00008b !important; }
+  border-color: darkblue !important; }
 
 .border-green {
-  border-color: #2e8b57 !important; }
+  border-color: seagreen !important; }
 
 .border-brown {
-  border-color: #800000 !important; }
+  border-color: maroon !important; }
 
 .border-purple {
-  border-color: #8b008b !important; }
+  border-color: darkmagenta !important; }
 
 .border-yellow {
   border-color: #ff9900 !important; }
@@ -1851,7 +2037,7 @@ input:checked + .toggle-slider:before {
   border-style: dotted; }
 
 .border-theme-color {
-  border-color: #000080; }
+  border-color: navy; }
 
 /****************************************************************************
     Component Name : Image
@@ -1859,7 +2045,7 @@ input:checked + .toggle-slider:before {
 *****************************************************************************/
 /** image - Visual CSS **/
 .profile-image a {
-  color: #000080; }
+  color: navy; }
 
 /** image - Structure CSS **/
 .profile-image img {
@@ -1887,8 +2073,8 @@ input:checked + .toggle-slider:before {
 .image-responsive {
   max-width: 100%;
   width: 100%;
-  border-top: 1px solid #000080;
-  border-bottom: 1px solid #000080;
+  border-top: 1px solid navy;
+  border-bottom: 1px solid navy;
   margin-top: 10px;
   margin-bottom: 10px; }
 
@@ -1945,8 +2131,8 @@ input:checked + .toggle-slider:before {
   filter: opacity(50%); }
 
 .image-shadow {
-  -webkit-filter: drop-shadow(8px 8px 10px #000080);
-  filter: drop-shadow(8px 8px 10px #000080); }
+  -webkit-filter: drop-shadow(8px 8px 10px navy);
+  filter: drop-shadow(8px 8px 10px navy); }
 
 .img-fluid {
   max-width: 100%;
@@ -2155,7 +2341,7 @@ input:checked + .toggle-slider:before {
 *****************************************************************************/
 /** float-button - Visual CSS **/
 .button-float {
-  background-color: #000080;
+  background-color: navy;
   color: white; }
 
 /** float-button - Structure CSS **/
@@ -2179,7 +2365,7 @@ input:checked + .toggle-slider:before {
   background-color: #ffffff; }
 
 .floatingbutton-theme-color {
-  background-color: #000080;
+  background-color: navy;
   color: white; }
 
 .floatingbutton-green {
@@ -2196,7 +2382,7 @@ input:checked + .toggle-slider:before {
 
 .floatingbutton-default-disabled {
   background-color: #a09e9e;
-  color: #000080; }
+  color: navy; }
 
 .floatingbutton-theme-color-disabled {
   background-color: #0000e6;
@@ -2219,7 +2405,7 @@ input:checked + .toggle-slider:before {
   z-index: 3;
   text-align: center;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  border-color: #000080;
+  border-color: navy;
   cursor: pointer; }
 
 .floatingbutton-relative {
@@ -2278,7 +2464,7 @@ input:checked + .toggle-slider:before {
 *****************************************************************************/
 /** dropdownmenu - Visual CSS **/
 .dropdown-menu {
-  background-color: #000080;
+  background-color: navy;
   color: white; }
 
 .dropdown-menu-content {
@@ -2286,14 +2472,14 @@ input:checked + .toggle-slider:before {
   box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
 
 .dropdown-menu-content .dropdowndivider {
-  border-bottom: solid 1px #000080; }
+  border-bottom: solid 1px navy; }
 
 .nav-dropdown-content .dropdowndivider {
-  border-bottom: solid 1px #000080; }
+  border-bottom: solid 1px navy; }
 
 .dropdown-menu-content a:hover {
   background-color: #e6e6ff;
-  color: #000080; }
+  color: navy; }
 
 /** dropdownmenu - Structure CSS **/
 .dropdown-menu {
@@ -2332,10 +2518,10 @@ input:checked + .toggle-slider:before {
   background-color: white; }
 
 .toolbaritemseperatorleft {
-  border-left: 1px solid #000080; }
+  border-left: 1px solid navy; }
 
 .toolbaritemseperatorright {
-  border-right: 1px solid #000080; }
+  border-right: 1px solid navy; }
 
 /** Toolbar - Structure CSS **/
 .toolbar {
@@ -2378,29 +2564,29 @@ input:checked + .toggle-slider:before {
 ****************************************************************************/
 /** Searchbox - Visual CSS **/
 .hrclass {
-  border-color: #000080; }
+  border-color: navy; }
 
 .advancesearchform {
   background-color: white;
-  border-color: #000080; }
+  border-color: navy; }
 
 .input-group-text-search {
-  background-color: #000080;
-  border-color: #000080; }
+  background-color: navy;
+  border-color: navy; }
 
 .form-control {
-  color: #000080;
+  color: navy;
   background-color: white;
-  border-color: #000080; }
+  border-color: navy; }
 
 .search-form-label {
-  color: #000080; }
+  color: navy; }
 
 .iconColor {
   color: white; }
 
 .advancesearchbtn {
-  background-color: #000080;
+  background-color: navy;
   color: white; }
 
 .search-dropdown-list .search-list-items {
@@ -2413,7 +2599,7 @@ input:checked + .toggle-slider:before {
   background-color: #e6e6ff !important; }
 
 .search-dropdown-list {
-  border-color: #000080;
+  border-color: navy;
   background-color: white; }
 
 /** Searchbox - Structure CSS **/
@@ -2514,7 +2700,8 @@ input:checked + .toggle-slider:before {
 
 .advancesearchbtn {
   height: 37px;
-  font-weight: bold; }
+  font-weight: bold;
+  cursor: pointer; }
 
 /****************************************************************************
     Component Name : Enterprise Content
@@ -2522,23 +2709,23 @@ input:checked + .toggle-slider:before {
 *****************************************************************************/
 /** enterprise-content - Visual CSS **/
 .content-title {
-  color: #000080; }
+  color: navy; }
 
 .content-area {
-  color: #000080; }
+  color: navy; }
 
 /* Button Related CSS */
 .content-button {
-  color: #000080; }
+  color: navy; }
 
 header .billboard .content-button {
-  color: #000080; }
+  color: navy; }
 
 .content-button i {
-  color: #000080; }
+  color: navy; }
 
 .content-button-small i {
-  color: #000080; }
+  color: navy; }
 
 .close-button {
   color: gray; }
@@ -2692,7 +2879,7 @@ header .billboard .content-button {
 .close-button {
   cursor: pointer;
   padding-left: 98%;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
 
 /****************************************************************************
     Component Name : Enterprise Youtube
@@ -2701,7 +2888,7 @@ header .billboard .content-button {
 /** enterprise-youtube - Visual CSS **/
 .close-button {
   color: grey;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
 
 .close-button i:hover {
   color: red; }
@@ -2725,21 +2912,21 @@ header .billboard .content-button {
   font-size: 20px; }
 
 .tile__details {
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
 
 .tile__details:after,
 .tile__details:before {
-  display: #000; }
+  display: black; }
 
 .tile__details_v {
   font-size: 10px;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
 
 .tile__details_v:after,
 .tile__details_v:before {
-  display: #000; }
+  display: black; }
 
 .tile__title {
   color: white; }
@@ -2751,14 +2938,14 @@ header .billboard .content-button {
   color: dimgrey; }
 
 .textonly {
-  color: #000080;
+  color: navy;
   background-color: transparent; }
 
 .match {
   color: lightgreen; }
 
 .age {
-  color: #000080; }
+  color: navy; }
 
 .actionpanel {
   color: red;
@@ -2863,7 +3050,7 @@ header .billboard .content-button {
   position: absolute;
   top: 50%;
   left: 50%;
-  display: #000; }
+  display: black; }
 
 .tile__details_v:after {
   margin-top: -25px;
@@ -2992,10 +3179,10 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Datapoints - Visual CSS **/
 .datapoints .datapoints-north {
-  color: #6F2DA8; }
+  color: #6f2da8; }
 .datapoints .datapoint-south {
-  background-color: #6F2DA8;
-  color: #6F2DA8; }
+  background-color: #6f2da8;
+  color: #6f2da8; }
 .datapoints .datapoint-west {
   padding: 5px; }
 .datapoints .datapoint-east {
@@ -3003,14 +3190,14 @@ header .billboard .content-button {
 
 .datapoint {
   background: white;
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 /** Datapoints - Structure CSS **/
 .datapoints {
   font-size: 125%;
   /* Border */
   border-radius: 0px;
-  border: 3px solid #000080;
+  border: 3px solid navy;
   padding: 0px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
   .datapoints .datapoints {
@@ -3031,16 +3218,19 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Datatable - Structure CSS **/
 .datatable-height::-webkit-scrollbar-track {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
+
+.datagrid amexio-datagrid-header > * {
+  padding: 3px; }
 
 .datatable-height::-webkit-scrollbar {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .datatable-height::-webkit-scrollbar-thumb {
   background-color: white; }
 
 .datatable .datatable-header {
-  background-color: #000080;
+  background-color: navy;
   color: white; }
 
 .datatable .datatable-row:hover {
@@ -3051,7 +3241,7 @@ header .billboard .content-button {
   background-color: #8080ff !important; }
 
 .datatable-row:nth-child(odd) {
-  background-color: #ECEFF1; }
+  background-color: #eceff1; }
 
 /** Datatable - Visual CSS **/
 .datatabletitle {
@@ -3060,7 +3250,7 @@ header .billboard .content-button {
 
 .datatable {
   display: table;
-  border: 3px solid #000080;
+  border: 3px solid navy;
   border-collapse: collapse;
   margin: 0;
   padding: 0;
@@ -3086,14 +3276,13 @@ header .billboard .content-button {
 .datatable .datatable-header {
   display: table-header-group;
   text-align: left;
-  font-size: larger;
   cursor: pointer; }
 
 .datatable .datatable-col {
   vertical-align: middle; }
 
 .datatable .datatable-row {
-  border: 3px solid #000080;
+  border: 3px solid navy;
   display: table-row;
   height: 50px; }
 
@@ -3103,7 +3292,8 @@ header .billboard .content-button {
 .datatable .datatable-col {
   display: table-cell;
   padding: .625em;
-  text-align: left; }
+  text-align: left;
+  overflow-wrap: break-word; }
 
 .footer {
   margin: .1em 0 .35em;
@@ -3130,11 +3320,11 @@ header .billboard .content-button {
 /** Horizontaltreeview - Visual CSS **/
 .horizontaltreeview-node-label {
   background-color: #8080ff;
-  color: #000080; }
+  color: navy; }
 
 .horizontaltreeview-node-label:hover {
   border-color: #4d4dff;
-  color: #000080;
+  color: navy;
   background-color: #e6e6ff; }
 
 /** Horizontaltreeview - Structure CSS **/
@@ -3219,7 +3409,7 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Itemselector - Visual CSS **/
 .item-selector-action-panel .actionbar .actionbarinner .action {
-  background-color: #000080;
+  background-color: navy;
   color: white; }
 .item-selector-action-panel .actionbar .actionbarinner .actiondisable {
   background-color: #a09e9e; }
@@ -3277,10 +3467,10 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Listbox - Visual CSS **/
 .listbox-height::-webkit-scrollbar-track {
-  background-color: #000080; }
+  background-color: navy; }
 
 .listbox-height::-webkit-scrollbar {
-  background-color: #000080; }
+  background-color: navy; }
 
 .listbox-height::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -3301,7 +3491,7 @@ header .billboard .content-button {
 /** Listbox - Structure CSS **/
 .listbox {
   margin-bottom: 1rem;
-  border: 3px solid #000080; }
+  border: 3px solid navy; }
 
 .listbox-height {
   overflow-y: auto;
@@ -3324,7 +3514,7 @@ header .billboard .content-button {
 
 .listbox .list .list-items {
   list-style: none;
-  border-bottom: 3px solid #000080;
+  border-bottom: 3px solid navy;
   cursor: pointer;
   font-weight: 400;
   margin: 1px 0;
@@ -3356,11 +3546,30 @@ header .billboard .content-button {
 }*/
 .tree-node-label-hover:hover {
   background-color: #e6e6ff;
-  color: #000080; }
+  color: navy; }
 
 .treenode-label-active {
   background-color: #8080ff;
-  color: #000080; }
+  color: navy; }
+
+.tree-badge {
+  background-color: navy;
+  color: white; }
+
+.context-menu-list li:hover {
+  background-color: #e6e6ff;
+  color: navy; }
+
+.context-menu-list-items-selected {
+  background-color: #8080ff !important;
+  color: navy; }
+
+.tree-node-label-selected {
+  background-color: #8080ff;
+  color: navy; }
+
+.context-menu-separator {
+  border-bottom: 1px solid gray; }
 
 /** Treenode - Structure CSS **/
 .treeview {
@@ -3405,8 +3614,45 @@ header .billboard .content-button {
 
 .tree-node-label {
   white-space: nowrap;
-  display: inline;
+  display: inline-block;
+  vertical-align: middle;
   cursor: pointer; }
+
+.tree-node-label-hover {
+  width: 100%; }
+
+.tree-badge {
+  margin-left: 10px;
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 10px; }
+
+.context-menu-list {
+  display: block;
+  position: absolute;
+  flex-direction: column;
+  min-width: 180px;
+  cursor: pointer;
+  max-height: 150px;
+  z-index: 1;
+  padding: 10px 0px;
+  overflow-y: auto;
+  background-color: white !important;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
+
+.context-menu-list .context-menu-list-items {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px !important;
+  padding: 5px;
+  display: block; }
 
 /****************************************************************************
     Component Name : Border Layout
@@ -3434,7 +3680,8 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'north north north north north north' 'east center center center center west' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px; }
+  padding: 2px;
+  grid-template-columns: auto; }
 
 .borderlayout-container-N-E-C-W-S aside {
   border: 0px solid none; }
@@ -3444,7 +3691,8 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'north north north north north north' 'east center center center center center' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px; }
+  padding: 2px;
+  grid-template-columns: auto; }
 
 .borderlayout-container-N-E-C-S aside {
   border: 0px solid none; }
@@ -3454,7 +3702,8 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'north north north north north north' 'center center center center center west' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px; }
+  padding: 2px;
+  grid-template-columns: auto; }
 
 .borderlayout-container-N-C-W-S aside {
   border: 0px solid none; }
@@ -3464,7 +3713,8 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'east center center center center west' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px; }
+  padding: 2px;
+  grid-template-columns: auto; }
 
 .borderlayout-container-E-C-W-S aside {
   border: 0px solid none; }
@@ -3474,7 +3724,8 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'north north north north north north' 'center center center center center center' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px; }
+  padding: 2px;
+  grid-template-columns: auto; }
 
 .borderlayout-container-N-C-S aside {
   border: 0px solid none; }
@@ -3484,7 +3735,8 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'east center center center center center' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px; }
+  padding: 2px;
+  grid-template-columns: auto; }
 
 .borderlayout-container-E-C-S aside {
   border: 0px solid none; }
@@ -3494,7 +3746,8 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'center center center center center west' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px; }
+  padding: 2px;
+  grid-template-columns: auto; }
 
 .borderlayout-container-C-W-S aside {
   border: 0px solid none; }
@@ -3504,7 +3757,8 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'north north north north north north' 'center center center center center center';
   grid-gap: 2px;
-  padding: 2px; }
+  padding: 2px;
+  grid-template-columns: auto; }
 
 .borderlayout-container-N-C aside {
   border: 0px solid none; }
@@ -3514,7 +3768,8 @@ header .billboard .content-button {
   display: grid;
   grid-template-areas: 'center center center center center center' 'south south south south south south';
   grid-gap: 2px;
-  padding: 2px; }
+  padding: 2px;
+  grid-template-columns: auto; }
 
 .borderlayout-container-C-S aside {
   border: 0px solid none; }
@@ -3599,14 +3854,14 @@ header .billboard .content-button {
 *****************************************************************************/
 /** menubar - Visual CSS **/
 .menubar .menuheader .menulink a {
-  color: #000080; }
+  color: navy; }
 
 .menubar .menuheader .menulink:hover a {
-  color: #000080; }
+  color: navy; }
 
 .menulink:hover {
   background-color: #e6e6ff;
-  color: #000080; }
+  color: navy; }
 
 .menu-content {
   background: white; }
@@ -3616,17 +3871,17 @@ header .billboard .content-button {
 
 .menu-content .menu-content-cols .content .menu-links-header {
   font-weight: bold;
-  color: #000080; }
+  color: navy; }
 
 .menu-content .menu-content-cols .content .menu-links-header:hover {
-  color: #000080;
+  color: navy;
   background-color: #e6e6ff; }
 
 .menu-content .menu-content-cols .content .menulinks {
-  color: #000080; }
+  color: navy; }
 
 .menu-content .menu-content-cols .content .menulinks:hover {
-  color: #000080;
+  color: navy;
   background-color: #e6e6ff; }
 
 /** menubar - Structure CSS **/
@@ -3666,7 +3921,7 @@ header .billboard .content-button {
   padding: 10px;
   position: fixed;
   z-index: 99;
-  box-shadow: 0 0 5px 0 #000080; }
+  box-shadow: 0 0 5px 0 navy; }
 
 .menu-content-display {
   display: block !important; }
@@ -3698,7 +3953,7 @@ header .billboard .content-button {
   padding-right: 10px; }
 
 .menu-content .menu-content-cols .content .menu-links-header {
-  border-bottom: 1px solid #000080;
+  border-bottom: 1px solid navy;
   padding: 10px;
   cursor: pointer; }
 
@@ -3714,46 +3969,46 @@ header .billboard .content-button {
 /** navbar - Visual CSS **/
 .topnav {
   background-color: white;
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .top-nav-button {
   background-color: inherit;
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .topnav a {
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .topnav a label {
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .topnavbarunit2-mobile {
   background-color: white;
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .topnavmainbarinneritems .nav-dropdown-content {
   background-color: white;
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .topnavmainbarinneritems-mobile .nav-dropdown-content {
   background-color: white;
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .topnavmainbarinneritems .nav-dropdown-content a {
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .topnavmainbarinneritems .nav-dropdown-content a:hover {
   background-color: #e6e6ff;
-  color: #000080 !important; }
+  color: navy !important; }
 
 .nav-dropdown:active {
   background-color: white;
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .topnavmainbarinneritems-mobile .top-nav-input-control {
   width: 100%; }
 
 .mobilebar {
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .topnav input {
   background-color: inherit;
@@ -3761,10 +4016,10 @@ header .billboard .content-button {
 
 .nav-dropdown:hover .nav-dropdown-content .nav-menu-container {
   background-color: white;
-  color: #000080; }
+  color: navy; }
 
 .nav-dropdown:hover .nav-dropdown-content .nav-menu-container a {
-  color: #000080; }
+  color: navy; }
 
 /** navbar - Structure CSS **/
 .topnav {
@@ -3787,7 +4042,7 @@ header .billboard .content-button {
   border-radius: 0px;
   padding: 0px 8px;
   border: none;
-  border-bottom: 2px solid #000080;
+  border-bottom: 2px solid navy;
   font-size: 1rem;
   line-height: 1.5;
   outline: none; }
@@ -3814,7 +4069,7 @@ header .billboard .content-button {
 
 .topnavbarunit2-mobile {
   width: 100%;
-  box-shadow: 0px 0px 2px 0px #000080; }
+  box-shadow: 0px 0px 2px 0px navy; }
 
 .topnavmainbar {
   display: flex;
@@ -3837,7 +4092,7 @@ header .billboard .content-button {
 
 .topnavmainbarinneritems-mobile {
   width: 100%;
-  border-bottom: 1px solid #000080; }
+  border-bottom: 1px solid navy; }
 
 .topnavmainbarinneritems .nav-dropdown {
   float: left;
@@ -3916,11 +4171,11 @@ header .billboard .content-button {
 
 .paginator .paginator-pages .paginator-page:hover {
   background-color: #e6e6ff;
-  color: #000080; }
+  color: navy; }
 
 .paginator .paginator-pages .active {
   background-color: #8080ff;
-  color: #000080; }
+  color: navy; }
 
 /** paginator - Structure CSS **/
 .paginator {
@@ -3944,7 +4199,7 @@ header .billboard .content-button {
   margin-right: .063em;
   text-decoration: none;
   vertical-align: middle;
-  border: 3px solid #000080;
+  border: 3px solid navy;
   border-radius: 5px; }
 
 /****************************************************************************
@@ -3953,23 +4208,23 @@ header .billboard .content-button {
 *****************************************************************************/
 /** sidenav - Visual CSS **/
 .sidenav-mobile-bar {
-  color: #000080; }
+  color: navy; }
 
 .sidenav-mobile-bar-left {
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .sidenav-mobile-bar-right {
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .sidenav {
   background-color: white;
-  color: #000080; }
+  color: navy; }
 
 .sidenav::-webkit-scrollbar-track {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .sidenav::-webkit-scrollbar {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .sidenav::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -3982,26 +4237,30 @@ header .billboard .content-button {
 
 .sidenav .title {
   background-color: white;
-  color: #000080; }
+  color: navy; }
 
 .sidenav .headernode {
   background-color: white;
-  color: #000080; }
+  color: navy; }
 
 .sidenav .headernode:hover {
   background-color: #e6e6ff;
-  color: #000080; }
+  color: navy; }
 
 .sidenav .defaultnode:hover {
   background-color: #e6e6ff;
-  color: #000080; }
+  color: navy; }
 
 .sidenav .activenode {
   background-color: #8080ff;
   color: inherit; }
 
 .sidenav .border {
-  border-bottom: 3px solid #000080; }
+  border-bottom: 3px solid navy; }
+
+.nav-badge {
+  background-color: navy;
+  color: white; }
 
 /** sidenav - Structure CSS **/
 .sidenav-mobile-bar {
@@ -4036,14 +4295,14 @@ header .billboard .content-button {
   position: fixed;
   overflow: auto;
   z-index: 1;
-  box-shadow: 0 0 5px 0 #000080; }
+  box-shadow: 0 0 5px 0 navy; }
 
 .right {
   right: 0;
   position: fixed;
   overflow: auto;
   z-index: 1;
-  box-shadow: 0 0 5px 0 #000080; }
+  box-shadow: 0 0 5px 0 navy; }
 
 .sidenav ul {
   list-style: none;
@@ -4075,7 +4334,7 @@ header .billboard .content-button {
 .sidenav .border {
   padding-left: 100%;
   margin-left: -100%;
-  border-bottom: 3px solid #000080; }
+  border-bottom: 3px solid navy; }
 
 .sidenav .headernode .node-icon {
   padding-right: 20px; }
@@ -4098,14 +4357,27 @@ header .billboard .content-button {
   max-height: 1000px;
   overflow: auto; }
 
+.nav-badge {
+  margin-left: 10px;
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 10px; }
+
 /****************************************************************************
     Component Name : Dockbar
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** dockbar - Visual CSS **/
 .dockbar {
-  background-color: #000080;
-  color: #000080; }
+  background-color: navy;
+  color: navy; }
 
 .dockbar-content {
   background-color: white; }
@@ -4113,29 +4385,29 @@ header .billboard .content-button {
 /* Style the buttons inside the tab */
 .dockbar button {
   background-color: inherit;
-  color: #000080; }
+  color: navy; }
 
 /* Change background color of buttons on hover */
 .dockbar button:hover {
   background-color: #8080ff;
-  color: #000080; }
+  color: navy; }
 
 /* Create an active/current "tab button" class */
 .dockbar button.active {
   background-color: #8080ff;
-  color: #000080; }
+  color: navy; }
 
 .dockbar-label-highlight {
   color: black; }
 
 .dockbar-item-close-bar {
-  color: #6F2DA8; }
+  color: #6f2da8; }
 
 .dockbar-height::-webkit-scrollbar-track {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .dockbar-height::-webkit-scrollbar {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .dockbar-height::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4145,8 +4417,8 @@ header .billboard .content-button {
   float: left;
   width: 70px;
   position: relative;
-  border-top: 3px solid #000080;
-  border-bottom: 5px solid #000080; }
+  border-top: 3px solid navy;
+  border-bottom: 5px solid navy; }
 
 /* Style the buttons inside the tab */
 .dockbar button {
@@ -4159,13 +4431,13 @@ header .billboard .content-button {
   cursor: pointer;
   transition: 0.3s;
   font-size: 17px;
-  border-bottom: 3px solid #000080;
-  border-left: 3px solid #000080;
+  border-bottom: 3px solid navy;
+  border-left: 3px solid navy;
   height: 50px; }
 
 /* Create an active/current "tab button" class */
 .dockbar button.active {
-  border-left: 3px solid #6F2DA8; }
+  border-left: 3px solid #6f2da8; }
 
 .dockbar-label-highlight {
   font-weight: bold; }
@@ -4180,12 +4452,12 @@ header .billboard .content-button {
   font-size: 17px;
   font-weight: 500;
   padding: 15px 10px 10px 10px;
-  border-bottom: 1px solid #6F2DA8; }
+  border-bottom: 1px solid #6f2da8; }
 
 .dockbar-active-content {
-  border-top: 3px solid #6F2DA8;
-  border-right: 3px solid #6F2DA8;
-  border-bottom: 3px solid #6F2DA8;
+  border-top: 3px solid #6f2da8;
+  border-right: 3px solid #6f2da8;
+  border-bottom: 3px solid #6f2da8;
   height: 100%; }
 
 .dockbar-height {
@@ -4204,23 +4476,32 @@ header .billboard .content-button {
 *****************************************************************************/
 /** accordion - Visual CSS **/
 .accordion {
-  background-color: #000080;
+  background-color: navy;
   color: white; }
 
 .accordion .active-accordion, .accordion:hover {
   background-color: #8080ff;
-  color: #000080; }
+  color: navy; }
 
 .accordion:after {
   color: red; }
 
+.accordion amexio-accordion-header > * {
+  padding: 5px; }
+
 .panel {
   background-color: white;
-  color: #000080; }
+  color: navy; }
 
 /** Transparent Styling **/
 .accordion-transparent {
   background: white; }
+
+.accordion amexio-accordion-header {
+  color: white; }
+
+.accordion-transparent amexio-accordion-header > * {
+  padding: 5px; }
 
 .accordion-transparent:after {
   color: red; }
@@ -4230,7 +4511,7 @@ header .billboard .content-button {
   cursor: pointer;
   padding: 10px;
   width: 100%;
-  border-color: #000080;
+  border-color: navy;
   text-align: left;
   outline: none;
   font-size: 15px;
@@ -4256,7 +4537,7 @@ header .billboard .content-button {
   font-size: 15px;
   transition: 0.4s;
   box-shadow: none;
-  border-top: 3px solid #000080; }
+  border-top: 3px solid navy; }
 
 .accordion-transparent:after {
   font-weight: bold;
@@ -4274,17 +4555,22 @@ header .billboard .content-button {
 /** cards - Visual CSS **/
 .card-container {
   background-color: white;
-  color: #000080; }
+  color: navy; }
 
 .card-header {
-  background: #000080;
+  background: navy;
   color: white; }
 
+.card-header .toolbar {
+  background-color: unset;
+  box-shadow: unset;
+  padding: 0px; }
+
 .cardbody::-webkit-scrollbar-track {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .cardbody::-webkit-scrollbar {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .cardbody::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4298,8 +4584,9 @@ header .billboard .content-button {
   position: relative;
   display: flex;
   flex-direction: column;
-  border: 3px solid #000080;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14); }
+  border: 3px solid navy;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  height: 100%; }
 
 .card-container > * {
   padding: 10px;
@@ -4308,7 +4595,7 @@ header .billboard .content-button {
 .card-header {
   display: flex;
   padding: 10px 24px;
-  border-bottom: 3px solid #000080;
+  border-bottom: 3px solid navy;
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize; }
@@ -4324,11 +4611,12 @@ header .billboard .content-button {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
 
 .cardbody::-webkit-scrollbar {
-  width: 6px; }
+  width: 6px;
+  height: 6px; }
 
 .card-footer {
   display: flex;
-  border-top: 3px solid #000080; }
+  border-top: 3px solid navy; }
 
 /****************************************************************************
     Component Name : Form
@@ -4337,21 +4625,27 @@ header .billboard .content-button {
 /** cards - Visual CSS **/
 .form-container {
   background-color: white;
-  color: #000080; }
+  color: navy; }
 
 .form-error {
-  color: #000080;
+  color: navy;
   font-weight: bold; }
 
 .form-header {
-  background: #000080;
+  background: navy;
   color: white; }
 
+.form-header .toolbar {
+  background-color: unset;
+  box-shadow: unset;
+  padding: 0px;
+  overflow: none; }
+
 .formbody::-webkit-scrollbar-track {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .formbody::-webkit-scrollbar {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .formbody::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4362,14 +4656,14 @@ header .billboard .content-button {
 
 .form-tooltip .form-tooltiptext {
   background-color: #e6e6ff;
-  color: #000080; }
+  color: navy; }
 
 /** cards - Structure CSS **/
 .form-container {
   position: relative;
   display: flex;
   flex-direction: column;
-  border: 3px solid #000080;
+  border: 3px solid navy;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14); }
 
 .form-container > * {
@@ -4379,7 +4673,7 @@ header .billboard .content-button {
 .form-header {
   display: flex;
   padding: 10px 24px;
-  border-bottom: 3px solid #000080;
+  border-bottom: 3px solid navy;
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize;
@@ -4400,7 +4694,7 @@ header .billboard .content-button {
 
 .form-footer {
   display: flex;
-  border-top: 3px solid #000080; }
+  border-top: 3px solid navy; }
 
 .form-tooltip {
   position: relative;
@@ -4441,7 +4735,7 @@ header .billboard .content-button {
 /** fieldset - Visual CSS **/
 /** fieldset - Structure CSS **/
 fieldset {
-  border: 3px solid #000080;
+  border: 3px solid navy;
   border-radius: 2px; }
 
 .collapsible-legend {
@@ -4466,24 +4760,24 @@ fieldset {
 *****************************************************************************/
 /** steps - Visual CSS **/
 .step-label-highlight {
-  color: #000080;
+  color: navy;
   font-weight: bold; }
 
 .stepwizard-step p {
   color: #a09e9e; }
 
 .step-block-icon-disable {
-  color: #000080; }
+  color: navy; }
 
 .stepwizard-row:before {
-  background-color: #ECEFF1; }
+  background-color: #eceff1; }
 
 .btn-circle {
   font-size: 12px; }
 
 .step-box-table-item {
-  background-color: #ECEFF1;
-  color: #000080; }
+  background-color: #eceff1;
+  color: navy; }
 
 .step-box-table-item.active {
   background-color: #8080ff !important; }
@@ -4536,7 +4830,7 @@ fieldset {
   white-space: nowrap;
   outline: none;
   user-select: none;
-  border: 1px solid #000080;
+  border: 1px solid navy;
   transition: all .2s ease-in-out;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -4556,7 +4850,7 @@ fieldset {
   text-align: center;
   vertical-align: middle;
   line-height: 15px;
-  border: 1px solid #000080;
+  border: 1px solid navy;
   padding-top: 5px;
   cursor: pointer; }
 
@@ -4579,16 +4873,16 @@ fieldset {
 /** tab - Visual CSS **/
 .verticalnavtab .defaultnode {
   background-color: white;
-  color: #000080; }
+  color: navy; }
 
 .verticalnavtab .leftactivetab {
   background-color: #8080ff;
   font-weight: bold;
-  color: #000080; }
+  color: navy; }
 
 .verticalnavtab .rightactivetab {
   background-color: #8080ff;
-  color: #000080; }
+  color: navy; }
 
 /** Theme Colors for Tab*/
 /** CSS Class definitions for the Amexio Colors --- */
@@ -4597,8 +4891,8 @@ fieldset {
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-bottom-tab-red {
-  color: #dc143c;
-  border-top: 1px solid #dc143c !important; }
+  color: crimson;
+  border-top: 1px solid crimson !important; }
 
 /** Amexio Colors --- 
    SeaGreen: #2e8b57 rgb(46,139,87,0.0);
@@ -4613,56 +4907,56 @@ fieldset {
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-bottom-tab-purple {
-  border-top: 1px solid #8b008b !important;
-  color: #8b008b; }
+  border-top: 1px solid darkmagenta !important;
+  color: darkmagenta; }
 
 /** Amexio Colors --- 
    DarkBlue: #00008b rgb(0,0,139,0.0);
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-bottom-tab-blue {
-  border-top: 1px solid #00008b !important;
-  color: #00008b; }
+  border-top: 1px solid darkblue !important;
+  color: darkblue; }
 
 /** Amexio Colors --- 
    SandyBrown: #f4a460 rgb(244,164,96,0.0);
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-bottom-tab-brown {
-  border-top: 1px solid #800000 !important;
-  color: #800000; }
+  border-top: 1px solid maroon !important;
+  color: maroon; }
 
 /** Amexio Colors --- 
    Gold: #ffd700 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-yellow {
-  border-top: 1px solid #FFFF00 !important;
-  color: #FFFF00; }
+  border-top: 1px solid yellow !important;
+  color: yellow; }
 
 /** Amexio Colors --- 
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-pink {
-  border-top: 1px solid #FF69B4 !important;
-  color: #FF69B4; }
+  border-top: 1px solid hotpink !important;
+  color: hotpink; }
 
 /** Amexio Colors --- 
    Orange: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-orange {
-  border-top: 1px solid #FFA500 !important;
-  color: #FFA500; }
+  border-top: 1px solid orange !important;
+  color: orange; }
 
 /** Amexio Colors --- 
    Black: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-black {
-  border-top: 1px solid #000000 !important;
-  color: #000000; }
+  border-top: 1px solid black !important;
+  color: black; }
 
 /** CSS Class definitions for the Amexio Colors --- */
 /** Amexio Colors --- 
@@ -4670,8 +4964,8 @@ fieldset {
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-top-tab-red {
-  color: #dc143c;
-  border-bottom: 1px solid #dc143c !important; }
+  color: crimson;
+  border-bottom: 1px solid crimson !important; }
 
 /** Amexio Colors --- 
    SeaGreen: #2e8b57 rgb(46,139,87,0.0);
@@ -4686,56 +4980,56 @@ fieldset {
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-top-tab-purple {
-  border-bottom: 1px solid #8b008b !important;
-  color: #8b008b; }
+  border-bottom: 1px solid darkmagenta !important;
+  color: darkmagenta; }
 
 /** Amexio Colors --- 
    DarkBlue: #00008b rgb(0,0,139,0.0);
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-top-tab-blue {
-  border-bottom: 1px solid #00008b !important;
-  color: #00008b; }
+  border-bottom: 1px solid darkblue !important;
+  color: darkblue; }
 
 /** Amexio Colors --- 
    SandyBrown: #f4a460 rgb(244,164,96,0.0);
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-top-tab-brown {
-  border-bottom: 1px solid #800000 !important;
-  color: #800000; }
+  border-bottom: 1px solid maroon !important;
+  color: maroon; }
 
 /** Amexio Colors --- 
    Gold: #ffd700 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-yellow {
-  border-bottom: 1px solid #FFFF00 !important;
-  color: #FFFF00; }
+  border-bottom: 1px solid yellow !important;
+  color: yellow; }
 
 /** Amexio Colors --- 
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-pink {
-  border-bottom: 1px solid #FF69B4 !important;
-  color: #FF69B4; }
+  border-bottom: 1px solid hotpink !important;
+  color: hotpink; }
 
 /** Amexio Colors --- 
    Orange: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-orange {
-  border-bottom: 1px solid #FFA500 !important;
-  color: #FFA500; }
+  border-bottom: 1px solid orange !important;
+  color: orange; }
 
 /** Amexio Colors --- 
    Black: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-black {
-  border-bottom: 1px solid #000000 !important;
-  color: #000000; }
+  border-bottom: 1px solid black !important;
+  color: black; }
 
 /** tab - Structure CSS **/
 .tab {
@@ -4743,7 +5037,7 @@ fieldset {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  border-bottom: 3px solid #000080; }
+  border-bottom: 3px solid navy; }
 
 .tab li {
   display: table-cell;
@@ -4760,7 +5054,7 @@ fieldset {
   white-space: nowrap; }
 
 .activetab {
-  border-bottom: 5px solid #6F2DA8 !important; }
+  border-bottom: 5px solid #6f2da8 !important; }
 
 .disabled-tab {
   cursor: not-allowed !important;
@@ -4789,7 +5083,7 @@ fieldset {
 
 .verticalnavtab .defaultnode {
   cursor: pointer;
-  color: #000080;
+  color: navy;
   padding: 10px; }
 
 .verticalnavtab .defaultnode:hover {
@@ -4797,11 +5091,11 @@ fieldset {
 
 .verticalnavtab .leftactivetab {
   font-weight: bold;
-  border-right: 3px solid #6F2DA8; }
+  border-right: 3px solid #6f2da8; }
 
 .verticalnavtab .rightactivetab {
   font-weight: bold;
-  border-left: 3px solid #6F2DA8; }
+  border-left: 3px solid #6f2da8; }
 
 .verticalnavtab-left {
   font-weight: bold; }
@@ -4811,11 +5105,11 @@ fieldset {
 
 verticalalign-tableft {
   vertical-align: top !important;
-  border-right: 3px solid #000080 !important; }
+  border-right: 3px solid navy !important; }
 
 .verticalalign-tabright {
   vertical-align: top !important;
-  border-left: 3px solid #000080 !important; }
+  border-left: 3px solid navy !important; }
 
 .verticalalign-tabcontent {
   vertical-align: top !important; }
@@ -4847,7 +5141,7 @@ verticalalign-tableft {
   max-width: 980px; }
 
 .bottomActivetab {
-  border-bottom: 5px solid #6F2DA8 !important; }
+  border-bottom: 5px solid #6f2da8 !important; }
 
 .activebottomcolortab {
   border-top: 3px solid !important; }
@@ -4893,25 +5187,35 @@ verticalalign-tableft {
 .modal-window-content {
   background-color: white; }
 
+.modal-window-material {
+  background-color: white;
+  font-size: 20px;
+  color: black; }
+
 .modal-window-header {
-  background: #000080;
+  background: navy;
   font-size: 20px;
   color: white; }
+
+.modal-window-header .toolbar {
+  background: #290500;
+  font-size: 20px;
+  color: #ffedeb; }
 
 .modal-window-middle {
   font-size: 14px; }
 
 .modal-window-middle::-webkit-scrollbar-track {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .modal-window-middle::-webkit-scrollbar {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .modal-window-middle::-webkit-scrollbar-thumb {
   background-color: white; }
 
 .modal-window-footer {
-  background-color: #000080;
+  background-color: white;
   color: white; }
 
 /** window - Structure CSS **/
@@ -4932,6 +5236,7 @@ verticalalign-tableft {
   position: absolute;
   margin: auto;
   padding: 0px;
+  border-radius: .3rem;
   border: 1px solid #888;
   width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -4946,9 +5251,17 @@ verticalalign-tableft {
   top: 0% !important;
   left: 0% !important; }
 
+.window-material-design-header {
+  display: flex;
+  border-bottom: 3px solid navy;
+  font-weight: 300;
+  border-radius: .3rem;
+  font-size: 20px;
+  text-transform: capitalize; }
+
 .modal-window-header {
   display: flex;
-  border-bottom: 3px solid #000080;
+  border-bottom: 3px solid navy;
   font-weight: 300;
   text-transform: capitalize; }
 
@@ -4968,9 +5281,16 @@ verticalalign-tableft {
 .modal-window-middle::-webkit-scrollbar {
   width: 6px; }
 
+.window-material-design-footer {
+  display: flex;
+  border-top: 1px solid #eceeef;
+  padding-right: 16px;
+  background-color: white;
+  border-radius: 0 0 .3rem .3rem; }
+
 .modal-window-footer {
   display: flex;
-  border-top: 3px solid #000080; }
+  border-top: 3px solid navy; }
 
 .modal-window-table {
   display: table;
@@ -4978,6 +5298,11 @@ verticalalign-tableft {
 
 .modal-window-table .tablerow {
   display: table-row; }
+
+.window-material-design-header .modal-window-table .tablerow .tablecol {
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 15px; }
 
 .modal-window-table .tablerow .tablecol {
   display: table-cell;
@@ -5018,9 +5343,13 @@ verticalalign-tableft {
 .dialogue-content {
   background-color: white; }
 
+.dialogue-material-design {
+  background-color: white;
+  color: black; }
+
 .dialogue-header {
-  background: #000080;
-  color: #000080; }
+  background: navy;
+  color: navy; }
 
 .dialogue-footer {
   background-color: white;
@@ -5063,6 +5392,7 @@ verticalalign-tableft {
   padding: 0px;
   width: 80%;
   height: 80%;
+  border-radius: .3rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .dialogue-min {
@@ -5070,6 +5400,16 @@ verticalalign-tableft {
 
 .dialogue-content > * {
   padding: 5px; }
+
+.dialogue-material-design {
+  display: flex;
+  border-radius: .3rem;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: black;
+  padding: 10px;
+  border-bottom: 1px solid #eceeef; }
 
 .dialogue-header {
   display: flex;
@@ -5079,6 +5419,8 @@ verticalalign-tableft {
   text-transform: capitalize; }
 
 .dialogue-middle {
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
@@ -5088,9 +5430,24 @@ verticalalign-tableft {
   overflow-y: hidden;
   overflow-x: hidden; }
 
+.dialogue-material-design-footer {
+  display: flex;
+  border-top: 1px solid #eceeef;
+  padding: 5px; }
+  .dialogue-material-design-footer .button-transparent {
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 1rem; }
+  .dialogue-material-design-footer .custom-btn .button-text {
+    font-size: 1rem;
+    color: blue; }
+
 .dialogue-footer {
   display: flex;
-  border-top: 3px solid #000080; }
+  border-top: 3px solid navy; }
+  .dialogue-footer .button-transparent {
+    border: none !important;
+    box-shadow: none !important; }
 
 .dialogue-message {
   display: flex;
@@ -5110,6 +5467,11 @@ verticalalign-tableft {
 .dialogue-table .tablerow {
   display: table-row; }
 
+.dialogue-material-design .dialogue-table .tablerow .tablecol {
+  display: table-cell;
+  vertical-align: middle;
+  color: black; }
+
 .dialogue-table .tablerow .tablecol {
   display: table-cell;
   vertical-align: middle;
@@ -5124,7 +5486,7 @@ verticalalign-tableft {
 *****************************************************************************/
 /** panel - Visual CSS **/
 .panel-accordion {
-  background-color: #000080;
+  background-color: navy;
   color: white;
   font-size: 15px; }
 
@@ -5132,15 +5494,26 @@ verticalalign-tableft {
   color: red;
   font-weight: bold; }
 
+.panel-accordion .toolbar {
+  background-color: unset;
+  box-shadow: unset;
+  padding: 0px; }
+
 .panel-panel {
   background-color: white;
-  color: #000080; }
+  color: navy; }
+
+.amexio-panel-header {
+  display: flex; }
+
+.amexio-panel-header > * {
+  padding-right: 5px; }
 
 .panel-panel::-webkit-scrollbar-track {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .panel-panel::-webkit-scrollbar {
-  background-color: #f5f5f5; }
+  background-color: whitesmoke; }
 
 .panel-panel::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -5149,7 +5522,7 @@ verticalalign-tableft {
 .panel-accordion {
   cursor: pointer;
   padding: 10px;
-  border-color: #000080;
+  border-color: navy;
   text-align: left;
   outline: none;
   transition: 0.4s; }
@@ -5165,7 +5538,7 @@ verticalalign-tableft {
   transition: max-height 0.2s ease-out; }
 
 .panel-box {
-  border: 2px solid #000080;
+  border: 2px solid navy;
   width: 100%; }
 
 .panel-panel::-webkit-scrollbar-track {
@@ -5208,14 +5581,14 @@ verticalalign-tableft {
     font-weight: 700; }
   .card-container .card-footer {
     border-top: none;
-    border: 3px solid #000080;
+    border: 3px solid navy;
     border-radius: 5px; }
   .card-container .card-body {
-    border: 3px solid #000080;
+    border: 3px solid navy;
     border-radius: 5px; }
 
 .listbox .header {
-  border-bottom: 3px solid #000080; }
+  border-bottom: 3px solid navy; }
 .listbox .list .list-items {
   border-bottom: 1px solid #1b1d22; }
 
@@ -5223,10 +5596,10 @@ verticalalign-tableft {
 /*        Byzantine (Grape) Navy -Visual         */
 /*----------------------------------------------------------------------*/
 a {
-  color: #000080; }
+  color: navy; }
 
 .toggle-slider:before {
-  background-color: #000080; }
+  background-color: navy; }
 
 .listbox {
   background: rgba(255, 255, 255, 0.6); }
@@ -5234,35 +5607,33 @@ a {
     background: rgba(255, 255, 255, 0.6); }
     .listbox .list .title {
       font-size: 18px;
-      color: #6F2DA8; }
+      color: #6f2da8; }
       .listbox .list .title a {
         font-size: 16px;
-        color: #000080; }
+        color: navy; }
 
 .card-container {
   background: none; }
   .card-container .card-header {
     font-size: 20px;
     background: none;
-    color: #000080; }
+    color: navy; }
   .card-container .card-body {
     background: rgba(255, 255, 255, 0.6); }
 
 .listbox .listbox .list .title {
-  color: #000080 !important; }
+  color: navy !important; }
 .listbox .header {
   background: none;
-  color: #000080 !important; }
+  color: navy !important; }
 .listbox .list {
   background: none; }
 
 .topnav {
   background-color: white; }
   .topnav .topnav .navbar-logo-unit a {
-    color: #000080; }
+    color: navy; }
 
 .datapoints .datapoint-south {
-  background-color: #000080;
+  background-color: navy;
   color: white; }
-
-/*# sourceMappingURL=at-am-navy-grape.css.map */

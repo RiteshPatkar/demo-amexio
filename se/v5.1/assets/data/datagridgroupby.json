@@ -48,13 +48,13 @@
     {
       "userId":"3",
       "jobTitle":"Developer",
-      "firstName":"vrushabh",
-      "lastName":"kokil",
-      "preferredFullName":"vrushabh kokil",
+      "firstName":"vishal",
+      "lastName":"bagal",
+      "preferredFullName":"vishal bagal",
       "employeeCode":"E3",
       "salary":1500000,
       "phoneNumber":"8851855577",
-      "emailAddress":"vrushabh.kokil.com"
+      "emailAddress":"vishal.bagal.com"
     },
     {
       "userId":"4",
@@ -73,7 +73,7 @@
       "firstName":"vrushabh",
       "lastName":"Jadhav",
       "salary":2000000,
-      "preferredFullName":"vrushabh Jadhav",
+      "preferredFullName":"vrushabh kokil",
       "employeeCode":"E5",
       "phoneNumber":"8888648444",
       "emailAddress":"vrushabh.jadhav.com"
