@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "message": "data retrieved successfully",
+  "data": [
+    {
+     "serviceName": "SERVICE BOOKING"
+    },
+    {
+      "serviceName": "WORKFLOW"
+    },
+    {
+      "serviceName": "WORKFLOW"
+    },
+    {
+      "serviceName": "WORKFLOW"
+    },
+    {
+      "serviceName": "WORKFLOW"
+    },
+    {
+      "serviceName": "WORKFLOW"
+    }
+  ]
+}

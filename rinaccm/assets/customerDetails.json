@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "message": "data retrieved successfully",
+  "data":
+    {
+      "customerId": 670742,
+      "mobile": 9776018823,
+      "name": "Jone Doe",
+      "companyName": " JD Associates",
+      "operatingStatus": "Active",
+      "email": "abc@gmail.com",
+      "altNumber": 9583199534,
+      "birthday": "June 28",
+      "anniversary":"September 26",
+      "profileImageUrl":"assets/images/dats.jpg",
+      "callAttempt":3
+    }
+}
