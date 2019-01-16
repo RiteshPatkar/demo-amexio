@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "message": "data retrieved successfully",
+  "data":[
+    {
+      "serviceId":"456852",
+      "serviceDate":"12/01/2018",
+      "vehicle":"E 450 4MATIC"
+    },
+    {
+      "serviceId":"865745",
+      "serviceDate":"11/01/2018",
+      "vehicle":"E 450 4MATIC"
+    },
+    {
+      "serviceId":"875421",
+      "serviceDate":"15/01/2018",
+      "vehicle":"E 450 4MATIC"
+    }
+
+  ]
+}
