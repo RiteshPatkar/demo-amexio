@@ -1482,7 +1482,7 @@ var RinaHomeComponent = /** @class */ (function () {
     };
     RinaHomeComponent.prototype.getSearchObject = function (searchObject) {
         var _this = this;
-        this._httpService.post('http://192.168.2.17:8080/api/customerdetails/findById', 'post', searchObject).subscribe(function (res) {
+        this._httpService.post('https://restapi.amexio.org:8991/alfahim/api/customerdetails/findById', 'post', searchObject).subscribe(function (res) {
             if (res.success) {
                 _this.customerModel = res.response;
             }
