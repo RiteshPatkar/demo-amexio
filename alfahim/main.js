@@ -991,7 +991,6 @@ var HttpService = /** @class */ (function () {
     HttpService.prototype.fetch = function (serviceUrl, methodType) {
         var headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]().append('Content-Type', 'application/json;charset=UTF-8');
         if (methodType === 'post') {
-            debugger;
             return this.http.post(serviceUrl, { headers: headers });
         }
         else if (methodType === 'get') {
