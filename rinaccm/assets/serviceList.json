@@ -3,22 +3,28 @@
   "message": "data retrieved successfully",
   "data": [
     {
-     "serviceName": "SERVICE BOOKING"
+     "serviceName": "SERVICE BOOKING",
+      "disabled": true
     },
     {
-      "serviceName": "WORKFLOW"
+      "serviceName": "WORKFLOW",
+      "disabled": false
     },
     {
-      "serviceName": "WORKFLOW"
+      "serviceName": "WORKFLOW",
+      "disabled": false
     },
     {
-      "serviceName": "WORKFLOW"
+      "serviceName": "WORKFLOW",
+      "disabled": false
     },
     {
-      "serviceName": "WORKFLOW"
+      "serviceName": "WORKFLOW",
+      "disabled": false
     },
     {
-      "serviceName": "WORKFLOW"
+      "serviceName": "WORKFLOW",
+      "disabled": false
     }
   ]
 }
