@@ -1934,6 +1934,7 @@ var RinaHomeComponent = /** @class */ (function () {
             if (res.success) {
                 _this.showLoader = false;
                 _this.customerModel = res.response;
+                _this.vehicle = _this.customerModel.vehicles[0];
                 _this._personalDetailsService.setPersonalDetailsForCcm(_this.customerModel);
                 _this.serviceList[0].disabled = false;
             }
