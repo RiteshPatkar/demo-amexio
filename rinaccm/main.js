@@ -1868,8 +1868,6 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-var customerDetailsUrl = 'assets/customerDetails.json';
-/* http://localhost:8080/api/customerDetails/findById/ */
 var msgtype = {
     1: 'customer id',
     2: 'mobile no'
@@ -1918,7 +1916,7 @@ var RinaHomeComponent = /** @class */ (function () {
     RinaHomeComponent.prototype.getSearchObject = function (searchObject) {
         var _this = this;
         this.showLoader = true;
-        this._httpService.fetch('http://192.168.2.22:8080/api/customer/search/' + searchObject.searchId + '/' + searchObject.searchType, 'get').subscribe(function (res) {
+        this._httpService.fetch('https://restapi.amexio.org:8991/alfahim/api/customer/search/' + searchObject.searchId + '/' + searchObject.searchType, 'get').subscribe(function (res) {
             if (res.success) {
                 _this.showLoader = false;
                 _this.customerModel = res.response;
