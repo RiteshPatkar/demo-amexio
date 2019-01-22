@@ -86,7 +86,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var projects_rina_lib_src_lib_services_alfahim_personal_details_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! projects/rina-lib/src/lib/services/alfahim/personal.details.service */ "../rina-lib/src/lib/services/alfahim/personal.details.service.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var projects_rina_lib_src_public_api__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! projects/rina-lib/src/public_api */ "../rina-lib/src/public_api.ts");
-/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! amexio-ng-extensions */ "../../node_modules/amexio-ng-extensions/amexio-ng-extensions.es5.js");
+/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! amexio-ng-extensions */ "../../node_modules/amexio-ng-extensions/bundles/amexio-ng-extensions.umd.js");
+/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _model_shared_personal_details_model__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../model/shared/personal.details.model */ "../rina-lib/src/lib/model/shared/personal.details.model.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -275,6 +276,67 @@ var PreferredLocationComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "../rina-lib/src/lib/components/property-grid/propertygrid.component.html":
+/*!********************************************************************************!*\
+  !*** ../rina-lib/src/lib/components/property-grid/propertygrid.component.html ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\">\n    <amexio-body>\n        <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'end'\">\n            <amexio-layout-item style=\"width: 20%\" *ngIf=\"hasImage\">\n              <amexio-image [path]=\"image\" [filter]=\"'round'\">\n              </amexio-image>\n            </amexio-layout-item>\n            <amexio-layout-item [fit]=\"true\">\n              <table style=\"padding: 2px;\">\n                <tr *ngFor=\"let item of data\">\n                  <td>{{item.fieldName}}</td>\n                  <td>:</td>\n                  <td style=\"word-break: break-all;\">{{item.fieldValue}}</td>\n                </tr>\n              </table>\n            </amexio-layout-item>\n          </amexio-layout-columns>\n    </amexio-body>\n</amexio-card>\n\n\n"
+
+/***/ }),
+
+/***/ "../rina-lib/src/lib/components/property-grid/propertygrid.component.ts":
+/*!******************************************************************************!*\
+  !*** ../rina-lib/src/lib/components/property-grid/propertygrid.component.ts ***!
+  \******************************************************************************/
+/*! exports provided: PropertyGridComponnent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PropertyGridComponnent", function() { return PropertyGridComponnent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var PropertyGridComponnent = /** @class */ (function () {
+    function PropertyGridComponnent() {
+        this.hasImage = false;
+    }
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('key-value-data'),
+        __metadata("design:type", Array)
+    ], PropertyGridComponnent.prototype, "data", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('image'),
+        __metadata("design:type", String)
+    ], PropertyGridComponnent.prototype, "image", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('has-image'),
+        __metadata("design:type", Object)
+    ], PropertyGridComponnent.prototype, "hasImage", void 0);
+    PropertyGridComponnent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'rina-property-grid',
+            template: __webpack_require__(/*! ./propertygrid.component.html */ "../rina-lib/src/lib/components/property-grid/propertygrid.component.html")
+        })
+    ], PropertyGridComponnent);
+    return PropertyGridComponnent;
+}());
+
+
+
+/***/ }),
+
 /***/ "../rina-lib/src/lib/components/service-booking/service.availiblity-lib.component.html":
 /*!*********************************************************************************************!*\
   !*** ../rina-lib/src/lib/components/service-booking/service.availiblity-lib.component.html ***!
@@ -282,7 +344,7 @@ var PreferredLocationComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'space-between'\">\n    <amexio-layout-item>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-dropdown [(ngModel)]=\"serviceModel.location\" [place-holder]=\"'Select Location'\" name=\"location\" [field-label]=\"'Select Location'\" [data]=\"serviceLocations\" [display-field]=\"'primaryDisplay'\" [value-field]=\"'primaryKey'\" (onSingleSelect)=\"onLocationClick($event)\">\n                </amexio-dropdown>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=9>\n                <amexio-date-time-picker [field-label]=\"'Select Date'\" [min-date]=\"minDate\" [time-picker]=\"false\" [date-picker]=\"true\" name=\"appointmentDate\" [min-date]=\"todayDate\" [(ngModel)]=\"serviceModel.appointmentDate\">\n                </amexio-date-time-picker>\n            </amexio-column>\n            <amexio-column [size]=3>\n                <amexio-dropdown [(ngModel)]=\"serviceModel.appointmentTime\" (onSingleSelect)=\"setTime($event)\" [place-holder]=\"'Select Time'\" name=\"appointmentTime\" [field-label]=\"'Select time'\" [data]=\"timeSlots\" [display-field]=\"'time'\" [value-field]=\"'timeId'\">\n                </amexio-dropdown>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-dropdown [(ngModel)]=\"serviceModel.assitantPersonId\" [place-holder]=\"'Select SA'\" name=\"assitantPerson\" [field-label]=\"'Service Assistant (SA)'\" [data]=\"assitantPerson\" [display-field]=\"'primaryDisplay'\" [value-field]=\"'primaryKey'\" (onSingleSelect)=\"onAssitantClick($event)\">\n                </amexio-dropdown>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-button [label]=\"'CHECK SA AVAILIBLITY'\" [type]=\"'theme-color'\" [tooltip]=\"'CHECK SA AVAILIBLITY'\" (onClick)=\"checkAvailiblity()\"></amexio-button>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-ee-appointment [height]=\"'200px'\" [date]=\"serviceModel.appointmentDate\" [start-time]=\"serviceModel.appointmentTime\" [end-time]=\"endTime\" [available-slots]=\"availableslots\" (onSingleSelect)=\"onSlotSelection($event)\"></amexio-ee-appointment>\n            </amexio-column>\n        </amexio-row>\n\n    </amexio-layout-item>\n    <amexio-layout-item [fit]=\"true\">\n        <amexio-google-map [initial-zoom-level]=\"8\" [initial-lat]=\"25.270889\" [initial-lng]=\"55.872501\" [height]=\"'100%'\" [data]=\"serviceStations\" (onMarkerClick)=\"onMarkerClick($event)\" [google-map-key]=\"'AIzaSyDKSPX97z-ndeh_Mgq3xkaML2Kp9AwHA9s'\">\n        </amexio-google-map>\n    </amexio-layout-item>\n</amexio-layout-columns>"
+module.exports = "<amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'space-between'\">\n    <amexio-layout-item>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-dropdown [(ngModel)]=\"serviceModel.location\" [enable-sort]=\"true\" [sort]=\"'asc'\" [search]=\"true\" [place-holder]=\"'Select Location'\" name=\"location\" [field-label]=\"'Select Location'\" [data]=\"serviceLocations\" [display-field]=\"'primaryDisplay'\"\n                    [value-field]=\"'primaryKey'\" (onSingleSelect)=\"onLocationClick($event)\">\n                </amexio-dropdown>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=9>\n                <amexio-date-time-picker [field-label]=\"'Select Date'\" [min-date]=\"minDate\" [time-picker]=\"false\" [date-picker]=\"true\" name=\"appointmentDate\" [min-date]=\"todayDate\" [(ngModel)]=\"serviceModel.appointmentDate\">\n                </amexio-date-time-picker>\n            </amexio-column>\n            <amexio-column [size]=3>\n                <amexio-dropdown [(ngModel)]=\"serviceModel.appointmentTime\" [enable-sort]=\"true\" [sort]=\"'asc'\" [search]=\"true\" (onSingleSelect)=\"setTime($event)\" [place-holder]=\"'Select Time'\" name=\"appointmentTime\" [field-label]=\"'Select time'\" [data]=\"timeSlots\" [display-field]=\"'time'\"\n                    [value-field]=\"'timeId'\">\n                </amexio-dropdown>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-dropdown [(ngModel)]=\"serviceModel.assitantPersonId\" [enable-sort]=\"true\" [sort]=\"'asc'\" [search]=\"true\" [place-holder]=\"'Select SA'\" name=\"assitantPerson\" [field-label]=\"'Service Assistant (SA)'\" [data]=\"assitantPerson\" [display-field]=\"'primaryDisplay'\"\n                    [value-field]=\"'primaryKey'\" (onSingleSelect)=\"onAssitantClick($event)\">\n                </amexio-dropdown>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-button [label]=\"'CHECK SA AVAILIBLITY'\" [type]=\"'theme-color'\" [tooltip]=\"'CHECK SA AVAILIBLITY'\" (onClick)=\"checkAvailiblity()\"></amexio-button>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-ee-appointment [height]=\"'200px'\" [date]=\"serviceModel.appointmentDate\" [start-time]=\"serviceModel.appointmentTime\" [end-time]=\"endTime\" [available-slots]=\"availableslots\" (onSingleSelect)=\"onSlotSelection($event)\"></amexio-ee-appointment>\n            </amexio-column>\n        </amexio-row>\n\n    </amexio-layout-item>\n    <amexio-layout-item [fit]=\"true\">\n        <amexio-google-map [initial-zoom-level]=\"8\" [initial-lat]=\"25.270889\" [initial-lng]=\"55.872501\" [height]=\"'100%'\" [data]=\"serviceStations\" (onMarkerClick)=\"onMarkerClick($event)\" [google-map-key]=\"'AIzaSyDKSPX97z-ndeh_Mgq3xkaML2Kp9AwHA9s'\">\n        </amexio-google-map>\n    </amexio-layout-item>\n</amexio-layout-columns>"
 
 /***/ }),
 
@@ -298,7 +360,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServiceAvailiblityComponent", function() { return ServiceAvailiblityComponent; });
 /* harmony import */ var _services_bookingavailable_service_booking_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../../services/bookingavailable/service.booking.service */ "../rina-lib/src/lib/services/bookingavailable/service.booking.service.ts");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! amexio-ng-extensions */ "../../node_modules/amexio-ng-extensions/amexio-ng-extensions.es5.js");
+/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! amexio-ng-extensions */ "../../node_modules/amexio-ng-extensions/bundles/amexio-ng-extensions.umd.js");
+/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _services_servicebooking_service_booking_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/servicebooking/service.booking.service */ "../rina-lib/src/lib/services/servicebooking/service.booking.service.ts");
 /* harmony import */ var _model_service_availiblity_model__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../model/service.availiblity.model */ "../rina-lib/src/lib/model/service.availiblity.model.ts");
 /* harmony import */ var _services_shared_common_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/shared/common.service */ "../rina-lib/src/lib/services/shared/common.service.ts");
@@ -579,6 +642,28 @@ var PersonalDetails = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "../rina-lib/src/lib/model/shared/propertygrid.model.ts":
+/*!**************************************************************!*\
+  !*** ../rina-lib/src/lib/model/shared/propertygrid.model.ts ***!
+  \**************************************************************/
+/*! exports provided: PropertyGridModel */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PropertyGridModel", function() { return PropertyGridModel; });
+var PropertyGridModel = /** @class */ (function () {
+    function PropertyGridModel(_fieldName, _fieldValue) {
+        this.fieldName = _fieldName;
+        this.fieldValue = _fieldValue;
+    }
+    return PropertyGridModel;
+}());
+
+
+
+/***/ }),
+
 /***/ "../rina-lib/src/lib/rina-lib.components.ts":
 /*!**************************************************!*\
   !*** ../rina-lib/src/lib/rina-lib.components.ts ***!
@@ -593,6 +678,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_preferred_location_preferred_location_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/preferred-location/preferred.location.component */ "../rina-lib/src/lib/components/preferred-location/preferred.location.component.ts");
 /* harmony import */ var _components_confirmation_service_confirmation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/confirmation/service.confirmation */ "../rina-lib/src/lib/components/confirmation/service.confirmation.ts");
 /* harmony import */ var _components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/appointmentdetails/appointment.confirmation */ "../rina-lib/src/lib/components/appointmentdetails/appointment.confirmation.ts");
+/* harmony import */ var _components_property_grid_propertygrid_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/property-grid/propertygrid.component */ "../rina-lib/src/lib/components/property-grid/propertygrid.component.ts");
+
 
 
 
@@ -601,7 +688,8 @@ var RINA_COMPONENTS = [
     _components_service_booking_service_availiblity_lib_component__WEBPACK_IMPORTED_MODULE_0__["ServiceAvailiblityComponent"],
     _components_preferred_location_preferred_location_component__WEBPACK_IMPORTED_MODULE_1__["PreferredLocationComponent"],
     _components_confirmation_service_confirmation__WEBPACK_IMPORTED_MODULE_2__["ServiceConfirmationComponent"],
-    _components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_3__["AppoinmentConfirmationComponent"]
+    _components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_3__["AppoinmentConfirmationComponent"],
+    _components_property_grid_propertygrid_component__WEBPACK_IMPORTED_MODULE_4__["PropertyGridComponnent"]
 ];
 
 
@@ -621,7 +709,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _rina_lib_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./rina-lib.components */ "../rina-lib/src/lib/rina-lib.components.ts");
 /* harmony import */ var _services_shared_http_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./services/shared/http.service */ "../rina-lib/src/lib/services/shared/http.service.ts");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "../../node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! amexio-ng-extensions */ "../../node_modules/amexio-ng-extensions/amexio-ng-extensions.es5.js");
+/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! amexio-ng-extensions */ "../../node_modules/amexio-ng-extensions/bundles/amexio-ng-extensions.umd.js");
+/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser */ "../../node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/platform-browser/animations */ "../../node_modules/@angular/platform-browser/fesm5/animations.js");
 /* harmony import */ var _services_servicebooking_service_booking_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./services/servicebooking/service.booking.service */ "../rina-lib/src/lib/services/servicebooking/service.booking.service.ts");
@@ -699,6 +788,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "../../node_modules/@angular/common/fesm5/http.js");
 /* harmony import */ var _service_constant__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../service.constant */ "../rina-lib/src/lib/services/service.constant.ts");
+/* harmony import */ var projects_rina_lib_src_lib_model_shared_personal_details_model__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! projects/rina-lib/src/lib/model/shared/personal.details.model */ "../rina-lib/src/lib/model/shared/personal.details.model.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -708,6 +798,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -745,7 +836,13 @@ var PersonalDetailsService = /** @class */ (function () {
         return this.serviceAvailibilityModel;
     };
     PersonalDetailsService.prototype.setPersonalDetailsForCcm = function (personalDetails) {
-        //this.convertIntoPersonalModel(personalDetails);
+        this.convertIntoPersonalModel(personalDetails);
+    };
+    PersonalDetailsService.prototype.convertIntoPersonalModel = function (personalDetails) {
+        this.personalDetails = new projects_rina_lib_src_lib_model_shared_personal_details_model__WEBPACK_IMPORTED_MODULE_3__["PersonalDetails"]();
+        this.personalDetails.firstName = personalDetails.name;
+        this.personalDetails.email = personalDetails.email;
+        this.personalDetails.phone = personalDetails.mobile;
     };
     PersonalDetailsService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
@@ -933,7 +1030,8 @@ var ServiceBookingService = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CommonService", function() { return CommonService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! amexio-ng-extensions */ "../../node_modules/amexio-ng-extensions/amexio-ng-extensions.es5.js");
+/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! amexio-ng-extensions */ "../../node_modules/amexio-ng-extensions/bundles/amexio-ng-extensions.umd.js");
+/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_1__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1023,7 +1121,7 @@ var HttpService = /** @class */ (function () {
 /*!*************************************!*\
   !*** ../rina-lib/src/public_api.ts ***!
   \*************************************/
-/*! exports provided: RinaLibModule, ServiceAvailibilityModel, CustomerModel, ServiceAvailiblityComponent, PreferredLocationComponent, ServiceConfirmationComponent, AppoinmentConfirmationComponent */
+/*! exports provided: RinaLibModule, ServiceAvailibilityModel, CustomerModel, PropertyGridModel, ServiceAvailiblityComponent, PreferredLocationComponent, ServiceConfirmationComponent, AppoinmentConfirmationComponent, PropertyGridComponnent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1037,17 +1135,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _rinaccm_src_app_models_customer_details_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../rinaccm/src/app/models/customer.details.model */ "../rinaccm/src/app/models/customer.details.model.ts");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CustomerModel", function() { return _rinaccm_src_app_models_customer_details_model__WEBPACK_IMPORTED_MODULE_2__["CustomerModel"]; });
 
-/* harmony import */ var _lib_components_service_booking_service_availiblity_lib_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lib/components/service-booking/service.availiblity-lib.component */ "../rina-lib/src/lib/components/service-booking/service.availiblity-lib.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ServiceAvailiblityComponent", function() { return _lib_components_service_booking_service_availiblity_lib_component__WEBPACK_IMPORTED_MODULE_3__["ServiceAvailiblityComponent"]; });
+/* harmony import */ var _lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lib/model/shared/propertygrid.model */ "../rina-lib/src/lib/model/shared/propertygrid.model.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PropertyGridModel", function() { return _lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]; });
 
-/* harmony import */ var _lib_components_preferred_location_preferred_location_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./lib/components/preferred-location/preferred.location.component */ "../rina-lib/src/lib/components/preferred-location/preferred.location.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PreferredLocationComponent", function() { return _lib_components_preferred_location_preferred_location_component__WEBPACK_IMPORTED_MODULE_4__["PreferredLocationComponent"]; });
+/* harmony import */ var _lib_components_service_booking_service_availiblity_lib_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./lib/components/service-booking/service.availiblity-lib.component */ "../rina-lib/src/lib/components/service-booking/service.availiblity-lib.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ServiceAvailiblityComponent", function() { return _lib_components_service_booking_service_availiblity_lib_component__WEBPACK_IMPORTED_MODULE_4__["ServiceAvailiblityComponent"]; });
 
-/* harmony import */ var _lib_components_confirmation_service_confirmation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./lib/components/confirmation/service.confirmation */ "../rina-lib/src/lib/components/confirmation/service.confirmation.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ServiceConfirmationComponent", function() { return _lib_components_confirmation_service_confirmation__WEBPACK_IMPORTED_MODULE_5__["ServiceConfirmationComponent"]; });
+/* harmony import */ var _lib_components_preferred_location_preferred_location_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./lib/components/preferred-location/preferred.location.component */ "../rina-lib/src/lib/components/preferred-location/preferred.location.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PreferredLocationComponent", function() { return _lib_components_preferred_location_preferred_location_component__WEBPACK_IMPORTED_MODULE_5__["PreferredLocationComponent"]; });
 
-/* harmony import */ var _lib_components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./lib/components/appointmentdetails/appointment.confirmation */ "../rina-lib/src/lib/components/appointmentdetails/appointment.confirmation.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AppoinmentConfirmationComponent", function() { return _lib_components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_6__["AppoinmentConfirmationComponent"]; });
+/* harmony import */ var _lib_components_confirmation_service_confirmation__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./lib/components/confirmation/service.confirmation */ "../rina-lib/src/lib/components/confirmation/service.confirmation.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ServiceConfirmationComponent", function() { return _lib_components_confirmation_service_confirmation__WEBPACK_IMPORTED_MODULE_6__["ServiceConfirmationComponent"]; });
+
+/* harmony import */ var _lib_components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./lib/components/appointmentdetails/appointment.confirmation */ "../rina-lib/src/lib/components/appointmentdetails/appointment.confirmation.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AppoinmentConfirmationComponent", function() { return _lib_components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_7__["AppoinmentConfirmationComponent"]; });
+
+/* harmony import */ var _lib_components_property_grid_propertygrid_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./lib/components/property-grid/propertygrid.component */ "../rina-lib/src/lib/components/property-grid/propertygrid.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PropertyGridComponnent", function() { return _lib_components_property_grid_propertygrid_component__WEBPACK_IMPORTED_MODULE_8__["PropertyGridComponnent"]; });
 
 /*
  * Public API Surface of rina-lib
@@ -1055,7 +1159,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 /* EXPORTED COMPONENT */
+
 
 
 
@@ -1263,7 +1369,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "../../node_modules/@angular/forms/fesm5/forms.js");
 /* harmony import */ var projects_rina_lib_src_public_api__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! projects/rina-lib/src/public_api */ "../rina-lib/src/public_api.ts");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ "../../node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! amexio-ng-extensions */ "../../node_modules/amexio-ng-extensions/amexio-ng-extensions.es5.js");
+/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! amexio-ng-extensions */ "../../node_modules/amexio-ng-extensions/bundles/amexio-ng-extensions.umd.js");
+/* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1456,7 +1563,7 @@ var PersonalDetailsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-card class=\"person-details\" [body-height]=\"75\" [show]=\"showWindow\" [header]=\"false\" [footer]=\"true\">\n    <amexio-body>\n        <amexio-layout-columns [orientation]=\"'vertical'\" [border]=\"false\" [alignment]=\"'space-between'\">\n            <amexio-layout-item>\n                <div class=\"adjustbody\" [formGroup]=\"personDetailsGroup\">\n                    <amexio-label size=\"medium-bold\">PERSONAL DETAILS</amexio-label>\n                    <amexio-row>\n                        <amexio-column [size]=2>\n                            <amexio-dropdown [(ngModel)]=\"personalDetails.title\" formControlName=\"Title\" [search]=\"true\" name=\"title\" [(ngModel)]=\"personalDetails.title\" [place-holder]=\"'Select title'\" [field-label]=\"'Title'\" [data]=\"titles\" [value-field]=\"'primaryKey'\" [display-field]=\"'primaryDisplay'\">\n                            </amexio-dropdown>\n                        </amexio-column>\n                        <amexio-column [size]=5>\n                            <amexio-text-input [(ngModel)]=\"personalDetails.firstName\" formControlName=\"FirstName\" name=\"name\" field-label=\"Name\" place-holder=\"Name\">\n                            </amexio-text-input>\n                        </amexio-column>\n                        <amexio-column [size]=5>\n                            <amexio-text-input [(ngModel)]=\"personalDetails.surname\" formControlName=\"Surname\" name=\"surname\" field-label=\"Surname\" place-holder=\"Surname\">\n                            </amexio-text-input>\n                        </amexio-column>\n                    </amexio-row>\n\n                    <amexio-row>\n                        <amexio-column [size]=4>\n                            <amexio-email-input [(ngModel)]=\"personalDetails.email\" formControlName=\"Email\" name=\"email\" [field-label]=\"'Email'\" [place-holder]=\"'Email'\">\n                            </amexio-email-input>\n                        </amexio-column>\n                        <amexio-column [size]=4>\n                            <amexio-text-input [(ngModel)]=\"personalDetails.phone\" formControlName=\"Phone\" name=\"phone\" field-label=\"Phone\" place-holder=\"phone\">\n                            </amexio-text-input>\n                        </amexio-column>\n                      <amexio-column [size]=4>\n                        <amexio-radio-group [(ngModel)]=\"personalDetails.perferredContact\" [field-label]=\"'Preferred mode of contact'\" formControlName=\"ContactPreference\" name=\"contactPreference\" [display-field]=\"'primaryDisplay'\" [value-field]=\"'primaryKey'\" [horizontal]=\"true\"\n                                            [data]=\"preferredModeOfContacts\">\n                        </amexio-radio-group>\n                      </amexio-column>\n\n                    </amexio-row>\n                    <br>\n                    <amexio-label size=\"medium-bold\">VEHICLE DETAILS</amexio-label>\n                    <amexio-row>\n                        <amexio-column [size]=6>\n                            <amexio-dropdown [(ngModel)]=\"personalDetails.vehicleType\" formControlName=\"VehicleType\" [search]=\"true\" name=\"vehicleType\" [place-holder]=\"'Vehicle Type'\" [field-label]=\"'Vehicle Type'\" [data]=\"vehicleTypes\" [value-field]=\"'primaryKey'\" [display-field]=\"'primaryDisplay'\">\n                            </amexio-dropdown>\n                        </amexio-column>\n                        <amexio-column [size]=6>\n                            <amexio-dropdown [(ngModel)]=\"personalDetails.modelYear\" formControlName=\"ModelYear\" [search]=\"true\" name=\"modelYear\" [place-holder]=\"'Model Year'\" [field-label]=\"'Model Year'\" [data]=\"modelYears\" [value-field]=\"'primaryKey'\" [display-field]=\"'primaryDisplay'\">\n                            </amexio-dropdown>\n                        </amexio-column>\n                    </amexio-row>\n\n                    <amexio-row>\n                        <amexio-column [size]=6>\n                            <amexio-number-input [(ngModel)]=\"personalDetails.presentKm\" formControlName=\"PresentKm\" name=\"presentKm\" [field-label]=\"'Present KM on your car'\" [place-holder]=\"'Enter KM on you car'\">\n                            </amexio-number-input>\n                        </amexio-column>\n                        <amexio-column [size]=6>\n                            <amexio-text-input [(ngModel)]=\"personalDetails.registrationNumber\" formControlName=\"RegistrationNumber\" name=\"registrationNumber\" field-label=\"Registration Plate (License Plate)\" place-holder=\"Registration plate\">\n                            </amexio-text-input>\n                        </amexio-column>\n                    </amexio-row>\n\n                </div>\n            </amexio-layout-item>\n        </amexio-layout-columns>\n    </amexio-body>\n    <amexio-action>\n        <amexio-button [label]=\"'Close'\" [type]=\"'theme-backgroundcolor'\" [tooltip]=\"'Proceed to preferred location'\" [size]=\"'large'\" (onClick)=\"onCloseClick($event)\">\n        </amexio-button>\n        <amexio-button [label]=\"'Next'\" [type]=\"'theme-color'\" [disabled]=\"!personDetailsGroup.valid\" [tooltip]=\"'Proceed to preferred location'\" [size]=\"'large'\" (onClick)=\"proceedToPreferredLocation($event)\">\n        </amexio-button>\n    </amexio-action>\n</amexio-card>\n"
+module.exports = "<amexio-card class=\"person-details\" [body-height]=\"75\" [show]=\"showWindow\" [header]=\"false\" [footer]=\"true\">\n    <amexio-body>\n        <amexio-layout-columns [orientation]=\"'vertical'\" [border]=\"false\" [alignment]=\"'space-between'\">\n            <amexio-layout-item>\n                <div class=\"adjustbody\" [formGroup]=\"personDetailsGroup\">\n                    <amexio-label size=\"medium-bold\">PERSONAL DETAILS</amexio-label>\n                    <amexio-row>\n                        <amexio-column [size]=2>\n                            <amexio-dropdown [(ngModel)]=\"personalDetails.title\" formControlName=\"Title\" [enable-sort]=\"true\" [sort]=\"'asc'\" [search]=\"true\" name=\"title\" [place-holder]=\"'Select title'\" [field-label]=\"'Title'\" [data]=\"titles\" [value-field]=\"'primaryKey'\" [display-field]=\"'primaryDisplay'\">\n                            </amexio-dropdown>\n                        </amexio-column>\n                        <amexio-column [size]=5>\n                            <amexio-text-input [(ngModel)]=\"personalDetails.firstName\" formControlName=\"FirstName\" name=\"name\" field-label=\"Name\" place-holder=\"Name\">\n                            </amexio-text-input>\n                        </amexio-column>\n                        <amexio-column [size]=5>\n                            <amexio-text-input [(ngModel)]=\"personalDetails.surname\" formControlName=\"Surname\" name=\"surname\" field-label=\"Surname\" place-holder=\"Surname\">\n                            </amexio-text-input>\n                        </amexio-column>\n                    </amexio-row>\n\n                    <amexio-row>\n                        <amexio-column [size]=4>\n                            <amexio-email-input [(ngModel)]=\"personalDetails.email\" formControlName=\"Email\" name=\"email\" [field-label]=\"'Email'\" [place-holder]=\"'Email'\">\n                            </amexio-email-input>\n                        </amexio-column>\n                        <amexio-column [size]=4>\n                            <amexio-text-input [(ngModel)]=\"personalDetails.phone\" formControlName=\"Phone\" name=\"phone\" field-label=\"Phone\" place-holder=\"phone\">\n                            </amexio-text-input>\n                        </amexio-column>\n                        <amexio-column [size]=4>\n                            <amexio-radio-group [(ngModel)]=\"personalDetails.perferredContact\" [field-label]=\"'Preferred mode of contact'\" formControlName=\"ContactPreference\" name=\"contactPreference\" [display-field]=\"'primaryDisplay'\" [value-field]=\"'primaryKey'\" [horizontal]=\"true\"\n                                [data]=\"preferredModeOfContacts\">\n                            </amexio-radio-group>\n                        </amexio-column>\n\n                    </amexio-row>\n                    <br>\n                    <amexio-label size=\"medium-bold\">VEHICLE DETAILS</amexio-label>\n                    <amexio-row>\n                        <amexio-column [size]=6>\n                            <amexio-dropdown [(ngModel)]=\"personalDetails.vehicleType\" formControlName=\"VehicleType\" [enable-sort]=\"true\" [sort]=\"'asc'\" [search]=\"true\" name=\"vehicleType\" [place-holder]=\"'Vehicle Type'\" [field-label]=\"'Vehicle Type'\" [data]=\"vehicleTypes\" [value-field]=\"'primaryKey'\"\n                                [display-field]=\"'primaryDisplay'\">\n                            </amexio-dropdown>\n                        </amexio-column>\n                        <amexio-column [size]=6>\n                            <amexio-dropdown [(ngModel)]=\"personalDetails.modelYear\" formControlName=\"ModelYear\" [enable-sort]=\"true\" [sort]=\"'asc'\" [search]=\"true\" name=\"modelYear\" [place-holder]=\"'Model Year'\" [field-label]=\"'Model Year'\" [data]=\"modelYears\" [value-field]=\"'primaryKey'\"\n                                [display-field]=\"'primaryDisplay'\">\n                            </amexio-dropdown>\n                        </amexio-column>\n                    </amexio-row>\n\n                    <amexio-row>\n                        <amexio-column [size]=6>\n                            <amexio-number-input [(ngModel)]=\"personalDetails.presentKm\" formControlName=\"PresentKm\" name=\"presentKm\" [field-label]=\"'Present KM on your car'\" [place-holder]=\"'Enter KM on you car'\">\n                            </amexio-number-input>\n                        </amexio-column>\n                        <amexio-column [size]=6>\n                            <amexio-text-input [(ngModel)]=\"personalDetails.registrationNumber\" formControlName=\"RegistrationNumber\" name=\"registrationNumber\" field-label=\"Registration Plate (License Plate)\" place-holder=\"Registration plate\">\n                            </amexio-text-input>\n                        </amexio-column>\n                    </amexio-row>\n\n                </div>\n            </amexio-layout-item>\n        </amexio-layout-columns>\n    </amexio-body>\n    <amexio-action>\n        <amexio-button [label]=\"'Close'\" [type]=\"'theme-backgroundcolor'\" [tooltip]=\"'Proceed to preferred location'\" [size]=\"'large'\" (onClick)=\"onCloseClick($event)\">\n        </amexio-button>\n        <amexio-button [label]=\"'Next'\" [type]=\"'theme-color'\" [disabled]=\"!personDetailsGroup.valid\" [tooltip]=\"'Proceed to preferred location'\" [size]=\"'large'\" (onClick)=\"proceedToPreferredLocation($event)\">\n        </amexio-button>\n    </amexio-action>\n</amexio-card>"
 
 /***/ }),
 
@@ -1521,7 +1628,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/sagar/sagar/UI_Work/poc/gic-rina/projects/alfahim/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/dattaram/metamagic/POC/gic-rina/projects/alfahim/src/main.ts */"./src/main.ts");
 
 
 /***/ })

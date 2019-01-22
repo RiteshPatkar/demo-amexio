@@ -276,6 +276,67 @@ var PreferredLocationComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "../rina-lib/src/lib/components/property-grid/propertygrid.component.html":
+/*!********************************************************************************!*\
+  !*** ../rina-lib/src/lib/components/property-grid/propertygrid.component.html ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\">\n    <amexio-body>\n        <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'end'\">\n            <amexio-layout-item style=\"width: 20%\" *ngIf=\"hasImage\">\n              <amexio-image [path]=\"image\" [filter]=\"'round'\">\n              </amexio-image>\n            </amexio-layout-item>\n            <amexio-layout-item [fit]=\"true\">\n              <table style=\"padding: 2px;\">\n                <tr *ngFor=\"let item of data\">\n                  <td>{{item.fieldName}}</td>\n                  <td>:</td>\n                  <td style=\"word-break: break-all;\">{{item.fieldValue}}</td>\n                </tr>\n              </table>\n            </amexio-layout-item>\n          </amexio-layout-columns>\n    </amexio-body>\n</amexio-card>\n\n\n"
+
+/***/ }),
+
+/***/ "../rina-lib/src/lib/components/property-grid/propertygrid.component.ts":
+/*!******************************************************************************!*\
+  !*** ../rina-lib/src/lib/components/property-grid/propertygrid.component.ts ***!
+  \******************************************************************************/
+/*! exports provided: PropertyGridComponnent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PropertyGridComponnent", function() { return PropertyGridComponnent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var PropertyGridComponnent = /** @class */ (function () {
+    function PropertyGridComponnent() {
+        this.hasImage = false;
+    }
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('key-value-data'),
+        __metadata("design:type", Array)
+    ], PropertyGridComponnent.prototype, "data", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('image'),
+        __metadata("design:type", String)
+    ], PropertyGridComponnent.prototype, "image", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('has-image'),
+        __metadata("design:type", Object)
+    ], PropertyGridComponnent.prototype, "hasImage", void 0);
+    PropertyGridComponnent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'rina-property-grid',
+            template: __webpack_require__(/*! ./propertygrid.component.html */ "../rina-lib/src/lib/components/property-grid/propertygrid.component.html")
+        })
+    ], PropertyGridComponnent);
+    return PropertyGridComponnent;
+}());
+
+
+
+/***/ }),
+
 /***/ "../rina-lib/src/lib/components/service-booking/service.availiblity-lib.component.html":
 /*!*********************************************************************************************!*\
   !*** ../rina-lib/src/lib/components/service-booking/service.availiblity-lib.component.html ***!
@@ -283,7 +344,7 @@ var PreferredLocationComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'space-between'\">\n    <amexio-layout-item>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-dropdown [(ngModel)]=\"serviceModel.location\" [place-holder]=\"'Select Location'\" name=\"location\" [field-label]=\"'Select Location'\" [data]=\"serviceLocations\" [display-field]=\"'primaryDisplay'\" [value-field]=\"'primaryKey'\" (onSingleSelect)=\"onLocationClick($event)\">\n                </amexio-dropdown>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=9>\n                <amexio-date-time-picker [field-label]=\"'Select Date'\" [min-date]=\"minDate\" [time-picker]=\"false\" [date-picker]=\"true\" name=\"appointmentDate\" [min-date]=\"todayDate\" [(ngModel)]=\"serviceModel.appointmentDate\">\n                </amexio-date-time-picker>\n            </amexio-column>\n            <amexio-column [size]=3>\n                <amexio-dropdown [(ngModel)]=\"serviceModel.appointmentTime\" (onSingleSelect)=\"setTime($event)\" [place-holder]=\"'Select Time'\" name=\"appointmentTime\" [field-label]=\"'Select time'\" [data]=\"timeSlots\" [display-field]=\"'time'\" [value-field]=\"'timeId'\">\n                </amexio-dropdown>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-dropdown [(ngModel)]=\"serviceModel.assitantPersonId\" [place-holder]=\"'Select SA'\" name=\"assitantPerson\" [field-label]=\"'Service Assistant (SA)'\" [data]=\"assitantPerson\" [display-field]=\"'primaryDisplay'\" [value-field]=\"'primaryKey'\" (onSingleSelect)=\"onAssitantClick($event)\">\n                </amexio-dropdown>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-button [label]=\"'CHECK SA AVAILIBLITY'\" [type]=\"'theme-color'\" [tooltip]=\"'CHECK SA AVAILIBLITY'\" (onClick)=\"checkAvailiblity()\"></amexio-button>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-ee-appointment [height]=\"'200px'\" [date]=\"serviceModel.appointmentDate\" [start-time]=\"serviceModel.appointmentTime\" [end-time]=\"endTime\" [available-slots]=\"availableslots\" (onSingleSelect)=\"onSlotSelection($event)\"></amexio-ee-appointment>\n            </amexio-column>\n        </amexio-row>\n\n    </amexio-layout-item>\n    <amexio-layout-item [fit]=\"true\">\n        <amexio-google-map [initial-zoom-level]=\"8\" [initial-lat]=\"25.270889\" [initial-lng]=\"55.872501\" [height]=\"'100%'\" [data]=\"serviceStations\" (onMarkerClick)=\"onMarkerClick($event)\" [google-map-key]=\"'AIzaSyDKSPX97z-ndeh_Mgq3xkaML2Kp9AwHA9s'\">\n        </amexio-google-map>\n    </amexio-layout-item>\n</amexio-layout-columns>"
+module.exports = "<amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'space-between'\">\n    <amexio-layout-item>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-dropdown [(ngModel)]=\"serviceModel.location\" [enable-sort]=\"true\" [sort]=\"'asc'\" [search]=\"true\" [place-holder]=\"'Select Location'\" name=\"location\" [field-label]=\"'Select Location'\" [data]=\"serviceLocations\" [display-field]=\"'primaryDisplay'\"\n                    [value-field]=\"'primaryKey'\" (onSingleSelect)=\"onLocationClick($event)\">\n                </amexio-dropdown>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=9>\n                <amexio-date-time-picker [field-label]=\"'Select Date'\" [min-date]=\"minDate\" [time-picker]=\"false\" [date-picker]=\"true\" name=\"appointmentDate\" [min-date]=\"todayDate\" [(ngModel)]=\"serviceModel.appointmentDate\">\n                </amexio-date-time-picker>\n            </amexio-column>\n            <amexio-column [size]=3>\n                <amexio-dropdown [(ngModel)]=\"serviceModel.appointmentTime\" [enable-sort]=\"true\" [sort]=\"'asc'\" [search]=\"true\" (onSingleSelect)=\"setTime($event)\" [place-holder]=\"'Select Time'\" name=\"appointmentTime\" [field-label]=\"'Select time'\" [data]=\"timeSlots\" [display-field]=\"'time'\"\n                    [value-field]=\"'timeId'\">\n                </amexio-dropdown>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-dropdown [(ngModel)]=\"serviceModel.assitantPersonId\" [enable-sort]=\"true\" [sort]=\"'asc'\" [search]=\"true\" [place-holder]=\"'Select SA'\" name=\"assitantPerson\" [field-label]=\"'Service Assistant (SA)'\" [data]=\"assitantPerson\" [display-field]=\"'primaryDisplay'\"\n                    [value-field]=\"'primaryKey'\" (onSingleSelect)=\"onAssitantClick($event)\">\n                </amexio-dropdown>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-button [label]=\"'CHECK SA AVAILIBLITY'\" [type]=\"'theme-color'\" [tooltip]=\"'CHECK SA AVAILIBLITY'\" (onClick)=\"checkAvailiblity()\"></amexio-button>\n            </amexio-column>\n        </amexio-row>\n        <amexio-row>\n            <amexio-column [size]=12>\n                <amexio-ee-appointment [height]=\"'200px'\" [date]=\"serviceModel.appointmentDate\" [start-time]=\"serviceModel.appointmentTime\" [end-time]=\"endTime\" [available-slots]=\"availableslots\" (onSingleSelect)=\"onSlotSelection($event)\"></amexio-ee-appointment>\n            </amexio-column>\n        </amexio-row>\n\n    </amexio-layout-item>\n    <amexio-layout-item [fit]=\"true\">\n        <amexio-google-map [initial-zoom-level]=\"8\" [initial-lat]=\"25.270889\" [initial-lng]=\"55.872501\" [height]=\"'100%'\" [data]=\"serviceStations\" (onMarkerClick)=\"onMarkerClick($event)\" [google-map-key]=\"'AIzaSyDKSPX97z-ndeh_Mgq3xkaML2Kp9AwHA9s'\">\n        </amexio-google-map>\n    </amexio-layout-item>\n</amexio-layout-columns>"
 
 /***/ }),
 
@@ -581,6 +642,28 @@ var PersonalDetails = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "../rina-lib/src/lib/model/shared/propertygrid.model.ts":
+/*!**************************************************************!*\
+  !*** ../rina-lib/src/lib/model/shared/propertygrid.model.ts ***!
+  \**************************************************************/
+/*! exports provided: PropertyGridModel */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PropertyGridModel", function() { return PropertyGridModel; });
+var PropertyGridModel = /** @class */ (function () {
+    function PropertyGridModel(_fieldName, _fieldValue) {
+        this.fieldName = _fieldName;
+        this.fieldValue = _fieldValue;
+    }
+    return PropertyGridModel;
+}());
+
+
+
+/***/ }),
+
 /***/ "../rina-lib/src/lib/rina-lib.components.ts":
 /*!**************************************************!*\
   !*** ../rina-lib/src/lib/rina-lib.components.ts ***!
@@ -595,6 +678,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_preferred_location_preferred_location_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/preferred-location/preferred.location.component */ "../rina-lib/src/lib/components/preferred-location/preferred.location.component.ts");
 /* harmony import */ var _components_confirmation_service_confirmation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/confirmation/service.confirmation */ "../rina-lib/src/lib/components/confirmation/service.confirmation.ts");
 /* harmony import */ var _components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/appointmentdetails/appointment.confirmation */ "../rina-lib/src/lib/components/appointmentdetails/appointment.confirmation.ts");
+/* harmony import */ var _components_property_grid_propertygrid_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/property-grid/propertygrid.component */ "../rina-lib/src/lib/components/property-grid/propertygrid.component.ts");
+
 
 
 
@@ -603,7 +688,8 @@ var RINA_COMPONENTS = [
     _components_service_booking_service_availiblity_lib_component__WEBPACK_IMPORTED_MODULE_0__["ServiceAvailiblityComponent"],
     _components_preferred_location_preferred_location_component__WEBPACK_IMPORTED_MODULE_1__["PreferredLocationComponent"],
     _components_confirmation_service_confirmation__WEBPACK_IMPORTED_MODULE_2__["ServiceConfirmationComponent"],
-    _components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_3__["AppoinmentConfirmationComponent"]
+    _components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_3__["AppoinmentConfirmationComponent"],
+    _components_property_grid_propertygrid_component__WEBPACK_IMPORTED_MODULE_4__["PropertyGridComponnent"]
 ];
 
 
@@ -1035,7 +1121,7 @@ var HttpService = /** @class */ (function () {
 /*!*************************************!*\
   !*** ../rina-lib/src/public_api.ts ***!
   \*************************************/
-/*! exports provided: RinaLibModule, ServiceAvailibilityModel, ServiceAvailiblityComponent, PreferredLocationComponent, ServiceConfirmationComponent, AppoinmentConfirmationComponent, CustomerModel */
+/*! exports provided: RinaLibModule, ServiceAvailibilityModel, PropertyGridModel, ServiceAvailiblityComponent, PreferredLocationComponent, ServiceConfirmationComponent, AppoinmentConfirmationComponent, PropertyGridComponnent, CustomerModel */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1049,17 +1135,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _rinaccm_src_app_models_customer_details_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../rinaccm/src/app/models/customer.details.model */ "./src/app/models/customer.details.model.ts");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CustomerModel", function() { return _rinaccm_src_app_models_customer_details_model__WEBPACK_IMPORTED_MODULE_2__["CustomerModel"]; });
 
-/* harmony import */ var _lib_components_service_booking_service_availiblity_lib_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lib/components/service-booking/service.availiblity-lib.component */ "../rina-lib/src/lib/components/service-booking/service.availiblity-lib.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ServiceAvailiblityComponent", function() { return _lib_components_service_booking_service_availiblity_lib_component__WEBPACK_IMPORTED_MODULE_3__["ServiceAvailiblityComponent"]; });
+/* harmony import */ var _lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lib/model/shared/propertygrid.model */ "../rina-lib/src/lib/model/shared/propertygrid.model.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PropertyGridModel", function() { return _lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]; });
 
-/* harmony import */ var _lib_components_preferred_location_preferred_location_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./lib/components/preferred-location/preferred.location.component */ "../rina-lib/src/lib/components/preferred-location/preferred.location.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PreferredLocationComponent", function() { return _lib_components_preferred_location_preferred_location_component__WEBPACK_IMPORTED_MODULE_4__["PreferredLocationComponent"]; });
+/* harmony import */ var _lib_components_service_booking_service_availiblity_lib_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./lib/components/service-booking/service.availiblity-lib.component */ "../rina-lib/src/lib/components/service-booking/service.availiblity-lib.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ServiceAvailiblityComponent", function() { return _lib_components_service_booking_service_availiblity_lib_component__WEBPACK_IMPORTED_MODULE_4__["ServiceAvailiblityComponent"]; });
 
-/* harmony import */ var _lib_components_confirmation_service_confirmation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./lib/components/confirmation/service.confirmation */ "../rina-lib/src/lib/components/confirmation/service.confirmation.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ServiceConfirmationComponent", function() { return _lib_components_confirmation_service_confirmation__WEBPACK_IMPORTED_MODULE_5__["ServiceConfirmationComponent"]; });
+/* harmony import */ var _lib_components_preferred_location_preferred_location_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./lib/components/preferred-location/preferred.location.component */ "../rina-lib/src/lib/components/preferred-location/preferred.location.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PreferredLocationComponent", function() { return _lib_components_preferred_location_preferred_location_component__WEBPACK_IMPORTED_MODULE_5__["PreferredLocationComponent"]; });
 
-/* harmony import */ var _lib_components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./lib/components/appointmentdetails/appointment.confirmation */ "../rina-lib/src/lib/components/appointmentdetails/appointment.confirmation.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AppoinmentConfirmationComponent", function() { return _lib_components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_6__["AppoinmentConfirmationComponent"]; });
+/* harmony import */ var _lib_components_confirmation_service_confirmation__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./lib/components/confirmation/service.confirmation */ "../rina-lib/src/lib/components/confirmation/service.confirmation.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ServiceConfirmationComponent", function() { return _lib_components_confirmation_service_confirmation__WEBPACK_IMPORTED_MODULE_6__["ServiceConfirmationComponent"]; });
+
+/* harmony import */ var _lib_components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./lib/components/appointmentdetails/appointment.confirmation */ "../rina-lib/src/lib/components/appointmentdetails/appointment.confirmation.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AppoinmentConfirmationComponent", function() { return _lib_components_appointmentdetails_appointment_confirmation__WEBPACK_IMPORTED_MODULE_7__["AppoinmentConfirmationComponent"]; });
+
+/* harmony import */ var _lib_components_property_grid_propertygrid_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./lib/components/property-grid/propertygrid.component */ "../rina-lib/src/lib/components/property-grid/propertygrid.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PropertyGridComponnent", function() { return _lib_components_property_grid_propertygrid_component__WEBPACK_IMPORTED_MODULE_8__["PropertyGridComponnent"]; });
 
 /*
  * Public API Surface of rina-lib
@@ -1067,7 +1159,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 /* EXPORTED COMPONENT */
+
 
 
 
@@ -1179,9 +1273,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _feature_component_vehicle_details_vehicle_details_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./feature-component/vehicle-details/vehicle.details.component */ "./src/app/feature-component/vehicle-details/vehicle.details.component.ts");
 /* harmony import */ var _feature_component_company_logo_company_logo_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./feature-component/company-logo/company.logo.component */ "./src/app/feature-component/company-logo/company.logo.component.ts");
 /* harmony import */ var _feature_component_searchbox_searchbox_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./feature-component/searchbox/searchbox.component */ "./src/app/feature-component/searchbox/searchbox.component.ts");
-/* harmony import */ var _feature_component_vehicle_service_history_vehicle_service_history_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./feature-component/vehicle-service-history/vehicle.service.history.component */ "./src/app/feature-component/vehicle-service-history/vehicle.service.history.component.ts");
-/* harmony import */ var _feature_component_customer_details_customer_details_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./feature-component/customer-details/customer.details.component */ "./src/app/feature-component/customer-details/customer.details.component.ts");
-/* harmony import */ var _feature_component_service_list_service_list_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./feature-component/service-list/service.list.component */ "./src/app/feature-component/service-list/service.list.component.ts");
+/* harmony import */ var _feature_component_service_list_service_list_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./feature-component/service-list/service.list.component */ "./src/app/feature-component/service-list/service.list.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1201,13 +1293,11 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
-
-
 var COMPONENT = [
-    _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"], _rina_home_rina_home_component__WEBPACK_IMPORTED_MODULE_3__["RinaHomeComponent"], _feature_component_customer_details_customer_details_component__WEBPACK_IMPORTED_MODULE_13__["CustomerDetailsComponent"],
+    _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"], _rina_home_rina_home_component__WEBPACK_IMPORTED_MODULE_3__["RinaHomeComponent"],
     _feature_component_vehicle_details_vehicle_details_component__WEBPACK_IMPORTED_MODULE_9__["VehicleDetailsComponent"], _feature_component_company_logo_company_logo_component__WEBPACK_IMPORTED_MODULE_10__["CompanyLogoComponent"],
-    _feature_component_searchbox_searchbox_component__WEBPACK_IMPORTED_MODULE_11__["SearchBoxComponent"], _feature_component_vehicle_service_history_vehicle_service_history_component__WEBPACK_IMPORTED_MODULE_12__["VehicleServiceHistoryComponent"],
-    _feature_component_service_list_service_list_component__WEBPACK_IMPORTED_MODULE_14__["ServiceListComponent"]
+    _feature_component_searchbox_searchbox_component__WEBPACK_IMPORTED_MODULE_11__["SearchBoxComponent"],
+    _feature_component_service_list_service_list_component__WEBPACK_IMPORTED_MODULE_12__["ServiceListComponent"]
 ];
 var AppModule = /** @class */ (function () {
     function AppModule() {
@@ -1282,71 +1372,6 @@ var CompanyLogoComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], CompanyLogoComponent);
     return CompanyLogoComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/feature-component/customer-details/customer-details.component.html":
-/*!************************************************************************************!*\
-  !*** ./src/app/feature-component/customer-details/customer-details.component.html ***!
-  \************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n  <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'end'\">\n    <amexio-layout-item style=\"width: 20%\">\n      <amexio-image [path]=\"customerModel.profileImageUrl\"\n                    [filter]=\"'round'\">\n      </amexio-image>\n    </amexio-layout-item>\n    <amexio-layout-item [fit]=\"true\">\n      <table style=\"padding: 2px;\">\n        <tr>\n          <td>Customer ID</td>\n          <td>:</td>\n          <td style=\"word-break: break-all;\">{{customerModel.customerId}}</td>\n        </tr>\n       \n        <tr>\n            <td>Mobile #</td>\n            <td>:</td>\n            <td>{{customerModel.mobile}}</td>\n          </tr>\n          <tr>\n            <td>Name</td>\n            <td>:</td>\n            <td>{{customerModel.name}}</td>\n          </tr>\n  \n          <tr>\n            <td>Company</td>\n            <td>:</td>\n            <td>{{customerModel.companyName}}</td>\n          </tr>\n          <tr>\n            <td>Status </td>\n            <td>:</td>\n            <td>{{customerModel.operatingStatus}}</td>\n          </tr>\n          <tr><td>Email </td>\n            <td>:</td>\n            <td style=\"word-break: break-all;\">{{customerModel.email}}</td>\n          </tr>\n  \n  \n          <tr>\n            <td>Alt Number</td>\n            <td>:</td>\n            <td>{{customerModel.altNumber}}</td>\n          </tr>\n          <tr>\n            <td>Birthday</td>\n            <td>:</td>\n            <td>{{customerModel.birthday}}</td>\n          </tr>\n          <tr>\n            <td>Anniversary</td>\n            <td>:</td>\n            <td>{{customerModel.anniversary}}</td>\n          </tr>\n\n\n\n\n      </table>\n    </amexio-layout-item>\n  </amexio-layout-columns>\n\n\n\n<!--<amexio-row>\n  <amexio-column [size]=\"3\">\n\n  </amexio-column>\n  <amexio-column [size]=\"9\">\n\n  </amexio-column>\n</amexio-row>-->\n\n<!--<tr>\n  <td>\n    <div><span>Email</span>\n      <span style=\"align-content: end;\">:</span></div></td>\n     <td style=\"word-break: break-all;\">abcaaaaaaaaaaaa@gmail.comaa</td>\n</tr>-->\n"
-
-/***/ }),
-
-/***/ "./src/app/feature-component/customer-details/customer.details.component.ts":
-/*!**********************************************************************************!*\
-  !*** ./src/app/feature-component/customer-details/customer.details.component.ts ***!
-  \**********************************************************************************/
-/*! exports provided: CustomerDetailsComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CustomerDetailsComponent", function() { return CustomerDetailsComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _models_customer_profile_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../models/customer.profile.model */ "./src/app/models/customer.profile.model.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-/**
- * Created by dattaram on 14/1/19.
- */
-
-
-var CustomerDetailsComponent = /** @class */ (function () {
-    function CustomerDetailsComponent() {
-    }
-    CustomerDetailsComponent.prototype.ngOnInit = function () {
-    };
-    CustomerDetailsComponent.prototype.ngOnChanges = function (changes) {
-        if (changes.customerModel) {
-            this.customerModel = changes.customerModel.currentValue;
-        }
-    };
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('customer-model'),
-        __metadata("design:type", _models_customer_profile_model__WEBPACK_IMPORTED_MODULE_1__["CustomerProfile"])
-    ], CustomerDetailsComponent.prototype, "customerModel", void 0);
-    CustomerDetailsComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'customer-details',
-            template: __webpack_require__(/*! ./customer-details.component.html */ "./src/app/feature-component/customer-details/customer-details.component.html")
-        }),
-        __metadata("design:paramtypes", [])
-    ], CustomerDetailsComponent);
-    return CustomerDetailsComponent;
 }());
 
 
@@ -1640,70 +1665,6 @@ var VehicleDetailsComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/feature-component/vehicle-service-history/vehicle.service.history.component.html":
-/*!**************************************************************************************************!*\
-  !*** ./src/app/feature-component/vehicle-service-history/vehicle.service.history.component.html ***!
-  \**************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n\n<amexio-card [header]=\"false\"\n             [footer]=\"false\">\n  <amexio-body>\n    <table>\n      <tr>\n        <td>BU</td>\n        <td>:</td>\n        <td>{{vehicleModel.bu}}</td>\n      </tr>\n      <tr>\n        <td>Vehicle</td>\n        <td>:</td>\n        <td>{{vehicleModel.vehicleDetail.modelName}}</td>\n      </tr>\n      <tr>\n        <td>Date of Purchase</td>\n        <td>:</td>\n        <td>{{vehicleModel.dateOfPurchase}}</td>\n      </tr>\n\n      <tr>\n        <td>Model Year</td>\n        <td>:</td>\n        <td>{{vehicleModel.vehicleDetail.modelYear}}</td>\n      </tr>\n      <tr>\n        <td>Registration No</td>\n        <td>:</td>\n        <td>{{vehicleModel.registrationNo}}</td>\n      </tr>\n      <tr>\n        <td>Customer Class</td>\n        <td>:</td>\n        <td>{{customerModel.customerClass}}</td>\n      </tr>\n\n      <tr>\n        <td>Preferred Mode of Contact</td>\n        <td>:</td>\n        <td>{{customerModel.preferredModeOfContact}}</td>\n      </tr>\n    </table>\n  </amexio-body>\n</amexio-card>\n"
-
-/***/ }),
-
-/***/ "./src/app/feature-component/vehicle-service-history/vehicle.service.history.component.ts":
-/*!************************************************************************************************!*\
-  !*** ./src/app/feature-component/vehicle-service-history/vehicle.service.history.component.ts ***!
-  \************************************************************************************************/
-/*! exports provided: VehicleServiceHistoryComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VehicleServiceHistoryComponent", function() { return VehicleServiceHistoryComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _models_customer_profile_model__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../models/customer.profile.model */ "./src/app/models/customer.profile.model.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-/**
- * Created by dattaram on 16/1/19.
- */
-
-
-var VehicleServiceHistoryComponent = /** @class */ (function () {
-    function VehicleServiceHistoryComponent() {
-    }
-    VehicleServiceHistoryComponent.prototype.ngOnInit = function () {
-    };
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('vehicle-model'),
-        __metadata("design:type", Object)
-    ], VehicleServiceHistoryComponent.prototype, "vehicleModel", void 0);
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('customer-model'),
-        __metadata("design:type", _models_customer_profile_model__WEBPACK_IMPORTED_MODULE_1__["CustomerProfile"])
-    ], VehicleServiceHistoryComponent.prototype, "customerModel", void 0);
-    VehicleServiceHistoryComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'vehicle-service-history',
-            template: __webpack_require__(/*! ./vehicle.service.history.component.html */ "./src/app/feature-component/vehicle-service-history/vehicle.service.history.component.html")
-        }),
-        __metadata("design:paramtypes", [])
-    ], VehicleServiceHistoryComponent);
-    return VehicleServiceHistoryComponent;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/models/customer.details.model.ts":
 /*!**************************************************!*\
   !*** ./src/app/models/customer.details.model.ts ***!
@@ -1851,7 +1812,7 @@ var Vehicles = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-spinner [show]=\"showLoader\" [type]=\"'spinnerround'\" [vertical-position]=\"'center'\"\n                [horizontal-position]=\"'center'\" [color]=\"'yellow'\">\n</amexio-spinner>\n <amexio-layout-grid [layout]=\"'rinahomepage'\">\n   <amexio-grid-item [name]=\"'logoposition'\">\n     <amexio-card [header]=\"false\"\n                  [footer]=\"false\">\n       <amexio-body>\n     <company-logo></company-logo>\n       </amexio-body>\n     </amexio-card>\n   </amexio-grid-item>\n   <amexio-grid-item  [name]=\"'topslot2'\">\n\n     <span class=\"custdetail\">\n     <amexio-card [header]=\"false\"\n                  [footer]=\"false\">\n       <amexio-body>\n         <customer-details [customer-model]=\"customerModel\"></customer-details>\n       </amexio-body>\n     </amexio-card>\n     </span>\n   </amexio-grid-item>\n   <amexio-grid-item  [name]=\"'topslot3'\">\n    <vehicle-service-history [customer-model]=\"customerModel\" [vehicle-model]=\"vehicle\"></vehicle-service-history>\n   </amexio-grid-item>\n   <amexio-grid-item  [name]=\"'topslot4'\">\n       <amexio-card [header]=\"false\"\n                        [footer]=\"false\">\n             <amexio-body>\n               <table>\n                 <tr>\n                   <td>Last Service</td>\n                   <td>:</td>\n                   <td>{{vehicle.lastService}}</td>\n                 </tr>\n                 <tr>\n                   <td>Next Service &nbsp;</td>\n                   <td>:</td>\n                   <td>{{vehicle.nextService}}</td>\n                 </tr>\n                 <tr>\n                   <td>Open SRs &nbsp;</td>\n                   <td>:</td>\n                   <td>{{vehicle.openSRs}}</td>\n                 </tr>\n               </table>\n             </amexio-body>\n           </amexio-card>\n   </amexio-grid-item>\n   <amexio-grid-item  [name]=\"'guages'\">\n     <amexio-card [header]=\"false\"\n                  [footer]=\"false\">\n       <amexio-body>\n\n         <amexio-dashboard-gauge [height]=\"'200px'\"\n                                 [data]=\"gaugeChartData\"\n                                 [red-color-from]=\"90\"\n                                 [red-color-to]=\"100\"\n                                 [yellow-color-from]=\"75\"\n                                 [yellow-color-to]=\"90\"\n                                 [scale-value]=\"5\">\n         </amexio-dashboard-gauge>\n       </amexio-body>\n     </amexio-card>\n   </amexio-grid-item>\n\n   <amexio-grid-item  [name]=\"'rinasidemenu'\">\n     <service-list-component [service-list]=\"serviceList\" (errorFound)=\"handleError()\" (search)=\"getSearchObject($event)\"></service-list-component>\n   </amexio-grid-item>\n   <amexio-grid-item  [name]=\"'rinasidecenter'\">\n     <amexio-layout-columns style=\"background-color: white\" [fit]=\"true\" [border]=\"false\" [orientation]=\"'vertical'\" [alignment]=\"'space-between'\">\n       <amexio-layout-item [padding]=\"false\" [fit]=\"true\">\n         <amexio-tab-view #tab  [divide-header-equally]=true [closable]=\"false\" [body-height]=\"51\" >\n           <amexio-tab title=\"VEHICLE DETAILS\" [active]=\"true\" [amexio-color]=\"'red'\">\n             <ng-container *ngIf=\"customerModel.vehicles\">\n               <vehicle-details (selectVehicle)=\"getSelectedVehicle($event)\" [vehicle-details]=\"customerModel.vehicles\"></vehicle-details>\n             </ng-container>\n           </amexio-tab>\n           <amexio-tab title=\"BOOKING DETAILS\" [amexio-color]=\"'green'\">\n             <amexio-datagrid  [http-method]=\"'get'\"\n                               [http-url]=\"'assets/bookingdata.json'\" [data-reader]=\"'data'\" [page-size]=\"10\">\n\n               <amexio-data-table-column [data-index]=\"'bookingId'\" [data-type]=\"'string'\" [text]=\"'Booking Id'\">\n               </amexio-data-table-column>\n               <amexio-data-table-column [sort]=\"false\" [data-index]=\"'bookingDate'\" [data-type]=\"'string'\"\n                                         [text]=\"'Booking Date'\"></amexio-data-table-column>\n               <amexio-data-table-column [data-index]=\"'name'\" [data-type]=\"'string'\" [hidden]=\"false\" [text]=\"'Name'\">\n\n               </amexio-data-table-column>\n             </amexio-datagrid>\n           </amexio-tab>\n           <amexio-tab title=\"SERVICE HISTORY\" [amexio-color]=\"'black'\">\n             <amexio-datagrid  [http-method]=\"'get'\"\n                               [http-url]=\"'assets/servicedata.json'\" [data-reader]=\"'data'\" [page-size]=\"10\">\n\n               <amexio-data-table-column [data-index]=\"'serviceId'\" [data-type]=\"'string'\" [text]=\"'Service Id'\">\n               </amexio-data-table-column>\n               <amexio-data-table-column [sort]=\"false\" [data-index]=\"'serviceDate'\" [data-type]=\"'string'\"\n                                         [text]=\"'Service Date'\"></amexio-data-table-column>\n               <amexio-data-table-column [data-index]=\"'vehicle'\" [data-type]=\"'string'\" [hidden]=\"false\" [text]=\"'Vehicle'\">\n\n               </amexio-data-table-column>\n             </amexio-datagrid>\n           </amexio-tab>\n           <amexio-tab title=\"INTERACTION HISTORY\" [amexio-color]=\"'red'\">\n             <amexio-datagrid  [http-method]=\"'get'\"\n                               [http-url]=\"'assets/interaction.json'\" [data-reader]=\"'data'\" [page-size]=\"10\">\n\n               <amexio-data-table-column [data-index]=\"'interactionDate'\" [data-type]=\"'string'\" [text]=\"'Interaction Date'\">\n               </amexio-data-table-column>\n               <amexio-data-table-column [sort]=\"false\" [data-index]=\"'name'\" [data-type]=\"'string'\"\n                                         [text]=\"'Name'\"></amexio-data-table-column>\n             </amexio-datagrid>\n           </amexio-tab>\n           <amexio-tab title=\"RIGHT SELL\" [amexio-color]=\"'blue'\">\n             <amexio-datagrid  [http-method]=\"'get'\"\n                               [http-url]=\"'assets/dummygrid.json'\" [data-reader]=\"'data'\" [page-size]=\"10\">\n\n               <amexio-data-table-column [data-index]=\"'awaitingDetails'\" [data-type]=\"'string'\" [text]=\"'Awaiting Details'\">\n               </amexio-data-table-column>\n               <amexio-data-table-column [sort]=\"false\" [data-index]=\"'awaitingDetails'\" [data-type]=\"'string'\"\n                                         [text]=\"'Awaiting Details'\"></amexio-data-table-column>\n               <amexio-data-table-column [data-index]=\"'awaitingDetails'\" [data-type]=\"'string'\" [hidden]=\"false\" [text]=\"'Awaiting Details'\">\n\n               </amexio-data-table-column>\n             </amexio-datagrid>\n           </amexio-tab>\n         </amexio-tab-view>\n\n       </amexio-layout-item>\n       <amexio-layout-item style=\"background-color: #E8E8E8\" [padding]=\"false\">\n         <amexio-checkbox-group\n           [data-reader]=\"'data'\"\n           [display-field]=\"'serviceType'\"\n           [value-field]=\"'serviceType'\"\n           [horizontal]=\"true\"\n           [http-method]=\"'get'\"\n           [http-url]=\"'assets/serviceType.json'\">\n         </amexio-checkbox-group>\n\n         <amexio-layout-columns [fit]=\"true\" [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'space-between'\">\n           <amexio-layout-item [fit]=\"true\" >\n             <amexio-layout-columns [orientation]=\"'vertical'\" [border]=\"false\" [alignment]=\"'space-between'\">\n               <amexio-layout-item >\n             <amexio-text-input\n               place-holder=\"Call Remark\"\n               [allow-blank]=\"true\"\n               has-label=\"false\">\n             </amexio-text-input>\n               </amexio-layout-item>\n             </amexio-layout-columns>\n           </amexio-layout-item>\n           <amexio-layout-item  >\n             <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'end'\">\n               <amexio-layout-item >\n               <amexio-button [size]=\"'medium'\" [label]=\"'Submit'\" [type]=\"'theme-color'\"  [tooltip]=\"'submit'\">\n           </amexio-button>\n               </amexio-layout-item>\n             </amexio-layout-columns>\n           </amexio-layout-item>\n         </amexio-layout-columns>\n       </amexio-layout-item>\n     </amexio-layout-columns>\n   </amexio-grid-item>\n   <amexio-grid-item  [name]=\"'rinasidesearch'\">\n     <span class=\"servicelist\">\n    <amexio-card [header]=\"false\"\n                 [footer]=\"false\">\n      <amexio-body>\n            <amexio-dropdown\n              [place-holder]=\"'Select Script'\"\n              [display-field]=\"'scriptName'\"\n              [data-reader]=\"'data'\"\n              [value-field]=\"'scriptUrl'\"\n              [http-method]=\"'get'\"\n              [http-url]=\"'assets/script.json'\"\n              [enable-sort]=\"true\"\n              [sort]=\"'asc'\">\n         </amexio-dropdown>\n      </amexio-body>\n    </amexio-card>\n     </span>\n   </amexio-grid-item>\n </amexio-layout-grid>\n <amexio-dialogue [(show)]=\"warningdialogue\"\n                  [material-design]=\"true\"\n                  [message]=\"warningMsg\"\n                  [title]=\"'Warning'\"\n                  [message-type]=\"'warning'\"\n                  [type]=\"'alert'\">\n </amexio-dialogue>\n\n\n\n\n"
+module.exports = "<amexio-spinner [show]=\"showLoader\" [type]=\"'spinnerround'\" [vertical-position]=\"'center'\" [horizontal-position]=\"'center'\"\n    [color]=\"'yellow'\">\n</amexio-spinner>\n<amexio-layout-grid [layout]=\"'rinahomepage'\">\n    <amexio-grid-item [name]=\"'logoposition'\">\n        <amexio-card [header]=\"false\" [footer]=\"false\">\n            <amexio-body>\n                <company-logo></company-logo>\n            </amexio-body>\n        </amexio-card>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'topslot2'\">\n        <span class=\"custdetail\">\n          <rina-property-grid [key-value-data]=\"customerKeyValuedata\" [has-image]=\"true\" [image]=\"customerModel.profileImageUrl\"></rina-property-grid>\n        </span>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'topslot3'\">\n      <rina-property-grid [key-value-data]=\"vehicleKeyValuedata\"></rina-property-grid>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'topslot4'\">\n      <rina-property-grid [key-value-data]=\"serviceKeyValuedata\"></rina-property-grid>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'guages'\">\n        <amexio-card [header]=\"false\" [footer]=\"false\">\n            <amexio-body>\n                <amexio-layout-columns [fit]=\"true\" [orientation]=\"'horizontal'\" [border]=\"false\">\n                    <amexio-layout-item [fit]=\"true\" *ngFor=\"let alignment of ['center']\">\n                        <amexio-layout-columns [fit]=\"true\" [border]=\"false\" [orientation]=\"'vertical'\" [alignment]=\"alignment\">\n                            <amexio-layout-item>\n                                <amexio-dashboard-gauge [height]=\"'100%'\" [width]=\"'100%'\" [data]=\"gaugeChartData\"\n                                    [red-color-from]=\"90\" [red-color-to]=\"100\" [yellow-color-from]=\"75\"\n                                    [yellow-color-to]=\"90\" [scale-value]=\"5\">\n                                </amexio-dashboard-gauge>\n                                <amexio-row>\n                                    <amexio-column size=\"6\">\n                                        <amexio-label [size]=\"small\">\n                                            CSAT 70/100%\n                                        </amexio-label>\n                                    </amexio-column>\n                                    <amexio-column size=\"6\">\n                                        <amexio-label [size]=\"small\">\n                                            AHT SLA 200\n                                        </amexio-label>\n                                    </amexio-column>\n                                </amexio-row>\n                            </amexio-layout-item>\n                        </amexio-layout-columns>\n                    </amexio-layout-item>\n                </amexio-layout-columns>\n\n            </amexio-body>\n        </amexio-card>\n    </amexio-grid-item>\n\n    <amexio-grid-item [name]=\"'rinasidemenu'\">\n        <service-list-component [service-list]=\"serviceList\" (errorFound)=\"handleError()\" (search)=\"getSearchObject($event)\"></service-list-component>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'rinasidecenter'\">\n        <amexio-layout-columns style=\"background-color: white\" [fit]=\"true\" [border]=\"false\" [orientation]=\"'vertical'\"\n            [alignment]=\"'space-between'\">\n            <amexio-layout-item [padding]=\"false\" [fit]=\"true\">\n                <amexio-tab-view #tab [divide-header-equally]=true [closable]=\"false\" [body-height]=\"51\">\n                    <amexio-tab title=\"VEHICLE DETAILS\" [active]=\"true\" [amexio-color]=\"'red'\">\n                        <ng-container *ngIf=\"customerModel.vehicles\">\n                            <vehicle-details (selectVehicle)=\"getSelectedVehicle($event)\" [vehicle-details]=\"customerModel.vehicles\"></vehicle-details>\n                        </ng-container>\n                    </amexio-tab>\n                    <amexio-tab title=\"BOOKING DETAILS\" [amexio-color]=\"'green'\">\n                        <amexio-datagrid [http-method]=\"'get'\" [http-url]=\"'assets/bookingdata.json'\" [data-reader]=\"'data'\"\n                            [page-size]=\"10\">\n\n                            <amexio-data-table-column [data-index]=\"'bookingId'\" [data-type]=\"'string'\" [text]=\"'Booking Id'\">\n                            </amexio-data-table-column>\n                            <amexio-data-table-column [sort]=\"false\" [data-index]=\"'bookingDate'\" [data-type]=\"'string'\"\n                                [text]=\"'Booking Date'\"></amexio-data-table-column>\n                            <amexio-data-table-column [data-index]=\"'name'\" [data-type]=\"'string'\" [hidden]=\"false\"\n                                [text]=\"'Name'\">\n\n                            </amexio-data-table-column>\n                        </amexio-datagrid>\n                    </amexio-tab>\n                    <amexio-tab title=\"SERVICE HISTORY\" [amexio-color]=\"'black'\">\n                        <amexio-datagrid [http-method]=\"'get'\" [http-url]=\"'assets/servicedata.json'\" [data-reader]=\"'data'\"\n                            [page-size]=\"10\">\n\n                            <amexio-data-table-column [data-index]=\"'serviceId'\" [data-type]=\"'string'\" [text]=\"'Service Id'\">\n                            </amexio-data-table-column>\n                            <amexio-data-table-column [sort]=\"false\" [data-index]=\"'serviceDate'\" [data-type]=\"'string'\"\n                                [text]=\"'Service Date'\"></amexio-data-table-column>\n                            <amexio-data-table-column [data-index]=\"'vehicle'\" [data-type]=\"'string'\" [hidden]=\"false\"\n                                [text]=\"'Vehicle'\">\n\n                            </amexio-data-table-column>\n                        </amexio-datagrid>\n                    </amexio-tab>\n                    <amexio-tab title=\"INTERACTION HISTORY\" [amexio-color]=\"'red'\">\n                        <amexio-datagrid [http-method]=\"'get'\" [http-url]=\"'assets/interaction.json'\" [data-reader]=\"'data'\"\n                            [page-size]=\"10\">\n\n                            <amexio-data-table-column [data-index]=\"'interactionDate'\" [data-type]=\"'string'\" [text]=\"'Interaction Date'\">\n                            </amexio-data-table-column>\n                            <amexio-data-table-column [sort]=\"false\" [data-index]=\"'name'\" [data-type]=\"'string'\"\n                                [text]=\"'Name'\"></amexio-data-table-column>\n                        </amexio-datagrid>\n                    </amexio-tab>\n                    <amexio-tab title=\"RIGHT SELL\" [amexio-color]=\"'blue'\">\n                        <amexio-datagrid [http-method]=\"'get'\" [http-url]=\"'assets/dummygrid.json'\" [data-reader]=\"'data'\"\n                            [page-size]=\"10\">\n\n                            <amexio-data-table-column [data-index]=\"'awaitingDetails'\" [data-type]=\"'string'\" [text]=\"'Awaiting Details'\">\n                            </amexio-data-table-column>\n                            <amexio-data-table-column [sort]=\"false\" [data-index]=\"'awaitingDetails'\" [data-type]=\"'string'\"\n                                [text]=\"'Awaiting Details'\"></amexio-data-table-column>\n                            <amexio-data-table-column [data-index]=\"'awaitingDetails'\" [data-type]=\"'string'\" [hidden]=\"false\"\n                                [text]=\"'Awaiting Details'\">\n\n                            </amexio-data-table-column>\n                        </amexio-datagrid>\n                    </amexio-tab>\n                </amexio-tab-view>\n\n            </amexio-layout-item>\n            <amexio-layout-item style=\"background-color: #E8E8E8\" [padding]=\"false\">\n                <amexio-layout-columns [fit]=\"true\" [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'start'\">\n                    <amexio-layout-item [fit]=\"true\">\n                        <amexio-checkbox-group [data-reader]=\"'data'\" [display-field]=\"'serviceType'\" [value-field]=\"'serviceType'\"\n                            [horizontal]=\"true\" [http-method]=\"'get'\" [http-url]=\"'assets/serviceType.json'\">\n                        </amexio-checkbox-group>\n                    </amexio-layout-item>\n                </amexio-layout-columns>\n\n                <amexio-layout-columns [fit]=\"true\" [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'space-between'\">\n                    <amexio-layout-item [fit]=\"true\">\n                        <amexio-layout-columns [orientation]=\"'vertical'\" [border]=\"false\" [alignment]=\"'space-between'\">\n                            <amexio-layout-item>\n                                <amexio-text-input place-holder=\"Call Remark\" [allow-blank]=\"true\" has-label=\"false\">\n                                </amexio-text-input>\n                            </amexio-layout-item>\n                        </amexio-layout-columns>\n                    </amexio-layout-item>\n                    <amexio-layout-item>\n                        <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'end'\">\n                            <amexio-layout-item>\n                                <amexio-button [size]=\"'medium'\" [label]=\"'Submit'\" [type]=\"'theme-color'\" [tooltip]=\"'submit'\">\n                                </amexio-button>\n                            </amexio-layout-item>\n                        </amexio-layout-columns>\n                    </amexio-layout-item>\n                </amexio-layout-columns>\n            </amexio-layout-item>\n        </amexio-layout-columns>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'rinasidesearch'\">\n        <span class=\"servicelist\">\n            <amexio-card [header]=\"false\" [footer]=\"false\">\n                <amexio-body>\n                    <amexio-dropdown [place-holder]=\"'Select Script'\" [display-field]=\"'scriptName'\" [data-reader]=\"'data'\"\n                        [value-field]=\"'scriptUrl'\" [http-method]=\"'get'\" [http-url]=\"'assets/script.json'\"\n                        [enable-sort]=\"true\" [sort]=\"'asc'\">\n                    </amexio-dropdown>\n                </amexio-body>\n            </amexio-card>\n        </span>\n    </amexio-grid-item>\n</amexio-layout-grid>\n<amexio-dialogue [(show)]=\"warningdialogue\" [material-design]=\"true\" [message]=\"warningMsg\" [title]=\"'Warning'\"\n    [message-type]=\"'warning'\" [type]=\"'alert'\">\n</amexio-dialogue>\n"
 
 /***/ }),
 
@@ -1871,6 +1832,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _rina_lib_src_lib_services_shared_http_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../rina-lib/src/lib/services/shared/http.service */ "../rina-lib/src/lib/services/shared/http.service.ts");
 /* harmony import */ var _rina_lib_src_lib_services_alfahim_personal_details_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../rina-lib/src/lib/services/alfahim/personal.details.service */ "../rina-lib/src/lib/services/alfahim/personal.details.service.ts");
 /* harmony import */ var _models_customer_profile_model__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../models/customer.profile.model */ "./src/app/models/customer.profile.model.ts");
+/* harmony import */ var _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../rina-lib/src/lib/model/shared/propertygrid.model */ "../rina-lib/src/lib/model/shared/propertygrid.model.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1883,6 +1845,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 /**
  * Created by dattaram on 14/1/19.
  */
+
 
 
 
@@ -1904,13 +1867,16 @@ var RinaHomeComponent = /** @class */ (function () {
         this.gaugeChartData = [];
         this.gaugeChartData = [
             ['Label', 'Value'],
-            ['Memory', 80],
-            ['Network', 68]
+            ['CSAT', 80],
+            ['AHT-SLA', 68]
         ];
         this.createLayouts();
         this._gridlayoutService.createLayout(this.rinaHomeDesktopLayout);
         this.customerModel = new _models_customer_profile_model__WEBPACK_IMPORTED_MODULE_4__["CustomerProfile"]();
         this.vehicle = new _models_customer_profile_model__WEBPACK_IMPORTED_MODULE_4__["Vehicles"]();
+        this.createCustomerDetailsPropertyStructure();
+        this.createVehicleDetailsPropertyStructure();
+        this.createServiceHistoryPropertyStructure();
     }
     RinaHomeComponent.prototype.ngOnInit = function () {
         this.getServiceList();
@@ -1941,6 +1907,9 @@ var RinaHomeComponent = /** @class */ (function () {
                 _this.showLoader = false;
                 _this.customerModel = res.response;
                 _this.vehicle = _this.customerModel.vehicles[0];
+                _this.createCustomerDetailsPropertyStructure();
+                _this.createVehicleDetailsPropertyStructure();
+                _this.createServiceHistoryPropertyStructure();
                 _this._personalDetailsService.setPersonalDetailsForCcm(_this.customerModel);
                 _this.serviceList[0].disabled = false;
             }
@@ -1953,6 +1922,34 @@ var RinaHomeComponent = /** @class */ (function () {
                 _this.vehicle = new _models_customer_profile_model__WEBPACK_IMPORTED_MODULE_4__["Vehicles"]();
             }
         });
+    };
+    RinaHomeComponent.prototype.createCustomerDetailsPropertyStructure = function () {
+        this.customerKeyValuedata = [];
+        this.customerKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Customer ID', this.customerModel.customerId));
+        this.customerKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Mobile #', this.customerModel.mobile));
+        this.customerKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Name', this.customerModel.name));
+        this.customerKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Company', this.customerModel.companyName));
+        this.customerKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Status', this.customerModel.operatingStatus));
+        this.customerKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Email', this.customerModel.email));
+        this.customerKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Alt Number', this.customerModel.altNumber));
+        this.customerKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Birthday', this.customerModel.birthday));
+        this.customerKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Anniversary', this.customerModel.anniversary));
+    };
+    RinaHomeComponent.prototype.createVehicleDetailsPropertyStructure = function () {
+        this.vehicleKeyValuedata = [];
+        this.vehicleKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('BU', this.vehicle.bu));
+        this.vehicleKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Vehicle', this.vehicle.vehicleDetail.modelName));
+        this.vehicleKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Date of Purchase', this.vehicle.dateOfPurchase));
+        this.vehicleKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Model Year', this.vehicle.vehicleDetail.modelYear));
+        this.vehicleKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Registration No', this.vehicle.registrationNo));
+        this.vehicleKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Customer Class', this.customerModel.customerClass));
+        this.vehicleKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Preferred Mode of Contact', this.customerModel.preferredModeOfContact));
+    };
+    RinaHomeComponent.prototype.createServiceHistoryPropertyStructure = function () {
+        this.serviceKeyValuedata = [];
+        this.serviceKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Last Service', this.vehicle.lastService));
+        this.serviceKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Next Service', this.vehicle.nextService));
+        this.serviceKeyValuedata.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_5__["PropertyGridModel"]('Open SRs', this.vehicle.openSRs));
     };
     RinaHomeComponent.prototype.handleError = function () {
         this.customerModel = new _models_customer_profile_model__WEBPACK_IMPORTED_MODULE_4__["CustomerProfile"]();
