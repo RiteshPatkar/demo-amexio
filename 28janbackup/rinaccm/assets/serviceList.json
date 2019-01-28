@@ -8,23 +8,23 @@
     },
     {
       "serviceName": "WORKFLOW",
-      "disabled": true
+      "disabled": false
     },
     {
       "serviceName": "WORKFLOW",
-      "disabled": true
+      "disabled": false
     },
     {
       "serviceName": "WORKFLOW",
-      "disabled": true
+      "disabled": false
     },
     {
       "serviceName": "WORKFLOW",
-      "disabled": true
+      "disabled": false
     },
     {
       "serviceName": "WORKFLOW",
-      "disabled": true
+      "disabled": false
     }
   ]
 }
