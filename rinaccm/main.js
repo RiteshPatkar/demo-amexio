@@ -2521,8 +2521,8 @@ var RinaHomeComponent = /** @class */ (function () {
         var _this = this;
         var response;
         this.showLoader = true;
-        if (searchObject.searchType === '4') {
-            searchObject.searchId.replace('/', '-');
+        if (searchObject.searchType === 4) {
+            searchObject.searchId = searchObject.searchId.replace('/', '-');
         }
         this._httpService.fetch('customer/search/' + searchObject.searchId + '/' + searchObject.searchType, 'get').subscribe(function (res) {
             response = res;
