@@ -1537,7 +1537,7 @@ var BookingAvailableService = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SERVICE_URL", function() { return SERVICE_URL; });
 var SERVICE_URL = {
-    BASE_APP_URL: 'https://restapi.amexio.org:8891/alfahim/api/'
+    BASE_APP_URL: 'http://192.168.2.22:8080/api/'
 };
 
 
@@ -1906,6 +1906,7 @@ var CustomerProfile = /** @class */ (function () {
         this.anniversary = '';
         this.profileImageUrl = '';
         this.customerClass = '';
+        this.uaeId = '';
         this.preferredModeOfContact = '';
     }
     return CustomerProfile;
