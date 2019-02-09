@@ -1109,7 +1109,7 @@ var RinaStepBoxComponent = /** @class */ (function () {
             },
             {
                 "label": "Sale",
-                "icon": "fa fa-superpowers ",
+                "icon": "fa fa-shopping-cart",
                 "active": false,
                 "index": 6
             },
