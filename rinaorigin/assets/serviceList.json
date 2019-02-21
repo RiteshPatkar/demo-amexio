@@ -25,10 +25,6 @@
     {
       "serviceName": "WORKFLOW",
       "disabled": true
-    },
-    {
-      "serviceName": "WORKFLOW",
-      "disabled": true
     }
   ]
 }
