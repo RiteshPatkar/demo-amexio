@@ -2311,7 +2311,7 @@ var tab_map;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-layout-columns [orientation]=\"'vertical'\" [border]=\"false\" alignment=\"space-between\">\n  <amexio-layout-item [padding]=\"'0px'\">\n    <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" alignment=\"center\">\n      <amexio-layout-item [padding]=\"'0px'\">\n        <amexio-image [width]=\"'150px'\" [height]=\"'160px'\" [path]=\"'assets/images/rinaorigin.jpg'\" [filter]=\"'normal'\">\n        </amexio-image>\n      </amexio-layout-item>\n    </amexio-layout-columns>\n  </amexio-layout-item>\n  <amexio-layout-item [padding]=\"'0px'\">\n    <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" alignment=\"space-between\">\n      <amexio-layout-item>\n        <amexio-floating-button [relative]=\"true\" [icon]=\"'fa fa-volume-control-phone'\"  [type]=\"'green'\"></amexio-floating-button>\n      </amexio-layout-item>\n      <amexio-layout-item [padding]=\"'0px'\">\n        <amexio-floating-button [relative]=\"true\" [icon]=\"'fa fa-phone'\" [type]=\"'theme-color'\"></amexio-floating-button>\n      </amexio-layout-item>\n      <amexio-layout-item [padding]=\"'0px'\">\n        <amexio-floating-button [relative]=\"true\" [icon]=\"'fa fa-pause '\" [type]=\"'yellow'\"></amexio-floating-button>\n      </amexio-layout-item>\n      <amexio-layout-item [padding]=\"'0px'\">\n        <amexio-floating-button [relative]=\"true\" [icon]=\"'fa fa-phone-square'\" [type]=\"'red'\"></amexio-floating-button>\n      </amexio-layout-item>\n    </amexio-layout-columns>\n  </amexio-layout-item>\n</amexio-layout-columns>\n"
+module.exports = "<amexio-layout-columns [orientation]=\"'vertical'\" [border]=\"false\" alignment=\"space-between\">\n  <amexio-layout-item [padding]=\"'0px'\">\n    <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" alignment=\"center\">\n      <amexio-layout-item [padding]=\"'0px'\">\n        <amexio-image  [path]=\"'assets/images/logo1.png'\" [filter]=\"'normal'\">\n        </amexio-image>\n      </amexio-layout-item>\n    </amexio-layout-columns>\n  </amexio-layout-item>\n  <amexio-layout-item [padding]=\"'0px'\">\n    <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" alignment=\"space-between\">\n      <amexio-layout-item>\n        <amexio-floating-button [relative]=\"true\" [icon]=\"'fa fa-volume-control-phone'\"  [type]=\"'green'\"></amexio-floating-button>\n      </amexio-layout-item>\n      <amexio-layout-item [padding]=\"'0px'\">\n        <amexio-floating-button [relative]=\"true\" [icon]=\"'fa fa-phone'\" [type]=\"'theme-color'\"></amexio-floating-button>\n      </amexio-layout-item>\n      <amexio-layout-item [padding]=\"'0px'\">\n        <amexio-floating-button [relative]=\"true\" [icon]=\"'fa fa-pause '\" [type]=\"'yellow'\"></amexio-floating-button>\n      </amexio-layout-item>\n      <amexio-layout-item [padding]=\"'0px'\">\n        <amexio-floating-button [relative]=\"true\" [icon]=\"'fa fa-phone-square'\" [type]=\"'red'\"></amexio-floating-button>\n      </amexio-layout-item>\n    </amexio-layout-columns>\n  </amexio-layout-item>\n</amexio-layout-columns>\n"
 
 /***/ }),
 
@@ -3020,12 +3020,13 @@ var RinaHomeComponent = /** @class */ (function () {
         // create 2 tab
         var elecBill = this.tabRef.addDynamicTab(tabData.data[1].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_5__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[1].key]);
         elecBill.billSummary = this.serviceMetadataStructure.billSummary;
-        // create 3 tab
-        var interaction = this.tabRef.addDynamicTab(tabData.data[2].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_5__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[2].key]);
         // create 4 tab
         var usageReport = this.tabRef.addDynamicTab(tabData.data[3].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_5__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[3].key]);
         usageReport.usageReports = this.serviceMetadataStructure.usageReports;
         usageReport.tabData = tabData;
+        // create 3 tab
+        var interaction = this.tabRef.addDynamicTab(tabData.data[2].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_5__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[2].key]);
+        this.tabRef.setActiveTab(3);
     };
     RinaHomeComponent.prototype.createCustomerDetailsPropertyStructure = function () {
         this.customerKeyValuedata = [];
