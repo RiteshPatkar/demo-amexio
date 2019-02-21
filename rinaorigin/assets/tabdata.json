@@ -2,7 +2,8 @@
   {
     "value": "electricity",
     "title": "ELECTRICITY: ACCOUNT SUMMARY",
-    "selected": true,
+    "selected": false,
+    "disabled": true,
     "data": [
       {
         "title": "CURRENT PLAN",
@@ -30,6 +31,7 @@
     "value": "naturalgas",
     "title": "NATURAL GAS: ACCOUNT SUMMARY",
     "selected": false,
+    "disabled": true,
     "data": [
       {
         "title": "CURRENT PLAN",
