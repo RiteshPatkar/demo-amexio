@@ -665,7 +665,7 @@ var PreferredLocationComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-card [class.remove-border]=\"!hasBorder\" [header]=\"false\" [footer]=\"false\">\n    <amexio-body class=\"property-style\">\n          <div *ngIf=\"hasRadioTitle && hasRadioTitleData\"  class=\"inputgroup from-group\">\n            <label [ngClass]=\"{'disabled-Style': hasRadioTitleData.disabled}\" for=\"{{hasRadioTitleData.title}}\" [attr.aria-checked]=\"hasRadioTitleData.selected\"   class=\"input-box-container\" style=\"padding-bottom:0px !important;\" >\n              <b>{{hasRadioTitleData.title}}</b>\n              <input  [attr.disabled]=\"hasRadioTitleData.disabled ? true: null\" (click)=\"selectRadio(hasRadioTitleData)\"  style=\"top:0; left:0\" id=\"{{hasRadioTitleData.title}}\" type=\"radio\"\n                      name=\"selectTitle\" [value]=\"hasRadioTitleData.selected\"\n                      [checked]=\"hasRadioTitleData.selected ? true : null\">\n\n              <span class=\"input-box-radiobox-label\"></span>\n            </label>\n          </div>\n        <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'end'\">\n            <amexio-layout-item style=\"width: 20%\" *ngIf=\"hasImage\">\n              <amexio-image [path]=\"image\" [filter]=\"'round'\">\n              </amexio-image>\n            </amexio-layout-item>\n            <amexio-layout-item [fit]=\"true\">\n              <table style=\"padding: 2px;\">\n                <tr *ngFor=\"let item of data\">\n                  <td>{{item.fieldName}}:</td>\n                  <td style=\"word-break: break-all;\">{{item.fieldValue}}</td>\n                </tr>\n              </table>\n            </amexio-layout-item>\n          </amexio-layout-columns>\n    </amexio-body>\n</amexio-card>\n\n\n"
+module.exports = "<amexio-card [class.remove-border]=\"!hasBorder\" [header]=\"false\" [footer]=\"false\">\n    <amexio-body class=\"property-style\">\n          <div *ngIf=\"hasRadioTitle && hasRadioTitleData\"  class=\"inputgroup from-group\">\n            <label [ngClass]=\"{'disabled-Style': hasRadioTitleData.disabled}\" for=\"{{hasRadioTitleData.title}}\" [attr.aria-checked]=\"hasRadioTitleData.selected\"   class=\"input-box-container\" style=\"padding-bottom:0px !important;\" >\n              <b>{{hasRadioTitleData.title}}</b>\n              <input  [attr.disabled]=\"hasRadioTitleData.disabled ? true: null\" (click)=\"selectRadio(hasRadioTitleData)\"  style=\"top:0; left:0\" id=\"{{hasRadioTitleData.title}}\" type=\"radio\"\n                      name=\"selectTitle\" [value]=\"hasRadioTitleData.selected\"\n                      [checked]=\"hasRadioTitleData.selected ? true : null\">\n\n              <span class=\"input-box-radiobox-label\"></span>\n            </label>\n          </div>\n        <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'end'\">\n            <amexio-layout-item style=\"width: 20%\" *ngIf=\"hasImage\">\n              <amexio-image [path]=\"image\" [filter]=\"'round'\">\n              </amexio-image>\n            </amexio-layout-item>\n            <amexio-layout-item [fit]=\"true\">\n              <table style=\"padding: 2px;\">\n                <tr *ngFor=\"let item of data\">\n                  <td>{{item.fieldName}}:</td>\n                  <td style=\"word-break: break-all;\">{{item.fieldValue}}</td>\n                </tr>\n              </table>\n            </amexio-layout-item>\n          </amexio-layout-columns>\n      <ng-container *ngIf=\"hasBadge && badge \" >\n        <amexio-badge [absolute]=\"true\" [background]=\"'red'\" [color]=\"'white'\" [bottom]=\"'0px'\" [right]=\"'0px'\">\n          <amexio-label size=\"medium-bold\">{{badge}}</amexio-label>\n        </amexio-badge>\n      </ng-container>\n    </amexio-body>\n</amexio-card>\n\n\n"
 
 /***/ }),
 
@@ -694,6 +694,8 @@ var PropertyGridComponnent = /** @class */ (function () {
     function PropertyGridComponnent() {
         this.hasImage = false;
         this.hasRadioTitle = false;
+        this.hasBadge = false;
+        this.badge = false;
         this.hasBorder = true;
         this.onPropertySelect = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
     }
@@ -717,6 +719,14 @@ var PropertyGridComponnent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('has-radio-title'),
         __metadata("design:type", Object)
     ], PropertyGridComponnent.prototype, "hasRadioTitle", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('has-badge'),
+        __metadata("design:type", Object)
+    ], PropertyGridComponnent.prototype, "hasBadge", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('badge'),
+        __metadata("design:type", Object)
+    ], PropertyGridComponnent.prototype, "badge", void 0);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('radio-title-data'),
         __metadata("design:type", Object)
@@ -2199,12 +2209,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _feature_component_tab_component_natural_gas_bill_natural_gas_bill_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./feature-component/tab-component/natural-gas-bill/natural-gas-bill.component */ "./src/app/feature-component/tab-component/natural-gas-bill/natural-gas-bill.component.ts");
 /* harmony import */ var _feature_component_tab_component_usage_report_usage_report_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./feature-component/tab-component/usage-report/usage-report.component */ "./src/app/feature-component/tab-component/usage-report/usage-report.component.ts");
 /* harmony import */ var amexio_chart_d3__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! amexio-chart-d3 */ "../../node_modules/amexio-chart-d3/fesm5/amexio-chart-d3.js");
+/* harmony import */ var _feature_component_openService_request_openservice_request_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./feature-component/openService-request/openservice.request.component */ "./src/app/feature-component/openService-request/openservice.request.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -2232,7 +2244,8 @@ var COMPONENT = [
     _feature_component_tab_component_electricity_bill_electricity_bill_component__WEBPACK_IMPORTED_MODULE_13__["ElectricityBillComponent"],
     _feature_component_tab_component_interaction_history_interaction_history_component__WEBPACK_IMPORTED_MODULE_14__["InteractionHistoryComponent"],
     _feature_component_tab_component_natural_gas_bill_natural_gas_bill_component__WEBPACK_IMPORTED_MODULE_15__["NaturalGasBillComponent"],
-    _feature_component_tab_component_usage_report_usage_report_component__WEBPACK_IMPORTED_MODULE_16__["UsageReportComponent"]
+    _feature_component_tab_component_usage_report_usage_report_component__WEBPACK_IMPORTED_MODULE_16__["UsageReportComponent"],
+    _feature_component_openService_request_openservice_request_component__WEBPACK_IMPORTED_MODULE_18__["OpenServiceRequestComponent"]
 ];
 var AppModule = /** @class */ (function () {
     function AppModule() {
@@ -2352,6 +2365,79 @@ var CompanyLogoComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], CompanyLogoComponent);
     return CompanyLogoComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/feature-component/openService-request/open-service-request.component.html":
+/*!*******************************************************************************************!*\
+  !*** ./src/app/feature-component/openService-request/open-service-request.component.html ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ng-container *ngIf=\"serviceRequestObject\">\n  <amexio-datagrid [enable-column-fiter]=\"false\" [data]=\"serviceRequestObject\">\n    <amexio-data-table-column\n      [data-index]=\"'srNo'\"\n      [data-type]=\"'string'\"\n      [hidden]=\"false\"\n      [text]=\"'SR Number'\">\n    </amexio-data-table-column>\n    <amexio-data-table-column\n      [sort]=\"false\"\n      [data-index]=\"'ticketType'\"\n      [data-type]=\"'string'\"\n      [hidden]=\"false\"\n      [text]=\"'Ticket Type'\">\n    </amexio-data-table-column>\n    <amexio-data-table-column\n      [data-index]=\"'openDate'\"\n      [data-type]=\"'string'\"\n      [hidden]=\"false\"\n      [text]=\"'SR Open Date'\">\n    </amexio-data-table-column>\n    <amexio-data-table-column\n      [data-index]=\"'dueDate'\"\n      [data-type]=\"'string'\"\n      [hidden]=\"false\"\n      [text]=\"'Due Date'\">\n    </amexio-data-table-column>\n\n    <amexio-data-table-column\n      [data-index]=\"'status'\"\n      [data-type]=\"'string'\"\n      [hidden]=\"false\"\n      [text]=\"'Status'\">\n    </amexio-data-table-column>\n    <amexio-data-table-column\n      [data-index]=\"'priority'\"\n      [data-type]=\"'string'\"\n      [hidden]=\"false\"\n      [text]=\"'Priority'\">\n    </amexio-data-table-column>\n\n\n    <amexio-data-table-column\n      [data-index]=\"'agentRemarks'\"\n      [data-type]=\"'string'\"\n      [hidden]=\"false\"\n      [text]=\"'Front Line Agent Remarks'\">\n      <ng-template #amexioBodyTmpl let-column let-row=\"row\">\n          <span [ngClass]=\"{'open-status':row.status =='Open', 'close-status': row.status == 'Closed'}\" (click)=\"getFieldEngInfo(row)\">{{row.agentRemarks}}</span>\n      </ng-template>\n    </amexio-data-table-column>\n    <amexio-data-table-column\n      [data-index]=\"'createdBy'\"\n      [data-type]=\"'string'\"\n      [hidden]=\"false\"\n      [text]=\"'Created by User'\">\n    </amexio-data-table-column>\n  </amexio-datagrid>\n  <br>\n\n  <table *ngIf=\"fieldEnggInfo\">\n    <tr>\n      <td><b>Assigned Field Engineer</b></td>\n      <td>{{fieldEnggInfo.assignedFieldEngineer}}</td>\n    </tr>\n    <tr>\n      <td><b>Scheduled Visit Time</b></td>\n      <td>{{fieldEnggInfo.scheduleVistTime}}</td>\n    </tr>\n    <tr>\n      <td><b>Estimated Visit Time</b></td>\n      <td style=\"color: red\">{{fieldEnggInfo.estimatedVistTime}}</td>\n    </tr>\n    <tr>\n      <td><b>Reason</b></td>\n      <td>{{fieldEnggInfo.reason}}</td>\n    </tr>\n  </table>\n</ng-container>\n"
+
+/***/ }),
+
+/***/ "./src/app/feature-component/openService-request/openservice.request.component.ts":
+/*!****************************************************************************************!*\
+  !*** ./src/app/feature-component/openService-request/openservice.request.component.ts ***!
+  \****************************************************************************************/
+/*! exports provided: OpenServiceRequestComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OpenServiceRequestComponent", function() { return OpenServiceRequestComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+/**
+ * Created by dattaram on 25/2/19.
+ */
+
+var OpenServiceRequestComponent = /** @class */ (function () {
+    function OpenServiceRequestComponent() {
+        this.serviceRequestObject = [];
+        this.isInteractionHistory = false;
+    }
+    OpenServiceRequestComponent.prototype.ngOnInit = function () {
+        if (this.serviceRequestObject && !this.isInteractionHistory) {
+            this.fieldEnggInfo = this.serviceRequestObject[0];
+        }
+    };
+    OpenServiceRequestComponent.prototype.getFieldEngInfo = function (data) {
+        this.fieldEnggInfo = data;
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('service-request-object'),
+        __metadata("design:type", Array)
+    ], OpenServiceRequestComponent.prototype, "serviceRequestObject", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('is-interaction-history'),
+        __metadata("design:type", Object)
+    ], OpenServiceRequestComponent.prototype, "isInteractionHistory", void 0);
+    OpenServiceRequestComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'open-service-request',
+            template: __webpack_require__(/*! ./open-service-request.component.html */ "./src/app/feature-component/openService-request/open-service-request.component.html"),
+            styles: [
+                "      \n      .open-status {\n        text-decoration: underline;\n      }\n      .close-status {\n        pointer-events: none;\n      }\n    "
+            ]
+        }),
+        __metadata("design:paramtypes", [])
+    ], OpenServiceRequestComponent);
+    return OpenServiceRequestComponent;
 }());
 
 
@@ -2514,9 +2600,7 @@ var ServiceListComponent = /** @class */ (function () {
         this.search.emit(event);
     };
     ServiceListComponent.prototype.openServiceBookingWindow = function (service) {
-        if (service.serviceName === 'SERVICE BOOKING') {
-            this.serviceTypeClick.emit(service);
-        }
+        this.serviceTypeClick.emit(service);
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('service-list'),
@@ -2663,7 +2747,7 @@ var ElectricityBillComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "<open-service-request [service-request-object]=\"interactionHistory\" [is-interaction-history]=\"true\"></open-service-request>\n"
 
 /***/ }),
 
@@ -2821,12 +2905,13 @@ var UsageReportComponent = /** @class */ (function () {
 /*!**************************************************!*\
   !*** ./src/app/models/customer.profile.model.ts ***!
   \**************************************************/
-/*! exports provided: CustomerProfileOrigin, CustomerProfile, ServiceTypeStructure, ServiceMetadataStructure */
+/*! exports provided: CustomerProfileOrigin, OpenServiceRequest, CustomerProfile, ServiceTypeStructure, ServiceMetadataStructure */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CustomerProfileOrigin", function() { return CustomerProfileOrigin; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OpenServiceRequest", function() { return OpenServiceRequest; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CustomerProfile", function() { return CustomerProfile; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServiceTypeStructure", function() { return ServiceTypeStructure; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServiceMetadataStructure", function() { return ServiceMetadataStructure; });
@@ -2835,11 +2920,32 @@ __webpack_require__.r(__webpack_exports__);
  */
 var CustomerProfileOrigin = /** @class */ (function () {
     function CustomerProfileOrigin() {
+        this.openServiceRequest = null;
+        this.interactionHistory = [];
         this.customerProfile = new CustomerProfile();
         this.electricity = new ServiceTypeStructure();
         this.naturalGas = new ServiceTypeStructure();
     }
     return CustomerProfileOrigin;
+}());
+
+var OpenServiceRequest = /** @class */ (function () {
+    function OpenServiceRequest() {
+        this.srNo = '';
+        this.ticketType = '';
+        this.openDate = '';
+        this.dueDate = '';
+        this.status = '';
+        this.priority = '';
+        this.agentRemarks = '';
+        this.createdBy = null;
+        this.createdDate = '';
+        this.assignedFieldEngineer = '';
+        this.scheduleVistTime = '';
+        this.estimatedVistTime = '';
+        this.reason = '';
+    }
+    return OpenServiceRequest;
 }());
 
 var CustomerProfile = /** @class */ (function () {
@@ -2861,6 +2967,7 @@ var CustomerProfile = /** @class */ (function () {
         this.uaeId = '';
         this.preferredModeOfContact = '';
         this.uniqueNo = '';
+        this.type = '';
     }
     return CustomerProfile;
 }());
@@ -2893,7 +3000,7 @@ var ServiceMetadataStructure = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-spinner [show]=\"showLoader\" [type]=\"'rectanglebounce'\" [vertical-position]=\"'center'\" [horizontal-position]=\"'center'\" [color]=\"'yellow'\">\n</amexio-spinner>\n<amexio-layout-grid [layout]=\"'rinahomepage'\">\n    <amexio-grid-item [name]=\"'logoposition'\">\n        <amexio-card [header]=\"false\" [footer]=\"false\">\n            <amexio-body>\n                <company-logo></company-logo>\n            </amexio-body>\n        </amexio-card>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'topslot2'\">\n        <span class=\"custdetail\">\n          <rina-property-grid [key-value-data]=\"customerKeyValuedata\"></rina-property-grid>\n        </span>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'topslot3'\">\n        <rina-property-grid [key-value-data]=\"eleSummaryKeyValueData\"\n                            (onPropertySelect)=\"onPropertySelectHandle($event)\"\n                            [has-radio-title]=\"true\" [radio-title-data]=\"electricityTitleData\"></rina-property-grid>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'topslot4'\">\n        <rina-property-grid  [has-radio-title]=\"true\"\n                             [radio-title-data]=\"gasTitleData\"\n                             (onPropertySelect)=\"onPropertySelectHandle($event)\"\n                             [key-value-data]=\"ngasSummaryKeyValueData\"></rina-property-grid>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'guages'\">\n        <amexio-card [header]=\"false\" [footer]=\"false\">\n            <amexio-body>\n                <amexio-layout-columns [fit]=\"true\" [orientation]=\"'horizontal'\" [border]=\"false\">\n                    <amexio-layout-item [fit]=\"true\" *ngFor=\"let alignment of ['center']\">\n                        <amexio-layout-columns [fit]=\"true\" [border]=\"false\" [orientation]=\"'vertical'\" [alignment]=\"alignment\">\n                            <amexio-layout-item>\n                                <amexio-dashboard-gauge  [data]=\"gaugeChartData\" [red-color-from]=\"90\" [red-color-to]=\"100\" [yellow-color-from]=\"75\" [yellow-color-to]=\"90\" [scale-value]=\"5\">\n                                </amexio-dashboard-gauge>\n                                <amexio-row>\n                                    <amexio-column size=\"6\">\n                                        <amexio-label [size]=\"small\">\n                                            CSAT 70/100%\n                                        </amexio-label>\n                                    </amexio-column>\n                                    <amexio-column size=\"6\">\n                                        <amexio-label [size]=\"small\">\n                                            AHT SLA 200\n                                        </amexio-label>\n                                    </amexio-column>\n                                </amexio-row>\n                            </amexio-layout-item>\n                        </amexio-layout-columns>\n                    </amexio-layout-item>\n                </amexio-layout-columns>\n\n            </amexio-body>\n        </amexio-card>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'rinasidemenu'\">\n        <service-list-component [service-list]=\"serviceList\" (errorFound)=\"handleError()\" (search)=\"getSearchObject($event)\" (serviceTypeClick)=\"serviceTypeClickHandle($event)\"></service-list-component>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'rinasidecenter'\">\n        <amexio-layout-columns style=\"background-color: white\" [fit]=\"true\" [border]=\"false\" [orientation]=\"'vertical'\" [alignment]=\"'space-between'\">\n            <amexio-layout-item [padding]=\"false\" [fit]=\"true\">\n                <amexio-tab-view #tab [divide-header-equally]=\"true\" [closable]=\"false\" [body-height]=\"40\" >\n                </amexio-tab-view>\n            </amexio-layout-item>\n            <amexio-layout-item style=\"background-color: #E8E8E8\" [padding]=\"false\">\n              <amexio-layout-columns style=\"height: unset;\"  [orientation]=\"'vertical'\" [border]=\"false\" [alignment]=\"'start'\">\n                <amexio-layout-item [padding]=\"'0px'\">\n                  <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'start'\">\n                    <amexio-layout-item [fit]=\"true\">\n                      <div class=\"amexio-checkboxgroup-style\">\n                        <amexio-checkbox-group [data-reader]=\"'data'\" [display-field]=\"'serviceType'\" [value-field]=\"'serviceType'\" [horizontal]=\"true\" [http-method]=\"'get'\" [http-url]=\"'assets/serviceType.json'\">\n                        </amexio-checkbox-group>\n                      </div>\n                    </amexio-layout-item>\n                  </amexio-layout-columns>\n\n                </amexio-layout-item>\n\n                <amexio-layout-item [padding]=\"'0px'\">\n                  <amexio-layout-columns  [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'space-between'\">\n                    <amexio-layout-item [fit]=\"true\">\n                      <amexio-text-input place-holder=\"Call Remark\" [allow-blank]=\"true\" has-label=\"false\">\n                      </amexio-text-input>\n                    </amexio-layout-item>\n                    <amexio-layout-item>\n                      <amexio-button [size]=\"'medium'\" [label]=\"'Submit'\" [type]=\"'theme-color'\" [tooltip]=\"'submit'\">\n                      </amexio-button>\n                    </amexio-layout-item>\n                  </amexio-layout-columns>\n\n                </amexio-layout-item>\n\n\n              </amexio-layout-columns>\n            </amexio-layout-item>\n        </amexio-layout-columns>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'rinasidesearch'\">\n        <span class=\"servicelist\">\n            <amexio-card [header]=\"false\" [footer]=\"false\">\n                <amexio-body>\n                    <amexio-dropdown [place-holder]=\"'Select Script'\" [display-field]=\"'scriptName'\" [data-reader]=\"'data'\"\n                        [value-field]=\"'scriptUrl'\" [http-method]=\"'get'\" [http-url]=\"'assets/script.json'\"\n                        [enable-sort]=\"true\" [sort]=\"'asc'\">\n                    </amexio-dropdown>\n                       <p>\n                    <b>Fee changes affecting customers on market contracts</b><br/><br/>\n                     {{infoMsg}}\n                  </p>\n                </amexio-body>\n            </amexio-card>\n        </span>\n    </amexio-grid-item>\n</amexio-layout-grid>\n<amexio-dialogue [(show)]=\"warningdialogue\" [material-design]=\"true\" [message]=\"warningMsg\" [title]=\"'Error'\" [message-type]=\"'error'\" [type]=\"'alert'\">\n</amexio-dialogue>\n\n\n\n<amexio-notification\n  [background-color]=\"'orange'\"\n  [foreground-color]=\"'black'\"\n  [data]=\"notificationData\"\n  [vertical-position]=\"'bottom'\"\n  [horizontal-position]=\"'right'\"\n  [close-on-escape] =\"true\">\n  <ng-template   #amexioNotificationTemp let-data=\"data\" >\n    <amexio-box padding=\"true\" [box-width]=\"'225px'\">\n      <amexio-label size=\"medium-bold\">Additional Information</amexio-label><br/>\n      <amexio-label>{{data}}</amexio-label><br/>\n      <br/>\n      <amexio-button [label]=\"'more info'\"\n                     [type]=\"'white'\"\n                     [size]=\"'small'\"\n                     (onClick)=\"onClickHandle($event)\"\n                     [tooltip]=\"'more info'\">\n      </amexio-button>\n    </amexio-box>\n  </ng-template>\n\n\n</amexio-notification>\n\n\n<amexio-window\n  [(show)]=\"showWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'70%'\">\n  <amexio-header>\n    &nbsp;\n  </amexio-header>\n  <amexio-body>\n        <ng-container *ngIf=\"showWindow && serviceMetadataStructure.analytics\">\n          <amexio-d3-chart-multiseries\n            [title]=\"'Last Year Usage VS Projection'\"\n            [data]=\"serviceMetadataStructure.analytics.comparative\"\n            [label]=\"true\"\n            [label-color]=\"'#7B0099'\">\n          </amexio-d3-chart-multiseries>\n        </ng-container>\n\n  </amexio-body>\n</amexio-window>\n"
+module.exports = "<amexio-spinner [show]=\"showLoader\" [type]=\"'rectanglebounce'\" [vertical-position]=\"'center'\" [horizontal-position]=\"'center'\" [color]=\"'yellow'\">\n</amexio-spinner>\n<amexio-layout-grid [layout]=\"'rinahomepage'\">\n    <amexio-grid-item [name]=\"'logoposition'\">\n        <amexio-card [header]=\"false\" [footer]=\"false\">\n            <amexio-body>\n                <company-logo></company-logo>\n            </amexio-body>\n        </amexio-card>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'topslot2'\">\n        <span class=\"custdetail\">\n          <rina-property-grid [key-value-data]=\"customerKeyValuedata\" [has-badge]=\"true\" [badge]=\"badge\"></rina-property-grid>\n\n        </span>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'topslot3'\">\n        <rina-property-grid [key-value-data]=\"eleSummaryKeyValueData\"\n                            (onPropertySelect)=\"onPropertySelectHandle($event)\"\n                            [has-radio-title]=\"true\" [radio-title-data]=\"electricityTitleData\"></rina-property-grid>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'topslot4'\">\n        <rina-property-grid  [has-radio-title]=\"true\"\n                             [radio-title-data]=\"gasTitleData\"\n                             (onPropertySelect)=\"onPropertySelectHandle($event)\"\n                             [key-value-data]=\"ngasSummaryKeyValueData\"></rina-property-grid>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'guages'\">\n        <amexio-card [header]=\"false\" [footer]=\"false\">\n            <amexio-body>\n                <amexio-layout-columns [fit]=\"true\" [orientation]=\"'horizontal'\" [border]=\"false\">\n                    <amexio-layout-item [fit]=\"true\" *ngFor=\"let alignment of ['center']\">\n                        <amexio-layout-columns [fit]=\"true\" [border]=\"false\" [orientation]=\"'vertical'\" [alignment]=\"alignment\">\n                            <amexio-layout-item>\n                                <amexio-dashboard-gauge  [data]=\"gaugeChartData\" [red-color-from]=\"90\" [red-color-to]=\"100\" [yellow-color-from]=\"75\" [yellow-color-to]=\"90\" [scale-value]=\"5\">\n                                </amexio-dashboard-gauge>\n                                <amexio-row>\n                                    <amexio-column size=\"6\">\n                                        <amexio-label [size]=\"small\">\n                                            CSAT 70/100%\n                                        </amexio-label>\n                                    </amexio-column>\n                                    <amexio-column size=\"6\">\n                                        <amexio-label [size]=\"small\">\n                                            AHT SLA 200\n                                        </amexio-label>\n                                    </amexio-column>\n                                </amexio-row>\n                            </amexio-layout-item>\n                        </amexio-layout-columns>\n                    </amexio-layout-item>\n                </amexio-layout-columns>\n\n            </amexio-body>\n        </amexio-card>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'rinasidemenu'\">\n        <service-list-component [service-list]=\"serviceList\" (errorFound)=\"handleError()\" (search)=\"getSearchObject($event)\" (serviceTypeClick)=\"serviceTypeClickHandle($event)\"></service-list-component>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'rinasidecenter'\">\n        <amexio-layout-columns style=\"background-color: white\" [fit]=\"true\" [border]=\"false\" [orientation]=\"'vertical'\" [alignment]=\"'space-between'\">\n            <amexio-layout-item [padding]=\"false\" [fit]=\"true\">\n                <amexio-tab-view #tab [divide-header-equally]=\"true\" [closable]=\"false\" [body-height]=\"40\" >\n                </amexio-tab-view>\n            </amexio-layout-item>\n            <amexio-layout-item style=\"background-color: #E8E8E8\" [padding]=\"false\">\n              <amexio-layout-columns style=\"height: unset;\"  [orientation]=\"'vertical'\" [border]=\"false\" [alignment]=\"'start'\">\n                <amexio-layout-item [padding]=\"'0px'\">\n                  <amexio-layout-columns [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'start'\">\n                    <amexio-layout-item [fit]=\"true\">\n                      <div class=\"amexio-checkboxgroup-style\">\n                        <amexio-checkbox-group [data-reader]=\"'data'\" [display-field]=\"'serviceType'\" [value-field]=\"'serviceType'\" [horizontal]=\"true\" [http-method]=\"'get'\" [http-url]=\"'assets/serviceType.json'\">\n                        </amexio-checkbox-group>\n                      </div>\n                    </amexio-layout-item>\n                  </amexio-layout-columns>\n\n                </amexio-layout-item>\n\n                <amexio-layout-item [padding]=\"'0px'\">\n                  <amexio-layout-columns  [orientation]=\"'horizontal'\" [border]=\"false\" [alignment]=\"'space-between'\">\n                    <amexio-layout-item [fit]=\"true\">\n                      <amexio-text-input place-holder=\"Call Remark\" [allow-blank]=\"true\" has-label=\"false\">\n                      </amexio-text-input>\n                    </amexio-layout-item>\n                    <amexio-layout-item>\n                      <amexio-button [size]=\"'medium'\" [label]=\"'Submit'\" [type]=\"'theme-color'\" [tooltip]=\"'submit'\">\n                      </amexio-button>\n                    </amexio-layout-item>\n                  </amexio-layout-columns>\n\n                </amexio-layout-item>\n\n\n              </amexio-layout-columns>\n            </amexio-layout-item>\n        </amexio-layout-columns>\n    </amexio-grid-item>\n    <amexio-grid-item [name]=\"'rinasidesearch'\">\n        <span class=\"servicelist\">\n            <amexio-card [header]=\"false\" [footer]=\"false\">\n                <amexio-body>\n                    <amexio-dropdown [place-holder]=\"'Select Script'\" [display-field]=\"'scriptName'\" [data-reader]=\"'data'\"\n                        [value-field]=\"'scriptUrl'\" [http-method]=\"'get'\" [http-url]=\"'assets/script.json'\"\n                        [enable-sort]=\"true\" [sort]=\"'asc'\">\n                    </amexio-dropdown>\n                       <p>\n                    <b>Fee changes affecting customers on market contracts</b><br/><br/>\n                     {{infoMsg}}\n                  </p>\n                </amexio-body>\n            </amexio-card>\n        </span>\n    </amexio-grid-item>\n</amexio-layout-grid>\n<amexio-dialogue [(show)]=\"warningdialogue\" [material-design]=\"true\" [message]=\"warningMsg\" [title]=\"'Error'\" [message-type]=\"'error'\" [type]=\"'alert'\">\n</amexio-dialogue>\n\n\n\n<amexio-notification\n  [background-color]=\"'orange'\"\n  [foreground-color]=\"'black'\"\n  [data]=\"notificationData\"\n  [vertical-position]=\"'bottom'\"\n  [horizontal-position]=\"'right'\"\n  [close-on-escape] =\"true\">\n  <ng-template   #amexioNotificationTemp let-data=\"data\" >\n    <amexio-box padding=\"true\" [box-width]=\"'225px'\">\n      <amexio-label size=\"medium-bold\">Additional Information</amexio-label><br/>\n      <amexio-label>{{data}}</amexio-label><br/>\n      <br/>\n      <amexio-button [label]=\"'more info'\"\n                     [type]=\"'white'\"\n                     [size]=\"'small'\"\n                     (onClick)=\"onClickHandle($event)\"\n                     [tooltip]=\"'more info'\">\n      </amexio-button>\n    </amexio-box>\n  </ng-template>\n\n\n</amexio-notification>\n\n\n<!-- OPEN SERVICE REQUEST-->\n\n<amexio-window\n  [(show)]=\"showOpenServiceRequest\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'70%'\">\n  <amexio-header>\n    <b>Open Service Requests</b>\n  </amexio-header>\n  <amexio-body>\n    <ng-container *ngIf=\"customerOrigin.openServiceRequest\">\n      <open-service-request [service-request-object]=\"[customerOrigin.openServiceRequest]\"></open-service-request>\n    </ng-container>\n  </amexio-body>\n</amexio-window>\n\n\n\n<!-- CHART WINDOW-->\n\n<amexio-window\n  [(show)]=\"showWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'70%'\">\n  <amexio-header>\n    &nbsp;\n  </amexio-header>\n  <amexio-body>\n        <ng-container *ngIf=\"showWindow && serviceMetadataStructure.analytics\">\n          <amexio-d3-chart-multiseries\n            [title]=\"'Last Year Usage VS Projection'\"\n            [data]=\"serviceMetadataStructure.analytics.comparative\"\n            [label]=\"true\"\n            [label-color]=\"'#7B0099'\">\n          </amexio-d3-chart-multiseries>\n        </ng-container>\n\n  </amexio-body>\n</amexio-window>\n\n<!-- WAVERS INFO-->\n\n<amexio-window\n  [(show)]=\"shoWWaverWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [footer]=\"true\"\n  [width]=\"'30%'\">\n  <amexio-header>\n    Waver Workflow\n  </amexio-header>\n  <amexio-body>\n    <ng-container *ngIf=\"shoWWaverWindow\">\n\n      <table>\n        <tr>\n          <td><b>Due Amount</b></td>\n          <td>{{customerOrigin.electricity.unbilledAmount}}</td>\n        </tr>\n        <tr>\n          <td><b>Due Date</b></td>\n          <td>{{customerOrigin.electricity.dueDate}}</td>\n        </tr>\n        <tr>\n          <td><b>Amount After Due Date</b></td>\n          <td>{{customerOrigin.electricity.lastpaymentAmount}}</td>\n        </tr>\n      </table><br>\n      <amexio-checkbox  [field-label]=\"'Waver additional charges'\">\n      </amexio-checkbox>\n\n      <amexio-textarea-input [enable-popover]=\"false\"\n                             [allow-blank]=\"true\"\n                             [icon-feedback]=\"false\"\n                             [rows]=\"'3'\"\n                             [columns]=\"'2'\">\n      </amexio-textarea-input>\n    </ng-container>\n\n  </amexio-body>\n  <amexio-action>\n    <amexio-button [label]=\"'Submit'\"\n                   [type]=\"'theme-color'\"\n                   (onClick)=\"onSubmitHandle($event)\">\n    </amexio-button>\n  </amexio-action>\n</amexio-window>\n"
 
 /***/ }),
 
@@ -2911,9 +3018,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! amexio-ng-extensions */ "../../node_modules/amexio-ng-extensions/amexio-ng-extensions.es5.js");
 /* harmony import */ var _models_customer_profile_model__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../models/customer.profile.model */ "./src/app/models/customer.profile.model.ts");
 /* harmony import */ var _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../rina-lib/src/lib/model/shared/propertygrid.model */ "../rina-lib/src/lib/model/shared/propertygrid.model.ts");
-/* harmony import */ var _rina_lib_src_lib_model_service_availiblity_model__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../rina-lib/src/lib/model/service.availiblity.model */ "../rina-lib/src/lib/model/service.availiblity.model.ts");
-/* harmony import */ var _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../constants/tab-map.constant */ "./src/app/constants/tab-map.constant.ts");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ "../../node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../constants/tab-map.constant */ "./src/app/constants/tab-map.constant.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common/http */ "../../node_modules/@angular/common/fesm5/http.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2932,7 +3038,11 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-
+var BADGE = {
+    '1': 'GOLD',
+    '2': 'PLATINUM',
+    '3': 'SILVER'
+};
 var RinaHomeComponent = /** @class */ (function () {
     function RinaHomeComponent(_httpClient, _gridlayoutService) {
         this._httpClient = _httpClient;
@@ -2942,15 +3052,14 @@ var RinaHomeComponent = /** @class */ (function () {
         this.warningMsg = '';
         this.showLoader = false;
         this.gaugeChartData = [];
-        this.currentstep = 3;
-        this.appointmentMsg = '';
         this.notificationData = [];
         this.showWindow = false;
         this.userDefineColors = [];
+        this.badge = '';
+        this.shoWWaverWindow = false;
         this.setDefaultInfo();
         this.customerOrigin = new _models_customer_profile_model__WEBPACK_IMPORTED_MODULE_2__["CustomerProfileOrigin"]();
         this.serviceMetadataStructure = new _models_customer_profile_model__WEBPACK_IMPORTED_MODULE_2__["ServiceMetadataStructure"]();
-        this.serviceModel = new _rina_lib_src_lib_model_service_availiblity_model__WEBPACK_IMPORTED_MODULE_4__["ServiceAvailibilityModel"]();
         this.gaugeChartData = [
             ['Label', 'Value'],
             ['CSAT', 80],
@@ -3005,8 +3114,10 @@ var RinaHomeComponent = /** @class */ (function () {
             if (response.success) {
                 _this.showLoader = false;
                 _this.customerOrigin = response.response;
+                _this.setOpenServiceWindowObject();
                 _this.resetRadioData();
                 _this.createPropertyStructure();
+                _this.setWaverInfo(_this.selectedRadioGroup);
                 _this.onPropertySelectHandle(_this.selectedRadioGroup);
             }
             else {
@@ -3016,6 +3127,15 @@ var RinaHomeComponent = /** @class */ (function () {
             }
         });
     };
+    RinaHomeComponent.prototype.setOpenServiceWindowObject = function () {
+        var _this = this;
+        if (this.customerOrigin.openServiceRequest) {
+            setTimeout(function () {
+                _this.showOpenServiceRequest = true;
+            }, 2000);
+        }
+        this.badge = BADGE[this.customerOrigin.customerProfile.type];
+    };
     RinaHomeComponent.prototype.resetRadioData = function () {
         this.electricityTitleData.disabled = false;
         this.gasTitleData.disabled = false;
@@ -3024,17 +3144,18 @@ var RinaHomeComponent = /** @class */ (function () {
     RinaHomeComponent.prototype.getTabComponentList = function (tabData) {
         this.tabRef.closeAll();
         // create 1 tab
-        var currentPlane = this.tabRef.addDynamicTab(tabData.data[0].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_5__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[0].key]);
+        var currentPlane = this.tabRef.addDynamicTab(tabData.data[0].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_4__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[0].key]);
         currentPlane.currentPlan = this.serviceMetadataStructure.currentPlan;
         // create 2 tab
-        var elecBill = this.tabRef.addDynamicTab(tabData.data[1].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_5__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[1].key]);
+        var elecBill = this.tabRef.addDynamicTab(tabData.data[1].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_4__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[1].key]);
         elecBill.billSummary = this.serviceMetadataStructure.billSummary;
         // create 4 tab
-        var usageReport = this.tabRef.addDynamicTab(tabData.data[3].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_5__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[3].key]);
+        var usageReport = this.tabRef.addDynamicTab(tabData.data[3].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_4__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[3].key]);
         usageReport.usageReports = this.serviceMetadataStructure.usageReports;
         usageReport.tabData = tabData;
         // create 3 tab
-        var interaction = this.tabRef.addDynamicTab(tabData.data[2].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_5__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[2].key]);
+        var interaction = this.tabRef.addDynamicTab(tabData.data[2].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_4__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[2].key]);
+        interaction.interactionHistory = this.customerOrigin.interactionHistory;
         this.tabRef.setActiveTab(3);
     };
     RinaHomeComponent.prototype.createCustomerDetailsPropertyStructure = function () {
@@ -3056,7 +3177,10 @@ var RinaHomeComponent = /** @class */ (function () {
         this.eleSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('NMI', this.customerOrigin.electricity.nmi));
         this.eleSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Last meter read date', this.customerOrigin.electricity.lastMeterReadDate));
         this.eleSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Next Scheduled Read Date', this.customerOrigin.electricity.nextScheduledReadDate));
-        this.eleSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Unbilled Amount', this.customerOrigin.electricity.unbilledAmount));
+        this.eleSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Due Amount', this.customerOrigin.electricity.unbilledAmount));
+        if (this.customerOrigin.electricity.dueAmountAfterDueDate) {
+            this.eleSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Due Amount After Due Date', this.customerOrigin.electricity.dueAmountAfterDueDate));
+        }
         this.eleSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Due Date', this.customerOrigin.electricity.dueDate));
         this.eleSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Last Payment Amount', this.customerOrigin.electricity.lastpaymentAmount));
         this.eleSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Last Payment Date', this.customerOrigin.electricity.lastPaymentDate));
@@ -3068,7 +3192,7 @@ var RinaHomeComponent = /** @class */ (function () {
         this.ngasSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('MIRN', this.customerOrigin.naturalGas.mirn));
         this.ngasSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Last meter read date', this.customerOrigin.naturalGas.lastMeterReadDate));
         this.ngasSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Next Scheduled Read Date', this.customerOrigin.naturalGas.nextScheduledReadDate));
-        this.ngasSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Unbilled Amount', this.customerOrigin.naturalGas.unbilledAmount));
+        this.ngasSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Due Amount', this.customerOrigin.naturalGas.unbilledAmount));
         this.ngasSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Due Date', this.customerOrigin.naturalGas.dueDate));
         this.ngasSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Last Payment Amount', this.customerOrigin.naturalGas.lastpaymentAmount));
         this.ngasSummaryKeyValueData.push(new _rina_lib_src_lib_model_shared_propertygrid_model__WEBPACK_IMPORTED_MODULE_3__["PropertyGridModel"]('Last Payment Date', this.customerOrigin.naturalGas.lastPaymentDate));
@@ -3086,13 +3210,14 @@ var RinaHomeComponent = /** @class */ (function () {
             _this.warningMsg = 'unable to retrieve data please try after sometime.';
             _this.warningdialogue = true;
         }, function () {
-            debugger;
             if (resP.success && resP.response) {
                 _this.showLoader = false;
                 if (proObject.value === 'electricity') {
+                    _this.setWaverInfo(proObject);
                     _this.assignObject(resP.response.electricity);
                 }
                 else {
+                    _this.setWaverInfo(proObject);
                     _this.assignObject(resP.response.naturalGas);
                 }
                 _this.getTabComponentList(proObject);
@@ -3107,7 +3232,9 @@ var RinaHomeComponent = /** @class */ (function () {
     RinaHomeComponent.prototype.assignObject = function (obj) {
         if (obj.addOnInfo) {
             this.infoMsg = obj.addOnInfo;
-            this.notificationData.push(obj.addOnInfo);
+            if (!this.customerOrigin.electricity.dueAmountAfterDueDate) {
+                this.notificationData.push(obj.addOnInfo);
+            }
         }
         else {
             this.setDefaultInfo();
@@ -3119,6 +3246,21 @@ var RinaHomeComponent = /** @class */ (function () {
         this.notificationData = [];
         this.showWindow = !this.showWindow;
     };
+    RinaHomeComponent.prototype.setWaverInfo = function (proObject) {
+        if (proObject.value === 'electricity' && this.customerOrigin.electricity.dueAmountAfterDueDate) {
+            this.serviceList[3].disabled = false;
+        }
+        else {
+            this.serviceList[3].disabled = true;
+        }
+    };
+    RinaHomeComponent.prototype.serviceTypeClickHandle = function (event) {
+        this.shoWWaverWindow = true;
+    };
+    RinaHomeComponent.prototype.onSubmitHandle = function (event) {
+        this.shoWWaverWindow = false;
+        this.notificationData.push(this.serviceMetadataStructure.addOnInfo);
+    };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('tab'),
         __metadata("design:type", Object)
@@ -3128,7 +3270,7 @@ var RinaHomeComponent = /** @class */ (function () {
             selector: 'rina-home',
             template: __webpack_require__(/*! ./rina-home.component.html */ "./src/app/rina-home/rina-home.component.html")
         }),
-        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClient"],
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClient"],
             amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_1__["AmexioGridLayoutService"]])
     ], RinaHomeComponent);
     return RinaHomeComponent;
