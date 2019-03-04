@@ -1665,15 +1665,15 @@ var SERVICE_URL = {
     BASE_APP_URL: 'https://restapi.amexio.org:8991/alfahim/api/'
 };
 var BUTTON_SERVICE_CONST = {
-    pickupcall: 'https://restapi.amexio.org:8991/alfahim/api/pickupcall',
-    connectcall: 'https://restapi.amexio.org:8991/alfahim/api/connectcall',
-    pausecall: 'https://restapi.amexio.org:8991/alfahim/api/pausecall',
-    disconnectcall: 'https://restapi.amexio.org:8991/alfahim/api/disconnectcall',
-    ignorecall: 'https://restapi.amexio.org:8991/alfahim/api/ignorecall',
-    makecall: 'https://restapi.amexio.org:8991/alfahim/api/makecall'
+    pickupcall: 'https://restapi.amexio.org:9890/websocket-example/api/pickupcall',
+    connectcall: 'https://restapi.amexio.org:9890/websocket-example/api/connectcall',
+    pausecall: 'https://restapi.amexio.org:9890/websocket-example/api/pausecall',
+    disconnectcall: 'https://restapi.amexio.org:9890/websocket-example/api/disconnectcall',
+    ignorecall: 'https://restapi.amexio.org:9890/websocket-example/api/ignorecall',
+    makecall: 'https://restapi.amexio.org:9890/websocket-example/api/makecall'
 };
 var SOCKET_CONST = {
-    connect: 'http://192.168.2.2:8080/chat',
+    connect: 'https://restapi.amexio.org:9890/websocket-example/connect',
     queue: '/topic/messages'
 };
 
