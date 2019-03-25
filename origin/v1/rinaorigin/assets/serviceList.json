@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "message": "data retrieved successfully",
+  "data": [
+    {
+     "serviceName": "CHANGE ENERGY PLAN",
+      "disabled": true
+    },
+    {
+      "serviceName": "UPDATE INFORMATION",
+      "disabled": true
+    },
+    {
+      "serviceName": "CHANGE ADDRESS",
+      "disabled": true
+    },
+    {
+      "serviceName": "WAIVERS",
+      "disabled": true
+    },
+    {
+      "serviceName": "ESCALATION",
+      "disabled": true
+    },
+    {
+      "serviceName": "WORKFLOW",
+      "disabled": true
+    }
+  ]
+}
