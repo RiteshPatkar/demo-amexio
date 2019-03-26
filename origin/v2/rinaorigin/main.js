@@ -3765,6 +3765,7 @@ var RinaHomeComponent = /** @class */ (function () {
     RinaHomeComponent.prototype.addRightSellTab = function (tabData) {
         var rightSell = this.tabRef.addDynamicTab(tabData.data[4].title, '', false, _constants_tab_map_constant__WEBPACK_IMPORTED_MODULE_4__["tab_map"].TAB_KEY_VALUE_PAIR[tabData.data[4].key]);
         rightSell.getRightSell(this.customerOrigin.rightSellData);
+        this.tabRef.setActiveTab(3);
     };
     RinaHomeComponent.prototype.onSubmitHandle = function (event) {
         this.shoWWaverWindow = false;
