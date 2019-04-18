@@ -41453,7 +41453,6 @@ var TopComponent = /** @class */ (function () {
         this.carrouselStyle = {};
         this.products = [];
         this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_7__["select"])(_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_6__["fromShell"].getCustomerRefInfo)).subscribe(function (custRefInfo) {
-            debugger;
             if (Object.keys(custRefInfo).length > 0) {
                 _this.updateProductInfo(custRefInfo);
                 setTimeout(function () {
@@ -41461,7 +41460,6 @@ var TopComponent = /** @class */ (function () {
                 }, 10);
             }
             else {
-                debugger;
                 _this.productPropertyStructureData = [];
                 _this.getProductDetailsStructure();
                 // this.store.dispatch(new SelectedProductInfo({}));
@@ -41608,7 +41606,7 @@ var TopComponent = /** @class */ (function () {
         var tWidth = this.carouselref.nativeElement.offsetLeft;
         this.gridWidth = ((tWidth - 35) / 2);
         var totalElWidth = this.ngcontentref.nativeElement.offsetWidth;
-        if (totalElWidth > tWidth) {
+        if (totalElWidth > tWidth || this.products && this.products.length >= 3) {
             this.carrouselStyle = this.updateCarouselStyle();
             this.showNext = true;
         }

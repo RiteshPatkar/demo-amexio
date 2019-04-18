@@ -265,8 +265,8 @@ __webpack_require__.r(__webpack_exports__);
  */
 var LoginModel = /** @class */ (function () {
     function LoginModel() {
-        this.userId = 'eeadmin';
-        this.password = 'eeadmin';
+        this.userId = '';
+        this.password = '';
     }
     return LoginModel;
 }());
