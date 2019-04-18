@@ -1,0 +1,35 @@
+{
+  "rightSell": {
+    "postCode": "2112",
+    "avg3MonthElectricityBill": "$283",
+    "energyUsagePattern": "both day and night",
+    "miniSystem": "suits 1 to 2 person households",
+    "energy": "2 KWh",
+    "noOfSolarPanels": "8",
+    "systemCost": "$ 3,795",
+    "years": "6.2 years",
+    "saving": "$151",
+    "totalCost": "$151.92",
+    "usedEnergy": "381.15 kWh",
+    "solarEnergyUse": [
+      {
+        "label": "solar engery user in your home",
+        "energy": "381 kWh",
+        "cost": "*31.372 c/kWh",
+        "totalCost": "$119.58"
+      },
+      {
+        "label": "solar engery fed back into grid",
+        "energy": "404 kWh",
+        "cost": "*8 c/kWh",
+        "totalCost": "$32.34"
+      },
+      {
+        "label": "Total Saved",
+        "energy": "",
+        "cost": "",
+        "totalCost": "$151.92"
+      }
+    ]
+  }
+}
