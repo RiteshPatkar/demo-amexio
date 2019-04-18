@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "message": "data retrieved successfully",
+  "data": [
+    {
+     "workflowName": "SERVICE BOOKING",
+      "disabled": true,
+      "type": "SB",
+      "workflowId": "SB",
+      "workflowDataUrl": "servicebooking"
+    },
+    {
+      "workflowName": "WORKFLOW",
+      "disabled": true,
+      "type": "UI",
+      "workflowId": "UI"
+    },
+    {
+      "workflowName": "WORKFLOW",
+      "disabled": true,
+      "type": "CA",
+      "workflowId": "CA"
+    },
+    {
+      "workflowName": "WORKFLOW",
+      "disabled": true,
+      "type": "WI",
+      "workflowId": "WI"
+    },
+    {
+      "workflowName": "WORKFLOW",
+      "disabled": true,
+      "type": "WP",
+      "workflowId": "WP"
+    },
+    {
+      "workflowName": "WORKFLOW",
+      "disabled": true,
+      "type": "WP",
+      "workflowId": "WP"
+    }
+  ]
+}

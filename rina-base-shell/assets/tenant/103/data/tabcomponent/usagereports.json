@@ -1,0 +1,50 @@
+{
+  "usageReports": [
+    {
+      "avgCostPerDay": "$2.04",
+      "avgDailyUsage": "7.66 kWh",
+      "sameTimeLastYear": "6.75 kWh",
+      "totalBill": "0.7 tonnes",
+      "samelastYear": "0.6 tonnes",
+      "savedwithGreenPower": "NA",
+      "summary": {
+        "usagelastYear": "21.79%",
+        "thisYear": "7.66 kWh",
+        "lastYear": "6.75 kWh"
+      },
+      "breakdown": [
+        [
+          "person",
+          "summerUsage(kWh)",
+          "winterUsage(kWh)"
+        ],
+        [
+          "Your Usage",
+          7.5,
+          7.5
+        ],
+        [
+          "1",
+          9.1,
+          10.1
+        ],
+        [
+          "2",
+          10.8,
+          10.8
+        ],
+        [
+          "3",
+          12.1,
+          12.1
+        ],
+        [
+          "4",
+          13.2,
+          13.2
+        ]
+      ],
+      "multiSeriesChartData": null
+    }
+  ]
+}

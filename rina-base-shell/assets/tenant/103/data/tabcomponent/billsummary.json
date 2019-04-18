@@ -1,0 +1,145 @@
+{
+  "billSummary": {
+    "period": "16 Aug 18 - 14 Nov 18 (91 days)",
+    "rate": "Domestic Seasonal ToU Transitional",
+    "meterDetails": null,
+    "billDetails": [
+      {
+        "title": "16 Aug 18 - 26 Sep 18 (42 days) Charges",
+        "usage": "",
+        "charge": "",
+        "amount": " ",
+        "billDays": null,
+        "bold": true
+      },
+      {
+        "title": "Peak Winter Usage",
+        "usage": "41.907",
+        "charge": "28.52 c/kWh",
+        "amount": "$11.95 ",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "Off-Peak Usage",
+        "usage": "112.565",
+        "charge": "28.52 c/kWh",
+        "amount": "$32.10 ",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "Shoulder Usage",
+        "usage": "166.143",
+        "charge": "28.52 c/kWh",
+        "amount": "$47.38",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "Supply Charge",
+        "usage": "",
+        "charge": "83.39 c/Day",
+        "amount": "$35.02 ",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "27 Sep 18 - 14 Nov 18 (49 days): concession change Charges",
+        "usage": "",
+        "charge": "",
+        "amount": "",
+        "billDays": null,
+        "bold": true
+      },
+      {
+        "title": "Peak Winter Usage",
+        "usage": "15.907",
+        "charge": "28.52 c/kWh",
+        "amount": "$4.54",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "Off-Peak Usage",
+        "usage": "146.112",
+        "charge": "28.52 c/kWh",
+        "amount": "$41.67 ",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "Shoulder Usage",
+        "usage": "214.25",
+        "charge": "28.52 c/kWh",
+        "amount": "$61.10",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "Supply Charge",
+        "usage": "",
+        "charge": "83.39 c/Day",
+        "amount": "$40.86",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "Discounts and Rebates",
+        "usage": "",
+        "charge": "",
+        "amount": "",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "NSW Govt Life Support Rebate X 1 (49 days)",
+        "usage": "",
+        "charge": "",
+        "amount": "$17.64 CR",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "Total for period 16 Aug 18 - 14 Nov 18 (excl GST)",
+        "usage": "",
+        "charge": "",
+        "amount": "$256.98 ",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "Total electricity charges",
+        "usage": "",
+        "charge": "",
+        "amount": " ",
+        "billDays": null,
+        "bold": true
+      },
+      {
+        "title": "Charges less discounts and rebates",
+        "usage": "",
+        "charge": "",
+        "amount": "$256.98",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "GST",
+        "usage": "",
+        "charge": "",
+        "amount": "$25.70",
+        "billDays": null,
+        "bold": false
+      },
+      {
+        "title": "Your total electricity charges (incl GST)",
+        "usage": "",
+        "charge": "",
+        "amount": "$282.68",
+        "billDays": null,
+        "bold": true
+      }
+    ]
+  }
+}

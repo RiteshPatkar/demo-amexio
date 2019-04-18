@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "successMessage": "Record found successfully",
+  "errorMessage": null,
+  "response": {
+    "data": {
+      "customerId": "19892720-67b0-4f01-a9ca-3caa13156b34",
+      "customerNo": "198927",
+      "uaeId": null,
+      "name": "Kevin Brown ",
+      "firstName": "Kevin ",
+      "lastName": "Brown ",
+      "mobile": "+61 568 171 999",
+      "companyName": "Betamagic pvt ltd",
+      "operatingStatus": "WIP",
+      "email": "kevinbrown@Hotmail.com",
+      "birthday": "June 11",
+      "altNumber": "N/A",
+      "anniversary": "September 18",
+      "profileImageUrl": "assets/images/169281.png",
+      "customerClass": "",
+      "preferredModeOfContact": "Mobile",
+      "vehicles": null,
+      "uniqueNo": "311 011 905 498",
+      "addressLabel": "733 Pennant Hills Rd Carlingford NSW 2118 ",
+      "address": {
+        "addressLine1": "733",
+        "addressLine2": "Pennant Hills Rd",
+        "city": "Carlingford",
+        "state": "NSW",
+        "country": "",
+        "postCode": "2118"
+      },
+      "type": "1",
+      "primaryKey": "19892720-67b0-4f01-a9ca-3caa13156b34",
+      "primaryDisplay": "Kevin Brown "
+    }
+  }
+}
