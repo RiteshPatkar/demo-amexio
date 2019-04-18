@@ -632,14 +632,14 @@ if(false) {}
 
 /***/ 2:
 /*!*******************************************************************************************************************************************************!*\
-  !*** multi ./src/styles.css ./node_modules/font-awesome/scss/font-awesome.scss ./node_modules/amexio-ng-extensions/styles/css/at-md-pumpkin-fire.css ***!
+  !*** multi ./node_modules/font-awesome/scss/font-awesome.scss ./node_modules/amexio-ng-extensions/styles/css/at-md-pumpkin-fire.css ./src/styles.css ***!
   \*******************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/deepali/Docker-Containers/POC_RINA/rina-base-shell/src/styles.css */"./src/styles.css");
 __webpack_require__(/*! /home/deepali/Docker-Containers/POC_RINA/rina-base-shell/node_modules/font-awesome/scss/font-awesome.scss */"./node_modules/font-awesome/scss/font-awesome.scss");
-module.exports = __webpack_require__(/*! /home/deepali/Docker-Containers/POC_RINA/rina-base-shell/node_modules/amexio-ng-extensions/styles/css/at-md-pumpkin-fire.css */"./node_modules/amexio-ng-extensions/styles/css/at-md-pumpkin-fire.css");
+__webpack_require__(/*! /home/deepali/Docker-Containers/POC_RINA/rina-base-shell/node_modules/amexio-ng-extensions/styles/css/at-md-pumpkin-fire.css */"./node_modules/amexio-ng-extensions/styles/css/at-md-pumpkin-fire.css");
+module.exports = __webpack_require__(/*! /home/deepali/Docker-Containers/POC_RINA/rina-base-shell/src/styles.css */"./src/styles.css");
 
 
 /***/ })
