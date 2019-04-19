@@ -41442,7 +41442,6 @@ var TopComponent = /** @class */ (function () {
         this.store = store;
         this._httpService = _httpService;
         this._router = _router;
-        this.productTemplateFieldCount = 7;
         this.showNext = false;
         this.showPrev = false;
         this.showRightPanel = true;
@@ -41562,6 +41561,11 @@ var TopComponent = /** @class */ (function () {
             this.productPropertyStructureData = [];
             this.products.forEach(function (product, index) {
                 if (product.hasOwnProperty('productTemplateId') && product.productTemplateId === '2' && product.propertyStructure.length > 6) {
+                    _this.productTemplateFieldCount = 7;
+                    _this.createTemplatewiseStructure(product);
+                }
+                if (product.hasOwnProperty('productTemplateId') && product.productTemplateId === '3' && product.propertyStructure.length > 8) {
+                    _this.productTemplateFieldCount = 9;
                     _this.createTemplatewiseStructure(product);
                 }
                 else {
@@ -41682,11 +41686,12 @@ var TopComponent = /** @class */ (function () {
     TopComponent.prototype.checkStatus = function (data) {
         var LogoutMsg;
         if (data === 'ok') {
-            this._router.navigate(['login']);
             // location.reload()
             this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["UpdateCustomerInfo"]({}));
             this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["AddCustomerRef"]({}));
             this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["SearchInfo"]({}));
+            this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["SelectedProductInfo"]({}));
+            this._router.navigate(['login']);
         }
     };
     __decorate([
