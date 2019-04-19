@@ -25,8 +25,8 @@
   padding: 10px 0px;
 }
 .datatable .datatable-header{
-  background-color: unset;
-  color: rgb(255, 75, 31);
+  /* background-color: unset;
+  color: rgb(255, 75, 31); */
 }
 
 .sidenav .activenode{

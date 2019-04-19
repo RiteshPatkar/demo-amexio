@@ -35870,7 +35870,7 @@ var AmexioChipComponent = /** @class */ (function () {
     AmexioChipComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-chip',
-                    template: "\n    <div  class=\"chips\" id=\"{{index}}\" attr.aria-label=\"{{label}}\"  style=\"cursor: pointer;\" [ngStyle]=\"{'background-color': color,'filter': selected ? 'contrast(70%)':''}\">\n      <amexio-c-icon [customclass]=\"icon\"></amexio-c-icon>\n      <amexio-label  (click)=\"onLabelClick($event)\">\n        <span [style.color]=\"fontcolor\" style=\"cursor: pointer;\"[ngStyle]=\"{'padding-left': icon ? '10px':'0px'}\">\n          {{item[displayfield]}}\n        </span>\n      </amexio-label>\n      <span class=\"badge\" *ngIf=\"badge\">{{badge}}</span>\n      <span  *ngIf=\"closable\">      \n        <i class=\"fa fa-times\" style=\"cursor: pointer; margin-left:10px\" (click)=\"onCloseClick($event)\"></i>\n      </span>\n    </div>\n  ",
+                    template: "\n    <div class=\"chips\" id=\"{{index}}\" attr.aria-label=\"{{label}}\" style=\"cursor: pointer;\" [ngStyle]=\"{'background-color': color,'filter': selected ? 'contrast(70%)':''}\">\n      <amexio-c-icon [customclass]=\"icon\"></amexio-c-icon>\n      <amexio-label (click)=\"onLabelClick()\">\n        <ng-container *ngIf=\"!label\">\n        <span [style.color]=\"fontcolor\" style=\"cursor: pointer;\" [ngStyle]=\"{'padding-left': icon ? '10px':'0px'}\">\n          {{item[displayfield]}}\n        </span>\n      </ng-container>\n      <ng-container *ngIf=\"label\">\n        <span [style.color]=\"fontcolor\" style=\"cursor: pointer;\" [ngStyle]=\"{'padding-left': icon ? '10px':'0px'}\">\n          {{label}}\n        </span>\n      </ng-container>\n      </amexio-label>\n      <span class=\"badge\" *ngIf=\"badge\">{{badge}}</span>\n      <span *ngIf=\"closable\">\n        <i class=\"fa fa-times\" style=\"cursor: pointer; margin-left:10px\" (click)=\"onCloseClick()\"></i>\n      </span>\n    </div>\n  ",
                     styles: ["\n\n  "],
                 },] },
     ];
@@ -44885,6 +44885,40 @@ var AmexioTagsInputComponent = /** @class */ (function (_super) {
         _this.maskloader = true;
         return _this;
     }
+    Object.defineProperty(AmexioTagsInputComponent.prototype, "data", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._data;
+        } /*
+         Properties
+         name : data-reader
+         datatype : string
+         version : 4.0 onwards
+         default :
+         description : Key in JSON datasource for records
+         */ /*
+       Properties
+       name : data-reader
+       datatype : string
+       version : 4.0 onwards
+       default :
+       description : Key in JSON datasource for records
+       */,
+        set: /**
+         * @param {?} value
+         * @return {?}
+         */
+        function (value) {
+            this._data = value;
+            if (this.componentLoaded) {
+                this.setData(this._data);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
     /**
      * @return {?}
      */
@@ -44912,6 +44946,7 @@ var AmexioTagsInputComponent = /** @class */ (function (_super) {
             this.previousData = JSON.parse(JSON.stringify(this.data));
             this.setData(this.data);
         }
+        this.componentLoaded = true;
     };
     /**
      * @param {?} event
@@ -45313,7 +45348,7 @@ var AmexioTagsInputComponent = /** @class */ (function (_super) {
     AmexioTagsInputComponent.propDecorators = {
         fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
         allowblank: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['allow-blank',] }],
-        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data',] }],
         datareader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data-reader',] }],
         httpmethod: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-method',] }],
         httpurl: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-url',] }],
@@ -46625,6 +46660,26 @@ var AmexioTypeAheadComponent = /** @class */ (function (_super) {
          */
         function (v) {
             this._haslabel = v;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AmexioTypeAheadComponent.prototype, "data", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._data;
+        },
+        set: /**
+         * @param {?} value
+         * @return {?}
+         */
+        function (value) {
+            this._data = value;
+            if (this.componentLoaded) {
+                this.setData(this._data);
+            }
         },
         enumerable: true,
         configurable: true
@@ -54867,6 +54922,88 @@ var AmexioTabComponent = /** @class */ (function (_super) {
             });
         }
     };
+    /**
+     * @param {?} input
+     * @param {?} flag
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.disableTab = /**
+     * @param {?} input
+     * @param {?} flag
+     * @return {?}
+     */
+    function (input, flag) {
+        var _this = this;
+        if (typeof input === 'string') {
+            this.tabCollection.forEach(function (tabs) {
+                if (input.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
+                    tabs.disabled = true;
+                    flag = true;
+                }
+                _this.asignTabPillClass(tabs);
+            });
+        }
+        else if (typeof input === 'number') {
+            this.tabCollection.forEach(function (tabs, index) {
+                if (index === input) {
+                    tabs.disabled = true;
+                    flag = true;
+                }
+                _this.asignTabPillClass(tabs);
+            });
+        }
+        else if (typeof input === 'object') {
+            this.disabledsplitmethod(input, flag);
+        }
+    };
+    /**
+     * @param {?} input
+     * @param {?} flag
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.disabledsplitmethod = /**
+     * @param {?} input
+     * @param {?} flag
+     * @return {?}
+     */
+    function (input, flag) {
+        var _this = this;
+        input.forEach(function (element) {
+            if (typeof element === 'string') {
+                _this.tabCollection.forEach(function (tabs) {
+                    if (element.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
+                        tabs.disabled = true;
+                        flag = true;
+                    }
+                    _this.asignTabPillClass(tabs);
+                });
+            }
+            else if (typeof element === 'number') {
+                _this.tabCollection.forEach(function (tabs, index) {
+                    if (index === element) {
+                        tabs.disabled = true;
+                        flag = true;
+                    }
+                    _this.asignTabPillClass(tabs);
+                });
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.getCurrentTab = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ currentindex;
+        this.tabCollection.forEach(function (tabs, index) {
+            if (tabs.active === true) {
+                currentindex = index;
+            }
+        });
+        return currentindex;
+    };
     AmexioTabComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-tab-view',
@@ -59880,6 +60017,7 @@ var AmexioListBoxComponent = /** @class */ (function () {
           description : It will gives you row clicked data.
           */
         this.rightClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.filterText = '';
         this.selectAll = false;
         this.maskloader = true;
         this.ishoverselected = true;
@@ -59950,7 +60088,7 @@ var AmexioListBoxComponent = /** @class */ (function () {
             .listen('document', 'click', function (event) {
             if (_this.viewData.length > 0) {
                 _this.viewData.forEach(function (element, index) {
-                    if (_this.viewData[_this.prevlistindex]['ishoverselected'] === true) {
+                    if (_this.prevlistindex !== -1 && _this.viewData[_this.prevlistindex]['ishoverselected'] === true) {
                         _this.viewData[_this.prevlistindex]['ishoverselected'] = false;
                         _this.prevlistindex = -1;
                         _this.listindex = -1;
