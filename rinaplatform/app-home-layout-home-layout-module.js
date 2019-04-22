@@ -41867,8 +41867,26 @@ var CenterLeftComponent = /** @class */ (function () {
     CenterLeftComponent.prototype.getWorkflowList = function () {
         var _this = this;
         this._httpClient.get(this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["WORKFLOW_BASE_URL"], 'workflow')).subscribe(function (res) {
-            _this.workflowList = res.response.metadata.workflow;
+            _this.workFlowRef = JSON.parse(JSON.stringify(res.response.metadata));
+            if (_this.workFlowRef.hasOwnProperty('defaultWorkflowKey')) {
+                _this.searchProductSepcWorkflow(_this.workFlowRef.defaultWorkflowKey);
+            }
+            else {
+                _this.workflowList = res.response.metadata.workflow;
+            }
         });
+    };
+    CenterLeftComponent.prototype.searchProductSepcWorkflow = function (key) {
+        var _this = this;
+        this.workflowList = [];
+        this.workFlowRef.workflow.forEach(function (wflow) {
+            if (key === wflow.productMapKey) {
+                _this.workflowList.push(wflow);
+            }
+        });
+        if (this.customerInfo && Object.keys(this.customerInfo).length > 0) {
+            this.enableWorkFlow();
+        }
     };
     CenterLeftComponent.prototype.workflowHandle = function (workflow) {
         var _this = this;
@@ -41926,6 +41944,7 @@ var CenterLeftComponent = /** @class */ (function () {
             }, function () {
                 if (response.success) {
                     if (_this._SDService.customerDependentProduct && custresponse.data.hasOwnProperty('productMapKey')) {
+                        _this.searchProductSepcWorkflow(custresponse.data.productMapKey);
                         _this._SDService.updateProductKey(custresponse.data.productMapKey);
                     }
                     _this._httpClient.get(_this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["SERVER_BASE_URL"], event.searchOption.searchHandler.handlerUrl)).subscribe(function (res) {
