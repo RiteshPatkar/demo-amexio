@@ -41499,6 +41499,9 @@ var TopComponent = /** @class */ (function () {
                     if (pData.productTemplateId == '2') {
                         _this.updateTemplatewiseData(res.response.data);
                     }
+                    if (pData.productTemplateId == '3') {
+                        _this.updateTemplatewiseData(res.response.data);
+                    }
                     else {
                         _this.productPropertyStructureData = _this.replaceOriginalData(_this.updatePropertyStructure(res.response, pData.productMapKey));
                         _this.productPropertyStructureData[0].selected = true;

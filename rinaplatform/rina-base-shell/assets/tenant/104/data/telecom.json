@@ -1,0 +1,26 @@
+{
+    "tenantId": 104,
+    "mobileNo": "639157169206",
+    "type": "telecom",
+    "data": {
+        "customerId": "83085294",
+        "tariffPlan": "ThePLAN PLUS 1499",
+        "activationDate": "03-01-2019",
+        "handset": "Huawei Nova 3i",
+        "contract":"24 Months",
+        "unbilledAmount": "P 69.90",
+        "openSRs": "1",
+        "lastPaymentDate": "04-04-2019",
+        "outstandingBalance": "P1568.90",
+        "billDate": "03-04-2019",
+        "mobileAppRegistered": "Yes",
+        "eKYC": "No",
+        "selfServiceRegistered": "Yes",
+        "billType": "E-Bill",
+        "creditMonitoringExposure": "P3412.26",
+        "nextBillDate": "03-05-2019",
+        "type":"",
+        "primaryKey": "",
+        "primaryDisplay": ""
+      }
+}

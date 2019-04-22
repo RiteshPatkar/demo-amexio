@@ -6336,7 +6336,7 @@ var ReactiveFormsModule = /** @class */ (function () {
 /*!***********************************************************************!*\
   !*** ./node_modules/amexio-ng-extensions/amexio-ng-extensions.es5.js ***!
   \***********************************************************************/
-/*! exports provided: AmexioWidgetModule, CommonDataService, DeviceQueryService, IconLoaderService, Icon, AmexioCreditCardModel, GridConfig, GridConstants, GoogleMapOverlays, AvailableSlotsModel, DayModel, TimeModel, TimeUtil, PropertyGridModel, AmexioFormsModule, LoadRecaptchaService, COMPONENT_CLASS_MAP, AmexioButtonComponent, AmexioButtonGroupComponent, ScriptLoadService, AmexioNavModule, AmexioSideNavComponent, SideNavNodeComponent, AmexioNavBarComponent, KEY_CODE_notify, AmexioNotificationComponent, AmexioLayoutModule, AmexioAccordionHeaderComponent, AmexioAccordionTabComponent, AmexioAccordionComponent, AccordionService, AmexioBorderLayoutItemComponent, AmexioBorderLayoutComponent, AmexioBoxComponent, AmexioCardComponent, AmexioColumnComponent, AmexioGridComponent, AmexioGridItemComponent, AmexioRowComponent, AmexioGridLayoutService, AmexioDataModule, GoogleMapScriptService, AmexioListBoxComponent, AmexioTreeViewComponent, AmexioPaginatorComponent, TreeDataTableComponent, AmexioGoogleMapComponent, AmexioDashBoardModule, DashboardLoaderService, DashBoardTitleComponent, DataPointCenterComponent, DataPointsComponent, DataPointEastComponent, DataPointNorthComponent, DataPointSouthComponent, DataPointWestComponent, GaugeChartComponent, AmexioChartsModule, AreaChartComponent, BarChartComponent, BubbleChartComponent, CandlestickChartComponent, CandlestickWaterfallChartComponent, ChartAreaComponent, ChartLegendComponent, ChartTitleComponent, ColumnChartComponent, ComboChartComponent, DonutChartComponent, GanttChartComponent, HistogramChartComponent, HorizontalAxisComponent, LineChartComponent, PieChartComponent, ScatterChartComponent, TimeLineChartComponent, VerticalAxisComponent, ChartLoaderService, AmexioMapModule, MapPropertiesComponent, GeoChartComponent, TreeMapComponent, MapTitleComponent, MapLoaderService, AmexioPaneModule, AmexioFooterComponent, AmexioBodyComponent, AmexioCarouselComponent, AmexioTemplateDirective, AmexioTemplateWrapperDirective, AmexiodialoguePaneComponent, AmexioFieldSetComponent, AmexioFormActionComponent, AmexioFormBodyComponent, AmexioFormComponent, AmexioFormHeaderComponent, AmexioHeaderComponent, AmexioPanelHeaderComponent, AmexioStepsComponent, StepBlockComponent, AmexioRightVerticalTabComponent, AmexioTabActionComponent, TOP_COMPONENT_CLASS_MAP, BOTTOM_COMPONENT_CLASS_MAP, AmexioTabComponent, AmexioTabPillComponent, AmexioVerticalTabComponent, AmexiotimelineComponent, AmexiotimelineeventComponent, AmexioWindowPaneComponent, AmexioWindowHeaderComponent, OverlayContainerComponent, AmexioFormGroupDirective, AmexioEnterpriseModule, MultiMediaCarouselComponent, ContentComponent, AmexioYoutubePlayerComponent, AmexioWeekDayAvailiblityComponent, AmexioCalendarComponent, AmexioCalendarDayTimeWiseComponent, AmexioCalendarMonthComponent, AmexioCalendarYearComponent, AmexioMediaModule, AmexioVideoPlayerComponent, DisplayFieldService, ɵdz, ɵea, ɵc, ɵb, ɵa, ɵs, ɵbc, ɵg, ɵd, ɵe, ɵp, ɵt, ɵh, ɵr, ɵbl, ɵl, ɵdh, ɵdk, ɵdi, ɵdj, ɵdl, ɵdn, ɵdm, ɵdo, ɵds, ɵdp, ɵdq, ɵdr, ɵdu, ɵdx, ɵdy, ɵdw, ɵdv, ɵdt, ɵcy, ɵcw, ɵcx, ɵcz, ɵdg, ɵdb, ɵdc, ɵda, ɵdf, ɵdd, ɵde, ɵeb, ɵec, ɵbw, ɵbv, ɵch, ɵbb, ɵbd, ɵbe, ɵbg, ɵbf, ɵm, ɵca, ɵcb, ɵbz, ɵci, ɵbk, ɵbr, ɵbq, ɵo, ɵv, ɵbm, ɵbo, ɵbp, ɵn, ɵbn, ɵw, ɵx, ɵu, ɵcj, ɵba, ɵbx, ɵbh, ɵbi, ɵcf, ɵcc, ɵce, ɵcd, ɵcg, ɵby, ɵbj, ɵy, ɵk, ɵz, ɵbs, ɵbu, ɵbt, ɵq, ɵi, ɵj, ɵck, ɵct, ɵcq, ɵcr, ɵcs, ɵcp, ɵcn, ɵcl, ɵcm, ɵco, ɵcu, ɵcv, ɵf */
+/*! exports provided: AmexioWidgetModule, CommonDataService, DeviceQueryService, IconLoaderService, Icon, AmexioCreditCardModel, GridConfig, GridConstants, GoogleMapOverlays, AvailableSlotsModel, DayModel, TimeModel, TimeUtil, PropertyGridModel, AmexioFormsModule, LoadRecaptchaService, COMPONENT_CLASS_MAP, AmexioButtonComponent, AmexioButtonGroupComponent, ScriptLoadService, AmexioNavModule, AmexioSideNavComponent, SideNavNodeComponent, AmexioNavBarComponent, KEY_CODE_notify, AmexioNotificationComponent, AmexioLayoutModule, AmexioAccordionHeaderComponent, AmexioAccordionTabComponent, AmexioAccordionComponent, AccordionService, AmexioBorderLayoutItemComponent, AmexioBorderLayoutComponent, AmexioBoxComponent, AmexioCardComponent, AmexioColumnComponent, AmexioGridComponent, AmexioGridItemComponent, AmexioRowComponent, AmexioGridLayoutService, AmexioDataModule, GoogleMapScriptService, AmexioListBoxComponent, AmexioTreeViewComponent, AmexioPaginatorComponent, TreeDataTableComponent, AmexioGoogleMapComponent, AmexioDashBoardModule, DashboardLoaderService, DashBoardTitleComponent, DataPointCenterComponent, DataPointsComponent, DataPointEastComponent, DataPointNorthComponent, DataPointSouthComponent, DataPointWestComponent, GaugeChartComponent, AmexioChartsModule, AreaChartComponent, BarChartComponent, BubbleChartComponent, CandlestickChartComponent, CandlestickWaterfallChartComponent, ChartAreaComponent, ChartLegendComponent, ChartTitleComponent, ColumnChartComponent, ComboChartComponent, DonutChartComponent, GanttChartComponent, HistogramChartComponent, HorizontalAxisComponent, LineChartComponent, PieChartComponent, ScatterChartComponent, TimeLineChartComponent, VerticalAxisComponent, ChartLoaderService, AmexioMapModule, MapPropertiesComponent, GeoChartComponent, TreeMapComponent, MapTitleComponent, MapLoaderService, AmexioPaneModule, AmexioFooterComponent, AmexioBodyComponent, AmexioCarouselComponent, AmexioTemplateDirective, AmexioTemplateWrapperDirective, AmexiodialoguePaneComponent, AmexioFieldSetComponent, AmexioFormActionComponent, AmexioFormBodyComponent, AmexioFormComponent, AmexioFormHeaderComponent, AmexioHeaderComponent, AmexioPanelHeaderComponent, AmexioStepsComponent, StepBlockComponent, AmexioRightVerticalTabComponent, AmexioTabActionComponent, TOP_COMPONENT_CLASS_MAP, BOTTOM_COMPONENT_CLASS_MAP, AmexioTabComponent, AmexioTabPillComponent, AmexioVerticalTabComponent, AmexiotimelineComponent, AmexiotimelineeventComponent, AmexioWindowPaneComponent, AmexioWindowHeaderComponent, OverlayContainerComponent, AmexioFormGroupDirective, AmexioEnterpriseModule, MultiMediaCarouselComponent, ContentComponent, AmexioYoutubePlayerComponent, AmexioWeekDayAvailiblityComponent, AmexioCalendarComponent, AmexioCalendarDayTimeWiseComponent, AmexioCalendarMonthComponent, AmexioCalendarYearComponent, AmexioMediaModule, AmexioVideoPlayerComponent, DisplayFieldService, ɵea, ɵeb, ɵc, ɵb, ɵa, ɵs, ɵbc, ɵg, ɵd, ɵe, ɵp, ɵt, ɵh, ɵr, ɵbl, ɵl, ɵdh, ɵdk, ɵdz, ɵdi, ɵdj, ɵdl, ɵdn, ɵdm, ɵdo, ɵds, ɵdp, ɵdq, ɵdr, ɵdu, ɵdx, ɵdy, ɵdw, ɵdv, ɵdt, ɵcy, ɵcw, ɵcx, ɵcz, ɵdg, ɵdb, ɵdc, ɵda, ɵdf, ɵdd, ɵde, ɵec, ɵed, ɵbw, ɵbv, ɵch, ɵbb, ɵbd, ɵbe, ɵbg, ɵbf, ɵm, ɵca, ɵcb, ɵbz, ɵci, ɵbk, ɵbr, ɵbq, ɵo, ɵv, ɵbm, ɵbo, ɵbp, ɵn, ɵbn, ɵw, ɵx, ɵu, ɵcj, ɵba, ɵbx, ɵbh, ɵbi, ɵcf, ɵcc, ɵce, ɵcd, ɵcg, ɵby, ɵbj, ɵy, ɵk, ɵz, ɵbs, ɵbu, ɵbt, ɵq, ɵi, ɵj, ɵck, ɵct, ɵcq, ɵcr, ɵcs, ɵcp, ɵcn, ɵcl, ɵcm, ɵco, ɵcu, ɵcv, ɵf */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6466,8 +6466,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AmexioMediaModule", function() { return AmexioMediaModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AmexioVideoPlayerComponent", function() { return AmexioVideoPlayerComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DisplayFieldService", function() { return DisplayFieldService; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdz", function() { return AmexioRuntimeModule; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵea", function() { return AmexioRuntimeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵea", function() { return AmexioRuntimeModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeb", function() { return AmexioRuntimeComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵc", function() { return AmexioCommonModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵb", function() { return AmexioContextMenuComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return AmexioBaseContextMenuModule; });
@@ -6484,6 +6484,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵl", function() { return ValueAccessorBase; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdh", function() { return AmexioCreativeModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdk", function() { return AmexioCardCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdz", function() { return AmexioCarouselCEComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdi", function() { return AmexioCardCEActionComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdj", function() { return AmexioCardCEBodyComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdl", function() { return AmexioCardCEHeaderComponent; });
@@ -6511,8 +6512,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdf", function() { return AmexioFilterTreeComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdd", function() { return HorizontalTreeViewNodeComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵde", function() { return HorizontalTreeViewComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeb", function() { return StepWizardComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵec", function() { return StepWizardItemComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵec", function() { return StepWizardComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵed", function() { return StepWizardItemComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbw", function() { return AmexioSearchAdvanceComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbv", function() { return SearchboxtoolComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵch", function() { return AmexioBadgeComponent; });
@@ -22555,7 +22556,7 @@ var AmexioNavBarComponent = /** @class */ (function () {
     };
     AmexioNavBarComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-nav', template: "\n    <nav #navbar class=\"topnav\" [ngStyle]=\"{'color': color, 'top': top}\" [ngClass]=\"{'topnav-mobile':mobilemode, 'transparentNav':transparent}\" (window:resize)=\"resize($event)\">\n\n        <div #navbarfixed  [ngClass]=\"{'lhs-mobile':mobilemode}\"\n         [ngStyle]=\"{'flex': !title || !logo ? 'none':''}\">\n            <div class=\"topnav-lhs-inner\" [ngClass]=\"{'topnav-lhs-inner-mobile':mobilemode, 'topnav-lhs-nologo': logo==''}\">\n                <span>\n\n                <span style=\"padding-left: 40px;\" *ngIf=\"sidenav\">  &nbsp;</span>\n\n                <span *ngIf=\"(!(mobilemode && sidenav) && homepageType ==='1')\" class=\"homepage-bar-collapse\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-bars' \"></amexio-image> &nbsp;</span>\n\n                <img alt=\"title \" style=\"cursor: pointer \" (click)=\"onNavLogoClick.emit($event) \" (load)=\"onImageLoad() \" *ngIf=\"logo \" [attr.src]=\"logo \" class=\"navbar-logo \">\n                <a (click)=\"onNavTitleClick.emit($event) \">{{title}}</a>\n\n\n                <ng-container *ngIf=\"homepageType=='2' && !sidenav\">\n                    <ng-container *ngIf=\"!isIconLeft\">\n                        <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-chevron-right' \"></amexio-image></span>\n                    </ng-container>\n                    <ng-container *ngIf=\"isIconLeft\">\n                        <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image  [icon-class]=\" 'fa fa-chevron-left' \"></amexio-image></span>\n                    </ng-container>\n                </ng-container>\n\n                </span>\n\n                <span *ngIf=\"mobilemode\" class=\"float-right mobilebar\" (click)=\"toggleDrawerPanel($event)\">\n                  <em *ngIf=\"!toggle\" class=\"fa fa-caret-down fa-2x\"></em>\n                  <em *ngIf=\"toggle\" class=\"fa fa-caret-up fa-2x\"></em>\n              </span>\n            </div>\n        </div>\n\n        <div #navbaritems *ngIf=\"toggle\" class=\"topnav-rhs\" [ngClass]=\"{'rhs-mobile':mobilemode}\">\n            <div class=\"topnavmainbar\" [ngClass]=\"{'topnavmainbar-mobile':mobilemode}\">\n                <div #navbaritems1 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-left]\"></ng-content>\n                </div>\n                <div #navbaritems2 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-center]\"></ng-content>\n                </div>\n                <div #navbaritems3 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-right]\"></ng-content>\n                </div>\n            </div>\n        </div>\n        <!--\n      <div #navbarfixed [ngStyle]=\"{'flex': !mobilemode ? lhsWidth : '','flex-width': !mobilemode ? lhsWidth :'' }\"\n                   [ngClass]=\"{ ' topnav-lhs-mobile':mobilemode,'topnav-lhs topnav-lhs-color':!mobilemode} \">\n          <div [ngClass]=\"{'homepage-expand': (isExpand && !mobilemode),'homepage-collapse':(!isExpand && !mobilemode) }\">\n\n              <ng-container *ngIf=\"!isLHSHide || mobilemode\">\n                  <span [ngClass]=\" sidenav ? 'sidenav-padding':'' \" [ngStyle]=\"{ 'padding-left':sidenav ? '40px': '0px'} \">\n                <span *ngIf=\"homepageType=='1' && !isPhone\" class=\"homepage-bar-collapse\"  (click)=\"onArrowClick($event)\"  ><amexio-image [icon-class]=\" 'fa fa-bars' \"></amexio-image></span>\n                  <img alt=\"title \" style=\"cursor: pointer \" (click)=\"onNavLogoClick.emit($event) \" (load)=\"onImageLoad() \" *ngIf=\"logo \" [attr.src]=\"logo \" class=\"navbar-logo \">\n                  <a (click)=\"onNavTitleClick.emit($event) \">{{title}}</a>\n                  </span>\n              </ng-container>\n              <ng-container *ngIf=\"!isPhone\">\n                  <span *ngIf=\"homepageType=='3' || isLHSHide \" (click)=\"onExpandIconClick($event) \" class=\"homepage3-bar\">\n                <amexio-image *ngIf=\"!isExpand\" [icon-class]=\" 'fa fa-bars' \"></amexio-image>\n                <amexio-image *ngIf=\"isExpand\" [icon-class]=\" 'fa fa-times-circle' \"></amexio-image>\n              </span>\n              </ng-container>\n              <ng-container *ngIf=\"homepageType=='2' && !sidenav\">\n                  <ng-container *ngIf=\"!isIconLeft\">\n                      <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-chevron-right' \"></amexio-image></span>\n                  </ng-container>\n                  <ng-container *ngIf=\"isIconLeft\">\n                      <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image  [icon-class]=\" 'fa fa-chevron-left' \"></amexio-image></span>\n                  </ng-container>\n              </ng-container>\n          </div>\n          <div *ngIf=\"mobilemode\" class=\"float-right mobilebar\" (click)=\"toggleDrawerPanel($event)\">\n              <em *ngIf=\"!toggle\" class=\"fa fa-caret-down fa-2x\"></em>\n              <em *ngIf=\"toggle\" class=\"fa fa-caret-up fa-2x\"></em>\n          </div>\n      </div>\n      <div #navbaritems *ngIf=\"toggle\" [ngClass]=\"{'topnav-rhs topnav-rhs-color':!mobilemode}\">\n          <div class=\"topnavmainbar\" [ngClass]=\"{'topnavmainbar-mobile':mobilemode}\">\n              <div #navbaritems1 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-left]\"></ng-content>\n              </div>\n              <div #navbaritems2 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-center]\"></ng-content>\n              </div>\n              <div #navbaritems3 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-right]\"></ng-content>\n              </div>\n\n          </div>\n      </div>\n\n    -->\n    </nav>\n  ",
+                    selector: 'amexio-nav', template: "\n    <nav #navbar class=\"topnav\" [ngStyle]=\"{'color': color, 'top': top, 'opacity': opacity}\" [ngClass]=\"{'topnav-mobile':mobilemode, 'transparentNav':transparent}\" (window:resize)=\"resize($event)\">\n\n        <div #navbarfixed  [ngClass]=\"{'lhs-mobile':mobilemode}\"\n         [ngStyle]=\"{'flex': !title || !logo ? 'none':''}\">\n            <div class=\"topnav-lhs-inner\" [ngClass]=\"{'topnav-lhs-inner-mobile':mobilemode, 'topnav-lhs-nologo': logo==''}\">\n                <span>\n\n                <span style=\"padding-left: 40px;\" *ngIf=\"sidenav\">  &nbsp;</span>\n\n                <span *ngIf=\"(!(mobilemode && sidenav) && homepageType ==='1')\" class=\"homepage-bar-collapse\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-bars' \"></amexio-image> &nbsp;</span>\n\n                <img alt=\"title \" style=\"cursor: pointer \" (click)=\"onNavLogoClick.emit($event) \" (load)=\"onImageLoad() \" *ngIf=\"logo \" [attr.src]=\"logo \" class=\"navbar-logo \">\n                <a (click)=\"onNavTitleClick.emit($event) \">{{title}}</a>\n\n\n                <ng-container *ngIf=\"homepageType=='2' && !sidenav\">\n                    <ng-container *ngIf=\"!isIconLeft\">\n                        <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-chevron-right' \"></amexio-image></span>\n                    </ng-container>\n                    <ng-container *ngIf=\"isIconLeft\">\n                        <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image  [icon-class]=\" 'fa fa-chevron-left' \"></amexio-image></span>\n                    </ng-container>\n                </ng-container>\n\n                </span>\n\n                <span *ngIf=\"mobilemode\" class=\"float-right mobilebar\" (click)=\"toggleDrawerPanel($event)\">\n                  <em *ngIf=\"!toggle\" class=\"fa fa-caret-down fa-2x\"></em>\n                  <em *ngIf=\"toggle\" class=\"fa fa-caret-up fa-2x\"></em>\n              </span>\n            </div>\n        </div>\n\n        <div #navbaritems *ngIf=\"toggle\" class=\"topnav-rhs\" [ngClass]=\"{'rhs-mobile':mobilemode}\">\n            <div class=\"topnavmainbar\" [ngClass]=\"{'topnavmainbar-mobile':mobilemode}\">\n                <div #navbaritems1 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-left]\"></ng-content>\n                </div>\n                <div #navbaritems2 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-center]\"></ng-content>\n                </div>\n                <div #navbaritems3 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-right]\"></ng-content>\n                </div>\n            </div>\n        </div>\n        <!--\n      <div #navbarfixed [ngStyle]=\"{'flex': !mobilemode ? lhsWidth : '','flex-width': !mobilemode ? lhsWidth :'' }\"\n                   [ngClass]=\"{ ' topnav-lhs-mobile':mobilemode,'topnav-lhs topnav-lhs-color':!mobilemode} \">\n          <div [ngClass]=\"{'homepage-expand': (isExpand && !mobilemode),'homepage-collapse':(!isExpand && !mobilemode) }\">\n\n              <ng-container *ngIf=\"!isLHSHide || mobilemode\">\n                  <span [ngClass]=\" sidenav ? 'sidenav-padding':'' \" [ngStyle]=\"{ 'padding-left':sidenav ? '40px': '0px'} \">\n                <span *ngIf=\"homepageType=='1' && !isPhone\" class=\"homepage-bar-collapse\"  (click)=\"onArrowClick($event)\"  ><amexio-image [icon-class]=\" 'fa fa-bars' \"></amexio-image></span>\n                  <img alt=\"title \" style=\"cursor: pointer \" (click)=\"onNavLogoClick.emit($event) \" (load)=\"onImageLoad() \" *ngIf=\"logo \" [attr.src]=\"logo \" class=\"navbar-logo \">\n                  <a (click)=\"onNavTitleClick.emit($event) \">{{title}}</a>\n                  </span>\n              </ng-container>\n              <ng-container *ngIf=\"!isPhone\">\n                  <span *ngIf=\"homepageType=='3' || isLHSHide \" (click)=\"onExpandIconClick($event) \" class=\"homepage3-bar\">\n                <amexio-image *ngIf=\"!isExpand\" [icon-class]=\" 'fa fa-bars' \"></amexio-image>\n                <amexio-image *ngIf=\"isExpand\" [icon-class]=\" 'fa fa-times-circle' \"></amexio-image>\n              </span>\n              </ng-container>\n              <ng-container *ngIf=\"homepageType=='2' && !sidenav\">\n                  <ng-container *ngIf=\"!isIconLeft\">\n                      <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-chevron-right' \"></amexio-image></span>\n                  </ng-container>\n                  <ng-container *ngIf=\"isIconLeft\">\n                      <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image  [icon-class]=\" 'fa fa-chevron-left' \"></amexio-image></span>\n                  </ng-container>\n              </ng-container>\n          </div>\n          <div *ngIf=\"mobilemode\" class=\"float-right mobilebar\" (click)=\"toggleDrawerPanel($event)\">\n              <em *ngIf=\"!toggle\" class=\"fa fa-caret-down fa-2x\"></em>\n              <em *ngIf=\"toggle\" class=\"fa fa-caret-up fa-2x\"></em>\n          </div>\n      </div>\n      <div #navbaritems *ngIf=\"toggle\" [ngClass]=\"{'topnav-rhs topnav-rhs-color':!mobilemode}\">\n          <div class=\"topnavmainbar\" [ngClass]=\"{'topnavmainbar-mobile':mobilemode}\">\n              <div #navbaritems1 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-left]\"></ng-content>\n              </div>\n              <div #navbaritems2 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-center]\"></ng-content>\n              </div>\n              <div #navbaritems3 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-right]\"></ng-content>\n              </div>\n\n          </div>\n      </div>\n\n    -->\n    </nav>\n  ",
                 },] },
     ];
     /** @nocollapse */
@@ -23350,6 +23351,166 @@ var AmexioHomePageComponent = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
+var AmexioCarouselCEComponent = /** @class */ (function () {
+    function AmexioCarouselCEComponent(http, dataService) {
+        this.http = http;
+        this.dataService = dataService;
+        this.currentImageIndex = 0;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.httpmethod && this.httpurl) {
+            this.dataService.fetchData(this.httpurl, this.httpmethod).subscribe(function (response) {
+                _this.responseData = response;
+            }, function (error) {
+            }, function () {
+                _this.setData(_this.responseData);
+            });
+        }
+        else if (this.data) {
+            this.setData(this.data);
+        }
+    };
+    /**
+     * @param {?} httpResponse
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.setData = /**
+     * @param {?} httpResponse
+     * @return {?}
+     */
+    function (httpResponse) {
+        var /** @type {?} */ responsedata = httpResponse;
+        if (this.datareader != null) {
+            var /** @type {?} */ dr = this.datareader.split('.');
+            for (var _i = 0, dr_1 = dr; _i < dr_1.length; _i++) {
+                var ir = dr_1[_i];
+                responsedata = responsedata[ir];
+            }
+        }
+        else {
+            responsedata = httpResponse;
+        }
+        this.imageData = responsedata;
+        this.centerImagePath = this.imageData[0].imagepath;
+        this.centerTitle = this.imageData[0].title;
+        this.previousTitle = this.imageData[this.imageData.length - 1].title;
+        this.nextTitle = this.imageData[1].title;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.onClickLeft = /**
+     * @return {?}
+     */
+    function () {
+        if (this.currentImageIndex === 0) {
+            this.centerImagePath = this.imageData[this.imageData.length - 1].imagepath;
+            this.centerTitle = this.imageData[this.imageData.length - 1].title;
+            this.currentImageIndex = this.imageData.length - 1;
+            this.previousTitle = this.imageData[this.currentImageIndex - 1].title;
+            this.nextTitle = this.imageData[0].title;
+        }
+        else if (this.imageData && (this.imageData.length !== this.currentImageIndex) && this.currentImageIndex !== 0) {
+            this.centerImagePath = this.imageData[this.currentImageIndex - 1].imagepath;
+            this.centerTitle = this.imageData[this.currentImageIndex - 1].title;
+            this.currentImageIndex--;
+            if (this.currentImageIndex === 0) {
+                this.previousTitle = this.imageData[this.imageData.length - 1].title;
+                this.nextTitle = this.imageData[1].title;
+            }
+            else {
+                this.previousTitle = this.imageData[this.currentImageIndex - 1].title;
+                this.nextTitle = this.imageData[this.currentImageIndex + 1].title;
+            }
+        }
+        this.onPreBtnHover();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.onPreBtnHover = /**
+     * @return {?}
+     */
+    function () {
+        if (this.currentImageIndex === 0) {
+            this.preImagePath = this.imageData[this.imageData.length - 1].imagepath;
+        }
+        if (this.imageData && this.imageData.length !== this.currentImageIndex && this.currentImageIndex !== 0) {
+            this.preImagePath = this.imageData[this.currentImageIndex - 1].imagepath;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.onNextBtnHover = /**
+     * @return {?}
+     */
+    function () {
+        if (this.imageData && this.imageData.length - 1 !== this.currentImageIndex) {
+            this.nextImagePath = this.imageData[this.currentImageIndex + 1].imagepath;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.onClickRight = /**
+     * @return {?}
+     */
+    function () {
+        if ((this.currentImageIndex < this.imageData.length) && (this.imageData.length - 1 !== this.currentImageIndex)) {
+            this.centerImagePath = this.imageData[this.currentImageIndex + 1].imagepath;
+            this.centerTitle = this.imageData[this.currentImageIndex + 1].title;
+            this.currentImageIndex++;
+            if (this.currentImageIndex < this.imageData.length - 1) {
+                this.nextTitle = this.imageData[this.currentImageIndex + 1].title;
+                this.previousTitle = this.imageData[this.currentImageIndex - 1].title;
+            }
+            else if (this.currentImageIndex === this.imageData.length - 1) {
+                this.nextTitle = this.imageData[0].title;
+                this.previousTitle = this.imageData[this.currentImageIndex - 1].title;
+            }
+        }
+        else if (this.currentImageIndex === this.imageData.length - 1) {
+            this.currentImageIndex = 0;
+            this.nextTitle = this.imageData[this.currentImageIndex + 1].title;
+            this.centerImagePath = this.imageData[this.currentImageIndex].imagepath;
+            this.centerTitle = this.imageData[this.currentImageIndex].title;
+            this.previousTitle = this.imageData[this.imageData.length - 1].title;
+        }
+        this.onNextBtnHover();
+    };
+    AmexioCarouselCEComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-carousel-ce',
+                    template: "\n    <div class=\"wrapper\">\n        <div class=\"ce-caroueslslideshow\">\n            <div class=\"ce-caroueslimages\">\n                <amexio-image [path]=\"centerImagePath\">\n                </amexio-image>\n            </div>\n\n            <div class=\"ce-carousel-textdata\">\n                <ng-template [ngTemplateOutlet]=\"creativeCarousel\">\n                </ng-template>\n            </div>\n            <div class=\"ce-caroueslbar\">\n                <div class=\"ce-caroueslnav\">\n                    <a class=\"ce-caroueslnav-prev\">\n                        <span>Previous</span>\n                        <div (click)=\"onClickLeft()\" (mouseenter)=\"onPreBtnHover()\">\n                            <amexio-image [path]='preImagePath'>\n                            </amexio-image>\n                        </div>\n                    </a>\n                    <a class=\"ce-caroueslnav-next\">\n                        <span>Next</span>\n                        <div (click)=\"onClickRight()\" (mouseenter)=\"onNextBtnHover()\">\n                            <amexio-image [path]=\"nextImagePath\">\n                            </amexio-image>\n                        </div>\n                    </a>\n                </div>\n\n                <div class=\"ce-caroueslnav-content\">\n                    <div class=\"ce-caroueslnav-content-prev\">\n                        <span> {{previousTitle}}</span>\n                    </div>\n                    <div class=\"ce-caroueslnav-content-current\">\n                        <amexio-label>\n                            {{centerTitle}}\n                        </amexio-label>\n                    </div>\n                    <div class=\"ce-caroueslnav-content-next\">\n                        <span> {{nextTitle}}</span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioCarouselCEComponent.ctorParameters = function () { return [
+        { type: HttpClient },
+        { type: CommonDataService }
+    ]; };
+    AmexioCarouselCEComponent.propDecorators = {
+        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        httpurl: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-url',] }],
+        datareader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data-reader',] }],
+        httpmethod: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-method',] }],
+        creativeCarousel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: ['amexioCreativeCarousel',] }]
+    };
+    return AmexioCarouselCEComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
 var ProgressModel = /** @class */ (function () {
     function ProgressModel(firstDegree, secondDegree, progresscolor, inactiveprogresscolor) {
         this.firstDegree = firstDegree;
@@ -23610,6 +23771,382 @@ var AmexioProgressCEComponent = /** @class */ (function () {
         showunit: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-unit',] }]
     };
     return AmexioProgressCEComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* Created by pratik on 18/12/17.
+*/
+var AmexioImageComponent = /** @class */ (function () {
+    function AmexioImageComponent() {
+        /*
+        Properties
+        name : c-class
+        datatype :  string
+        version : 4.0 onwards
+        default :
+        description : Used for custom style classes
+        */
+        this.cclass = '';
+        /*
+        Events
+        name : onClick
+        datatype :  none
+        version : none
+        default : none
+        description : Get image / icon click event.
+        */
+        this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Properties
+        name :absolute
+        datatype :  string
+        version : 4.1.9 onwards
+        default :
+        description :sets absolute attribute  to image
+        */
+        this.absolute = false;
+        /*
+        Properties
+        name :relative
+        datatype :  string
+        version : 4.1.9 onwards
+        default :
+        description :sets relative attribute  to image
+        */
+        this.relative = false;
+        this.overlay = false;
+        this.absoluteposition = false;
+        this.imageCss = ' image-';
+        this.overlayTextCss = 'overlay-text overlay-';
+        this.textCss = '-text';
+        this.imgFluidCss = ' img-fluid';
+        this.overlayOverlayCss = 'overlay overlay-';
+        this.imageTitleCss = 'image-title image-';
+        this.imageTitleBottomCss = 'image-title image-bottom-right';
+    }
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioImageComponent.prototype.onImageClick = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.onClick.emit(event);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioImageComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        if (!(this.width || this.height)) {
+            this.cclass = this.cclass + this.imgFluidCss;
+        }
+        if (this.filter) {
+            this.cclass = this.cclass + this.imageCss + this.filter;
+        }
+        if (this.overlayEffect) {
+            this.overlay = true;
+            if (!this.overlayText) {
+                this.overlayText = '';
+            }
+            if (this.overlayText) {
+                this.overlayTextClass = this.overlayTextCss + this.overlayEffect + this.textCss;
+            }
+            this.overlayEffect = this.overlayOverlayCss + this.overlayEffect;
+        }
+        if (this.position && !this.imgTitle) {
+            this.imgTitle = '';
+        }
+        if (this.imgTitle) {
+            if (this.position) {
+                this.position = this.imageTitleCss + this.position;
+            }
+            else {
+                this.position = this.imageTitleBottomCss;
+            }
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioImageComponent.prototype.addimageCSSClass = /**
+     * @return {?}
+     */
+    function () {
+        if (this.top || this.bottom || this.right || this.left) {
+            this.absoluteposition = true;
+        }
+        this.imagepositionclass = '';
+        if (this.relative && !this.absolute) {
+            this.imagepositionclass = ' img-relative ';
+            this.top = '';
+            this.left = '';
+            this.right = '';
+            this.bottom = '';
+        }
+        else if (this.absolute) {
+            this.imagepositionclass = 'img-absolute ';
+        }
+        return this.imagepositionclass;
+    };
+    AmexioImageComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-image', template: "\n    <!--Normal image-->\n    <ng-container *ngIf=\"iconclass && (!path && !mda) && overlay || overlayText || titlePara || imgTitle \">\n    <div class=\"img-container\" [ngClass]=\"addimageCSSClass()\"  [ngStyle]=\"{'top':top,'bottom':bottom,'left':left,'right':right} \">\n      <ng-container *ngIf=\"path || (path && iconclass)\">\n        <ng-container *ngIf=\"!(width || height)\">\n          <img alt=\"title\" [src]=\"path\" [attr.class]=\"cclass\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n          <div *ngIf=\"overlay\" [ngClass]=\"overlayEffect\">\n            <div *ngIf=\"overlayText\" [ngClass]=\"overlayTextClass\">{{overlayText}}\n              <p *ngIf=\"titlePara\">{{titlePara}}</p>\n            </div>\n          </div>\n          <div *ngIf=\"imgTitle\" [ngClass]=\"position\">{{imgTitle}}</div>\n        </ng-container>\n        <ng-container *ngIf=\"width || height\">\n          <img alt=\"title\" [ngStyle]=\"{'width':width,'height':height}\" [attr.class]=\"cclass\" [src]=\"path\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n           <div *ngIf=\"overlay\" [ngClass]=\"overlayEffect\">\n            <div *ngIf=\"overlayText\" [ngClass]=\"overlayTextClass\">{{overlayText}}\n              <p *ngIf=\"titlePara\">{{titlePara}}</p>\n            </div>\n          </div>\n          <div *ngIf=\"imgTitle\" [ngClass]=\"position\">{{imgTitle}}</div>\n        </ng-container>\n      </ng-container>\n      </div>\n    </ng-container>\n\n\n\n    <ng-container *ngIf=\"!(iconclass && (!path && !mda) && overlay || overlayText || titlePara || imgTitle )\">\n        <ng-container *ngIf=\"path || (path && iconclass)\">\n        <ng-container *ngIf=\"!(width || height)\">\n        <img alt=\"title\" [src]=\"path\" [attr.class]=\"cclass\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n        </ng-container>\n        <ng-container *ngIf=\"width || height\">\n        <img alt=\"title\" [ngStyle]=\"{'width':width,'height':height}\" [attr.class]=\"cclass\" [src]=\"path\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n        </ng-container>\n        </ng-container>\n        </ng-container>\n    \n    <!--this is for fontawesome-->\n    <ng-container *ngIf=\"iconclass && (!path && !mda)\">\n      <em [attr.class]=\"iconclass\" [attr.title]=\"tooltip\" (click)=\"onImageClick($event)\"></em>\n      <label class=\"image-title\" *ngIf=\"title\" (click)=\"onImageClick($event)\" style=\"cursor: pointer\">{{title}}</label>\n    </ng-container>\n\n    <!--Material icon-->\n    <ng-container *ngIf=\"(iconclass && mda) && !path\">\n      <em [attr.class]=\"iconclass\" [attr.title]=\"tooltip\" (click)=\"onImageClick($event)\">{{mda}}</em>\n    </ng-container>\n\n    <ng-container *ngIf=\" title && !iconclass\">\n      <span style=\"font-size: medium\">{{title}}</span>\n    </ng-container>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioImageComponent.ctorParameters = function () { return []; };
+    AmexioImageComponent.propDecorators = {
+        tooltip: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        path: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        iconclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-class',] }],
+        cclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['c-class',] }],
+        mda: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        filter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['filter',] }],
+        overlayEffect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['overlay-effect',] }],
+        overlayText: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['overlay-text',] }],
+        imgTitle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['image-title',] }],
+        position: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['title-position',] }],
+        titlePara: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['para',] }],
+        top: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-top',] }],
+        bottom: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-bottom',] }],
+        left: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-left',] }],
+        right: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-right',] }],
+        absolute: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['absolute',] }],
+        relative: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['relative',] }]
+    };
+    return AmexioImageComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+var AmexioVideoPlayerComponent = /** @class */ (function () {
+    function AmexioVideoPlayerComponent() {
+        this.currentVolume = 1;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.onVolumeChange = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.videoPlayer.nativeElement.volume = this.currentVolume = event.target.value;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.updateMuteUI = /**
+     * @return {?}
+     */
+    function () {
+        if (this.videoPlayer.nativeElement.muted) {
+            this.isMuted = true;
+        }
+        else {
+            this.isMuted = false;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.onPlay = /**
+     * @return {?}
+     */
+    function () {
+        if (!this.isPlaying) {
+            this.videoPlayer.nativeElement.play();
+            this.isPlaying = true;
+        }
+        else {
+            this.videoPlayer.nativeElement.pause();
+            this.isPlaying = false;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.onTimeUpdate = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ percentage = Math.floor((100 / this.videoPlayer.nativeElement.duration) * this.videoPlayer.nativeElement.currentTime);
+        this.progressBar.nativeElement.value = percentage;
+        // Update the progress bar's text (for browsers that don't support the progress element)
+        this.progressBar.nativeElement.innerHTML = percentage + '% played';
+        if (percentage === 100) {
+            this.isPlaying = false;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.replayVideo = /**
+     * @return {?}
+     */
+    function () {
+        this.resetPlayer();
+        this.onPlay();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.resetPlayer = /**
+     * @return {?}
+     */
+    function () {
+        this.videoPlayer.nativeElement.pause();
+        this.progressBar.nativeElement.value = 0;
+        this.videoPlayer.nativeElement.currentTime = 0;
+        this.isPlaying = false;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.onFullScreen = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ elem = this.videoPlayer.nativeElement;
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+        }
+        else if (elem.mozRequestFullScreen) {
+            elem.mozRequestFullScreen();
+        }
+        else if (elem.webkitRequestFullscreen) {
+            elem.webkitRequestFullscreen();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.onMute = /**
+     * @return {?}
+     */
+    function () {
+        if (!this.isMuted) {
+            this.videoPlayer.nativeElement.muted = true;
+            this.isMuted = true;
+            this.volumebar.nativeElement.value = 0;
+        }
+        else {
+            this.videoPlayer.nativeElement.muted = false;
+            this.isMuted = false;
+            this.volumebar.nativeElement.value = this.currentVolume;
+        }
+    };
+    AmexioVideoPlayerComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-video-player',
+                    template: "\n\n      <video [style.width.px]=\"width\" controls>\n          <source [attr.src]=\"path\">\n          Your browser does not support HTML5 video.\n      </video>\n  ",
+                    styles: ["\n    video{width:100%;height:100%;background:#000}progress{color:#4682b4;font-size:12px;width:220px;height:16px;border:none;margin-right:10px;background:#434343;border-radius:9px;vertical-align:middle}progress::-moz-progress-bar{color:#4682b4;background:#434343}progress[value]::-webkit-progress-bar{background-color:#434343;border-radius:2px;-webkit-box-shadow:0 2px 5px rgba(0,0,0,.25) inset;box-shadow:inset 0 2px 5px rgba(0,0,0,.25)}progress[value]::-webkit-progress-value{background-color:#4682b4}@media screen and (max-width:600px){video{border:1px solid #4682b4;width:98%;height:231px;background:#000}}\n  "],
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioVideoPlayerComponent.ctorParameters = function () { return []; };
+    AmexioVideoPlayerComponent.propDecorators = {
+        path: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        extension: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        videoPlayer: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['videoRef',] }],
+        progressBar: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['progressbar',] }],
+        volumebar: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['volumebar',] }]
+    };
+    return AmexioVideoPlayerComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var MEDIA_COMPONENTS = [
+    AmexioVideoPlayerComponent,
+    AmexioImageComponent,
+];
+var AmexioMediaModule = /** @class */ (function () {
+    function AmexioMediaModule() {
+    }
+    /**
+     * @return {?}
+     */
+    AmexioMediaModule.forRoot = /**
+     * @return {?}
+     */
+    function () {
+        return {
+            ngModule: AmexioMediaModule,
+            providers: [CommonDataService, DeviceQueryService],
+        };
+    };
+    AmexioMediaModule.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"], args: [{
+                    imports: [
+                        _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
+                        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
+                        HttpClientModule,
+                        AmexioCommonModule,
+                    ],
+                    exports: MEDIA_COMPONENTS,
+                    declarations: MEDIA_COMPONENTS,
+                    providers: [CommonDataService, DeviceQueryService, IconLoaderService],
+                },] },
+    ];
+    return AmexioMediaModule;
 }());
 
 /**
@@ -32303,177 +32840,6 @@ var AmexioHomePageWestPanelComponent = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* Created by pratik on 18/12/17.
-*/
-var AmexioImageComponent = /** @class */ (function () {
-    function AmexioImageComponent() {
-        /*
-        Properties
-        name : c-class
-        datatype :  string
-        version : 4.0 onwards
-        default :
-        description : Used for custom style classes
-        */
-        this.cclass = '';
-        /*
-        Events
-        name : onClick
-        datatype :  none
-        version : none
-        default : none
-        description : Get image / icon click event.
-        */
-        this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Properties
-        name :absolute
-        datatype :  string
-        version : 4.1.9 onwards
-        default :
-        description :sets absolute attribute  to image
-        */
-        this.absolute = false;
-        /*
-        Properties
-        name :relative
-        datatype :  string
-        version : 4.1.9 onwards
-        default :
-        description :sets relative attribute  to image
-        */
-        this.relative = false;
-        this.overlay = false;
-        this.absoluteposition = false;
-        this.imageCss = ' image-';
-        this.overlayTextCss = 'overlay-text overlay-';
-        this.textCss = '-text';
-        this.imgFluidCss = ' img-fluid';
-        this.overlayOverlayCss = 'overlay overlay-';
-        this.imageTitleCss = 'image-title image-';
-        this.imageTitleBottomCss = 'image-title image-bottom-right';
-    }
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioImageComponent.prototype.onImageClick = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        this.onClick.emit(event);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioImageComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        if (!(this.width || this.height)) {
-            this.cclass = this.cclass + this.imgFluidCss;
-        }
-        if (this.filter) {
-            this.cclass = this.cclass + this.imageCss + this.filter;
-        }
-        if (this.overlayEffect) {
-            this.overlay = true;
-            if (!this.overlayText) {
-                this.overlayText = '';
-            }
-            if (this.overlayText) {
-                this.overlayTextClass = this.overlayTextCss + this.overlayEffect + this.textCss;
-            }
-            this.overlayEffect = this.overlayOverlayCss + this.overlayEffect;
-        }
-        if (this.position && !this.imgTitle) {
-            this.imgTitle = '';
-        }
-        if (this.imgTitle) {
-            if (this.position) {
-                this.position = this.imageTitleCss + this.position;
-            }
-            else {
-                this.position = this.imageTitleBottomCss;
-            }
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioImageComponent.prototype.addimageCSSClass = /**
-     * @return {?}
-     */
-    function () {
-        if (this.top || this.bottom || this.right || this.left) {
-            this.absoluteposition = true;
-        }
-        this.imagepositionclass = '';
-        if (this.relative && !this.absolute) {
-            this.imagepositionclass = ' img-relative ';
-            this.top = '';
-            this.left = '';
-            this.right = '';
-            this.bottom = '';
-        }
-        else if (this.absolute) {
-            this.imagepositionclass = 'img-absolute ';
-        }
-        return this.imagepositionclass;
-    };
-    AmexioImageComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-image', template: "\n    <!--Normal image-->\n    <ng-container *ngIf=\"iconclass && (!path && !mda) && overlay || overlayText || titlePara || imgTitle \">\n    <div class=\"img-container\" [ngClass]=\"addimageCSSClass()\"  [ngStyle]=\"{'top':top,'bottom':bottom,'left':left,'right':right} \">\n      <ng-container *ngIf=\"path || (path && iconclass)\">\n        <ng-container *ngIf=\"!(width || height)\">\n          <img alt=\"title\" [src]=\"path\" [attr.class]=\"cclass\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n          <div *ngIf=\"overlay\" [ngClass]=\"overlayEffect\">\n            <div *ngIf=\"overlayText\" [ngClass]=\"overlayTextClass\">{{overlayText}}\n              <p *ngIf=\"titlePara\">{{titlePara}}</p>\n            </div>\n          </div>\n          <div *ngIf=\"imgTitle\" [ngClass]=\"position\">{{imgTitle}}</div>\n        </ng-container>\n        <ng-container *ngIf=\"width || height\">\n          <img alt=\"title\" [ngStyle]=\"{'width':width,'height':height}\" [attr.class]=\"cclass\" [src]=\"path\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n           <div *ngIf=\"overlay\" [ngClass]=\"overlayEffect\">\n            <div *ngIf=\"overlayText\" [ngClass]=\"overlayTextClass\">{{overlayText}}\n              <p *ngIf=\"titlePara\">{{titlePara}}</p>\n            </div>\n          </div>\n          <div *ngIf=\"imgTitle\" [ngClass]=\"position\">{{imgTitle}}</div>\n        </ng-container>\n      </ng-container>\n      </div>\n    </ng-container>\n\n\n\n    <ng-container *ngIf=\"!(iconclass && (!path && !mda) && overlay || overlayText || titlePara || imgTitle )\">\n        <ng-container *ngIf=\"path || (path && iconclass)\">\n        <ng-container *ngIf=\"!(width || height)\">\n        <img alt=\"title\" [src]=\"path\" [attr.class]=\"cclass\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n        </ng-container>\n        <ng-container *ngIf=\"width || height\">\n        <img alt=\"title\" [ngStyle]=\"{'width':width,'height':height}\" [attr.class]=\"cclass\" [src]=\"path\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n        </ng-container>\n        </ng-container>\n        </ng-container>\n    \n    <!--this is for fontawesome-->\n    <ng-container *ngIf=\"iconclass && (!path && !mda)\">\n      <em [attr.class]=\"iconclass\" [attr.title]=\"tooltip\" (click)=\"onImageClick($event)\"></em>\n      <label class=\"image-title\" *ngIf=\"title\" (click)=\"onImageClick($event)\" style=\"cursor: pointer\">{{title}}</label>\n    </ng-container>\n\n    <!--Material icon-->\n    <ng-container *ngIf=\"(iconclass && mda) && !path\">\n      <em [attr.class]=\"iconclass\" [attr.title]=\"tooltip\" (click)=\"onImageClick($event)\">{{mda}}</em>\n    </ng-container>\n\n    <ng-container *ngIf=\" title && !iconclass\">\n      <span style=\"font-size: medium\">{{title}}</span>\n    </ng-container>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioImageComponent.ctorParameters = function () { return []; };
-    AmexioImageComponent.propDecorators = {
-        tooltip: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        path: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        iconclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-class',] }],
-        cclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['c-class',] }],
-        mda: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        filter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['filter',] }],
-        overlayEffect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['overlay-effect',] }],
-        overlayText: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['overlay-text',] }],
-        imgTitle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['image-title',] }],
-        position: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['title-position',] }],
-        titlePara: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['para',] }],
-        top: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-top',] }],
-        bottom: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-bottom',] }],
-        left: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-left',] }],
-        right: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-right',] }],
-        absolute: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['absolute',] }],
-        relative: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['relative',] }]
-    };
-    return AmexioImageComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
 var ViewportBackgroundComponent = /** @class */ (function () {
     function ViewportBackgroundComponent() {
     }
@@ -32492,8 +32858,15 @@ var ViewportBackgroundComponent = /** @class */ (function () {
      * @return {?}
      */
     function () {
-        this.imagePath = this.imageTemplate.path;
-        this.bgCss = 'bgCss' + Math.floor(Math.random() * 1000) + 'background';
+        // IMAGE
+        if (this.imageTemplate) {
+            this.imagePath = this.imageTemplate.path;
+            this.bgCss = 'bgCss' + Math.floor(Math.random() * 1000) + 'background';
+        }
+        // VIDEO
+        if (this.videoTemplate) {
+            this.videoPath = this.videoTemplate.path;
+        }
     };
     ViewportBackgroundComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
@@ -32505,6 +32878,7 @@ var ViewportBackgroundComponent = /** @class */ (function () {
     ViewportBackgroundComponent.ctorParameters = function () { return []; };
     ViewportBackgroundComponent.propDecorators = {
         imageTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [AmexioImageComponent,] }],
+        videoTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [AmexioVideoPlayerComponent,] }],
         backgroundColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background-color',] }]
     };
     return ViewportBackgroundComponent;
@@ -32571,9 +32945,19 @@ var ViewportContentComponent = /** @class */ (function () {
      * @return {?}
      */
     function () {
-        this.backgroundCss = 'bgCss' + Math.floor(Math.random() * 1000) + 'backgound';
-        this.backgroundColor = this.bgImageTemplate.backgroundColor;
-        this.insertStyleSheetRule('.' + this.backgroundCss + '{ background-image: url(' + this.bgImageTemplate.imagePath + ')}');
+        if (this.bgImageTemplate.backgroundColor) {
+            this.backgroundColor = this.bgImageTemplate.backgroundColor;
+        }
+        // IMAGE
+        if (this.bgImageTemplate.imagePath) {
+            this.backgroundCss = 'bgCss' + Math.floor(Math.random() * 1000) + 'backgound';
+            this.insertStyleSheetRule('.' + this.backgroundCss + '{ background-image: url(' + this.bgImageTemplate.imagePath + ')}');
+        }
+        // VIDEO
+        if (this.bgImageTemplate.videoPath) {
+            this.bgvid = 'videoId' + Math.floor(Math.random() * 1000);
+            this.tempUrl = this.bgImageTemplate.videoPath;
+        }
     };
     /**
      * @param {?} ruleText
@@ -32596,7 +32980,7 @@ var ViewportContentComponent = /** @class */ (function () {
     ViewportContentComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-viewport-content',
-                    template: "\n    <div class=\"viewportContent {{backgroundCss}}\" [ngStyle]=\"{'height':height}\">\n        <div class=\"viewportBody\" [ngStyle]=\"{'overflow-y': internalScroll ? 'scroll' : 'hidden',\n    'background-color':backgroundColor, 'height':height}\">\n            </div>\n            <ng-content select=\"amexio-viewport-content-body\"></ng-content>\n\n    </div>\n  ",
+                    template: "\n    <div class=\"viewportContent {{backgroundCss}}\" [ngStyle]=\"{'height':height}\">\n        <div class=\"viewportBody\" [ngStyle]=\"{'overflow-y': internalScroll ? 'scroll' : 'hidden',\n    'background-color':backgroundColor, 'height':height}\">\n            </div>\n            <ng-content select=\"amexio-viewport-content-body\"></ng-content>\n\n    </div>\n\n    <video id=\"{{bgvid}}\" playsinline autoplay muted loop>\n        <source\n        src=\"{{tempUrl}}\">\n    <div class=\"viewportBody\" [ngStyle]=\"{'overflow-y': internalScroll ? 'scroll' : 'hidden',\n    'background-color':backgroundColor, 'height':height}\">\n    </div>\n    <ng-content select=\"amexio-viewport-content-body\"></ng-content>\n  ",
                 },] },
     ];
     /** @nocollapse */
@@ -32669,6 +33053,14 @@ var ViewportComponent = /** @class */ (function () {
     function () {
         var _this = this;
         this.contentCollection = this.queryContent.toArray();
+        if (this.type === '2') {
+            this.contentCollection.forEach(function (element) {
+                if (element.contentTemplate.navTemplate) {
+                    element.contentTemplate.navTemplate.opacity = 0.7;
+                    element.contentTemplate.navTemplate.top = 'unset';
+                }
+            });
+        }
         if (this.scrollable) {
             this.contentCollection.forEach(function (element) {
                 element.internalScroll = false;
@@ -35870,7 +36262,7 @@ var AmexioChipComponent = /** @class */ (function () {
     AmexioChipComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-chip',
-                    template: "\n    <div class=\"chips\" id=\"{{index}}\" attr.aria-label=\"{{label}}\" style=\"cursor: pointer;\" [ngStyle]=\"{'background-color': color,'filter': selected ? 'contrast(70%)':''}\">\n      <amexio-c-icon [customclass]=\"icon\"></amexio-c-icon>\n      <amexio-label (click)=\"onLabelClick()\">\n        <ng-container *ngIf=\"!label\">\n        <span [style.color]=\"fontcolor\" style=\"cursor: pointer;\" [ngStyle]=\"{'padding-left': icon ? '10px':'0px'}\">\n          {{item[displayfield]}}\n        </span>\n      </ng-container>\n      <ng-container *ngIf=\"label\">\n        <span [style.color]=\"fontcolor\" style=\"cursor: pointer;\" [ngStyle]=\"{'padding-left': icon ? '10px':'0px'}\">\n          {{label}}\n        </span>\n      </ng-container>\n      </amexio-label>\n      <span class=\"badge\" *ngIf=\"badge\">{{badge}}</span>\n      <span *ngIf=\"closable\">\n        <i class=\"fa fa-times\" style=\"cursor: pointer; margin-left:10px\" (click)=\"onCloseClick()\"></i>\n      </span>\n    </div>\n  ",
+                    template: "\n    <div class=\"chips\" id=\"{{index}}\" attr.aria-label=\"{{label}}\" style=\"cursor: pointer;\" [ngStyle]=\"{'background-color': color,'filter': selected ? 'contrast(70%)':''}\">\n      <amexio-c-icon [customclass]=\"icon\"></amexio-c-icon>\n      <amexio-label (click)=\"onLabelClick($event)\">\n        <ng-container *ngIf=\"!label\">\n        <span [style.color]=\"fontcolor\" style=\"cursor: pointer;\" [ngStyle]=\"{'padding-left': icon ? '10px':'0px'}\">\n          {{item[displayfield]}}\n        </span>\n      </ng-container>\n      <ng-container *ngIf=\"label\">\n        <span [style.color]=\"fontcolor\" style=\"cursor: pointer;\" [ngStyle]=\"{'padding-left': icon ? '10px':'0px'}\">\n          {{label}}\n        </span>\n      </ng-container>\n      </amexio-label>\n      <span class=\"badge\" *ngIf=\"badge\">{{badge}}</span>\n      <span *ngIf=\"closable\">\n        <i class=\"fa fa-times\" style=\"cursor: pointer; margin-left:10px\" (click)=\"onCloseClick($event)\"></i>\n      </span>\n    </div>\n  ",
                     styles: ["\n\n  "],
                 },] },
     ];
@@ -49926,211 +50318,6 @@ var AmexioFormsModule = /** @class */ (function () {
 * See the License for the specific language governing permissions and
 * limitations under the License.
 *
-*/
-var AmexioVideoPlayerComponent = /** @class */ (function () {
-    function AmexioVideoPlayerComponent() {
-        this.currentVolume = 1;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.onVolumeChange = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        this.videoPlayer.nativeElement.volume = this.currentVolume = event.target.value;
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.updateMuteUI = /**
-     * @return {?}
-     */
-    function () {
-        if (this.videoPlayer.nativeElement.muted) {
-            this.isMuted = true;
-        }
-        else {
-            this.isMuted = false;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.onPlay = /**
-     * @return {?}
-     */
-    function () {
-        if (!this.isPlaying) {
-            this.videoPlayer.nativeElement.play();
-            this.isPlaying = true;
-        }
-        else {
-            this.videoPlayer.nativeElement.pause();
-            this.isPlaying = false;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.onTimeUpdate = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ percentage = Math.floor((100 / this.videoPlayer.nativeElement.duration) * this.videoPlayer.nativeElement.currentTime);
-        this.progressBar.nativeElement.value = percentage;
-        // Update the progress bar's text (for browsers that don't support the progress element)
-        this.progressBar.nativeElement.innerHTML = percentage + '% played';
-        if (percentage === 100) {
-            this.isPlaying = false;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.replayVideo = /**
-     * @return {?}
-     */
-    function () {
-        this.resetPlayer();
-        this.onPlay();
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.resetPlayer = /**
-     * @return {?}
-     */
-    function () {
-        this.videoPlayer.nativeElement.pause();
-        this.progressBar.nativeElement.value = 0;
-        this.videoPlayer.nativeElement.currentTime = 0;
-        this.isPlaying = false;
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.onFullScreen = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ elem = this.videoPlayer.nativeElement;
-        if (elem.requestFullscreen) {
-            elem.requestFullscreen();
-        }
-        else if (elem.mozRequestFullScreen) {
-            elem.mozRequestFullScreen();
-        }
-        else if (elem.webkitRequestFullscreen) {
-            elem.webkitRequestFullscreen();
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.onMute = /**
-     * @return {?}
-     */
-    function () {
-        if (!this.isMuted) {
-            this.videoPlayer.nativeElement.muted = true;
-            this.isMuted = true;
-            this.volumebar.nativeElement.value = 0;
-        }
-        else {
-            this.videoPlayer.nativeElement.muted = false;
-            this.isMuted = false;
-            this.volumebar.nativeElement.value = this.currentVolume;
-        }
-    };
-    AmexioVideoPlayerComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-video-player',
-                    template: "\n\n      <video [style.width.px]=\"width\" controls>\n          <source [attr.src]=\"path\">\n          Your browser does not support HTML5 video.\n      </video>\n  ",
-                    styles: ["\n    video{width:100%;height:100%;background:#000}progress{color:#4682b4;font-size:12px;width:220px;height:16px;border:none;margin-right:10px;background:#434343;border-radius:9px;vertical-align:middle}progress::-moz-progress-bar{color:#4682b4;background:#434343}progress[value]::-webkit-progress-bar{background-color:#434343;border-radius:2px;-webkit-box-shadow:0 2px 5px rgba(0,0,0,.25) inset;box-shadow:inset 0 2px 5px rgba(0,0,0,.25)}progress[value]::-webkit-progress-value{background-color:#4682b4}@media screen and (max-width:600px){video{border:1px solid #4682b4;width:98%;height:231px;background:#000}}\n  "],
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioVideoPlayerComponent.ctorParameters = function () { return []; };
-    AmexioVideoPlayerComponent.propDecorators = {
-        path: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        extension: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        videoPlayer: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['videoRef',] }],
-        progressBar: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['progressbar',] }],
-        volumebar: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['volumebar',] }]
-    };
-    return AmexioVideoPlayerComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var MEDIA_COMPONENTS = [
-    AmexioVideoPlayerComponent,
-    AmexioImageComponent,
-];
-var AmexioMediaModule = /** @class */ (function () {
-    function AmexioMediaModule() {
-    }
-    /**
-     * @return {?}
-     */
-    AmexioMediaModule.forRoot = /**
-     * @return {?}
-     */
-    function () {
-        return {
-            ngModule: AmexioMediaModule,
-            providers: [CommonDataService, DeviceQueryService],
-        };
-    };
-    AmexioMediaModule.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"], args: [{
-                    imports: [
-                        _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
-                        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
-                        HttpClientModule,
-                        AmexioCommonModule,
-                    ],
-                    exports: MEDIA_COMPONENTS,
-                    declarations: MEDIA_COMPONENTS,
-                    providers: [CommonDataService, DeviceQueryService, IconLoaderService],
-                },] },
-    ];
-    return AmexioMediaModule;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
 * Created by kedarkokil on 26/09/18.
 */
 var AmexioBreadcrumbComponent = /** @class */ (function () {
@@ -55004,6 +55191,78 @@ var AmexioTabComponent = /** @class */ (function (_super) {
         });
         return currentindex;
     };
+    /**
+     * @param {?} input
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.deleteTab = /**
+     * @param {?} input
+     * @return {?}
+     */
+    function (input) {
+        var _this = this;
+        if (typeof input === 'string') {
+            this.tabCollection.forEach(function (tabs) {
+                if (input.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
+                    _this.closeTab(tabs);
+                }
+            });
+        }
+        else if (typeof input === 'number') {
+            this.tabCollection.forEach(function (tabs, index) {
+                if (index === input) {
+                    _this.closeTab(tabs);
+                }
+            });
+        }
+        else if (typeof input === 'object') {
+            this.deletetypeObject(input);
+        }
+    };
+    /**
+     * @param {?} input
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.deletetypeObject = /**
+     * @param {?} input
+     * @return {?}
+     */
+    function (input) {
+        var _this = this;
+        input.forEach(function (element) {
+            if (typeof element === 'string') {
+                _this.tabCollection.forEach(function (tabs) {
+                    if (element.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
+                        _this.closeTab(tabs);
+                    }
+                });
+            }
+            else if (typeof element === 'number') {
+                _this.tabCollection.forEach(function (tabs, index) {
+                    if (element === index) {
+                        _this.closeTab(tabs);
+                    }
+                });
+            }
+        });
+    };
+    /**
+     * @param {?} input
+     * @param {?} replacetab
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.replaceTab = /**
+     * @param {?} input
+     * @param {?} replacetab
+     * @return {?}
+     */
+    function (input, replacetab) {
+        this.tabCollection.forEach(function (tabs, index) {
+            if (input === index) {
+                tabs.title = replacetab;
+            }
+        });
+    };
     AmexioTabComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-tab-view',
@@ -56692,6 +56951,7 @@ var CREATIVE_COMPONENTS = [
     ViewportBackgroundComponent,
     ViewportContentComponent,
     ViewportContentBodyComponent,
+    AmexioCarouselCEComponent,
 ];
 var AmexioCreativeModule = /** @class */ (function () {
     function AmexioCreativeModule() {
@@ -56718,6 +56978,7 @@ var AmexioCreativeModule = /** @class */ (function () {
                         AmexioNavModule,
                         AmexioLayoutModule,
                         AmexioPaneModule,
+                        AmexioMediaModule,
                         AmexioCommonModule.forRoot(),
                     ],
                     exports: CREATIVE_COMPONENTS,
