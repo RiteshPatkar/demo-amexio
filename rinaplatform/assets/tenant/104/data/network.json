@@ -1,0 +1,23 @@
+
+
+
+{
+  "success": true,
+  "successMessage": "data loaded successfully",
+  "successCode": "success",
+  "errorMessage": null,
+  "errorCode": null,
+  "errors": null,
+  "response":
+[
+ {
+        "id": "1",
+      "value": "3G"
+    },
+    {
+      "id": "2",
+      "value": "4G"
+    }
+]
+
+}

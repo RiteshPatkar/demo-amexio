@@ -1,0 +1,23 @@
+{
+    "data": [{
+            "seq": "1",
+            "parameter": "IMEI",
+            "description": "3520860732889315"
+        },
+        {
+            "seq": "2",
+            "parameter": "Make",
+            "description": "Apple"
+        },
+        {
+            "seq": "3",
+            "parameter": "Model",
+            "description": "iPhone5S"
+        },
+        {
+            "seq": "4",
+            "parameter": "4G Compatibility",
+            "description": "Yes"
+        }
+    ]
+}

@@ -41451,6 +41451,7 @@ var TopComponent = /** @class */ (function () {
         this.confirmdialogue = false;
         this.carrouselStyle = {};
         this.products = [];
+        this.customerDependentProductbackup = [];
         this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_7__["select"])(_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_6__["fromShell"].getCustomerRefInfo)).subscribe(function (custRefInfo) {
             if (Object.keys(custRefInfo).length > 0) {
                 _this.updateProductInfo(custRefInfo);
@@ -41464,6 +41465,23 @@ var TopComponent = /** @class */ (function () {
                 // this.store.dispatch(new SelectedProductInfo({}));
             }
         });
+        this._SDService.CDProductMapKey.subscribe(function (value) {
+            if (_this.products.find(function (o) { return o.productMapKey === value; })) {
+            }
+            else {
+                var pd = _this.customerDependentProductbackup.find(function (o) { return o.productMapKey === value; });
+                if (pd) {
+                    _this.products = [];
+                    _this.productPropertyStructureData = [];
+                    _this.products.push(pd);
+                    _this.createProductPropertyStructure();
+                    setTimeout(function () {
+                        _this.enableScroll();
+                    }, 10);
+                    _this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["PopUiStatus"](1));
+                }
+            }
+        });
     }
     TopComponent.prototype.onResize = function () {
         this.enableScroll();
@@ -41473,6 +41491,7 @@ var TopComponent = /** @class */ (function () {
     };
     TopComponent.prototype.getProductDetailsStructure = function () {
         var _this = this;
+        debugger;
         /*assets/tenant/101/data/structure/productDetialsStructure.json*/
         /* this._SDService.createExecutableRestUrl(SERVER_BASE_URL, REST_URLS.PRODUCT_DETAILS_STRUCTURE)*/
         this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["PushUiStatus"](1));
@@ -41482,12 +41501,24 @@ var TopComponent = /** @class */ (function () {
         }, function (error) {
             _this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["PopUiStatus"](1));
         }, function () {
-            _this.products = response.response.metadata.products;
-            _this.createProductPropertyStructure();
-            setTimeout(function () {
-                _this.enableScroll();
-            }, 10);
-            _this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["PopUiStatus"](1));
+            if (response.response.metadata.hasOwnProperty('customerDependantProduct') && response.response.metadata.customerDependantProduct) {
+                _this.customerDependentProductbackup = JSON.parse(JSON.stringify(response.response.metadata.products));
+                _this._SDService.customerDependentProduct = response.response.metadata.customerDependantProduct;
+                _this.products.push(_this.customerDependentProductbackup[0]);
+                _this.createProductPropertyStructure();
+                setTimeout(function () {
+                    _this.enableScroll();
+                }, 10);
+                _this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["PopUiStatus"](1));
+            }
+            else {
+                _this.products = response.response.metadata.products;
+                _this.createProductPropertyStructure();
+                setTimeout(function () {
+                    _this.enableScroll();
+                }, 10);
+                _this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["PopUiStatus"](1));
+            }
         });
     };
     TopComponent.prototype.updateProductInfo = function (custRefInfo) {
@@ -41762,6 +41793,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _services_shared_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/shared.service */ "./src/app/services/shared.service.ts");
 /* harmony import */ var _home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../home-layout/home-store/shell.reducer */ "./src/app/home-layout/home-store/shell.reducer.ts");
 /* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ngrx/store */ "./node_modules/@ngrx/store/fesm5/store.js");
+/* harmony import */ var _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../home-layout/home-store/shell.action */ "./src/app/home-layout/home-store/shell.action.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -41774,6 +41806,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 /**
  * Created by dattaram on 29/3/19.
  */
+
 
 
 
@@ -41865,18 +41898,76 @@ var CenterLeftComponent = /** @class */ (function () {
                     var componentRef = _this.workflowDynamicRef.createComponent(f.componentFactory);
                     componentRef.instance['httpClient'] = _this._httpClient;
                     componentRef.instance['serviceRef'] = _this._SDService;
-                    componentRef.instance['onCancel'].subscribe(function (event) {
-                        _this.enableWindow = false;
-                    });
-                    componentRef.instance['onSubmit'].subscribe(function (event) {
-                        _this.enableWindow = false;
-                    });
+                    if (componentRef.instance.hasOwnProperty('onCancel')) {
+                        componentRef.instance['onCancel'].subscribe(function (event) {
+                            _this.enableWindow = false;
+                        });
+                    }
+                    if (componentRef.instance.hasOwnProperty('onSubmit')) {
+                        componentRef.instance['onSubmit'].subscribe(function (event) {
+                            _this.enableWindow = false;
+                        });
+                    }
                 });
             });
         }
     };
     CenterLeftComponent.prototype.getSearchObject = function (event) {
-        this._dataOperationService.getCustomerInfo(event);
+        var _this = this;
+        var custresponse;
+        var response;
+        this.workflowDynamicRef.clear();
+        if (event.searchOption.hasOwnProperty('searchHandler')) {
+            this._httpClient.get(this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["CUST_BASE_URL"], event.searchId + '/' + event.searchType)).subscribe(function (res) {
+                custresponse = res.response;
+                response = res;
+            }, function (error) {
+                console.log(error);
+            }, function () {
+                if (response.success) {
+                    if (_this._SDService.customerDependentProduct && custresponse.data.hasOwnProperty('productMapKey')) {
+                        _this._SDService.updateProductKey(custresponse.data.productMapKey);
+                    }
+                    _this._httpClient.get(_this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["SERVER_BASE_URL"], event.searchOption.searchHandler.handlerUrl)).subscribe(function (res) {
+                        var data = _this._CFService.createComponentFactory(res.response.metadata);
+                        _this.enableWindow = true;
+                        data.forEach(function (f) {
+                            var componentRef = _this.workflowDynamicRef.createComponent(f.componentFactory);
+                            componentRef.instance['httpClient'] = _this._httpClient;
+                            componentRef.instance['serviceRef'] = _this._SDService;
+                            componentRef.instance['customerModel'] = custresponse.data;
+                            componentRef.instance['customerRef'] = custresponse;
+                            if (componentRef.instance.hasOwnProperty('onCancel')) {
+                                componentRef.instance['onCancel'].subscribe(function (event) {
+                                    _this.enableWindow = false;
+                                });
+                            }
+                            if (componentRef.instance.hasOwnProperty('onSubmit')) {
+                                componentRef.instance['onSubmit'].subscribe(function (event) {
+                                    _this.enableWindow = false;
+                                });
+                            }
+                            if (componentRef.instance.hasOwnProperty('onSuccess')) {
+                                componentRef.instance['onSuccess'].subscribe(function (response) {
+                                    _this.enableWindow = false;
+                                    _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["UpdateCustomerInfo"](response.data));
+                                    _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["AddCustomerRef"](response));
+                                });
+                            }
+                        });
+                    });
+                }
+                else {
+                    _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["ErrorInfo"]({ errorMsg: 'Record Not Found For ' + event.searchId }));
+                    _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["UpdateCustomerInfo"]({}));
+                    _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["AddCustomerRef"]({}));
+                    _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["SearchInfo"]({}));
+                }
+            });
+        }
+        else {
+            this._dataOperationService.getCustomerInfo(event);
+        }
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('workflowdynamic', { read: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] }),
@@ -41959,6 +42050,7 @@ var SearchBoxComponent = /** @class */ (function () {
         var _this = this;
         this._httpService.fetch(this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["SERVER_BASE_URL"], 'searchoptions'), 'get').subscribe(function (res) {
             _this.dropDownItemList = res.response.metadata.data;
+            _this.searchObject = _this.dropDownItemList[0];
         });
     };
     SearchBoxComponent.prototype.focusHandle = function (event) {
@@ -41967,7 +42059,8 @@ var SearchBoxComponent = /** @class */ (function () {
     SearchBoxComponent.prototype.iconHandle = function () {
         var searchObject = {
             searchId: this.searchId.replace(/\s/g, ''),
-            searchType: this.searchType
+            searchType: this.searchType,
+            searchOption: this.searchObject
         };
         this.search.emit(searchObject);
     };
@@ -41983,6 +42076,7 @@ var SearchBoxComponent = /** @class */ (function () {
         if (this.searchId !== '') {
             this.iconHandle();
         }
+        this.searchObject = item;
         this.showList(false);
     };
     SearchBoxComponent.prototype.showList = function (flag) {
@@ -42121,7 +42215,7 @@ var CenterMiddleComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<amexio-card [header]=\"false\"\n             [footer]=\"false\">\n  <amexio-body>\n    <amexio-row>\n      <amexio-column [size]=\"12\">\n        <p>\n          An election is a way people can choose their candidate or their preferences in a representative democracy or other form of government. ... There are different ways to organize an election in different countries. Voters might vote for an individual, or they might vote for a political party (party list).\n          An election is a way people can choose their candidate or their preferences in a representative democracy or other form of government. ... There are different ways to organize an election in different countries. Voters might vote for an individual, or they might vote for a political party (party list).\n\n          An election is a way people can choose their candidate or their preferences in a representative democracy or other form of government. ... There are different ways to organize an election in different countries. Voters might vote for an individual, or they might vote for a political party (party list).\n\n        </p>\n      </amexio-column>\n    </amexio-row>\n\n  </amexio-body>\n</amexio-card>\n"
+module.exports = "\n<amexio-card [header]=\"false\"\n             [footer]=\"false\">\n  <amexio-body>\n    <amexio-row>\n      <amexio-column [size]=\"12\">\n          <b>HOW MUCH IS THE DELIVERY CHARGE FOR ONLINE SHOP ORDERS?</b>\n          For postpaid applications\n          We offer free shipping nationwide for postpaid applications.\n          For accessories and apparel purchases\n          We offer free shipping nationwide for orders/deliveries amounting to P900 and above.\n          A P70 shipping fee will be applied for orders below P900.\n        <br/>\n          <hr/>\n        <br/>\n        <b>CAN YOU DELIVER THE PACKAGE TO MY OFFICE?</b>\n        Yes. We will deliver your order at the address you provided during checkout, whether it is to your home or to your office. In case you want to change your delivery address after checkout, you may call (02) 730-1000.\n\n      </amexio-column>\n    </amexio-row>\n\n  </amexio-body>\n</amexio-card>\n"
 
 /***/ }),
 
@@ -42824,6 +42918,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _constant_service_constant__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../constant/service.constant */ "./src/app/constant/service.constant.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -42842,6 +42937,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var SharedService = /** @class */ (function () {
     function SharedService(store, httpClient, datepipe, shellStore) {
         var _this = this;
@@ -42851,7 +42947,11 @@ var SharedService = /** @class */ (function () {
         this.shellStore = shellStore;
         this.isNewUserFlow = false;
         this.appType = '1';
+        this.customerDependentProduct = false;
+        this.CDProductMapKey = new rxjs__WEBPACK_IMPORTED_MODULE_6__["BehaviorSubject"]('');
         this.baseUrl = _constant_service_constant__WEBPACK_IMPORTED_MODULE_5__["PRODUCT_BASE_URL"];
+        /*  public customerBaseUrl = 'http://192.168.2.17:8080/customer/customerdemographicsdetails/';*/
+        this.customerBaseUrl = 'http://restapi.amexio.org:9890/rinashell/customer/customerdemographicsdetails/';
         this.baseServerUrl = 'https://restapi.amexio.org:8991/alfahim/api/';
         this.extraServiceData = null;
         this.datePipe = datepipe;
@@ -42868,6 +42968,9 @@ var SharedService = /** @class */ (function () {
     /* CREATE REST URL AND RETURN */
     SharedService.prototype.createRestUrl = function (postfixUrl) {
         return this.baseUrl + '/' + this.tenantId + '/' + postfixUrl;
+    };
+    SharedService.prototype.createCustomerRestUrl = function (postfixUrl) {
+        return this.customerBaseUrl + '/' + this.tenantId + '/' + postfixUrl;
     };
     SharedService.prototype.createExecutableRestUrl = function (baseUrl, postfixUrl) {
         return baseUrl + '/' + this.tenantId + '/' + postfixUrl;
@@ -42922,6 +43025,9 @@ var SharedService = /** @class */ (function () {
         this.widdownMap.set(7, 7);
         this.widdownMap.set(8, 8);
         this.widdownMap.set(11, 11);
+    };
+    SharedService.prototype.updateProductKey = function (key) {
+        this.CDProductMapKey.next(key);
     };
     SharedService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({

@@ -1,0 +1,26 @@
+{
+  "tenantId": 104,
+  "type": "searchoptions",
+  "metadata": {
+    "data": [
+      {
+        "key": "Postal Code",
+        "id": 1,
+        "selected": false,
+        "disabled": false
+      },
+      {
+        "key": "City",
+        "id": 2,
+        "selected": true,
+        "disabled": false
+      },
+      {
+        "key": "Address",
+        "id": 3,
+        "selected": false,
+        "disabled": false
+      }
+    ]
+  }
+}

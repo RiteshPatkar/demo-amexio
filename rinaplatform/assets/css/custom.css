@@ -20,7 +20,9 @@
 }
 
 
-
+.gridColumnSize .datatable .datatable-col {
+    padding: .725em !important;
+}
 
  .alfahim-root-window {
    background: rgba(128, 127, 127, 0.6);

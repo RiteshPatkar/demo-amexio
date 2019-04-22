@@ -33160,6 +33160,7 @@ var ViewportComponent = /** @class */ (function () {
 var AmexioSearchAdvanceComponent = /** @class */ (function () {
     function AmexioSearchAdvanceComponent() {
         this.title = 'Advance Search';
+        this.formwidth = 0;
         this.advanceSearchFlag = false;
     }
     /**
@@ -71398,11 +71399,15 @@ var CUST_BASE_URL = 'https://restapi.amexio.org:9890/rinashell/customer/profile'
 var PRODUCT_BASE_URL = 'https://restapi.amexio.org:9890/rinashell/customer/product';
 var WORKFLOW_BASE_URL = 'https://restapi.amexio.org:9890/rinashell/shell';
 /***for local *****/
-// export const  SERVER_BASE_URL = 'http://localhost:8080/shell';
-// export const Auth_URL = 'http://localhost:8080/auth/validate';
-// export const CUST_BASE_URL = 'http://localhost:8080/customer/profile';
-// export const PRODUCT_BASE_URL = 'http://localhost:8080/customer/product';
-// export const WORKFLOW_BASE_URL = 'http://localhost:8080/shell';
+/* export const  SERVER_BASE_URL = 'http://192.168.2.17:8080/shell';
+
+ export const Auth_URL = 'http://192.168.2.17:8080/auth/validate';
+
+ export const CUST_BASE_URL = 'http://192.168.2.17:8080/customer/profile';
+
+ export const PRODUCT_BASE_URL = 'http://192.168.2.17:8080/customer/product';
+
+ export const WORKFLOW_BASE_URL = 'http://192.168.2.17:8080/shell';*/
 var REST_URLS = {
     TENANT_INFO: 'tenantbranding',
     PRODUCT_DETAILS_STRUCTURE: 'productdetailsstructure',

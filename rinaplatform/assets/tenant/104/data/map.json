@@ -1,0 +1,16 @@
+{
+  "response": {
+    "tenantId": "",
+    "mobileNo": "",
+    "type": "",
+    "data": {
+      "mapdata": {
+        "address": "GATEWAY 3rd Floor, Gateway Mall Araneta Center, Cubao Quezon City",
+        "phone": "Not Available",
+        "image": "assets/images/iphonex.png",
+        "handsetname": "Apple iPhone X",
+        "handsetdesc": "(Space Grey, 3GB RAM, 64GB Storage)"
+      }
+    }
+  }
+}

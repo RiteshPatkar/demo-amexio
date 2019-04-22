@@ -1,0 +1,44 @@
+{
+    "monthlyData": [{ "month": "may", "minutes": 22 },
+        { "month": "7 jun", "minutes": 169 },
+        { "month": "7 july", "minutes": 280 },
+        { "month": "7 aug", "minutes": 43 },
+        { "month": "7 sep", "minutes": 0 },
+        { "month": "7 oct", "minutes": 30 }
+    ],
+    "catSplitData": [
+        ["Local", "usage"],
+        ["National Roaming", 30],
+        ["STD", 22],
+        ["ISD", 320],
+        ["Inti Roaming", 30],
+        ["Social Numbers", 41]
+    ],
+    "local": [
+        ["Local", "usage"],
+        ["TE2F", 6],
+        ["TE2TE", 6],
+        ["TE2O", 6]
+    ],
+    "std": [
+        ["Local", "usage"],
+        ["TE2F", 3],
+        ["TE2TE", 6],
+        ["TE2O", 6]
+    ],
+    "isd": [
+        ["Local", "usage"],
+        ["TE2F", 59],
+        ["TE2TE", 62],
+        ["TE2O", 106]
+    ],
+    "intiroaming": [
+        ["Local", "usage"],
+        ["Incoming", 84],
+        ["outgoing", 275]
+    ],
+    "specialnumber": [
+        ["Local", "usage"],
+        ["special", 36]
+    ]
+}

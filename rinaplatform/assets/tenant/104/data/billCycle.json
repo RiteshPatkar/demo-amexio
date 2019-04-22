@@ -1,0 +1,33 @@
+
+{
+  "success": true,
+  "successMessage": "data loaded successfully",
+  "successCode": "success",
+  "errorMessage": null,
+  "errorCode": null,
+  "errors": null,
+  "response":
+[
+  {
+    "id": "5",
+    "value": "5"
+  },
+  {
+    "id": "10",
+    "value": "10"
+  },
+  {
+    "id": "15",
+    "value": "15"
+  },
+  {
+    "id": "20",
+    "value": "20"
+  },
+  {
+    "id": "25",
+    "value": "25"
+  }
+]
+
+}
