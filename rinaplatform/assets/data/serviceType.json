@@ -3,19 +3,19 @@
   "message": "data retrieved successfully",
   "data":[
     {
-      "serviceType": "Billing Dispute"
+      "serviceType": "Deduction Query"
     },
     {
       "serviceType": "Change in address"
     },
     {
-      "serviceType": "Loyalty"
+      "serviceType": "Product Query"
     },
     {
-      "serviceType": "ACW 4"
+      "serviceType": "Usage Query"
     },
     {
-      "serviceType": "ACW 5"
+      "serviceType": "General"
     }
   ]
 }

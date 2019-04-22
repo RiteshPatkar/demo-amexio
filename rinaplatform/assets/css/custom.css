@@ -119,3 +119,13 @@
  .alfahimstepboxitems-deactive{
    color: lightgray;
  }
+
+
+ .rightsell table, th, td {
+   border-collapse: collapse!important;
+   padding: 5px!important;
+ }
+
+ .td-inner-class td {
+   height:50px!important;
+ }
