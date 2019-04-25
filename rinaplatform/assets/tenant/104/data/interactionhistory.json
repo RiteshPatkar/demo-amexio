@@ -33,7 +33,7 @@
       {
        "srNo": "3-7412345678",
       "ticketType": "Order",
-      "category":"Service Request",
+      "category":"Trouble Ticket",
       "type":"Service Failure",
       "subType":"Voice Call Affected",
       "openDate": "10/01/2019 09:30",

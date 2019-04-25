@@ -23,7 +23,9 @@
 .gridColumnSize .datatable .datatable-col {
     padding: .725em !important;
 }
-
+.amexio-badge{
+ z-index:100!important;
+}
  .alfahim-root-window {
    background: rgba(128, 127, 127, 0.6);
    height: 100%;

@@ -54913,6 +54913,7 @@ var AmexioCarouselCEComponent = /** @class */ (function () {
         else if (this.data) {
             this.setData(this.data);
         }
+        this.positionCalculation();
     };
     /**
      * @return {?}
@@ -54925,6 +54926,42 @@ var AmexioCarouselCEComponent = /** @class */ (function () {
         this.templates.forEach(function (item) {
             _this.itemTemplate = item.template;
         });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.positionCalculation = /**
+     * @return {?}
+     */
+    function () {
+        if (this.templateWidth) {
+            if (this.position === 'left') {
+                this.positionRight = (100 - this.templateWidth);
+                this.positionLeft = 0;
+            }
+            else if (this.position === 'right') {
+                this.positionRight = 0;
+                this.positionLeft = (100 - this.templateWidth);
+            }
+            else if (this.position === 'center') {
+                this.positionLeft = ((100 - this.templateWidth) / 2);
+                this.positionRight = this.positionLeft;
+            }
+        }
+        else {
+            if (this.position === 'left') {
+                this.positionRight = 60;
+                this.positionLeft = 0;
+            }
+            else if (this.position === 'right') {
+                this.positionRight = 0;
+                this.positionLeft = 60;
+            }
+            else if (this.position === 'center') {
+                this.positionLeft = 30;
+                this.positionRight = 30;
+            }
+        }
     };
     /**
      * @param {?} httpResponse
@@ -54987,6 +55024,9 @@ var AmexioCarouselCEComponent = /** @class */ (function () {
                         _this.imageData[duplicateIndex].title && _this.imageData[duplicateIndex + 1].title) {
                         _this.titleModel.setTitle(_this.imageData[duplicateIndex - 1].title, _this.imageData[duplicateIndex].title, _this.imageData[duplicateIndex + 1].title);
                     }
+                    else {
+                        _this.titleModel.setTitle(_this.imageData[_this.imageData.length - 1].title, _this.imageData[0].title, _this.imageData[_this.currentImageIndex].title);
+                    }
                 }
                 else {
                     _this.imageData[index].active = false;
@@ -55009,7 +55049,7 @@ var AmexioCarouselCEComponent = /** @class */ (function () {
             if (index === _this.currentImageIndex) {
                 _this.imageData[index].active = true;
                 if (_this.imageData[lastIndex] && _this.imageData[lastIndex].title) {
-                    _this.titleModel.setTitle(_this.imageData[lastIndex - 1].title, _this.imageData[0].title, _this.imageData[lastIndex].title);
+                    _this.titleModel.setTitle(_this.imageData[lastIndex - 1].title, _this.imageData[lastIndex].title, _this.imageData[0].title);
                 }
             }
             else {
@@ -55068,14 +55108,26 @@ var AmexioCarouselCEComponent = /** @class */ (function () {
         if (this.currentImageIndex === 0) {
             this.currentImageIndex = 1;
             this.imageData[this.currentImageIndex].active = true;
+            var /** @type {?} */ nextIndex = this.currentImageIndex;
+            if (this.imageData[nextIndex] && this.imageData[nextIndex].title) {
+                this.titleModel.setTitle(this.imageData[nextIndex - 1].title, this.imageData[nextIndex].title, this.imageData[nextIndex + 1].title);
+            }
             this.setFlag();
         }
         else {
             if (this.currentImageIndex === this.imageData.length - 1) {
                 this.currentImageIndex = 0;
+                this.titleModel.setTitle(this.imageData[this.imageData.length - 1].title, this.imageData[this.currentImageIndex].title, this.imageData[this.currentImageIndex + 1].title);
             }
             else {
                 this.currentImageIndex++;
+                var /** @type {?} */ nextIndex = this.currentImageIndex;
+                if (this.currentImageIndex < this.imageData.length - 1) {
+                    this.titleModel.setTitle(this.imageData[nextIndex - 1].title, this.imageData[nextIndex].title, this.imageData[nextIndex + 1].title);
+                }
+                else {
+                    this.titleModel.setTitle(this.imageData[nextIndex - 1].title, this.imageData[nextIndex].title, this.imageData[0].title);
+                }
             }
             this.setFlag();
         }
@@ -55100,7 +55152,7 @@ var AmexioCarouselCEComponent = /** @class */ (function () {
     AmexioCarouselCEComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-carousel-ce',
-                    template: "\n    <div class=\"wrapper\" #tab>\n        <div *ngFor=\"let item of imageData ;let i=index\">\n            <ng-container *ngIf=\"item.active\">\n\n                <div class=\"ce-caroueslslideshow\" [ngStyle]=\"{'visibility':item.active ? 'visible':'hidden'}\">\n                    <div class=\"ce-caroueslimages\">\n\n                        <amexio-image path=\"{{item.imagepath}}\">\n                        </amexio-image>\n                    </div>\n                    <div [ngClass]=\"{'ce-carousel-textdata-left': position =='left',\n                                            'ce-carousel-textdata-right':position == 'right',\n                                            'ce-carousel-textdata-center': position == 'center'}\">\n                        <ng-template tabindex=\"1\" [amexioTemplateWrapper]=\"itemTemplate\" [item]=\"item\"></ng-template>\n                    </div>\n\n                    <div class=\"ce-caroueslbar\">\n                        <div class=\"ce-caroueslnav\">\n                            <a class=\"ce-caroueslnav-prev\">\n                                <span>Previous</span>\n                                <div (click)=\"previousClick()\" (mouseenter)=\"onPreBtnHover(i)\">\n                                    <amexio-image [path]='preImagePath'>\n                                    </amexio-image>\n                                </div>\n                            </a>\n                            <a class=\"ce-caroueslnav-next\">\n                                <span>Next</span>\n                                <div (click)=\"nextClick()\" (mouseenter)=\"onNextBtnHover(i)\">\n                                    <amexio-image [path]=\"nextImagePath\">\n                                    </amexio-image>\n                                </div>\n                            </a>\n                        </div>\n\n                        <div class=\"ce-caroueslnav-content\">\n                            <div class=\"ce-caroueslnav-content-prev\">\n                                <span> {{titleModel.previousTitle}}</span>\n                            </div>\n                            <div class=\"ce-caroueslnav-content-current\">\n                                <amexio-label>\n                                    {{titleModel.centerTitle}}\n                                </amexio-label>\n                            </div>\n                            <div class=\"ce-caroueslnav-content-next\">\n                                <span> {{titleModel.nextTitle}}</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </ng-container>\n        </div>\n    </div>\n  ",
+                    template: "\n    <br />\n    <div class=\"wrapper\" #tab>\n        <div *ngFor=\"let item of imageData ;let i=index\">\n            <ng-container *ngIf=\"item.active\">\n\n                <div class=\"ce-caroueslslideshow\" [ngStyle]=\"{'visibility':item.active ? 'visible':'hidden'}\">\n                    <div class=\"ce-caroueslimages\">\n                        <img src={{item.imagepath}} style='height: 100%; width: 100%; object-fit: cover' />\n\n                    </div>\n                    <ng-container *ngIf=\"itemTemplate\">\n                        <div style=\" position: absolute;\" [style.left]=\"positionLeft+'%'\" [style.right]=\"positionRight+'%'\">\n                            <ng-template tabindex=\"1\" [amexioTemplateWrapper]=\"itemTemplate\" [item]=\"item\"></ng-template>\n                        </div>\n\n                    </ng-container>\n                    <div class=\"ce-caroueslbar\">\n                        <div class=\"ce-caroueslnav\">\n                            <a class=\"ce-caroueslnav-prev\">\n                                <span>Previous</span>\n                                <div (click)=\"previousClick(i)\" (mouseenter)=\"onPreBtnHover(i)\">\n                                    <!-- <amexio-image [path]='preImagePath'>\n                                    </amexio-image> -->\n                                    <img src=\"{{preImagePath}}\" style='height: 100%; width: 100%; object-fit: cover' />\n\n                                </div>\n                            </a>\n                            <a class=\"ce-caroueslnav-next\">\n                                <span>Next</span>\n                                <div (click)=\"nextClick(i)\" (mouseenter)=\"onNextBtnHover(i)\">\n\n                                    <img src=\"{{nextImagePath}}\" style='height: 100%; width: 100%; object-fit: cover' />\n\n                                </div>\n                            </a>\n                        </div>\n\n                        <div class=\"ce-caroueslnav-content\">\n                            <div class=\"ce-caroueslnav-content-prev\">\n                                <span> {{titleModel.previousTitle}}</span>\n                            </div>\n                            <div class=\"ce-caroueslnav-content-current\">\n                                <span>\n                                    {{titleModel.centerTitle}}\n                                </span>\n                            </div>\n                            <div class=\"ce-caroueslnav-content-next\">\n                                <span> {{titleModel.nextTitle}}</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </ng-container>\n        </div>\n    </div>\n  ",
                 },] },
     ];
     /** @nocollapse */
@@ -55113,6 +55165,7 @@ var AmexioCarouselCEComponent = /** @class */ (function () {
         httpurl: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-url',] }],
         datareader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data-reader',] }],
         httpmethod: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-method',] }],
+        templateWidth: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['template-width',] }],
         position: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position',] }],
         templates: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTemplateDirective,] }],
         tabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tab', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }]
@@ -56566,7 +56619,19 @@ var ViewportContentComponent = /** @class */ (function () {
             this.bgImageTemplate.videoTemplate.rederVideo = false;
             this.bgvid = 'videoId' + Math.floor(Math.random() * 1000);
             this.tempUrl = this.bgImageTemplate.videoPath;
+            this.playVideo();
         }
+    };
+    /**
+     * @return {?}
+     */
+    ViewportContentComponent.prototype.playVideo = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ media = this.videoId.nativeElement;
+        media.muted = true;
+        media.play();
     };
     /**
      * @param {?} ruleText
@@ -56589,12 +56654,13 @@ var ViewportContentComponent = /** @class */ (function () {
     ViewportContentComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-viewport-content',
-                    template: "\n\n    <div class=\"viewportContent {{backgroundCss}}\" [ngStyle]=\"{'height':height}\" onscroll=\"myFunction()\">\n        <video id=\"{{bgvid}}\" src=\"{{tempUrl}}\" type=\"video/mp4\" poster loop autoplay playsinline>\n        </video>\n        <div class=\"viewportBody\" [ngStyle]=\"{'overflow-y': internalScroll ? 'scroll' : 'hidden',\n    'background-color':backgroundColor, 'height':height}\">\n            <ng-content select=\"amexio-viewport-content-body\"></ng-content>\n\n        </div>\n    </div>\n  ",
+                    template: "\n\n    <!-- <div class=\"viewportContent {{backgroundCss}}\" [ngStyle]=\"{'height':height}\" onscroll=\"myFunction()\">\n        <video id=\"{{bgvid}}\" src=\"{{tempUrl}}\" type=\"video/mp4\" poster loop autoplay playsinline>\n        </video>\n        <div class=\"viewportBody\" [ngStyle]=\"{'overflow-y': internalScroll ? 'scroll' : 'hidden',\n    'background-color':backgroundColor, 'height':height}\">\n            <ng-content select=\"amexio-viewport-content-body\"></ng-content>\n\n        </div>\n    </div> -->\n\n\n\n    <div class=\"viewportContent {{backgroundCss}}\" [ngStyle]=\"{'height':height}\" onscroll=\"myFunction()\">\n        <video #videoId src=\"{{tempUrl}}\" muted=\"muted\" poster=\"\" loop=\"\" autoplay=\"true\" webkit-playsinline=\"true\" playsinline=\"true\"></video>\n        <div class=\"viewportBody\" [ngStyle]=\"{'overflow-y': internalScroll ? 'scroll' : 'hidden',\n    'background-color':backgroundColor, 'height':height}\">\n            <ng-content select=\"amexio-viewport-content-body\"></ng-content>\n\n        </div>\n    </div>\n  ",
                 },] },
     ];
     /** @nocollapse */
     ViewportContentComponent.ctorParameters = function () { return []; };
     ViewportContentComponent.propDecorators = {
+        videoId: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['videoId',] }],
         bgImageTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [ViewportBackgroundComponent,] }],
         contentTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [ViewportContentBodyComponent,] }],
         scrollable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['scrollable',] }]
