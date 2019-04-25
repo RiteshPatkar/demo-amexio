@@ -61289,6 +61289,10 @@ var AmexioGoogleMapComponent = /** @class */ (function () {
         this.initiallat = 51.507351;
         this.initiallng = -0.127758;
         this.initialzoomlevel = 2;
+        this.stockColor = '#FF0000';
+        this.fillColor = '#f5f5f5';
+        this.fillOpacity = 0.45;
+        this.strokeOpacity = 0.6;
         this.onMarkerClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
         this.onReady = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
         this.differ = differs.find([]).create(null);
@@ -61313,6 +61317,25 @@ var AmexioGoogleMapComponent = /** @class */ (function () {
         enumerable: true,
         configurable: true
     });
+    Object.defineProperty(AmexioGoogleMapComponent.prototype, "coordinates", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._coordinates;
+        },
+        set: /**
+         * @param {?} v
+         * @return {?}
+         */
+        function (v) {
+            if (v) {
+                this._coordinates = v;
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
     /**
      * @return {?}
      */
@@ -61320,12 +61343,14 @@ var AmexioGoogleMapComponent = /** @class */ (function () {
      * @return {?}
      */
     function () {
-        this.componentId =
-            +Math.floor(Math.random() * 90000) + 10000 + 'google';
+        this.componentId = +Math.floor(Math.random() * 90000) + 10000 + 'google';
         if (this.googlemapkey) {
             var /** @type {?} */ fullScriptTag = GOOGLEMAP_CONSTANT.GOOGLE_MAP_URL + this.googlemapkey;
             var /** @type {?} */ isScriptPresent = this._loadGoogleMapService.isScriptAlreadyPresent(fullScriptTag);
-            var /** @type {?} */ options = { center: { lat: this.initiallat, lng: this.initiallng }, zoom: this.initialzoomlevel };
+            var /** @type {?} */ options = {
+                center: { lat: this.initiallat, lng: this.initiallng },
+                zoom: this.initialzoomlevel,
+            };
             if (!isScriptPresent) {
                 var /** @type {?} */ script = this._loadGoogleMapService.loadScript(this.googlemapkey);
                 this.loadScriptWithMap(script, options);
@@ -61384,13 +61409,27 @@ var AmexioGoogleMapComponent = /** @class */ (function () {
      * @return {?}
      */
     function () {
+        var /** @type {?} */ flightPlanCoordinates = this.getCoordinates();
+        if (flightPlanCoordinates && flightPlanCoordinates.length > 0) {
+            var /** @type {?} */ flightPath = new google.maps.Polygon({
+                paths: flightPlanCoordinates,
+                strokeColor: this.stockColor,
+                strokeOpacity: this.strokeOpacity,
+                strokeWeight: 2,
+                fillColor: this.fillColor,
+                fillOpacity: this.fillOpacity,
+            });
+            flightPath.setMap(this.map);
+        }
         if (this.data && this.map) {
             this.localoverlays = [];
             for (var _i = 0, _a = this.data; _i < _a.length; _i++) {
                 var overlay = _a[_i];
                 this.localoverlays.push(new google.maps.Marker({
                     position: { lat: overlay.lat, lng: overlay.lng },
-                    icon: overlay.icon, title: overlay.title, data: overlay.data,
+                    icon: overlay.icon,
+                    title: overlay.title,
+                    data: overlay.data,
                 }));
             }
             for (var _b = 0, _c = this.localoverlays; _b < _c.length; _b++) {
@@ -61434,10 +61473,36 @@ var AmexioGoogleMapComponent = /** @class */ (function () {
     function () {
         return this.map;
     };
+    // TO GET COORDINATES
+    /**
+     * @return {?}
+     */
+    AmexioGoogleMapComponent.prototype.getCoordinates = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ flightPlanCoordinates = [];
+        if (this._coordinates && this._coordinates.length > 0) {
+            for (var _i = 0, _a = this._coordinates; _i < _a.length; _i++) {
+                var co = _a[_i];
+                var /** @type {?} */ str = co.split(' ', 2);
+                if (str && str.length === 2) {
+                    flightPlanCoordinates.push({
+                        lat: parseFloat(str[0]),
+                        lng: parseFloat(str[1]),
+                    });
+                }
+                else {
+                    console.log('Wrong Lat-Long format ' + co);
+                }
+            }
+        }
+        return flightPlanCoordinates;
+    };
     AmexioGoogleMapComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-google-map',
-                    template: "\n      <div [style.width]=\"width\" [style.height]=\"height\" [style.min-height]=\"minheight\"></div>\n    ",
+                    template: "\n    <div [style.width]=\"width\" [style.height]=\"height\" [style.min-height]=\"minheight\"></div>\n  ",
                 },] },
     ];
     /** @nocollapse */
@@ -61455,9 +61520,14 @@ var AmexioGoogleMapComponent = /** @class */ (function () {
         initiallat: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['initial-lat',] }],
         initiallng: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['initial-lng',] }],
         initialzoomlevel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['initial-zoom-level',] }],
+        stockColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['stroke-color',] }],
+        fillColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['fill-color',] }],
+        fillOpacity: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['fill-opacity',] }],
+        strokeOpacity: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['stroke-opacity',] }],
         onMarkerClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
         onReady: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data',] }]
+        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data',] }],
+        coordinates: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['co-ordinates',] }]
     };
     return AmexioGoogleMapComponent;
 }());
