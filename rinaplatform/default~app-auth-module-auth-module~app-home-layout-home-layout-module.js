@@ -6336,7 +6336,7 @@ var ReactiveFormsModule = /** @class */ (function () {
 /*!***********************************************************************!*\
   !*** ./node_modules/amexio-ng-extensions/amexio-ng-extensions.es5.js ***!
   \***********************************************************************/
-/*! exports provided: AmexioWidgetModule, CommonDataService, DeviceQueryService, IconLoaderService, Icon, AmexioCreditCardModel, GridConfig, GridConstants, GoogleMapOverlays, AvailableSlotsModel, DayModel, TimeModel, TimeUtil, PropertyGridModel, AmexioFormsModule, LoadRecaptchaService, COMPONENT_CLASS_MAP, AmexioButtonComponent, AmexioButtonGroupComponent, ScriptLoadService, AmexioNavModule, AmexioSideNavComponent, SideNavNodeComponent, AmexioNavBarComponent, KEY_CODE_notify, AmexioNotificationComponent, AmexioLayoutModule, AmexioAccordionHeaderComponent, AmexioAccordionTabComponent, AmexioAccordionComponent, AccordionService, AmexioBorderLayoutItemComponent, AmexioBorderLayoutComponent, AmexioBoxComponent, AmexioCardComponent, AmexioColumnComponent, AmexioGridComponent, AmexioGridItemComponent, AmexioRowComponent, AmexioGridLayoutService, AmexioDataModule, GoogleMapScriptService, AmexioListBoxComponent, AmexioTreeViewComponent, AmexioPaginatorComponent, TreeDataTableComponent, AmexioGoogleMapComponent, AmexioDashBoardModule, DashboardLoaderService, DashBoardTitleComponent, DataPointCenterComponent, DataPointsComponent, DataPointEastComponent, DataPointNorthComponent, DataPointSouthComponent, DataPointWestComponent, GaugeChartComponent, AmexioChartsModule, AreaChartComponent, BarChartComponent, BubbleChartComponent, CandlestickChartComponent, CandlestickWaterfallChartComponent, ChartAreaComponent, ChartLegendComponent, ChartTitleComponent, ColumnChartComponent, ComboChartComponent, DonutChartComponent, GanttChartComponent, HistogramChartComponent, HorizontalAxisComponent, LineChartComponent, PieChartComponent, ScatterChartComponent, TimeLineChartComponent, VerticalAxisComponent, ChartLoaderService, AmexioMapModule, MapPropertiesComponent, GeoChartComponent, TreeMapComponent, MapTitleComponent, MapLoaderService, AmexioPaneModule, AmexioFooterComponent, AmexioBodyComponent, AmexioCarouselComponent, AmexioTemplateDirective, AmexioTemplateWrapperDirective, AmexiodialoguePaneComponent, AmexioFieldSetComponent, AmexioFormActionComponent, AmexioFormBodyComponent, AmexioFormComponent, AmexioFormHeaderComponent, AmexioHeaderComponent, AmexioPanelHeaderComponent, AmexioStepsComponent, StepBlockComponent, AmexioRightVerticalTabComponent, AmexioTabActionComponent, TOP_COMPONENT_CLASS_MAP, BOTTOM_COMPONENT_CLASS_MAP, AmexioTabComponent, AmexioTabPillComponent, AmexioVerticalTabComponent, AmexiotimelineComponent, AmexiotimelineeventComponent, AmexioWindowPaneComponent, AmexioWindowHeaderComponent, OverlayContainerComponent, AmexioFormGroupDirective, AmexioEnterpriseModule, MultiMediaCarouselComponent, ContentComponent, AmexioYoutubePlayerComponent, AmexioWeekDayAvailiblityComponent, AmexioCalendarComponent, AmexioCalendarDayTimeWiseComponent, AmexioCalendarMonthComponent, AmexioCalendarYearComponent, AmexioMediaModule, AmexioVideoPlayerComponent, DisplayFieldService, ɵea, ɵeb, ɵc, ɵb, ɵa, ɵs, ɵbc, ɵg, ɵd, ɵe, ɵp, ɵt, ɵh, ɵr, ɵbl, ɵl, ɵdh, ɵdk, ɵdz, ɵdi, ɵdj, ɵdl, ɵdn, ɵdm, ɵdo, ɵds, ɵdp, ɵdq, ɵdr, ɵdu, ɵdx, ɵdy, ɵdw, ɵdv, ɵdt, ɵcy, ɵcw, ɵcx, ɵcz, ɵdg, ɵdb, ɵdc, ɵda, ɵdf, ɵdd, ɵde, ɵec, ɵed, ɵbw, ɵbv, ɵch, ɵbb, ɵbd, ɵbe, ɵbg, ɵbf, ɵm, ɵca, ɵcb, ɵbz, ɵci, ɵbk, ɵbr, ɵbq, ɵo, ɵv, ɵbm, ɵbo, ɵbp, ɵn, ɵbn, ɵw, ɵx, ɵu, ɵcj, ɵba, ɵbx, ɵbh, ɵbi, ɵcf, ɵcc, ɵce, ɵcd, ɵcg, ɵby, ɵbj, ɵy, ɵk, ɵz, ɵbs, ɵbu, ɵbt, ɵq, ɵi, ɵj, ɵck, ɵct, ɵcq, ɵcr, ɵcs, ɵcp, ɵcn, ɵcl, ɵcm, ɵco, ɵcu, ɵcv, ɵf */
+/*! exports provided: AmexioWidgetModule, CommonDataService, DeviceQueryService, IconLoaderService, Icon, AmexioCreditCardModel, GridConfig, GridConstants, GoogleMapOverlays, AvailableSlotsModel, DayModel, TimeModel, TimeUtil, PropertyGridModel, AmexioFormsModule, LoadRecaptchaService, COMPONENT_CLASS_MAP, AmexioButtonComponent, AmexioButtonGroupComponent, ScriptLoadService, AmexioNavModule, AmexioSideNavComponent, SideNavNodeComponent, AmexioNavBarComponent, KEY_CODE_notify, AmexioNotificationComponent, AmexioLayoutModule, AmexioAccordionHeaderComponent, AmexioAccordionTabComponent, AmexioAccordionComponent, AccordionService, AmexioBorderLayoutItemComponent, AmexioBorderLayoutComponent, AmexioBoxComponent, AmexioCardComponent, AmexioColumnComponent, AmexioGridComponent, AmexioGridItemComponent, AmexioRowComponent, AmexioGridLayoutService, AmexioDataModule, GoogleMapScriptService, AmexioListBoxComponent, AmexioTreeViewComponent, AmexioPaginatorComponent, TreeDataTableComponent, AmexioGoogleMapComponent, AmexioDashBoardModule, DashboardLoaderService, DashBoardTitleComponent, DataPointCenterComponent, DataPointsComponent, DataPointEastComponent, DataPointNorthComponent, DataPointSouthComponent, DataPointWestComponent, GaugeChartComponent, AmexioChartsModule, AreaChartComponent, BarChartComponent, BubbleChartComponent, CandlestickChartComponent, CandlestickWaterfallChartComponent, ChartAreaComponent, ChartLegendComponent, ChartTitleComponent, ColumnChartComponent, ComboChartComponent, DonutChartComponent, GanttChartComponent, HistogramChartComponent, HorizontalAxisComponent, LineChartComponent, PieChartComponent, ScatterChartComponent, TimeLineChartComponent, VerticalAxisComponent, ChartLoaderService, AmexioMapModule, MapPropertiesComponent, GeoChartComponent, TreeMapComponent, MapTitleComponent, MapLoaderService, AmexioPaneModule, AmexioFooterComponent, AmexioBodyComponent, AmexioCarouselComponent, AmexioTemplateDirective, AmexioTemplateWrapperDirective, AmexiodialoguePaneComponent, AmexioFieldSetComponent, AmexioFormActionComponent, AmexioFormBodyComponent, AmexioFormComponent, AmexioFormHeaderComponent, AmexioHeaderComponent, AmexioPanelHeaderComponent, AmexioStepsComponent, StepBlockComponent, AmexioRightVerticalTabComponent, AmexioTabActionComponent, TOP_COMPONENT_CLASS_MAP, BOTTOM_COMPONENT_CLASS_MAP, AmexioTabComponent, AmexioTabPillComponent, AmexioVerticalTabComponent, AmexiotimelineComponent, AmexiotimelineeventComponent, AmexioWindowPaneComponent, AmexioWindowHeaderComponent, OverlayContainerComponent, AmexioFormGroupDirective, AmexioEnterpriseModule, MultiMediaCarouselComponent, ContentComponent, AmexioYoutubePlayerComponent, AmexioWeekDayAvailiblityComponent, AmexioCalendarComponent, AmexioCalendarDayTimeWiseComponent, AmexioCalendarMonthComponent, AmexioCalendarYearComponent, AmexioMediaModule, AmexioVideoPlayerComponent, DisplayFieldService, ɵeb, ɵec, ɵc, ɵb, ɵa, ɵs, ɵbc, ɵg, ɵd, ɵe, ɵp, ɵt, ɵh, ɵr, ɵbl, ɵl, ɵdi, ɵdl, ɵea, ɵdj, ɵdk, ɵdm, ɵdo, ɵdn, ɵdp, ɵdt, ɵdq, ɵdr, ɵds, ɵdv, ɵdy, ɵdz, ɵdx, ɵdw, ɵdu, ɵcz, ɵcx, ɵcy, ɵda, ɵdh, ɵdc, ɵdd, ɵdb, ɵdg, ɵde, ɵdf, ɵed, ɵee, ɵbw, ɵbv, ɵch, ɵbb, ɵbd, ɵbe, ɵbg, ɵbf, ɵm, ɵca, ɵcb, ɵbz, ɵci, ɵbk, ɵbr, ɵbq, ɵo, ɵv, ɵbm, ɵbo, ɵbp, ɵn, ɵbn, ɵck, ɵw, ɵx, ɵu, ɵcj, ɵba, ɵbx, ɵbh, ɵbi, ɵcf, ɵcc, ɵce, ɵcd, ɵcg, ɵby, ɵbj, ɵy, ɵk, ɵz, ɵbs, ɵbu, ɵbt, ɵq, ɵi, ɵj, ɵcl, ɵcu, ɵcr, ɵcs, ɵct, ɵcq, ɵco, ɵcm, ɵcn, ɵcp, ɵcv, ɵcw, ɵf */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6466,8 +6466,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AmexioMediaModule", function() { return AmexioMediaModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AmexioVideoPlayerComponent", function() { return AmexioVideoPlayerComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DisplayFieldService", function() { return DisplayFieldService; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵea", function() { return AmexioRuntimeModule; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeb", function() { return AmexioRuntimeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeb", function() { return AmexioRuntimeModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵec", function() { return AmexioRuntimeComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵc", function() { return AmexioCommonModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵb", function() { return AmexioContextMenuComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return AmexioBaseContextMenuModule; });
@@ -6482,38 +6482,38 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵr", function() { return ListBaseComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbl", function() { return ListBaseDatepickerComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵl", function() { return ValueAccessorBase; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdh", function() { return AmexioCreativeModule; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdk", function() { return AmexioCardCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdz", function() { return AmexioCarouselCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdi", function() { return AmexioCardCEActionComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdj", function() { return AmexioCardCEBodyComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdl", function() { return AmexioCardCEHeaderComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdn", function() { return AmexioFormCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdm", function() { return AmexioFormActionCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdo", function() { return AmexioHomePageCenterPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵds", function() { return AmexioHomePageComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdp", function() { return AmexioHomePageEastPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdq", function() { return AmexioHomePageNorthPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdr", function() { return AmexioHomePageWestPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdu", function() { return AmexioProgressCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdx", function() { return ViewportBackgroundComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdy", function() { return ViewportContentBodyComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdw", function() { return ViewportContentComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdv", function() { return ViewportComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdt", function() { return AmexioWindowCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcy", function() { return AmexioGridColumnComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcw", function() { return AmexioDatagridComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcx", function() { return DataGridFilterComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcz", function() { return AmexioDataGridHeaderComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdg", function() { return AmexioItemSelectorComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdb", function() { return AmexioProgressMultiBarComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdc", function() { return AmexioProgressBarComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵda", function() { return PropertyGridComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdf", function() { return AmexioFilterTreeComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdd", function() { return HorizontalTreeViewNodeComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵde", function() { return HorizontalTreeViewComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵec", function() { return StepWizardComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵed", function() { return StepWizardItemComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdi", function() { return AmexioCreativeModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdl", function() { return AmexioCardCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵea", function() { return AmexioCarouselCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdj", function() { return AmexioCardCEActionComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdk", function() { return AmexioCardCEBodyComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdm", function() { return AmexioCardCEHeaderComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdo", function() { return AmexioFormCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdn", function() { return AmexioFormActionCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdp", function() { return AmexioHomePageCenterPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdt", function() { return AmexioHomePageComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdq", function() { return AmexioHomePageEastPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdr", function() { return AmexioHomePageNorthPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵds", function() { return AmexioHomePageWestPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdv", function() { return AmexioProgressCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdy", function() { return ViewportBackgroundComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdz", function() { return ViewportContentBodyComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdx", function() { return ViewportContentComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdw", function() { return ViewportComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdu", function() { return AmexioWindowCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcz", function() { return AmexioGridColumnComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcx", function() { return AmexioDatagridComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcy", function() { return DataGridFilterComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵda", function() { return AmexioDataGridHeaderComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdh", function() { return AmexioItemSelectorComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdc", function() { return AmexioProgressMultiBarComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdd", function() { return AmexioProgressBarComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdb", function() { return PropertyGridComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdg", function() { return AmexioFilterTreeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵde", function() { return HorizontalTreeViewNodeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdf", function() { return HorizontalTreeViewComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵed", function() { return StepWizardComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵee", function() { return StepWizardItemComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbw", function() { return AmexioSearchAdvanceComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbv", function() { return SearchboxtoolComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵch", function() { return AmexioBadgeComponent; });
@@ -6537,6 +6537,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbp", function() { return AmexioFloatingGroupButtonComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵn", function() { return AmexioFormValidator; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbn", function() { return AmexioLabelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵck", function() { return AmexioMultipleDatePickerComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵw", function() { return AmexioNumberInputComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵx", function() { return AmexioPasswordComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵu", function() { return AmexioRadioGroupComponent; });
@@ -6561,18 +6562,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵq", function() { return AmexioTypeAheadComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵi", function() { return AmexioLayoutComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵj", function() { return AmexioLayoutItemComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵck", function() { return AmexioImageComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵct", function() { return AmexioBreadcrumbComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcq", function() { return DockbarComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcr", function() { return DockedBarToolComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcs", function() { return AmexioMenuBarComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcp", function() { return AmexioInnerNavMenuComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcn", function() { return AmexioNavActionComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcl", function() { return AmexioNavItemComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcm", function() { return AmexioNavMenuComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵco", function() { return AmexioNavTextFieldComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcu", function() { return AmexioSideNavInnerNodeComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcv", function() { return AmexioPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcl", function() { return AmexioImageComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcu", function() { return AmexioBreadcrumbComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcr", function() { return DockbarComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcs", function() { return DockedBarToolComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵct", function() { return AmexioMenuBarComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcq", function() { return AmexioInnerNavMenuComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵco", function() { return AmexioNavActionComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcm", function() { return AmexioNavItemComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcn", function() { return AmexioNavMenuComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcp", function() { return AmexioNavTextFieldComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcv", function() { return AmexioSideNavInnerNodeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcw", function() { return AmexioPanelComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵf", function() { return FilterPipe; });
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
@@ -23351,898 +23352,1507 @@ var AmexioHomePageComponent = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var AmexioCarouselCEComponent = /** @class */ (function () {
-    function AmexioCarouselCEComponent(http, dataService) {
-        this.http = http;
-        this.dataService = dataService;
-        this.currentImageIndex = 0;
+/*
+ * Copyright [2019] [Metamagic]
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * Created by pratik on 18/12/17.
+ */
+var AmexioFooterComponent = /** @class */ (function () {
+    function AmexioFooterComponent() {
+        this.className = 'modal-window-footer';
+        this.footer = false;
     }
     /**
      * @return {?}
      */
-    AmexioCarouselCEComponent.prototype.ngOnInit = /**
+    AmexioFooterComponent.prototype.ngOnInit = /**
      * @return {?}
      */
     function () {
-        var _this = this;
-        if (this.httpmethod && this.httpurl) {
-            this.dataService.fetchData(this.httpurl, this.httpmethod).subscribe(function (response) {
-                _this.responseData = response;
-            }, function (error) {
-            }, function () {
-                _this.setData(_this.responseData);
-            });
-        }
-        else if (this.data) {
-            this.setData(this.data);
-        }
+        this.setFooterAlignment(this.footeralign);
     };
     /**
-     * @param {?} httpResponse
+     * @param {?} footeralign
      * @return {?}
      */
-    AmexioCarouselCEComponent.prototype.setData = /**
-     * @param {?} httpResponse
+    AmexioFooterComponent.prototype.setFooterAlignment = /**
+     * @param {?} footeralign
      * @return {?}
      */
-    function (httpResponse) {
-        var /** @type {?} */ responsedata = httpResponse;
-        if (this.datareader != null) {
-            var /** @type {?} */ dr = this.datareader.split('.');
-            for (var _i = 0, dr_1 = dr; _i < dr_1.length; _i++) {
-                var ir = dr_1[_i];
-                responsedata = responsedata[ir];
+    function (footeralign) {
+        switch (footeralign) {
+            case 'right': {
+                this.alignClass = 'flex-end';
+                break;
+            }
+            case 'center': {
+                this.alignClass = 'center';
+                break;
+            }
+            case 'left': {
+                this.alignClass = 'flex-start';
+                break;
+            }
+            default: {
+                this.alignClass = 'flex-end';
+                break;
             }
         }
-        else {
-            responsedata = httpResponse;
-        }
-        this.imageData = responsedata;
-        this.centerImagePath = this.imageData[0].imagepath;
-        this.centerTitle = this.imageData[0].title;
-        this.previousTitle = this.imageData[this.imageData.length - 1].title;
-        this.nextTitle = this.imageData[1].title;
     };
-    /**
-     * @return {?}
-     */
-    AmexioCarouselCEComponent.prototype.onClickLeft = /**
-     * @return {?}
-     */
-    function () {
-        if (this.currentImageIndex === 0) {
-            this.centerImagePath = this.imageData[this.imageData.length - 1].imagepath;
-            this.centerTitle = this.imageData[this.imageData.length - 1].title;
-            this.currentImageIndex = this.imageData.length - 1;
-            this.previousTitle = this.imageData[this.currentImageIndex - 1].title;
-            this.nextTitle = this.imageData[0].title;
-        }
-        else if (this.imageData && (this.imageData.length !== this.currentImageIndex) && this.currentImageIndex !== 0) {
-            this.centerImagePath = this.imageData[this.currentImageIndex - 1].imagepath;
-            this.centerTitle = this.imageData[this.currentImageIndex - 1].title;
-            this.currentImageIndex--;
-            if (this.currentImageIndex === 0) {
-                this.previousTitle = this.imageData[this.imageData.length - 1].title;
-                this.nextTitle = this.imageData[1].title;
-            }
-            else {
-                this.previousTitle = this.imageData[this.currentImageIndex - 1].title;
-                this.nextTitle = this.imageData[this.currentImageIndex + 1].title;
-            }
-        }
-        this.onPreBtnHover();
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCarouselCEComponent.prototype.onPreBtnHover = /**
-     * @return {?}
-     */
-    function () {
-        if (this.currentImageIndex === 0) {
-            this.preImagePath = this.imageData[this.imageData.length - 1].imagepath;
-        }
-        if (this.imageData && this.imageData.length !== this.currentImageIndex && this.currentImageIndex !== 0) {
-            this.preImagePath = this.imageData[this.currentImageIndex - 1].imagepath;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCarouselCEComponent.prototype.onNextBtnHover = /**
-     * @return {?}
-     */
-    function () {
-        if (this.imageData && this.imageData.length - 1 !== this.currentImageIndex) {
-            this.nextImagePath = this.imageData[this.currentImageIndex + 1].imagepath;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCarouselCEComponent.prototype.onClickRight = /**
-     * @return {?}
-     */
-    function () {
-        if ((this.currentImageIndex < this.imageData.length) && (this.imageData.length - 1 !== this.currentImageIndex)) {
-            this.centerImagePath = this.imageData[this.currentImageIndex + 1].imagepath;
-            this.centerTitle = this.imageData[this.currentImageIndex + 1].title;
-            this.currentImageIndex++;
-            if (this.currentImageIndex < this.imageData.length - 1) {
-                this.nextTitle = this.imageData[this.currentImageIndex + 1].title;
-                this.previousTitle = this.imageData[this.currentImageIndex - 1].title;
-            }
-            else if (this.currentImageIndex === this.imageData.length - 1) {
-                this.nextTitle = this.imageData[0].title;
-                this.previousTitle = this.imageData[this.currentImageIndex - 1].title;
-            }
-        }
-        else if (this.currentImageIndex === this.imageData.length - 1) {
-            this.currentImageIndex = 0;
-            this.nextTitle = this.imageData[this.currentImageIndex + 1].title;
-            this.centerImagePath = this.imageData[this.currentImageIndex].imagepath;
-            this.centerTitle = this.imageData[this.currentImageIndex].title;
-            this.previousTitle = this.imageData[this.imageData.length - 1].title;
-        }
-        this.onNextBtnHover();
-    };
-    AmexioCarouselCEComponent.decorators = [
+    AmexioFooterComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-carousel-ce',
-                    template: "\n    <div class=\"wrapper\">\n        <div class=\"ce-caroueslslideshow\">\n            <div class=\"ce-caroueslimages\">\n                <amexio-image [path]=\"centerImagePath\">\n                </amexio-image>\n            </div>\n\n            <div class=\"ce-carousel-textdata\">\n                <ng-template [ngTemplateOutlet]=\"creativeCarousel\">\n                </ng-template>\n            </div>\n            <div class=\"ce-caroueslbar\">\n                <div class=\"ce-caroueslnav\">\n                    <a class=\"ce-caroueslnav-prev\">\n                        <span>Previous</span>\n                        <div (click)=\"onClickLeft()\" (mouseenter)=\"onPreBtnHover()\">\n                            <amexio-image [path]='preImagePath'>\n                            </amexio-image>\n                        </div>\n                    </a>\n                    <a class=\"ce-caroueslnav-next\">\n                        <span>Next</span>\n                        <div (click)=\"onClickRight()\" (mouseenter)=\"onNextBtnHover()\">\n                            <amexio-image [path]=\"nextImagePath\">\n                            </amexio-image>\n                        </div>\n                    </a>\n                </div>\n\n                <div class=\"ce-caroueslnav-content\">\n                    <div class=\"ce-caroueslnav-content-prev\">\n                        <span> {{previousTitle}}</span>\n                    </div>\n                    <div class=\"ce-caroueslnav-content-current\">\n                        <amexio-label>\n                            {{centerTitle}}\n                        </amexio-label>\n                    </div>\n                    <div class=\"ce-caroueslnav-content-next\">\n                        <span> {{nextTitle}}</span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n  ",
+                    selector: 'amexio-action', template: "\n    <ng-container *ngIf=\"footer\">\n      <ng-content></ng-content>\n    </ng-container>\n  ",
                 },] },
     ];
     /** @nocollapse */
-    AmexioCarouselCEComponent.ctorParameters = function () { return [
-        { type: HttpClient },
-        { type: CommonDataService }
-    ]; };
-    AmexioCarouselCEComponent.propDecorators = {
-        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        httpurl: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-url',] }],
-        datareader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data-reader',] }],
-        httpmethod: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-method',] }],
-        creativeCarousel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: ['amexioCreativeCarousel',] }]
+    AmexioFooterComponent.ctorParameters = function () { return []; };
+    AmexioFooterComponent.propDecorators = {
+        className: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
+        footeralign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['footer-align',] }],
+        alignClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.justify-content',] }],
+        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
     };
-    return AmexioCarouselCEComponent;
+    return AmexioFooterComponent;
 }());
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var ProgressModel = /** @class */ (function () {
-    function ProgressModel(firstDegree, secondDegree, progresscolor, inactiveprogresscolor) {
-        this.firstDegree = firstDegree;
-        this.secondDegree = secondDegree;
-        this.progresscolor = progresscolor;
-        this.inactiveprogresscolor = inactiveprogresscolor;
+/*
+ * Copyright [2019] [Metamagic]
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * Created by pratik on 18/12/17.
+ */
+var AmexioBodyComponent = /** @class */ (function () {
+    function AmexioBodyComponent() {
+        this.className = 'window-middle';
     }
     /**
      * @return {?}
      */
-    ProgressModel.prototype.getStyle = /**
+    AmexioBodyComponent.prototype.ngOnInit = /**
      * @return {?}
      */
     function () {
-        if (parseFloat(this.firstDegree) > -90 && parseFloat(this.firstDegree) < 90) {
-            return {
-                'background-image': 'linear-gradient( ' + this.firstDegree + ', ' + this.progresscolor +
-                    ' 50%, transparent 50%, transparent), linear-gradient(' + this.secondDegree + ', ' + this.progresscolor +
-                    ' 50%,' + this.inactiveprogresscolor + ' 50%, ' + this.inactiveprogresscolor + ')',
-            };
-        }
-        else {
-            return {
-                'background-image': 'linear-gradient( ' + this.firstDegree + ', ' + this.inactiveprogresscolor +
-                    ' 50%, transparent 50%, transparent), linear-gradient(' + this.secondDegree + ', ' + this.progresscolor +
-                    ' 50%,' + this.inactiveprogresscolor + ' 50%, ' + this.inactiveprogresscolor + ')',
-            };
-        }
+        this.height = this.bodyHeight + '%';
     };
-    return ProgressModel;
+    AmexioBodyComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-body', template: "\n    <ng-content></ng-content>\n  "
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioBodyComponent.ctorParameters = function () { return []; };
+    AmexioBodyComponent.propDecorators = {
+        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.height',] }],
+        className: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
+        bodyHeight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['body-height',] }],
+        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
+    };
+    return AmexioBodyComponent;
 }());
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var AmexioProgressCEComponent = /** @class */ (function () {
-    function AmexioProgressCEComponent() {
-        /*
-             Properties
-             name : font-size
-             datatype : string
-             version : 5.6.0 onwards
-             default :
-             description : Set size to label of progress bar.
-             */
-        this.size = '30px';
-        /*
-             Properties
-             name : background-color
-             datatype : string
-             version : 5.6.0 onwards
-             default :
-             description : Set background color to the circular creative progress bar.
-             */
-        this.background = 'rgb(242,244,245)';
-        /*
-             Properties
-             name : background-color
-             datatype : string
-             version : 5.6.0 onwards
-             default :
-             description : Set label color to the circular creative progress bar.
-             */
-        this.labelcolor = 'black';
-        /*
-             Properties
-             name : progress-color
-             datatype : string
-             version : 5.6.0 onwards
-             default : '#2ecc71'
-             description : Set progress color to the border of creative progress bar.
-             */
-        this.progresscolor = '#1565c0';
-        /*
-             Properties
-             name : inactive-progress-color
-             datatype : string
-             version : 5.6.0 onwards
-             default : '#d0d0d0'
-             description : Set inactive color to the remaining border of creative progress bar.
-             */
-        this.inactiveprogresscolor = '#cce2f5';
-        /*
-          Properties
-          name : unit
-          datatype : string
-          version : 5.6.0 onwards
-          default : '%'
-          description : Set unit to the label of progress bar.
-          */
-        this.unit = '%';
-        this.showlabel = false;
-        this.showunit = false;
+/*
+ Component Name : Amexio Carousel
+ Component Selector : <[amexioTemplate]>
+ Component Description : Amexio CarouselView displays a collection of
+ images or other content in a horizontal layout with built-in navigation between the items.
+
+*/
+var AmexioTemplateDirective = /** @class */ (function () {
+    function AmexioTemplateDirective(template) {
+        this.template = template;
     }
     /**
      * @return {?}
      */
-    AmexioProgressCEComponent.prototype.ngOnInit = /**
+    AmexioTemplateDirective.prototype.getType = /**
+     * @return {?}
+     */
+    function () {
+        return this.name;
+    };
+    AmexioTemplateDirective.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"], args: [{
+                    selector: '[amexioTemplate]',
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioTemplateDirective.ctorParameters = function () { return [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"] }
+    ]; };
+    AmexioTemplateDirective.propDecorators = {
+        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['amexioTemplate',] }]
+    };
+    return AmexioTemplateDirective;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* Created by pratik on 28/12/17.
+*/
+var AmexioCarouselComponent = /** @class */ (function () {
+    function AmexioCarouselComponent() {
+        // @ViewChild('kk') kk: ElementRef;
+        this.prevImage = -1;
+        this.nextImage = -1;
+        this.currImage = 0;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioCarouselComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.startTimeInterval();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselComponent.prototype.ngAfterContentInit = /**
      * @return {?}
      */
     function () {
         var _this = this;
-        this.dyanmicHeightCreation();
-        this.progressBarDegreeMap = new Map();
-        this.progressBarDegreeMap.set('0', new ProgressModel('90deg', '90deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('1', new ProgressModel('90deg', '93.6deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('2', new ProgressModel('90deg', '97.2deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('3', new ProgressModel('90deg', '100.8deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('4', new ProgressModel('90deg', '104.4deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('5', new ProgressModel('90deg', '108deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('6', new ProgressModel('90deg', '111.6deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('7', new ProgressModel('90deg', '115.2deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('8', new ProgressModel('90deg', '118.8deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('9', new ProgressModel('90deg', '122.4deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('10', new ProgressModel('90deg', '126deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('11', new ProgressModel('90deg', '129.6deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('12', new ProgressModel('90deg', '133.2deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('13', new ProgressModel('90deg', '136.8deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('14', new ProgressModel('90deg', '140.4deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('15', new ProgressModel('90deg', '144deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('16', new ProgressModel('90deg', '147.6deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('17', new ProgressModel('90deg', '151.2deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('18', new ProgressModel('90deg', '154.8deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('19', new ProgressModel('90deg', '158.4deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('20', new ProgressModel('90deg', '162deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('21', new ProgressModel('90deg', '165.6deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('22', new ProgressModel('90deg', '169.2deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('23', new ProgressModel('90deg', '172.8deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('24', new ProgressModel('90deg', '176.4deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('25', new ProgressModel('90deg', '180deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('26', new ProgressModel('90deg', '183.6deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('27', new ProgressModel('90deg', '187.2deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('28', new ProgressModel('90deg', '190.8deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('29', new ProgressModel('90deg', '194.4deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('30', new ProgressModel('90deg', '198deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('31', new ProgressModel('90deg', '201.6deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('32', new ProgressModel('90deg', '205.2deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('33', new ProgressModel('90deg', '208.8deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('34', new ProgressModel('90deg', '212.4deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('35', new ProgressModel('90deg', '216deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('36', new ProgressModel('90deg', '219.6deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('37', new ProgressModel('90deg', '223.2deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('38', new ProgressModel('90deg', '226.8deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('39', new ProgressModel('90deg', '230.4deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('40', new ProgressModel('90deg', '234deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('41', new ProgressModel('90deg', '237.6deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('42', new ProgressModel('90deg', '241.2deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('43', new ProgressModel('90deg', '244.8deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('44', new ProgressModel('90deg', '248.4deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('45', new ProgressModel('90deg', '252deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('46', new ProgressModel('90deg', '255.6deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('47', new ProgressModel('90deg', '259.2deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('48', new ProgressModel('90deg', '262.8deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('49', new ProgressModel('90deg', '266.4deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('50', new ProgressModel('-90deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('51', new ProgressModel('-86.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('52', new ProgressModel('-82.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('53', new ProgressModel('-79.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('54', new ProgressModel('-75.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('55', new ProgressModel('-72deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('56', new ProgressModel('-68.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('57', new ProgressModel('-64.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('58', new ProgressModel('-61.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('59', new ProgressModel('-57.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('60', new ProgressModel('-54deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('61', new ProgressModel('-50.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('62', new ProgressModel('-46.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('63', new ProgressModel('-43.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('64', new ProgressModel('-39.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('65', new ProgressModel('-36deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('66', new ProgressModel('-32.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('67', new ProgressModel('-28.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('68', new ProgressModel('-25.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('69', new ProgressModel('-21.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('70', new ProgressModel('-18deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('71', new ProgressModel('-14.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('72', new ProgressModel('-10.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('73', new ProgressModel('-7.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('74', new ProgressModel('-3.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('75', new ProgressModel('0deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('76', new ProgressModel('3.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('77', new ProgressModel('7.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('78', new ProgressModel('10.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('79', new ProgressModel('14.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('80', new ProgressModel('18deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('81', new ProgressModel('21.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('82', new ProgressModel('25.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('83', new ProgressModel('28.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('84', new ProgressModel('32.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('85', new ProgressModel('36deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('86', new ProgressModel('39.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('87', new ProgressModel('43.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('88', new ProgressModel('46.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('89', new ProgressModel('50.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('90', new ProgressModel('54deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('91', new ProgressModel('57.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('92', new ProgressModel('61.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('93', new ProgressModel('64.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('94', new ProgressModel('68.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('95', new ProgressModel('72deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('96', new ProgressModel('76.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('97', new ProgressModel('79.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('98', new ProgressModel('82.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('99', new ProgressModel('86.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.set('100', new ProgressModel('90deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
-        this.progressBarDegreeMap.forEach(function (element, key) {
-            if (_this.progressvalue === parseInt(key, 10)) {
-                _this.pStyle = element.getStyle();
-            }
+        this.templates.forEach(function (item) {
+            _this.itemTemplate = item.template;
         });
     };
     /**
      * @return {?}
      */
-    AmexioProgressCEComponent.prototype.dyanmicHeightCreation = /**
+    AmexioCarouselComponent.prototype.scrollData = /**
      * @return {?}
      */
     function () {
-        if (this.width && this.width.length > 0 && this.height && this.height.length > 0) {
-            this.outerWidth = this.getCal(this.width);
-            this.outerHeight = this.getCal(this.height);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselComponent.prototype.next = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ nxt = this.tabs.nativeElement;
+        nxt.scrollLeft = nxt.scrollLeft + 200;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselComponent.prototype.previous = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ prev = this.tabs.nativeElement;
+        prev.scrollLeft = prev.scrollLeft - 200;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselComponent.prototype.shuffle = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @param {?} item
+     * @return {?}
+     */
+    AmexioCarouselComponent.prototype.onArrowRight = /**
+     * @param {?} item
+     * @return {?}
+     */
+    function (item) {
+        if (this.data.length - 1 > item) {
+            var /** @type {?} */ currentitem = item + 1;
+            var /** @type {?} */ itemId = this.header + currentitem;
+            document.getElementById(itemId).focus();
         }
     };
     /**
-     * @param {?} value
+     * @param {?} item
      * @return {?}
      */
-    AmexioProgressCEComponent.prototype.getCal = /**
-     * @param {?} value
+    AmexioCarouselComponent.prototype.onArrowLeft = /**
+     * @param {?} item
      * @return {?}
      */
-    function (value) {
-        return (parseInt(value, 10) + 32).toString() + 'px';
+    function (item) {
+        if (item > 0) {
+            var /** @type {?} */ currentitem = item - 1;
+            var /** @type {?} */ itemId = this.header + currentitem;
+            document.getElementById(itemId).focus();
+        }
     };
-    AmexioProgressCEComponent.decorators = [
+    /**
+     * @return {?}
+     */
+    AmexioCarouselComponent.prototype.startTimeInterval = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.shuffleinterval != null) {
+            this.timeInterval = setInterval(function () {
+                var /** @type {?} */ carouselItemPosix = _this.tabs.nativeElement;
+                if (!((carouselItemPosix.scrollWidth - carouselItemPosix.offsetWidth - carouselItemPosix.scrollLeft) <= 0)) {
+                    // go next
+                    carouselItemPosix.scrollLeft = carouselItemPosix.scrollLeft + 200;
+                }
+                else if (carouselItemPosix.scrollLeft > 0) {
+                    // go previous
+                    carouselItemPosix.scrollLeft = carouselItemPosix.scrollLeft - 200;
+                }
+            }, this.shuffleinterval);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselComponent.prototype.stopTimeInterval = /**
+     * @return {?}
+     */
+    function () {
+        clearTimeout(this.timeInterval);
+    };
+    AmexioCarouselComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-progress-ce',
-                    template: "\n    <!-- Radial -->\n    <ng-container *ngIf=\"type =='radial'\">\n        <div class=\"circularProgress\" [style.width]=\"outerWidth\" [style.height]=\"outerHeight\" [ngStyle]=\"pStyle\">\n            <div [style.background-color]=\"background\" [style.width]=\"width+'px'\" [style.height]=\"height+'px'\" class=\"innerCircle\"\n                [ngClass]=\"type\">\n                <label tabindex=\"0\" attr.aria-label=\"{{progressvalue}} {{unit}} {{tooltip}}\" [style.font-size]=\"size\"\n                    [style.color]=\"labelcolor\">\n                    <ng-container *ngIf=\"showlabel\">{{progressvalue }}</ng-container>\n                    <ng-container *ngIf=\"showunit\"> {{unit}}</ng-container>\n                </label>\n            </div>\n        </div>\n    </ng-container>\n    <!-- Ring -->\n    <ng-container *ngIf=\"type =='ring'\">\n        <div class=\"circularProgress\" [style.width]=\"outerWidth\" [style.height]=\"outerHeight\" [ngStyle]=\"pStyle\">\n            <div [style.width]=\"width+'px'\" [style.height]=\"height+'px'\" class=\"innerCircle\" [ngClass]=\"type\">\n                <label tabindex=\"0\" attr.aria-label=\"{{progressvalue}} {{unit}} {{tooltip}}\" [style.color]=\"labelcolor\"\n                    [style.font-size]=\"size\">\n                    <ng-container *ngIf=\"showlabel\">{{progressvalue }}</ng-container>\n                    <ng-container *ngIf=\"showunit\"> {{unit}}</ng-container>\n                </label>\n            </div>\n        </div>\n    </ng-container>\n\n    <!-- Pie -->\n    <ng-container *ngIf=\"type =='pie'\">\n        <div class=\"circularProgress\" [style.width]=\"outerWidth\" [style.height]=\"outerHeight\" [ngStyle]=\"pStyle\">\n            <div [style.width]=\"width+'px'\" [style.height]=\"height+'px'\" [ngClass]=\"type\" class=\"innerCircle\">\n                <label tabindex=\"0\" attr.aria-label=\"{{progressvalue}} {{unit}} {{tooltip}}\" [style.color]=\"labelcolor\"\n                    [style.font-size]=\"size\">\n                    <ng-container *ngIf=\"showlabel\">{{progressvalue }}</ng-container>\n                    <ng-container *ngIf=\"showunit\"> {{unit}}</ng-container>\n\n                </label>\n            </div>\n        </div>\n    </ng-container>\n  ",
+                    selector: 'amexio-carousel',
+                    template: "\n    <h4>{{header}}</h4>\n    <div class=\"tabwrapper\">\n      <div class=\"carouselnavigation float-left\" (click)=\"previous()\">\n        <amexio-c-icon key=\"carousel_previous\"></amexio-c-icon>\n      </div>\n      <div class=\"carouselnavigation float-right\" (click)=\"next()\">\n        <amexio-c-icon key=\"carousel_next\"></amexio-c-icon>\n      </div>\n      <ul #tab class=\"tab\">\n        <li attr.aria-label=\"'carousel {{rowno}}'\" tabindex=\"1\" id=\"{{header}}{{rowno}}\" class=\"tablistitems\" *ngFor=\"let item of data let rowno= index\" [ngClass]=\"{'list-carousel-items':item.isSelected}\"\n          (mouseover)=\"stopTimeInterval($event)\" (mouseleave)=\"startTimeInterval($event)\" (keyup.arrowleft)=\"onArrowLeft(rowno)\"\n          (keyup.arrowright)=\"onArrowRight(rowno)\">\n          <ng-template tabindex=\"1\" [amexioTemplateWrapper]=\"itemTemplate\" [item]=\"item\"></ng-template>\n        </li>\n      </ul>\n    </div>\n  ",
                 },] },
     ];
     /** @nocollapse */
-    AmexioProgressCEComponent.ctorParameters = function () { return []; };
-    AmexioProgressCEComponent.propDecorators = {
-        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }],
-        size: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-size',] }],
-        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background-color',] }],
-        labelcolor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['label-color',] }],
-        progresscolor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['progress-color',] }],
-        inactiveprogresscolor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['inactive-progress-color',] }],
-        unit: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['unit',] }],
-        label: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['label',] }],
-        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }],
-        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['width',] }],
-        progressvalue: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['progress-value',] }],
-        tooltip: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['tooltip',] }],
-        showlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-label',] }],
-        showunit: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-unit',] }]
+    AmexioCarouselComponent.ctorParameters = function () { return []; };
+    AmexioCarouselComponent.propDecorators = {
+        header: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        shuffleinterval: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['shuffle-interval',] }],
+        templates: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTemplateDirective,] }],
+        tabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tab', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }]
     };
-    return AmexioProgressCEComponent;
+    return AmexioCarouselComponent;
 }());
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* Created by pratik on 18/12/17.
-*/
-var AmexioImageComponent = /** @class */ (function () {
-    function AmexioImageComponent() {
-        /*
-        Properties
-        name : c-class
-        datatype :  string
-        version : 4.0 onwards
-        default :
-        description : Used for custom style classes
-        */
-        this.cclass = '';
-        /*
-        Events
-        name : onClick
-        datatype :  none
-        version : none
-        default : none
-        description : Get image / icon click event.
-        */
-        this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Properties
-        name :absolute
-        datatype :  string
-        version : 4.1.9 onwards
-        default :
-        description :sets absolute attribute  to image
-        */
-        this.absolute = false;
-        /*
-        Properties
-        name :relative
-        datatype :  string
-        version : 4.1.9 onwards
-        default :
-        description :sets relative attribute  to image
-        */
-        this.relative = false;
-        this.overlay = false;
-        this.absoluteposition = false;
-        this.imageCss = ' image-';
-        this.overlayTextCss = 'overlay-text overlay-';
-        this.textCss = '-text';
-        this.imgFluidCss = ' img-fluid';
-        this.overlayOverlayCss = 'overlay overlay-';
-        this.imageTitleCss = 'image-title image-';
-        this.imageTitleBottomCss = 'image-title image-bottom-right';
+var AmexioTemplateWrapperDirective = /** @class */ (function () {
+    function AmexioTemplateWrapperDirective(viewContainer) {
+        this.viewContainer = viewContainer;
     }
     /**
-     * @param {?} event
      * @return {?}
      */
-    AmexioImageComponent.prototype.onImageClick = /**
-     * @param {?} event
+    AmexioTemplateWrapperDirective.prototype.ngOnInit = /**
      * @return {?}
      */
-    function (event) {
-        this.onClick.emit(event);
+    function () {
+        this.render();
+    };
+    Object.defineProperty(AmexioTemplateWrapperDirective.prototype, "item", {
+        /*
+     Properties
+     name : get item
+     datatype :   any
+     version : 4.0 onwards
+     default : none
+     description : gets the carousel item
+     */
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._item;
+        },
+        set: /**
+         * @param {?} item
+         * @return {?}
+         */
+        function (item) {
+            this._item = item;
+            if (this.view) {
+                this.view.destroy();
+                this.render();
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    AmexioTemplateWrapperDirective.prototype.render = /**
+     * @return {?}
+     */
+    function () {
+        this.view = this.viewContainer.createEmbeddedView(this.templateRef, {
+            $implicit: this.item, index: this.index,
+        });
     };
     /**
      * @return {?}
      */
-    AmexioImageComponent.prototype.ngOnInit = /**
+    AmexioTemplateWrapperDirective.prototype.ngOnDestroy = /**
      * @return {?}
      */
     function () {
-        if (!(this.width || this.height)) {
-            this.cclass = this.cclass + this.imgFluidCss;
-        }
-        if (this.filter) {
-            this.cclass = this.cclass + this.imageCss + this.filter;
-        }
-        if (this.overlayEffect) {
-            this.overlay = true;
-            if (!this.overlayText) {
-                this.overlayText = '';
-            }
-            if (this.overlayText) {
-                this.overlayTextClass = this.overlayTextCss + this.overlayEffect + this.textCss;
-            }
-            this.overlayEffect = this.overlayOverlayCss + this.overlayEffect;
-        }
-        if (this.position && !this.imgTitle) {
-            this.imgTitle = '';
-        }
-        if (this.imgTitle) {
-            if (this.position) {
-                this.position = this.imageTitleCss + this.position;
-            }
-            else {
-                this.position = this.imageTitleBottomCss;
-            }
-        }
+        this.view.destroy();
     };
-    /**
-     * @return {?}
-     */
-    AmexioImageComponent.prototype.addimageCSSClass = /**
-     * @return {?}
-     */
-    function () {
-        if (this.top || this.bottom || this.right || this.left) {
-            this.absoluteposition = true;
-        }
-        this.imagepositionclass = '';
-        if (this.relative && !this.absolute) {
-            this.imagepositionclass = ' img-relative ';
-            this.top = '';
-            this.left = '';
-            this.right = '';
-            this.bottom = '';
-        }
-        else if (this.absolute) {
-            this.imagepositionclass = 'img-absolute ';
-        }
-        return this.imagepositionclass;
-    };
-    AmexioImageComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-image', template: "\n    <!--Normal image-->\n    <ng-container *ngIf=\"iconclass && (!path && !mda) && overlay || overlayText || titlePara || imgTitle \">\n    <div class=\"img-container\" [ngClass]=\"addimageCSSClass()\"  [ngStyle]=\"{'top':top,'bottom':bottom,'left':left,'right':right} \">\n      <ng-container *ngIf=\"path || (path && iconclass)\">\n        <ng-container *ngIf=\"!(width || height)\">\n          <img alt=\"title\" [src]=\"path\" [attr.class]=\"cclass\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n          <div *ngIf=\"overlay\" [ngClass]=\"overlayEffect\">\n            <div *ngIf=\"overlayText\" [ngClass]=\"overlayTextClass\">{{overlayText}}\n              <p *ngIf=\"titlePara\">{{titlePara}}</p>\n            </div>\n          </div>\n          <div *ngIf=\"imgTitle\" [ngClass]=\"position\">{{imgTitle}}</div>\n        </ng-container>\n        <ng-container *ngIf=\"width || height\">\n          <img alt=\"title\" [ngStyle]=\"{'width':width,'height':height}\" [attr.class]=\"cclass\" [src]=\"path\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n           <div *ngIf=\"overlay\" [ngClass]=\"overlayEffect\">\n            <div *ngIf=\"overlayText\" [ngClass]=\"overlayTextClass\">{{overlayText}}\n              <p *ngIf=\"titlePara\">{{titlePara}}</p>\n            </div>\n          </div>\n          <div *ngIf=\"imgTitle\" [ngClass]=\"position\">{{imgTitle}}</div>\n        </ng-container>\n      </ng-container>\n      </div>\n    </ng-container>\n\n\n\n    <ng-container *ngIf=\"!(iconclass && (!path && !mda) && overlay || overlayText || titlePara || imgTitle )\">\n        <ng-container *ngIf=\"path || (path && iconclass)\">\n        <ng-container *ngIf=\"!(width || height)\">\n        <img alt=\"title\" [src]=\"path\" [attr.class]=\"cclass\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n        </ng-container>\n        <ng-container *ngIf=\"width || height\">\n        <img alt=\"title\" [ngStyle]=\"{'width':width,'height':height}\" [attr.class]=\"cclass\" [src]=\"path\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n        </ng-container>\n        </ng-container>\n        </ng-container>\n    \n    <!--this is for fontawesome-->\n    <ng-container *ngIf=\"iconclass && (!path && !mda)\">\n      <em [attr.class]=\"iconclass\" [attr.title]=\"tooltip\" (click)=\"onImageClick($event)\"></em>\n      <label class=\"image-title\" *ngIf=\"title\" (click)=\"onImageClick($event)\" style=\"cursor: pointer\">{{title}}</label>\n    </ng-container>\n\n    <!--Material icon-->\n    <ng-container *ngIf=\"(iconclass && mda) && !path\">\n      <em [attr.class]=\"iconclass\" [attr.title]=\"tooltip\" (click)=\"onImageClick($event)\">{{mda}}</em>\n    </ng-container>\n\n    <ng-container *ngIf=\" title && !iconclass\">\n      <span style=\"font-size: medium\">{{title}}</span>\n    </ng-container>\n  ",
+    AmexioTemplateWrapperDirective.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"], args: [{
+                    selector: '[amexioTemplateWrapper]',
                 },] },
     ];
     /** @nocollapse */
-    AmexioImageComponent.ctorParameters = function () { return []; };
-    AmexioImageComponent.propDecorators = {
-        tooltip: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        path: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        iconclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-class',] }],
-        cclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['c-class',] }],
-        mda: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        filter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['filter',] }],
-        overlayEffect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['overlay-effect',] }],
-        overlayText: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['overlay-text',] }],
-        imgTitle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['image-title',] }],
-        position: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['title-position',] }],
-        titlePara: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['para',] }],
-        top: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-top',] }],
-        bottom: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-bottom',] }],
-        left: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-left',] }],
-        right: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-right',] }],
-        absolute: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['absolute',] }],
-        relative: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['relative',] }]
+    AmexioTemplateWrapperDirective.ctorParameters = function () { return [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"] }
+    ]; };
+    AmexioTemplateWrapperDirective.propDecorators = {
+        index: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        templateRef: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['amexioTemplateWrapper',] }],
+        item: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
     };
-    return AmexioImageComponent;
+    return AmexioTemplateWrapperDirective;
+}());
+
+/**
+ * @license Angular v6.0.4
+ * (c) 2010-2018 Google, Inc. https://angular.io/
+ * License: MIT
+ */
+
+/**
+ * AnimationBuilder is an injectable service that is available when the {@link
+ * BrowserAnimationsModule BrowserAnimationsModule} or {@link NoopAnimationsModule
+ * NoopAnimationsModule} modules are used within an application.
+ *
+ * The purpose if this service is to produce an animation sequence programmatically within an
+ * angular component or directive.
+ *
+ * Programmatic animations are first built and then a player is created when the build animation is
+ * attached to an element.
+ *
+ * ```ts
+ * // remember to include the BrowserAnimationsModule module for this to work...
+ * import {AnimationBuilder} from '@angular/animations';
+ *
+ * class MyCmp {
+ *   constructor(private _builder: AnimationBuilder) {}
+ *
+ *   makeAnimation(element: any) {
+ *     // first build the animation
+ *     const myAnimation = this._builder.build([
+ *       style({ width: 0 }),
+ *       animate(1000, style({ width: '100px' }))
+ *     ]);
+ *
+ *     // then create a player from it
+ *     const player = myAnimation.create(element);
+ *
+ *     player.play();
+ *   }
+ * }
+ * ```
+ *
+ * When an animation is built an instance of {@link AnimationFactory AnimationFactory} will be
+ * returned. Using that an {@link AnimationPlayer AnimationPlayer} can be created which can then be
+ * used to start the animation.
+ *
+ * @experimental Animation support is experimental.
+ */
+/**
+ * `trigger` is an animation-specific function that is designed to be used inside of Angular's
+ * animation DSL language. If this information is new, please navigate to the
+ * {@link Component#animations component animations metadata page} to gain a better
+ * understanding of how animations in Angular are used.
+ *
+ * `trigger` Creates an animation trigger which will a list of {@link state state} and
+ * {@link transition transition} entries that will be evaluated when the expression
+ * bound to the trigger changes.
+ *
+ * Triggers are registered within the component annotation data under the
+ * {@link Component#animations animations section}. An animation trigger can be placed on an element
+ * within a template by referencing the name of the trigger followed by the expression value that
+ the
+ * trigger is bound to (in the form of `[@triggerName]="expression"`.
+ *
+ * Animation trigger bindings strigify values and then match the previous and current values against
+ * any linked transitions. If a boolean value is provided into the trigger binding then it will both
+ * be represented as `1` or `true` and `0` or `false` for a true and false boolean values
+ * respectively.
+ *
+ * ### Usage
+ *
+ * `trigger` will create an animation trigger reference based on the provided `name` value. The
+ * provided `animation` value is expected to be an array consisting of {@link state state} and
+ * {@link transition transition} declarations.
+ *
+ * ```typescript
+ * @Component({
+ *   selector: 'my-component',
+ *   templateUrl: 'my-component-tpl.html',
+ *   animations: [
+ *     trigger("myAnimationTrigger", [
+ *       state(...),
+ *       state(...),
+ *       transition(...),
+ *       transition(...)
+ *     ])
+ *   ]
+ * })
+ * class MyComponent {
+ *   myStatusExp = "something";
+ * }
+ * ```
+ *
+ * The template associated with this component will make use of the `myAnimationTrigger` animation
+ trigger by binding to an element within its template code.
+ *
+ * ```html
+ * <!-- somewhere inside of my-component-tpl.html -->
+ * <div [@myAnimationTrigger]="myStatusExp">...</div>
+ * ```
+ *
+ * ### Using an inline function
+ * The `transition` animation method also supports reading an inline function which can decide
+ * if its associated animation should be run.
+ *
+ * ```
+ * // this method will be run each time the `myAnimationTrigger`
+ * // trigger value changes...
+ * function myInlineMatcherFn(fromState: string, toState: string, element: any, params: {[key:
+ string]: any}): boolean {
+ *   // notice that `element` and `params` are also available here
+ *   return toState == 'yes-please-animate';
+ * }
+ *
+ * @Component({
+ *   selector: 'my-component',
+ *   templateUrl: 'my-component-tpl.html',
+ *   animations: [
+ *     trigger('myAnimationTrigger', [
+ *       transition(myInlineMatcherFn, [
+ *         // the animation sequence code
+ *       ]),
+ *     ])
+ *   ]
+ * })
+ * class MyComponent {
+ *   myStatusExp = "yes-please-animate";
+ * }
+ * ```
+ *
+ * The inline method will be run each time the trigger
+ * value changes
+ *
+ * ## Disable Animations
+ * A special animation control binding called `@.disabled` can be placed on an element which will
+ then disable animations for any inner animation triggers situated within the element as well as
+ any animations on the element itself.
+ *
+ * When true, the `@.disabled` binding will prevent all animations from rendering. The example
+ below shows how to use this feature:
+ *
+ * ```ts
+ * @Component({
+ *   selector: 'my-component',
+ *   template: `
+ *     <div [@.disabled]="isDisabled">
+ *       <div [@childAnimation]="exp"></div>
+ *     </div>
+ *   `,
+ *   animations: [
+ *     trigger("childAnimation", [
+ *       // ...
+ *     ])
+ *   ]
+ * })
+ * class MyComponent {
+ *   isDisabled = true;
+ *   exp = '...';
+ * }
+ * ```
+ *
+ * The `@childAnimation` trigger will not animate because `@.disabled` prevents it from happening
+ (when true).
+ *
+ * Note that `@.disabled` will only disable all animations (this means any animations running on
+ * the same element will also be disabled).
+ *
+ * ### Disabling Animations Application-wide
+ * When an area of the template is set to have animations disabled, **all** inner components will
+ also have their animations disabled as well. This means that all animations for an angular
+ application can be disabled by placing a host binding set on `@.disabled` on the topmost Angular
+ component.
+ *
+ * ```ts
+ * import {Component, HostBinding} from '@angular/core';
+ *
+ * @Component({
+ *   selector: 'app-component',
+ *   templateUrl: 'app.component.html',
+ * })
+ * class AppComponent {
+ *   @HostBinding('@.disabled')
+ *   public animationsDisabled = true;
+ * }
+ * ```
+ *
+ * ### What about animations that us `query()` and `animateChild()`?
+ * Despite inner animations being disabled, a parent animation can {@link query query} for inner
+ elements located in disabled areas of the template and still animate them as it sees fit. This is
+ also the case for when a sub animation is queried by a parent and then later animated using {@link
+ animateChild animateChild}.
+
+ * ### Detecting when an animation is disabled
+ * If a region of the DOM (or the entire application) has its animations disabled, then animation
+ * trigger callbacks will still fire just as normal (only for zero seconds).
+ *
+ * When a trigger callback fires it will provide an instance of an {@link AnimationEvent}. If
+ animations
+ * are disabled then the `.disabled` flag on the event will be true.
+ *
+ * @experimental Animation support is experimental.
+ */
+function trigger(name, definitions) {
+    return { type: 7 /* Trigger */, name: name, definitions: definitions, options: {} };
+}
+/**
+ * `animate` is an animation-specific function that is designed to be used inside of Angular's
+ * animation DSL language. If this information is new, please navigate to the {@link
+ * Component#animations component animations metadata page} to gain a better understanding of
+ * how animations in Angular are used.
+ *
+ * `animate` specifies an animation step that will apply the provided `styles` data for a given
+ * amount of time based on the provided `timing` expression value. Calls to `animate` are expected
+ * to be used within {@link sequence an animation sequence}, {@link group group}, or {@link
+ * transition transition}.
+ *
+ * ### Usage
+ *
+ * The `animate` function accepts two input parameters: `timing` and `styles`:
+ *
+ * - `timing` is a string based value that can be a combination of a duration with optional delay
+ * and easing values. The format for the expression breaks down to `duration delay easing`
+ * (therefore a value such as `1s 100ms ease-out` will be parse itself into `duration=1000,
+ * delay=100, easing=ease-out`. If a numeric value is provided then that will be used as the
+ * `duration` value in millisecond form.
+ * - `styles` is the style input data which can either be a call to {@link style style} or {@link
+ * keyframes keyframes}. If left empty then the styles from the destination state will be collected
+ * and used (this is useful when describing an animation step that will complete an animation by
+ * {@link transition#the-final-animate-call animating to the final state}).
+ *
+ * ```typescript
+ * // various functions for specifying timing data
+ * animate(500, style(...))
+ * animate("1s", style(...))
+ * animate("100ms 0.5s", style(...))
+ * animate("5s ease", style(...))
+ * animate("5s 10ms cubic-bezier(.17,.67,.88,.1)", style(...))
+ *
+ * // either style() of keyframes() can be used
+ * animate(500, style({ background: "red" }))
+ * animate(500, keyframes([
+ *   style({ background: "blue" })),
+ *   style({ background: "red" }))
+ * ])
+ * ```
+ *
+ * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
+ *
+ * @experimental Animation support is experimental.
+ */
+function animate(timings, styles) {
+    if (styles === void 0) { styles = null; }
+    return { type: 4 /* Animate */, styles: styles, timings: timings };
+}
+/**
+ * `style` is an animation-specific function that is designed to be used inside of Angular's
+ * animation DSL language. If this information is new, please navigate to the {@link
+ * Component#animations component animations metadata page} to gain a better understanding of
+ * how animations in Angular are used.
+ *
+ * `style` declares a key/value object containing CSS properties/styles that can then be used for
+ * {@link state animation states}, within an {@link sequence animation sequence}, or as styling data
+ * for both {@link animate animate} and {@link keyframes keyframes}.
+ *
+ * ### Usage
+ *
+ * `style` takes in a key/value string map as data and expects one or more CSS property/value pairs
+ * to be defined.
+ *
+ * ```typescript
+ * // string values are used for css properties
+ * style({ background: "red", color: "blue" })
+ *
+ * // numerical (pixel) values are also supported
+ * style({ width: 100, height: 0 })
+ * ```
+ *
+ * #### Auto-styles (using `*`)
+ *
+ * When an asterix (`*`) character is used as a value then it will be detected from the element
+ * being animated and applied as animation data when the animation starts.
+ *
+ * This feature proves useful for a state depending on layout and/or environment factors; in such
+ * cases the styles are calculated just before the animation starts.
+ *
+ * ```typescript
+ * // the steps below will animate from 0 to the
+ * // actual height of the element
+ * style({ height: 0 }),
+ * animate("1s", style({ height: "*" }))
+ * ```
+ *
+ * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
+ *
+ * @experimental Animation support is experimental.
+ */
+function style(tokens) {
+    return { type: 6 /* Style */, styles: tokens, offset: null };
+}
+/**
+ * `state` is an animation-specific function that is designed to be used inside of Angular's
+ * animation DSL language. If this information is new, please navigate to the {@link
+ * Component#animations component animations metadata page} to gain a better understanding of
+ * how animations in Angular are used.
+ *
+ * `state` declares an animation state within the given trigger. When a state is active within a
+ * component then its associated styles will persist on the element that the trigger is attached to
+ * (even when the animation ends).
+ *
+ * To animate between states, have a look at the animation {@link transition transition} DSL
+ * function. To register states to an animation trigger please have a look at the {@link trigger
+ * trigger} function.
+ *
+ * #### The `void` state
+ *
+ * The `void` state value is a reserved word that angular uses to determine when the element is not
+ * apart of the application anymore (e.g. when an `ngIf` evaluates to false then the state of the
+ * associated element is void).
+ *
+ * #### The `*` (default) state
+ *
+ * The `*` state (when styled) is a fallback state that will be used if the state that is being
+ * animated is not declared within the trigger.
+ *
+ * ### Usage
+ *
+ * `state` will declare an animation state with its associated styles
+ * within the given trigger.
+ *
+ * - `stateNameExpr` can be one or more state names separated by commas.
+ * - `styles` refers to the {@link style styling data} that will be persisted on the element once
+ * the state has been reached.
+ *
+ * ```typescript
+ * // "void" is a reserved name for a state and is used to represent
+ * // the state in which an element is detached from from the application.
+ * state("void", style({ height: 0 }))
+ *
+ * // user-defined states
+ * state("closed", style({ height: 0 }))
+ * state("open, visible", style({ height: "*" }))
+ * ```
+ *
+ * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
+ *
+ * @experimental Animation support is experimental.
+ */
+function state(name, styles, options) {
+    return { type: 0 /* State */, name: name, styles: styles, options: options };
+}
+/**
+ * `transition` is an animation-specific function that is designed to be used inside of Angular's
+ * animation DSL language. If this information is new, please navigate to the {@link
+ * Component#animations component animations metadata page} to gain a better understanding of
+ * how animations in Angular are used.
+ *
+ * `transition` declares the {@link sequence sequence of animation steps} that will be run when the
+ * provided `stateChangeExpr` value is satisfied. The `stateChangeExpr` consists of a `state1 =>
+ * state2` which consists of two known states (use an asterix (`*`) to refer to a dynamic starting
+ * and/or ending state).
+ *
+ * A function can also be provided as the `stateChangeExpr` argument for a transition and this
+ * function will be executed each time a state change occurs. If the value returned within the
+ * function is true then the associated animation will be run.
+ *
+ * Animation transitions are placed within an {@link trigger animation trigger}. For an transition
+ * to animate to a state value and persist its styles then one or more {@link state animation
+ * states} is expected to be defined.
+ *
+ * ### Usage
+ *
+ * An animation transition is kicked off the `stateChangeExpr` predicate evaluates to true based on
+ * what the previous state is and what the current state has become. In other words, if a transition
+ * is defined that matches the old/current state criteria then the associated animation will be
+ * triggered.
+ *
+ * ```typescript
+ * // all transition/state changes are defined within an animation trigger
+ * trigger("myAnimationTrigger", [
+ *   // if a state is defined then its styles will be persisted when the
+ *   // animation has fully completed itself
+ *   state("on", style({ background: "green" })),
+ *   state("off", style({ background: "grey" })),
+ *
+ *   // a transition animation that will be kicked off when the state value
+ *   // bound to "myAnimationTrigger" changes from "on" to "off"
+ *   transition("on => off", animate(500)),
+ *
+ *   // it is also possible to do run the same animation for both directions
+ *   transition("on <=> off", animate(500)),
+ *
+ *   // or to define multiple states pairs separated by commas
+ *   transition("on => off, off => void", animate(500)),
+ *
+ *   // this is a catch-all state change for when an element is inserted into
+ *   // the page and the destination state is unknown
+ *   transition("void => *", [
+ *     style({ opacity: 0 }),
+ *     animate(500)
+ *   ]),
+ *
+ *   // this will capture a state change between any states
+ *   transition("* => *", animate("1s 0s")),
+ *
+ *   // you can also go full out and include a function
+ *   transition((fromState, toState) => {
+ *     // when `true` then it will allow the animation below to be invoked
+ *     return fromState == "off" && toState == "on";
+ *   }, animate("1s 0s"))
+ * ])
+ * ```
+ *
+ * The template associated with this component will make use of the `myAnimationTrigger` animation
+ * trigger by binding to an element within its template code.
+ *
+ * ```html
+ * <!-- somewhere inside of my-component-tpl.html -->
+ * <div [@myAnimationTrigger]="myStatusExp">...</div>
+ * ```
+ *
+ * #### The final `animate` call
+ *
+ * If the final step within the transition steps is a call to `animate()` that **only** uses a
+ * timing value with **no style data** then it will be automatically used as the final animation arc
+ * for the element to animate itself to the final state. This involves an automatic mix of
+ * adding/removing CSS styles so that the element will be in the exact state it should be for the
+ * applied state to be presented correctly.
+ *
+ * ```
+ * // start off by hiding the element, but make sure that it animates properly to whatever state
+ * // is currently active for "myAnimationTrigger"
+ * transition("void => *", [
+ *   style({ opacity: 0 }),
+ *   animate(500)
+ * ])
+ * ```
+ *
+ * ### Using :enter and :leave
+ *
+ * Given that enter (insertion) and leave (removal) animations are so common, the `transition`
+ * function accepts both `:enter` and `:leave` values which are aliases for the `void => *` and `*
+ * => void` state changes.
+ *
+ * ```
+ * transition(":enter", [
+ *   style({ opacity: 0 }),
+ *   animate(500, style({ opacity: 1 }))
+ * ]),
+ * transition(":leave", [
+ *   animate(500, style({ opacity: 0 }))
+ * ])
+ * ```
+ *
+ * ### Boolean values
+ * if a trigger binding value is a boolean value then it can be matched using a transition
+ * expression that compares `true` and `false` or `1` and `0`.
+ *
+ * ```
+ * // in the template
+ * <div [@openClose]="open ? true : false">...</div>
+ *
+ * // in the component metadata
+ * trigger('openClose', [
+ *   state('true', style({ height: '*' })),
+ *   state('false', style({ height: '0px' })),
+ *   transition('false <=> true', animate(500))
+ * ])
+ * ```
+ *
+ * ### Using :increment and :decrement
+ * In addition to the :enter and :leave transition aliases, the :increment and :decrement aliases
+ * can be used to kick off a transition when a numeric value has increased or decreased in value.
+ *
+ * ```
+ * import {group, animate, query, transition, style, trigger} from '@angular/animations';
+ * import {Component} from '@angular/core';
+ *
+ * @Component({
+ *   selector: 'banner-carousel-component',
+ *   styles: [`
+ *     .banner-container {
+ *        position:relative;
+ *        height:500px;
+ *        overflow:hidden;
+ *      }
+ *     .banner-container > .banner {
+ *        position:absolute;
+ *        left:0;
+ *        top:0;
+ *        font-size:200px;
+ *        line-height:500px;
+ *        font-weight:bold;
+ *        text-align:center;
+ *        width:100%;
+ *      }
+ *   `],
+ *   template: `
+ *     <button (click)="previous()">Previous</button>
+ *     <button (click)="next()">Next</button>
+ *     <hr>
+ *     <div [@bannerAnimation]="selectedIndex" class="banner-container">
+ *       <div class="banner" *ngFor="let banner of banners"> {{ banner }} </div>
+ *     </div>
+ *   `,
+ *   animations: [
+ *     trigger('bannerAnimation', [
+ *       transition(":increment", group([
+ *         query(':enter', [
+ *           style({ left: '100%' }),
+ *           animate('0.5s ease-out', style('*'))
+ *         ]),
+ *         query(':leave', [
+ *           animate('0.5s ease-out', style({ left: '-100%' }))
+ *         ])
+ *       ])),
+ *       transition(":decrement", group([
+ *         query(':enter', [
+ *           style({ left: '-100%' }),
+ *           animate('0.5s ease-out', style('*'))
+ *         ]),
+ *         query(':leave', [
+ *           animate('0.5s ease-out', style({ left: '100%' }))
+ *         ])
+ *       ]))
+ *     ])
+ *   ]
+ * })
+ * class BannerCarouselComponent {
+ *   allBanners: string[] = ['1', '2', '3', '4'];
+ *   selectedIndex: number = 0;
+ *
+ *   get banners() {
+ *      return [this.allBanners[this.selectedIndex]];
+ *   }
+ *
+ *   previous() {
+ *     this.selectedIndex = Math.max(this.selectedIndex - 1, 0);
+ *   }
+ *
+ *   next() {
+ *     this.selectedIndex = Math.min(this.selectedIndex + 1, this.allBanners.length - 1);
+ *   }
+ * }
+ * ```
+ *
+ * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
+ *
+ * @experimental Animation support is experimental.
+ */
+function transition(stateChangeExpr, steps, options) {
+    if (options === void 0) { options = null; }
+    return { type: 1 /* Transition */, expr: stateChangeExpr, animation: steps, options: options };
+}
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+function scheduleMicroTask(cb) {
+    Promise.resolve(null).then(cb);
+}
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * @experimental Animation support is experimental.
+ */
+var NoopAnimationPlayer = /** @class */ (function () {
+    function NoopAnimationPlayer(duration, delay) {
+        if (duration === void 0) { duration = 0; }
+        if (delay === void 0) { delay = 0; }
+        this._onDoneFns = [];
+        this._onStartFns = [];
+        this._onDestroyFns = [];
+        this._started = false;
+        this._destroyed = false;
+        this._finished = false;
+        this.parentPlayer = null;
+        this.totalTime = duration + delay;
+    }
+    NoopAnimationPlayer.prototype._onFinish = function () {
+        if (!this._finished) {
+            this._finished = true;
+            this._onDoneFns.forEach(function (fn) { return fn(); });
+            this._onDoneFns = [];
+        }
+    };
+    NoopAnimationPlayer.prototype.onStart = function (fn) { this._onStartFns.push(fn); };
+    NoopAnimationPlayer.prototype.onDone = function (fn) { this._onDoneFns.push(fn); };
+    NoopAnimationPlayer.prototype.onDestroy = function (fn) { this._onDestroyFns.push(fn); };
+    NoopAnimationPlayer.prototype.hasStarted = function () { return this._started; };
+    NoopAnimationPlayer.prototype.init = function () { };
+    NoopAnimationPlayer.prototype.play = function () {
+        if (!this.hasStarted()) {
+            this._onStart();
+            this.triggerMicrotask();
+        }
+        this._started = true;
+    };
+    /* @internal */
+    NoopAnimationPlayer.prototype.triggerMicrotask = function () {
+        var _this = this;
+        scheduleMicroTask(function () { return _this._onFinish(); });
+    };
+    NoopAnimationPlayer.prototype._onStart = function () {
+        this._onStartFns.forEach(function (fn) { return fn(); });
+        this._onStartFns = [];
+    };
+    NoopAnimationPlayer.prototype.pause = function () { };
+    NoopAnimationPlayer.prototype.restart = function () { };
+    NoopAnimationPlayer.prototype.finish = function () { this._onFinish(); };
+    NoopAnimationPlayer.prototype.destroy = function () {
+        if (!this._destroyed) {
+            this._destroyed = true;
+            if (!this.hasStarted()) {
+                this._onStart();
+            }
+            this.finish();
+            this._onDestroyFns.forEach(function (fn) { return fn(); });
+            this._onDestroyFns = [];
+        }
+    };
+    NoopAnimationPlayer.prototype.reset = function () { };
+    NoopAnimationPlayer.prototype.setPosition = function (p) { };
+    NoopAnimationPlayer.prototype.getPosition = function () { return 0; };
+    /* @internal */
+    NoopAnimationPlayer.prototype.triggerCallback = function (phaseName) {
+        var methods = phaseName == 'start' ? this._onStartFns : this._onDoneFns;
+        methods.forEach(function (fn) { return fn(); });
+        methods.length = 0;
+    };
+    return NoopAnimationPlayer;
+}());
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+var AnimationGroupPlayer = /** @class */ (function () {
+    function AnimationGroupPlayer(_players) {
+        var _this = this;
+        this._onDoneFns = [];
+        this._onStartFns = [];
+        this._finished = false;
+        this._started = false;
+        this._destroyed = false;
+        this._onDestroyFns = [];
+        this.parentPlayer = null;
+        this.totalTime = 0;
+        this.players = _players;
+        var doneCount = 0;
+        var destroyCount = 0;
+        var startCount = 0;
+        var total = this.players.length;
+        if (total == 0) {
+            scheduleMicroTask(function () { return _this._onFinish(); });
+        }
+        else {
+            this.players.forEach(function (player) {
+                player.onDone(function () {
+                    if (++doneCount == total) {
+                        _this._onFinish();
+                    }
+                });
+                player.onDestroy(function () {
+                    if (++destroyCount == total) {
+                        _this._onDestroy();
+                    }
+                });
+                player.onStart(function () {
+                    if (++startCount == total) {
+                        _this._onStart();
+                    }
+                });
+            });
+        }
+        this.totalTime = this.players.reduce(function (time, player) { return Math.max(time, player.totalTime); }, 0);
+    }
+    AnimationGroupPlayer.prototype._onFinish = function () {
+        if (!this._finished) {
+            this._finished = true;
+            this._onDoneFns.forEach(function (fn) { return fn(); });
+            this._onDoneFns = [];
+        }
+    };
+    AnimationGroupPlayer.prototype.init = function () { this.players.forEach(function (player) { return player.init(); }); };
+    AnimationGroupPlayer.prototype.onStart = function (fn) { this._onStartFns.push(fn); };
+    AnimationGroupPlayer.prototype._onStart = function () {
+        if (!this.hasStarted()) {
+            this._started = true;
+            this._onStartFns.forEach(function (fn) { return fn(); });
+            this._onStartFns = [];
+        }
+    };
+    AnimationGroupPlayer.prototype.onDone = function (fn) { this._onDoneFns.push(fn); };
+    AnimationGroupPlayer.prototype.onDestroy = function (fn) { this._onDestroyFns.push(fn); };
+    AnimationGroupPlayer.prototype.hasStarted = function () { return this._started; };
+    AnimationGroupPlayer.prototype.play = function () {
+        if (!this.parentPlayer) {
+            this.init();
+        }
+        this._onStart();
+        this.players.forEach(function (player) { return player.play(); });
+    };
+    AnimationGroupPlayer.prototype.pause = function () { this.players.forEach(function (player) { return player.pause(); }); };
+    AnimationGroupPlayer.prototype.restart = function () { this.players.forEach(function (player) { return player.restart(); }); };
+    AnimationGroupPlayer.prototype.finish = function () {
+        this._onFinish();
+        this.players.forEach(function (player) { return player.finish(); });
+    };
+    AnimationGroupPlayer.prototype.destroy = function () { this._onDestroy(); };
+    AnimationGroupPlayer.prototype._onDestroy = function () {
+        if (!this._destroyed) {
+            this._destroyed = true;
+            this._onFinish();
+            this.players.forEach(function (player) { return player.destroy(); });
+            this._onDestroyFns.forEach(function (fn) { return fn(); });
+            this._onDestroyFns = [];
+        }
+    };
+    AnimationGroupPlayer.prototype.reset = function () {
+        this.players.forEach(function (player) { return player.reset(); });
+        this._destroyed = false;
+        this._finished = false;
+        this._started = false;
+    };
+    AnimationGroupPlayer.prototype.setPosition = function (p) {
+        var timeAtPosition = p * this.totalTime;
+        this.players.forEach(function (player) {
+            var position = player.totalTime ? Math.min(1, timeAtPosition / player.totalTime) : 1;
+            player.setPosition(position);
+        });
+    };
+    AnimationGroupPlayer.prototype.getPosition = function () {
+        var min = 0;
+        this.players.forEach(function (player) {
+            var p = player.getPosition();
+            min = Math.min(p, min);
+        });
+        return min;
+    };
+    AnimationGroupPlayer.prototype.beforeDestroy = function () {
+        this.players.forEach(function (player) {
+            if (player.beforeDestroy) {
+                player.beforeDestroy();
+            }
+        });
+    };
+    /* @internal */
+    AnimationGroupPlayer.prototype.triggerCallback = function (phaseName) {
+        var methods = phaseName == 'start' ? this._onStartFns : this._onDoneFns;
+        methods.forEach(function (fn) { return fn(); });
+        methods.length = 0;
+    };
+    return AnimationGroupPlayer;
 }());
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
-var AmexioVideoPlayerComponent = /** @class */ (function () {
-    function AmexioVideoPlayerComponent() {
-        this.currentVolume = 1;
+var AmexiodialoguePaneComponent = /** @class */ (function () {
+    function AmexiodialoguePaneComponent(renderer) {
+        this.renderer = renderer;
+        /*
+           Properties
+           name : button-size
+           datatype :  string
+           version : 4.2 onwards
+           default :
+           description : Different Sizes of Buttons availabe : large, default, small & xsmall
+           */
+        this.buttonsize = 'large' || 'small' || 'default' || 'xsmall';
+        this.showChange = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+           Events
+           name : actionStatus
+           datatype :  none
+           version : none
+           default : none
+           description : Fire when click on yes or no button
+           */
+        this.actionStatus = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+           Events
+           name : onSuccess
+           datatype :  none
+           version : none
+           default : none
+           description : Fire when click on yes or no button
+           */
+        this.onSuccess = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+           Events
+           name : onFailure
+           datatype :  none
+           version : none
+           default : none
+           description : Fire when click on yes or no button
+           */
+        this.onCancel = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+           Events
+           name : close
+           datatype :  none
+           version : none
+           default : none
+           description : Fire when user close dialogue
+           */
+        this.close = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.value = 0;
+        this.closable = true;
+        this.secondaryactionlabel = 'Cancel';
+        this.primaryactionlabel = 'Ok';
+        this.custom = false;
+        this.buttonsize = 'default';
+        this.buttontype = 'theme-color';
+        this.closeonescape = true;
     }
     /**
      * @return {?}
      */
-    AmexioVideoPlayerComponent.prototype.ngOnInit = /**
+    AmexiodialoguePaneComponent.prototype.ngOnInit = /**
      * @return {?}
      */
     function () {
+        if (this.showdialogue) {
+            this.show = this.showdialogue;
+        }
+        if (this.footeralign == null) {
+            this.footeralign = 'right';
+        }
+        if (this.contentalign == null || this.contentalign === '') {
+            this.contentalign = 'center';
+        }
+        if (this.type == null) {
+            this.type = 'confirm';
+        }
+        this.defaultStyle = this.getDefaultStyle();
+        this.buttontype = this.getStyle();
+        this.componentId = this.createCompId('dialog', this.type);
     };
     /**
-     * @param {?} event
      * @return {?}
      */
-    AmexioVideoPlayerComponent.prototype.onVolumeChange = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        this.videoPlayer.nativeElement.volume = this.currentVolume = event.target.value;
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.updateMuteUI = /**
+    AmexiodialoguePaneComponent.prototype.ngAfterContentInit = /**
      * @return {?}
      */
     function () {
-        if (this.videoPlayer.nativeElement.muted) {
-            this.isMuted = true;
+        if (this.amexioFooter) {
+            this.amexioFooter.toArray().forEach(function (footer) {
+                footer.footer = true;
+            });
+        }
+    };
+    /**
+     * @param {?} changes
+     * @return {?}
+     */
+    AmexiodialoguePaneComponent.prototype.ngOnChanges = /**
+     * @param {?} changes
+     * @return {?}
+     */
+    function (changes) {
+        if (changes['show']) {
+            this.show = changes["show"].currentValue;
+            this.escapeMethod();
+        }
+        else if (changes['showdialogue']) {
+            this.show = changes["showdialogue"].currentValue;
+            this.escapeMethod();
+        }
+    };
+    // Method called on escape
+    /**
+     * @return {?}
+     */
+    AmexiodialoguePaneComponent.prototype.escapeMethod = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.show && this.closeonescape) {
+            this.globalListenFunc = this.renderer.listen('document', 'keyup.esc', function (e) {
+                _this.showdialogue = false;
+                _this.show = false;
+                _this.showChange.emit(false);
+            });
+        }
+        else if (this.globalListenFunc) {
+            this.globalListenFunc();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexiodialoguePaneComponent.prototype.onCloseClick = /**
+     * @return {?}
+     */
+    function () {
+        if (this.closable) {
+            this.showdialogue = false;
+            this.show = false;
+            this.showChange.emit(false);
+            this.close.emit(false);
+        }
+    };
+    /**
+     * @param {?} v
+     * @return {?}
+     */
+    AmexiodialoguePaneComponent.prototype.getStatus = /**
+     * @param {?} v
+     * @return {?}
+     */
+    function (v) {
+        this.onCloseClick();
+        this.actionStatus.emit(v);
+        if (v === 'ok') {
+            this.onSuccess.emit(v);
         }
         else {
-            this.isMuted = false;
+            this.onCancel.emit(v);
         }
     };
     /**
      * @return {?}
      */
-    AmexioVideoPlayerComponent.prototype.onPlay = /**
+    AmexiodialoguePaneComponent.prototype.getDefaultStyle = /**
      * @return {?}
      */
     function () {
-        if (!this.isPlaying) {
-            this.videoPlayer.nativeElement.play();
-            this.isPlaying = true;
+        if (this.materialDesign) {
+            return 'transparent';
         }
         else {
-            this.videoPlayer.nativeElement.pause();
-            this.isPlaying = false;
+            return 'defualt';
         }
     };
     /**
      * @return {?}
      */
-    AmexioVideoPlayerComponent.prototype.onTimeUpdate = /**
+    AmexiodialoguePaneComponent.prototype.getStyle = /**
      * @return {?}
      */
     function () {
-        var /** @type {?} */ percentage = Math.floor((100 / this.videoPlayer.nativeElement.duration) * this.videoPlayer.nativeElement.currentTime);
-        this.progressBar.nativeElement.value = percentage;
-        // Update the progress bar's text (for browsers that don't support the progress element)
-        this.progressBar.nativeElement.innerHTML = percentage + '% played';
-        if (percentage === 100) {
-            this.isPlaying = false;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.replayVideo = /**
-     * @return {?}
-     */
-    function () {
-        this.resetPlayer();
-        this.onPlay();
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.resetPlayer = /**
-     * @return {?}
-     */
-    function () {
-        this.videoPlayer.nativeElement.pause();
-        this.progressBar.nativeElement.value = 0;
-        this.videoPlayer.nativeElement.currentTime = 0;
-        this.isPlaying = false;
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.onFullScreen = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ elem = this.videoPlayer.nativeElement;
-        if (elem.requestFullscreen) {
-            elem.requestFullscreen();
-        }
-        else if (elem.mozRequestFullScreen) {
-            elem.mozRequestFullScreen();
-        }
-        else if (elem.webkitRequestFullscreen) {
-            elem.webkitRequestFullscreen();
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVideoPlayerComponent.prototype.onMute = /**
-     * @return {?}
-     */
-    function () {
-        if (!this.isMuted) {
-            this.videoPlayer.nativeElement.muted = true;
-            this.isMuted = true;
-            this.volumebar.nativeElement.value = 0;
+        if (this.materialDesign) {
+            this.buttontype = 'transparent';
+            return this.buttontype;
         }
         else {
-            this.videoPlayer.nativeElement.muted = false;
-            this.isMuted = false;
-            this.volumebar.nativeElement.value = this.currentVolume;
+            return this.buttontype;
         }
     };
-    AmexioVideoPlayerComponent.decorators = [
+    /**
+     * @return {?}
+     */
+    AmexiodialoguePaneComponent.prototype.ngOnDestroy = /**
+     * @return {?}
+     */
+    function () {
+        if (this.globalListenFunc) {
+            this.globalListenFunc();
+        }
+    };
+    /**
+     * @param {?} inputType
+     * @param {?} name
+     * @return {?}
+     */
+    AmexiodialoguePaneComponent.prototype.createCompId = /**
+     * @param {?} inputType
+     * @param {?} name
+     * @return {?}
+     */
+    function (inputType, name) {
+        return inputType + '_' + name + '_' + Math.floor(Math.random() * 1000 + 999);
+    };
+    AmexiodialoguePaneComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-video-player',
-                    template: "\n\n      <video [style.width.px]=\"width\" controls>\n          <source [attr.src]=\"path\">\n          Your browser does not support HTML5 video.\n      </video>\n  ",
-                    styles: ["\n    video{width:100%;height:100%;background:#000}progress{color:#4682b4;font-size:12px;width:220px;height:16px;border:none;margin-right:10px;background:#434343;border-radius:9px;vertical-align:middle}progress::-moz-progress-bar{color:#4682b4;background:#434343}progress[value]::-webkit-progress-bar{background-color:#434343;border-radius:2px;-webkit-box-shadow:0 2px 5px rgba(0,0,0,.25) inset;box-shadow:inset 0 2px 5px rgba(0,0,0,.25)}progress[value]::-webkit-progress-value{background-color:#4682b4}@media screen and (max-width:600px){video{border:1px solid #4682b4;width:98%;height:231px;background:#000}}\n  "],
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioVideoPlayerComponent.ctorParameters = function () { return []; };
-    AmexioVideoPlayerComponent.propDecorators = {
-        path: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        extension: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        videoPlayer: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['videoRef',] }],
-        progressBar: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['progressbar',] }],
-        volumebar: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['volumebar',] }]
-    };
-    return AmexioVideoPlayerComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var MEDIA_COMPONENTS = [
-    AmexioVideoPlayerComponent,
-    AmexioImageComponent,
-];
-var AmexioMediaModule = /** @class */ (function () {
-    function AmexioMediaModule() {
-    }
-    /**
-     * @return {?}
-     */
-    AmexioMediaModule.forRoot = /**
-     * @return {?}
-     */
-    function () {
-        return {
-            ngModule: AmexioMediaModule,
-            providers: [CommonDataService, DeviceQueryService],
-        };
-    };
-    AmexioMediaModule.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"], args: [{
-                    imports: [
-                        _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
-                        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
-                        HttpClientModule,
-                        AmexioCommonModule,
+                    selector: 'amexio-dialogue',
+                    template: "\n    <div class=\"root-window\" *ngIf=\"show\">\n        <!-- Generate BG shade for below modal -->\n    </div>\n\n    <div class=\"dialogue-sm\" [@animation]=\"{value: 'visible', params: {transitionParams: transitionOptions}}\" *ngIf=\"show\">\n        <div role=\"dialog\" attr.aria-labelledby=\"componentId\" class=\"dialogue-content\">\n            <header [ngClass]=\"{'dialogue-material-design':materialDesign ,'dialogue-header':!materialDesign }\">\n                <div id=\"{{componentId}}\" tabindex=\"1\" class=\"dialogue-table\">\n                    <div class=\"tablerow\">\n                        <div class=\"tablecol\">\n                            {{title}}\n                        </div>\n                        <div tabindex=\"1\" aria-label=\"close button\" class=\"tablecol float-right\">\n                            <div *ngIf=\"closable\" class=\"icon-style\">\n                                <amexio-c-icon [key]=\"'window_close'\" (onClick)=\"onCloseClick()\"></amexio-c-icon>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </header>\n            <div class=\"dialogue-middle\" [ngStyle]=\"{'text-align':custom ? contentalign :'center'}\">\n                <span role=\"dialog\" attr.aria-labelledby=\"componentId\" class=\"dialogue-icon\">\n            <span  [ngClass]=\"{'dialogue-success': messagetype  == 'help','dialogue-danger':messagetype  == 'error',\n                          'dialogue-warning': messagetype  == 'warning'}\"\n              *ngIf=\"messagetype  || messagetype  != '' \">\n              <amexio-c-icon [key]=\"'window-msgtype-'+ messagetype \"></amexio-c-icon>\n            </span>\n                <ng-container *ngIf=\"!custom\">\n                    <span id=\"{{componentId}}\" tabindex=\"1\" class=\"dialogue-message\">\n                {{message}}\n              </span>\n                </ng-container>\n                </span>\n                <ng-container *ngIf=\"custom\">\n                    <ng-content select=\"amexio-body\"></ng-content>\n                </ng-container>\n\n            </div>\n            <footer *ngIf=\"custom\" class=\"dialogue-footer\" [ngClass]=\"{'flex-start':(footeralign=='left'),'flex-end':(footeralign=='right'),'flex-center':(footeralign=='center')}\">\n                <ng-content select=\"amexio-action\"></ng-content>\n            </footer>\n\n            <footer *ngIf=\"!custom\" class=\"dialogue-footer\" [ngClass]=\"{'dialogue-material-design-footer':materialDesign ,\n                            'dialogue-footer':!materialDesign, 'flex-start':(footeralign=='left'),\n                            'flex-end':(footeralign=='right'),'flex-center':(footeralign=='center')}\">\n                <amexio-button *ngIf=\"type =='confirm'\" [size]=\"buttonsize\" [label]=\"secondaryactionlabel\" [type]=\"defaultStyle\" (onClick)=\"getStatus('cancel')\"></amexio-button>\n                <div class=\"custom-btn\">\n                    <amexio-button *ngIf=\"type =='confirm' || type == 'alert'\" [size]=\"buttonsize\" [label]=\"primaryactionlabel\" [ngStyle]=\"{'color':materialDesign ? 'blue':'white'}\" [type]=\"buttontype\" (onClick)=\"getStatus('ok')\">\n                    </amexio-button>\n                </div>\n\n            </footer>\n        </div>\n    </div>\n  ",
+                    animations: [
+                        trigger('animation', [
+                            state('void', style({
+                                transform: 'translate3d(0, 25%, 0) scale(0.9)',
+                                opacity: 0,
+                            })),
+                            state('visible', style({
+                                transform: 'none',
+                                opacity: 1,
+                            })),
+                            transition('* => *', animate('400ms cubic-bezier(0.25, 0.8, 0.25, 1)')),
+                        ]),
                     ],
-                    exports: MEDIA_COMPONENTS,
-                    declarations: MEDIA_COMPONENTS,
-                    providers: [CommonDataService, DeviceQueryService, IconLoaderService],
                 },] },
     ];
-    return AmexioMediaModule;
+    /** @nocollapse */
+    AmexiodialoguePaneComponent.ctorParameters = function () { return [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }
+    ]; };
+    AmexiodialoguePaneComponent.propDecorators = {
+        closeonescape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['close-on-escape',] }],
+        buttontype: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['button-type',] }],
+        buttonsize: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['button-size',] }],
+        footeralign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['footer-align',] }],
+        contentalign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['content-align',] }],
+        showdialogue: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-dialogue',] }],
+        show: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        showChange: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        message: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        custom: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        primaryactionlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['primary-action-label',] }],
+        secondaryactionlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['secondary-action-label',] }],
+        messagetype: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['message-type',] }],
+        materialDesign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['material-design',] }],
+        actionStatus: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        onSuccess: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        onCancel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        close: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        amexioFooter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFooterComponent,] }]
+    };
+    return AmexiodialoguePaneComponent;
 }());
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*     http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*Created by ashwini on 01/03/19.
-*/
-var LifeCycleBaseComponent = /** @class */ (function () {
-    function LifeCycleBaseComponent() {
-        this.initiated = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.ready = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.destroy = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+var AmexioFieldSetComponent = /** @class */ (function () {
+    function AmexioFieldSetComponent() {
     }
     /**
      * @return {?}
      */
-    LifeCycleBaseComponent.prototype.ngOnInit = /**
+    AmexioFieldSetComponent.prototype.ngOnInit = /**
      * @return {?}
      */
     function () {
-        if (this.enableLifeCycleEvents === 'all' || this.enableLifeCycleEvents === 'init') {
-            this.lifeCycleInit();
+        if (!this.collapsible) {
+            this.isActive = true;
         }
     };
     /**
      * @return {?}
      */
-    LifeCycleBaseComponent.prototype.ngAfterViewInit = /**
+    AmexioFieldSetComponent.prototype.onLegendClick = /**
      * @return {?}
      */
     function () {
-        if (this.enableLifeCycleEvents === 'all' || this.enableLifeCycleEvents === 'ready') {
-            this.lifeCycleAfterViewInit();
+        if (this.collapsible) {
+            this.isActive = !this.isActive;
         }
     };
-    /**
-     * @return {?}
-     */
-    LifeCycleBaseComponent.prototype.ngOnDestroy = /**
-     * @return {?}
-     */
-    function () {
-        if (this.enableLifeCycleEvents === 'all' || this.enableLifeCycleEvents === 'destroy') {
-            this.lifeCycleDestroy();
-        }
+    AmexioFieldSetComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-fieldset',
+                    template: "\n    <fieldset>\n        <legend tabindex=\"1\" (keyup.enter)=\"onLegendClick()\" (keyup.space)=\"onLegendClick()\" role=\"heading\" aria-expanded=\" true\"\n            *ngIf=\"(title && title.length>0) || collapsible \" class=\"collapsible-legend\" (click)=\"onLegendClick()\">\n            <ng-container *ngIf=\"!collapsible\">\n                {{title}}\n            </ng-container>\n            <ng-container *ngIf=\"collapsible && !isActive\">\n                <amexio-c-icon [attr.aria-exapnded]=\"isActive\" style=\"padding-right:5px\" key=\"fieldset_expand\"></amexio-c-icon>{{title}}\n            </ng-container>\n            <ng-container *ngIf=\"collapsible && isActive\">\n                <amexio-c-icon style=\"padding-right:5px\" key=\"fieldset_collpase\"></amexio-c-icon>{{title}}\n            </ng-container>\n        </legend>\n        <div class=\"collapsible-fieldset\" [@fieldsetContent]=\"!isActive ? {value: 'hidden', params: {transitionParams: '400ms cubic-bezier(0.86, 0, 0.07, 1)'}} : {value: 'visible', params: {transitionParams: '400ms cubic-bezier(0.86, 0, 0.07, 1)'}}\"\n        [ngStyle]=\"{'overflow': isActive ? '': 'hidden'}\">\n            <ng-content></ng-content>\n        </div>\n    </fieldset> \n  ",
+                    animations: [
+                        trigger('fieldsetContent', [
+                            state('hidden', style({
+                                height: '0px',
+                            })),
+                            state('visible', style({
+                                height: '*',
+                            })),
+                            transition('visible => hidden', animate('400ms cubic-bezier(0.86, 0, 0.07, 1)')),
+                            transition('hidden => visible', animate('400ms cubic-bezier(0.86, 0, 0.07, 1)')),
+                        ]),
+                    ],
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioFieldSetComponent.ctorParameters = function () { return []; };
+    AmexioFieldSetComponent.propDecorators = {
+        collapsible: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
     };
-    /**
-     * @return {?}
-     */
-    LifeCycleBaseComponent.prototype.lifeCycleInit = /**
-     * @return {?}
-     */
-    function () {
-        this.initiated.emit();
-    };
-    /**
-     * @return {?}
-     */
-    LifeCycleBaseComponent.prototype.lifeCycleAfterViewInit = /**
-     * @return {?}
-     */
-    function () {
-        this.ready.emit();
-    };
-    /**
-     * @return {?}
-     */
-    LifeCycleBaseComponent.prototype.lifeCycleDestroy = /**
-     * @return {?}
-     */
-    function () {
-        this.destroy.emit();
-    };
-    LifeCycleBaseComponent.propDecorators = {
-        enableLifeCycleEvents: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-lifecycle-events',] }],
-        initiated: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        ready: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        destroy: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
-    };
-    return LifeCycleBaseComponent;
+    return AmexioFieldSetComponent;
 }());
 
 /**
@@ -24635,45 +25245,449 @@ var AmexioButtonGroupComponent = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var AmexioFormActionCEComponent = /** @class */ (function () {
-    function AmexioFormActionCEComponent(formBuilder) {
-        this.formBuilder = formBuilder;
-        this.enableaction = false;
-        this.isFormValid = false;
-        this.showDialogue = false;
-        this.errorMsgArray = [];
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* Component Name : Amexio Form Action
+* Component Selector : <amexio-form-action>
+* Component Description : Amexio Form actions contains the action items within form
+*/
+var AmexioFormActionComponent = /** @class */ (function () {
+    function AmexioFormActionComponent() {
+        this.buttons = [];
     }
     /**
      * @return {?}
      */
-    AmexioFormActionCEComponent.prototype.ngAfterContentInit = /**
+    AmexioFormActionComponent.prototype.ngOnInit = /**
      * @return {?}
      */
     function () {
     };
     /**
-     * @param {?} event
      * @return {?}
      */
-    AmexioFormActionCEComponent.prototype.showErrors = /**
-     * @param {?} event
+    AmexioFormActionComponent.prototype.ngAfterViewInit = /**
      * @return {?}
      */
-    function (event) {
-        this.errorMsgArray = [];
-        this.addErrorMsg();
-        this.showDialogue = !this.isFormValid;
-        if (!this.isFormValid) {
-            this.showDialogue = true;
+    function () {
+        if (this.btns.length > 0) {
+            this.buttons = this.btns.toArray();
         }
-        else {
-            this.showDialogue = false;
+        else if (this.btngrp.length > 0) {
+            this.buttons = this.btngrp.toArray()[0].buttons;
+        }
+    };
+    AmexioFormActionComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-form-action', template: '<ng-content></ng-content>',
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioFormActionComponent.ctorParameters = function () { return []; };
+    AmexioFormActionComponent.propDecorators = {
+        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        btns: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonComponent,] }],
+        btngrp: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonGroupComponent,] }]
+    };
+    return AmexioFormActionComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+var AmexioFormBodyComponent = /** @class */ (function () {
+    function AmexioFormBodyComponent() {
+    }
+    /**
+     * @return {?}
+     */
+    AmexioFormBodyComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    AmexioFormBodyComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-form-body', template: '<ng-content></ng-content>',
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioFormBodyComponent.ctorParameters = function () { return []; };
+    AmexioFormBodyComponent.propDecorators = {
+        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
+    };
+    return AmexioFormBodyComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*Created by ashwini on 01/03/19.
+*/
+var LifeCycleBaseComponent = /** @class */ (function () {
+    function LifeCycleBaseComponent() {
+        this.initiated = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.ready = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.destroy = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+    }
+    /**
+     * @return {?}
+     */
+    LifeCycleBaseComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        if (this.enableLifeCycleEvents === 'all' || this.enableLifeCycleEvents === 'init') {
+            this.lifeCycleInit();
         }
     };
     /**
      * @return {?}
      */
-    AmexioFormActionCEComponent.prototype.closeDialogue = /**
+    LifeCycleBaseComponent.prototype.ngAfterViewInit = /**
+     * @return {?}
+     */
+    function () {
+        if (this.enableLifeCycleEvents === 'all' || this.enableLifeCycleEvents === 'ready') {
+            this.lifeCycleAfterViewInit();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    LifeCycleBaseComponent.prototype.ngOnDestroy = /**
+     * @return {?}
+     */
+    function () {
+        if (this.enableLifeCycleEvents === 'all' || this.enableLifeCycleEvents === 'destroy') {
+            this.lifeCycleDestroy();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    LifeCycleBaseComponent.prototype.lifeCycleInit = /**
+     * @return {?}
+     */
+    function () {
+        this.initiated.emit();
+    };
+    /**
+     * @return {?}
+     */
+    LifeCycleBaseComponent.prototype.lifeCycleAfterViewInit = /**
+     * @return {?}
+     */
+    function () {
+        this.ready.emit();
+    };
+    /**
+     * @return {?}
+     */
+    LifeCycleBaseComponent.prototype.lifeCycleDestroy = /**
+     * @return {?}
+     */
+    function () {
+        this.destroy.emit();
+    };
+    LifeCycleBaseComponent.propDecorators = {
+        enableLifeCycleEvents: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-lifecycle-events',] }],
+        initiated: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        ready: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        destroy: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    };
+    return LifeCycleBaseComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioFormGroupDirective = /** @class */ (function () {
+    function AmexioFormGroupDirective() {
+    }
+    /**
+     * @return {?}
+     */
+    AmexioFormGroupDirective.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        this.modelsarray = this.models.toArray();
+    };
+    AmexioFormGroupDirective.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"], args: [{
+                    selector: '[form-group]',
+                },] },
+    ];
+    AmexioFormGroupDirective.propDecorators = {
+        group: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['form-group',] }],
+        models: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"], { descendants: true },] }]
+    };
+    return AmexioFormGroupDirective;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioFormHeaderComponent = /** @class */ (function () {
+    function AmexioFormHeaderComponent() {
+    }
+    /**
+     * @return {?}
+     */
+    AmexioFormHeaderComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    AmexioFormHeaderComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-form-header', template: "\n        <ng-content></ng-content>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioFormHeaderComponent.ctorParameters = function () { return []; };
+    AmexioFormHeaderComponent.propDecorators = {
+        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
+    };
+    return AmexioFormHeaderComponent;
+}());
+
+var __extends$1 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+var AmexioFormComponent = /** @class */ (function (_super) {
+    __extends$1(AmexioFormComponent, _super);
+    function AmexioFormComponent(formBuilder) {
+        var _this = _super.call(this) || this;
+        _this.formBuilder = formBuilder;
+        /*
+        Properties
+        name : show-error
+        datatype : boolean
+        version : 4.2 onwards
+        default : false
+        description : Flag to show form invalid error messages
+        */
+        _this.showError = false;
+        /*
+        Events
+        name : showErrorMsg
+        datatype : any
+        version : none
+        default :
+        description : Event fired if showError msg info button is clicked
+        */
+        _this.showErrorMsg = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.componentError = [];
+        _this.checkForm = false;
+        _this.isFormValid = false;
+        _this.showDialogue = false;
+        _this.headeralign = 'left';
+        _this.footeralign = 'right';
+        _this.errorMsgArray = [];
+        return _this;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioFormComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        // FOR HEADER PADING
+        this.headerComponentList = this.amexioHeader.toArray();
+        this.headerComponentList.forEach(function (item, currentIndex) {
+            if (item.padding) {
+                _this.headerPadding = item.padding;
+            }
+        });
+        // FOR BODY PADDING
+        this.bodyComponentList = this.amexioBody.toArray();
+        this.bodyComponentList.forEach(function (item, currentIndex) {
+            if (item.padding) {
+                _this.bodyPadding = item.padding;
+            }
+        });
+        // FOR FOOTER PADDING
+        this.footerComponentList = this.amexioFooter.toArray();
+        this.footerComponentList.forEach(function (item, currentIndex) {
+            if (item.padding) {
+                _this.footerPadding = item.padding;
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioFormComponent.prototype.onResize = /**
+     * @return {?}
+     */
+    function () {
+        if (this.bodyheight) {
+            var /** @type {?} */ h = (window.innerHeight / 100) * this.bodyheight;
+            if (this.formHeader && this.formHeader.nativeElement && this.formHeader.nativeElement.offsetHeight) {
+                h = h - this.formHeader.nativeElement.offsetHeight;
+            }
+            if (this.formFooter && this.formFooter.nativeElement && this.formFooter.nativeElement.offsetHeight) {
+                h = h - this.formFooter.nativeElement.offsetHeight;
+            }
+            if (this.bodyheight === 100) {
+                h = h - 40;
+            }
+            this.minHeight = h;
+            this.height = h;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioFormComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.buttons = [];
+        _super.prototype.ngOnInit.call(this);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioFormComponent.prototype.ngAfterViewInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        _super.prototype.ngAfterViewInit.call(this);
+        var /** @type {?} */ ngContentModels = this.models.toArray();
+        var /** @type {?} */ innerModelArray = [];
+        this.fb.forEach(function (fbnode) {
+            var /** @type {?} */ modelarray = fbnode.modelsarray;
+            var /** @type {?} */ fgc = {};
+            modelarray.forEach(function (m) {
+                fgc[m.name] = m.control;
+                innerModelArray.push(m);
+            });
+            var /** @type {?} */ grp = _this.formBuilder.group(fgc);
+            _this.form.form.registerControl(fbnode.group, grp);
+        });
+        ngContentModels.forEach(function (model) {
+            if (!_this.isFieldPresentInParentAndChildBoth(innerModelArray, model.name)) {
+                if (!model.name || model.name === null) {
+                    model.name = model.valueAccessor['name'];
+                }
+                _this.form.control.registerControl(model.name, model.control);
+            }
+        });
+        this.clearTimeout = setTimeout(function () {
+            _this.form.form.updateValueAndValidity();
+        }, 100);
+        this.btns.toArray().forEach(function (btnCom) {
+            if ((btnCom.formbind === _this.fname) && !btnCom.disabled) {
+                _this.buttons.push(btnCom);
+            }
+        });
+        this.validateForm();
+        this.onResize();
+    };
+    /**
+     * @param {?} innerModelArray
+     * @param {?} name
+     * @return {?}
+     */
+    AmexioFormComponent.prototype.isFieldPresentInParentAndChildBoth = /**
+     * @param {?} innerModelArray
+     * @param {?} name
+     * @return {?}
+     */
+    function (innerModelArray, name) {
+        var /** @type {?} */ isPresent = false;
+        innerModelArray.forEach(function (innerModel) {
+            if (name === innerModel.name) {
+                isPresent = true;
+            }
+        });
+        return isPresent;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioFormComponent.prototype.closeDialogue = /**
      * @return {?}
      */
     function () {
@@ -24683,7 +25697,7 @@ var AmexioFormActionCEComponent = /** @class */ (function () {
     /**
      * @return {?}
      */
-    AmexioFormActionCEComponent.prototype.addErrorMsg = /**
+    AmexioFormComponent.prototype.addErrorMsg = /**
      * @return {?}
      */
     function () {
@@ -24698,140 +25712,122 @@ var AmexioFormActionCEComponent = /** @class */ (function () {
             }
         }
     };
+    // REMOVE OBJECT FROM ARRAY
     /**
-     * @param {?} form
-     * @param {?} formFlag
+     * @param {?} event
      * @return {?}
      */
-    AmexioFormActionCEComponent.prototype.getValidationForm = /**
-     * @param {?} form
-     * @param {?} formFlag
+    AmexioFormComponent.prototype.showErrors = /**
+     * @param {?} event
      * @return {?}
      */
-    function (form, formFlag) {
-        this.enableaction = true;
-        this.formFlag = formFlag;
-        this.form = form;
-    };
-    AmexioFormActionCEComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'form-action-ce',
-                    template: "\n        <ng-container *ngIf=\"enableaction\">  \n          <span  *ngIf=\"!form.valid\" style=\"padding-bottom:10px;position:relative\">\n                  <button class=\"button\" [attr.title]=\"'click'\" (click)=\"showErrors($event)\" [ngClass]=\"'button-warning button-small button-round'\">\n                              <span class=\"button-text\">\n                                <span style=\"padding-right: 5px;\" *ngIf=\"icon\">\n                                  <amexio-c-icon [customclass]=\"icon\" >\n                                  </amexio-c-icon>\n                                </span>\n          <span style=\"padding-right: 5px;\" *ngIf=\"loading\">\n                                  <amexio-c-icon key=\"button-loading-icon\"></amexio-c-icon>\n                                </span> ?\n          </span>\n          </button>\n          <amexio-dialogue class=\"dailogue-header-ce\" [(show)]=\"showDialogue\" [custom]=\"true\" [content-align]=\"'left'\" [closable]=\"false\"\n              [title]=\"'Invalid Fields'\" [type]=\"'confirm'\">\n\n              <amexio-body *ngFor=\"let msg of errorMsgArray let index=index\">\n                  <amexio-label>{{index+1}}) {{msg.label}}</amexio-label><br>\n              </amexio-body>\n\n              <amexio-action>\n                  <amexio-button type=\"primary\" (onClick)=\"closeDialogue()\" [label]=\"'OK'\">\n                  </amexio-button>\n              </amexio-action>\n          </amexio-dialogue>\n          </span>\n        </ng-container>  \n    ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioFormActionCEComponent.ctorParameters = function () { return [
-        { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }
-    ]; };
-    return AmexioFormActionCEComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioCardCEActionComponent = /** @class */ (function () {
-    function AmexioCardCEActionComponent(formBuilder) {
-        this.formBuilder = formBuilder;
-        this.align = '';
-        this.direction = 'row';
-        this.cclass = '';
-        this.formFlag = false;
-        this.showError = false;
-        this.buttons = [];
-        this.isFormValid = false;
-        this.showDialogue = false;
+    function (event) {
         this.errorMsgArray = [];
-    }
+        this.addErrorMsg();
+        this.showDialogue = !this.isFormValid;
+        if (!this.isFormValid) {
+            this.showDialogue = true;
+        }
+        else {
+            this.showDialogue = false;
+        }
+    };
+    // THIS METHOD IS USED FOR DISABLE BUTTON
     /**
      * @return {?}
      */
-    AmexioCardCEActionComponent.prototype.ngOnInit = /**
+    AmexioFormComponent.prototype.validateForm = /**
      * @return {?}
      */
     function () {
-        if (this.bordertop) {
-            this.cclass = 'card-action-border';
+        if (this.form && this.form.status === 'INVALID') {
+            this.disableButton(true);
         }
+        else {
+            this.disableButton(false);
+        }
+    };
+    /**
+     * @param {?} flag
+     * @return {?}
+     */
+    AmexioFormComponent.prototype.disableButton = /**
+     * @param {?} flag
+     * @return {?}
+     */
+    function (flag) {
+        this.buttons.forEach(function (btn) {
+            btn.disabled = flag;
+        });
     };
     /**
      * @return {?}
      */
-    AmexioCardCEActionComponent.prototype.ngAfterViewInit = /**
+    AmexioFormComponent.prototype.ngAfterContentChecked = /**
      * @return {?}
      */
     function () {
-        if (this.btns.length > 0) {
-            this.buttons = this.btns.toArray();
+        this.validateForm();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioFormComponent.prototype.findformStyleClass = /**
+     * @return {?}
+     */
+    function () {
+        if (this.headeralign === 'right') {
+            return 'flex-end';
         }
-        else if (this.btngrp.length > 0) {
-            this.buttons = this.btngrp.toArray()[0].buttons;
+        if (this.headeralign === 'left') {
+            return 'flex-start';
+        }
+        if (this.headeralign === 'center') {
+            return 'flex-center';
         }
     };
     /**
-     * @param {?} data
      * @return {?}
      */
-    AmexioCardCEActionComponent.prototype.checkFormValidation = /**
-     * @param {?} data
+    AmexioFormComponent.prototype.ngOnDestroy = /**
      * @return {?}
      */
-    function (data) {
-        if (this.formAction && data && this.formFlag) {
-            this.form = data;
-            this.formAction.getValidationForm(this.form, this.formFlag);
-        }
+    function () {
+        _super.prototype.ngOnDestroy.call(this);
+        clearTimeout(this.clearTimeout);
     };
-    AmexioCardCEActionComponent.decorators = [
+    AmexioFormComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-action-ce',
-                    template: "\n\n    <div   [ngStyle]=\"{'background': ' url(' + bgimage + ') center/cover no-repeat','height': height }\" [ngClass]=\"cclass\">\n        <div class=\"creative-footer\" [style.flex-direction]=\"direction\" [ngStyle]=\"{'color': color, 'background':background, 'justify-content': (align === 'start' || align === 'end') ? 'flex-'+align:align}\">\n            <ng-content></ng-content>\n            <form-action-ce *ngIf=\"(formFlag && showError)\"></form-action-ce>\n        </div>\n    </div>\n  ",
+                    selector: 'amexio-form',
+                    template: "\n    <form name=\"fname\" class=\"form-container form-group\" (window:resize)=\"onResize()\">\n\n        <header #formHeader class=\"form-header\" [style.padding]=\"headerPadding\" *ngIf=\"header\" [ngClass]=\"findformStyleClass()\">\n            <ng-content select=\"amexio-form-header\"></ng-content>\n        </header>\n\n        <div class=\"form-body formbody\" [style.padding]=\"bodyPadding\" [ngStyle]=\"{'height.px' : height,'overflow-y' : height!= null ? 'auto' : '','min-height.px' : minHeight}\">\n            <ng-content select=\"amexio-form-body\"></ng-content>\n        </div>\n\n        <footer #formFooter class=\"form-footer\" [style.padding]=\"footerPadding\" [ngClass]=\"{'flex-start':(footeralign=='left'),'flex-end':(footeralign=='right'),'flex-center':(footeralign=='center')}\">\n            <ng-content select=\"amexio-form-action\"></ng-content>\n            <br/>\n            <div *ngIf=\"!form.valid\" style=\"padding: 5px;\">\n                <button class=\"button\" [attr.title]=\"'click'\" (click)=\"showErrors($event)\" [ngClass]=\"'button-warning button-small button-round'\">\n                            <span class=\"button-text\">\n                              <span style=\"padding-right: 5px;\" *ngIf=\"icon\">\n                                <amexio-c-icon [customclass]=\"icon\" >\n                                </amexio-c-icon>\n                              </span>\n                              <span style=\"padding-right: 5px;\" *ngIf=\"loading\">\n                                <amexio-c-icon key=\"button-loading-icon\"></amexio-c-icon>\n                              </span>\n                              ?\n                            </span>\n                    </button>\n                <amexio-dialogue [close-on-escape]=\"true\" [(show)]=\"showDialogue\" [custom]=\"true\" [content-align]=\"'left'\" [closable]=\"false\" [title]=\"'Invalid Fields'\" [type]=\"'confirm'\">\n\n                    <amexio-body *ngFor=\"let msg of errorMsgArray let index=index\">\n                        <amexio-label>{{index+1}}) {{msg.label}}</amexio-label><br>\n                    </amexio-body>\n\n                    <amexio-action>\n                        <amexio-button type=\"primary\" (onClick)=\"closeDialogue()\" [label]=\"'OK'\">\n                        </amexio-button>\n                    </amexio-action>\n                </amexio-dialogue>\n            </div>\n        </footer>\n    </form>\n  ",
                 },] },
     ];
     /** @nocollapse */
-    AmexioCardCEActionComponent.ctorParameters = function () { return [
+    AmexioFormComponent.ctorParameters = function () { return [
         { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }
     ]; };
-    AmexioCardCEActionComponent.propDecorators = {
-        align: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['align',] }],
-        bgimage: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['bg-image',] }],
-        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['color',] }],
-        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background',] }],
-        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }],
-        bordertop: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['border-top',] }],
-        direction: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['direction',] }],
-        btns: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonComponent,] }],
-        btngrp: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonGroupComponent,] }],
-        formAction: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: [AmexioFormActionCEComponent,] }]
+    AmexioFormComponent.propDecorators = {
+        headeralign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['header-align',] }],
+        footeralign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['footer-align',] }],
+        fname: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['form-name',] }],
+        header: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['header',] }],
+        showError: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-error',] }],
+        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        minHeight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['min-height',] }],
+        bodyheight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['body-height',] }],
+        formHeader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['formHeader', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        formFooter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['formFooter', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        showErrorMsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        amexioHeader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFormHeaderComponent,] }],
+        amexioBody: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFormBodyComponent,] }],
+        amexioFooter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFormActionComponent,] }],
+        btns: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonComponent, { descendants: true },] }],
+        form: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgForm"],] }],
+        models: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"], { descendants: true },] }],
+        fb: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFormGroupDirective, { descendants: true },] }]
     };
-    return AmexioCardCEActionComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioCardCEBodyComponent = /** @class */ (function () {
-    function AmexioCardCEBodyComponent() {
-        this.cardclass = 'card-container-body';
-        this.align = '';
-    }
-    AmexioCardCEBodyComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-body-ce',
-                    template: "\n      <div [ngStyle]=\"{'justify-content': (align === 'start' || align === 'end') ? 'flex-'+align:align,'background': ' url(' + bgimage + ') center/cover no-repeat', 'color': color,'background-color':background, 'height': height }\">\n          <ng-content></ng-content>\n      </div>\n    ",
-                },] },
-    ];
-    AmexioCardCEBodyComponent.propDecorators = {
-        cardclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
-        align: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['align',] }],
-        bgimage: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['bg-image',] }],
-        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['color',] }],
-        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background',] }],
-        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }]
-    };
-    return AmexioCardCEBodyComponent;
-}());
+    return AmexioFormComponent;
+}(LifeCycleBaseComponent));
 
 var commonjsGlobal = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
@@ -32164,13 +33160,29 @@ var rxjs_6 = rxjs.BehaviorSubject;
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var AmexioCardCEHeaderComponent = /** @class */ (function () {
-    function AmexioCardCEHeaderComponent() {
-        this.align = '';
-        this.verticalalign = '';
-        this.direction = 'row';
-        this.applyThemeColor = false;
-        this.cclass = '';
+/*
+ * Copyright [2019] [Metamagic]
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * Created by pratik on 18/12/17.
+ */
+var AmexioHeaderComponent = /** @class */ (function () {
+    function AmexioHeaderComponent() {
+        this.className = 'modal-window-header';
+        this.jstyfy = 'space-between';
+        this.background = '';
+        this.color = '';
         this.closeable = false;
         this.maximize = false;
         this.isFullWindow = false;
@@ -32180,21 +33192,17 @@ var AmexioCardCEHeaderComponent = /** @class */ (function () {
     /**
      * @return {?}
      */
-    AmexioCardCEHeaderComponent.prototype.ngOnInit = /**
+    AmexioHeaderComponent.prototype.ngOnInit = /**
      * @return {?}
      */
     function () {
-        if (this.borderbottom) {
-            this.cclass = 'card-header-border';
-        }
-        this.setIconPosition();
     };
     /**
      * @param {?} maximize
      * @param {?} isFullWindow
      * @return {?}
      */
-    AmexioCardCEHeaderComponent.prototype.setMaximizeData = /**
+    AmexioHeaderComponent.prototype.setMaximizeData = /**
      * @param {?} maximize
      * @param {?} isFullWindow
      * @return {?}
@@ -32205,9 +33213,23 @@ var AmexioCardCEHeaderComponent = /** @class */ (function () {
         this.maximizeBehaiour.next(this.isFullWindow);
     };
     /**
+     * @param {?} materialDesign
      * @return {?}
      */
-    AmexioCardCEHeaderComponent.prototype.sizeChange = /**
+    AmexioHeaderComponent.prototype.setMaterialDesignStatus = /**
+     * @param {?} materialDesign
+     * @return {?}
+     */
+    function (materialDesign) {
+        if (materialDesign) {
+            this.background = 'white';
+            this.color = 'black';
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioHeaderComponent.prototype.sizeChange = /**
      * @return {?}
      */
     function () {
@@ -32217,249 +33239,30 @@ var AmexioCardCEHeaderComponent = /** @class */ (function () {
     /**
      * @return {?}
      */
-    AmexioCardCEHeaderComponent.prototype.onCloseClick = /**
+    AmexioHeaderComponent.prototype.onCloseClick = /**
      * @return {?}
      */
     function () {
         this.closeableBehaiour.next(false);
     };
-    /**
-     * @return {?}
-     */
-    AmexioCardCEHeaderComponent.prototype.setIconPosition = /**
-     * @return {?}
-     */
-    function () {
-        switch (this.verticalalign) {
-            case 'top': {
-                this.iconPosition = {
-                    top: '0',
-                    bottom: '',
-                };
-                break;
-            }
-            case 'center': {
-                this.iconPosition = {
-                    top: '',
-                    bottom: '',
-                };
-                break;
-            }
-            case 'bottom': {
-                this.iconPosition = {
-                    top: '',
-                    bottom: '0',
-                };
-                break;
-            }
-        }
-    };
-    AmexioCardCEHeaderComponent.decorators = [
+    AmexioHeaderComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-header-ce',
-                    template: "\n\n     <div  [ngClass]=\"cclass\" class=\"creative-header-div\" [ngStyle]=\"{'background': ' url(' + bgimage + ') center/cover no-repeat' }\">\n        <header  class=\"creative-header\" [style.flex-direction]=\"direction\"\n        [ngStyle]=\"{'justify-content': (align === 'start' || align === 'end') ? 'flex-'+align:align ,\n         'color': color,'background':background,'height': height}\"\n         [ngClass]=\"{'card-container-ce-theme-color': applyThemeColor}\"\n         >\n          \n                <ng-content></ng-content>\n            <span *ngIf=\"windowFlag\" class=\"creative-header-icon-div\" [ngStyle]=\"iconPosition\">\n                <amexio-c-icon class=\"cursor-style\" *ngIf=\"(isFullWindow && maximize )\" [key]=\"'window_maximize'\" (onClick)=\"sizeChange()\"></amexio-c-icon>\n                <amexio-c-icon class=\"cursor-style\" *ngIf=\"(!isFullWindow && maximize )\" [key]=\"'window_restore'\" (click)=\"sizeChange()\"></amexio-c-icon>\n                <amexio-c-icon class=\"cursor-style\" style=\"padding-left:5px;\" *ngIf=\"closeable\" [key]=\"'window_close'\" (onClick)=\"onCloseClick()\"></amexio-c-icon>\n             </span> \n        </header>\n    </div> \n \n \n \n  ",
+                    selector: 'amexio-header', template: "\n  <ng-content></ng-content>\n  <span>\n  <amexio-c-icon class=\"cursor-style\" *ngIf=\"(isFullWindow && maximize )\"\n  [key]=\"'window_maximize'\" (onClick)=\"sizeChange()\"></amexio-c-icon>\n  <amexio-c-icon class=\"cursor-style\" *ngIf=\"(!isFullWindow && maximize )\"\n  [key]=\"'window_restore'\" (click)=\"sizeChange()\"></amexio-c-icon>\n  <amexio-c-icon class=\"cursor-style\"\n  style = \"padding-left: 10px\"\n  *ngIf=\"closeable\" [key]=\"'window_close'\" (onClick)=\"onCloseClick()\"></amexio-c-icon>\n  </span>\n  ",
                     styles: [
                         "\n  .cursor-style {\n  cursor:pointer;\n  }\n  ",
                     ],
                 },] },
     ];
-    AmexioCardCEHeaderComponent.propDecorators = {
-        align: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['align',] }],
-        verticalalign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-align',] }],
-        bgimage: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['bg-image',] }],
-        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['color',] }],
-        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background',] }],
-        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }],
-        borderbottom: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['border-bottom',] }],
-        direction: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['direction',] }],
-        applyThemeColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['apply-theme-color',] }]
-    };
-    return AmexioCardCEHeaderComponent;
-}());
-
-var __extends$1 = (undefined && undefined.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioCardCEComponent = /** @class */ (function (_super) {
-    __extends$1(AmexioCardCEComponent, _super);
-    function AmexioCardCEComponent() {
-        var _this = _super.call(this) || this;
-        _this.windowFlag = false;
-        return _this;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioCardCEComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        if (!this.color) {
-            this.cclass = 'card-container-ce-color';
-        }
-        if (!this.background) {
-            this.cclass = this.cclass + ' card-container-ce-bg-color';
-        }
-        this.setWiderAndNarrower();
-        _super.prototype.ngOnInit.call(this);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCardCEComponent.prototype.ngAfterViewInit = /**
-     * @return {?}
-     */
-    function () {
-        _super.prototype.ngAfterViewInit.call(this);
-    };
-    // THIS METHOD CALLL FOR HEADER AND ACTION STYLE
-    /**
-     * @return {?}
-     */
-    AmexioCardCEComponent.prototype.setWiderAndNarrower = /**
-     * @return {?}
-     */
-    function () {
-        switch (this.styleType) {
-            case 'wider-header':
-                this.cclass = this.cclass + ' card-container-wider-header';
-                break;
-            case 'narrower-header':
-                this.cclass = this.cclass + ' card-container-narrower-header';
-                break;
-            case 'wider-action':
-                this.cclass = this.cclass + ' card-container-wider-action';
-                break;
-            case 'narrower-action':
-                this.cclass = this.cclass + ' card-container-narrower-action';
-                break;
-            case 'wider-all':
-                this.cclass = this.cclass + ' card-container-wider-header card-container-wider-action';
-                break;
-            case 'narrower-all':
-                this.cclass = this.cclass + ' card-container-narrower-header card-container-narrower-action';
-                break;
-            case 'wider-header-narrower-action':
-                this.cclass = this.cclass + ' card-container-wider-header card-container-narrower-action';
-                break;
-            case 'narrower-header-wider-action':
-                this.cclass = this.cclass + ' card-container-narrower-header card-container-wider-action';
-                break;
-            default:
-                break;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCardCEComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        if (this.AmexioCardCEHeaderQueryList) {
-            this.amexioCardHeaderList = this.AmexioCardCEHeaderQueryList.toArray();
-            
-        }
-        this.setCardAligementForAllInnerComponent();
-    };
-    // TO SET ALIGN TO ALL INNER COMPONENT IN CARD
-    /**
-     * @return {?}
-     */
-    AmexioCardCEComponent.prototype.setCardAligementForAllInnerComponent = /**
-     * @return {?}
-     */
-    function () {
-        this.amexioCardHeaderList = this.AmexioCardCEHeaderQueryList.toArray();
-        if (this.amexioCardHeaderList[0]) {
-            this.amexioCardHeaderList[0].windowFlag = false;
-        }
-        if (this.amexioCardHeaderList[0] !== undefined && !this.amexioCardHeaderList[0].align &&
-            this.amexioCardHeaderList[0].align.length > 0) {
-            this.amexioCardHeaderList[0].align = this.align;
-        }
-        this.amexioCardBodyList = this.AmexioCardCEBodyQueryList.toArray();
-        if (this.amexioCardBodyList[0] !== undefined && !this.amexioCardBodyList[0].align && this.amexioCardBodyList[0].align.length > 0) {
-            this.amexioCardBodyList[0].align = this.align;
-        }
-        this.amexioCardActionList = this.AmexioCardCEActionQueryList.toArray();
-        if (this.amexioCardActionList[0] !== undefined && !this.amexioCardActionList[0].align &&
-            this.amexioCardActionList[0].align.length > 0) {
-            this.amexioCardActionList[0].align = this.align;
-        }
-        else if (this.amexioCardActionList[0] !== undefined &&
-            this.amexioCardActionList[0].align === '') {
-            this.amexioCardActionList[0].align = 'end';
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCardCEComponent.prototype.ngOnDestroy = /**
-     * @return {?}
-     */
-    function () {
-        _super.prototype.ngOnDestroy.call(this);
-    };
-    AmexioCardCEComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-card-ce',
-                    template: "\n    <div style=\"height:100%;\" [ngStyle]=\"{'background': bgimage ? 'url(' + bgimage + ') center/cover no-repeat' : null}\" [ngClass]=\"cclass\">\n        <div class=\"card-container-ce\" [ngStyle]=\"{'justify-content': (align === 'start' || align === 'end') ? 'flex-'+align:align , 'color':color, 'background': background}\">\n            <ng-content></ng-content>\n            <div>\n            </div>\n  ",
-                },] },
-    ];
     /** @nocollapse */
-    AmexioCardCEComponent.ctorParameters = function () { return []; };
-    AmexioCardCEComponent.propDecorators = {
-        bgimage: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['bg-image',] }],
-        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['color',] }],
-        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background',] }],
-        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }],
-        align: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['align',] }],
-        styleType: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['style-type',] }],
-        AmexioCardCEHeaderQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEHeaderComponent,] }],
-        AmexioCardCEBodyQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEBodyComponent,] }],
-        AmexioCardCEActionQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEActionComponent,] }]
+    AmexioHeaderComponent.ctorParameters = function () { return []; };
+    AmexioHeaderComponent.propDecorators = {
+        className: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
+        jstyfy: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.justify-content',] }],
+        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.background',] }],
+        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.color',] }],
+        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
     };
-    return AmexioCardCEComponent;
-}(LifeCycleBaseComponent));
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioFormGroupDirective = /** @class */ (function () {
-    function AmexioFormGroupDirective() {
-    }
-    /**
-     * @return {?}
-     */
-    AmexioFormGroupDirective.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        this.modelsarray = this.models.toArray();
-    };
-    AmexioFormGroupDirective.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"], args: [{
-                    selector: '[form-group]',
-                },] },
-    ];
-    AmexioFormGroupDirective.propDecorators = {
-        group: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['form-group',] }],
-        models: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"], { descendants: true },] }]
-    };
-    return AmexioFormGroupDirective;
+    return AmexioHeaderComponent;
 }());
 
 var __extends$2 = (undefined && undefined.__extends) || (function () {
@@ -32476,664 +33279,339 @@ var __extends$2 = (undefined && undefined.__extends) || (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var AmexioFormCEComponent = /** @class */ (function (_super) {
-    __extends$2(AmexioFormCEComponent, _super);
-    function AmexioFormCEComponent(formBuilder) {
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*Created by pratik on 14/12/17.
+*/
+var AmexioPanelComponent = /** @class */ (function (_super) {
+    __extends$2(AmexioPanelComponent, _super);
+    function AmexioPanelComponent(renderer) {
         var _this = _super.call(this) || this;
-        _this.formBuilder = formBuilder;
-        _this.showError = false;
-        _this.showErrorMsg = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        _this.componentError = [];
-        _this.windowFlag = false;
-        _this.checkForm = false;
-        _this.isFormValid = false;
-        _this.showDialogue = false;
-        _this.errorMsgArray = [];
+        _this.renderer = renderer;
+        /*
+        Properties
+        name : collapsible
+        datatype :  boolean
+        version : 4.0 onwards
+        default : false
+        description : Pane will expand or collapse based on the boolean.
+        */
+        _this.collapsible = true;
+        _this.contentAlign = 'left';
+        _this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.nodeRightClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.rightClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.mouseLocation = { left: 0, top: 0 };
+        _this.faFaIconUPCss = 'fa fa-caret-up';
+        _this.faFaIconDownCss = 'fa fa-caret-down';
+        _this.panelstyle = { visibility: 'visible' };
         return _this;
     }
     /**
      * @return {?}
      */
-    AmexioFormCEComponent.prototype.ngAfterContentInit = /**
+    AmexioPanelComponent.prototype.ngOnInit = /**
      * @return {?}
      */
     function () {
-        this.setCardAligementForAllInnerComponent();
+        this.componentId = Math.random() * 1000 + 'panel';
+        if (!this.collapsible) {
+            this.expanded = true;
+        }
+        this.iconclassKey = this.expanded ? this.faFaIconUPCss : this.faFaIconDownCss;
+        if (this.height) {
+            return this.height;
+        }
+        this.updatestyle();
+        _super.prototype.ngOnInit.call(this);
     };
     /**
      * @return {?}
      */
-    AmexioFormCEComponent.prototype.onResize = /**
+    AmexioPanelComponent.prototype.ngAfterViewInit = /**
      * @return {?}
      */
     function () {
+        _super.prototype.ngAfterViewInit.call(this);
+    };
+    /**
+     * @param {?} btn
+     * @return {?}
+     */
+    AmexioPanelComponent.prototype.onTabClick = /**
+     * @param {?} btn
+     * @return {?}
+     */
+    function (btn) {
+        btn.classList.toggle('active-accordion');
+        if (this.iconclassKey === this.faFaIconDownCss) {
+            this.iconclassKey = this.faFaIconUPCss;
+        }
+        else if (this.iconclassKey === this.faFaIconUPCss) {
+            this.iconclassKey = this.faFaIconDownCss;
+        }
+        this.expanded = !this.expanded;
+        this.updatestyle();
+        this.onClick.emit();
+    };
+    /**
+     * @param {?} Data
+     * @return {?}
+     */
+    AmexioPanelComponent.prototype.rightClickDataEmit = /**
+     * @param {?} Data
+     * @return {?}
+     */
+    function (Data) {
+        this.rightClick.emit(Data);
     };
     /**
      * @return {?}
      */
-    AmexioFormCEComponent.prototype.ngAfterViewInit = /**
+    AmexioPanelComponent.prototype.updatestyle = /**
+     * @return {?}
+     */
+    function () {
+        if (this.fit && this.expanded) {
+            this.panelstyle = { visibility: 'visible', state: 'visible' };
+        }
+        else if (this.fit && !this.expanded) {
+            this.panelstyle = { visibility: 'hidden', state: 'hidden' };
+        }
+        else if (!this.fit && this.expanded) {
+            this.panelstyle = { display: 'block', state: 'block' };
+        }
+        else if (!this.fit && !this.expanded) {
+            this.panelstyle = { display: 'none', state: 'none' };
+        }
+        else {
+            this.panelstyle = { visibility: 'visible', state: 'visible' };
+        }
+    };
+    // getcontextmenu
+    /**
+     * @return {?}
+     */
+    AmexioPanelComponent.prototype.getContextMenu = /**
+     * @return {?}
+     */
+    function () {
+        if (this.contextmenu && this.contextmenu.length > 0) {
+            this.flag = true;
+            this.addListner();
+        }
+    };
+    /**
+     * @param {?} elementRef
+     * @return {?}
+     */
+    AmexioPanelComponent.prototype.getListPosition = /**
+     * @param {?} elementRef
+     * @return {?}
+     */
+    function (elementRef) {
+        var /** @type {?} */ height = 240;
+        if ((window.screen.height - elementRef.getBoundingClientRect().bottom) < height) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    };
+    /**
+     * @param {?} rightClickData
+     * @return {?}
+     */
+    AmexioPanelComponent.prototype.loadContextMenu = /**
+     * @param {?} rightClickData
+     * @return {?}
+     */
+    function (rightClickData) {
+        if (this.contextmenu && this.contextmenu.length > 0) {
+            this.mouseLocation.left = rightClickData.event.clientX;
+            this.mouseLocation.top = rightClickData.event.clientY;
+            this.getContextMenu();
+            this.posixUp = this.getListPosition(rightClickData.ref);
+            rightClickData.event.preventDefault();
+            rightClickData.event.stopPropagation();
+            this.rightClickNodeData = rightClickData.data;
+            this.nodeRightClick.emit(rightClickData);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioPanelComponent.prototype.addListner = /**
      * @return {?}
      */
     function () {
         var _this = this;
-        var /** @type {?} */ ngContentModels = this.models.toArray();
-        var /** @type {?} */ innerModelArray = [];
-        this.fb.forEach(function (fbnode) {
-            var /** @type {?} */ modelarray = fbnode.modelsarray;
-            var /** @type {?} */ fgc = {};
-            modelarray.forEach(function (m) {
-                fgc[m.name] = m.control;
-                innerModelArray.push(m);
-            });
-            var /** @type {?} */ grp = _this.formBuilder.group(fgc);
-            _this.form.form.registerControl(fbnode.group, grp);
-        });
-        ngContentModels.forEach(function (model) {
-            if (!_this.isFieldPresentInParentAndChildBoth(innerModelArray, model.name)) {
-                if (!model.name || model.name === null) {
-                    model.name = model.valueAccessor['name'];
-                }
-                _this.form.control.registerControl(model.name, model.control);
+        this.globalClickListenFunc = this.renderer.listen('document', 'click', function (e) {
+            _this.flag = false;
+            if (!_this.flag) {
+                _this.removeListner();
             }
         });
-        this.clearTimeout = setTimeout(function () {
-            _this.form.form.updateValueAndValidity();
-        }, 100);
-        this.btns.toArray().forEach(function (btnCom) {
-            if ((btnCom.formbind === _this.fname) && !btnCom.disabled) {
-                _this.buttons.push(btnCom);
-            }
-        });
-        this.AmexioCardCEActionQueryList.toArray()[0].formFlag = true;
-        this.AmexioCardCEActionQueryList.toArray()[0].showError = this.showError;
-        this.AmexioCardCEHeaderQueryList.toArray()[0].windowFlag = false;
-        this.validateForm();
-        this.onResize();
-        _super.prototype.ngAfterViewInit.call(this);
     };
     /**
-     * @param {?} innerModelArray
-     * @param {?} name
      * @return {?}
      */
-    AmexioFormCEComponent.prototype.isFieldPresentInParentAndChildBoth = /**
-     * @param {?} innerModelArray
-     * @param {?} name
-     * @return {?}
-     */
-    function (innerModelArray, name) {
-        var /** @type {?} */ isPresent = false;
-        innerModelArray.forEach(function (innerModel) {
-            if (name === innerModel.name) {
-                isPresent = true;
-            }
-        });
-        return isPresent;
-    };
-    // THIS METHOD IS USED FOR DISABLE BUTTON
-    /**
-     * @return {?}
-     */
-    AmexioFormCEComponent.prototype.validateForm = /**
+    AmexioPanelComponent.prototype.removeListner = /**
      * @return {?}
      */
     function () {
-        if (this.form && this.form.status === 'INVALID') {
-            this.disableButton(true);
-        }
-        else {
-            this.disableButton(false);
+        if (this.globalClickListenFunc) {
+            this.globalClickListenFunc();
         }
     };
     /**
-     * @param {?} flag
      * @return {?}
      */
-    AmexioFormCEComponent.prototype.disableButton = /**
-     * @param {?} flag
-     * @return {?}
-     */
-    function (flag) {
-        this.buttons.forEach(function (btn) {
-            btn.disabled = flag;
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioFormCEComponent.prototype.ngAfterContentChecked = /**
+    AmexioPanelComponent.prototype.ngOnDestroy = /**
      * @return {?}
      */
     function () {
-        this.validateForm();
-        var /** @type {?} */ form;
-        form = this.form;
-        this.AmexioCardCEActionQueryList.toArray()[0].checkFormValidation(form);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioFormCEComponent.prototype.ngOnDestroy = /**
-     * @return {?}
-     */
-    function () {
-        clearTimeout(this.clearTimeout);
         _super.prototype.ngOnDestroy.call(this);
+        this.removeListner();
     };
-    /**
-     * @return {?}
-     */
-    AmexioFormCEComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.buttons = [];
-        if (!this.color) {
-            this.cclass = 'card-container-ce-color';
-        }
-        if (!this.background) {
-            this.cclass = this.cclass + ' card-container-ce-bg-color';
-        }
-        this.setWiderAndNarrower();
-        _super.prototype.ngOnInit.call(this);
-    };
-    // THIS METHOD CALLL FOR HEADER AND ACTION STYLE
-    /**
-     * @return {?}
-     */
-    AmexioFormCEComponent.prototype.setWiderAndNarrower = /**
-     * @return {?}
-     */
-    function () {
-        switch (this.styleType) {
-            case 'wider-header':
-                this.cclass = this.cclass + ' card-container-wider-header';
-                break;
-            case 'narrower-header':
-                this.cclass = this.cclass + ' card-container-narrower-header';
-                break;
-            case 'wider-action':
-                this.cclass = this.cclass + ' card-container-wider-action';
-                break;
-            case 'narrower-action':
-                this.cclass = this.cclass + ' card-container-narrower-action';
-                break;
-            case 'wider-all':
-                this.cclass = this.cclass + ' card-container-wider-header card-container-wider-action';
-                break;
-            case 'narrower-all':
-                this.cclass = this.cclass + ' card-container-narrower-header card-container-narrower-action';
-                break;
-            case 'wider-header-narrower-action':
-                this.cclass = this.cclass + ' card-container-wider-header card-container-narrower-action';
-                break;
-            case 'narrower-header-wider-action':
-                this.cclass = this.cclass + ' card-container-narrower-header card-container-wider-action';
-                break;
-            default:
-                break;
-        }
-    };
-    // TO SET ALIGN TO ALL INNER COMPONENT IN CARD
-    /**
-     * @return {?}
-     */
-    AmexioFormCEComponent.prototype.setCardAligementForAllInnerComponent = /**
-     * @return {?}
-     */
-    function () {
-        this.amexioCardHeaderList = this.AmexioCardCEHeaderQueryList.toArray();
-        if (this.amexioCardHeaderList[0] !== undefined && !this.amexioCardHeaderList[0].align &&
-            this.amexioCardHeaderList[0].align.length > 0) {
-            this.amexioCardHeaderList[0].align = this.align;
-        }
-        this.amexioCardBodyList = this.AmexioCardCEBodyQueryList.toArray();
-        if (this.amexioCardBodyList[0] !== undefined && !this.amexioCardBodyList[0].align && this.amexioCardBodyList[0].align.length > 0) {
-            this.amexioCardBodyList[0].align = this.align;
-        }
-        this.amexioCardActionList = this.AmexioCardCEActionQueryList.toArray();
-        if (this.amexioCardActionList[0] !== undefined && !this.amexioCardActionList[0].align &&
-            this.amexioCardActionList[0].align.length > 0) {
-            this.amexioCardActionList[0].align = this.align;
-        }
-        else if (this.amexioCardActionList[0] !== undefined &&
-            this.amexioCardActionList[0].align === '') {
-            this.amexioCardActionList[0].align = 'end';
-        }
-    };
-    AmexioFormCEComponent.decorators = [
+    AmexioPanelComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-form-ce',
-                    template: "\n      <div [ngStyle]=\"{'background': bgimage ? 'url(' + bgimage + ') center/cover no-repeat' : null}\" [ngClass]=\"cclass\">\n          <div [ngStyle]=\"{'justify-content': (align === 'start' || align === 'end') ? 'flex-'+align:align , 'color':color, 'background': background}\">\n              <form name=\"fname\" class=\"form-container-ce form-group\">\n                  <ng-content></ng-content>\n              </form>\n          <div>\n      </div>\n    ",
+                    selector: 'amexio-panel',
+                    template: "\n\n\n\n    <div    #id style=\"width: 100%\" (contextmenu)=\"loadContextMenu({event:$event,ref:id})\"  >\n        <ng-container *ngIf=\"collapsible; else elseBlock\"> \n            <div id=\"{{componentId}}\" [ngStyle]=\"{'background': bgColor, 'color': color}\"\n            *ngIf=\"header\" class=\"panel-accordion\" \n            (click)=\"onTabClick(btn1)\"    >\n                <amexio-toolbar\n                tabindex=\"0\" \n                role=\"heading\"\n                [attr.aria-expanded]=\"expanded\"\n                (keyup.enter)=\"onTabClick(btn1)\"\n                (keyup.space)=\"onTabClick(btn1)\"\n\n            \n                >\n                    <amexio-toolbar-item position-left  attr.aria-label=\"{{title}}\">\n                        <amexio-label  attr.aria-labelledby=\"{{componentId}}\" size=\"small\">\n                            {{title}}\n                        </amexio-label>\n                    </amexio-toolbar-item>\n                    <amexio-toolbar-item position-right>\n                        <ng-content select=\"amexio-panel-header\"></ng-content>\n                    </amexio-toolbar-item>\n                    <amexio-toolbar-item style=\"margin:auto\" position-right>\n                        <i [class]=\"iconclassKey\" aria-hidden=\"true\" #btn1></i>\n                    </amexio-toolbar-item>\n                </amexio-toolbar>\n            </div>\n        </ng-container>\n\n        <ng-template #elseBlock> {{expanded}}\n            <div    id=\"{{componentId}}\"   *ngIf=\"header\" class=\"panel-accordion\" (click)=\"onTabClick(btn1)\">\n                <amexio-toolbar\n                tabindex=\"0\" \n                [attr.aria-expanded]=\"expanded\"\n                (keyup.enter)=\"onTabClick(btn1)\"\n                (keyup.space)=\"onTabClick(btn1)\"\n            \n                >\n                    <amexio-toolbar-item position-left tabindex=\"0\" [attr.aria-expanded]=\"expanded\"  attr.aria-label=\"{{title}}\">\n                        <amexio-label  size=\"small\"   attr.aria-labelledby=\"{{componentId}}\" >\n                            {{title}}\n                        </amexio-label>\n                    </amexio-toolbar-item>\n                    <amexio-toolbar-item position-right>\n                        <ng-content select=\"amexio-panel-header\"></ng-content>\n                    </amexio-toolbar-item>\n                </amexio-toolbar>\n            </div>\n        </ng-template>\n    \n        <div tabindex=\"0\"  id=\"panelpanelId\" class=\"panel-panel\" [ngStyle]=\"{'border-color': border && bgColor}\" [ngClass]=\"{'panel-box-border':border}\" [style.textAlign]=\"contentAlign\" [style.height.px]=\"height\"\n            [@panelState]=\"panelstyle.state\">\n            <ng-content aria-labelledby=\"panelpanelId\" ></ng-content>\n        </div>\n\n        <ng-container *ngIf=\"flag && (this.contextmenu && this.contextmenu.length > 0)\">\n            <base-contextmenu tabindex=\"0\" [base-context-menu]=\"contextmenu\" [mouse-location-top]=\"mouseLocation.top\"\n                [mouse-location-left]=\"mouseLocation.left\" [is-FlagShow]=\"flag\" [right-click-data]=\"nodeRightClick\"\n                (onRightClick)=\"rightClickDataEmit($event)\" [position-up]=\"posixUp\">\n            </base-contextmenu>\n        </ng-container>\n    </div>\n  ",
+                    animations: [
+                        trigger('panelState', [
+                            state('hidden', style({
+                                visibility: 'hidden',
+                                height: '0px',
+                            })),
+                            state('visible', style({
+                                visibility: 'visible',
+                                height: '*',
+                            })),
+                            state('block', style({
+                                display: 'block',
+                                height: '*',
+                            })),
+                            state('none', style({
+                                display: 'none',
+                                height: '0px',
+                            })),
+                            transition('*=>*', animate('200ms')),
+                        ]),
+                    ],
                 },] },
     ];
     /** @nocollapse */
-    AmexioFormCEComponent.ctorParameters = function () { return [
-        { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }
+    AmexioPanelComponent.ctorParameters = function () { return [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }
     ]; };
-    AmexioFormCEComponent.propDecorators = {
-        fname: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['form-name',] }],
-        showError: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-error',] }],
-        showErrorMsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        bgimage: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['bg-image',] }],
-        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['color',] }],
-        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background',] }],
-        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }],
-        align: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['align',] }],
-        styleType: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['style-type',] }],
-        AmexioCardCEHeaderQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEHeaderComponent,] }],
-        AmexioCardCEBodyQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEBodyComponent,] }],
-        AmexioCardCEActionQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEActionComponent,] }],
-        btns: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonComponent, { descendants: true },] }],
-        form: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgForm"],] }],
-        models: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"], { descendants: true },] }],
-        fb: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFormGroupDirective, { descendants: true },] }]
+    AmexioPanelComponent.propDecorators = {
+        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        header: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        expanded: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        border: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        collapsible: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        contextmenu: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['context-menu',] }],
+        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        bgColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background',] }],
+        contentAlign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['content-align',] }],
+        parentRef: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        fit: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['fit',] }],
+        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        nodeRightClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        rightClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
     };
-    return AmexioFormCEComponent;
+    return AmexioPanelComponent;
 }(LifeCycleBaseComponent));
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var AmexioHomePageCenterPanelComponent = /** @class */ (function () {
-    function AmexioHomePageCenterPanelComponent(matchMediaService) {
-        this.matchMediaService = matchMediaService;
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+var AmexioPanelHeaderComponent = /** @class */ (function () {
+    function AmexioPanelHeaderComponent() {
+        this.role = 'amexio-panel-header';
     }
     /**
      * @return {?}
      */
-    AmexioHomePageCenterPanelComponent.prototype.ngOnInit = /**
+    AmexioPanelHeaderComponent.prototype.ngOnInit = /**
      * @return {?}
      */
     function () {
     };
-    AmexioHomePageCenterPanelComponent.decorators = [
+    AmexioPanelHeaderComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-homepage-centerpanel',
-                    template: "\n    <div class=\"homepage-centerpanel\">\n        <ng-content></ng-content>\n    </div>\n  ",
+                    selector: 'amexio-panel-header', template: "\n    <ng-content></ng-content>\n  ",
                 },] },
     ];
     /** @nocollapse */
-    AmexioHomePageCenterPanelComponent.ctorParameters = function () { return [
-        { type: DeviceQueryService }
-    ]; };
-    AmexioHomePageCenterPanelComponent.propDecorators = {
-        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }]
+    AmexioPanelHeaderComponent.ctorParameters = function () { return []; };
+    AmexioPanelHeaderComponent.propDecorators = {
+        role: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
+        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
     };
-    return AmexioHomePageCenterPanelComponent;
+    return AmexioPanelHeaderComponent;
 }());
 
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var AmexioHomePageEastPanelComponent = /** @class */ (function () {
-    function AmexioHomePageEastPanelComponent(matchMediaService) {
-        this.matchMediaService = matchMediaService;
+var StepBlockComponent = /** @class */ (function () {
+    function StepBlockComponent() {
     }
     /**
      * @return {?}
      */
-    AmexioHomePageEastPanelComponent.prototype.ngOnInit = /**
+    StepBlockComponent.prototype.ngOnInit = /**
      * @return {?}
      */
     function () {
     };
-    /**
-     * @return {?}
-     */
-    AmexioHomePageEastPanelComponent.prototype.ngAfterViewInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    AmexioHomePageEastPanelComponent.decorators = [
+    StepBlockComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-homepage-eastpanel',
-                    template: "\n    <div class=\"homepage-westpanel\">\n        <ng-content></ng-content>\n    </div>\n  ",
+                    selector: 'amexio-step-block', template: "\n  ",
                 },] },
     ];
     /** @nocollapse */
-    AmexioHomePageEastPanelComponent.ctorParameters = function () { return [
-        { type: DeviceQueryService }
-    ]; };
-    AmexioHomePageEastPanelComponent.propDecorators = {
-        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }]
+    StepBlockComponent.ctorParameters = function () { return []; };
+    StepBlockComponent.propDecorators = {
+        active: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        label: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        icon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
     };
-    return AmexioHomePageEastPanelComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioHomePageWestPanelComponent = /** @class */ (function () {
-    function AmexioHomePageWestPanelComponent(matchMediaService) {
-        this.matchMediaService = matchMediaService;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioHomePageWestPanelComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    AmexioHomePageWestPanelComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-homepage-westpanel',
-                    template: "\n    <div class=\"homepage-westpanel\">\n        <ng-content></ng-content>\n    </div>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioHomePageWestPanelComponent.ctorParameters = function () { return [
-        { type: DeviceQueryService }
-    ]; };
-    AmexioHomePageWestPanelComponent.propDecorators = {
-        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }]
-    };
-    return AmexioHomePageWestPanelComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var ViewportBackgroundComponent = /** @class */ (function () {
-    function ViewportBackgroundComponent() {
-    }
-    /**
-     * @return {?}
-     */
-    ViewportBackgroundComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @return {?}
-     */
-    ViewportBackgroundComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        // IMAGE
-        if (this.imageTemplate) {
-            this.imagePath = this.imageTemplate.path;
-            this.bgCss = 'bgCss' + Math.floor(Math.random() * 1000) + 'background';
-        }
-        // VIDEO
-        if (this.videoTemplate) {
-            this.videoPath = this.videoTemplate.path;
-        }
-    };
-    ViewportBackgroundComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-viewport-background',
-                    template: "\n    <!-- <div id=\"{{componentId}}\" class=\"backgroundCss filterCss {{bgCss}}\">\n         <ng-content></ng-content>\n    </div> -->\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    ViewportBackgroundComponent.ctorParameters = function () { return []; };
-    ViewportBackgroundComponent.propDecorators = {
-        imageTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [AmexioImageComponent,] }],
-        videoTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [AmexioVideoPlayerComponent,] }],
-        backgroundColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background-color',] }]
-    };
-    return ViewportBackgroundComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var ViewportContentBodyComponent = /** @class */ (function () {
-    function ViewportContentBodyComponent() {
-        this.scrollable = false;
-    }
-    /**
-     * @return {?}
-     */
-    ViewportContentBodyComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () { };
-    ViewportContentBodyComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-viewport-content-body',
-                    template: "\n\n            <ng-content></ng-content>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    ViewportContentBodyComponent.ctorParameters = function () { return []; };
-    ViewportContentBodyComponent.propDecorators = {
-        navTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [AmexioNavBarComponent,] }],
-        scrollable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['scrollable',] }]
-    };
-    return ViewportContentBodyComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var ViewportContentComponent = /** @class */ (function () {
-    function ViewportContentComponent() {
-        this.scrollable = false;
-    }
-    /**
-     * @return {?}
-     */
-    ViewportContentComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @return {?}
-     */
-    ViewportContentComponent.prototype.ngAfterViewInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @return {?}
-     */
-    ViewportContentComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        if (this.bgImageTemplate.backgroundColor) {
-            this.backgroundColor = this.bgImageTemplate.backgroundColor;
-        }
-        // IMAGE
-        if (this.bgImageTemplate.imagePath) {
-            this.backgroundCss = 'bgCss' + Math.floor(Math.random() * 1000) + 'backgound';
-            this.insertStyleSheetRule('.' + this.backgroundCss + '{ background-image: url(' + this.bgImageTemplate.imagePath + ')}');
-        }
-        // VIDEO
-        if (this.bgImageTemplate.videoPath) {
-            this.bgvid = 'videoId' + Math.floor(Math.random() * 1000);
-            this.tempUrl = this.bgImageTemplate.videoPath;
-        }
-    };
-    /**
-     * @param {?} ruleText
-     * @return {?}
-     */
-    ViewportContentComponent.prototype.insertStyleSheetRule = /**
-     * @param {?} ruleText
-     * @return {?}
-     */
-    function (ruleText) {
-        var /** @type {?} */ sheets = document.styleSheets;
-        if (sheets.length === 0) {
-            var /** @type {?} */ style = document.createElement('style');
-            style.appendChild(document.createTextNode(''));
-            document.head.appendChild(style);
-        }
-        var /** @type {?} */ sheet = sheets[sheets.length - 1];
-        sheet.insertRule(ruleText, sheet.rules ? sheet.rules.length : sheet.cssRules.length);
-    };
-    ViewportContentComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-viewport-content',
-                    template: "\n    <div class=\"viewportContent {{backgroundCss}}\" [ngStyle]=\"{'height':height}\">\n        <div class=\"viewportBody\" [ngStyle]=\"{'overflow-y': internalScroll ? 'scroll' : 'hidden',\n    'background-color':backgroundColor, 'height':height}\">\n            </div>\n            <ng-content select=\"amexio-viewport-content-body\"></ng-content>\n\n    </div>\n\n    <video id=\"{{bgvid}}\" playsinline autoplay muted loop>\n        <source\n        src=\"{{tempUrl}}\">\n    <div class=\"viewportBody\" [ngStyle]=\"{'overflow-y': internalScroll ? 'scroll' : 'hidden',\n    'background-color':backgroundColor, 'height':height}\">\n    </div>\n    <ng-content select=\"amexio-viewport-content-body\"></ng-content>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    ViewportContentComponent.ctorParameters = function () { return []; };
-    ViewportContentComponent.propDecorators = {
-        bgImageTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [ViewportBackgroundComponent,] }],
-        contentTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [ViewportContentBodyComponent,] }],
-        scrollable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['scrollable',] }]
-    };
-    return ViewportContentComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var ViewportComponent = /** @class */ (function () {
-    function ViewportComponent() {
-        this.scrollable = true;
-        this.type = '1';
-        this.pageColor = 'black';
-    }
-    /**
-     * @param {?} $event
-     * @return {?}
-     */
-    ViewportComponent.prototype.onWindowScroll = /**
-     * @param {?} $event
-     * @return {?}
-     */
-    function ($event) {
-        if ((this.type === '2') && (this.scrollable && window.scrollY > 0)) {
-            this.contentCollection.forEach(function (element) {
-                if (element.contentTemplate.navTemplate) {
-                    element.contentTemplate.navTemplate.transparent = false;
-                    element.contentTemplate.navTemplate.top = 0;
-                }
-            });
-        }
-        if (window.scrollY === 0) {
-            this.contentCollection.forEach(function (element) {
-                if (element.contentTemplate.navTemplate) {
-                    element.contentTemplate.navTemplate.transparent = true;
-                    element.contentTemplate.navTemplate.top = 'unset';
-                }
-            });
-        }
-    };
-    /**
-     * @return {?}
-     */
-    ViewportComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        document.body.style.backgroundColor = this.pageColor;
-        if (this.scrollable) {
-            this.overflow = 'auto';
-        }
-        else {
-            this.overflow = 'hidden';
-        }
-    };
-    /**
-     * @return {?}
-     */
-    ViewportComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.contentCollection = this.queryContent.toArray();
-        if (this.type === '2') {
-            this.contentCollection.forEach(function (element) {
-                if (element.contentTemplate.navTemplate) {
-                    element.contentTemplate.navTemplate.opacity = 0.7;
-                    element.contentTemplate.navTemplate.top = 'unset';
-                }
-            });
-        }
-        if (this.scrollable) {
-            this.contentCollection.forEach(function (element) {
-                element.internalScroll = false;
-                _this.getType(element);
-            });
-        }
-        else {
-            this.contentCollection.forEach(function (element) {
-                _this.getType(element);
-                if (element.scrollable) {
-                    element.internalScroll = true;
-                    element.height = 100 / _this.contentCollection.length + '%';
-                }
-                else {
-                    element.internalScroll = false;
-                }
-            });
-        }
-        this.insertStyleSheetRule('body' + '{ overflow-y:' + this.overflow + '}');
-    };
-    /**
-     * @param {?} ruleText
-     * @return {?}
-     */
-    ViewportComponent.prototype.insertStyleSheetRule = /**
-     * @param {?} ruleText
-     * @return {?}
-     */
-    function (ruleText) {
-        var /** @type {?} */ sheets = document.styleSheets;
-        if (sheets.length === 0) {
-            var /** @type {?} */ style = document.createElement('style');
-            style.appendChild(document.createTextNode(''));
-            document.head.appendChild(style);
-        }
-        var /** @type {?} */ sheet = sheets[sheets.length - 1];
-        sheet.insertRule(ruleText, sheet.rules ? sheet.rules.length : sheet.cssRules.length);
-    };
-    /**
-     * @param {?} element
-     * @return {?}
-     */
-    ViewportComponent.prototype.getType = /**
-     * @param {?} element
-     * @return {?}
-     */
-    function (element) {
-        if (this.type === '1' && element.contentTemplate.navTemplate) {
-            element.contentTemplate.navTemplate.transparent = true;
-        }
-        if (this.type === '2' && element.contentTemplate.navTemplate) {
-            element.contentTemplate.navTemplate.transparent = true;
-        }
-        if (this.type === '3' && element.contentTemplate.navTemplate) {
-            element.contentTemplate.navTemplate.transparent = false;
-        }
-    };
-    ViewportComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-viewport',
-                    template: "\n        <ng-content select=\"amexio-viewport-content\"></ng-content>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    ViewportComponent.ctorParameters = function () { return []; };
-    ViewportComponent.propDecorators = {
-        queryContent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [ViewportContentComponent,] }],
-        scrollable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['scrollable',] }],
-        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }],
-        pageColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['page-color',] }],
-        onWindowScroll: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostListener"], args: ['window:scroll', [],] }]
-    };
-    return ViewportComponent;
+    return StepBlockComponent;
 }());
 
 /**
@@ -33155,44 +33633,488 @@ var ViewportComponent = /** @class */ (function () {
 * See the License for the specific language governing permissions and
 * limitations under the License.
 *
-* Created by manisha on 7/6/18.
+*  Created by pratik on 15/12/17.
 */
-var AmexioSearchAdvanceComponent = /** @class */ (function () {
-    function AmexioSearchAdvanceComponent() {
-        this.title = 'Advance Search';
-        this.formwidth = 0;
-        this.advanceSearchFlag = false;
+var AmexioStepsComponent = /** @class */ (function () {
+    function AmexioStepsComponent() {
+        /*
+        Events
+        name : onClick
+        datatype : none
+        version : none
+        default : none
+        description :Event emitted on block click.
+        */
+        this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Events
+        name : getStepBlockData
+        datatype : none
+        version : none
+        default : none
+        description :Gives stepblock information .
+        */
+        this.getStepBlockData = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+    }
+    Object.defineProperty(AmexioStepsComponent.prototype, "data", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._data;
+        },
+        set: /**
+         * @param {?} value
+         * @return {?}
+         */
+        function (value) {
+            this._data = value;
+            if (this.componentLoaded) {
+                this.updateComponent();
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @param {?} clickData
+     * @param {?} ev
+     * @return {?}
+     */
+    AmexioStepsComponent.prototype.onStepClick = /**
+     * @param {?} clickData
+     * @param {?} ev
+     * @return {?}
+     */
+    function (clickData, ev) {
+        this.getStepBlockData.emit({ event: ev, data: clickData });
+        this.onClick.emit(clickData);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioStepsComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        if (this.data && this.data.length > 0) {
+            this.stepPreviewData = JSON.parse(JSON.stringify(this.data));
+            this.stepBlockArray = this.data;
+        }
+        else {
+            this.stepBlockArray = this.stepBlocks.toArray();
+        }
+        this.componentLoaded = true;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioStepsComponent.prototype.updateComponent = /**
+     * @return {?}
+     */
+    function () {
+        if (JSON.stringify(this.stepPreviewData) !== JSON.stringify(this.data)) {
+            this.stepPreviewData = JSON.parse(JSON.stringify(this.data));
+            this.stepBlockArray = this.data;
+        }
+    };
+    AmexioStepsComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-steps', template: "\n    <div class=\"stepwizard\" *ngIf=\"(index && !block && !icon)\">\n        <div class=\"stepwizard-row setup-panel\">\n            <div *ngFor=\"let stepBlock of stepBlockArray; let i = index\" class=\"stepwizard-step\">\n                <button type=\"button\" [disabled]=\"!stepBlock.active\" [ngClass]=\"{'disabled index-step-inactive':!stepBlock.active,\n            'active':stepBlock.active}\" class=\"btn-circle button button-primary\" (click)=\"onStepClick(stepBlock,$event)\">{{i + 1}}\n                </button>\n                <ng-container *ngIf=\"stepBlock.label && !stepBlock.active\">\n                    <p>{{stepBlock.label}}</p>\n                </ng-container>\n                <ng-container *ngIf=\"stepBlock.label && stepBlock.active\">\n                    <p><strong class=\"step-label-highlight\">{{stepBlock.label}}</strong></p>\n                </ng-container>\n            </div>\n        </div>\n    </div>\n\n    <!--this code use when user give icon true bydefault it is false-->\n    <div class=\"stepwizard\" *ngIf=\"(icon && !index && !block)\">\n        <div class=\"stepwizard-row setup-panel\">\n            <div *ngFor=\"let stepBlock of stepBlockArray; let i = index\" class=\"stepwizard-step\">\n                <ng-container *ngIf=\"stepBlock.icon && stepBlock.active\">\n                    <span [ngClass]=\"{'step-box-icon-active':stepBlock.active}\" (onClick)=\"onStepClick(stepBlock,$event)\">\n                        <amexio-c-icon [customclass]=\"stepBlock.icon\"></amexio-c-icon>\n                    </span>\n                </ng-container>\n                <ng-container *ngIf=\"stepBlock.icon && !stepBlock.active\">\n                    <span [ngClass]=\"{'step-block-icon-disable':!stepBlock.active}\">\n                        <amexio-c-icon [customclass]=\"stepBlock.icon\" (onClick)=\"onStepClick(stepBlock,$event)\"></amexio-c-icon>\n                    </span>\n                </ng-container>\n                <ng-container *ngIf=\"stepBlock.icon=='' || !stepBlock.icon\">\n                    <br>\n                </ng-container>\n                <ng-container *ngIf=\"stepBlock.label && !stepBlock.active\">\n                    <p style=\"cursor:not-allowed;\" (onClick)=\"onStepClick(stepBlock,$event)\">{{stepBlock.label}}</p>\n                </ng-container>\n                <ng-container *ngIf=\"stepBlock.label && stepBlock.active\">\n                    <p style=\"cursor:pointer;\"><strong class=\"step-label-highlight\" [ngClass]=\"{'step-box-label-active':stepBlock.active}\">{{stepBlock.label}}</strong></p>\n                </ng-container>\n            </div>\n        </div>\n    </div>\n\n    <!--This code use for steps of boxes-->\n    <div *ngIf=\"block\">\n        <div *ngIf=\"block\" role=\"tablist\" class=\"step-box-sqaure\">\n            <div class=\"step-box-table\">\n                <ng-container *ngFor=\"let stepBlock of stepBlockArray; let i = index\">\n                    <div role=\"link\" class=\"step-box-table-item\" [tabindex]=\"stepBlock.active ? 0 : -1\" [attr.aria-labelleby]=\"stepBlock.label\" (click)=\"onStepClick(stepBlock,$event)\" style=\"padding-top: 10px;\" [ngClass]=\"{'disabled step-box-table-item-hover ':!stepBlock.active,'active':stepBlock.active}\">\n                        <a>\n                            <ng-container *ngIf=\"index\">\n                                {{i + 1}}<br>\n                            </ng-container>\n                            <ng-container *ngIf=\"icon && stepBlock.icon\">\n                                <amexio-c-icon [customclass]=\"stepBlock.icon\"></amexio-c-icon>\n                            </ng-container>\n                            <ng-container *ngIf=\"stepBlock.label && !stepBlock.active\">\n                                <p style=\"word-wrap: break-word;\">{{stepBlock.label}}</p>\n                            </ng-container>\n                            <ng-container *ngIf=\"stepBlock.label && stepBlock.active\">\n                                <p style=\"word-wrap: break-word;\"><strong>{{stepBlock.label}}</strong></p>\n                            </ng-container>\n                        </a>\n                    </div>\n                </ng-container>\n\n            </div>\n        </div>\n\n    </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioStepsComponent.ctorParameters = function () { return []; };
+    AmexioStepsComponent.propDecorators = {
+        index: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        icon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        block: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        getStepBlockData: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        stepBlocks: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [StepBlockComponent,] }],
+        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data',] }]
+    };
+    return AmexioStepsComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* Created by pratik on 8/12/17.
+*/
+var AmexioTabPillComponent = /** @class */ (function () {
+    function AmexioTabPillComponent() {
+        /*
+        Properties
+        name : disabled
+        datatype : boolean
+        version : 4.1.4 onwards
+        default : false
+        description : Disable property for tab
+        */
+        this.disabled = false;
+        /*
+        Properties
+        name : active
+        datatype : boolean
+        version : 4.0 onwards
+        default : false
+        description : Set true for specific tab open as default tab..
+        */
+        this.active = false;
+        /*
+         Properties
+         name : closable
+         datatype : boolean
+         version : 4.2 onwards
+         default : false
+         description : Font color of label
+         */
+        this.closable = null;
+        this.tabId = Math.floor(Math.random() * 90000) + 10000;
     }
     /**
      * @return {?}
      */
-    AmexioSearchAdvanceComponent.prototype.closeSearchForm = /**
+    AmexioTabPillComponent.prototype.ngOnInit = /**
      * @return {?}
      */
     function () {
-        this.advanceSearchFlag = false;
+    };
+    AmexioTabPillComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-tab', template: "\n    <div style = \"outline: none\" role=\"tabpanel\" tabindex=\"1\" class=\"tab-pane active\" attr.aria-labelledby=\"{{tablk}}\" [attr.id]=\"tabId\" [hidden]=\"!active\">\n      <ng-content></ng-content>\n      <ng-template #target></ng-template>\n    </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioTabPillComponent.ctorParameters = function () { return []; };
+    AmexioTabPillComponent.propDecorators = {
+        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        active: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        icon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        amexiocolor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['amexio-color',] }],
+        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        target: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['target', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"] },] }]
+    };
+    return AmexioTabPillComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* Created by ketangote on 12/1/17.
+*/
+var AmexioRightVerticalTabComponent = /** @class */ (function () {
+    function AmexioRightVerticalTabComponent(render, componentFactoryResolver) {
+        this.render = render;
+        this.componentFactoryResolver = componentFactoryResolver;
+        this.dummyArray = [];
+        this.componentId = '';
+        /*
+        Events
+        name : onClick
+        datatype :none
+        version : 4.0 onwards
+        default : none
+        description : Callback to invoke on activated tab event.
+        */
+        this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.tabPosition = 'top';
+    }
+    /**
+     * @return {?}
+     */
+    AmexioRightVerticalTabComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.componentId = Math.floor(Math.random() * 90000) + 10000 + '_tabc';
     };
     /**
      * @return {?}
      */
-    AmexioSearchAdvanceComponent.prototype.ngOnInit = /**
+    AmexioRightVerticalTabComponent.prototype.ngAfterViewInit = /**
      * @return {?}
      */
     function () {
     };
-    AmexioSearchAdvanceComponent.decorators = [
+    /**
+     * @return {?}
+     */
+    AmexioRightVerticalTabComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        this.tabCollection = this.queryTabs.toArray();
+    };
+    /**
+     * @param {?} tab
+     * @return {?}
+     */
+    AmexioRightVerticalTabComponent.prototype.onTabClick = /**
+     * @param {?} tab
+     * @return {?}
+     */
+    function (tab) {
+        var _this = this;
+        if (!tab.disabled && !tab.header) {
+            for (var _i = 0, _a = this.tabCollection; _i < _a.length; _i++) {
+                var i = _a[_i];
+                if (i === tab) {
+                    i['active'] = true;
+                    this.asignTabPillClass(tab);
+                    this.onClick.emit(tab);
+                }
+                else {
+                    i['active'] = false;
+                    i['tabPillClass'] = '';
+                }
+            }
+            this.tabCollection.forEach(function (tab1) {
+                _this.asignTabPillClass(tab1);
+            });
+        }
+    };
+    /**
+     * @param {?} tabData
+     * @return {?}
+     */
+    AmexioRightVerticalTabComponent.prototype.asignTabPillClass = /**
+     * @param {?} tabData
+     * @return {?}
+     */
+    function (tabData) {
+        tabData.tabPillClass = '';
+        if ((!tabData.amexiocolor || tabData.amexiocolor === '') && tabData.active && (this.tabPosition === 'top')) {
+            tabData.tabPillClass = 'activetab';
+        }
+        if ((!tabData.amexiocolor || tabData.amexiocolor === '') && (this.tabPosition === 'bottom') && tabData.active) {
+            tabData.tabPillClass = 'bottomActivetab';
+        }
+        if (tabData.disabled) {
+            tabData.tabPillClass = 'disabled-tab';
+        }
+        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'top') && tabData.active) {
+            tabData.tabPillClass = 'activecolortab';
+        }
+        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'bottom') && tabData.active) {
+            tabData.tabPillClass = 'activebottomcolortab';
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioRightVerticalTabComponent.prototype.findTabStyleClass = /**
+     * @return {?}
+     */
+    function () {
+        if (this.tabPosition === 'top') {
+            return 'tabposition-right-top';
+        }
+        if (this.tabPosition === 'bottom') {
+            return 'tabposition-right-bottom';
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioRightVerticalTabComponent.prototype.closeAllTabs = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.tabCollection.forEach(function (tabs) {
+            if (tabs.closable === true || _this.closable === true) {
+                _this.closeTab(tabs);
+            }
+        });
+    };
+    /**
+     * @param {?} title
+     * @param {?} amexiocolor
+     * @param {?} closable
+     * @param {?} component
+     * @return {?}
+     */
+    AmexioRightVerticalTabComponent.prototype.addDynamicTab = /**
+     * @param {?} title
+     * @param {?} amexiocolor
+     * @param {?} closable
+     * @param {?} component
+     * @return {?}
+     */
+    function (title, amexiocolor, closable, component) {
+        // get a component factory for our TabComponent
+        var /** @type {?} */ tpCF = this.componentFactoryResolver.resolveComponentFactory(AmexioTabPillComponent);
+        var /** @type {?} */ tp = this.target.createComponent(tpCF);
+        // set the according properties on our component instance
+        var /** @type {?} */ instance = /** @type {?} */ (tp.instance);
+        instance.title = title;
+        instance.active = true;
+        instance.closable = closable;
+        instance['tabpillinstance'] = this.target;
+        if (instance.amexiocolor === '') {
+            instance.amexiocolor = 'amexio-top-tab-black';
+        }
+        else {
+            instance.amexiocolor = 'amexio-top-tab-' + amexiocolor;
+        }
+        // create dynamic component
+        var /** @type {?} */ dynCF = this.componentFactoryResolver.resolveComponentFactory(component);
+        var /** @type {?} */ dynCmp = tp.instance.target.createComponent(dynCF);
+        // Push new tab and select it.
+        this.dummyArray.push(tp);
+        this.tabCollection.push(tp.instance);
+        this.selectTab(tp.instance);
+        return dynCmp.instance;
+    };
+    /**
+     * @param {?} tab
+     * @return {?}
+     */
+    AmexioRightVerticalTabComponent.prototype.selectTab = /**
+     * @param {?} tab
+     * @return {?}
+     */
+    function (tab) {
+        var _this = this;
+        // deactivate all tabs
+        this.tabCollection.forEach(function (tab1) {
+            tab1.active = false;
+        });
+        tab.active = true;
+        this.tabCollection.forEach(function (tab1) {
+            _this.asignTabPillClass(tab1);
+        });
+    };
+    /**
+     * @param {?} tabNode
+     * @return {?}
+     */
+    AmexioRightVerticalTabComponent.prototype.closeTab = /**
+     * @param {?} tabNode
+     * @return {?}
+     */
+    function (tabNode) {
+        var _this = this;
+        var /** @type {?} */ newTab = [];
+        var /** @type {?} */ index = 0;
+        var /** @type {?} */ tabHighlightIndex = 0;
+        this.tabCollection.forEach(function (tab, i) {
+            tab.active = false;
+            if (tab.tabId === tabNode.tabId) {
+                tabHighlightIndex = index;
+                if (tab.hasOwnProperty('tabpillinstance')) {
+                    tab.target.remove();
+                }
+                else {
+                    _this.tabDomRemove(tab);
+                }
+            }
+            else if (tab.tabId !== tabNode.tabId) {
+                newTab.push(tab);
+            }
+            index++;
+        });
+        if (tabHighlightIndex === newTab.length) {
+            tabHighlightIndex--;
+        }
+        this.tabCollection = newTab;
+        if (tabHighlightIndex > -1) {
+            this.activateTab(newTab[tabHighlightIndex].tabId);
+        }
+        else {
+            this.activateTab(null);
+        }
+        if (this.tabCollection.length === 1) {
+            this.closable = false;
+        }
+        if (newTab.length === 1) {
+            newTab[0].closable = false;
+        }
+    };
+    /**
+     * @param {?} tab
+     * @return {?}
+     */
+    AmexioRightVerticalTabComponent.prototype.tabDomRemove = /**
+     * @param {?} tab
+     * @return {?}
+     */
+    function (tab) {
+        var /** @type {?} */ removeNode = document.getElementById(tab.tabId).parentNode;
+        var /** @type {?} */ parentRefNode = removeNode.parentNode;
+        parentRefNode.removeChild(removeNode);
+    };
+    /**
+     * @param {?} tabId
+     * @return {?}
+     */
+    AmexioRightVerticalTabComponent.prototype.activateTab = /**
+     * @param {?} tabId
+     * @return {?}
+     */
+    function (tabId) {
+        this.tabCollection.forEach(function (tab) {
+            tab.active = false;
+            if (tab.tabId === tabId) {
+                tab.active = true;
+            }
+        });
+    };
+    AmexioRightVerticalTabComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-searchbox-options',
-                    template: "\n  <form [attr.aria-expanded]=\"advanceSearchFlag\" class=\"advancesearchform\"\n  *ngIf=\"advanceSearchFlag\"  [style.width]=\"formwidth+'px'\">\n    <label tabindex = \"0\" class=\"search-form-label\" [attr.aria-labellledby]=\"title\">\n        {{title}}\n    </label>\n    <span tabindex = \"0\"  aria-label=\"close form button\"\n     class=\"fa fa-window-close fa-1x close-icon\"\n     (keyup.esc)=\"closeSearchForm()\"\n     (keyup.enter)=\"closeSearchForm()\" (click)=\"closeSearchForm()\"></span>\n    <hr class=\"hrclass\">\n             <ng-content></ng-content>\n</form>\n",
+                    selector: 'amexio-right-vertical-tab-view',
+                    template: "\n    <div class=\"righttable\">\n        <div class=\"righttablerow\">\n            <div class=\"tablecol verticalalign-tabcontent\">\n                <div style=\"float:left\" class=\"tabcontent\" [attr.id]=\"componentId\">\n                    <ng-content></ng-content>\n                    <ng-template #target></ng-template>\n                </div>\n            </div>\n\n            <div style=\"float:right;height:580px\" class=\"righttablecol verticalalign-tabright\">\n                <div #tab class=\"verticalnavtab verticalnavtab-right\" [ngClass]=\"{'tabposition-right-top': (tabPosition==='top'),'tabposition-right-bottom':(tabPosition==='bottom')}\">\n                    <ul>\n                        <li *ngFor=\"let tabnode of tabCollection\">\n                            <div class=\"defaultnode\" [ngClass]=\"{'rightactivetab':tabnode.active,'disabled-tab':tabnode.disabled }\" (click)=\"onTabClick(tabnode)\" [ngStyle]=\"{'color': tabnode.amexiocolor}\">\n                                <span *ngIf=\"tabnode.icon\" [ngClass]=\"tabnode.icon\" aria-hidden=\"true\"></span>\n                                <span style=\"padding-left:5px\">{{tabnode.title}}</span>\n                                <span *ngIf=\"closable\" class=\"tablecol\">\n                    <amexio-c-icon key=\"tab_close\" (onClick)=\"closeTab(tabnode)\" style=\"padding-left:5px;float:right\"></amexio-c-icon>\n                  </span>\n                            </div>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n\n        </div>\n    </div>\n  ",
                 },] },
     ];
     /** @nocollapse */
-    AmexioSearchAdvanceComponent.ctorParameters = function () { return []; };
-    AmexioSearchAdvanceComponent.propDecorators = {
-        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        formwidth: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['form-width',] }]
+    AmexioRightVerticalTabComponent.ctorParameters = function () { return [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ComponentFactoryResolver"] }
+    ]; };
+    AmexioRightVerticalTabComponent.propDecorators = {
+        tabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tab', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        queryTabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTabPillComponent,] }],
+        target: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['target', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"] },] }],
+        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        tabPosition: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
     };
-    return AmexioSearchAdvanceComponent;
+    return AmexioRightVerticalTabComponent;
 }());
 
 /**
@@ -33338,7 +34260,543 @@ var ValueAccessorBase = /** @class */ (function () {
     return ValueAccessorBase;
 }());
 
-var __extends$5 = (undefined && undefined.__extends) || (function () {
+var __extends$3 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+var AmexioCheckBoxGroupComponent = /** @class */ (function (_super) {
+    __extends$3(AmexioCheckBoxGroupComponent, _super);
+    function AmexioCheckBoxGroupComponent(httpService) {
+        var _this = _super.call(this) || this;
+        _this.httpService = httpService;
+        /*
+          Properties
+          name : disabled
+          datatype : boolean
+          version : 4.0 onwards
+          default : false
+          description :  If true will not react on any user events and show disable icon over
+          */
+        _this.disabled = false;
+        _this.onSelection = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        return _this;
+    }
+    Object.defineProperty(AmexioCheckBoxGroupComponent.prototype, "data", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._data;
+        },
+        set: /**
+         * @param {?} v
+         * @return {?}
+         */
+        function (v) {
+            this._data = v;
+            this.viewdata = of(this.data);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    AmexioCheckBoxGroupComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.componentId = this.createCompId('checkboxgroup', this.name);
+        var /** @type {?} */ reponseData;
+        if (this.httpmethod && this.httpurl) {
+            this.httpService.fetchData(this.httpurl, this.httpmethod).subscribe(function (response) {
+                reponseData = response;
+            }, function (error) {
+            }, function () {
+                _this.data = _this.getResponseData(reponseData);
+            });
+        }
+        else if (this.data && this.datareader) {
+            this.data = this.getResponseData(this.data);
+        }
+    };
+    /**
+     * @param {?} httpResponse
+     * @return {?}
+     */
+    AmexioCheckBoxGroupComponent.prototype.getResponseData = /**
+     * @param {?} httpResponse
+     * @return {?}
+     */
+    function (httpResponse) {
+        var /** @type {?} */ responsedata = httpResponse;
+        if (this.datareader != null) {
+            var /** @type {?} */ dr = this.datareader.split('.');
+            for (var _i = 0, dr_1 = dr; _i < dr_1.length; _i++) {
+                var ir = dr_1[_i];
+                responsedata = responsedata[ir];
+            }
+        }
+        else {
+            responsedata = httpResponse;
+        }
+        return responsedata;
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioCheckBoxGroupComponent.prototype.contains = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        var _this = this;
+        if (this._model instanceof Array) {
+            this._model.forEach(function (obj) {
+                if (obj[_this.displayfield] === value[_this.displayfield]) {
+                    return true;
+                }
+            });
+        }
+        return false;
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioCheckBoxGroupComponent.prototype.add = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        if (!this.contains(value)) {
+            if (this._model instanceof Array) {
+                this._model.push(value);
+            }
+            else {
+                this._model = [value];
+            }
+            this.onChangeCallback(this._model);
+        }
+        this.emitCheckboxes(this._model);
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioCheckBoxGroupComponent.prototype.remove = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        var /** @type {?} */ index = this._model.indexOf(value);
+        if (!this._model || index < 0) {
+            return;
+        }
+        this._model.splice(index, 1);
+        this.onChangeCallback(this._model);
+        this.emitCheckboxes(this._model);
+    };
+    // THIS METHOD EMMIT SELECTED CHECKBOXES
+    /**
+     * @param {?} selectedCheckBoxes
+     * @return {?}
+     */
+    AmexioCheckBoxGroupComponent.prototype.emitCheckboxes = /**
+     * @param {?} selectedCheckBoxes
+     * @return {?}
+     */
+    function (selectedCheckBoxes) {
+        var _this = this;
+        this.selectedCheckBox = [];
+        if (selectedCheckBoxes && selectedCheckBoxes.length > 0) {
+            selectedCheckBoxes.forEach(function (obj) {
+                obj.checked = true;
+                _this.selectedCheckBox.push(obj);
+            });
+        }
+        this.onSelection.emit(this.selectedCheckBox);
+    };
+    /**
+     * @param {?} c
+     * @return {?}
+     */
+    AmexioCheckBoxGroupComponent.prototype.validate = /**
+     * @param {?} c
+     * @return {?}
+     */
+    function (c) {
+        return (this.required && (this._model && this._model.length > 0)) || !this.required
+            ? null
+            : {
+                jsonParseError: {
+                    valid: true,
+                },
+            };
+    };
+    AmexioCheckBoxGroupComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-checkbox-group',
+                    template: "\n    <div role=\"group\"\n         attr.aria-labelledby=\"{{componentId}}\"\n         [attr.aria-required]=\"required\" \n         tabindex=\"0\"\n         class=\"inputgroup form-group\">\n        <div *ngIf=\"fieldlabel\">\n            <legend id=\"{{componentId}}\">{{fieldlabel}}</legend>\n        </div>  \n\n        <div *ngIf=\"horizontal\" style=\"display: inline-flex; flex-direction :row;\">\n            <checkbox *ngFor=\"let data of viewdata | async\" [checked]=\"data.checked\" [value]=\"data\" [disabled]=\"data?.disabled || disabled\" [label]=\"data[displayfield]\">\n            </checkbox>    \n        </div>\n\n        <div *ngIf=\"!horizontal\" style=\"display: inline-flex;flex-direction :column;\">\n            <checkbox *ngFor=\"let data of viewdata | async\" [checked]=\"data.checked\" [value]=\"data\" [disabled]=\"data?.disabled || disabled\" [label]=\"data[displayfield]\">\n            </checkbox>\n        </div>\n    </div>\n  ",
+                    providers: [
+                        { provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioCheckBoxGroupComponent; }), multi: true },
+                        { provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioCheckBoxGroupComponent; }), multi: true },
+                    ]
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioCheckBoxGroupComponent.ctorParameters = function () { return [
+        { type: CommonDataService }
+    ]; };
+    AmexioCheckBoxGroupComponent.propDecorators = {
+        horizontal: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data',] }],
+        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
+        displayfield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['display-field',] }],
+        valuefield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['value-field',] }],
+        required: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['required',] }],
+        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['name',] }],
+        datareader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data-reader',] }],
+        httpmethod: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-method',] }],
+        httpurl: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-url',] }],
+        onSelection: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    };
+    return AmexioCheckBoxGroupComponent;
+}(ValueAccessorBase));
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioFormValidator = /** @class */ (function () {
+    function AmexioFormValidator() {
+    }
+    // @ViewChild(NgModel) model: NgModel;
+    // public validate(c: FormControl) {
+    //     return (this.model.valid ) ? null : {
+    //         jsonParseError: {
+    //             valid: true,
+    //         },
+    //     };
+    // }
+    /**
+     * @param {?} inputType
+     * @param {?} name
+     * @return {?}
+     */
+    AmexioFormValidator.prototype.createCompId = /**
+     * @param {?} inputType
+     * @param {?} name
+     * @return {?}
+     */
+    function (inputType, name) {
+        return inputType + '_' + name + '_' + Math.floor(Math.random() * 1000 + 999);
+    };
+    return AmexioFormValidator;
+}());
+
+var __extends$4 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* Created by ketangote on 11/21/17.
+*/
+var noop$4 = function () {
+};
+var AmexioCheckBoxComponent = /** @class */ (function (_super) {
+    __extends$4(AmexioCheckBoxComponent, _super);
+    function AmexioCheckBoxComponent() {
+        var _this = _super.call(this) || this;
+        _this.innerValue = '';
+        _this.onTouchedCallback = noop$4;
+        _this.onChangeCallback = noop$4;
+        /*
+          Properties
+          name : required
+          datatype : boolean
+          version : 4.0 onwards
+          default : false
+          description :  property to set if manditory
+          */
+        _this.required = false;
+        /*
+          Events
+          name : onSelection
+          datatype : any
+          version : none
+          default : none
+          description : Event fired on checkbox click.
+          */
+        _this.onSelection = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+          Events
+          name : input
+          datatype : any
+          version : none
+          default : none
+          description : On input event field.
+          */
+        _this.input = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.tabFocus = false;
+        _this.isComponentValid = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        return _this;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioCheckBoxComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.componentId = this.createCompId('checkbox', this.name);
+        this.generateName();
+        this.isValid = !this.required;
+        this.isComponentValid.emit(!this.required);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCheckBoxComponent.prototype.onInput = /**
+     * @return {?}
+     */
+    function () {
+        this.isValid = this.value;
+        this.isComponentValid.emit(this.value);
+        this.input.emit(this.value);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCheckBoxComponent.prototype.onClick = /**
+     * @return {?}
+     */
+    function () {
+        this.value = !this.value;
+        this.isValid = this.value;
+        this.isComponentValid.emit(this.value);
+        this.onSelection.emit(this.value);
+    };
+    Object.defineProperty(AmexioCheckBoxComponent.prototype, "value", {
+        // get accessor
+        get: /**
+         * @return {?}
+         */
+        function () {
+            if (this.required) {
+                this.isValid = this.innerValue;
+            }
+            else {
+                this.isValid = true;
+            }
+            return this.innerValue;
+        },
+        // set accessor including call the onchange callback
+        set: /**
+         * @param {?} v
+         * @return {?}
+         */
+        function (v) {
+            if (v !== this.innerValue) {
+                this.innerValue = v;
+                this.onChangeCallback(v);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    // Set touched on blur
+    /**
+     * @return {?}
+     */
+    AmexioCheckBoxComponent.prototype.onBlur = /**
+     * @return {?}
+     */
+    function () {
+        this.tabFocus = false;
+        this.onTouchedCallback();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCheckBoxComponent.prototype.onFocus = /**
+     * @return {?}
+     */
+    function () {
+        this.tabFocus = true;
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioCheckBoxComponent.prototype.writeValue = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        if (value !== this.innerValue) {
+            this.innerValue = value;
+            this.value = this.innerValue;
+        }
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    AmexioCheckBoxComponent.prototype.registerOnChange = /**
+     * @param {?} fn
+     * @return {?}
+     */
+    function (fn) {
+        this.onChangeCallback = fn;
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    AmexioCheckBoxComponent.prototype.registerOnTouched = /**
+     * @param {?} fn
+     * @return {?}
+     */
+    function (fn) {
+        this.onTouchedCallback = fn;
+    };
+    // THIS MEHTOD CHECK INPUT IS VALID OR NOT
+    /**
+     * @return {?}
+     */
+    AmexioCheckBoxComponent.prototype.checkValidity = /**
+     * @return {?}
+     */
+    function () {
+        return this.isValid;
+    };
+    /**
+     * @param {?} c
+     * @return {?}
+     */
+    AmexioCheckBoxComponent.prototype.validate = /**
+     * @param {?} c
+     * @return {?}
+     */
+    function (c) {
+        return ((this.required && this.value) || !this.required) ? null : {
+            jsonParseError: {
+                valid: true,
+            },
+        };
+    };
+    // THIS METHOD GENERATE RANDOM STRING
+    /**
+     * @return {?}
+     */
+    AmexioCheckBoxComponent.prototype.generateName = /**
+     * @return {?}
+     */
+    function () {
+        if (!this.name && this.fieldlabel) {
+            this.name = this.fieldlabel.replace(/\s/g, '');
+        }
+        else if (!this.name && !this.fieldlabel) {
+            this.name = 'textinput-' + this.getRandomString();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCheckBoxComponent.prototype.getRandomString = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ possibleCharacters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+        var /** @type {?} */ randomString = '';
+        for (var /** @type {?} */ i = 0; i < 6; i++) {
+            randomString += possibleCharacters.charAt(Math.floor(Math.random() * possibleCharacters.length));
+        }
+        return randomString;
+    };
+    AmexioCheckBoxComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-checkbox',
+                    template: "\n    <div [attr.aria-checked]=\"value\" class=\"inputgroup form-group\" [ngClass]=\"{'checkbox-disable' : disabled}\">\n        <label for=\"{{componentId}}\" class=\"input-box-container\">\n            <input\n            id=\"{{componentId}}\" type=\"checkbox\" style=\"top:0; left:0\"\n            [attr.checked]=\"value ? true: null\"\n             tabindex=\"1\"\n            (input)=\"onInput()\" \n            (click)=\"onClick()\"\n            (focus)=\"onFocus()\"\n            (blur)=\"onBlur()\"\n            [attr.disabled] = \"disabled ? true: null\"\n            [attr.aria-disabled]=\"disabled\"\n            [attr.aria-required]=\"required\"\n            [required]=\"required\" >\n            {{fieldlabel}}\n            <span class=\"input-box-checkbox-label\" [ngClass]=\"{'focusOnCheckbox':tabFocus}\">\n            </span>\n          </label>\n    </div>\n  ",
+                    providers: [{
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioCheckBoxComponent; }), multi: true,
+                        }, {
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioCheckBoxComponent; }), multi: true,
+                        }],
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioCheckBoxComponent.ctorParameters = function () { return []; };
+    AmexioCheckBoxComponent.propDecorators = {
+        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
+        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        required: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        onSelection: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        input: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['name',] }],
+        isComponentValid: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    };
+    return AmexioCheckBoxComponent;
+}(AmexioFormValidator));
+
+var __extends$6 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -33371,7 +34829,7 @@ var __extends$5 = (undefined && undefined.__extends) || (function () {
  * @template T
  */
 var EventBaseComponent = /** @class */ (function (_super) {
-    __extends$5(EventBaseComponent, _super);
+    __extends$6(EventBaseComponent, _super);
     function EventBaseComponent(renderer, element, cd) {
         var _this = _super.call(this) || this;
         _this.renderer = renderer;
@@ -33482,7 +34940,4944 @@ var EventBaseComponent = /** @class */ (function (_super) {
     return EventBaseComponent;
 }(ValueAccessorBase));
 
-var __extends$4 = (undefined && undefined.__extends) || (function () {
+var __extends$5 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/**
+ * Created by pratik on 1/12/17.
+ */
+var AmexioDropDownComponent = /** @class */ (function (_super) {
+    __extends$5(AmexioDropDownComponent, _super);
+    function AmexioDropDownComponent(dataService, displayFieldService, element, renderer, _cd) {
+        var _this = _super.call(this, renderer, element, _cd) || this;
+        _this.dataService = dataService;
+        _this.displayFieldService = displayFieldService;
+        _this.element = element;
+        _this.renderer = renderer;
+        _this.displayValue = '';
+        _this.filteredOptions = [];
+        /*
+          Events
+          name : onBlur
+          datatype : any
+          version : 4.0 onwards
+          default :
+          description : 	On blur event
+          */
+        _this.onBlur = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Events
+        name : input
+        datatype : any
+        version : none
+        default :
+        description : 	On input event field.
+        */
+        _this.input = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Events
+        name : focus
+        datatype : any
+        version : none
+        default :
+        description : On field focus event
+        */
+        _this.focus = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Events
+        name : onSingleSelect
+        datatype : any
+        version : none
+        default :
+        description : Fire when drop down item selected.
+        */
+        _this.onSingleSelect = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Events
+        name : onMultiSelect
+        datatype : any
+        version :none
+        default :
+        description : Fire when multiple record select in drop down.this event is only
+        applied when multi-select=true
+        */
+        _this.onMultiSelect = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Events
+        name : onClick
+        datatype : any
+        version :none
+        default :
+        description : On record select event.this event is only for normal dropdown.
+        */
+        _this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Properties
+        name : place-holder
+        datatype : string
+        version : 4.0 onwards
+        default :
+        description : Show place-holder inside dropdown component*/
+        _this.placeholder = '';
+        /*
+        Properties
+        name : has-label
+        datatype : boolean
+        version : 4.0 onwards
+        default : false
+        description : flag to set label
+        */
+        _this.haslabel = true;
+        _this.enablesort = false;
+        _this.sort = '';
+        _this.selectedindex = -1;
+        _this.multiselectValues = [];
+        _this.maskloader = true;
+        _this.activedescendant = 'aria-activedescendant';
+        // The internal dataviews model
+        _this.isComponentValid = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        return _this;
+    }
+    Object.defineProperty(AmexioDropDownComponent.prototype, "data", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._data;
+        },
+        set: /**
+         * @param {?} value
+         * @return {?}
+         */
+        function (value) {
+            this._data = value;
+            if (this.componentLoaded) {
+                this.setData(this._data);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AmexioDropDownComponent.prototype, "errormsg", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._errormsg;
+        },
+        set: /**
+         * @param {?} value
+         * @return {?}
+         */
+        function (value) {
+            this.helpInfoMsg = value + '<br/>';
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.name = this.generateName(this.name, this.fieldlabel, 'dropdowninput');
+        this.componentId = this.createCompId('dropdown', this.displayfield);
+        this.isValid = this.allowblank;
+        this.isComponentValid.emit(this.allowblank);
+        if (this.httpmethod && this.httpurl) {
+            this.dataService.fetchData(this.httpurl, this.httpmethod).subscribe(function (response) {
+                _this.responseData = response;
+            }, function (error) {
+            }, function () {
+                _this.setData(_this.responseData);
+            });
+        }
+        else if (this.data) {
+            this.previousData = JSON.parse(JSON.stringify(this.data));
+            this.setData(this.data);
+        }
+        this.componentLoaded = true;
+    };
+    /**
+     * @param {?} httpResponse
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.setData = /**
+     * @param {?} httpResponse
+     * @return {?}
+     */
+    function (httpResponse) {
+        // Check if key is added?
+        var /** @type {?} */ responsedata = httpResponse;
+        if (this.datareader != null) {
+            this.multiselectValues = [];
+            var /** @type {?} */ dr = this.datareader.split('.');
+            if (dr) {
+                for (var _i = 0, dr_1 = dr; _i < dr_1.length; _i++) {
+                    var ir = dr_1[_i];
+                    responsedata = responsedata[ir];
+                }
+            }
+        }
+        else {
+            responsedata = httpResponse;
+        }
+        this.setResponseData(responsedata);
+        this.multiSelection();
+        this.setUserSelection();
+        this.maskloader = false;
+    };
+    /**
+     * @param {?} responsedata
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.setResponseData = /**
+     * @param {?} responsedata
+     * @return {?}
+     */
+    function (responsedata) {
+        if (responsedata) {
+            if (this.enablesort === true && (this.sort === '' || this.sort.toLowerCase() === 'asc')) {
+                this.sortDataAscending(responsedata);
+            }
+            else if (this.enablesort === true && this.sort.toLowerCase() === 'desc') {
+                this.sortDataDescending(responsedata);
+            }
+            else if (this.enablesort === false) {
+                this.viewData = responsedata;
+                this.filteredOptions = this.viewData;
+                this.generateIndex(this.filteredOptions);
+            }
+        }
+    };
+    /**
+     * @param {?} data
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.sortDataAscending = /**
+     * @param {?} data
+     * @return {?}
+     */
+    function (data) {
+        var _this = this;
+        this.viewData = data.sort(function (a, b) { return _this.displayFieldService.findValue(_this.displayfield, a).toLowerCase()
+            !== _this.displayFieldService.findValue(_this.displayfield, b).toLowerCase() ?
+            _this.displayFieldService.findValue(_this.displayfield, a).toLowerCase() <
+                _this.displayFieldService.findValue(_this.displayfield, b).toLowerCase() ? -1 : 1 : 0; });
+        this.filteredOptions = this.viewData;
+        this.generateIndex(this.filteredOptions);
+    };
+    /**
+     * @param {?} data
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.sortDataDescending = /**
+     * @param {?} data
+     * @return {?}
+     */
+    function (data) {
+        var _this = this;
+        this.viewData = data.sort(function (a, b) { return _this.displayFieldService.findValue(_this.displayfield, a).toLowerCase()
+            !== _this.displayFieldService.findValue(_this.displayfield, b).toLowerCase() ?
+            _this.displayFieldService.findValue(_this.displayfield, a).toLowerCase() >
+                _this.displayFieldService.findValue(_this.displayfield, b).toLowerCase() ? -1 : 1 : 0; });
+        this.filteredOptions = this.viewData;
+        this.generateIndex(this.filteredOptions);
+    };
+    /**
+     * @param {?} data
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.generateIndex = /**
+     * @param {?} data
+     * @return {?}
+     */
+    function (data) {
+        var _this = this;
+        data.forEach(function (element, index) {
+            element['index'] = _this.componentId + 'listitem' + index;
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.multiSelection = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.multiselect && this.viewData) {
+            var /** @type {?} */ preSelectedMultiValues_1 = '';
+            var /** @type {?} */ optionsChecked_1 = [];
+            this.viewData.forEach(function (row) {
+                if (row.hasOwnProperty('checked')) {
+                    if (row.checked) {
+                        optionsChecked_1.push(row[_this.valuefield]);
+                        _this.multiselectValues.push(row);
+                        preSelectedMultiValues_1 === '' ? preSelectedMultiValues_1 +=
+                            _this.displayFieldService.findValue(_this.displayfield, row) : preSelectedMultiValues_1 += ', ' +
+                            _this.displayFieldService.findValue(_this.displayfield, row);
+                    }
+                }
+                else {
+                    row['checked'] = false;
+                }
+            });
+            this.displayValue = this.setMultiSelect();
+            this.onMultiSelect.emit(this.multiselectValues);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.setUserSelection = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        // Set user selection
+        if (this.innerValue != null) {
+            var /** @type {?} */ valueKey_1 = this.valuefield;
+            var /** @type {?} */ displayKey_1 = this.displayfield;
+            var /** @type {?} */ val_1 = this.innerValue;
+            if (this.viewData.length > 0) {
+                this.viewData.forEach(function (item) {
+                    if (item[valueKey_1] === val_1) {
+                        _this.isValid = true;
+                        _this.isComponentValid.emit(true);
+                        _this.displayValue = item[displayKey_1];
+                        _this.onSingleSelect.emit(item);
+                    }
+                });
+            }
+        }
+    };
+    /**
+     * @param {?} selectedItem
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.onItemSelect = /**
+     * @param {?} selectedItem
+     * @return {?}
+     */
+    function (selectedItem) {
+        var _this = this;
+        if (this.multiselect) {
+            var /** @type {?} */ optionsChecked_2 = [];
+            this.multiselectValues = [];
+            if (selectedItem.hasOwnProperty('checked')) {
+                selectedItem.checked = !selectedItem.checked;
+                this.filteredOptions.forEach(function (row) {
+                    if (row.checked) {
+                        optionsChecked_2.push(row[_this.valuefield]);
+                        _this.multiselectValues.push(row);
+                    }
+                });
+                this.innerValue = optionsChecked_2;
+                this.displayValue = this.setMultiSelect();
+                this.onMultiSelect.emit(this.multiselectValues);
+            }
+        }
+        else {
+            this.value = selectedItem[this.valuefield]; // Issue here?
+            this.displayValue = this.displayFieldService.findValue(this.displayfield, selectedItem);
+            this.multiselect ? this.showToolTip = true : this.showToolTip = false;
+            this.onSingleSelect.emit(selectedItem);
+        }
+        this.isValid = true;
+        this.isComponentValid.emit(true);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.setMultiSelectData = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.multiselectValues = [];
+        if (this.innerValue && this.innerValue.length > 0) {
+            var /** @type {?} */ modelValue_1 = this.innerValue;
+            this.filteredOptions.forEach(function (test) {
+                modelValue_1.forEach(function (mdValue) {
+                    if (test[_this.valuefield] === mdValue) {
+                        if (test.hasOwnProperty('checked')) {
+                            test.checked = true;
+                        }
+                        _this.multiselectValues.push(test);
+                    }
+                });
+            });
+        }
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.navigateKey = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+    };
+    /**
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.getDisplayText = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.innerValue != null || this.innerValue !== '') {
+            if (this.multiselect) {
+                this.displayValue = this.setMultiSelect();
+            }
+            else {
+                this.displayValue = '';
+                this.filteredOptions.forEach(function (test) {
+                    if (test[_this.valuefield] === _this.innerValue) {
+                        _this.displayValue = _this.displayFieldService.findValue(_this.displayfield, test);
+                    }
+                });
+                this.displayValue = this.displayValue === undefined ? '' : this.displayValue;
+            }
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.setMultiSelect = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.setMultiSelectData();
+        var /** @type {?} */ multiselectDisplayString = '';
+        this.multiselectValues.forEach(function (row) {
+            multiselectDisplayString === '' ? multiselectDisplayString +=
+                _this.displayFieldService.findValue(_this.displayfield, row) : multiselectDisplayString += ', '
+                + _this.displayFieldService.findValue(_this.displayfield, row);
+        });
+        if (this.multiselectValues.length > 0) {
+            return multiselectDisplayString;
+        }
+        else {
+            return '';
+        }
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.onDropDownClick = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.onBaseFocusEvent(event);
+        this.showToolTip = true;
+        this.onClick.emit(event);
+        if (!this.multiselect && this.selectedindex > -1) {
+            this.filteredOptions[this.selectedindex].selected = false;
+            this.selectedindex = -1;
+            this.selectedindex = this.selectedindex + 1;
+            this.filteredOptions[this.selectedindex].selected = true;
+            var /** @type {?} */ inputid = document.getElementById(this.componentId);
+            inputid.setAttribute(this.activedescendant, this.filteredOptions[this.selectedindex].index);
+            this.generateScroll(this.selectedindex);
+        }
+    };
+    /**
+     * @param {?} index
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.generateScroll = /**
+     * @param {?} index
+     * @return {?}
+     */
+    function (index) {
+        var /** @type {?} */ listitems = this.element.nativeElement.getElementsByClassName('list-items')[index];
+        if (listitems) {
+            listitems.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.focusToLast = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        if (this.selectedindex > -1) {
+            this.filteredOptions[this.selectedindex].selected = false;
+            this.selectedindex = this.filteredOptions.length - 1;
+            this.filteredOptions[this.filteredOptions.length - 1].selected = true;
+            var /** @type {?} */ inputid = document.getElementById(this.componentId);
+            inputid.setAttribute(this.activedescendant, this.filteredOptions[this.filteredOptions.length - 1].index);
+            this.generateScroll(this.selectedindex);
+        }
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.closeOnEScape = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.showToolTip = false;
+        this.hide();
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.onChange = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.innerValue = event;
+        this.isValid = true;
+        this.getDisplayText();
+        this.isComponentValid.emit(true);
+    };
+    /**
+     * @param {?} input
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.onInput = /**
+     * @param {?} input
+     * @return {?}
+     */
+    function (input) {
+        this.input.emit();
+        this.isValid = input.valid;
+        this.isComponentValid.emit(input.valid);
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.onDropDownSearchKeyUp = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        var _this = this;
+        if (this.search && this.viewData) {
+            var /** @type {?} */ keyword = event.target.value;
+            if (keyword != null && keyword !== '' && keyword !== ' ') {
+                this.filteredOptions = [];
+                var /** @type {?} */ search_Term_1 = keyword.toLowerCase();
+                this.viewData.forEach(function (row) {
+                    if (_this.displayFieldService.findValue(_this.displayfield, row).toLowerCase().startsWith(search_Term_1)) {
+                        _this.filteredOptions.push(row);
+                    }
+                });
+            }
+            if (keyword === '') {
+                this.filteredOptions = this.viewData;
+            }
+        }
+        if (event.keyCode === 8) {
+            this.innerValue = '';
+        }
+        if (event.keyCode === 40 || event.keyCode === 38 || event.keyCode === 13) {
+            this.navigateUsingKey(event);
+        }
+        this.onBaseFocusEvent({});
+    };
+    // navigate using keys
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.navigateUsingKey = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        if (!this.showToolTip) {
+            this.showToolTip = true;
+        }
+        if (this.selectedindex > this.filteredOptions.length) {
+            this.selectedindex = 0;
+        }
+        if (event.keyCode === 40 || event.keyCode === 38 && this.selectedindex <
+            this.filteredOptions.length) {
+            var /** @type {?} */ prevselectedindex = -1;
+            prevselectedindex = this.selectedindex;
+            if (event.keyCode === 40) {
+                this.selectedindex++;
+            }
+            else if (event.keyCode === 38) {
+                this.selectedindex--;
+            }
+            this.navigateFilterOptions(prevselectedindex);
+        }
+        if (event.keyCode === 13 && this.filteredOptions[this.selectedindex]) {
+            this.onItemSelect(this.filteredOptions[this.selectedindex]);
+        }
+    };
+    // for highlight  navigated options
+    /**
+     * @param {?} previndex
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.navigateFilterOptions = /**
+     * @param {?} previndex
+     * @return {?}
+     */
+    function (previndex) {
+        if (this.filteredOptions[this.selectedindex]) {
+            this.filteredOptions[this.selectedindex].selected = true;
+            var /** @type {?} */ inputid = document.getElementById(this.componentId);
+            inputid.setAttribute(this.activedescendant, this.filteredOptions[this.selectedindex].index);
+        }
+        if (this.filteredOptions[previndex]) {
+            this.filteredOptions[previndex].selected = false;
+            this.toNavigateFirstAndLastOption();
+        }
+        this.generateScroll(this.selectedindex);
+    };
+    // to navigate first and last option
+    /**
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.toNavigateFirstAndLastOption = /**
+     * @return {?}
+     */
+    function () {
+        if (this.selectedindex === -1) {
+            this.selectedindex = this.filteredOptions.length - 1;
+            this.filteredOptions[this.filteredOptions.length - 1].selected = true;
+            var /** @type {?} */ inputid = document.getElementById(this.componentId);
+            inputid.setAttribute(this.activedescendant, this.filteredOptions[this.filteredOptions.length - 1].index);
+        }
+        else if (this.selectedindex === this.filteredOptions.length) {
+            this.selectedindex = 0;
+            this.filteredOptions[this.selectedindex].selected = true;
+            var /** @type {?} */ inputid = document.getElementById(this.componentId);
+            inputid.setAttribute(this.activedescendant, this.filteredOptions[this.selectedindex].index);
+        }
+    };
+    Object.defineProperty(AmexioDropDownComponent.prototype, "value", {
+        // get accessor
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this.innerValue;
+        },
+        // set accessor including call the onchange callback
+        set: /**
+         * @param {?} v
+         * @return {?}
+         */
+        function (v) {
+            if (v != null && v !== this.innerValue) {
+                this.innerValue = v;
+                this.onChangeCallback(v);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    // Set touched on blur
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.onblur = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        if (event.target && event.target.value && this.filteredOptions &&
+            this.filteredOptions.length === 1) {
+            var /** @type {?} */ fvalue = event.target.value;
+            var /** @type {?} */ row = this.filteredOptions[0];
+            var /** @type {?} */ rvalue = this.displayFieldService.findValue(this.displayfield, row);
+            if (fvalue && rvalue && (fvalue.toLowerCase() === rvalue.toLowerCase())) {
+                this.onItemSelect(row);
+            }
+        }
+        this.onTouchedCallback();
+        this.onBaseBlurEvent(event);
+        this.onBlur.emit();
+    };
+    /**
+     * @param {?} elem
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.onFocus = /**
+     * @param {?} elem
+     * @return {?}
+     */
+    function (elem) {
+        this.onBaseFocusEvent(elem);
+        this.showToolTip = true;
+        this.posixUp = this.getListPosition(elem);
+        this.focus.emit();
+    };
+    /**
+     * @param {?} elementRef
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.getListPosition = /**
+     * @param {?} elementRef
+     * @return {?}
+     */
+    function (elementRef) {
+        var /** @type {?} */ dropdownHeight = 325; // must be same in dropdown.scss
+        if (window.screen.height - (elementRef.getBoundingClientRect().bottom) < dropdownHeight) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.writeValue = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        if (value != null) {
+            this.writeChangedValue(value);
+        }
+        else {
+            this.innerValue = '';
+            if (this.allowblank) {
+                this.isValid = true;
+            }
+        }
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.writeChangedValue = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        var _this = this;
+        if (value !== this.innerValue) {
+            var /** @type {?} */ status_1 = false;
+            if (this.viewData && this.viewData.length > 0) {
+                this.viewData.forEach(function (item) {
+                    if (item[_this.valuefield] === value) {
+                        _this.isValid = true;
+                        _this.displayValue = _this.displayFieldService.findValue(_this.displayfield, item);
+                        status_1 = true;
+                        return;
+                    }
+                });
+            }
+            if (!status_1) {
+                this.displayValue = '';
+            }
+            this.value = value;
+        }
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.registerOnChange = /**
+     * @param {?} fn
+     * @return {?}
+     */
+    function (fn) {
+        this.onChangeCallback = fn;
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.registerOnTouched = /**
+     * @param {?} fn
+     * @return {?}
+     */
+    function (fn) {
+        this.onTouchedCallback = fn;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.onIconClick = /**
+     * @return {?}
+     */
+    function () {
+        if (!this.disabled) {
+            var /** @type {?} */ showflag = this.showToolTip;
+            if (!this.showToolTip) {
+                this.onBaseFocusEvent({});
+            }
+            else {
+                this.onBaseBlurEvent({});
+            }
+            this.showToolTip = !showflag;
+        }
+    };
+    // THIS MEHTOD CHECK INPUT IS VALID OR NOT
+    /**
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.checkValidity = /**
+     * @return {?}
+     */
+    function () {
+        return this.isValid;
+    };
+    /**
+     * @param {?} c
+     * @return {?}
+     */
+    AmexioDropDownComponent.prototype.validate = /**
+     * @param {?} c
+     * @return {?}
+     */
+    function (c) {
+        return ((!this.allowblank && (this.value || this.value === 0)) || this.allowblank) ? null : {
+            jsonParseError: {
+                valid: true,
+            },
+        };
+    };
+    AmexioDropDownComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-dropdown',
+                    template: "\n    <div class=\"inputgroup\" #rootDiv (keyup.esc)=\"closeOnEScape($event)\">\n\n        <label id=\"fieldlabel\" for=\"input\" *ngIf=\"haslabel\" [style.font-style]=\"fontstyle\" [style.font-family]=\"fontfamily\" [style.font-size]=\"fontsize\">\n        {{fieldlabel}}\n      </label>\n\n        <input type=\"hidden\" [ngModel]=\"value\" (ngModelChange)=\"onChange($event)\" #inp=\"ngModel\" />\n        <input id=\"{{componentId}}\" tabindex=\"1\" aria-autocomplete=\"list\" role=\"combobox\" [attr.aria-expanded]=\"showToolTip\" [attr.aria-activedescendant]=\"\" type=\"text\" class=\"input-control\" [value]=\"displayValue\" [ngClass]=\"{'input-control-error' : inp.invalid && !displayValue && (inp.dirty || inp.touched),\n             'input-control-success' : inp.valid && displayValue && (inp.dirty || inp.touched)}\" (input)=\"onInput(inp)\" (blur)=\"onblur($event)\" (focus)=\"onFocus(rootDiv)\" (click)=\" onDropDownClick($event)\" [attr.placeholder]=\"placeholder\" [readonly]=\"readonly ? true : null\"\n            [attr.disabled]=\"disabled ? true: null\" [required]=\"!allowblank\" (keyup.end)=\"focusToLast($event)\" (keyup)=\"onDropDownSearchKeyUp($event)\" (keyup.enter)=\"closeOnEScape($event)\" (keydown)=\"navigateKey($event)\" />\n\n        <span class=\"drodown-caret-down\" role=\"listbox\" [attr.aria-expanded]=\"showToolTip\" (click)=\"onIconClick()\">\n        <amexio-c-icon key=\"dropdown_caret\" *ngIf=\"!maskloader\"></amexio-c-icon>\n        <em class=\"fa fa-spinner fa-spin\" *ngIf=\"maskloader\"></em>\n      </span>\n\n        <span #dropdownitems class=\"dropdown\" [ngClass]=\"{'dropdown-up' : posixUp}\" [ngStyle]=\"dropdownstyle\">\n        <ul aria-labelledby=\"fieldlabel\" aria-haspopup=\"listbox\" class=\"dropdown-list\">\n\n          <li role=\"option\" tabindex=\"1\" class=\"list-items\" [ngClass]=\"{'list-items-selected':item.selected}\" *ngFor=\"let item of filteredOptions\"\n            id=\"{{item.index}}\" (mousedown)=\"onItemSelect(item)\" (click)=\"onItemSelect(item)\">\n            <ng-container *ngIf=\"bodyTemplate\">\n              <ng-template [ngTemplateOutlet]=\"bodyTemplate\" [ngTemplateOutletContext]=\"{ $implicit: { text : row }, row: item }\">\n              </ng-template>\n            </ng-container>\n            <ng-container *ngIf=\"!bodyTemplate\">\n              <span>\n                <amexio-display-field [data]=\"item\" [data-index]=\"displayfield\"></amexio-display-field>\n              </span>\n\n        </ng-container>\n        <span style=\"float : right\">{{item?.checked ? '&#10004;': ''}}</span>\n        </li>\n    \n        <ng-template *ngIf=\"filteredOptions && (filteredOptions.length < 1)\">\n            <li class=\"list-items\">No Options</li>\n        </ng-template>\n        </ul>\n        <ng-content></ng-content>\n        </span>\n        <span class=\"inputfieldbar\"></span>\n    </div>\n    <span *ngIf=\"showToolTip && enablepopover\" class=\"tooltiptext\">\n      <div [innerHTML]=\"helpInfoMsg\"></div>\n    </span>\n\n    <span *ngIf=\"iconfeedback && (inp.invalid && (inp.dirty || inp.touched) || inp.valid)\" class=\"input-control-feedback\">\n      <span *ngIf=\"inp.invalid && (inp.dirty || inp.touched)\">&#9888;</span>\n    <span *ngIf=\"inp.valid && (inp.dirty || inp.touched)\"> &#10004;</span>\n\n    </span>\n  ",
+                    animations: [
+                        trigger('changeState', [
+                            state('visible', style({
+                                'max-height': '200px',
+                            })),
+                            state('hidden', style({
+                                'max-height': '0px',
+                            })),
+                            transition('*=>*', animate('200ms')),
+                        ]),
+                    ],
+                    providers: [{
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioDropDownComponent; }), multi: true,
+                        }, {
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioDropDownComponent; }), multi: true,
+                        }],
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioDropDownComponent.ctorParameters = function () { return [
+        { type: CommonDataService },
+        { type: DisplayFieldService },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"] }
+    ]; };
+    AmexioDropDownComponent.propDecorators = {
+        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
+        allowblank: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['allow-blank',] }],
+        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data',] }],
+        datareader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data-reader',] }],
+        httpmethod: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-method',] }],
+        httpurl: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-url',] }],
+        displayfield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['display-field',] }],
+        valuefield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['value-field',] }],
+        search: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        readonly: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        multiselect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['multi-select',] }],
+        dropdownitems: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['dropdownitems', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        onBlur: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        input: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        focus: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        onSingleSelect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        onMultiSelect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        placeholder: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['place-holder',] }],
+        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        iconfeedback: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-feedback',] }],
+        fontstyle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-style',] }],
+        fontfamily: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-family',] }],
+        fontsize: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-size',] }],
+        haslabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['has-label',] }],
+        enablepopover: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-popover',] }],
+        enablesort: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-sort',] }],
+        sort: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['sort',] }],
+        errormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['error-msg',] }],
+        bodyTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: ['amexioBodyTmpl',] }],
+        isComponentValid: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['name',] }]
+    };
+    return AmexioDropDownComponent;
+}(EventBaseComponent));
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* Created by  Pratik on 7/2/18.
+*/
+var AmexioLabelComponent = /** @class */ (function () {
+    function AmexioLabelComponent() {
+        this.enableclick = false;
+        this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.tempStyleArray = ['large', 'medium', 'small', 'bold', 'large-bold', 'medium-bold', 'small-bold',
+            'large-44', 'large-24', 'large-50', 'large-54', 'large-56', 'large-60', 'large-64', 'large-68', 'large-78', 'large-9vw',
+            'large-44-bold', 'large-50-bold', 'large-24-bold', 'large-4vw', 'large-4vw-bold',
+            'large-54-bold', 'large-56-bold', 'large-60-bold', 'large-64-bold', 'large-68-bold', 'large-78-bold', 'large-9vw-bold'];
+    }
+    /**
+     * @return {?}
+     */
+    AmexioLabelComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.styleClass == null) {
+            this.styleClass = 'small';
+        }
+        else {
+            this.styleClass = this.tempStyleArray.find(function (x) { return x === _this.styleClass; });
+        }
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioLabelComponent.prototype.onLabel = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        if (this.enableclick) {
+            this.onClick.emit(event);
+        }
+    };
+    AmexioLabelComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-label',
+                    template: "\n  <label style=\"outline: none\" role=\"text\" tabindex=\"1\" class=\"label-content {{styleClass}}\" (click)=\"onLabel($event)\"\n    [ngStyle]=\"{'color' : fontColor,'cursor': enableclick ? 'pointer': 'text'}\">\n    <ng-content></ng-content>\n    <span class=\"label-badge\" *ngIf=\"badge\">{{badge}}</span>\n  </label>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioLabelComponent.ctorParameters = function () { return []; };
+    AmexioLabelComponent.propDecorators = {
+        badge: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['badge',] }],
+        styleClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['size',] }],
+        fontColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-color',] }],
+        enableclick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-click',] }],
+        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    };
+    return AmexioLabelComponent;
+}());
+
+var __extends$7 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioNumberInputComponent = /** @class */ (function (_super) {
+    __extends$7(AmexioNumberInputComponent, _super);
+    function AmexioNumberInputComponent() {
+        var _this = _super.call(this) || this;
+        _this.isValid = false;
+        /*
+          Events
+          name : onBlur
+          datatype : any
+          version : 4.0 onwards
+          default :
+          description : On blur event
+          */
+        _this.onBlur = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+         Events
+         name : input
+         datatype : any
+         version : none
+         default :
+         description : 	On input event field.
+         */
+        _this.input = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+         Events
+         name : focus
+         datatype : any
+         version : none
+         default :
+         description : On focus event field.
+         */
+        _this.focus = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+         Events
+         name : change
+         datatype : any
+         version : none
+         default :
+         description : On field value change event
+         */
+        _this.change = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Properties
+        name : has-label
+        datatype : boolean
+        version : 4.0 onwards
+        default : true
+        description : Flag to set label
+        */
+        _this.haslabel = true;
+        _this.showToolTip = false;
+        return _this;
+    }
+    Object.defineProperty(AmexioNumberInputComponent.prototype, "pattern", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._pattern;
+        },
+        /*
+      Properties
+      name : pattern
+      datatype : string
+      version : 4.0 onwards
+      default :
+      description : Apply Reg-ex to the field
+      */
+        set: /**
+         * @param {?} value
+         * @return {?}
+         */
+        function (value) {
+            if (value != null) {
+                this.regEx = new RegExp(this.pattern);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    AmexioNumberInputComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.componentId = this.createCompId('numberinput', this.name);
+        this.name = this.generateName(this.name, this.fieldlabel, 'numberinput');
+    };
+    // THIS METHOD USED FOR BLUR EVENT.
+    /**
+     * @return {?}
+     */
+    AmexioNumberInputComponent.prototype.onBlurEvent = /**
+     * @return {?}
+     */
+    function () {
+        this.showToolTip = false;
+        this.onBlur.emit(this.value);
+    };
+    // THIS METHOD USED FOR FOCUS EVENT .
+    /**
+     * @return {?}
+     */
+    AmexioNumberInputComponent.prototype.onFocus = /**
+     * @return {?}
+     */
+    function () {
+        this.showToolTip = true;
+        this.focus.emit(this.value);
+    };
+    // THIS METHOD USED FOR  INPUT EVENT .
+    /**
+     * @return {?}
+     */
+    AmexioNumberInputComponent.prototype.onInput = /**
+     * @return {?}
+     */
+    function () {
+        this.isValid = this.isFieldValidate();
+        this.input.emit(this.value);
+    };
+    // THIS METHOD USED FOR CHANGE EVENT  .
+    /**
+     * @return {?}
+     */
+    AmexioNumberInputComponent.prototype.onChangeEv = /**
+     * @return {?}
+     */
+    function () {
+        this.change.emit(this.value);
+    };
+    // THIS METHOD FOR KEYBORAD KEY HOME PRESS.
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioNumberInputComponent.prototype.onKeyUpHome = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.value = this.minvalue;
+    };
+    // THIS METHOD FOR KEYBORAD KEY END PRESS.
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioNumberInputComponent.prototype.onKeyUpEnd = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.value = this.maxvalue;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioNumberInputComponent.prototype.isFieldValidate = /**
+     * @return {?}
+     */
+    function () {
+        if (this.minvalue && !this.maxvalue) {
+            return this.innerValue && (this.innerValue >= this.minvalue);
+        }
+        else if (!this.minvalue && this.maxvalue) {
+            return this.innerValue && (this.innerValue <= this.maxvalue);
+        }
+        else if (!this.minvalue && !this.maxvalue && this.innerValue) {
+            return true;
+        }
+        else {
+            return this.innerValue && (this.innerValue >= this.minvalue && this.innerValue <= this.maxvalue);
+        }
+    };
+    /**
+     * @param {?} c
+     * @return {?}
+     */
+    AmexioNumberInputComponent.prototype.validate = /**
+     * @param {?} c
+     * @return {?}
+     */
+    function (c) {
+        var /** @type {?} */ isValid = (!this.allowblank && this.isFieldValidate()) || this.allowblank;
+        return isValid ? null : {
+            jsonParseError: {
+                valid: true,
+            },
+        };
+    };
+    AmexioNumberInputComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-number-input',
+                    template: "\n\n\n\n    <div class=\"inputgroup\">\n\n      <label *ngIf=\"haslabel\" role=\"number\"  id=\"{{componentId}}\"  [style.font-style]=\"fontstyle\" [style.font-family]=\"fontfamily\" [style.font-size]=\"fontsize\">\n          {{fieldlabel}}\n      </label>\n\n      <input type=\"number\" \n\n\n            role=\"number\"\n            tabindex=\"1\"\n       \n            aria-describedby=\"numberDes\"\n            attr.aria-labelledby=\"{{componentId}}\"\n            [attr.aria-required]=\"!allowblank\"\n            [attr.aria-invalid]=\"!isValid \"\n            (keyup.home)=\"onKeyUpHome($event)\"\n            (keyup.end)=\"onKeyUpEnd($event)\"\n\n\n\n             class=\"input-control\"\n             [ngClass]=\"model.touched ? allowblank ? '' : (isValid && model.touched) ? 'input-control-success' : 'input-control-error' :''\"\n             [(ngModel)]=\"value\"\n             (blur)=\"onBlurEvent()\" \n             (focus)=\"onFocus()\" \n             (input)=\"onInput()\" \n             (change)=\"onChangeEv()\"\n             [name]=\"name\" \n             [pattern]=\"regEx\"\n             [attr.placeholder]=\"placeholder\" \n             [attr.max]=\"maxvalue\" \n             [attr.min]=\"minvalue\" \n             [attr.disabled]=\"disabled ? true: null\"\n             [required]=\"!allowblank\" />\n\n\n      <ng-container *ngIf=\"iconfeedback\">\n          <span class=\"input-control-feedback\">\n              <span *ngIf=\"!isValid && model.touched\"><em class=\"fa fa-times\"></em></span>\n              <span *ngIf=\"isValid && model.touched\"><em class=\"fa fa-check\"></em></span>\n          </span>\n      </ng-container>\n\n      <input-help *ngIf=\"showToolTip && enablepopover\"\n\n      id=\"numberDes\"\n      role=\"tooltip\"\n\n      [error-msg]=\"errormsg\" \n      [max-error-msg]=\"maxerrormsg\"\n      [min-error-msg]=\"minerrormsg\"\n      [min-value]=\"minvalue\"\n      [max-value]=\"maxvalue\"\n      [min-msg]=\"minmsg\" \n      [max-msg]=\"maxmsg\"\n      [is-number]=\"true\"\n      >\n      </input-help>\n  \n      <span class=\"inputfieldbar\"></span>\n    </div>\n  ",
+                    providers: [{
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioNumberInputComponent; }), multi: true,
+                        }, {
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioNumberInputComponent; }), multi: true,
+                        }],
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioNumberInputComponent.ctorParameters = function () { return []; };
+    AmexioNumberInputComponent.propDecorators = {
+        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
+        allowblank: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['allow-blank',] }],
+        minvalue: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['min-value',] }],
+        maxvalue: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['max-value',] }],
+        minerrormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['min-error-msg',] }],
+        maxerrormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['max-error-msg',] }],
+        errormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['error-msg',] }],
+        placeholder: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['place-holder',] }],
+        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        onBlur: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        input: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        focus: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        change: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        iconfeedback: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-feedback',] }],
+        fontstyle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-style',] }],
+        fontfamily: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-family',] }],
+        fontsize: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-size',] }],
+        haslabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['has-label',] }],
+        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['name',] }],
+        pattern: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['pattern',] }],
+        enablepopover: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-popover',] }],
+        model: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"],] }]
+    };
+    return AmexioNumberInputComponent;
+}(ValueAccessorBase));
+
+var __extends$8 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* Created by  Pratik on 27/11/17.
+*/
+var AmexioRadioGroupComponent = /** @class */ (function (_super) {
+    __extends$8(AmexioRadioGroupComponent, _super);
+    // The internal dataviews model
+    // private innerValue: any = '';
+    function AmexioRadioGroupComponent(amxHttp, cd) {
+        var _this = _super.call(this) || this;
+        _this.amxHttp = amxHttp;
+        _this.cd = cd;
+        /*
+           Properties
+           name : default-value
+           datatype : string
+           version : 4.0 onwards
+           default :
+           description : Default Value to be checked
+           */
+        _this.defaultSelectedValue = '';
+        /*
+           Properties
+           name : data
+           datatype : any
+           version : 4.0 onwards
+           default :
+           description : 	Local data for radio group.
+           */
+        _this.data = [];
+        /*
+           Events
+           name : onSelection
+           datatype : any
+           version : 4.0 onwards
+           default :
+           description : Fires selection event
+           */
+        _this.onSelection = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        // Placeholders for the callbacks which are later provided
+        // by the Control Value Accessor
+        // private onTouchedCallback: () => void = noop;
+        // private onChangeCallback: (_: any) => void = noop;
+        _this.isComponentValid = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.tabFocus = false;
+        return _this;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioRadioGroupComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.componentId = this.createCompId('radiogroup', this.name);
+        this.name = this.generateName(this.name, this.fieldlabel, 'radiogroup');
+        if (this.defaultSelectedValue) {
+            this.value = this.defaultSelectedValue;
+        }
+        this.isValid = this.allowblank;
+        this.isComponentValid.emit(this.allowblank);
+        if (this.httpmethod && this.httpurl) {
+            this.amxHttp.fetchData(this.httpurl, this.httpmethod).subscribe(function (response) {
+                _this.data = _this.getResponseData(response);
+            });
+        }
+        else if (this.data != null) {
+            this.data = this.getResponseData(this.data);
+        }
+    };
+    /**
+     * @param {?} viewData
+     * @return {?}
+     */
+    AmexioRadioGroupComponent.prototype.checkDefaultValidation = /**
+     * @param {?} viewData
+     * @return {?}
+     */
+    function (viewData) {
+        var _this = this;
+        viewData.forEach(function (opt) {
+            opt['tabindex'] = '-1';
+            opt['radioId'] = 'radio' + '_' + opt[_this.valuefield] + '_' + _this.getRandomString();
+            if (opt[_this.valuefield] === _this.innerValue || (opt.hasOwnProperty('selected') && opt.selected)) {
+                _this.isValid = true;
+                opt['selected'] = true;
+                opt['tabindex'] = '0';
+                _this.isComponentValid.emit(true);
+                return;
+            }
+            else {
+                opt['selected'] = false;
+                var /** @type {?} */ tempArray_1 = [];
+                viewData.forEach(function (option) {
+                    if (option.selected === false) {
+                        tempArray_1.push('0');
+                        if (tempArray_1.length === viewData.length) {
+                            viewData[0].tabindex = '0';
+                        }
+                    }
+                });
+            }
+        });
+    };
+    /**
+     * @param {?} viewData
+     * @return {?}
+     */
+    AmexioRadioGroupComponent.prototype.checkSelectedFlag = /**
+     * @param {?} viewData
+     * @return {?}
+     */
+    function (viewData) {
+        var _this = this;
+        viewData.forEach(function (opt) {
+            if (_this.innerValue === '' && (opt.hasOwnProperty('selected') && opt.selected)) {
+                _this.value = opt[_this.valuefield];
+                opt.tabindex = '0';
+                return;
+            }
+        });
+    };
+    /**
+     * @param {?} httpResponse
+     * @return {?}
+     */
+    AmexioRadioGroupComponent.prototype.getResponseData = /**
+     * @param {?} httpResponse
+     * @return {?}
+     */
+    function (httpResponse) {
+        var /** @type {?} */ responsedata = httpResponse;
+        if (this.datareader != null) {
+            var /** @type {?} */ dr = this.datareader.split('.');
+            if (dr != null) {
+                for (var _i = 0, dr_1 = dr; _i < dr_1.length; _i++) {
+                    var ir = dr_1[_i];
+                    responsedata = responsedata[ir];
+                }
+            }
+        }
+        else {
+            responsedata = httpResponse;
+        }
+        this.checkSelectedFlag(responsedata);
+        if (!this.allowblank) {
+            this.checkDefaultValidation(responsedata);
+        }
+        return responsedata;
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioRadioGroupComponent.prototype.writeValue = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        if (value !== this.innerValue) {
+            this.innerValue = value;
+            this.checkDefaultValidation(this.data);
+        }
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    AmexioRadioGroupComponent.prototype.registerOnChange = /**
+     * @param {?} fn
+     * @return {?}
+     */
+    function (fn) {
+        this.onChangeCallback = fn;
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    AmexioRadioGroupComponent.prototype.registerOnTouched = /**
+     * @param {?} fn
+     * @return {?}
+     */
+    function (fn) {
+        this.onTouchedCallback = fn;
+    };
+    Object.defineProperty(AmexioRadioGroupComponent.prototype, "value", {
+        // get accessor
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this.innerValue;
+        },
+        // set accessor including call the onchange callback
+        set: /**
+         * @param {?} v
+         * @return {?}
+         */
+        function (v) {
+            if (v !== this.innerValue) {
+                this.innerValue = v;
+                this.onChangeCallback(v);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    AmexioRadioGroupComponent.prototype.onBlur = /**
+     * @return {?}
+     */
+    function () {
+        this.tabFocus = false;
+        this.onTouchedCallback();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioRadioGroupComponent.prototype.onFocus = /**
+     * @return {?}
+     */
+    function () {
+        this.tabFocus = true;
+    };
+    /**
+     * @param {?} row
+     * @return {?}
+     */
+    AmexioRadioGroupComponent.prototype.onClick = /**
+     * @param {?} row
+     * @return {?}
+     */
+    function (row) {
+        for (var _i = 0, _a = this.data; _i < _a.length; _i++) {
+            var r = _a[_i];
+            if (r.selected) {
+                r.selected = false;
+            }
+        }
+        for (var _b = 0, _c = this.data; _b < _c.length; _b++) {
+            var r = _c[_b];
+            if (r === row) {
+                r.selected = true;
+                this.isValid = true;
+                this.value = row[this.valuefield];
+                this.listCopy = Object.assign([], row);
+                delete this.listCopy.tabindex;
+                delete this.listCopy.radioId;
+                this.onSelection.emit(this.listCopy);
+                delete row.tabindex;
+                this.isComponentValid.emit(true);
+                this.onSelection.emit(row);
+            }
+            else {
+                r.selected = false;
+            }
+        }
+    };
+    // THIS MEHTOD CHECK INPUT IS VALID OR NOT
+    /**
+     * @return {?}
+     */
+    AmexioRadioGroupComponent.prototype.checkValidity = /**
+     * @return {?}
+     */
+    function () {
+        return this.isValid;
+    };
+    /**
+     * @param {?} c
+     * @return {?}
+     */
+    AmexioRadioGroupComponent.prototype.validate = /**
+     * @param {?} c
+     * @return {?}
+     */
+    function (c) {
+        return ((!this.allowblank && this.value) || this.allowblank) ? null : {
+            jsonParseError: {
+                valid: true,
+            },
+        };
+    };
+    AmexioRadioGroupComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-radio-group',
+                    template: "\n    <div role=\"radiogroup\" [attr.name]=\"name\" tabindex=\"1\" attr.aria-labelledby=\"{{componentId}}\" [attr.aria-disabled]=\"disabled\"\n      [attr.aria-required]=\"!allowblank\" class=\"inputgroup from-group\">\n      <div *ngIf=\"fieldlabel\">\n        <legend style=\"margin-bottom: .6rem; margin-top: 5px;\" id=\"{{componentId}}\">{{fieldlabel}}</legend>\n      </div>\n\n      <ng-container *ngIf=\"horizontal\">\n        <ng-container *ngFor=\"let rData of data let index=index\">\n          <label for=\"{{name+rData[displayfield]+index}}\" \n          [attr.aria-checked]=\"value\" \n          [attr.aria-disabled]=\"rData.disabled\"\n     \n            class=\"input-box-container\" style=\"padding-bottom:0px !important; margin: 5px !important\" (click)=\"onClick(rData)\"\n            [ngClass]=\"{'disable-component' : rData.disabled || disabled}\">\n            {{rData[displayfield]}}\n\n            <input [attr.tabindex]=\"disabled ? -1 : 1\"\n            style=\"top:0; left:0\" id=\"{{name+rData[displayfield]+index}}\"\n             type=\"radio\" \n\n              [required]=\"!allowblank\"\n               [attr.name]=\"name\" \n               [value]=\"rData?.selected ? rData[valuefield] : rData[valuefield] \"\n              [attr.disabled]=\"rData?.disabled ? true: null\" \n              (focus)=\"onFocus()\"\n              (blur)=\"onBlur()\"\n              [checked]=\"(value === rData[valuefield] || rData.selected)\">\n\n            <span class=\"input-box-radiobox-label\" [ngClass]=\"{'focusOnCheckbox':tabFocus}\" ></span>\n          </label>\n        </ng-container>\n      </ng-container>\n\n      <ng-container *ngIf=\"!horizontal\">\n        <ng-container *ngFor=\"let rData of data let index=index\">\n          <div>\n            <label for=\"{{name+rData[displayfield]+index}}\" [attr.aria-checked]=\"value\" [attr.aria-disabled]=\"rData.disabled\"\n              class=\"input-box-container\" style=\"padding-bottom:0px !important; margin: 5px !important\" (click)=\"onClick(rData)\"\n              [ngClass]=\"{'disable-component' : rData.disabled || disabled}\">{{rData[displayfield]}}\n              <input style=\"top:0; left:0\" id=\"{{name+rData[displayfield]+index}}\" type=\"radio\"\n              [attr.tabindex]=\"disabled ? -1 : 1\" [required]=\"!allowblank\" [attr.name]=\"name\" [value]=\"rData?.selected ? rData[valuefield] : rData[valuefield] \"\n              (focus)=\"onFocus()\"\n              (blur)=\"onBlur()\"\n              [attr.disabled]=\"rData?.disabled ? true: null\" [(ngModel)]=\"rData?.selected ? rData[valuefield] : value\"\n                [checked]=\"(value === rData[valuefield] || rData.selected)\">\n              <span class=\"input-box-radiobox-label\" [ngClass]=\"{'focusOnCheckbox':tabFocus}\"></span>\n            </label>\n          </div>\n        </ng-container>\n      </ng-container>\n    </div>\n  ",
+                    providers: [{
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioRadioGroupComponent; }), multi: true,
+                        }, {
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: AmexioRadioGroupComponent, multi: true,
+                        }],
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioRadioGroupComponent.ctorParameters = function () { return [
+        { type: CommonDataService },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"] }
+    ]; };
+    AmexioRadioGroupComponent.propDecorators = {
+        allowblank: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['allow-blank',] }],
+        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
+        datareader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data-reader',] }],
+        httpmethod: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-method',] }],
+        httpurl: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-url',] }],
+        displayfield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['display-field',] }],
+        valuefield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['value-field',] }],
+        defaultSelectedValue: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['default-value',] }],
+        horizontal: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        onSelection: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        isComponentValid: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    };
+    return AmexioRadioGroupComponent;
+}(ValueAccessorBase));
+
+var __extends$9 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioRatingComponent = /** @class */ (function (_super) {
+    __extends$9(AmexioRatingComponent, _super);
+    function AmexioRatingComponent() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        /*
+          Properties
+          name : icon-class
+          datatype : string
+          version : 4.0 onwards
+          default : star-icon
+          description : Sets if custom icon class is required
+          */
+        _this.iconclass = 'star-icon';
+        /*
+          Properties
+          name : full-icon
+          datatype : string
+          version : 4.0 onwards
+          default :
+          description : 	Icon for selected rating .This attribute is useful only
+          when user have custom rating icons.example
+          */
+        _this.fullicon = '★';
+        /*
+          Properties
+          name : empty-icon
+          datatype : string
+          version : 4.0 onwards
+          default :
+          description : Icon for non-selected rating .This attribute is useful only
+          when user have custom rating icons.example
+          */
+        _this.emptyicon = '☆';
+        /*
+          Properties
+          name : titles
+          datatype : string array
+          version : 4.0 onwards
+          default : 1,2,3..
+          description : Array of titles
+          */
+        _this.titles = [];
+        _this.ratingRangeData = [];
+        // -------------------------------------------------------------------------
+        // Outputs
+        // -------------------------------------------------------------------------
+        /*
+          Events
+          name : onHover
+          datatype : any
+          version : 4.0 onwards
+          default :
+          description : Fires on hovering component
+          */
+        _this.onHover = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+          Events
+          name : onLeave
+          datatype : any
+          version : 4.0 onwards
+          default :
+          description : fires on leaving component and returns its value
+          */
+        _this.onLeave = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.hovered = 0;
+        _this.hoveredPercent = undefined;
+        _this._max = 5;
+        return _this;
+    }
+    Object.defineProperty(AmexioRatingComponent.prototype, "max", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._max;
+        },
+        /*
+        Properties
+        name : max
+        datatype : number
+        version : 4.0 onwards
+        default :
+        description : Number of stars for rating component.
+        */
+        set: /**
+         * @param {?} max
+         * @return {?}
+         */
+        function (max) {
+            this._max = max;
+            this.buildRanges();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    // -------------------------------------------------------------------------
+    // Implemented from ControlValueAccessor
+    // -------------------------------------------------------------------------
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.writeValue = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        this.model = value;
+        this.setAttribute(value);
+    };
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.registerOnChange = /**
+     * @param {?} fn
+     * @return {?}
+     */
+    function (fn) {
+        this.onChange = fn;
+    };
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.registerOnTouched = /**
+     * @param {?} fn
+     * @return {?}
+     */
+    function (fn) {
+        this.onTouched = fn;
+    };
+    // -------------------------------------------------------------------------
+    // Implemented from Va..
+    // -------------------------------------------------------------------------
+    /**
+     * @param {?} c
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.validate = /**
+     * @param {?} c
+     * @return {?}
+     */
+    function (c) {
+        if (this.required && !c.value) {
+            return {
+                required: true,
+            };
+        }
+        return null;
+    };
+    // -------------------------------------------------------------------------
+    // Lifecycle callbacks
+    // -------------------------------------------------------------------------
+    /**
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.componentId = this.createCompId('rating', this.fieldlabel);
+        this.starId = 'star' + Math.floor(Math.random() * 1000 + 999);
+        for (var /** @type {?} */ i = 0; i < this.ratingRange.length; i++) {
+            var /** @type {?} */ obj = {};
+            obj['number'] = i + 1;
+            obj['selected'] = false;
+            obj['tabindex'] = '-1';
+            this.ratingRangeData.push(obj);
+        }
+        this.buildRanges();
+    };
+    // -------------------------------------------------------------------------
+    // Public Methods
+    // -------------------------------------------------------------------------
+    /**
+     * @param {?} item
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.calculateWidth = /**
+     * @param {?} item
+     * @return {?}
+     */
+    function (item) {
+        if (this.hovered > 0) {
+            if (this.hoveredPercent !== undefined && this.hovered === item) {
+                return this.hoveredPercent;
+            }
+            else {
+                return this.hovered >= item ? 100 : 0;
+            }
+        }
+        else {
+            return this.model >= item ? 100 : 100 - Math.round((item - this.model) * 10) * 10;
+        }
+    };
+    /**
+     * @param {?} hovered
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.setHovered = /**
+     * @param {?} hovered
+     * @return {?}
+     */
+    function (hovered) {
+        if (!this.readonly && !this.disabled) {
+            this.hovered = hovered;
+            this.onHover.emit(hovered);
+            this.ratingMethod(hovered);
+        }
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.changeHovered = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        if (!this.float) {
+            return;
+        }
+        var /** @type {?} */ target = /** @type {?} */ (event.target);
+        var /** @type {?} */ relativeX = event.pageX - target.offsetLeft;
+        var /** @type {?} */ percent = Math.round((relativeX * 100 / target.offsetWidth) / 10) * 10;
+        this.hoveredPercent = percent > 50 ? 100 : 50;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.resetHovered = /**
+     * @return {?}
+     */
+    function () {
+        this.hovered = 0;
+        this.hoveredPercent = undefined;
+        this.onLeave.emit(this.hovered);
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.rate = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        if (!this.readonly && !this.disabled && value >= 0 && value <= this.ratingRange.length) {
+            this.setAttribute(value);
+            var /** @type {?} */ newValue = this.hoveredPercent ? (value - 1) + this.hoveredPercent / 100 : value;
+            this.onChange(newValue);
+            this.model = newValue;
+        }
+    };
+    /**
+     * @param {?} item
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.rate1 = /**
+     * @param {?} item
+     * @return {?}
+     */
+    function (item) {
+        this.ratingMethod(item);
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.setAttribute = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        this.ratingRangeData.forEach(function (element) {
+            element.selected = false;
+            element.tabindex = '-1';
+            if (value >= element.number) {
+                element.selected = true;
+            }
+            if (value === element.number) {
+                element.tabindex = 0;
+            }
+        });
+    };
+    /**
+     * @param {?} item
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.ratingMethod = /**
+     * @param {?} item
+     * @return {?}
+     */
+    function (item) {
+        this.ratingRangeData.forEach(function (element) {
+            element.selected = false;
+            if (item + 1 >= element.number) {
+                element.selected = true;
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.buildRanges = /**
+     * @return {?}
+     */
+    function () {
+        this.ratingRange = this.range(1, this.max);
+    };
+    /**
+     * @param {?} start
+     * @param {?} end
+     * @return {?}
+     */
+    AmexioRatingComponent.prototype.range = /**
+     * @param {?} start
+     * @param {?} end
+     * @return {?}
+     */
+    function (start, end) {
+        var /** @type {?} */ foo = [];
+        for (var /** @type {?} */ i = start; i <= end; i++) {
+            foo.push(i);
+        }
+        return foo;
+    };
+    AmexioRatingComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-rating-input',
+                    template: "\n    <div tabindex=\"1\" role=\"radiogroup\" attr.aria-labelledby=\"{{componentId}}\" class=\"inputgroup\">\n      <ng-container *ngIf=\"fieldlabel\">\n        <legend id=\"{{componentId}}\">\n          {{fieldlabel}}\n        </legend>\n      </ng-container>\n\n      <div (mouseleave)=\"resetHovered()\" class=\"rating\" [class.disabled]=\"disabled\" [class.readonly]=\"readonly\">\n        <span *ngFor=\"let item of ratingRangeData; let index = index\">\n          <input (keyup.space)=\"rate1(index)\" style=\"top:0; left:0; position: absolute;\n            opacity: 0;\n            cursor: pointer;\"\n            value=\"{{model}}\" id=\"{{starId}}{{index}}\" [attr.aria-checked]=\"item.selected\" type=\"radio\" name=\"rating\" role=\"radio\">\n\n          <label for=\"{{starId}}{{index}}\" style=\"display: inline-flex;\">\n            <em [ngStyle]=\"{'cursor': readonly ? 'not-allowed' : 'pointer'}\" role=\"tooltip\" [attr.tabindex]=\"item.tabindex\"\n              (mouseenter)=\"setHovered(item.number)\" attr.aria-label=\"Star {{index+1}}\" (click)=\"rate(item.number)\"\n              [attr.data-icon]=\"fullicon\" class=\"{{ iconclass }} half{{(item.selected? 100 : 0) }}\" [title]=\"titles[index] || item.number\">{{\n              emptyicon }}</em>\n          </label>\n\n        </span>\n      </div>\n    </div>\n  ",
+                    providers: [{
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"],
+                            useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioRatingComponent; }),
+                            multi: true,
+                        },
+                        {
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"],
+                            useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioRatingComponent; }),
+                            multi: true,
+                        },
+                    ],
+                },] },
+    ];
+    AmexioRatingComponent.propDecorators = {
+        iconclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-class',] }],
+        fullicon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['full-icon',] }],
+        emptyicon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['empty-icon',] }],
+        readonly: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['read-only',] }],
+        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        required: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        float: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
+        titles: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        max: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        onHover: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        onLeave: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    };
+    return AmexioRatingComponent;
+}(AmexioFormValidator));
+
+var __extends$10 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+var AmexioTextInputComponent = /** @class */ (function (_super) {
+    __extends$10(AmexioTextInputComponent, _super);
+    function AmexioTextInputComponent() {
+        var _this = _super.call(this) || this;
+        /*
+        Properties
+        name : icon-feedback
+        datatype : boolean
+        version : 4.0 onwards
+        default :false
+        description :
+        */
+        _this.iconfeedback = false;
+        /*
+        Properties
+        name : has-label
+        datatype : boolean
+        version : 4.0 onwards
+        default : false
+        description : Flag to set label
+        */
+        _this.haslabel = true;
+        _this.isValid = false;
+        /*
+         Events
+         name : onBlur
+         datatype : any
+         version : 4.0 onwards
+         default :
+         description : On blur event
+         */
+        _this.onBlur = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Events
+        name : input
+        datatype : any
+        version : none
+        default :
+        description :   On input event field.
+        */
+        _this.input = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Events
+        name : focus
+        datatype : any
+        version : none
+        default :
+        description : On focus event field.
+        */
+        _this.focus = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Events
+        name : change
+        datatype : any
+        version : none
+        default :
+        description : On field value change event
+        */
+        _this.change = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.showToolTip = false;
+        return _this;
+    }
+    Object.defineProperty(AmexioTextInputComponent.prototype, "pattern", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._pattern;
+        },
+        /*
+      Properties
+      name : pattern
+      datatype : string
+      version : 4.0 onwards
+      default :
+      description : Apply Reg-ex to the field
+      */
+        set: /**
+         * @param {?} value
+         * @return {?}
+         */
+        function (value) {
+            if (value != null) {
+                this._pattern = value;
+                this.regEx = new RegExp(this._pattern);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    AmexioTextInputComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.componentId = this.createCompId('textinput', this.name);
+        this.name = this.generateName(this.name, this.fieldlabel, 'textinput');
+    };
+    // THIS METHOD USED FOR BLUR EVENT.
+    /**
+     * @return {?}
+     */
+    AmexioTextInputComponent.prototype.onBlurEvent = /**
+     * @return {?}
+     */
+    function () {
+        this.showToolTip = false;
+        this.onBlur.emit(this.value);
+    };
+    // THIS METHOD USED FOR FOCUS EVENT .
+    /**
+     * @return {?}
+     */
+    AmexioTextInputComponent.prototype.onFocusEvent = /**
+     * @return {?}
+     */
+    function () {
+        this.showToolTip = true;
+        this.focus.emit(this.value);
+    };
+    // THIS METHOD USED FOR  INPUT EVENT .
+    /**
+     * @return {?}
+     */
+    AmexioTextInputComponent.prototype.onInput = /**
+     * @return {?}
+     */
+    function () {
+        this.isValid = this.isFieldValid();
+        this.input.emit(this.value);
+    };
+    // THIS METHOD USED FOR CHANGE EVENT  .
+    /**
+     * @return {?}
+     */
+    AmexioTextInputComponent.prototype.onChangeEv = /**
+     * @return {?}
+     */
+    function () {
+        this.change.emit(this.value);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTextInputComponent.prototype.isFieldValid = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ valid;
+        valid = (!this.allowblank && (this.value && ((this.value.length >= this.minlength) && this.value.length > 0)) ||
+            (!this.minlength && this.value && this.value.length > 0)) || this.allowblank;
+        return valid;
+    };
+    /**
+     * @param {?} c
+     * @return {?}
+     */
+    AmexioTextInputComponent.prototype.validate = /**
+     * @param {?} c
+     * @return {?}
+     */
+    function (c) {
+        return this.isFieldValid() ? null : {
+            jsonParseError: {
+                valid: true,
+            },
+        };
+    };
+    AmexioTextInputComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-text-input',
+                    template: "\n    <div class=\"inputgroup\">\n\n        <label *ngIf=\"haslabel\" role=\"input\" id=\"{{componentId}}\"  for=\"{{componentId}}\" [style.font-style]=\"fontstyle\" [style.font-family]=\"fontfamily\" [style.font-size]=\"fontsize\">\n          {{fieldlabel}}\n      </label>\n        <input type=\"text\" \n\n            role=\"text\" \n            tabindex=\"1\"\n            id=\"{{componentId}}\" \n            name=\"textID\"\n            attr.aria-labelledby=\"{{componentId}}\"\n            aria-describedby=\"textDec\"\n            [attr.aria-required]=\"!allowblank\"\n            [attr.aria-invalid]=\"!isValid \"\n\n\n\n            class=\"input-control\" \n            [ngClass]=\"model.touched ? allowblank ? '' : (isValid && model.touched) ? 'input-control-success' : 'input-control-error' :''\" \n            [(ngModel)]=\"value\"\n            (blur)=\"onBlurEvent()\" \n            (focus)=\"onFocusEvent()\" \n            (input)=\"onInput()\"\n            (change)=\"onChangeEv()\"\n            [name]=\"name\" \n            [pattern]=\"regEx\" \n            [attr.placeholder]=\"placeholder\" \n            [maxlength]=\"maxlength\" \n            [minlength]=\"minlength\" \n            [attr.disabled]=\"disabled ? true: null\"\n            [required]=\"!allowblank\" />\n\n        <ng-container *ngIf=\"iconfeedback\">\n            <span class=\"input-control-feedback\">\n              <span *ngIf=\"!isValid && model.touched\"><em class=\"fa fa-times\"></em></span>\n            <span *ngIf=\"isValid && model.touched\"><em class=\"fa fa-check\"></em></span>\n            </span>\n        </ng-container>\n\n          <input-help *ngIf=\"showToolTip && enablepopover\" \n\n          id=\"textDec\"\n          role=\"tooltip\"\n\n          [error-msg]=\"errormsg\" \n          [min-msg]=\"minmsg\" \n          [max-error-msg]=\"maxerrormsg\"\n          [min-error-msg]=\"minerrormsg\"\n          [min-length]=\"minlength\"\n          [max-length]=\"maxlength\"\n          [max-msg]=\"maxmsg\">\n          </input-help>\n   \n        <span class=\"inputfieldbar\"></span>\n    </div>\n  ",
+                    providers: [{
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioTextInputComponent; }), multi: true,
+                        }, {
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioTextInputComponent; }), multi: true,
+                        }],
+                    encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].None,
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioTextInputComponent.ctorParameters = function () { return []; };
+    AmexioTextInputComponent.propDecorators = {
+        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
+        minlength: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['min-length',] }],
+        maxlength: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['max-length',] }],
+        allowblank: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['allow-blank',] }],
+        minerrormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['min-error-msg',] }],
+        maxerrormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['max-error-msg',] }],
+        errormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['error-msg',] }],
+        placeholder: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['place-holder',] }],
+        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        iconfeedback: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-feedback',] }],
+        fontstyle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-style',] }],
+        fontfamily: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-family',] }],
+        fontsize: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-size',] }],
+        haslabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['has-label',] }],
+        pattern: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['pattern',] }],
+        enablepopover: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-popover',] }],
+        model: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"],] }],
+        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['name',] }],
+        onBlur: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        input: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        focus: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        change: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    };
+    return AmexioTextInputComponent;
+}(ValueAccessorBase));
+
+var __extends$11 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var noop$6 = function () {
+};
+var AmexioToggleComponent = /** @class */ (function (_super) {
+    __extends$11(AmexioToggleComponent, _super);
+    function AmexioToggleComponent() {
+        var _this = _super.call(this) || this;
+        _this.onChange = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.isComponentValid = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.innerValue = '';
+        _this.onTouchedCallback = noop$6;
+        _this.onChangeCallback = noop$6;
+        return _this;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioToggleComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.componentId = this.createCompId('togglebtn', this.fieldlabel);
+        this.toggleId = this.createCompId('toggleId', this.fieldlabel);
+        if (this.shape === '' || this.shape == null) {
+            this.shape = 'round';
+        }
+        this.isValid = !this.required;
+        this.isComponentValid.emit(false);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioToggleComponent.prototype.onToggle = /**
+     * @return {?}
+     */
+    function () {
+        this.checked = !this.checked;
+        this.value = this.checked;
+        this.isValid = this.value;
+        this.isComponentValid.emit(this.value);
+        this.onChange.emit(this.value);
+    };
+    Object.defineProperty(AmexioToggleComponent.prototype, "value", {
+        // get accessor
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this.innerValue;
+        },
+        // set accessor including call the onchange callback
+        set: /**
+         * @param {?} v
+         * @return {?}
+         */
+        function (v) {
+            if (v !== this.innerValue) {
+                this.innerValue = v;
+                this.onChangeCallback(v);
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    // Set touched on blur
+    /**
+     * @return {?}
+     */
+    AmexioToggleComponent.prototype.onBlur = /**
+     * @return {?}
+     */
+    function () {
+        this.onTouchedCallback();
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioToggleComponent.prototype.writeValue = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        if (value && value !== this.innerValue) {
+            this.isValid = value;
+        }
+        if (!value && value !== this.innerValue) {
+            this.isValid = value;
+        }
+        this.innerValue = value;
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    AmexioToggleComponent.prototype.registerOnChange = /**
+     * @param {?} fn
+     * @return {?}
+     */
+    function (fn) {
+        this.onChangeCallback = fn;
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    AmexioToggleComponent.prototype.registerOnTouched = /**
+     * @param {?} fn
+     * @return {?}
+     */
+    function (fn) {
+        this.onTouchedCallback = fn;
+    };
+    // THIS MEHTOD CHECK INPUT IS VALID OR NOT
+    /**
+     * @return {?}
+     */
+    AmexioToggleComponent.prototype.checkValidity = /**
+     * @return {?}
+     */
+    function () {
+        return this.isValid;
+    };
+    /**
+     * @param {?} c
+     * @return {?}
+     */
+    AmexioToggleComponent.prototype.validate = /**
+     * @param {?} c
+     * @return {?}
+     */
+    function (c) {
+        return ((this.required && this.value) || !this.required) ? null : {
+            jsonParseError: {
+                valid: true,
+            },
+        };
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioToggleComponent.prototype.onEventFilter = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.onToggle();
+    };
+    AmexioToggleComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-toggle',
+                    template: "\n    <div  id=\"{{componentId}}\" class=\"inputgroup\">\n      {{fieldlabel}}\n\n      <label  role=\"switch\" attr.aria-labelledby=\"{{componentId}}\" [attr.aria-checked]=\"checked\" tabindex=\"1\" for=\"{{toggleId}}\" \n      class=\"toggle\" \n      (keyup.space)=\"onEventFilter($event)\">\n\n        <input id=\"{{toggleId}}\" type=\"checkbox\"\n         style=\"top:0; left:0\" \n         [attr.checked]=\"checked\"\n         data-check-switch = \"\"\n          [attr.aria-required]=\"required\"\n          #rangeHndl \n          [(ngModel)]=\"value\"\n          (blur)=\"onBlur()\"\n          [attr.aria-checked]=\"checked\" \n          (change)=\"onToggle()\">\n        <span class=\"toggle-slider {{shape}}\">\n        </span>\n      </label>\n    </div>\n  ",
+                    providers: [{
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioToggleComponent; }), multi: true,
+                        }, {
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioToggleComponent; }), multi: true,
+                        }],
+                    encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].None,
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioToggleComponent.ctorParameters = function () { return []; };
+    AmexioToggleComponent.propDecorators = {
+        shape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
+        required: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        onChange: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        isComponentValid: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    };
+    return AmexioToggleComponent;
+}(AmexioFormValidator));
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* Created by pratik on 18/12/17.
+*/
+var AmexioImageComponent = /** @class */ (function () {
+    function AmexioImageComponent() {
+        /*
+        Properties
+        name : c-class
+        datatype :  string
+        version : 4.0 onwards
+        default :
+        description : Used for custom style classes
+        */
+        this.cclass = '';
+        /*
+        Events
+        name : onClick
+        datatype :  none
+        version : none
+        default : none
+        description : Get image / icon click event.
+        */
+        this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+        Properties
+        name :absolute
+        datatype :  string
+        version : 4.1.9 onwards
+        default :
+        description :sets absolute attribute  to image
+        */
+        this.absolute = false;
+        /*
+        Properties
+        name :relative
+        datatype :  string
+        version : 4.1.9 onwards
+        default :
+        description :sets relative attribute  to image
+        */
+        this.relative = false;
+        this.overlay = false;
+        this.absoluteposition = false;
+        this.imageCss = ' image-';
+        this.overlayTextCss = 'overlay-text overlay-';
+        this.textCss = '-text';
+        this.imgFluidCss = ' img-fluid';
+        this.overlayOverlayCss = 'overlay overlay-';
+        this.imageTitleCss = 'image-title image-';
+        this.imageTitleBottomCss = 'image-title image-bottom-right';
+    }
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioImageComponent.prototype.onImageClick = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.onClick.emit(event);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioImageComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        if (!(this.width || this.height)) {
+            this.cclass = this.cclass + this.imgFluidCss;
+        }
+        if (this.filter) {
+            this.cclass = this.cclass + this.imageCss + this.filter;
+        }
+        if (this.overlayEffect) {
+            this.overlay = true;
+            if (!this.overlayText) {
+                this.overlayText = '';
+            }
+            if (this.overlayText) {
+                this.overlayTextClass = this.overlayTextCss + this.overlayEffect + this.textCss;
+            }
+            this.overlayEffect = this.overlayOverlayCss + this.overlayEffect;
+        }
+        if (this.position && !this.imgTitle) {
+            this.imgTitle = '';
+        }
+        if (this.imgTitle) {
+            if (this.position) {
+                this.position = this.imageTitleCss + this.position;
+            }
+            else {
+                this.position = this.imageTitleBottomCss;
+            }
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioImageComponent.prototype.addimageCSSClass = /**
+     * @return {?}
+     */
+    function () {
+        if (this.top || this.bottom || this.right || this.left) {
+            this.absoluteposition = true;
+        }
+        this.imagepositionclass = '';
+        if (this.relative && !this.absolute) {
+            this.imagepositionclass = ' img-relative ';
+            this.top = '';
+            this.left = '';
+            this.right = '';
+            this.bottom = '';
+        }
+        else if (this.absolute) {
+            this.imagepositionclass = 'img-absolute ';
+        }
+        return this.imagepositionclass;
+    };
+    AmexioImageComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-image', template: "\n    <!--Normal image-->\n    <ng-container *ngIf=\"iconclass && (!path && !mda) && overlay || overlayText || titlePara || imgTitle \">\n    <div class=\"img-container\" [ngClass]=\"addimageCSSClass()\"  [ngStyle]=\"{'top':top,'bottom':bottom,'left':left,'right':right} \">\n      <ng-container *ngIf=\"path || (path && iconclass)\">\n        <ng-container *ngIf=\"!(width || height)\">\n          <img alt=\"title\" [src]=\"path\" [attr.class]=\"cclass\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n          <div *ngIf=\"overlay\" [ngClass]=\"overlayEffect\">\n            <div *ngIf=\"overlayText\" [ngClass]=\"overlayTextClass\">{{overlayText}}\n              <p *ngIf=\"titlePara\">{{titlePara}}</p>\n            </div>\n          </div>\n          <div *ngIf=\"imgTitle\" [ngClass]=\"position\">{{imgTitle}}</div>\n        </ng-container>\n        <ng-container *ngIf=\"width || height\">\n          <img alt=\"title\" [ngStyle]=\"{'width':width,'height':height}\" [attr.class]=\"cclass\" [src]=\"path\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n           <div *ngIf=\"overlay\" [ngClass]=\"overlayEffect\">\n            <div *ngIf=\"overlayText\" [ngClass]=\"overlayTextClass\">{{overlayText}}\n              <p *ngIf=\"titlePara\">{{titlePara}}</p>\n            </div>\n          </div>\n          <div *ngIf=\"imgTitle\" [ngClass]=\"position\">{{imgTitle}}</div>\n        </ng-container>\n      </ng-container>\n      </div>\n    </ng-container>\n\n\n\n    <ng-container *ngIf=\"!(iconclass && (!path && !mda) && overlay || overlayText || titlePara || imgTitle )\">\n        <ng-container *ngIf=\"path || (path && iconclass)\">\n        <ng-container *ngIf=\"!(width || height)\">\n        <img alt=\"title\" [src]=\"path\" [attr.class]=\"cclass\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n        </ng-container>\n        <ng-container *ngIf=\"width || height\">\n        <img alt=\"title\" [ngStyle]=\"{'width':width,'height':height}\" [attr.class]=\"cclass\" [src]=\"path\" (click)=\"onImageClick($event)\" [attr.title]=\"tooltip\">\n        </ng-container>\n        </ng-container>\n        </ng-container>\n    \n    <!--this is for fontawesome-->\n    <ng-container *ngIf=\"iconclass && (!path && !mda)\">\n      <em [attr.class]=\"iconclass\" [attr.title]=\"tooltip\" (click)=\"onImageClick($event)\"></em>\n      <label class=\"image-title\" *ngIf=\"title\" (click)=\"onImageClick($event)\" style=\"cursor: pointer\">{{title}}</label>\n    </ng-container>\n\n    <!--Material icon-->\n    <ng-container *ngIf=\"(iconclass && mda) && !path\">\n      <em [attr.class]=\"iconclass\" [attr.title]=\"tooltip\" (click)=\"onImageClick($event)\">{{mda}}</em>\n    </ng-container>\n\n    <ng-container *ngIf=\" title && !iconclass\">\n      <span style=\"font-size: medium\">{{title}}</span>\n    </ng-container>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioImageComponent.ctorParameters = function () { return []; };
+    AmexioImageComponent.propDecorators = {
+        tooltip: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        path: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        iconclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-class',] }],
+        cclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['c-class',] }],
+        mda: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        filter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['filter',] }],
+        overlayEffect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['overlay-effect',] }],
+        overlayText: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['overlay-text',] }],
+        imgTitle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['image-title',] }],
+        position: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['title-position',] }],
+        titlePara: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['para',] }],
+        top: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-top',] }],
+        bottom: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-bottom',] }],
+        left: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-left',] }],
+        right: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-right',] }],
+        absolute: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['absolute',] }],
+        relative: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['relative',] }]
+    };
+    return AmexioImageComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioTabActionComponent = /** @class */ (function () {
+    function AmexioTabActionComponent() {
+        this.showContent = false;
+        this.actionComponent = '';
+    }
+    /**
+     * @return {?}
+     */
+    AmexioTabActionComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabActionComponent.prototype.checkActionComponent = /**
+     * @return {?}
+     */
+    function () {
+        this.textinput = this.queryTextinput.toArray();
+        if (this.textinput.length > 0) {
+            this.actionComponent = 'text';
+            this.textinput[0].haslabel = false;
+            this.textinput[0].iconfeedback = false;
+        }
+        this.checkbox = this.queryCheckbox.toArray();
+        if (this.checkbox.length > 0) {
+            this.actionComponent = 'checkbox';
+            this.checkbox[0].fieldlabel = '';
+        }
+        this.radioGroup = this.queryRadioGroup.toArray();
+        if (this.radioGroup.length > 0) {
+            this.actionComponent = 'radiogroup';
+            this.radioGroup[0].fieldlabel = '';
+            this.radioGroup[0].horizontal = true;
+        }
+        this.label = this.queryLabel.toArray();
+        if (this.label.length > 0) {
+            this.actionComponent = 'label';
+        }
+        this.number = this.queryNumber.toArray();
+        if (this.number.length > 0) {
+            this.actionComponent = 'number';
+            this.number[0].fieldlabel = '';
+        }
+        this.rating = this.queryRating.toArray();
+        if (this.rating.length > 0) {
+            this.actionComponent = 'rating';
+            this.rating[0].fieldlabel = '';
+        }
+        this.toggle = this.queryToggle.toArray();
+        if (this.toggle.length > 0) {
+            this.actionComponent = 'toggle';
+            this.toggle[0].fieldlabel = '';
+        }
+        this.button = this.queryButton.toArray();
+        if (this.button.length > 0) {
+            this.actionComponent = 'button';
+        }
+        this.image = this.queryImage.toArray();
+        if (this.image.length > 0) {
+            this.actionComponent = 'image';
+        }
+        this.dropdown = this.queryDropDown.toArray();
+        if (this.dropdown.length > 0) {
+            this.actionComponent = 'dropdown';
+            this.dropdown[0].fieldlabel = '';
+        }
+        this.checkboxgroup = this.queryCheckBoxGroup.toArray();
+        if (this.checkboxgroup.length > 0) {
+            this.actionComponent = 'checkboxgroup';
+            this.checkboxgroup[0].fieldlabel = '';
+            this.checkboxgroup[0].horizontal = true;
+        }
+    };
+    AmexioTabActionComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-tab-action',
+                    template: "\n   <ng-content></ng-content>\n   ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioTabActionComponent.ctorParameters = function () { return []; };
+    AmexioTabActionComponent.propDecorators = {
+        queryTextinput: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTextInputComponent, { descendants: true },] }],
+        queryCheckbox: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCheckBoxComponent, { descendants: true },] }],
+        queryRadioGroup: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioRadioGroupComponent, { descendants: true },] }],
+        queryLabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioLabelComponent, { descendants: true },] }],
+        queryNumber: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioNumberInputComponent, { descendants: true },] }],
+        queryRating: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioRatingComponent, { descendants: true },] }],
+        queryToggle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioToggleComponent, { descendants: true },] }],
+        queryButton: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonComponent, { descendants: true },] }],
+        queryImage: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioImageComponent, { descendants: true },] }],
+        queryDropDown: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioDropDownComponent, { descendants: true },] }],
+        queryCheckBoxGroup: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCheckBoxGroupComponent, { descendants: true },] }]
+    };
+    return AmexioTabActionComponent;
+}());
+
+var __extends$12 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* Created by ketangote on 12/1/17.
+*/
+var TOP_COMPONENT_CLASS_MAP = {
+    red: 'amexio-top-tab-red',
+    green: 'amexio-top-tab-green',
+    purple: 'amexio-top-tab-purple',
+    blue: 'amexio-top-tab-blue',
+    brown: 'amexio-top-tab-brown',
+    yellow: 'amexio-top-tab-yellow',
+    black: 'amexio-top-tab-black',
+    pink: 'amexio-top-tab-pink',
+    orange: 'amexio-top-tab-orange',
+};
+var BOTTOM_COMPONENT_CLASS_MAP = {
+    red: 'amexio-bottom-tab-red',
+    green: 'amexio-bottom-tab-green',
+    purple: 'amexio-bottom-tab-purple',
+    blue: 'amexio-bottom-tab-blue',
+    brown: 'amexio-bottom-tab-brown',
+    yellow: 'amexio-bottom-tab-yellow',
+    black: 'amexio-bottom-tab-black',
+    pink: 'amexio-bottom-tab-pink',
+    orange: 'amexio-bottom-tab-orange',
+};
+var AmexioTabComponent = /** @class */ (function (_super) {
+    __extends$12(AmexioTabComponent, _super);
+    function AmexioTabComponent(render, componentFactoryResolver, renderer) {
+        var _this = _super.call(this) || this;
+        _this.render = render;
+        _this.componentFactoryResolver = componentFactoryResolver;
+        _this.renderer = renderer;
+        /*
+           Properties
+           name :  context-menu
+           datatype : string
+           version : 5.0.1 onwards
+           default :
+           description : Context Menu provides the list of menus on right click.
+           */
+        _this.contextmenu = [];
+        /*
+           Events
+           name : rightClick
+           datatype : none
+           version : 5.0.1
+           default : none
+           description : It will gives you row clicked data.
+           */
+        _this.rightClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+           Events
+           name : onClick
+           datatype : none
+           version : none
+           default : none
+           description : Callback to invoke on activated tab event.
+           */
+        _this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.showprev = false;
+        _this.shownext = false;
+        _this.mouseLocation = { left: 0, top: 0 };
+        _this.closeOthersConst = 'Close Others';
+        _this.dummyArray = [];
+        _this.tabPositionClass = '';
+        _this.componentId = '';
+        _this.map = new Map();
+        _this.prevtabindex = -1;
+        _this.currtabindex = -1;
+        _this.headeralign = 'left';
+        _this.typeActionAlign = 'left';
+        _this.tabPosition = 'top';
+        _this.fullPageTabs = false;
+        _this.action = false;
+        return _this;
+    }
+    Object.defineProperty(AmexioTabComponent.prototype, "tabLocalData", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._tabLocalData;
+        },
+        set: /**
+         * @param {?} value
+         * @return {?}
+         */
+        function (value) {
+            this._tabLocalData = value;
+            if (this.componentLoaded) {
+                this.updateTabComponent();
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.componentLoaded = true;
+        this.componentId = Math.floor(Math.random() * 90000) + 10000 + '_tabc';
+        _super.prototype.ngOnInit.call(this);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.updateTabComponent = /**
+     * @return {?}
+     */
+    function () {
+        if (this.tabs.nativeElement.scrollWidth > this.tabs.nativeElement.clientWidth) {
+            this.headeralign = 'left';
+        }
+        this.adjustWidth();
+        if (this.tabs && this.tabs.nativeElement
+            && this.headerWidth && this.headerWidth.nativeElement
+            && this.tabAction && this.tabAction.nativeElement
+            && this.tabWidth1 !== this.tabs.nativeElement.offsetWidth) {
+            this.headWidth = (this.tabAction.nativeElement.scrollWidth + this.headerWidth.nativeElement.scrollWidth);
+            this.widthTabs = this.tabs.nativeElement.offsetWidth - this.headWidth;
+        }
+        if (JSON.stringify(this.tabPreviewData) !== JSON.stringify(this.tabLocalData)) {
+            this.tabPreviewData = JSON.parse(JSON.stringify(this.tabLocalData));
+            this.tabCollection = this.tabLocalData;
+        }
+        this.tabPositionClass = this.findTabStyleClass();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.ngAfterViewInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        // set time out
+        setTimeout(function () {
+            _this.tabWidth1 = _this.tabs.nativeElement.offsetWidth;
+            _this.totalTabs = _this.tabCollection.length;
+            _this.updateTabComponent();
+            _this.tabCollection.forEach(function (element, index) {
+                element['tablk'] = Math.floor(Math.random() * 90000) + 10000 + '_tablk';
+                _super.prototype.ngAfterViewInit.call(_this);
+            });
+        }, 500);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.adjustWidth = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ tWidth = this.tabs.nativeElement.clientWidth;
+        var /** @type {?} */ tlistWidth = this.tabslist.nativeElement.scrollWidth;
+        var /** @type {?} */ hWidth = 0;
+        var /** @type {?} */ totalElWidth = tlistWidth + hWidth;
+        if (totalElWidth > tWidth) {
+            this.shownext = true;
+        }
+        else {
+            this.shownext = false;
+        }
+        if (this.fullPageTabs === true) {
+            if (totalElWidth > tWidth && this.fullPageTabs) {
+                this.shownext = true;
+            }
+            else {
+                this.singleTabWidth = totalElWidth / this.totalTabs;
+            }
+        }
+        this.onAdjustHeight();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        if (this.tabLocalData && this.tabLocalData.length > 0) {
+            this.tabPreviewData = JSON.parse(JSON.stringify(this.tabLocalData));
+            this.tabCollection = this.tabLocalData;
+        }
+        else {
+            this.tabCollection = [];
+            this.tabCollection = this.queryTabs.toArray();
+        }
+        this.tabNodeProperties();
+        // To add action in tab
+        this.actionComp = this.queryAction.toArray();
+        if (this.actionComp.length > 0) {
+            this.actionComp[0].checkActionComponent();
+        }
+        this.tabPositionClass = this.findTabStyleClass();
+    };
+    /**
+     * @param {?} title
+     * @param {?} amexiocolor
+     * @param {?} closable
+     * @param {?} component
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.addDynamicTab = /**
+     * @param {?} title
+     * @param {?} amexiocolor
+     * @param {?} closable
+     * @param {?} component
+     * @return {?}
+     */
+    function (title, amexiocolor, closable, component) {
+        // get a component factory for our TabComponent
+        var /** @type {?} */ tpCF = this.componentFactoryResolver.resolveComponentFactory(AmexioTabPillComponent);
+        var /** @type {?} */ tp = this.target.createComponent(tpCF);
+        // set the according properties on our component instance
+        var /** @type {?} */ instance = /** @type {?} */ (tp.instance);
+        instance.title = title;
+        instance.active = true;
+        instance.closable = closable;
+        instance['tabpillinstance'] = this.target;
+        if (instance.amexiocolor === '') {
+            instance.amexiocolor = 'amexio-top-tab-black';
+        }
+        else {
+            instance.amexiocolor = 'amexio-top-tab-' + amexiocolor;
+        }
+        // create dynamic component
+        var /** @type {?} */ dynCF = this.componentFactoryResolver.resolveComponentFactory(component);
+        var /** @type {?} */ dynCmp = tp.instance.target.createComponent(dynCF);
+        // Push new tab and select it.
+        this.dummyArray.push(tp);
+        this.tabCollection.push(tp.instance);
+        this.selectTab(tp.instance);
+        this.adjustWidth();
+        return dynCmp.instance;
+    };
+    // Method to close all tab
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.closeAllTabs = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.tabCollection.forEach(function (tabs) {
+            if (tabs.closable || _this.closable) {
+                _this.closeTab(tabs);
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.closeAll = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.tabCollection.forEach(function (tabs) {
+            _this.closeTab(tabs);
+        });
+    };
+    /**
+     * @param {?} data
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.closeTabs = /**
+     * @param {?} data
+     * @return {?}
+     */
+    function (data) {
+        var _this = this;
+        var /** @type {?} */ tabList = [];
+        this.tabCollection.forEach(function (tabs) {
+            tabs.active = false;
+            data.forEach(function (opt) {
+                if (opt.toLowerCase() !== tabs.title.toLowerCase() && (tabs.closable || _this.closable)) {
+                    _this.closeTab(tabs);
+                }
+                else {
+                    tabList.push(tabs);
+                    _this.asignTabPillClass(tabs);
+                }
+            });
+        });
+        tabList[tabList.length - 1].active = true;
+        this.asignTabPillClass(tabList[tabList.length - 1]);
+    };
+    // Method to set active tab on the basis of tab sequence or tab title
+    /**
+     * @param {?} input
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.setActiveTab = /**
+     * @param {?} input
+     * @return {?}
+     */
+    function (input) {
+        var _this = this;
+        var /** @type {?} */ flag = false;
+        if (typeof input === 'string') {
+            this.tabCollection.forEach(function (tabs) {
+                tabs.tabPillClass = '';
+                if (input.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
+                    tabs.active = true;
+                    flag = true;
+                }
+                else {
+                    tabs.active = false;
+                }
+                _this.asignTabPillClass(tabs);
+            });
+        }
+        else if (typeof input === 'number') {
+            this.tabCollection.forEach(function (tabs, index) {
+                tabs.tabPillClass = '';
+                if (index + 1 === input) {
+                    tabs.active = true;
+                    flag = true;
+                }
+                else {
+                    tabs.active = false;
+                }
+                _this.asignTabPillClass(tabs);
+            });
+        }
+        return flag;
+    };
+    /**
+     * @param {?} disabledTabInput
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.setDisableTabs = /**
+     * @param {?} disabledTabInput
+     * @return {?}
+     */
+    function (disabledTabInput) {
+        var _this = this;
+        var /** @type {?} */ flag = false;
+        if (disabledTabInput.length > 0) {
+            disabledTabInput.forEach(function (ele) {
+                if (typeof ele === 'string') {
+                    _this.disableTabByString(flag, ele);
+                }
+                else if (typeof ele === 'number') {
+                    _this.disableTabByNumber(flag, ele);
+                }
+            });
+        }
+        return flag;
+    };
+    /**
+     * @param {?} flag
+     * @param {?} ele
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.disableTabByString = /**
+     * @param {?} flag
+     * @param {?} ele
+     * @return {?}
+     */
+    function (flag, ele) {
+        var _this = this;
+        this.tabCollection.forEach(function (tabs) {
+            tabs.tabPillClass = '';
+            if (ele.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
+                tabs.disabled = true;
+                flag = true;
+            }
+            _this.asignTabPillClass(tabs);
+        });
+    };
+    /**
+     * @param {?} flag
+     * @param {?} ele
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.disableTabByNumber = /**
+     * @param {?} flag
+     * @param {?} ele
+     * @return {?}
+     */
+    function (flag, ele) {
+        var _this = this;
+        this.tabCollection.forEach(function (tabs, index) {
+            tabs.tabPillClass = '';
+            if (index + 1 === ele) {
+                tabs.active = true;
+                flag = true;
+            }
+            else {
+                tabs.active = false;
+            }
+            _this.asignTabPillClass(tabs);
+        });
+    };
+    /**
+     * @param {?} disabledTabInput
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.setEnableTabs = /**
+     * @param {?} disabledTabInput
+     * @return {?}
+     */
+    function (disabledTabInput) {
+        var _this = this;
+        var /** @type {?} */ flag = false;
+        if (disabledTabInput.length > 0) {
+            disabledTabInput.forEach(function (ele) {
+                if (typeof ele === 'string') {
+                    _this.enableTabByString(flag, ele);
+                }
+                else if (typeof ele === 'number') {
+                    _this.enableTabByNumber(flag, ele);
+                }
+            });
+        }
+        return flag;
+    };
+    /**
+     * @param {?} flag
+     * @param {?} ele
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.enableTabByString = /**
+     * @param {?} flag
+     * @param {?} ele
+     * @return {?}
+     */
+    function (flag, ele) {
+        var _this = this;
+        this.tabCollection.forEach(function (tabs) {
+            tabs.tabPillClass = '';
+            if (ele.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
+                tabs.disabled = false;
+                flag = true;
+            }
+            _this.asignTabPillClass(tabs);
+        });
+    };
+    /**
+     * @param {?} flag
+     * @param {?} ele
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.enableTabByNumber = /**
+     * @param {?} flag
+     * @param {?} ele
+     * @return {?}
+     */
+    function (flag, ele) {
+        var _this = this;
+        this.tabCollection.forEach(function (tabs, index) {
+            tabs.tabPillClass = '';
+            if (index + 1 === ele) {
+                tabs.disabled = false;
+                flag = true;
+            }
+            _this.asignTabPillClass(tabs);
+        });
+    };
+    /**
+     * @param {?} tab
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.selectTab = /**
+     * @param {?} tab
+     * @return {?}
+     */
+    function (tab) {
+        var _this = this;
+        // deactivate all tabs
+        this.tabCollection.forEach(function (tab1) {
+            tab1.active = false;
+        });
+        tab.active = true;
+        this.tabCollection.forEach(function (tab1) {
+            _this.asignTabPillClass(tab1);
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.tabNodeProperties = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ tabWidth = this.tabCollection.length;
+        for (var /** @type {?} */ i = 0; i < tabWidth; i++) {
+            if (this.tabPosition === 'top') {
+                this.tabCollection[i].amexiocolor = TOP_COMPONENT_CLASS_MAP[this.tabCollection[i].amexiocolor];
+            }
+            else {
+                this.tabCollection[i].amexiocolor = BOTTOM_COMPONENT_CLASS_MAP[this.tabCollection[i].amexiocolor];
+            }
+            if (this.closable) {
+                if (this.tabCollection[i].closable === null || this.tabCollection[i].closable === true) {
+                    this.tabCollection[i].closable = true;
+                }
+                else if (this.tabCollection[i].closable === false) {
+                    this.tabCollection[i].closable = false;
+                }
+            }
+            this.asignTabPillClass(this.tabCollection[i]);
+        }
+    };
+    /**
+     * @param {?} tab
+     * @param {?} index
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.onTabClick = /**
+     * @param {?} tab
+     * @param {?} index
+     * @return {?}
+     */
+    function (tab, index) {
+        var _this = this;
+        if (!tab.disabled && !tab.header) {
+            for (var _i = 0, _a = this.tabCollection; _i < _a.length; _i++) {
+                var i = _a[_i];
+                if (i === tab) {
+                    i['active'] = true;
+                    i['index'] = index;
+                    this.asignTabPillClass(tab);
+                    this.onClick.emit(tab);
+                }
+                else {
+                    i['active'] = false;
+                    i['tabPillClass'] = '';
+                }
+            }
+            this.tabCollection.forEach(function (tab1) {
+                _this.asignTabPillClass(tab1);
+            });
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.onArrowRight = /**
+     * @return {?}
+     */
+    function () {
+        if (this.prevtabindex > -1) {
+            this.tabCollection[this.prevtabindex]['isSelected'] = false;
+        }
+        this.currtabindex++;
+        this.prevtabindex = this.currtabindex;
+        if (this.currtabindex >= this.tabCollection.length) {
+            this.currtabindex = 0;
+            this.prevtabindex = 0;
+        }
+        var /** @type {?} */ currentTab = this.tabCollection[this.currtabindex];
+        this.commonFocus(currentTab);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.onArrowLeft = /**
+     * @return {?}
+     */
+    function () {
+        if (this.prevtabindex > -1) {
+            this.tabCollection[this.prevtabindex]['isSelected'] = false;
+        }
+        this.prevtabindex--;
+        if (this.prevtabindex === -1) {
+            this.prevtabindex = this.tabCollection.length - 1;
+            this.currtabindex = -1;
+        }
+        this.tabCollection[this.prevtabindex]['isSelected'] = true;
+        var /** @type {?} */ currentTab = this.tabCollection[this.prevtabindex];
+        this.commonFocus(currentTab);
+        if (this.prevtabindex === 0) {
+            this.currtabindex = 0;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.onHomeClick = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ currentTab = this.tabCollection[0];
+        this.commonFocus(currentTab);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.onEndClick = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ currentTab = this.tabCollection[this.tabCollection.length - 1];
+        this.commonFocus(currentTab);
+    };
+    /**
+     * @param {?} currentTab
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.commonFocus = /**
+     * @param {?} currentTab
+     * @return {?}
+     */
+    function (currentTab) {
+        currentTab['isSelected'] = true;
+        var /** @type {?} */ tablk = document.getElementById(currentTab.tablk);
+        tablk.focus();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.next = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ nxt = this.tabs.nativeElement;
+        nxt.scrollLeft = nxt.scrollLeft + 200;
+        if ((nxt.scrollWidth - nxt.offsetWidth - nxt.scrollLeft) <= 0) {
+            this.shownext = false;
+        }
+        this.showprev = true;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.previous = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ prev = this.tabs.nativeElement;
+        prev.scrollLeft = prev.scrollLeft - 200;
+        if (prev.scrollLeft === 0) {
+            this.showprev = false;
+        }
+        this.shownext = true;
+    };
+    /**
+     * @param {?} tabNode
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.closeTab = /**
+     * @param {?} tabNode
+     * @return {?}
+     */
+    function (tabNode) {
+        var _this = this;
+        var /** @type {?} */ newTab = [];
+        var /** @type {?} */ index = 0;
+        var /** @type {?} */ tabHighlightIndex = 0;
+        this.tabCollection.forEach(function (tab, i) {
+            tab.active = false;
+            if (tab.tabId === tabNode.tabId) {
+                tabHighlightIndex = index;
+                if (tab.hasOwnProperty('tabpillinstance')) {
+                    tab.target.remove();
+                }
+                else {
+                    _this.tabDomRemove(tab);
+                }
+            }
+            else if (tab.tabId !== tabNode.tabId) {
+                newTab.push(tab);
+            }
+            index++;
+        });
+        if (tabHighlightIndex === newTab.length) {
+            tabHighlightIndex--;
+        }
+        this.tabCollection = newTab;
+        if (tabHighlightIndex > -1) {
+            this.activateTab(newTab[tabHighlightIndex].tabId);
+        }
+        else {
+            this.activateTab(null);
+        }
+        if (this.tabCollection.length === 1) {
+            this.closable = false;
+        }
+        if (newTab.length === 1) {
+            newTab[0].closable = false;
+        }
+    };
+    /**
+     * @param {?} tab
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.tabDomRemove = /**
+     * @param {?} tab
+     * @return {?}
+     */
+    function (tab) {
+        var /** @type {?} */ removeNode = document.getElementById(tab.tabId).parentNode;
+        var /** @type {?} */ parentRefNode = removeNode.parentNode;
+        parentRefNode.removeChild(removeNode);
+    };
+    /**
+     * @param {?} tabId
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.activateTab = /**
+     * @param {?} tabId
+     * @return {?}
+     */
+    function (tabId) {
+        var _this = this;
+        if (tabId !== null) {
+            this.tabCollection.forEach(function (tab) {
+                tab.active = false;
+                if (tab.tabId === tabId) {
+                    tab.active = true;
+                }
+                _this.asignTabPillClass(tab);
+            });
+        }
+    };
+    /**
+     * @param {?} tabData
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.asignTabPillClass = /**
+     * @param {?} tabData
+     * @return {?}
+     */
+    function (tabData) {
+        tabData.tabPillClass = '';
+        if ((!tabData.amexiocolor || tabData.amexiocolor === '') && tabData.active && (this.tabPosition === 'top')) {
+            tabData.tabPillClass = 'activetab';
+        }
+        if ((!tabData.amexiocolor || tabData.amexiocolor === '') && (this.tabPosition === 'bottom') && tabData.active) {
+            tabData.tabPillClass = 'bottomActivetab';
+        }
+        if (tabData.disabled) {
+            tabData.tabPillClass = 'disabled-tab';
+        }
+        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'top') && tabData.active && !this.activeBGColor) {
+            tabData.tabPillClass = 'activecolortab';
+        }
+        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'top') && tabData.active && this.activeBGColor) {
+            tabData.tabPillClass = 'activebgcolortab';
+        }
+        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'bottom') && tabData.active) {
+            tabData.tabPillClass = 'activebottomcolortab';
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.findTabStyleClass = /**
+     * @return {?}
+     */
+    function () {
+        if (this.headeralign === 'right' && !this.fullPageTabs) {
+            return 'tabposition-right';
+        }
+        if (this.headeralign === 'left' && !this.fullPageTabs) {
+            return 'tabposition-left';
+        }
+        if (this.fullPageTabs === true) {
+            return 'equally-align-tabs';
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.onAdjustHeight = /**
+     * @return {?}
+     */
+    function () {
+        if (this.bodyheight) {
+            var /** @type {?} */ h = (window.innerHeight / 100) * this.bodyheight;
+            if (this.tabs && this.tabs.nativeElement && this.tabs.nativeElement.offsetHeight) {
+                h = h - this.tabs.nativeElement.offsetHeight;
+            }
+            if (this.bodyheight === 100) {
+                h = h - 40;
+            }
+            this.minHeight = h;
+            this.height = h;
+        }
+    };
+    /**
+     * @param {?} event
+     * @param {?} row
+     * @param {?} id
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.loadContextMenu = /**
+     * @param {?} event
+     * @param {?} row
+     * @param {?} id
+     * @return {?}
+     */
+    function (event, row, id) {
+        this.tempSelectedFlag(this.tabCollection);
+        this.mouseLocation.left = event.clientX;
+        this.mouseLocation.top = event.clientY;
+        row.active = true;
+        this.getContextMenu();
+        this.posixUp = this.getListPosition(id);
+        if (this.contextmenu && this.contextmenu.length > 0) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        this.rightClickRowData = row;
+    };
+    /**
+     * @param {?} tabs
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.tempSelectedFlag = /**
+     * @param {?} tabs
+     * @return {?}
+     */
+    function (tabs) {
+        tabs.forEach(function (tab) {
+            if (tab.active) {
+                tab.active = false;
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.getContextMenu = /**
+     * @return {?}
+     */
+    function () {
+        if (this.defaultContextMenu) {
+            var /** @type {?} */ obj = { text: 'Close All', icon: 'fa fa-close', disable: false };
+            var /** @type {?} */ obj2 = { text: this.closeOthersConst, icon: 'fa fa-close', seperator: false, disabled: false };
+            var /** @type {?} */ tmpflag = true;
+            for (var _i = 0, _a = this.contextmenu; _i < _a.length; _i++) {
+                var i = _a[_i];
+                if (i.text === 'Close All' || i.text === this.closeOthersConst) {
+                    tmpflag = false;
+                }
+            }
+            if (tmpflag) {
+                this.contextmenu.push(obj, obj2);
+            }
+            this.contextMenuFlag = true;
+            this.addListner();
+        }
+        else if (this.contextmenu && this.contextmenu.length > 0) {
+            this.contextMenuFlag = true;
+            this.addListner();
+        }
+    };
+    /**
+     * @param {?} elementRef
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.getListPosition = /**
+     * @param {?} elementRef
+     * @return {?}
+     */
+    function (elementRef) {
+        var /** @type {?} */ height = 240;
+        if ((window.screen.height - elementRef.getBoundingClientRect().bottom) < height) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    };
+    /**
+     * @param {?} Data
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.rightClickDataEmit = /**
+     * @param {?} Data
+     * @return {?}
+     */
+    function (Data) {
+        var /** @type {?} */ temptab;
+        this.tabCollection.forEach(function (obj) {
+            if (obj.active) {
+                temptab = obj;
+            }
+        });
+        if (Data.nodeData.active) {
+            temptab = Data;
+        }
+        if (Data.menuData.text === 'Close All') {
+            this.closeAllTabs();
+        }
+        if (Data.menuData.text === this.closeOthersConst) {
+            this.closeOtherTabs(temptab);
+        }
+        this.rightClick.emit(Data);
+    };
+    /**
+     * @param {?} data
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.closeOtherTabs = /**
+     * @param {?} data
+     * @return {?}
+     */
+    function (data) {
+        var _this = this;
+        this.tabCollection.forEach(function (tabs) {
+            if (data.nodeData.title.toLowerCase() !== tabs.title.toLowerCase() && (tabs.closable || _this.closable)) {
+                _this.closeTab(tabs);
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.addListner = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.globalClickListenFunc = this.renderer.listen('document', 'click', function (e) {
+            _this.contextMenuFlag = false;
+            if (!_this.contextMenuFlag) {
+                _this.removeListner();
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.removeListner = /**
+     * @return {?}
+     */
+    function () {
+        if (this.globalClickListenFunc) {
+            this.globalClickListenFunc();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.ngOnDestroy = /**
+     * @return {?}
+     */
+    function () {
+        this.removeListner();
+        _super.prototype.ngOnDestroy.call(this);
+    };
+    /**
+     * @param {?} input
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.showTab = /**
+     * @param {?} input
+     * @return {?}
+     */
+    function (input) {
+        var _this = this;
+        if (typeof input === 'string') {
+            this.tabCollection.forEach(function (tabs) {
+                if (input.trim().toLowerCase() !== tabs.title.trim().toLowerCase()) {
+                    tabs.hide = true;
+                    tabs['showflag'] = true;
+                    tabs.active = false;
+                }
+                else {
+                    tabs.hide = false;
+                    tabs['showflag'] = false;
+                    tabs.active = true;
+                }
+                _this.asignTabPillClass(tabs);
+            });
+        }
+        else if (typeof input === 'number') {
+            this.tabCollection.forEach(function (tabs, index) {
+                if (index !== input) {
+                    tabs.hide = true;
+                    tabs['showflag'] = true;
+                    tabs.active = false;
+                }
+                else {
+                    tabs.hide = false;
+                    tabs['showflag'] = false;
+                    tabs.active = true;
+                }
+            });
+        }
+    };
+    // Method to hide tab
+    /**
+     * @param {?} input
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.hideTab = /**
+     * @param {?} input
+     * @return {?}
+     */
+    function (input) {
+        var _this = this;
+        if (typeof input === 'string') {
+            this.tabCollection.forEach(function (tabs, index) {
+                if (input.trim().toLowerCase() === tabs.title.trim().toLowerCase() && tabs.active) {
+                    var /** @type {?} */ i = index + 1;
+                    tabs.hide = false;
+                    _this.tabCollection[i].active = true;
+                    var /** @type {?} */ newTab = _this.tabCollection[i];
+                    tabs.active = false;
+                    tabs['showflag'] = true;
+                    _this.asignTabPillClass(newTab);
+                }
+                else if (input.trim().toLowerCase() === tabs.title.trim().toLowerCase() && !tabs.active) {
+                    tabs.hide = true;
+                    tabs['showflag'] = true;
+                }
+            });
+        }
+        else if (typeof input === 'number') {
+            this.tabCollection.forEach(function (tabs, index) {
+                if (index !== input) {
+                    tabs.hide = true;
+                    tabs['showflag'] = false;
+                }
+                else {
+                    tabs.hide = false;
+                    tabs['showflag'] = true;
+                }
+            });
+        }
+    };
+    /**
+     * @param {?} input
+     * @param {?} flag
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.disableTab = /**
+     * @param {?} input
+     * @param {?} flag
+     * @return {?}
+     */
+    function (input, flag) {
+        var _this = this;
+        if (typeof input === 'string') {
+            this.tabCollection.forEach(function (tabs) {
+                if (input.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
+                    tabs.disabled = true;
+                    flag = true;
+                }
+                _this.asignTabPillClass(tabs);
+            });
+        }
+        else if (typeof input === 'number') {
+            this.tabCollection.forEach(function (tabs, index) {
+                if (index === input) {
+                    tabs.disabled = true;
+                    flag = true;
+                }
+                _this.asignTabPillClass(tabs);
+            });
+        }
+        else if (typeof input === 'object') {
+            this.disabledsplitmethod(input, flag);
+        }
+    };
+    /**
+     * @param {?} input
+     * @param {?} flag
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.disabledsplitmethod = /**
+     * @param {?} input
+     * @param {?} flag
+     * @return {?}
+     */
+    function (input, flag) {
+        var _this = this;
+        input.forEach(function (element) {
+            if (typeof element === 'string') {
+                _this.tabCollection.forEach(function (tabs) {
+                    if (element.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
+                        tabs.disabled = true;
+                        flag = true;
+                    }
+                    _this.asignTabPillClass(tabs);
+                });
+            }
+            else if (typeof element === 'number') {
+                _this.tabCollection.forEach(function (tabs, index) {
+                    if (index === element) {
+                        tabs.disabled = true;
+                        flag = true;
+                    }
+                    _this.asignTabPillClass(tabs);
+                });
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.getCurrentTab = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ currentindex;
+        this.tabCollection.forEach(function (tabs, index) {
+            if (tabs.active === true) {
+                currentindex = index;
+            }
+        });
+        return currentindex;
+    };
+    /**
+     * @param {?} input
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.deleteTab = /**
+     * @param {?} input
+     * @return {?}
+     */
+    function (input) {
+        var _this = this;
+        if (typeof input === 'string') {
+            this.tabCollection.forEach(function (tabs) {
+                if (input.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
+                    _this.closeTab(tabs);
+                }
+            });
+        }
+        else if (typeof input === 'number') {
+            this.tabCollection.forEach(function (tabs, index) {
+                if (index === input) {
+                    _this.closeTab(tabs);
+                }
+            });
+        }
+        else if (typeof input === 'object') {
+            this.deletetypeObject(input);
+        }
+    };
+    /**
+     * @param {?} input
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.deletetypeObject = /**
+     * @param {?} input
+     * @return {?}
+     */
+    function (input) {
+        var _this = this;
+        input.forEach(function (element) {
+            if (typeof element === 'string') {
+                _this.tabCollection.forEach(function (tabs) {
+                    if (element.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
+                        _this.closeTab(tabs);
+                    }
+                });
+            }
+            else if (typeof element === 'number') {
+                _this.tabCollection.forEach(function (tabs, index) {
+                    if (element === index) {
+                        _this.closeTab(tabs);
+                    }
+                });
+            }
+        });
+    };
+    /**
+     * @param {?} input
+     * @param {?} replacetab
+     * @return {?}
+     */
+    AmexioTabComponent.prototype.replaceTab = /**
+     * @param {?} input
+     * @param {?} replacetab
+     * @return {?}
+     */
+    function (input, replacetab) {
+        this.tabCollection.forEach(function (tabs, index) {
+            if (input === index) {
+                tabs.title = replacetab;
+            }
+        });
+    };
+    AmexioTabComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-tab-view',
+                    template: "\n    <div class=\"tabwrapper\">\n        <div *ngIf=\"showprev\" [ngClass]=\"{'tabnavigation float-right tabnavigation-bottom-left':tabPosition=='bottom', 'tabnavigation float-left':tabPosition=='top'}\" (click)=\"previous()\">\n            <amexio-c-icon key=\"tab_previous\"></amexio-c-icon>\n        </div>\n        <div *ngIf=\"shownext\" [ngClass]=\"{'tabnavigation float-right tabnavigation-bottom-right':tabPosition=='bottom','tabnavigation float-right':tabPosition=='top'}\" (click)=\"next()\">\n            <amexio-c-icon key=\"tab_next\"></amexio-c-icon>\n        </div>\n\n        <div #tab class=\"tab\"  role=\"tablist\" aria-labelledby=\"Tablist\" [ngClass]=\"{'bottomTab':tabPosition == 'bottom'}\">\n\n            <div #tabslist class=\"tablistitems {{tabPositionClass}}\">\n                <!-- HEADER -->\n\n                <div class=\"tablink\" style=\"padding-bottom:0%\" *ngIf=\"(this.action == true || header) && (fullPageTabs == false)\">\n                    <div class=\"table\">\n                        <div class=\"tablerow\">\n                            <div class=\"tablecol\">\n                                {{header}}\n                            </div>\n                            <div class=\"tablecol\">\n                                <ng-content select=\"amexio-tab-action\"></ng-content>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n\n\n                <div>\n                    <div *ngFor=\"let tabnode of tabCollection, let index = index\" class=\"tablink {{tabnode.amexiocolor+ ' '+tabnode.tabPillClass}}\" \n                    [style.width.px]=\"singleTabWidth\"  (contextmenu)=\"loadContextMenu($event,tabnode, tab)\">\n                        <div class=\"table1\" id=\"{{tabnode.tablk}}\" tabindex=\"1\" attr.aria-controls=\"{{tabnode.tabId}}\" role=\"tab\" (click)=\"onTabClick(tabnode, index)\" [ngStyle]=\"{'display': tabnode.showflag ? 'none':'table-cell'}\"\n                        (keyup.arrowright)=\"onArrowRight()\" (keyup.arrowleft)=\"onArrowLeft()\" (keyup.enter)=\"onTabClick(tabnode, index)\" (keyup.home)=\"onHomeClick()\" \n                        (keyup.end)=\"onEndClick()\">\n                            <div class=\"tablerow\">\n                                <div *ngIf=\"tabnode.icon\" class=\"tablecol\">\n                                    <amexio-c-icon *ngIf=\"tabnode.icon\" [customclass]=\"tabnode.icon\"></amexio-c-icon>\n                                </div>\n                                <div class=\"tablecol\">\n                                    {{tabnode.title}}\n                                </div>\n                                <div *ngIf=\"tabnode.closable\" class=\"tablecol\">\n                                    <amexio-c-icon key=\"tab_close\" (onClick)=\"closeTab(tabnode)\"></amexio-c-icon>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"tabcontent\" [attr.id]=\"componentId\" [ngStyle]=\"{'height.px' : height,'overflow-y' : height!= null ? 'auto' : '','min-height.px' : minHeight}\">\n        <ng-content></ng-content>\n        <ng-template #target></ng-template>\n    </div>\n\n\n    <ng-container *ngIf=\"contextMenuFlag\">\n        <base-contextmenu [base-context-menu]=\"contextmenu\" [mouse-location-top]=\"mouseLocation.top\" [mouse-location-left]=\"mouseLocation.left\" [is-FlagShow]=\"contextMenuFlag\" [right-click-data]=\"rightClickRowData\" (onRightClick)=\"rightClickDataEmit($event)\"\n            [position-up]=\"posixUp\">\n        </base-contextmenu>\n    </ng-container>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioTabComponent.ctorParameters = function () { return [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ComponentFactoryResolver"] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }
+    ]; };
+    AmexioTabComponent.propDecorators = {
+        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        headeralign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['header-align',] }],
+        action: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        typeActionAlign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['action-type-align',] }],
+        fullPageTabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['divide-header-equally',] }],
+        tabPosition: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['tab-position',] }],
+        header: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        bodyheight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['body-height',] }],
+        contextmenu: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['context-menu',] }],
+        defaultContextMenu: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['default-context-menu',] }],
+        activeBGColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['active-bg-color',] }],
+        rightClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        tabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tab', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        tabAction: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tabAction', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        headerWidth: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['headerWidth', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        headerName: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['headerName', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        tabslist: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tabslist', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        actionProperty: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['actionProperty', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        queryTabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTabPillComponent,] }],
+        target: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['target', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"] },] }],
+        queryAction: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTabActionComponent, { descendants: true },] }],
+        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        tabLocalData: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['tabLocalData',] }]
+    };
+    return AmexioTabComponent;
+}(LifeCycleBaseComponent));
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* Created by ketangote on 12/1/17.
+*/
+var AmexioVerticalTabComponent = /** @class */ (function () {
+    function AmexioVerticalTabComponent(render, componentFactoryResolver) {
+        this.render = render;
+        this.componentFactoryResolver = componentFactoryResolver;
+        /*
+        Events
+        name : onClick
+        datatype : none
+        version : 4.0 onwards
+        default :none
+        description : Callback to invoke on activated tab event.
+        */
+        this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.dummyArray = [];
+        this.componentId = '';
+        this.tabPosition = 'top';
+    }
+    /**
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.componentId = Math.floor(Math.random() * 90000) + 10000 + '_tabc';
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.ngAfterViewInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        this.tabCollection = this.queryTabs.toArray();
+    };
+    /**
+     * @param {?} tab
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.onTabClick = /**
+     * @param {?} tab
+     * @return {?}
+     */
+    function (tab) {
+        var _this = this;
+        if (!tab.disabled && !tab.header) {
+            for (var _i = 0, _a = this.tabCollection; _i < _a.length; _i++) {
+                var i = _a[_i];
+                if (i === tab) {
+                    i['active'] = true;
+                    this.asignTabPillClass(tab);
+                    this.onClick.emit(tab);
+                }
+                else {
+                    i['active'] = false;
+                    i['tabPillClass'] = '';
+                }
+            }
+            this.tabCollection.forEach(function (tab1) {
+                _this.asignTabPillClass(tab1);
+            });
+        }
+    };
+    // Code to be done
+    /**
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.findTabStyleClass = /**
+     * @return {?}
+     */
+    function () {
+        if (this.tabPosition === 'top') {
+            return 'tabposition-top';
+        }
+        if (this.tabPosition === 'bottom') {
+            return 'tabposition-bottom';
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.closeAllTabs = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.tabCollection.forEach(function (tabs) {
+            if (tabs.closable === true || _this.closable === true) {
+                _this.closeTab(tabs);
+            }
+        });
+    };
+    /**
+     * @param {?} tabNode
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.closeTab = /**
+     * @param {?} tabNode
+     * @return {?}
+     */
+    function (tabNode) {
+        var _this = this;
+        var /** @type {?} */ newTab = [];
+        var /** @type {?} */ index = 0;
+        var /** @type {?} */ tabHighlightIndex = 0;
+        this.tabCollection.forEach(function (tab, i) {
+            tab.active = false;
+            if (tab.tabId === tabNode.tabId) {
+                tabHighlightIndex = index;
+                if (tab.hasOwnProperty('tabpillinstance')) {
+                    tab.target.remove();
+                }
+                else {
+                    _this.tabDomRemove(tab);
+                }
+            }
+            else if (tab.tabId !== tabNode.tabId) {
+                newTab.push(tab);
+            }
+            index++;
+        });
+        if (tabHighlightIndex === newTab.length) {
+            tabHighlightIndex--;
+        }
+        this.tabCollection = newTab;
+        if (tabHighlightIndex > -1) {
+            this.activateTab(newTab[tabHighlightIndex].tabId);
+        }
+        else {
+            this.activateTab(null);
+        }
+        if (this.tabCollection.length === 1) {
+            this.closable = false;
+        }
+        if (newTab.length === 1) {
+            newTab[0].closable = false;
+        }
+    };
+    /**
+     * @param {?} data
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.closeTabs = /**
+     * @param {?} data
+     * @return {?}
+     */
+    function (data) {
+        var _this = this;
+        var /** @type {?} */ tabList = [];
+        this.tabCollection.forEach(function (tabs) {
+            tabs.active = false;
+            data.forEach(function (opt) {
+                if (opt.toLowerCase() !== tabs.title.toLowerCase() && (tabs.closable === true || _this.closable === true)) {
+                    _this.closeTab(tabs);
+                }
+                else {
+                    tabList.push(tabs);
+                    _this.asignTabPillClass(tabs);
+                }
+            });
+        });
+        tabList[tabList.length - 1].active = true;
+        this.asignTabPillClass(tabList[tabList.length - 1]);
+    };
+    /**
+     * @param {?} tab
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.tabDomRemove = /**
+     * @param {?} tab
+     * @return {?}
+     */
+    function (tab) {
+        var /** @type {?} */ removeNode = document.getElementById(tab.tabId).parentNode;
+        var /** @type {?} */ parentRefNode = removeNode.parentNode;
+        parentRefNode.removeChild(removeNode);
+    };
+    /**
+     * @param {?} title
+     * @param {?} amexiocolor
+     * @param {?} closable
+     * @param {?} component
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.addDynamicTab = /**
+     * @param {?} title
+     * @param {?} amexiocolor
+     * @param {?} closable
+     * @param {?} component
+     * @return {?}
+     */
+    function (title, amexiocolor, closable, component) {
+        // get a component factory for our TabComponent
+        var /** @type {?} */ tpCF = this.componentFactoryResolver.resolveComponentFactory(AmexioTabPillComponent);
+        var /** @type {?} */ tp = this.target.createComponent(tpCF);
+        // set the according properties on our component instance
+        var /** @type {?} */ instance = /** @type {?} */ (tp.instance);
+        instance.title = title;
+        instance.active = true;
+        instance.closable = closable;
+        instance['tabpillinstance'] = this.target;
+        if (instance.amexiocolor === '') {
+            instance.amexiocolor = 'amexio-top-tab-black';
+        }
+        else {
+            instance.amexiocolor = 'amexio-top-tab-' + amexiocolor;
+        }
+        // create dynamic component
+        var /** @type {?} */ dynCF = this.componentFactoryResolver.resolveComponentFactory(component);
+        var /** @type {?} */ dynCmp = tp.instance.target.createComponent(dynCF);
+        // Push new tab and select it.
+        this.dummyArray.push(tp);
+        this.tabCollection.push(tp.instance);
+        this.selectTab(tp.instance);
+        return dynCmp.instance;
+    };
+    /**
+     * @param {?} tab
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.selectTab = /**
+     * @param {?} tab
+     * @return {?}
+     */
+    function (tab) {
+        var _this = this;
+        // deactivate all tabs
+        this.tabCollection.forEach(function (tab1) {
+            tab1.active = false;
+        });
+        tab.active = true;
+        this.tabCollection.forEach(function (tab1) {
+            _this.asignTabPillClass(tab1);
+        });
+    };
+    /**
+     * @param {?} tabData
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.asignTabPillClass = /**
+     * @param {?} tabData
+     * @return {?}
+     */
+    function (tabData) {
+        tabData.tabPillClass = '';
+        if ((!tabData.amexiocolor || tabData.amexiocolor === '') && tabData.active && (this.tabPosition === 'top')) {
+            tabData.tabPillClass = 'activetab';
+        }
+        if ((!tabData.amexiocolor || tabData.amexiocolor === '') && (this.tabPosition === 'bottom') && tabData.active) {
+            tabData.tabPillClass = 'bottomActivetab';
+        }
+        if (tabData.disabled) {
+            tabData.tabPillClass = 'disabled-tab';
+        }
+        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'top') && tabData.active) {
+            tabData.tabPillClass = 'activecolortab';
+        }
+        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'bottom') && tabData.active) {
+            tabData.tabPillClass = 'activebottomcolortab';
+        }
+    };
+    /**
+     * @param {?} tabId
+     * @return {?}
+     */
+    AmexioVerticalTabComponent.prototype.activateTab = /**
+     * @param {?} tabId
+     * @return {?}
+     */
+    function (tabId) {
+        this.tabCollection.forEach(function (tab) {
+            tab.active = false;
+        });
+    };
+    AmexioVerticalTabComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-vertical-tab-view',
+                    template: "\n    <div class=\"vertical-table\">\n        <div class=\"vertical-tablerow\" style=\"height:580px\">\n            <div class=\"vertical-tablecol verticalalign-tableft\" [ngClass]=\"{'tabposition-top': (tabPosition==='top'),'tabposition-bottom':(tabPosition==='bottom')}\">\n                <div #tab class=\"verticalnavtab verticalnavtab-left\">\n                    <ul>\n                        <li *ngFor=\"let tabnode of tabCollection\">\n                            <div class=\"defaultnode\" [ngClass]=\"{'leftactivetab':tabnode.active,'disabled-tab':tabnode.disabled}\" (click)=\"onTabClick(tabnode)\" [ngStyle]=\"{'color': tabnode.amexiocolor}\">\n                                <span *ngIf=\"tabnode.icon\" [ngClass]=\"tabnode.icon\" style=\"padding-right:8px\" aria-hidden=\"true\"></span>\n                                <span>{{tabnode.title}}</span>\n                                <span *ngIf=\"closable\" class=\"tablecol\">\n                    <amexio-c-icon key=\"tab_close\" (onClick)=\"closeTab(tabnode)\" style=\"padding-left:5px;float:right\"></amexio-c-icon>\n                  </span>\n                            </div>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"vertical-tablecol verticalalign-tabcontent\">\n                <div class=\"tabcontent\" [attr.id]=\"componentId\">\n                    <ng-content></ng-content>\n                    <ng-template #target></ng-template>\n                </div>\n            </div>\n        </div>\n    </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioVerticalTabComponent.ctorParameters = function () { return [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ComponentFactoryResolver"] }
+    ]; };
+    AmexioVerticalTabComponent.propDecorators = {
+        tabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tab', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        queryTabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTabPillComponent,] }],
+        target: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['target', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"] },] }],
+        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        tabPosition: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    };
+    return AmexioVerticalTabComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+var AmexiotimelineeventComponent = /** @class */ (function () {
+    function AmexiotimelineeventComponent() {
+        this.timelineclass = 'timeline-item';
+        /*
+          Properties
+          name :contentborder
+          datatype :string
+          version : 4.2onwards
+          default : false
+          description : This will specify the content border in timeline.
+          */
+        this.contentborder = true;
+        this.alignment = 'center';
+    }
+    AmexiotimelineeventComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-timeline-event',
+                    template: "\n    <div \n\n    tabindex=\"0\"\n    attr.aria-label=\"{{alignment}}\"\n\n    class=\"timeline-badge \"  \n    [ngClass]=\"{'timeline-badge-center': (alignment === 'center')\n      , 'timeline-badge-left': (alignment === 'right')\n      , 'timeline-badge-right': (alignment === 'left')}\"\n      >\n    <amexio-c-icon [customclass]=\"icon\"></amexio-c-icon>\n    </div>\n    <div \n    tabindex=\"1\"\n    attr.aria-label=\"{{contentalignment}}\"\n    class=\"timeline-panel\" [ngClass]=\"{'timeline-panel-border':contentborder,\n     'timeline-panel-float-right': (contentalignment == 'right'),\n     'timeline-panel-float-left': (contentalignment == 'left'),\n     'timeline-panel-center': (alignment === 'center'),\n     'timeline-panel-right': (alignment === 'right'),\n     'timeline-panel-left': (alignment === 'left')}\">\n    <div \n    tabindex=\"1\"\n    *ngIf=\"label\"><b>{{label}}</b></div>\n\n    <ng-content></ng-content>\n    </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexiotimelineeventComponent.ctorParameters = function () { return []; };
+    AmexiotimelineeventComponent.propDecorators = {
+        timelineclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
+        label: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['label',] }],
+        icon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon',] }],
+        contentborder: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['content-border',] }],
+        contentalignment: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['content-alignment',] }]
+    };
+    return AmexiotimelineeventComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioTimeLineModel = /** @class */ (function () {
+    function AmexioTimeLineModel(timelineevents, contentalignment, alignment) {
+        this.timelineevents = timelineevents;
+        this.alignment = alignment;
+        this.contentalignment = contentalignment;
+    }
+    return AmexioTimeLineModel;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+var AmexiotimelineComponent = /** @class */ (function () {
+    function AmexiotimelineComponent(matchMediaService) {
+        this.matchMediaService = matchMediaService;
+        this.alignment = 'center';
+        var /** @type {?} */ that = this;
+        this.matchMediaService.OnPhone(function (mediaQueryList) {
+            that.mobileOrTabletMode();
+        });
+        this.matchMediaService.OnTablet(function (mediaQueryList) {
+            that.mobileOrTabletMode();
+        });
+        this.matchMediaService.OnDesktop(function (mediaQueryList) {
+            that.desktopMode();
+        });
+    }
+    /**
+     * @return {?}
+     */
+    AmexiotimelineComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @return {?}
+     */
+    AmexiotimelineComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        this.timelineevents = this.querylist.toArray();
+        this.initContentAlignment();
+    };
+    /**
+     * @return {?}
+     */
+    AmexiotimelineComponent.prototype.initContentAlignment = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.contentalignment) {
+            this.alignment = this.contentalignment;
+        }
+        var /** @type {?} */ hasContentAlignment = true;
+        this.timelineevents.forEach(function (timeline) {
+            if (timeline.contentalignment) {
+                hasContentAlignment = false;
+            }
+        });
+        if (hasContentAlignment) {
+            this.timelineevents.forEach(function (timeline, index) {
+                if (_this.contentalignment) {
+                    timeline.contentalignment = _this.contentalignment;
+                }
+                else {
+                    timeline.contentalignment = ((index % 2) === 0) ? 'right' : 'left';
+                }
+                timeline.alignment = _this.alignment;
+            });
+        }
+        this.timelineModel = new AmexioTimeLineModel(JSON.parse(JSON.stringify(this.timelineevents)), this.contentalignment, this.alignment);
+    };
+    /**
+     * @return {?}
+     */
+    AmexiotimelineComponent.prototype.mobileOrTabletMode = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.alignment = 'right';
+        this.timelineevents.forEach(function (timeline, index) {
+            timeline.contentalignment = 'right';
+            timeline.alignment = _this.alignment;
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexiotimelineComponent.prototype.desktopMode = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.alignment = this.timelineModel.alignment;
+        this.contentalignment = this.timelineModel.contentalignment;
+        this.timelineevents.forEach(function (timeline, index) {
+            var /** @type {?} */ originalTimelineEvent1 = _this.timelineModel.timelineevents[index];
+            timeline.contentalignment = originalTimelineEvent1.contentalignment;
+            timeline.alignment = originalTimelineEvent1.alignment;
+        });
+    };
+    AmexiotimelineComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-timeline',
+                    template: "\n    <div class='timeline' [ngClass]=\"{'timelinecenter': (alignment == 'center'), \n                                    'timelineleft': (alignment == 'left'), \n                                    'timelineright': (alignment == 'right')}\">\n      <ng-content></ng-content>\n    </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexiotimelineComponent.ctorParameters = function () { return [
+        { type: DeviceQueryService }
+    ]; };
+    AmexiotimelineComponent.propDecorators = {
+        querylist: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexiotimelineeventComponent,] }],
+        contentalignment: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['content-alignment',] }]
+    };
+    return AmexiotimelineComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+ * Copyright [2019] [Metamagic]
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * Created by ketangote on 12/18/17.
+ */
+var AmexioWindowPaneComponent = /** @class */ (function () {
+    function AmexioWindowPaneComponent(renderer) {
+        this.renderer = renderer;
+        /*
+           Properties
+           name : vertical-position
+           datatype : string
+           version : 4.1 onwards
+           default : none
+           description : Postion of window vertically: top or bottom or center.
+           This attribute is ignored if user specify position explicitly
+           (using position-top/position-bottom/position-left/position-right)
+           */
+        this.verticalposition = 'center';
+        /*
+           Properties
+           name : close-on-escape
+           datatype : string
+           version : 4.2onwards
+           default : false
+           description : Enables And Disables the Escape button.
+           */
+        this.closeonescape = true;
+        this.showChange = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+           Properties
+           name : maximize
+           datatype : boolean
+           version : 4.0 onwards
+           default :false
+           description : User can maximize the window to full screen.
+           */
+        this.maximize = false;
+        /*
+           Properties
+           name : closable
+           datatype : boolean
+           version : 4.0 onwards
+           default : false
+           description : User can close the window.
+           */
+        this.closable = true;
+        /*
+           Properties
+           name : header
+           datatype : boolean
+           version : 4.0 onwards
+           default : false
+           description : it is flag that decides header visibility
+           */
+        this.header = true;
+        this.window = ' window-';
+        this.width = '90%';
+        this.nodeRightClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.rightClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.close = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.mouseLocation = { left: 0, top: 0 };
+    }
+    /**
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.onCloseClick = /**
+     * @return {?}
+     */
+    function () {
+        if (this.closable) {
+            this.showWindow = false;
+            this.show = false;
+            this.showChange.emit(false);
+            this.close.emit(this.showWindow);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.setVerticlePosition();
+        this.setHorizontalPosition();
+        if (this.maximize) {
+            this.dummyWidth = this.width;
+            this.isFullWindow = true;
+            this.maximumWindowStyle = this.setMaximizeClass(this.isFullWindow);
+        }
+        if (this.showWindow) {
+            this.show = this.showWindow;
+        }
+    };
+    /**
+     * @param {?} isFullWindow
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.setMaximizeClass = /**
+     * @param {?} isFullWindow
+     * @return {?}
+     */
+    function (isFullWindow) {
+        this.isFullWindow = isFullWindow;
+        if (isFullWindow) {
+            this.width = '100%';
+            return {
+                'margin-top': '0', 'height': '100%',
+            };
+        }
+        else {
+            this.width = this.dummyWidth;
+            return {
+                'margin-top': '1%', 'height': '96%',
+            };
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.setVerticlePosition = /**
+     * @return {?}
+     */
+    function () {
+        switch (this.verticalposition) {
+            case 'top': {
+                this.verticalposition = 'flex-start';
+                break;
+            }
+            case 'center': {
+                this.verticalposition = 'center';
+                break;
+            }
+            case 'bottom': {
+                this.verticalposition = 'flex-end';
+                break;
+            }
+            default: {
+                this.verticalposition = 'center';
+                break;
+            }
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.setHorizontalPosition = /**
+     * @return {?}
+     */
+    function () {
+        switch (this.horizontalposition) {
+            case 'left': {
+                this.horizontalposition = 'flex-start';
+                break;
+            }
+            case 'center': {
+                this.horizontalposition = 'center';
+                break;
+            }
+            case 'right': {
+                this.horizontalposition = 'flex-end';
+                break;
+            }
+            default: {
+                this.horizontalposition = 'center';
+                break;
+            }
+        }
+    };
+    /* ASSIGN PROPERTIES TO FOOTER AND HEADER*/
+    /**
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.amexioFooter && this.footer) {
+            this.amexioFooter.toArray().forEach(function (footer) {
+                footer.footer = _this.footer;
+                footer.setFooterAlignment(_this.footeralign);
+            });
+        }
+        if (this.amexioHeader && this.header) {
+            this.amexioHeader.toArray()[0].closeable = this.closable;
+            if (this.maximize) {
+                this.amexioHeader.toArray()[0].setMaximizeData(this.maximize, this.isFullWindow);
+                this.amexioHeader.toArray()[0].maximizeBehaiour.subscribe(function (max) {
+                    _this.maximumWindowStyle = _this.setMaximizeClass(max);
+                });
+            }
+            this.amexioHeader.toArray()[0].setMaterialDesignStatus(this.materialDesign);
+            this.amexioHeader.toArray()[0].closeableBehaiour.subscribe(function (close) {
+                _this.onCloseClick();
+            });
+        }
+        if (this.amexioBody && this.bodyHeight) {
+            this.amexioBody.toArray()[0].height = this.bodyHeight + '%';
+        }
+    };
+    /**
+     * @param {?} changes
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.ngOnChanges = /**
+     * @param {?} changes
+     * @return {?}
+     */
+    function (changes) {
+        if (changes['show']) {
+            this.setShowFlag(changes["show"].currentValue);
+        }
+        if (changes['showWindow']) {
+            this.setShowFlag(changes["showWindow"].currentValue);
+        }
+    };
+    /**
+     * @param {?} changedValue
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.setShowFlag = /**
+     * @param {?} changedValue
+     * @return {?}
+     */
+    function (changedValue) {
+        var _this = this;
+        this.show = changedValue;
+        if (this.show && this.closeonescape) {
+            this.globalListenFunc = this.renderer.listen('document', 'keyup.esc', function (e) {
+                _this.showWindow = false;
+                _this.show = false;
+                _this.showChange.emit(false);
+                _this.close.emit(_this.showWindow);
+            });
+        }
+        else if (this.globalListenFunc) {
+            this.globalListenFunc();
+        }
+    };
+    // context menu code below
+    /**
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.getContextMenu = /**
+     * @return {?}
+     */
+    function () {
+        if (this.contextmenu && this.contextmenu.length > 0) {
+            this.flag = true;
+            this.addListner();
+        }
+    };
+    /**
+     * @param {?} elementRef
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.getListPosition = /**
+     * @param {?} elementRef
+     * @return {?}
+     */
+    function (elementRef) {
+        var /** @type {?} */ height = 240;
+        if ((window.screen.height - elementRef.getBoundingClientRect().bottom) < height) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    };
+    /**
+     * @param {?} rightClickData
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.loadContextMenu = /**
+     * @param {?} rightClickData
+     * @return {?}
+     */
+    function (rightClickData) {
+        if (this.contextmenu && this.contextmenu.length > 0) {
+            this.mouseLocation.left = rightClickData.event.clientX;
+            this.mouseLocation.top = rightClickData.event.clientY;
+            this.getContextMenu();
+            this.posixUp = this.getListPosition(rightClickData.ref);
+            rightClickData.event.preventDefault();
+            rightClickData.event.stopPropagation();
+            this.rightClickNodeData = rightClickData.data;
+            this.nodeRightClick.emit(rightClickData);
+        }
+    };
+    /**
+     * @param {?} Data
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.rightClickDataEmit = /**
+     * @param {?} Data
+     * @return {?}
+     */
+    function (Data) {
+        this.rightClick.emit(Data);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.addListner = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.globalClickListenFunc = this.renderer.listen('document', 'click', function (e) {
+            _this.flag = false;
+            if (!_this.flag) {
+                _this.removeListner();
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.removeListner = /**
+     * @return {?}
+     */
+    function () {
+        if (this.globalClickListenFunc) {
+            this.globalClickListenFunc();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioWindowPaneComponent.prototype.ngOnDestroy = /**
+     * @return {?}
+     */
+    function () {
+        this.removeListner();
+        if (this.globalListenFunc) {
+            this.globalListenFunc();
+        }
+    };
+    AmexioWindowPaneComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-window',
+                    template: "\n\n    <div #id *ngIf=\"show\" class=\"amexio-root-window\"  [style.justify-content]=\"horizontalposition\">\n      <div class=\"amexio-root-window-content\"\n           (contextmenu)=\"loadContextMenu({event:$event,ref:id})\"\n           [style.justify-content]=\"verticalposition\"\n           [ngStyle]=\"maximumWindowStyle\"\n           [ngClass]=\"{'content-max-height': (maximize && isFullWindow)}\"\n           [@animation]=\"{value: 'visible', params: {transitionParams: transitionOptions}}\"\n           [style.width]=\"width\">\n        <ng-content></ng-content>\n      </div>\n    </div>\n\n    <ng-container *ngIf=\"flag\">\n      <base-contextmenu style=\" z-index: 5; position: absolute;\" [base-context-menu]=\"contextmenu\" [mouse-location-top]=\"mouseLocation.top\"\n                        [mouse-location-left]=\"mouseLocation.left\" [is-FlagShow]=\"flag\" [right-click-data]=\"nodeRightClick\"\n                        (onRightClick)=\"rightClickDataEmit($event)\" [position-up]=\"posixUp\">\n      </base-contextmenu>\n    </ng-container>\n  ",
+                    animations: [
+                        trigger('animation', [
+                            state('void', style({
+                                transform: 'translate3d(0, 25%, 0) scale(0.9)',
+                                opacity: 0,
+                            })),
+                            state('visible', style({
+                                transform: 'none',
+                                opacity: 1,
+                            })),
+                            transition('* => *', animate('400ms cubic-bezier(0.25, 0.8, 0.25, 1)')),
+                        ]),
+                    ],
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioWindowPaneComponent.ctorParameters = function () { return [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }
+    ]; };
+    AmexioWindowPaneComponent.propDecorators = {
+        verticalposition: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['vertical-position',] }],
+        horizontalposition: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['horizontal-position',] }],
+        closeonescape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['close-on-escape',] }],
+        top: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-top',] }],
+        footeralign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['footer-align',] }],
+        showWindow: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-window',] }],
+        materialDesign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['material-design',] }],
+        show: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        windowHeader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['windowHeader', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        showChange: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        bodyHeight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['body-height',] }],
+        maximize: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        header: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        footer: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        contextmenu: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['context-menu',] }],
+        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['width',] }],
+        nodeRightClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        rightClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        amexioHeader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioHeaderComponent,] }],
+        amexioFooter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFooterComponent,] }],
+        amexioBody: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioBodyComponent,] }],
+        close: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    };
+    return AmexioWindowPaneComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+var AmexioWindowHeaderComponent = /** @class */ (function () {
+    function AmexioWindowHeaderComponent() {
+    }
+    /**
+     * @return {?}
+     */
+    AmexioWindowHeaderComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    AmexioWindowHeaderComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-window-header', template: "\n    <ng-content></ng-content>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioWindowHeaderComponent.ctorParameters = function () { return []; };
+    AmexioWindowHeaderComponent.propDecorators = {
+        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
+    };
+    return AmexioWindowHeaderComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+* Created by manisha on 7/6/18.
+*/
+var AmexioSearchAdvanceComponent = /** @class */ (function () {
+    function AmexioSearchAdvanceComponent() {
+        this.title = 'Advance Search';
+        this.formwidth = 0;
+        this.advanceSearchFlag = false;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioSearchAdvanceComponent.prototype.closeSearchForm = /**
+     * @return {?}
+     */
+    function () {
+        this.advanceSearchFlag = false;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioSearchAdvanceComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    AmexioSearchAdvanceComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-searchbox-options',
+                    template: "\n  <form [attr.aria-expanded]=\"advanceSearchFlag\" class=\"advancesearchform\"\n  *ngIf=\"advanceSearchFlag\"  [style.width]=\"formwidth+'px'\">\n    <label tabindex = \"0\" class=\"search-form-label\" [attr.aria-labellledby]=\"title\">\n        {{title}}\n    </label>\n    <span tabindex = \"0\"  aria-label=\"close form button\"\n     class=\"fa fa-window-close fa-1x close-icon\"\n     (keyup.esc)=\"closeSearchForm()\"\n     (keyup.enter)=\"closeSearchForm()\" (click)=\"closeSearchForm()\"></span>\n    <hr class=\"hrclass\">\n             <ng-content></ng-content>\n</form>\n",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioSearchAdvanceComponent.ctorParameters = function () { return []; };
+    AmexioSearchAdvanceComponent.propDecorators = {
+        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        formwidth: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['form-width',] }]
+    };
+    return AmexioSearchAdvanceComponent;
+}());
+
+var __extends$14 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -33515,7 +39910,7 @@ var __extends$4 = (undefined && undefined.__extends) || (function () {
  * @template T
  */
 var BaseFormValidator = /** @class */ (function (_super) {
-    __extends$4(BaseFormValidator, _super);
+    __extends$14(BaseFormValidator, _super);
     // @ViewChild(NgModel) model: NgModel;
     // public validate(c: FormControl) {
     //     return (this.model.valid ) ? null : {
@@ -33534,7 +39929,7 @@ var BaseFormValidator = /** @class */ (function (_super) {
     return BaseFormValidator;
 }(EventBaseComponent));
 
-var __extends$3 = (undefined && undefined.__extends) || (function () {
+var __extends$13 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -33565,7 +39960,7 @@ var __extends$3 = (undefined && undefined.__extends) || (function () {
 *
 */
 var SearchboxtoolComponent = /** @class */ (function (_super) {
-    __extends$3(SearchboxtoolComponent, _super);
+    __extends$13(SearchboxtoolComponent, _super);
     function SearchboxtoolComponent(element, dataService, renderer, _cd) {
         var _this = _super.call(this, renderer, element, _cd) || this;
         _this.element = element;
@@ -34093,770 +40488,6 @@ var SearchboxtoolComponent = /** @class */ (function (_super) {
 }(BaseFormValidator));
 
 /**
- * @license Angular v6.0.4
- * (c) 2010-2018 Google, Inc. https://angular.io/
- * License: MIT
- */
-
-/**
- * AnimationBuilder is an injectable service that is available when the {@link
- * BrowserAnimationsModule BrowserAnimationsModule} or {@link NoopAnimationsModule
- * NoopAnimationsModule} modules are used within an application.
- *
- * The purpose if this service is to produce an animation sequence programmatically within an
- * angular component or directive.
- *
- * Programmatic animations are first built and then a player is created when the build animation is
- * attached to an element.
- *
- * ```ts
- * // remember to include the BrowserAnimationsModule module for this to work...
- * import {AnimationBuilder} from '@angular/animations';
- *
- * class MyCmp {
- *   constructor(private _builder: AnimationBuilder) {}
- *
- *   makeAnimation(element: any) {
- *     // first build the animation
- *     const myAnimation = this._builder.build([
- *       style({ width: 0 }),
- *       animate(1000, style({ width: '100px' }))
- *     ]);
- *
- *     // then create a player from it
- *     const player = myAnimation.create(element);
- *
- *     player.play();
- *   }
- * }
- * ```
- *
- * When an animation is built an instance of {@link AnimationFactory AnimationFactory} will be
- * returned. Using that an {@link AnimationPlayer AnimationPlayer} can be created which can then be
- * used to start the animation.
- *
- * @experimental Animation support is experimental.
- */
-/**
- * `trigger` is an animation-specific function that is designed to be used inside of Angular's
- * animation DSL language. If this information is new, please navigate to the
- * {@link Component#animations component animations metadata page} to gain a better
- * understanding of how animations in Angular are used.
- *
- * `trigger` Creates an animation trigger which will a list of {@link state state} and
- * {@link transition transition} entries that will be evaluated when the expression
- * bound to the trigger changes.
- *
- * Triggers are registered within the component annotation data under the
- * {@link Component#animations animations section}. An animation trigger can be placed on an element
- * within a template by referencing the name of the trigger followed by the expression value that
- the
- * trigger is bound to (in the form of `[@triggerName]="expression"`.
- *
- * Animation trigger bindings strigify values and then match the previous and current values against
- * any linked transitions. If a boolean value is provided into the trigger binding then it will both
- * be represented as `1` or `true` and `0` or `false` for a true and false boolean values
- * respectively.
- *
- * ### Usage
- *
- * `trigger` will create an animation trigger reference based on the provided `name` value. The
- * provided `animation` value is expected to be an array consisting of {@link state state} and
- * {@link transition transition} declarations.
- *
- * ```typescript
- * @Component({
- *   selector: 'my-component',
- *   templateUrl: 'my-component-tpl.html',
- *   animations: [
- *     trigger("myAnimationTrigger", [
- *       state(...),
- *       state(...),
- *       transition(...),
- *       transition(...)
- *     ])
- *   ]
- * })
- * class MyComponent {
- *   myStatusExp = "something";
- * }
- * ```
- *
- * The template associated with this component will make use of the `myAnimationTrigger` animation
- trigger by binding to an element within its template code.
- *
- * ```html
- * <!-- somewhere inside of my-component-tpl.html -->
- * <div [@myAnimationTrigger]="myStatusExp">...</div>
- * ```
- *
- * ### Using an inline function
- * The `transition` animation method also supports reading an inline function which can decide
- * if its associated animation should be run.
- *
- * ```
- * // this method will be run each time the `myAnimationTrigger`
- * // trigger value changes...
- * function myInlineMatcherFn(fromState: string, toState: string, element: any, params: {[key:
- string]: any}): boolean {
- *   // notice that `element` and `params` are also available here
- *   return toState == 'yes-please-animate';
- * }
- *
- * @Component({
- *   selector: 'my-component',
- *   templateUrl: 'my-component-tpl.html',
- *   animations: [
- *     trigger('myAnimationTrigger', [
- *       transition(myInlineMatcherFn, [
- *         // the animation sequence code
- *       ]),
- *     ])
- *   ]
- * })
- * class MyComponent {
- *   myStatusExp = "yes-please-animate";
- * }
- * ```
- *
- * The inline method will be run each time the trigger
- * value changes
- *
- * ## Disable Animations
- * A special animation control binding called `@.disabled` can be placed on an element which will
- then disable animations for any inner animation triggers situated within the element as well as
- any animations on the element itself.
- *
- * When true, the `@.disabled` binding will prevent all animations from rendering. The example
- below shows how to use this feature:
- *
- * ```ts
- * @Component({
- *   selector: 'my-component',
- *   template: `
- *     <div [@.disabled]="isDisabled">
- *       <div [@childAnimation]="exp"></div>
- *     </div>
- *   `,
- *   animations: [
- *     trigger("childAnimation", [
- *       // ...
- *     ])
- *   ]
- * })
- * class MyComponent {
- *   isDisabled = true;
- *   exp = '...';
- * }
- * ```
- *
- * The `@childAnimation` trigger will not animate because `@.disabled` prevents it from happening
- (when true).
- *
- * Note that `@.disabled` will only disable all animations (this means any animations running on
- * the same element will also be disabled).
- *
- * ### Disabling Animations Application-wide
- * When an area of the template is set to have animations disabled, **all** inner components will
- also have their animations disabled as well. This means that all animations for an angular
- application can be disabled by placing a host binding set on `@.disabled` on the topmost Angular
- component.
- *
- * ```ts
- * import {Component, HostBinding} from '@angular/core';
- *
- * @Component({
- *   selector: 'app-component',
- *   templateUrl: 'app.component.html',
- * })
- * class AppComponent {
- *   @HostBinding('@.disabled')
- *   public animationsDisabled = true;
- * }
- * ```
- *
- * ### What about animations that us `query()` and `animateChild()`?
- * Despite inner animations being disabled, a parent animation can {@link query query} for inner
- elements located in disabled areas of the template and still animate them as it sees fit. This is
- also the case for when a sub animation is queried by a parent and then later animated using {@link
- animateChild animateChild}.
-
- * ### Detecting when an animation is disabled
- * If a region of the DOM (or the entire application) has its animations disabled, then animation
- * trigger callbacks will still fire just as normal (only for zero seconds).
- *
- * When a trigger callback fires it will provide an instance of an {@link AnimationEvent}. If
- animations
- * are disabled then the `.disabled` flag on the event will be true.
- *
- * @experimental Animation support is experimental.
- */
-function trigger(name, definitions) {
-    return { type: 7 /* Trigger */, name: name, definitions: definitions, options: {} };
-}
-/**
- * `animate` is an animation-specific function that is designed to be used inside of Angular's
- * animation DSL language. If this information is new, please navigate to the {@link
- * Component#animations component animations metadata page} to gain a better understanding of
- * how animations in Angular are used.
- *
- * `animate` specifies an animation step that will apply the provided `styles` data for a given
- * amount of time based on the provided `timing` expression value. Calls to `animate` are expected
- * to be used within {@link sequence an animation sequence}, {@link group group}, or {@link
- * transition transition}.
- *
- * ### Usage
- *
- * The `animate` function accepts two input parameters: `timing` and `styles`:
- *
- * - `timing` is a string based value that can be a combination of a duration with optional delay
- * and easing values. The format for the expression breaks down to `duration delay easing`
- * (therefore a value such as `1s 100ms ease-out` will be parse itself into `duration=1000,
- * delay=100, easing=ease-out`. If a numeric value is provided then that will be used as the
- * `duration` value in millisecond form.
- * - `styles` is the style input data which can either be a call to {@link style style} or {@link
- * keyframes keyframes}. If left empty then the styles from the destination state will be collected
- * and used (this is useful when describing an animation step that will complete an animation by
- * {@link transition#the-final-animate-call animating to the final state}).
- *
- * ```typescript
- * // various functions for specifying timing data
- * animate(500, style(...))
- * animate("1s", style(...))
- * animate("100ms 0.5s", style(...))
- * animate("5s ease", style(...))
- * animate("5s 10ms cubic-bezier(.17,.67,.88,.1)", style(...))
- *
- * // either style() of keyframes() can be used
- * animate(500, style({ background: "red" }))
- * animate(500, keyframes([
- *   style({ background: "blue" })),
- *   style({ background: "red" }))
- * ])
- * ```
- *
- * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
- *
- * @experimental Animation support is experimental.
- */
-function animate(timings, styles) {
-    if (styles === void 0) { styles = null; }
-    return { type: 4 /* Animate */, styles: styles, timings: timings };
-}
-/**
- * `style` is an animation-specific function that is designed to be used inside of Angular's
- * animation DSL language. If this information is new, please navigate to the {@link
- * Component#animations component animations metadata page} to gain a better understanding of
- * how animations in Angular are used.
- *
- * `style` declares a key/value object containing CSS properties/styles that can then be used for
- * {@link state animation states}, within an {@link sequence animation sequence}, or as styling data
- * for both {@link animate animate} and {@link keyframes keyframes}.
- *
- * ### Usage
- *
- * `style` takes in a key/value string map as data and expects one or more CSS property/value pairs
- * to be defined.
- *
- * ```typescript
- * // string values are used for css properties
- * style({ background: "red", color: "blue" })
- *
- * // numerical (pixel) values are also supported
- * style({ width: 100, height: 0 })
- * ```
- *
- * #### Auto-styles (using `*`)
- *
- * When an asterix (`*`) character is used as a value then it will be detected from the element
- * being animated and applied as animation data when the animation starts.
- *
- * This feature proves useful for a state depending on layout and/or environment factors; in such
- * cases the styles are calculated just before the animation starts.
- *
- * ```typescript
- * // the steps below will animate from 0 to the
- * // actual height of the element
- * style({ height: 0 }),
- * animate("1s", style({ height: "*" }))
- * ```
- *
- * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
- *
- * @experimental Animation support is experimental.
- */
-function style(tokens) {
-    return { type: 6 /* Style */, styles: tokens, offset: null };
-}
-/**
- * `state` is an animation-specific function that is designed to be used inside of Angular's
- * animation DSL language. If this information is new, please navigate to the {@link
- * Component#animations component animations metadata page} to gain a better understanding of
- * how animations in Angular are used.
- *
- * `state` declares an animation state within the given trigger. When a state is active within a
- * component then its associated styles will persist on the element that the trigger is attached to
- * (even when the animation ends).
- *
- * To animate between states, have a look at the animation {@link transition transition} DSL
- * function. To register states to an animation trigger please have a look at the {@link trigger
- * trigger} function.
- *
- * #### The `void` state
- *
- * The `void` state value is a reserved word that angular uses to determine when the element is not
- * apart of the application anymore (e.g. when an `ngIf` evaluates to false then the state of the
- * associated element is void).
- *
- * #### The `*` (default) state
- *
- * The `*` state (when styled) is a fallback state that will be used if the state that is being
- * animated is not declared within the trigger.
- *
- * ### Usage
- *
- * `state` will declare an animation state with its associated styles
- * within the given trigger.
- *
- * - `stateNameExpr` can be one or more state names separated by commas.
- * - `styles` refers to the {@link style styling data} that will be persisted on the element once
- * the state has been reached.
- *
- * ```typescript
- * // "void" is a reserved name for a state and is used to represent
- * // the state in which an element is detached from from the application.
- * state("void", style({ height: 0 }))
- *
- * // user-defined states
- * state("closed", style({ height: 0 }))
- * state("open, visible", style({ height: "*" }))
- * ```
- *
- * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
- *
- * @experimental Animation support is experimental.
- */
-function state(name, styles, options) {
-    return { type: 0 /* State */, name: name, styles: styles, options: options };
-}
-/**
- * `transition` is an animation-specific function that is designed to be used inside of Angular's
- * animation DSL language. If this information is new, please navigate to the {@link
- * Component#animations component animations metadata page} to gain a better understanding of
- * how animations in Angular are used.
- *
- * `transition` declares the {@link sequence sequence of animation steps} that will be run when the
- * provided `stateChangeExpr` value is satisfied. The `stateChangeExpr` consists of a `state1 =>
- * state2` which consists of two known states (use an asterix (`*`) to refer to a dynamic starting
- * and/or ending state).
- *
- * A function can also be provided as the `stateChangeExpr` argument for a transition and this
- * function will be executed each time a state change occurs. If the value returned within the
- * function is true then the associated animation will be run.
- *
- * Animation transitions are placed within an {@link trigger animation trigger}. For an transition
- * to animate to a state value and persist its styles then one or more {@link state animation
- * states} is expected to be defined.
- *
- * ### Usage
- *
- * An animation transition is kicked off the `stateChangeExpr` predicate evaluates to true based on
- * what the previous state is and what the current state has become. In other words, if a transition
- * is defined that matches the old/current state criteria then the associated animation will be
- * triggered.
- *
- * ```typescript
- * // all transition/state changes are defined within an animation trigger
- * trigger("myAnimationTrigger", [
- *   // if a state is defined then its styles will be persisted when the
- *   // animation has fully completed itself
- *   state("on", style({ background: "green" })),
- *   state("off", style({ background: "grey" })),
- *
- *   // a transition animation that will be kicked off when the state value
- *   // bound to "myAnimationTrigger" changes from "on" to "off"
- *   transition("on => off", animate(500)),
- *
- *   // it is also possible to do run the same animation for both directions
- *   transition("on <=> off", animate(500)),
- *
- *   // or to define multiple states pairs separated by commas
- *   transition("on => off, off => void", animate(500)),
- *
- *   // this is a catch-all state change for when an element is inserted into
- *   // the page and the destination state is unknown
- *   transition("void => *", [
- *     style({ opacity: 0 }),
- *     animate(500)
- *   ]),
- *
- *   // this will capture a state change between any states
- *   transition("* => *", animate("1s 0s")),
- *
- *   // you can also go full out and include a function
- *   transition((fromState, toState) => {
- *     // when `true` then it will allow the animation below to be invoked
- *     return fromState == "off" && toState == "on";
- *   }, animate("1s 0s"))
- * ])
- * ```
- *
- * The template associated with this component will make use of the `myAnimationTrigger` animation
- * trigger by binding to an element within its template code.
- *
- * ```html
- * <!-- somewhere inside of my-component-tpl.html -->
- * <div [@myAnimationTrigger]="myStatusExp">...</div>
- * ```
- *
- * #### The final `animate` call
- *
- * If the final step within the transition steps is a call to `animate()` that **only** uses a
- * timing value with **no style data** then it will be automatically used as the final animation arc
- * for the element to animate itself to the final state. This involves an automatic mix of
- * adding/removing CSS styles so that the element will be in the exact state it should be for the
- * applied state to be presented correctly.
- *
- * ```
- * // start off by hiding the element, but make sure that it animates properly to whatever state
- * // is currently active for "myAnimationTrigger"
- * transition("void => *", [
- *   style({ opacity: 0 }),
- *   animate(500)
- * ])
- * ```
- *
- * ### Using :enter and :leave
- *
- * Given that enter (insertion) and leave (removal) animations are so common, the `transition`
- * function accepts both `:enter` and `:leave` values which are aliases for the `void => *` and `*
- * => void` state changes.
- *
- * ```
- * transition(":enter", [
- *   style({ opacity: 0 }),
- *   animate(500, style({ opacity: 1 }))
- * ]),
- * transition(":leave", [
- *   animate(500, style({ opacity: 0 }))
- * ])
- * ```
- *
- * ### Boolean values
- * if a trigger binding value is a boolean value then it can be matched using a transition
- * expression that compares `true` and `false` or `1` and `0`.
- *
- * ```
- * // in the template
- * <div [@openClose]="open ? true : false">...</div>
- *
- * // in the component metadata
- * trigger('openClose', [
- *   state('true', style({ height: '*' })),
- *   state('false', style({ height: '0px' })),
- *   transition('false <=> true', animate(500))
- * ])
- * ```
- *
- * ### Using :increment and :decrement
- * In addition to the :enter and :leave transition aliases, the :increment and :decrement aliases
- * can be used to kick off a transition when a numeric value has increased or decreased in value.
- *
- * ```
- * import {group, animate, query, transition, style, trigger} from '@angular/animations';
- * import {Component} from '@angular/core';
- *
- * @Component({
- *   selector: 'banner-carousel-component',
- *   styles: [`
- *     .banner-container {
- *        position:relative;
- *        height:500px;
- *        overflow:hidden;
- *      }
- *     .banner-container > .banner {
- *        position:absolute;
- *        left:0;
- *        top:0;
- *        font-size:200px;
- *        line-height:500px;
- *        font-weight:bold;
- *        text-align:center;
- *        width:100%;
- *      }
- *   `],
- *   template: `
- *     <button (click)="previous()">Previous</button>
- *     <button (click)="next()">Next</button>
- *     <hr>
- *     <div [@bannerAnimation]="selectedIndex" class="banner-container">
- *       <div class="banner" *ngFor="let banner of banners"> {{ banner }} </div>
- *     </div>
- *   `,
- *   animations: [
- *     trigger('bannerAnimation', [
- *       transition(":increment", group([
- *         query(':enter', [
- *           style({ left: '100%' }),
- *           animate('0.5s ease-out', style('*'))
- *         ]),
- *         query(':leave', [
- *           animate('0.5s ease-out', style({ left: '-100%' }))
- *         ])
- *       ])),
- *       transition(":decrement", group([
- *         query(':enter', [
- *           style({ left: '-100%' }),
- *           animate('0.5s ease-out', style('*'))
- *         ]),
- *         query(':leave', [
- *           animate('0.5s ease-out', style({ left: '100%' }))
- *         ])
- *       ]))
- *     ])
- *   ]
- * })
- * class BannerCarouselComponent {
- *   allBanners: string[] = ['1', '2', '3', '4'];
- *   selectedIndex: number = 0;
- *
- *   get banners() {
- *      return [this.allBanners[this.selectedIndex]];
- *   }
- *
- *   previous() {
- *     this.selectedIndex = Math.max(this.selectedIndex - 1, 0);
- *   }
- *
- *   next() {
- *     this.selectedIndex = Math.min(this.selectedIndex + 1, this.allBanners.length - 1);
- *   }
- * }
- * ```
- *
- * {@example core/animation/ts/dsl/animation_example.ts region='Component'}
- *
- * @experimental Animation support is experimental.
- */
-function transition(stateChangeExpr, steps, options) {
-    if (options === void 0) { options = null; }
-    return { type: 1 /* Transition */, expr: stateChangeExpr, animation: steps, options: options };
-}
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-function scheduleMicroTask(cb) {
-    Promise.resolve(null).then(cb);
-}
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * @experimental Animation support is experimental.
- */
-var NoopAnimationPlayer = /** @class */ (function () {
-    function NoopAnimationPlayer(duration, delay) {
-        if (duration === void 0) { duration = 0; }
-        if (delay === void 0) { delay = 0; }
-        this._onDoneFns = [];
-        this._onStartFns = [];
-        this._onDestroyFns = [];
-        this._started = false;
-        this._destroyed = false;
-        this._finished = false;
-        this.parentPlayer = null;
-        this.totalTime = duration + delay;
-    }
-    NoopAnimationPlayer.prototype._onFinish = function () {
-        if (!this._finished) {
-            this._finished = true;
-            this._onDoneFns.forEach(function (fn) { return fn(); });
-            this._onDoneFns = [];
-        }
-    };
-    NoopAnimationPlayer.prototype.onStart = function (fn) { this._onStartFns.push(fn); };
-    NoopAnimationPlayer.prototype.onDone = function (fn) { this._onDoneFns.push(fn); };
-    NoopAnimationPlayer.prototype.onDestroy = function (fn) { this._onDestroyFns.push(fn); };
-    NoopAnimationPlayer.prototype.hasStarted = function () { return this._started; };
-    NoopAnimationPlayer.prototype.init = function () { };
-    NoopAnimationPlayer.prototype.play = function () {
-        if (!this.hasStarted()) {
-            this._onStart();
-            this.triggerMicrotask();
-        }
-        this._started = true;
-    };
-    /* @internal */
-    NoopAnimationPlayer.prototype.triggerMicrotask = function () {
-        var _this = this;
-        scheduleMicroTask(function () { return _this._onFinish(); });
-    };
-    NoopAnimationPlayer.prototype._onStart = function () {
-        this._onStartFns.forEach(function (fn) { return fn(); });
-        this._onStartFns = [];
-    };
-    NoopAnimationPlayer.prototype.pause = function () { };
-    NoopAnimationPlayer.prototype.restart = function () { };
-    NoopAnimationPlayer.prototype.finish = function () { this._onFinish(); };
-    NoopAnimationPlayer.prototype.destroy = function () {
-        if (!this._destroyed) {
-            this._destroyed = true;
-            if (!this.hasStarted()) {
-                this._onStart();
-            }
-            this.finish();
-            this._onDestroyFns.forEach(function (fn) { return fn(); });
-            this._onDestroyFns = [];
-        }
-    };
-    NoopAnimationPlayer.prototype.reset = function () { };
-    NoopAnimationPlayer.prototype.setPosition = function (p) { };
-    NoopAnimationPlayer.prototype.getPosition = function () { return 0; };
-    /* @internal */
-    NoopAnimationPlayer.prototype.triggerCallback = function (phaseName) {
-        var methods = phaseName == 'start' ? this._onStartFns : this._onDoneFns;
-        methods.forEach(function (fn) { return fn(); });
-        methods.length = 0;
-    };
-    return NoopAnimationPlayer;
-}());
-
-/**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-var AnimationGroupPlayer = /** @class */ (function () {
-    function AnimationGroupPlayer(_players) {
-        var _this = this;
-        this._onDoneFns = [];
-        this._onStartFns = [];
-        this._finished = false;
-        this._started = false;
-        this._destroyed = false;
-        this._onDestroyFns = [];
-        this.parentPlayer = null;
-        this.totalTime = 0;
-        this.players = _players;
-        var doneCount = 0;
-        var destroyCount = 0;
-        var startCount = 0;
-        var total = this.players.length;
-        if (total == 0) {
-            scheduleMicroTask(function () { return _this._onFinish(); });
-        }
-        else {
-            this.players.forEach(function (player) {
-                player.onDone(function () {
-                    if (++doneCount == total) {
-                        _this._onFinish();
-                    }
-                });
-                player.onDestroy(function () {
-                    if (++destroyCount == total) {
-                        _this._onDestroy();
-                    }
-                });
-                player.onStart(function () {
-                    if (++startCount == total) {
-                        _this._onStart();
-                    }
-                });
-            });
-        }
-        this.totalTime = this.players.reduce(function (time, player) { return Math.max(time, player.totalTime); }, 0);
-    }
-    AnimationGroupPlayer.prototype._onFinish = function () {
-        if (!this._finished) {
-            this._finished = true;
-            this._onDoneFns.forEach(function (fn) { return fn(); });
-            this._onDoneFns = [];
-        }
-    };
-    AnimationGroupPlayer.prototype.init = function () { this.players.forEach(function (player) { return player.init(); }); };
-    AnimationGroupPlayer.prototype.onStart = function (fn) { this._onStartFns.push(fn); };
-    AnimationGroupPlayer.prototype._onStart = function () {
-        if (!this.hasStarted()) {
-            this._started = true;
-            this._onStartFns.forEach(function (fn) { return fn(); });
-            this._onStartFns = [];
-        }
-    };
-    AnimationGroupPlayer.prototype.onDone = function (fn) { this._onDoneFns.push(fn); };
-    AnimationGroupPlayer.prototype.onDestroy = function (fn) { this._onDestroyFns.push(fn); };
-    AnimationGroupPlayer.prototype.hasStarted = function () { return this._started; };
-    AnimationGroupPlayer.prototype.play = function () {
-        if (!this.parentPlayer) {
-            this.init();
-        }
-        this._onStart();
-        this.players.forEach(function (player) { return player.play(); });
-    };
-    AnimationGroupPlayer.prototype.pause = function () { this.players.forEach(function (player) { return player.pause(); }); };
-    AnimationGroupPlayer.prototype.restart = function () { this.players.forEach(function (player) { return player.restart(); }); };
-    AnimationGroupPlayer.prototype.finish = function () {
-        this._onFinish();
-        this.players.forEach(function (player) { return player.finish(); });
-    };
-    AnimationGroupPlayer.prototype.destroy = function () { this._onDestroy(); };
-    AnimationGroupPlayer.prototype._onDestroy = function () {
-        if (!this._destroyed) {
-            this._destroyed = true;
-            this._onFinish();
-            this.players.forEach(function (player) { return player.destroy(); });
-            this._onDestroyFns.forEach(function (fn) { return fn(); });
-            this._onDestroyFns = [];
-        }
-    };
-    AnimationGroupPlayer.prototype.reset = function () {
-        this.players.forEach(function (player) { return player.reset(); });
-        this._destroyed = false;
-        this._finished = false;
-        this._started = false;
-    };
-    AnimationGroupPlayer.prototype.setPosition = function (p) {
-        var timeAtPosition = p * this.totalTime;
-        this.players.forEach(function (player) {
-            var position = player.totalTime ? Math.min(1, timeAtPosition / player.totalTime) : 1;
-            player.setPosition(position);
-        });
-    };
-    AnimationGroupPlayer.prototype.getPosition = function () {
-        var min = 0;
-        this.players.forEach(function (player) {
-            var p = player.getPosition();
-            min = Math.min(p, min);
-        });
-        return min;
-    };
-    AnimationGroupPlayer.prototype.beforeDestroy = function () {
-        this.players.forEach(function (player) {
-            if (player.beforeDestroy) {
-                player.beforeDestroy();
-            }
-        });
-    };
-    /* @internal */
-    AnimationGroupPlayer.prototype.triggerCallback = function (phaseName) {
-        var methods = phaseName == 'start' ? this._onStartFns : this._onDoneFns;
-        methods.forEach(function (fn) { return fn(); });
-        methods.length = 0;
-    };
-    return AnimationGroupPlayer;
-}());
-
-/**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
@@ -34915,7 +40546,7 @@ var AmexioButtonDropDownItemComponent = /** @class */ (function () {
     return AmexioButtonDropDownItemComponent;
 }());
 
-var __extends$6 = (undefined && undefined.__extends) || (function () {
+var __extends$15 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -34947,7 +40578,7 @@ var __extends$6 = (undefined && undefined.__extends) || (function () {
 * Created by pratik on 13/12/17.
 */
 var AmexioButtonDropdownComponent = /** @class */ (function (_super) {
-    __extends$6(AmexioButtonDropdownComponent, _super);
+    __extends$15(AmexioButtonDropdownComponent, _super);
     function AmexioButtonDropdownComponent(element, renderer, _cd) {
         var _this = _super.call(this, renderer, element, _cd) || this;
         _this.element = element;
@@ -35507,16 +41138,6 @@ var AmexioSpiltButtonDropdownComponent = /** @class */ (function () {
     return AmexioSpiltButtonDropdownComponent;
 }());
 
-var __extends$7 = (undefined && undefined.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
@@ -35537,236 +41158,13 @@ var __extends$7 = (undefined && undefined.__extends) || (function () {
 * limitations under the License.
 *
 */
-var AmexioCheckBoxGroupComponent = /** @class */ (function (_super) {
-    __extends$7(AmexioCheckBoxGroupComponent, _super);
-    function AmexioCheckBoxGroupComponent(httpService) {
-        var _this = _super.call(this) || this;
-        _this.httpService = httpService;
-        /*
-          Properties
-          name : disabled
-          datatype : boolean
-          version : 4.0 onwards
-          default : false
-          description :  If true will not react on any user events and show disable icon over
-          */
-        _this.disabled = false;
-        _this.onSelection = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        return _this;
-    }
-    Object.defineProperty(AmexioCheckBoxGroupComponent.prototype, "data", {
-        get: /**
-         * @return {?}
-         */
-        function () {
-            return this._data;
-        },
-        set: /**
-         * @param {?} v
-         * @return {?}
-         */
-        function (v) {
-            this._data = v;
-            this.viewdata = of(this.data);
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    AmexioCheckBoxGroupComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.componentId = this.createCompId('checkboxgroup', this.name);
-        var /** @type {?} */ reponseData;
-        if (this.httpmethod && this.httpurl) {
-            this.httpService.fetchData(this.httpurl, this.httpmethod).subscribe(function (response) {
-                reponseData = response;
-            }, function (error) {
-            }, function () {
-                _this.data = _this.getResponseData(reponseData);
-            });
-        }
-        else if (this.data && this.datareader) {
-            this.data = this.getResponseData(this.data);
-        }
-    };
-    /**
-     * @param {?} httpResponse
-     * @return {?}
-     */
-    AmexioCheckBoxGroupComponent.prototype.getResponseData = /**
-     * @param {?} httpResponse
-     * @return {?}
-     */
-    function (httpResponse) {
-        var /** @type {?} */ responsedata = httpResponse;
-        if (this.datareader != null) {
-            var /** @type {?} */ dr = this.datareader.split('.');
-            for (var _i = 0, dr_1 = dr; _i < dr_1.length; _i++) {
-                var ir = dr_1[_i];
-                responsedata = responsedata[ir];
-            }
-        }
-        else {
-            responsedata = httpResponse;
-        }
-        return responsedata;
-    };
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    AmexioCheckBoxGroupComponent.prototype.contains = /**
-     * @param {?} value
-     * @return {?}
-     */
-    function (value) {
-        var _this = this;
-        if (this._model instanceof Array) {
-            this._model.forEach(function (obj) {
-                if (obj[_this.displayfield] === value[_this.displayfield]) {
-                    return true;
-                }
-            });
-        }
-        return false;
-    };
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    AmexioCheckBoxGroupComponent.prototype.add = /**
-     * @param {?} value
-     * @return {?}
-     */
-    function (value) {
-        if (!this.contains(value)) {
-            if (this._model instanceof Array) {
-                this._model.push(value);
-            }
-            else {
-                this._model = [value];
-            }
-            this.onChangeCallback(this._model);
-        }
-        this.emitCheckboxes(this._model);
-    };
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    AmexioCheckBoxGroupComponent.prototype.remove = /**
-     * @param {?} value
-     * @return {?}
-     */
-    function (value) {
-        var /** @type {?} */ index = this._model.indexOf(value);
-        if (!this._model || index < 0) {
-            return;
-        }
-        this._model.splice(index, 1);
-        this.onChangeCallback(this._model);
-        this.emitCheckboxes(this._model);
-    };
-    // THIS METHOD EMMIT SELECTED CHECKBOXES
-    /**
-     * @param {?} selectedCheckBoxes
-     * @return {?}
-     */
-    AmexioCheckBoxGroupComponent.prototype.emitCheckboxes = /**
-     * @param {?} selectedCheckBoxes
-     * @return {?}
-     */
-    function (selectedCheckBoxes) {
-        var _this = this;
-        this.selectedCheckBox = [];
-        if (selectedCheckBoxes && selectedCheckBoxes.length > 0) {
-            selectedCheckBoxes.forEach(function (obj) {
-                obj.checked = true;
-                _this.selectedCheckBox.push(obj);
-            });
-        }
-        this.onSelection.emit(this.selectedCheckBox);
-    };
-    /**
-     * @param {?} c
-     * @return {?}
-     */
-    AmexioCheckBoxGroupComponent.prototype.validate = /**
-     * @param {?} c
-     * @return {?}
-     */
-    function (c) {
-        return (this.required && (this._model && this._model.length > 0)) || !this.required
-            ? null
-            : {
-                jsonParseError: {
-                    valid: true,
-                },
-            };
-    };
-    AmexioCheckBoxGroupComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-checkbox-group',
-                    template: "\n    <div role=\"group\"\n         attr.aria-labelledby=\"{{componentId}}\"\n         [attr.aria-required]=\"required\" \n         tabindex=\"0\"\n         class=\"inputgroup form-group\">\n        <div *ngIf=\"fieldlabel\">\n            <legend id=\"{{componentId}}\">{{fieldlabel}}</legend>\n        </div>  \n\n        <div *ngIf=\"horizontal\" style=\"display: inline-flex; flex-direction :row;\">\n            <checkbox *ngFor=\"let data of viewdata | async\" [checked]=\"data.checked\" [value]=\"data\" [disabled]=\"data?.disabled || disabled\" [label]=\"data[displayfield]\">\n            </checkbox>    \n        </div>\n\n        <div *ngIf=\"!horizontal\" style=\"display: inline-flex;flex-direction :column;\">\n            <checkbox *ngFor=\"let data of viewdata | async\" [checked]=\"data.checked\" [value]=\"data\" [disabled]=\"data?.disabled || disabled\" [label]=\"data[displayfield]\">\n            </checkbox>\n        </div>\n    </div>\n  ",
-                    providers: [
-                        { provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioCheckBoxGroupComponent; }), multi: true },
-                        { provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioCheckBoxGroupComponent; }), multi: true },
-                    ]
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioCheckBoxGroupComponent.ctorParameters = function () { return [
-        { type: CommonDataService }
-    ]; };
-    AmexioCheckBoxGroupComponent.propDecorators = {
-        horizontal: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data',] }],
-        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
-        displayfield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['display-field',] }],
-        valuefield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['value-field',] }],
-        required: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['required',] }],
-        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['name',] }],
-        datareader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data-reader',] }],
-        httpmethod: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-method',] }],
-        httpurl: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-url',] }],
-        onSelection: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
-    };
-    return AmexioCheckBoxGroupComponent;
-}(ValueAccessorBase));
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
-var noop$4 = function () {
+var noop$7 = function () {
 };
 var CheckboxComponent = /** @class */ (function () {
     function CheckboxComponent(checkboxGroup) {
         this.checkboxGroup = checkboxGroup;
-        this.onTouchedCallback = noop$4;
-        this.onChangeCallback = noop$4;
+        this.onTouchedCallback = noop$7;
+        this.onChangeCallback = noop$7;
         this.tabFocus = false;
     }
     /**
@@ -35859,309 +41257,6 @@ var CheckboxComponent = /** @class */ (function () {
     };
     return CheckboxComponent;
 }());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioFormValidator = /** @class */ (function () {
-    function AmexioFormValidator() {
-    }
-    // @ViewChild(NgModel) model: NgModel;
-    // public validate(c: FormControl) {
-    //     return (this.model.valid ) ? null : {
-    //         jsonParseError: {
-    //             valid: true,
-    //         },
-    //     };
-    // }
-    /**
-     * @param {?} inputType
-     * @param {?} name
-     * @return {?}
-     */
-    AmexioFormValidator.prototype.createCompId = /**
-     * @param {?} inputType
-     * @param {?} name
-     * @return {?}
-     */
-    function (inputType, name) {
-        return inputType + '_' + name + '_' + Math.floor(Math.random() * 1000 + 999);
-    };
-    return AmexioFormValidator;
-}());
-
-var __extends$8 = (undefined && undefined.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* Created by ketangote on 11/21/17.
-*/
-var noop$5 = function () {
-};
-var AmexioCheckBoxComponent = /** @class */ (function (_super) {
-    __extends$8(AmexioCheckBoxComponent, _super);
-    function AmexioCheckBoxComponent() {
-        var _this = _super.call(this) || this;
-        _this.innerValue = '';
-        _this.onTouchedCallback = noop$5;
-        _this.onChangeCallback = noop$5;
-        /*
-          Properties
-          name : required
-          datatype : boolean
-          version : 4.0 onwards
-          default : false
-          description :  property to set if manditory
-          */
-        _this.required = false;
-        /*
-          Events
-          name : onSelection
-          datatype : any
-          version : none
-          default : none
-          description : Event fired on checkbox click.
-          */
-        _this.onSelection = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-          Events
-          name : input
-          datatype : any
-          version : none
-          default : none
-          description : On input event field.
-          */
-        _this.input = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        _this.tabFocus = false;
-        _this.isComponentValid = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        return _this;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioCheckBoxComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.componentId = this.createCompId('checkbox', this.name);
-        this.generateName();
-        this.isValid = !this.required;
-        this.isComponentValid.emit(!this.required);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCheckBoxComponent.prototype.onInput = /**
-     * @return {?}
-     */
-    function () {
-        this.isValid = this.value;
-        this.isComponentValid.emit(this.value);
-        this.input.emit(this.value);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCheckBoxComponent.prototype.onClick = /**
-     * @return {?}
-     */
-    function () {
-        this.value = !this.value;
-        this.isValid = this.value;
-        this.isComponentValid.emit(this.value);
-        this.onSelection.emit(this.value);
-    };
-    Object.defineProperty(AmexioCheckBoxComponent.prototype, "value", {
-        // get accessor
-        get: /**
-         * @return {?}
-         */
-        function () {
-            if (this.required) {
-                this.isValid = this.innerValue;
-            }
-            else {
-                this.isValid = true;
-            }
-            return this.innerValue;
-        },
-        // set accessor including call the onchange callback
-        set: /**
-         * @param {?} v
-         * @return {?}
-         */
-        function (v) {
-            if (v !== this.innerValue) {
-                this.innerValue = v;
-                this.onChangeCallback(v);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    // Set touched on blur
-    /**
-     * @return {?}
-     */
-    AmexioCheckBoxComponent.prototype.onBlur = /**
-     * @return {?}
-     */
-    function () {
-        this.tabFocus = false;
-        this.onTouchedCallback();
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCheckBoxComponent.prototype.onFocus = /**
-     * @return {?}
-     */
-    function () {
-        this.tabFocus = true;
-    };
-    // From ControlValueAccessor interface
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    AmexioCheckBoxComponent.prototype.writeValue = /**
-     * @param {?} value
-     * @return {?}
-     */
-    function (value) {
-        if (value !== this.innerValue) {
-            this.innerValue = value;
-            this.value = this.innerValue;
-        }
-    };
-    // From ControlValueAccessor interface
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    AmexioCheckBoxComponent.prototype.registerOnChange = /**
-     * @param {?} fn
-     * @return {?}
-     */
-    function (fn) {
-        this.onChangeCallback = fn;
-    };
-    // From ControlValueAccessor interface
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    AmexioCheckBoxComponent.prototype.registerOnTouched = /**
-     * @param {?} fn
-     * @return {?}
-     */
-    function (fn) {
-        this.onTouchedCallback = fn;
-    };
-    // THIS MEHTOD CHECK INPUT IS VALID OR NOT
-    /**
-     * @return {?}
-     */
-    AmexioCheckBoxComponent.prototype.checkValidity = /**
-     * @return {?}
-     */
-    function () {
-        return this.isValid;
-    };
-    /**
-     * @param {?} c
-     * @return {?}
-     */
-    AmexioCheckBoxComponent.prototype.validate = /**
-     * @param {?} c
-     * @return {?}
-     */
-    function (c) {
-        return ((this.required && this.value) || !this.required) ? null : {
-            jsonParseError: {
-                valid: true,
-            },
-        };
-    };
-    // THIS METHOD GENERATE RANDOM STRING
-    /**
-     * @return {?}
-     */
-    AmexioCheckBoxComponent.prototype.generateName = /**
-     * @return {?}
-     */
-    function () {
-        if (!this.name && this.fieldlabel) {
-            this.name = this.fieldlabel.replace(/\s/g, '');
-        }
-        else if (!this.name && !this.fieldlabel) {
-            this.name = 'textinput-' + this.getRandomString();
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCheckBoxComponent.prototype.getRandomString = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ possibleCharacters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-        var /** @type {?} */ randomString = '';
-        for (var /** @type {?} */ i = 0; i < 6; i++) {
-            randomString += possibleCharacters.charAt(Math.floor(Math.random() * possibleCharacters.length));
-        }
-        return randomString;
-    };
-    AmexioCheckBoxComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-checkbox',
-                    template: "\n    <div [attr.aria-checked]=\"value\" class=\"inputgroup form-group\" [ngClass]=\"{'checkbox-disable' : disabled}\">\n        <label for=\"{{componentId}}\" class=\"input-box-container\">\n            <input\n            id=\"{{componentId}}\" type=\"checkbox\" style=\"top:0; left:0\"\n            [attr.checked]=\"value ? true: null\"\n             tabindex=\"1\"\n            (input)=\"onInput()\" \n            (click)=\"onClick()\"\n            (focus)=\"onFocus()\"\n            (blur)=\"onBlur()\"\n            [attr.disabled] = \"disabled ? true: null\"\n            [attr.aria-disabled]=\"disabled\"\n            [attr.aria-required]=\"required\"\n            [required]=\"required\" >\n            {{fieldlabel}}\n            <span class=\"input-box-checkbox-label\" [ngClass]=\"{'focusOnCheckbox':tabFocus}\">\n            </span>\n          </label>\n    </div>\n  ",
-                    providers: [{
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioCheckBoxComponent; }), multi: true,
-                        }, {
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioCheckBoxComponent; }), multi: true,
-                        }],
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioCheckBoxComponent.ctorParameters = function () { return []; };
-    AmexioCheckBoxComponent.propDecorators = {
-        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
-        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        required: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        onSelection: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        input: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['name',] }],
-        isComponentValid: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
-    };
-    return AmexioCheckBoxComponent;
-}(AmexioFormValidator));
 
 /**
  * @fileoverview added by tsickle
@@ -36641,7 +41736,7 @@ var AmexioCreditCardModel = /** @class */ (function () {
 *
 * Created by Ankita
 */
-var noop$6 = function () {
+var noop$8 = function () {
 };
 var AmexioCreditcardComponent = /** @class */ (function () {
     function AmexioCreditcardComponent() {
@@ -36677,8 +41772,8 @@ var AmexioCreditcardComponent = /** @class */ (function () {
         this.yearList = [];
         this.eagarValue = '';
         this.fullPatternValue = '';
-        this.onTouchedCallback = noop$6;
-        this.onChangeCallback = noop$6;
+        this.onTouchedCallback = noop$8;
+        this.onChangeCallback = noop$8;
         if (this.template === 'single-column') {
             this.templateFlag = true;
         }
@@ -37120,7 +42215,7 @@ var DarkmodeComponent = /** @class */ (function () {
     return DarkmodeComponent;
 }());
 
-var __extends$10 = (undefined && undefined.__extends) || (function () {
+var __extends$17 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -37153,7 +42248,7 @@ var __extends$10 = (undefined && undefined.__extends) || (function () {
  * @template T
  */
 var ListBaseDatepickerComponent = /** @class */ (function (_super) {
-    __extends$10(ListBaseDatepickerComponent, _super);
+    __extends$17(ListBaseDatepickerComponent, _super);
     function ListBaseDatepickerComponent(renderer, element, cd) {
         var _this = _super.call(this) || this;
         _this.renderer = renderer;
@@ -37263,7 +42358,7 @@ var ListBaseDatepickerComponent = /** @class */ (function (_super) {
     return ListBaseDatepickerComponent;
 }(AmexioFormValidator));
 
-var __extends$9 = (undefined && undefined.__extends) || (function () {
+var __extends$16 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -37293,10 +42388,10 @@ var __extends$9 = (undefined && undefined.__extends) || (function () {
 * limitations under the License.
 *
 */
-var noop$7 = function () {
+var noop$9 = function () {
 };
 var AmexioDateTimePickerComponent = /** @class */ (function (_super) {
-    __extends$9(AmexioDateTimePickerComponent, _super);
+    __extends$16(AmexioDateTimePickerComponent, _super);
     function AmexioDateTimePickerComponent(element, cdf, renderer) {
         var _this = _super.call(this, renderer, element, cdf) || this;
         _this.element = element;
@@ -37390,8 +42485,8 @@ var AmexioDateTimePickerComponent = /** @class */ (function (_super) {
         _this.okispressed = false;
         _this.cancelispressed = false;
         _this.innerValue = '';
-        _this.onTouchedCallback = noop$7;
-        _this.onChangeCallback = noop$7;
+        _this.onTouchedCallback = noop$9;
+        _this.onChangeCallback = noop$9;
         _this.viewmode = '1';
         _this.yearList1 =
             [{ year: 0, flag: false, disabled: false },
@@ -39795,904 +44890,7 @@ var AmexioDropDownMenuComponent = /** @class */ (function () {
     return AmexioDropDownMenuComponent;
 }());
 
-var __extends$11 = (undefined && undefined.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/**
- * Created by pratik on 1/12/17.
- */
-var AmexioDropDownComponent = /** @class */ (function (_super) {
-    __extends$11(AmexioDropDownComponent, _super);
-    function AmexioDropDownComponent(dataService, displayFieldService, element, renderer, _cd) {
-        var _this = _super.call(this, renderer, element, _cd) || this;
-        _this.dataService = dataService;
-        _this.displayFieldService = displayFieldService;
-        _this.element = element;
-        _this.renderer = renderer;
-        _this.displayValue = '';
-        _this.filteredOptions = [];
-        /*
-          Events
-          name : onBlur
-          datatype : any
-          version : 4.0 onwards
-          default :
-          description : 	On blur event
-          */
-        _this.onBlur = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Events
-        name : input
-        datatype : any
-        version : none
-        default :
-        description : 	On input event field.
-        */
-        _this.input = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Events
-        name : focus
-        datatype : any
-        version : none
-        default :
-        description : On field focus event
-        */
-        _this.focus = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Events
-        name : onSingleSelect
-        datatype : any
-        version : none
-        default :
-        description : Fire when drop down item selected.
-        */
-        _this.onSingleSelect = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Events
-        name : onMultiSelect
-        datatype : any
-        version :none
-        default :
-        description : Fire when multiple record select in drop down.this event is only
-        applied when multi-select=true
-        */
-        _this.onMultiSelect = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Events
-        name : onClick
-        datatype : any
-        version :none
-        default :
-        description : On record select event.this event is only for normal dropdown.
-        */
-        _this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Properties
-        name : place-holder
-        datatype : string
-        version : 4.0 onwards
-        default :
-        description : Show place-holder inside dropdown component*/
-        _this.placeholder = '';
-        /*
-        Properties
-        name : has-label
-        datatype : boolean
-        version : 4.0 onwards
-        default : false
-        description : flag to set label
-        */
-        _this.haslabel = true;
-        _this.enablesort = false;
-        _this.sort = '';
-        _this.selectedindex = -1;
-        _this.multiselectValues = [];
-        _this.maskloader = true;
-        _this.activedescendant = 'aria-activedescendant';
-        // The internal dataviews model
-        _this.isComponentValid = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        return _this;
-    }
-    Object.defineProperty(AmexioDropDownComponent.prototype, "data", {
-        get: /**
-         * @return {?}
-         */
-        function () {
-            return this._data;
-        },
-        set: /**
-         * @param {?} value
-         * @return {?}
-         */
-        function (value) {
-            this._data = value;
-            if (this.componentLoaded) {
-                this.setData(this._data);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(AmexioDropDownComponent.prototype, "errormsg", {
-        get: /**
-         * @return {?}
-         */
-        function () {
-            return this._errormsg;
-        },
-        set: /**
-         * @param {?} value
-         * @return {?}
-         */
-        function (value) {
-            this.helpInfoMsg = value + '<br/>';
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.name = this.generateName(this.name, this.fieldlabel, 'dropdowninput');
-        this.componentId = this.createCompId('dropdown', this.displayfield);
-        this.isValid = this.allowblank;
-        this.isComponentValid.emit(this.allowblank);
-        if (this.httpmethod && this.httpurl) {
-            this.dataService.fetchData(this.httpurl, this.httpmethod).subscribe(function (response) {
-                _this.responseData = response;
-            }, function (error) {
-            }, function () {
-                _this.setData(_this.responseData);
-            });
-        }
-        else if (this.data) {
-            this.previousData = JSON.parse(JSON.stringify(this.data));
-            this.setData(this.data);
-        }
-        this.componentLoaded = true;
-    };
-    /**
-     * @param {?} httpResponse
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.setData = /**
-     * @param {?} httpResponse
-     * @return {?}
-     */
-    function (httpResponse) {
-        // Check if key is added?
-        var /** @type {?} */ responsedata = httpResponse;
-        if (this.datareader != null) {
-            this.multiselectValues = [];
-            var /** @type {?} */ dr = this.datareader.split('.');
-            if (dr) {
-                for (var _i = 0, dr_1 = dr; _i < dr_1.length; _i++) {
-                    var ir = dr_1[_i];
-                    responsedata = responsedata[ir];
-                }
-            }
-        }
-        else {
-            responsedata = httpResponse;
-        }
-        this.setResponseData(responsedata);
-        this.multiSelection();
-        this.setUserSelection();
-        this.maskloader = false;
-    };
-    /**
-     * @param {?} responsedata
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.setResponseData = /**
-     * @param {?} responsedata
-     * @return {?}
-     */
-    function (responsedata) {
-        if (responsedata) {
-            if (this.enablesort === true && (this.sort === '' || this.sort.toLowerCase() === 'asc')) {
-                this.sortDataAscending(responsedata);
-            }
-            else if (this.enablesort === true && this.sort.toLowerCase() === 'desc') {
-                this.sortDataDescending(responsedata);
-            }
-            else if (this.enablesort === false) {
-                this.viewData = responsedata;
-                this.filteredOptions = this.viewData;
-                this.generateIndex(this.filteredOptions);
-            }
-        }
-    };
-    /**
-     * @param {?} data
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.sortDataAscending = /**
-     * @param {?} data
-     * @return {?}
-     */
-    function (data) {
-        var _this = this;
-        this.viewData = data.sort(function (a, b) { return _this.displayFieldService.findValue(_this.displayfield, a).toLowerCase()
-            !== _this.displayFieldService.findValue(_this.displayfield, b).toLowerCase() ?
-            _this.displayFieldService.findValue(_this.displayfield, a).toLowerCase() <
-                _this.displayFieldService.findValue(_this.displayfield, b).toLowerCase() ? -1 : 1 : 0; });
-        this.filteredOptions = this.viewData;
-        this.generateIndex(this.filteredOptions);
-    };
-    /**
-     * @param {?} data
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.sortDataDescending = /**
-     * @param {?} data
-     * @return {?}
-     */
-    function (data) {
-        var _this = this;
-        this.viewData = data.sort(function (a, b) { return _this.displayFieldService.findValue(_this.displayfield, a).toLowerCase()
-            !== _this.displayFieldService.findValue(_this.displayfield, b).toLowerCase() ?
-            _this.displayFieldService.findValue(_this.displayfield, a).toLowerCase() >
-                _this.displayFieldService.findValue(_this.displayfield, b).toLowerCase() ? -1 : 1 : 0; });
-        this.filteredOptions = this.viewData;
-        this.generateIndex(this.filteredOptions);
-    };
-    /**
-     * @param {?} data
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.generateIndex = /**
-     * @param {?} data
-     * @return {?}
-     */
-    function (data) {
-        var _this = this;
-        data.forEach(function (element, index) {
-            element['index'] = _this.componentId + 'listitem' + index;
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.multiSelection = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        if (this.multiselect && this.viewData) {
-            var /** @type {?} */ preSelectedMultiValues_1 = '';
-            var /** @type {?} */ optionsChecked_1 = [];
-            this.viewData.forEach(function (row) {
-                if (row.hasOwnProperty('checked')) {
-                    if (row.checked) {
-                        optionsChecked_1.push(row[_this.valuefield]);
-                        _this.multiselectValues.push(row);
-                        preSelectedMultiValues_1 === '' ? preSelectedMultiValues_1 +=
-                            _this.displayFieldService.findValue(_this.displayfield, row) : preSelectedMultiValues_1 += ', ' +
-                            _this.displayFieldService.findValue(_this.displayfield, row);
-                    }
-                }
-                else {
-                    row['checked'] = false;
-                }
-            });
-            this.displayValue = this.setMultiSelect();
-            this.onMultiSelect.emit(this.multiselectValues);
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.setUserSelection = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        // Set user selection
-        if (this.innerValue != null) {
-            var /** @type {?} */ valueKey_1 = this.valuefield;
-            var /** @type {?} */ displayKey_1 = this.displayfield;
-            var /** @type {?} */ val_1 = this.innerValue;
-            if (this.viewData.length > 0) {
-                this.viewData.forEach(function (item) {
-                    if (item[valueKey_1] === val_1) {
-                        _this.isValid = true;
-                        _this.isComponentValid.emit(true);
-                        _this.displayValue = item[displayKey_1];
-                        _this.onSingleSelect.emit(item);
-                    }
-                });
-            }
-        }
-    };
-    /**
-     * @param {?} selectedItem
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.onItemSelect = /**
-     * @param {?} selectedItem
-     * @return {?}
-     */
-    function (selectedItem) {
-        var _this = this;
-        if (this.multiselect) {
-            var /** @type {?} */ optionsChecked_2 = [];
-            this.multiselectValues = [];
-            if (selectedItem.hasOwnProperty('checked')) {
-                selectedItem.checked = !selectedItem.checked;
-                this.filteredOptions.forEach(function (row) {
-                    if (row.checked) {
-                        optionsChecked_2.push(row[_this.valuefield]);
-                        _this.multiselectValues.push(row);
-                    }
-                });
-                this.innerValue = optionsChecked_2;
-                this.displayValue = this.setMultiSelect();
-                this.onMultiSelect.emit(this.multiselectValues);
-            }
-        }
-        else {
-            this.value = selectedItem[this.valuefield]; // Issue here?
-            this.displayValue = this.displayFieldService.findValue(this.displayfield, selectedItem);
-            this.multiselect ? this.showToolTip = true : this.showToolTip = false;
-            this.onSingleSelect.emit(selectedItem);
-        }
-        this.isValid = true;
-        this.isComponentValid.emit(true);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.setMultiSelectData = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.multiselectValues = [];
-        if (this.innerValue && this.innerValue.length > 0) {
-            var /** @type {?} */ modelValue_1 = this.innerValue;
-            this.filteredOptions.forEach(function (test) {
-                modelValue_1.forEach(function (mdValue) {
-                    if (test[_this.valuefield] === mdValue) {
-                        if (test.hasOwnProperty('checked')) {
-                            test.checked = true;
-                        }
-                        _this.multiselectValues.push(test);
-                    }
-                });
-            });
-        }
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.navigateKey = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-    };
-    /**
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.getDisplayText = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        if (this.innerValue != null || this.innerValue !== '') {
-            if (this.multiselect) {
-                this.displayValue = this.setMultiSelect();
-            }
-            else {
-                this.displayValue = '';
-                this.filteredOptions.forEach(function (test) {
-                    if (test[_this.valuefield] === _this.innerValue) {
-                        _this.displayValue = _this.displayFieldService.findValue(_this.displayfield, test);
-                    }
-                });
-                this.displayValue = this.displayValue === undefined ? '' : this.displayValue;
-            }
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.setMultiSelect = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.setMultiSelectData();
-        var /** @type {?} */ multiselectDisplayString = '';
-        this.multiselectValues.forEach(function (row) {
-            multiselectDisplayString === '' ? multiselectDisplayString +=
-                _this.displayFieldService.findValue(_this.displayfield, row) : multiselectDisplayString += ', '
-                + _this.displayFieldService.findValue(_this.displayfield, row);
-        });
-        if (this.multiselectValues.length > 0) {
-            return multiselectDisplayString;
-        }
-        else {
-            return '';
-        }
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.onDropDownClick = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        this.onBaseFocusEvent(event);
-        this.showToolTip = true;
-        this.onClick.emit(event);
-        if (!this.multiselect && this.selectedindex > -1) {
-            this.filteredOptions[this.selectedindex].selected = false;
-            this.selectedindex = -1;
-            this.selectedindex = this.selectedindex + 1;
-            this.filteredOptions[this.selectedindex].selected = true;
-            var /** @type {?} */ inputid = document.getElementById(this.componentId);
-            inputid.setAttribute(this.activedescendant, this.filteredOptions[this.selectedindex].index);
-            this.generateScroll(this.selectedindex);
-        }
-    };
-    /**
-     * @param {?} index
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.generateScroll = /**
-     * @param {?} index
-     * @return {?}
-     */
-    function (index) {
-        var /** @type {?} */ listitems = this.element.nativeElement.getElementsByClassName('list-items')[index];
-        if (listitems) {
-            listitems.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.focusToLast = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        if (this.selectedindex > -1) {
-            this.filteredOptions[this.selectedindex].selected = false;
-            this.selectedindex = this.filteredOptions.length - 1;
-            this.filteredOptions[this.filteredOptions.length - 1].selected = true;
-            var /** @type {?} */ inputid = document.getElementById(this.componentId);
-            inputid.setAttribute(this.activedescendant, this.filteredOptions[this.filteredOptions.length - 1].index);
-            this.generateScroll(this.selectedindex);
-        }
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.closeOnEScape = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        this.showToolTip = false;
-        this.hide();
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.onChange = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        this.innerValue = event;
-        this.isValid = true;
-        this.getDisplayText();
-        this.isComponentValid.emit(true);
-    };
-    /**
-     * @param {?} input
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.onInput = /**
-     * @param {?} input
-     * @return {?}
-     */
-    function (input) {
-        this.input.emit();
-        this.isValid = input.valid;
-        this.isComponentValid.emit(input.valid);
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.onDropDownSearchKeyUp = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        var _this = this;
-        if (this.search && this.viewData) {
-            var /** @type {?} */ keyword = event.target.value;
-            if (keyword != null && keyword !== '' && keyword !== ' ') {
-                this.filteredOptions = [];
-                var /** @type {?} */ search_Term_1 = keyword.toLowerCase();
-                this.viewData.forEach(function (row) {
-                    if (_this.displayFieldService.findValue(_this.displayfield, row).toLowerCase().startsWith(search_Term_1)) {
-                        _this.filteredOptions.push(row);
-                    }
-                });
-            }
-            if (keyword === '') {
-                this.filteredOptions = this.viewData;
-            }
-        }
-        if (event.keyCode === 8) {
-            this.innerValue = '';
-        }
-        if (event.keyCode === 40 || event.keyCode === 38 || event.keyCode === 13) {
-            this.navigateUsingKey(event);
-        }
-        this.onBaseFocusEvent({});
-    };
-    // navigate using keys
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.navigateUsingKey = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        if (!this.showToolTip) {
-            this.showToolTip = true;
-        }
-        if (this.selectedindex > this.filteredOptions.length) {
-            this.selectedindex = 0;
-        }
-        if (event.keyCode === 40 || event.keyCode === 38 && this.selectedindex <
-            this.filteredOptions.length) {
-            var /** @type {?} */ prevselectedindex = -1;
-            prevselectedindex = this.selectedindex;
-            if (event.keyCode === 40) {
-                this.selectedindex++;
-            }
-            else if (event.keyCode === 38) {
-                this.selectedindex--;
-            }
-            this.navigateFilterOptions(prevselectedindex);
-        }
-        if (event.keyCode === 13 && this.filteredOptions[this.selectedindex]) {
-            this.onItemSelect(this.filteredOptions[this.selectedindex]);
-        }
-    };
-    // for highlight  navigated options
-    /**
-     * @param {?} previndex
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.navigateFilterOptions = /**
-     * @param {?} previndex
-     * @return {?}
-     */
-    function (previndex) {
-        if (this.filteredOptions[this.selectedindex]) {
-            this.filteredOptions[this.selectedindex].selected = true;
-            var /** @type {?} */ inputid = document.getElementById(this.componentId);
-            inputid.setAttribute(this.activedescendant, this.filteredOptions[this.selectedindex].index);
-        }
-        if (this.filteredOptions[previndex]) {
-            this.filteredOptions[previndex].selected = false;
-            this.toNavigateFirstAndLastOption();
-        }
-        this.generateScroll(this.selectedindex);
-    };
-    // to navigate first and last option
-    /**
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.toNavigateFirstAndLastOption = /**
-     * @return {?}
-     */
-    function () {
-        if (this.selectedindex === -1) {
-            this.selectedindex = this.filteredOptions.length - 1;
-            this.filteredOptions[this.filteredOptions.length - 1].selected = true;
-            var /** @type {?} */ inputid = document.getElementById(this.componentId);
-            inputid.setAttribute(this.activedescendant, this.filteredOptions[this.filteredOptions.length - 1].index);
-        }
-        else if (this.selectedindex === this.filteredOptions.length) {
-            this.selectedindex = 0;
-            this.filteredOptions[this.selectedindex].selected = true;
-            var /** @type {?} */ inputid = document.getElementById(this.componentId);
-            inputid.setAttribute(this.activedescendant, this.filteredOptions[this.selectedindex].index);
-        }
-    };
-    Object.defineProperty(AmexioDropDownComponent.prototype, "value", {
-        // get accessor
-        get: /**
-         * @return {?}
-         */
-        function () {
-            return this.innerValue;
-        },
-        // set accessor including call the onchange callback
-        set: /**
-         * @param {?} v
-         * @return {?}
-         */
-        function (v) {
-            if (v != null && v !== this.innerValue) {
-                this.innerValue = v;
-                this.onChangeCallback(v);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    // Set touched on blur
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.onblur = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        if (event.target && event.target.value && this.filteredOptions &&
-            this.filteredOptions.length === 1) {
-            var /** @type {?} */ fvalue = event.target.value;
-            var /** @type {?} */ row = this.filteredOptions[0];
-            var /** @type {?} */ rvalue = this.displayFieldService.findValue(this.displayfield, row);
-            if (fvalue && rvalue && (fvalue.toLowerCase() === rvalue.toLowerCase())) {
-                this.onItemSelect(row);
-            }
-        }
-        this.onTouchedCallback();
-        this.onBaseBlurEvent(event);
-        this.onBlur.emit();
-    };
-    /**
-     * @param {?} elem
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.onFocus = /**
-     * @param {?} elem
-     * @return {?}
-     */
-    function (elem) {
-        this.onBaseFocusEvent(elem);
-        this.showToolTip = true;
-        this.posixUp = this.getListPosition(elem);
-        this.focus.emit();
-    };
-    /**
-     * @param {?} elementRef
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.getListPosition = /**
-     * @param {?} elementRef
-     * @return {?}
-     */
-    function (elementRef) {
-        var /** @type {?} */ dropdownHeight = 325; // must be same in dropdown.scss
-        if (window.screen.height - (elementRef.getBoundingClientRect().bottom) < dropdownHeight) {
-            return true;
-        }
-        else {
-            return false;
-        }
-    };
-    // From ControlValueAccessor interface
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.writeValue = /**
-     * @param {?} value
-     * @return {?}
-     */
-    function (value) {
-        if (value != null) {
-            this.writeChangedValue(value);
-        }
-        else {
-            this.innerValue = '';
-            if (this.allowblank) {
-                this.isValid = true;
-            }
-        }
-    };
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.writeChangedValue = /**
-     * @param {?} value
-     * @return {?}
-     */
-    function (value) {
-        var _this = this;
-        if (value !== this.innerValue) {
-            var /** @type {?} */ status_1 = false;
-            if (this.viewData && this.viewData.length > 0) {
-                this.viewData.forEach(function (item) {
-                    if (item[_this.valuefield] === value) {
-                        _this.isValid = true;
-                        _this.displayValue = _this.displayFieldService.findValue(_this.displayfield, item);
-                        status_1 = true;
-                        return;
-                    }
-                });
-            }
-            if (!status_1) {
-                this.displayValue = '';
-            }
-            this.value = value;
-        }
-    };
-    // From ControlValueAccessor interface
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.registerOnChange = /**
-     * @param {?} fn
-     * @return {?}
-     */
-    function (fn) {
-        this.onChangeCallback = fn;
-    };
-    // From ControlValueAccessor interface
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.registerOnTouched = /**
-     * @param {?} fn
-     * @return {?}
-     */
-    function (fn) {
-        this.onTouchedCallback = fn;
-    };
-    /**
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.onIconClick = /**
-     * @return {?}
-     */
-    function () {
-        if (!this.disabled) {
-            var /** @type {?} */ showflag = this.showToolTip;
-            if (!this.showToolTip) {
-                this.onBaseFocusEvent({});
-            }
-            else {
-                this.onBaseBlurEvent({});
-            }
-            this.showToolTip = !showflag;
-        }
-    };
-    // THIS MEHTOD CHECK INPUT IS VALID OR NOT
-    /**
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.checkValidity = /**
-     * @return {?}
-     */
-    function () {
-        return this.isValid;
-    };
-    /**
-     * @param {?} c
-     * @return {?}
-     */
-    AmexioDropDownComponent.prototype.validate = /**
-     * @param {?} c
-     * @return {?}
-     */
-    function (c) {
-        return ((!this.allowblank && (this.value || this.value === 0)) || this.allowblank) ? null : {
-            jsonParseError: {
-                valid: true,
-            },
-        };
-    };
-    AmexioDropDownComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-dropdown',
-                    template: "\n    <div class=\"inputgroup\" #rootDiv (keyup.esc)=\"closeOnEScape($event)\">\n\n        <label id=\"fieldlabel\" for=\"input\" *ngIf=\"haslabel\" [style.font-style]=\"fontstyle\" [style.font-family]=\"fontfamily\" [style.font-size]=\"fontsize\">\n        {{fieldlabel}}\n      </label>\n\n        <input type=\"hidden\" [ngModel]=\"value\" (ngModelChange)=\"onChange($event)\" #inp=\"ngModel\" />\n        <input id=\"{{componentId}}\" tabindex=\"1\" aria-autocomplete=\"list\" role=\"combobox\" [attr.aria-expanded]=\"showToolTip\" [attr.aria-activedescendant]=\"\" type=\"text\" class=\"input-control\" [value]=\"displayValue\" [ngClass]=\"{'input-control-error' : inp.invalid && !displayValue && (inp.dirty || inp.touched),\n             'input-control-success' : inp.valid && displayValue && (inp.dirty || inp.touched)}\" (input)=\"onInput(inp)\" (blur)=\"onblur($event)\" (focus)=\"onFocus(rootDiv)\" (click)=\" onDropDownClick($event)\" [attr.placeholder]=\"placeholder\" [readonly]=\"readonly ? true : null\"\n            [attr.disabled]=\"disabled ? true: null\" [required]=\"!allowblank\" (keyup.end)=\"focusToLast($event)\" (keyup)=\"onDropDownSearchKeyUp($event)\" (keyup.enter)=\"closeOnEScape($event)\" (keydown)=\"navigateKey($event)\" />\n\n        <span class=\"drodown-caret-down\" role=\"listbox\" [attr.aria-expanded]=\"showToolTip\" (click)=\"onIconClick()\">\n        <amexio-c-icon key=\"dropdown_caret\" *ngIf=\"!maskloader\"></amexio-c-icon>\n        <em class=\"fa fa-spinner fa-spin\" *ngIf=\"maskloader\"></em>\n      </span>\n\n        <span #dropdownitems class=\"dropdown\" [ngClass]=\"{'dropdown-up' : posixUp}\" [ngStyle]=\"dropdownstyle\">\n        <ul aria-labelledby=\"fieldlabel\" aria-haspopup=\"listbox\" class=\"dropdown-list\">\n\n          <li role=\"option\" tabindex=\"1\" class=\"list-items\" [ngClass]=\"{'list-items-selected':item.selected}\" *ngFor=\"let item of filteredOptions\"\n            id=\"{{item.index}}\" (mousedown)=\"onItemSelect(item)\" (click)=\"onItemSelect(item)\">\n            <ng-container *ngIf=\"bodyTemplate\">\n              <ng-template [ngTemplateOutlet]=\"bodyTemplate\" [ngTemplateOutletContext]=\"{ $implicit: { text : row }, row: item }\">\n              </ng-template>\n            </ng-container>\n            <ng-container *ngIf=\"!bodyTemplate\">\n              <span>\n                <amexio-display-field [data]=\"item\" [data-index]=\"displayfield\"></amexio-display-field>\n              </span>\n\n        </ng-container>\n        <span style=\"float : right\">{{item?.checked ? '&#10004;': ''}}</span>\n        </li>\n    \n        <ng-template *ngIf=\"filteredOptions && (filteredOptions.length < 1)\">\n            <li class=\"list-items\">No Options</li>\n        </ng-template>\n        </ul>\n        <ng-content></ng-content>\n        </span>\n        <span class=\"inputfieldbar\"></span>\n    </div>\n    <span *ngIf=\"showToolTip && enablepopover\" class=\"tooltiptext\">\n      <div [innerHTML]=\"helpInfoMsg\"></div>\n    </span>\n\n    <span *ngIf=\"iconfeedback && (inp.invalid && (inp.dirty || inp.touched) || inp.valid)\" class=\"input-control-feedback\">\n      <span *ngIf=\"inp.invalid && (inp.dirty || inp.touched)\">&#9888;</span>\n    <span *ngIf=\"inp.valid && (inp.dirty || inp.touched)\"> &#10004;</span>\n\n    </span>\n  ",
-                    animations: [
-                        trigger('changeState', [
-                            state('visible', style({
-                                'max-height': '200px',
-                            })),
-                            state('hidden', style({
-                                'max-height': '0px',
-                            })),
-                            transition('*=>*', animate('200ms')),
-                        ]),
-                    ],
-                    providers: [{
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioDropDownComponent; }), multi: true,
-                        }, {
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioDropDownComponent; }), multi: true,
-                        }],
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioDropDownComponent.ctorParameters = function () { return [
-        { type: CommonDataService },
-        { type: DisplayFieldService },
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] },
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"] }
-    ]; };
-    AmexioDropDownComponent.propDecorators = {
-        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
-        allowblank: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['allow-blank',] }],
-        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data',] }],
-        datareader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data-reader',] }],
-        httpmethod: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-method',] }],
-        httpurl: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-url',] }],
-        displayfield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['display-field',] }],
-        valuefield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['value-field',] }],
-        search: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        readonly: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        multiselect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['multi-select',] }],
-        dropdownitems: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['dropdownitems', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
-        onBlur: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        input: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        focus: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        onSingleSelect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        onMultiSelect: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        placeholder: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['place-holder',] }],
-        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        iconfeedback: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-feedback',] }],
-        fontstyle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-style',] }],
-        fontfamily: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-family',] }],
-        fontsize: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-size',] }],
-        haslabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['has-label',] }],
-        enablepopover: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-popover',] }],
-        enablesort: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-sort',] }],
-        sort: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['sort',] }],
-        errormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['error-msg',] }],
-        bodyTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: ['amexioBodyTmpl',] }],
-        isComponentValid: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['name',] }]
-    };
-    return AmexioDropDownComponent;
-}(EventBaseComponent));
-
-var __extends$12 = (undefined && undefined.__extends) || (function () {
+var __extends$18 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -40723,7 +44921,7 @@ var __extends$12 = (undefined && undefined.__extends) || (function () {
 *
 */
 var AmexioEmailInputComponent = /** @class */ (function (_super) {
-    __extends$12(AmexioEmailInputComponent, _super);
+    __extends$18(AmexioEmailInputComponent, _super);
     function AmexioEmailInputComponent() {
         var _this = _super.call(this) || this;
         /*
@@ -41406,7 +45604,7 @@ var AmexioFloatingButtonComponent = /** @class */ (function () {
     return AmexioFloatingButtonComponent;
 }());
 
-var __extends$13 = (undefined && undefined.__extends) || (function () {
+var __extends$19 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -41438,7 +45636,7 @@ var __extends$13 = (undefined && undefined.__extends) || (function () {
 * Created by ketangote on 26/2/2018.
 */
 var AmexioFloatingGroupButtonComponent = /** @class */ (function (_super) {
-    __extends$13(AmexioFloatingGroupButtonComponent, _super);
+    __extends$19(AmexioFloatingGroupButtonComponent, _super);
     function AmexioFloatingGroupButtonComponent(elementref, cdf, renderer) {
         var _this = _super.call(this, renderer, elementref, cdf) || this;
         _this.elementref = elementref;
@@ -41679,6 +45877,16 @@ var AmexioFloatingGroupButtonComponent = /** @class */ (function (_super) {
     return AmexioFloatingGroupButtonComponent;
 }(ListBaseDatepickerComponent));
 
+var __extends$20 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
@@ -41698,311 +45906,1729 @@ var AmexioFloatingGroupButtonComponent = /** @class */ (function (_super) {
 * See the License for the specific language governing permissions and
 * limitations under the License.
 *
-* Created by  Pratik on 7/2/18.
 */
-var AmexioLabelComponent = /** @class */ (function () {
-    function AmexioLabelComponent() {
-        this.enableclick = false;
-        this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.tempStyleArray = ['large', 'medium', 'small', 'bold', 'large-bold', 'medium-bold', 'small-bold',
-            'large-44', 'large-24', 'large-50', 'large-54', 'large-56', 'large-60', 'large-64', 'large-68', 'large-78', 'large-9vw',
-            'large-44-bold', 'large-50-bold', 'large-24-bold', 'large-4vw', 'large-4vw-bold',
-            'large-54-bold', 'large-56-bold', 'large-60-bold', 'large-64-bold', 'large-68-bold', 'large-78-bold', 'large-9vw-bold'];
+var noop$10 = function () {
+};
+var AmexioMultipleDatePickerComponent = /** @class */ (function (_super) {
+    __extends$20(AmexioMultipleDatePickerComponent, _super);
+    function AmexioMultipleDatePickerComponent(element, cdf, renderer) {
+        var _this = _super.call(this, renderer, element, cdf) || this;
+        _this.element = element;
+        _this.cdf = cdf;
+        /*
+           Properties
+           name : date-picker
+           datatype : boolean
+           version : 4.0 onwards
+           default : false
+           description : Enable/Disable Date Picker
+           */
+        _this.datepicker = true;
+        /*
+          Properties
+          name : field-label
+          datatype : string
+          version : 5.5.5 onwards
+          default :
+          description :The label of this field
+          */
+        _this.placeholder = '';
+        /*
+           Properties
+           name : disabled
+           datatype : boolean
+           version : 4.1.5 onwards
+           default : false
+           description : Disable Date/Time Picker field
+           */
+        _this.disabled = false;
+        /*
+           Properties
+           name : diabled-date
+           datatype :  any
+           version : 4.2 onwards
+           default : none
+           description : sets disabled dates range
+           */
+        _this.diabledDate = [];
+        /*
+           Properties
+           name : inline-datepicker
+           datatype :  boolean
+           version : 4.2 onwards
+           default : none
+           description : sets inline calender
+           */
+        _this.inlineDatepicker = false;
+        /*
+           Properties
+           name : dropdown-datepicker
+           datatype :  boolean
+           version : 4.2 onwards
+           default : none
+           description : sets dropdown datepicker
+           */
+        _this.dropdownDatepicker = false;
+        /*
+           Properties
+           name : required
+           datatype : boolean
+           version : 4.0 onwards
+           default : false
+           description : Flag to allow blank field or not
+           */
+        _this.required = false;
+        _this.itterablemontharray = [];
+        _this.montharray = [];
+        /*
+           Events
+           name : blur
+           description : On blur event
+           */
+        // @Output() blur: EventEmitter<any> = new EventEmitter<any>();
+        /*
+           Properties
+           name : change
+           description : On field value change event
+           */
+        _this.change = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+           Properties
+           name : input
+           description : On input event field.
+           */
+        _this.input = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        /*
+           Properties
+           name : focus
+           description : On field focus event
+           */
+        // @Output() focus: EventEmitter<any> = new EventEmitter<any>();
+        _this.inputtabindex = 0;
+        _this.daystabindex = -1;
+        _this.drop = false;
+        _this.tempFlag = true;
+        _this.hostFlag = false;
+        _this.count = 0;
+        _this.isComponentValid = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.backArrowFlag = false;
+        _this.forwardArrowFlag = false;
+        _this.okispressed = false;
+        _this.cancelispressed = false;
+        _this.innerValue = '';
+        _this.onTouchedCallback = noop$10;
+        _this.onChangeCallback = noop$10;
+        _this.viewmode = '1';
+        _this.yearList1 =
+            [{ year: 0, flag: false, disabled: false },
+                { year: 0, flag: false, disabled: false },
+                { year: 0, flag: false, disabled: false },
+                { year: 0, flag: false, disabled: false },
+                { year: 0, flag: false, disabled: false },
+            ];
+        // generate yearlist1 ids
+        // generate yearlist1 ids
+        _this.yearList1.forEach(function (yearlist1element) {
+            yearlist1element['id'] = Math.floor(Math.random() * 90000) + 10000 + '_id';
+        });
+        _this.yearList2 = [{ year: 0, flag: false, disabled: false }, { year: 0, flag: false, disabled: false },
+            { year: 0, flag: false, disabled: false }, { year: 0, flag: false, disabled: false },
+            { year: 0, flag: false, disabled: false }];
+        // generate yearlist2 ids
+        // generate yearlist2 ids
+        _this.yearList2.forEach(function (yearlist2element) {
+            yearlist2element['id'] = Math.floor(Math.random() * 90000) + 10000 + '_id';
+        });
+        _this.monthList1 = [
+            { name: 'Jan', flag: false, num: 4, fullname: 'January' },
+            { name: 'Feb', flag: false, fullname: 'febuary' },
+            { name: 'Mar', flag: false, fullname: 'march' },
+            { name: 'Apr', flag: false, fullname: 'april' },
+            { name: 'May', flag: false, fullname: 'may' },
+            { name: 'Jun', flag: false, fullname: 'june' },
+        ];
+        // generate id for monthlist1
+        // generate id for monthlist1
+        _this.monthList1.forEach(function (monthlist1element) {
+            monthlist1element['id'] = Math.floor(Math.random() * 90000) + 10000 + '_id';
+        });
+        _this.monthList2 = [
+            { name: 'Jul', flag: false, fullname: 'july' },
+            { name: 'Aug', flag: false, fullname: 'august' },
+            { name: 'Sep', flag: false, fullname: 'september' },
+            { name: 'Oct', flag: false, fullname: 'october' },
+            { name: 'Nov', flag: false, fullname: 'november' },
+            { name: 'Dec', flag: false, fullname: 'december' },
+        ];
+        // generate id for monthlist 2
+        // generate id for monthlist 2
+        _this.monthList2.forEach(function (monthlist2element) {
+            monthlist2element['id'] = Math.floor(Math.random() * 90000) + 10000 + '_id';
+        });
+        _this.minDate = '';
+        _this.maxDate = '';
+        _this.elementId = new Date().getTime() + '';
+        _this.selectedDate = new Date();
+        _this.currrentDate = new Date();
+        _this.curYear = _this.currrentDate.getFullYear();
+        var /** @type {?} */ i = 0;
+        var /** @type {?} */ j = 0;
+        for (i = 4; i >= 0; i--) {
+            _this.yearList1[j].year = _this.curYear - i;
+            j++;
+        }
+        j = 0;
+        for (i = 1; i <= 5; i++) {
+            _this.yearList2[j].year = _this.curYear + i;
+            j++;
+        }
+        _this.daysTitle = [];
+        _this.daysArray = [];
+        _this.completeDaysArray = [];
+        _this.timepicker = false;
+        _this.hrs = _this.currrentDate.getHours();
+        _this.min = _this.currrentDate.getMinutes();
+        _this.initDaysTitle();
+        return _this;
     }
     /**
      * @return {?}
      */
-    AmexioLabelComponent.prototype.ngOnInit = /**
+    AmexioMultipleDatePickerComponent.prototype.ngOnInit = /**
      * @return {?}
      */
     function () {
-        var _this = this;
-        if (this.styleClass == null) {
-            this.styleClass = 'small';
+        this.calculateScreenWidth();
+        var /** @type {?} */ i;
+        for (i = 1; i <= this.numberofmonths; i++) {
+            this.itterablemontharray.push(i);
         }
-        else {
-            this.styleClass = this.tempStyleArray.find(function (x) { return x === _this.styleClass; });
+        if (this.inlineDatepicker) {
+            this.showToolTip = true;
+            this.dropdownstyle = { visibility: 'visible' };
+        }
+        this.isValid = !this.required;
+        this.isComponentValid.emit(!this.required);
+        if (this.dateformat != null) {
+            this.dateformat = 'dd/MM/yyyy';
+        }
+        var /** @type {?} */ d = new Date(this.currrentDate);
+        for (i = 0; i < this.numberofmonths; i++) {
+            var /** @type {?} */ obj = {};
+            if (i === 0) {
+                d.setMonth(d.getMonth());
+            }
+            else {
+                d.setMonth(d.getMonth() + 1);
+            }
+            obj['date'] = new Date(d);
+            this.createDaysForCurrentMonths(d);
+            obj['montharray'] = this.daysArray;
+            obj['month'] = this.getFullMonthName(d);
+            obj['year'] = d.getFullYear();
+            this.completeDaysArray.push(obj);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.initDaysTitle = /**
+     * @return {?}
+     */
+    function () {
+        this.daysTitle.push({ text: 'Mo' });
+        this.daysTitle.push({ text: 'Tu' });
+        this.daysTitle.push({ text: 'We' });
+        this.daysTitle.push({ text: 'Th' });
+        this.daysTitle.push({ text: 'Fr' });
+        this.daysTitle.push({ text: 'Sa' });
+        this.daysTitle.push({ text: 'Su' });
+    };
+    /**
+     * @param {?} selectedPeriod
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.createDaysForCurrentMonths = /**
+     * @param {?} selectedPeriod
+     * @return {?}
+     */
+    function (selectedPeriod) {
+        this.daysArray = [];
+        var /** @type {?} */ date = new Date(selectedPeriod.getFullYear(), selectedPeriod.getMonth(), 1, 0, 0, 0, 0); // Starting at the 1st of the month
+        var /** @type {?} */ extras = (date.getDay() + 6) % 7; // How many days of the last month do we need to include?
+        date.setDate(date.getDate() - extras); // Skip back to the previous monday
+        while (this.daysArray.length < 6) {
+            var /** @type {?} */ rowDays = [];
+            for (var /** @type {?} */ i = 0; i < 7; i++) {
+                var /** @type {?} */ day = {
+                    date: null, selected: false, isCurrentMonth: null, isDisabled: false,
+                };
+                day.date = new Date(date.getTime());
+                day.isCurrentMonth = (date.getMonth() === selectedPeriod.getMonth());
+                day['id'] = Math.floor(Math.random() * 90000) + 10000 + '_id';
+                day['fulldate'] = (day.date).getDate() + ' ' +
+                    this.getFullMonthName(day.date) + ' ' + (day.date).getFullYear() +
+                    ' ' + this.getFullDayName(day.date);
+                if (this.dateModel && (date.getMonth() === this.dateModel.getMonth()) &&
+                    (date.getDate() === this.dateModel.getDate())) {
+                    day.selected = true;
+                }
+                else if ((date.getMonth() === this.currrentDate.getMonth()) &&
+                    (date.getDate() === this.currrentDate.getDate())) {
+                    if (this.dateModel) {
+                        day.selected = false;
+                        day['tabindex'] = -1;
+                    }
+                    else {
+                        day.selected = true;
+                        day['tabindex'] = 1;
+                    }
+                }
+                rowDays.push(day);
+                date.setDate(date.getDate() + 1);
+            }
+            this.daysArray.push(rowDays);
+        }
+    };
+    /**
+     * @param {?} recevieddate
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.getFullMonthName = /**
+     * @param {?} recevieddate
+     * @return {?}
+     */
+    function (recevieddate) {
+        var /** @type {?} */ months = ['January', 'Febuary', 'March', 'April', 'May',
+            'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        var /** @type {?} */ datemonth = recevieddate.getMonth();
+        var /** @type {?} */ monthString = '';
+        months.forEach(function (element, index) {
+            if (datemonth === index) {
+                monthString = element;
+            }
+        });
+        return monthString;
+    };
+    /**
+     * @param {?} receiveddate
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.getFullDayName = /**
+     * @param {?} receiveddate
+     * @return {?}
+     */
+    function (receiveddate) {
+        var /** @type {?} */ weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday',
+            'Thursday', 'Friday', 'Saturday'];
+        var /** @type {?} */ day = receiveddate.getDay();
+        var /** @type {?} */ dayname = '';
+        weekdays.forEach(function (element, index) {
+            if (day === index) {
+                dayname = element;
+            }
+        });
+        return dayname;
+    };
+    /**
+     * @param {?} operation
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.updateMonthList = /**
+     * @param {?} operation
+     * @param {?} event
+     * @return {?}
+     */
+    function (operation, event) {
+        this.dropdownstyle = { visibility: 'visible' };
+        event.stopPropagation();
+        if (operation === 'plus') {
+            // call plus function
+            this.incrementMonthList(event);
+        }
+        if (operation === 'minus') {
+            // call minus function
+            this.decrementMonthList(event);
         }
     };
     /**
      * @param {?} event
      * @return {?}
      */
-    AmexioLabelComponent.prototype.onLabel = /**
+    AmexioMultipleDatePickerComponent.prototype.incrementMonthList = /**
      * @param {?} event
      * @return {?}
      */
     function (event) {
-        if (this.enableclick) {
-            this.onClick.emit(event);
+        var _this = this;
+        this.completeDaysArray.forEach(function (singleDayArray) {
+            // date updation
+            var /** @type {?} */ d = new Date(singleDayArray.date);
+            d.setMonth(d.getMonth() + _this.numberofmonths);
+            _this.createDaysForCurrentMonths(d);
+            singleDayArray.date = d;
+            singleDayArray.montharray = _this.daysArray;
+            singleDayArray.month = _this.getFullMonthName(d);
+            singleDayArray.year = d.getFullYear();
+        });
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.decrementMonthList = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        var _this = this;
+        this.completeDaysArray.forEach(function (singleDayArray) {
+            // date updation
+            var /** @type {?} */ d = new Date(singleDayArray.date);
+            d.setMonth(d.getMonth() - _this.numberofmonths);
+            _this.createDaysForCurrentMonths(d);
+            singleDayArray.date = d;
+            singleDayArray.montharray = _this.daysArray;
+            singleDayArray.month = _this.getFullMonthName(d);
+            singleDayArray.year = d.getFullYear();
+        });
+    };
+    /**
+     * @param {?} dateObj
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.onDateClick = /**
+     * @param {?} dateObj
+     * @param {?} event
+     * @return {?}
+     */
+    function (dateObj, event) {
+        if (dateObj.isDisabled === false) {
+            this.change.emit(dateObj.date);
+            if (this.inlineDatepicker === false) {
+                _super.prototype.itemClicked.call(this);
+            }
+            this.hostFlag = true;
+            this.selectedDate = dateObj.date;
+            this.selectedDate.setHours(this.hrs);
+            this.selectedDate.setMinutes(this.min);
+            this.resetSelection(dateObj.date);
+            this.dateModel = this.selectedDate;
+            this.value = this.selectedDate;
+            this.isValid = true;
+            this.isComponentValid.emit(true);
+            if (this.inlineDatepicker) {
+                this.showToolTip = true;
+            }
+            else {
+                this.showToolTip = !this.showToolTip;
+            }
+        }
+        else {
+            event.stopPropagation();
         }
     };
-    AmexioLabelComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-label',
-                    template: "\n  <label style=\"outline: none\" role=\"text\" tabindex=\"1\" class=\"label-content {{styleClass}}\" (click)=\"onLabel($event)\"\n    [ngStyle]=\"{'color' : fontColor,'cursor': enableclick ? 'pointer': 'text'}\">\n    <ng-content></ng-content>\n    <span class=\"label-badge\" *ngIf=\"badge\">{{badge}}</span>\n  </label>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioLabelComponent.ctorParameters = function () { return []; };
-    AmexioLabelComponent.propDecorators = {
-        badge: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['badge',] }],
-        styleClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['size',] }],
-        fontColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-color',] }],
-        enableclick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-click',] }],
-        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    /**
+     * @param {?} dateObj
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.resetSelection = /**
+     * @param {?} dateObj
+     * @return {?}
+     */
+    function (dateObj) {
+        for (var _i = 0, _a = this.daysArray; _i < _a.length; _i++) {
+            var i = _a[_i];
+            for (var _b = 0, i_1 = i; _b < i_1.length; _b++) {
+                var j = i_1[_b];
+                var /** @type {?} */ day = j;
+                if (day.date.getTime() === dateObj.getTime()) {
+                    day.selected = true;
+                }
+                else {
+                    day.selected = false;
+                }
+            }
+        }
     };
-    return AmexioLabelComponent;
-}());
-
-var __extends$14 = (undefined && undefined.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.onInput = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        if (event.target.value != null && event.target.value !== '') {
+            var /** @type {?} */ timeValue = event.target.value.split(':');
+            if (timeValue != null) {
+                var /** @type {?} */ hrs = parseInt(timeValue[0].trim(), 10);
+                var /** @type {?} */ mins = parseInt(timeValue[1].trim(), 10);
+                this.selectedDate.setHours(hrs);
+                this.selectedDate.setMinutes(mins);
+                this.hrs = hrs;
+                this.min = mins;
+                this.value = this.selectedDate;
+                event.stopPropagation();
+            }
+        }
     };
-})();
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioNumberInputComponent = /** @class */ (function (_super) {
-    __extends$14(AmexioNumberInputComponent, _super);
-    function AmexioNumberInputComponent() {
-        var _this = _super.call(this) || this;
-        _this.isValid = false;
-        /*
-          Events
-          name : onBlur
-          datatype : any
-          version : 4.0 onwards
-          default :
-          description : On blur event
-          */
-        _this.onBlur = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-         Events
-         name : input
-         datatype : any
-         version : none
-         default :
-         description : 	On input event field.
-         */
-        _this.input = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-         Events
-         name : focus
-         datatype : any
-         version : none
-         default :
-         description : On focus event field.
-         */
-        _this.focus = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-         Events
-         name : change
-         datatype : any
-         version : none
-         default :
-         description : On field value change event
-         */
-        _this.change = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Properties
-        name : has-label
-        datatype : boolean
-        version : 4.0 onwards
-        default : true
-        description : Flag to set label
-        */
-        _this.haslabel = true;
-        _this.showToolTip = false;
-        return _this;
-    }
-    Object.defineProperty(AmexioNumberInputComponent.prototype, "pattern", {
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.nextMonth = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.setVisibility();
+        this.setDateData('plus', 1, event);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.setVisibility = /**
+     * @return {?}
+     */
+    function () {
+        this.dropdownstyle = { visibility: 'visible' };
+        this.disableddays(this.diabledDate);
+        event.stopPropagation();
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.prevMonth = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.setVisibility();
+        this.setDateData('minus', 1, event);
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.nextYear = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.setDateData1('plus', 12, event);
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.prevYear = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.setDateData1('minus', 12, event);
+    };
+    // this function validates month
+    /**
+     * @param {?} state1
+     * @param {?} mon
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.setDateData = /**
+     * @param {?} state1
+     * @param {?} mon
+     * @param {?} event
+     * @return {?}
+     */
+    function (state1, mon, event) {
+        var /** @type {?} */ d = new Date(this.currrentDate.getFullYear(), this.currrentDate.getMonth(), this.currrentDate.getDate());
+        var /** @type {?} */ min = new Date(this.minDate);
+        var /** @type {?} */ max = new Date(this.maxDate);
+        // checks if selected date is within maximum range of month
+        if (state1 === 'plus') {
+            this.setPlusData(d, max, mon);
+        }
+        else if (state1 === 'minus') {
+            this.setMinusData(d, min, mon);
+        }
+        this.currrentDate = d;
+        this.initDate();
+        event.stopPropagation();
+    };
+    // Set Plus Data
+    /**
+     * @param {?} d
+     * @param {?} max
+     * @param {?} mon
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.setPlusData = /**
+     * @param {?} d
+     * @param {?} max
+     * @param {?} mon
+     * @return {?}
+     */
+    function (d, max, mon) {
+        if (this.maxDate.length > 0) {
+            if (d.getFullYear() === max.getFullYear()) {
+                this.setMaxFullYear(d, max, mon);
+            }
+            else {
+                // logic to chk if year is valid
+                if (d.getFullYear() <= max.getFullYear()) {
+                    d.setMonth(d.getMonth() + mon);
+                }
+            }
+        }
+        else {
+            // outer ends
+            d.setMonth(d.getMonth() + mon);
+        } // checks if selected date is within minimum range of month
+    };
+    // Set Max Full Year
+    /**
+     * @param {?} d
+     * @param {?} max
+     * @param {?} mon
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.setMaxFullYear = /**
+     * @param {?} d
+     * @param {?} max
+     * @param {?} mon
+     * @return {?}
+     */
+    function (d, max, mon) {
+        if ((d.getMonth() !== max.getMonth()) && d.getFullYear() <= max.getFullYear() && d.getMonth() <= max.getMonth()) {
+            d.setMonth(d.getMonth() + mon);
+        }
+    };
+    // Set Minus Data
+    /**
+     * @param {?} d
+     * @param {?} min
+     * @param {?} mon
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.setMinusData = /**
+     * @param {?} d
+     * @param {?} min
+     * @param {?} mon
+     * @return {?}
+     */
+    function (d, min, mon) {
+        if (this.minDate.length > 0) {
+            if (d.getFullYear() === min.getFullYear()) {
+                this.setMinFullYear(d, min, mon);
+            }
+            else {
+                d.setMonth(d.getMonth() - mon);
+            }
+        }
+        else {
+            d.setMonth(d.getMonth() - mon);
+        }
+    };
+    // Set Min Full year
+    /**
+     * @param {?} d
+     * @param {?} min
+     * @param {?} mon
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.setMinFullYear = /**
+     * @param {?} d
+     * @param {?} min
+     * @param {?} mon
+     * @return {?}
+     */
+    function (d, min, mon) {
+        if ((d.getMonth() !== min.getMonth()) && d.getFullYear() >= min.getFullYear() && d.getMonth() >= min.getMonth()) {
+            // logic to chk if year is valid
+            d.setMonth(d.getMonth() - mon);
+        }
+    };
+    // this function validates year
+    /**
+     * @param {?} state1
+     * @param {?} mon
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.setDateData1 = /**
+     * @param {?} state1
+     * @param {?} mon
+     * @param {?} event
+     * @return {?}
+     */
+    function (state1, mon, event) {
+        var /** @type {?} */ d = new Date(this.currrentDate.getFullYear(), this.currrentDate.getMonth(), this.currrentDate.getDate());
+        var /** @type {?} */ min = new Date(this.minDate);
+        var /** @type {?} */ max = new Date(this.maxDate);
+        // checks if selected date is within maximum range of year
+        if (state1 === 'plus') {
+            if (this.maxDate.length > 0) {
+                if (d.getFullYear() <= max.getFullYear() - 1) {
+                    d.setMonth(d.getMonth() + mon);
+                }
+            }
+            else {
+                d.setMonth(d.getMonth() + mon);
+            } // checks if selected date is within minimum range of year
+        }
+        else if (state1 === 'minus') {
+            if (this.minDate.length > 0) {
+                if (d.getFullYear() >= min.getFullYear() + 1) {
+                    d.setMonth(d.getMonth() - mon);
+                }
+            }
+            else {
+                d.setMonth(d.getMonth() - mon);
+            }
+        }
+        this.currrentDate = d;
+        this.initDate();
+        event.stopPropagation();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.setToday = /**
+     * @return {?}
+     */
+    function () {
+        this.currrentDate = new Date();
+        this.initDate();
+        this.showToolTip = !this.showToolTip;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.initDate = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.daysArray = [];
+        this.createDaysForCurrentMonths(this.currrentDate);
+        this.daysArray.forEach(function (dayrow, outerindex) {
+            dayrow.forEach(function (element, innerindex) {
+                if (_this.currrentDate === new Date(element.date)) {
+                    var /** @type {?} */ itemid = _this.daysArray[outerindex][innerindex];
+                    document.getElementById(itemid['id']).focus();
+                }
+            });
+        });
+        this.selectedDate = this.currrentDate;
+        this.dateModel = this.selectedDate;
+        this.value = this.selectedDate;
+        this.innerValue = '';
+    };
+    /**
+     * @param {?} type
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.plus = /**
+     * @param {?} type
+     * @param {?} event
+     * @return {?}
+     */
+    function (type, event) {
+        if (type === 'min') {
+            if (this.min === 59) {
+                this.min = -1;
+                this.hrs++;
+            }
+            this.min++;
+        }
+        if (type === 'hrs') {
+            this.hrs++;
+        }
+        if (this.hrs === 24) {
+            this.hrs = 0;
+        }
+        this.selectedDate.setHours(this.hrs);
+        this.selectedDate.setMinutes(this.min);
+        this.value = this.selectedDate;
+        this.isValid = true;
+        this.isComponentValid.emit(true);
+        this.change.emit(this.value);
+        event.stopPropagation();
+    };
+    /**
+     * @param {?} type
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.minus = /**
+     * @param {?} type
+     * @param {?} event
+     * @return {?}
+     */
+    function (type, event) {
+        if (type === 'min') {
+            if (this.min === 0) {
+                this.min = 60;
+                this.hrs--;
+            }
+            this.min--;
+        }
+        if (type === 'hrs') {
+            this.hrs--;
+        }
+        if (this.hrs === 0) {
+            this.hrs = 23;
+        }
+        this.selectedDate.setHours(this.hrs);
+        this.selectedDate.setMinutes(this.min);
+        this.value = this.selectedDate;
+        this.isValid = true;
+        this.isComponentValid.emit(true);
+        this.change.emit(this.value);
+        event.stopPropagation();
+    };
+    Object.defineProperty(AmexioMultipleDatePickerComponent.prototype, "value", {
+        // get accessor
         get: /**
          * @return {?}
          */
         function () {
-            return this._pattern;
+            return this.innerValue;
         },
-        /*
-      Properties
-      name : pattern
-      datatype : string
-      version : 4.0 onwards
-      default :
-      description : Apply Reg-ex to the field
-      */
+        // set accessor including call the onchange callback
         set: /**
-         * @param {?} value
+         * @param {?} v
          * @return {?}
          */
-        function (value) {
-            if (value != null) {
-                this.regEx = new RegExp(this.pattern);
+        function (v) {
+            if (v !== this.innerValue) {
+                this.innerValue = v;
+                this.onChangeCallback(v);
             }
         },
         enumerable: true,
         configurable: true
     });
+    // Set touched on blur
     /**
      * @return {?}
      */
-    AmexioNumberInputComponent.prototype.ngOnInit = /**
+    AmexioMultipleDatePickerComponent.prototype.onBlur = /**
      * @return {?}
      */
     function () {
-        this.componentId = this.createCompId('numberinput', this.name);
-        this.name = this.generateName(this.name, this.fieldlabel, 'numberinput');
+        this.onTouchedCallback();
     };
-    // THIS METHOD USED FOR BLUR EVENT.
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.writeValue = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        if (value !== '') {
+            if (value !== this.innerValue) {
+                this.validateWriteValue(value);
+            }
+        }
+        else {
+            this.dateModel = '';
+        }
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.validateWriteValue = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        this.innerValue = value;
+        if (this.innerValue instanceof Date || ('number' === typeof this.innerValue)) {
+            if (('number' === typeof this.innerValue)) {
+                this.innerValue = new Date(this.innerValue);
+            }
+            this.dateModel = this.innerValue;
+            this.currrentDate = this.dateModel;
+            this.selectedDate = this.currrentDate;
+            this.createDaysForCurrentMonths(this.dateModel);
+            if (this.required) {
+                this.isValid = true;
+            }
+        }
+        else {
+            this.negateisValid();
+        }
+    };
     /**
      * @return {?}
      */
-    AmexioNumberInputComponent.prototype.onBlurEvent = /**
+    AmexioMultipleDatePickerComponent.prototype.negateisValid = /**
+     * @return {?}
+     */
+    function () {
+        this.isValid = false;
+        this.hrs = 0;
+        this.min = 0;
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.registerOnChange = /**
+     * @param {?} fn
+     * @return {?}
+     */
+    function (fn) {
+        this.onChangeCallback = fn;
+    };
+    // From ControlValueAccessor interface
+    /**
+     * @param {?} fn
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.registerOnTouched = /**
+     * @param {?} fn
+     * @return {?}
+     */
+    function (fn) {
+        this.onTouchedCallback = fn;
+    };
+    /**
+     * @param {?} elem
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.onFocus = /**
+     * @param {?} elem
+     * @return {?}
+     */
+    function (elem) {
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.onFocusOut = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        if (isNaN(Date.parse(value.value))) {
+            this.isValid = false;
+            value.value = '';
+        }
+        else {
+            this.value = Date.parse(value.value);
+            this.isValid = true;
+        }
+    };
+    /**
+     * @param {?} elem
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.openPicker = /**
+     * @param {?} elem
+     * @return {?}
+     */
+    function (elem) {
+        this.inputtabindex = -1;
+        this.daystabindex = 1;
+        if (this.disabled === false) {
+            _super.prototype.focus.call(this, elem);
+            this.hostFlag = false;
+            this.pickerele = elem;
+            if (this.inlineDatepicker) {
+                this.showToolTip = this.inlineDatepicker;
+                this.setFocus();
+            }
+            else {
+                this.showToolTip = true;
+            }
+            var /** @type {?} */ visibility = this.dropdownstyle.visibility;
+            this.dropdownstyle.visibility = visibility;
+            this.dropdownstyle.position = 'fixed';
+            this.disableddays(this.diabledDate);
+            this.setFocus();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.setFocus = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        setTimeout(function () {
+            // focus code starts
+            // focus code starts
+            _this.daysArray.forEach(function (row, index) {
+                row.forEach(function (day, innerindex) {
+                    if (day.selected) {
+                        document.getElementById(day.id).focus();
+                    }
+                });
+            });
+        }, 0);
+    };
+    /**
+     * @param {?} elementRef
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.getListPosition = /**
+     * @param {?} elementRef
+     * @return {?}
+     */
+    function (elementRef) {
+    };
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.onSelect = /**
      * @return {?}
      */
     function () {
         this.showToolTip = false;
-        this.onBlur.emit(this.value);
     };
-    // THIS METHOD USED FOR FOCUS EVENT .
+    /**
+     * @param {?} days
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.validateDays = /**
+     * @param {?} days
+     * @return {?}
+     */
+    function (days) {
+        // check1: if min max is null return false
+        if (this.maxDate.length <= 0 && this.minDate.length <= 0) {
+            return false;
+        }
+    };
+    /**
+     * @param {?} dates
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.disableddays = /**
+     * @param {?} dates
+     * @return {?}
+     */
+    function (dates) {
+        var _this = this;
+        if (dates) {
+            dates.forEach(function (element) {
+                var /** @type {?} */ From = new Date(element.from);
+                var /** @type {?} */ To = new Date(element.to);
+                _this.daysArray.forEach(function (element2) {
+                    element2.forEach(function (element1) {
+                        if (element1.date.getFullYear() <= To.getFullYear() && element1.date.getMonth()
+                            <= To.getMonth() && element1.date.getDate() <= To.getDate() && element1.date.getFullYear() >= From.getFullYear() &&
+                            element1.date.getMonth() >= From.getMonth() &&
+                            element1.date.getDate() >= From.getDate()) {
+                            element1.isDisabled = true;
+                        }
+                    });
+                });
+            });
+        }
+    };
+    // Added method to avois recursive code
+    /**
+     * @param {?} element
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.elementFlagMethod = /**
+     * @param {?} element
+     * @return {?}
+     */
+    function (element) {
+        if (element.flag) {
+            element.flag = false;
+        }
+    };
     /**
      * @return {?}
      */
-    AmexioNumberInputComponent.prototype.onFocus = /**
+    AmexioMultipleDatePickerComponent.prototype.negateDrop = /**
      * @return {?}
      */
     function () {
+        this.cancelispressed = true;
+        this.hostFlag = true;
+        this.drop = false;
         this.showToolTip = true;
-        this.focus.emit(this.value);
+        this.tempFlag = true;
     };
-    // THIS METHOD USED FOR  INPUT EVENT .
+    // this function broken from chk month getDropdownMonth()
+    /**
+     * @param {?} element
+     * @param {?} month
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.chkMonth = /**
+     * @param {?} element
+     * @param {?} month
+     * @return {?}
+     */
+    function (element, month) {
+        if (element.name === month.name) {
+            element.flag = true;
+        }
+    };
+    /**
+     * @param {?} element
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.yearFlagNegate = /**
+     * @param {?} element
+     * @return {?}
+     */
+    function (element) {
+        this.elementFlagMethod(element);
+    };
+    // this function is broken from getDropdownYear
+    /**
+     * @param {?} element
+     * @param {?} year
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.yearFlag = /**
+     * @param {?} element
+     * @param {?} year
+     * @return {?}
+     */
+    function (element, year) {
+        if (element.year === year.year) {
+            element.flag = true;
+        }
+    };
     /**
      * @return {?}
      */
-    AmexioNumberInputComponent.prototype.onInput = /**
+    AmexioMultipleDatePickerComponent.prototype.cancelDropdown = /**
      * @return {?}
      */
     function () {
-        this.isValid = this.isFieldValidate();
-        this.input.emit(this.value);
+        this.drop = false;
+        this.showToolTip = true;
     };
-    // THIS METHOD USED FOR CHANGE EVENT  .
-    /**
-     * @return {?}
-     */
-    AmexioNumberInputComponent.prototype.onChangeEv = /**
-     * @return {?}
-     */
-    function () {
-        this.change.emit(this.value);
-    };
-    // THIS METHOD FOR KEYBORAD KEY HOME PRESS.
     /**
      * @param {?} event
      * @return {?}
      */
-    AmexioNumberInputComponent.prototype.onKeyUpHome = /**
+    AmexioMultipleDatePickerComponent.prototype.arrowClickBack = /**
      * @param {?} event
      * @return {?}
      */
     function (event) {
-        this.value = this.minvalue;
-    };
-    // THIS METHOD FOR KEYBORAD KEY END PRESS.
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioNumberInputComponent.prototype.onKeyUpEnd = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        this.value = this.maxvalue;
-    };
-    /**
-     * @return {?}
-     */
-    AmexioNumberInputComponent.prototype.isFieldValidate = /**
-     * @return {?}
-     */
-    function () {
-        if (this.minvalue && !this.maxvalue) {
-            return this.innerValue && (this.innerValue >= this.minvalue);
-        }
-        else if (!this.minvalue && this.maxvalue) {
-            return this.innerValue && (this.innerValue <= this.maxvalue);
-        }
-        else if (!this.minvalue && !this.maxvalue && this.innerValue) {
-            return true;
+        var /** @type {?} */ i;
+        // disable flag logic
+        this.disableYearFlag();
+        if (this.minDate.length > 0 || this.maxDate.length > 0) {
+            // arrow click logic
+            this.backArrow();
         }
         else {
-            return this.innerValue && (this.innerValue >= this.minvalue && this.innerValue <= this.maxvalue);
+            for (i = 0; i < 5; i++) {
+                this.yearList1[i].year = this.yearList1[i].year - 10;
+                this.yearList2[i].year = this.yearList2[i].year - 10;
+            } // for ends
+        } // main else ends
+        // disable flag logic
+        this.disableYearFlag();
+        // rechking arrow flags after reinitialization of yrlist1 & 2
+        this.rechkYearFlag();
+        event.stopPropagation();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.backArrow = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        var /** @type {?} */ min = new Date(this.minDate);
+        var /** @type {?} */ max = new Date(this.maxDate);
+        this.yearList1.forEach(function (element) {
+            if (element.year === min.getFullYear() ||
+                (element.year === min.getFullYear() && element.year === max.getFullYear())) {
+                _this.backArrowFlag = true;
+            }
+            if (element.year === max.getFullYear() && element.year !== min.getFullYear()) {
+                _this.forwardArrowFlag = true;
+                _this.backArrowFlag = false;
+            }
+            if (element.year !== min.getFullYear() && element.year !== max.getFullYear()) {
+                _this.forwardArrowFlag = false;
+                _this.backArrowFlag = false;
+            }
+        });
+        // resets Arrow Flag
+        this.resetYearFlag();
+    };
+    // this function is broken from resetArrowFlag()
+    /**
+     * @param {?} element
+     * @param {?} min
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.alterBackArrow = /**
+     * @param {?} element
+     * @param {?} min
+     * @return {?}
+     */
+    function (element, min) {
+        if (element.year === min.getFullYear()) {
+            this.backArrowFlag = true;
         }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.resetArrowFlag = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        var /** @type {?} */ min = new Date(this.minDate);
+        var /** @type {?} */ max = new Date(this.maxDate);
+        this.yearList2.forEach(function (element) {
+            _this.alterBackArrow(element, min);
+            if (element.year === max.getFullYear() ||
+                (element.year === min.getFullYear() && element.year === max.getFullYear())) {
+                _this.forwardArrowFlag = true;
+            }
+        });
+    };
+    // this fn is broken from  backArrow() and it resets Year Flag
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.resetYearFlag = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ i;
+        if (!this.backArrowFlag) {
+            for (i = 0; i < 5; i++) {
+                this.yearList1[i].year = this.yearList1[i].year - 10;
+                this.yearList2[i].year = this.yearList2[i].year - 10;
+                this.yearList1[i].disabled = false;
+                this.yearList2[i].disabled = false;
+            }
+        } /* if ends */
+    };
+    /**
+     * @param {?} element
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.alterBackForwardArrow = /**
+     * @param {?} element
+     * @return {?}
+     */
+    function (element) {
+        var /** @type {?} */ min = new Date(this.minDate);
+        var /** @type {?} */ max = new Date(this.maxDate);
+        if (element.year === min.getFullYear()) {
+            this.backArrowFlag = true;
+        }
+        if (element.year === max.getFullYear() ||
+            (element.year === min.getFullYear() && element.year === max.getFullYear())) {
+            this.forwardArrowFlag = true;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.forwardArrow = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        var /** @type {?} */ i;
+        // chk yearlist1
+        this.chkYearList1();
+        this.yearList2.forEach(function (element) {
+            _this.alterBackForwardArrow(element);
+        });
+        if (!this.forwardArrowFlag) {
+            for (i = 0; i < 5; i++) {
+                this.yearList1[i].year = this.yearList1[i].year + 10;
+                this.yearList2[i].year = this.yearList2[i].year + 10;
+                this.yearList1[i].disabled = false;
+                this.yearList2[i].disabled = false;
+            } // for ends
+        } // if ends
+    };
+    // chk yearlist1 broken from forwardArrow()
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.chkYearList1 = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        var /** @type {?} */ min = new Date(this.minDate);
+        var /** @type {?} */ max = new Date(this.maxDate);
+        this.yearList1.forEach(function (element) {
+            if (element.year === min.getFullYear() ||
+                (element.year === min.getFullYear() && element.year === max.getFullYear())) {
+                _this.backArrowFlag = true;
+            }
+            if (element.year === min.getFullYear() && element.year !== max.getFullYear()) {
+                _this.forwardArrowFlag = false;
+                _this.backArrowFlag = true;
+            }
+            if (element.year !== min.getFullYear() && element.year !== max.getFullYear()) {
+                _this.forwardArrowFlag = false;
+                _this.backArrowFlag = false;
+            }
+            if (element.year === max.getFullYear()) {
+                _this.forwardArrowFlag = true;
+            }
+        });
+    };
+    // this function is obtained by breaking arrowClickBack() and arrowClickForward()
+    // for rechking arrow flags after reinitialization of yrlist1 & 2
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.rechkYearFlag = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.yearList1.forEach(function (element) {
+            var /** @type {?} */ min = new Date(_this.minDate);
+            var /** @type {?} */ max = new Date(_this.maxDate);
+            if (element.year === min.getFullYear() ||
+                (element.year === min.getFullYear() && element.year === max.getFullYear())) {
+                _this.backArrowFlag = true;
+            }
+            if (element.year === max.getFullYear()) {
+                _this.forwardArrowFlag = true;
+            }
+            if (element.year !== min.getFullYear() && element.year !== max.getFullYear()) {
+                _this.forwardArrowFlag = false;
+                _this.backArrowFlag = false;
+            }
+        });
+        this.yearList2.forEach(function (element) {
+            _this.alterBackForwardArrow(element);
+        });
+    };
+    // this function is broken from disableYearFlag() , here year flag disable altered to true
+    /**
+     * @param {?} element
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.yearFlagDisable = /**
+     * @param {?} element
+     * @return {?}
+     */
+    function (element) {
+        var /** @type {?} */ min = new Date(this.minDate);
+        var /** @type {?} */ max = new Date(this.maxDate);
+        if (element.year < min.getFullYear() || element.year > max.getFullYear()) {
+            element.disabled = true;
+        } // if ends
+    };
+    // this function is obtained by breaking arrowClickBack() and arrowClickForward()
+    // for disabling year flag
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.disableYearFlag = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.minDate.length > 0 || this.maxDate.length > 0) {
+            this.yearList1.forEach(function (element) {
+                _this.yearFlagDisable(element);
+            }); // for ends
+            this.yearList2.forEach(function (element) {
+                _this.yearFlagDisable(element);
+            }); // for ends
+        } // outer if ends
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.arrowClickForward = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        var /** @type {?} */ i;
+        // disable flag logic
+        this.disableYearFlag();
+        if (this.minDate.length > 0 || this.maxDate.length > 0) {
+            this.forwardArrow();
+        }
+        else {
+            for (i = 0; i < 5; i++) {
+                this.yearList1[i].year = this.yearList1[i].year + 10;
+                this.yearList2[i].year = this.yearList2[i].year + 10;
+            }
+        }
+        // disable flag logic
+        this.disableYearFlag();
+        // rechking arrow flags after reinitialization of yrlist1 & 2
+        this.rechkYearFlag();
+        event.stopPropagation();
+    };
+    // onInit Method: If min max date is provided
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.minMaxDateFound = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        var /** @type {?} */ min = new Date(this.minDate);
+        var /** @type {?} */ max = new Date(this.maxDate);
+        this.yearList1.forEach(function (element) {
+            if (element.year === min.getFullYear() ||
+                (element.year === min.getFullYear() && element.year === max.getFullYear())) {
+                _this.backArrowFlag = true;
+            }
+            if (element.year === max.getFullYear()) {
+                _this.forwardArrowFlag = true;
+            }
+        });
+        this.yearList2.forEach(function (element) {
+            if (element.year === min.getFullYear()) {
+                _this.backArrowFlag = true;
+            }
+            if (element.year === max.getFullYear() ||
+                (element.year === min.getFullYear() && element.year === max.getFullYear())) {
+                _this.forwardArrowFlag = true;
+            }
+        });
+    };
+    // THIS MEHTOD CHECK INPUT IS VALID OR NOT
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.checkValidity = /**
+     * @return {?}
+     */
+    function () {
+        return this.isValid;
     };
     /**
      * @param {?} c
      * @return {?}
      */
-    AmexioNumberInputComponent.prototype.validate = /**
+    AmexioMultipleDatePickerComponent.prototype.validate = /**
      * @param {?} c
      * @return {?}
      */
     function (c) {
-        var /** @type {?} */ isValid = (!this.allowblank && this.isFieldValidate()) || this.allowblank;
-        return isValid ? null : {
+        return (this.value || !this.required) ? null : {
             jsonParseError: {
                 valid: true,
             },
         };
     };
-    AmexioNumberInputComponent.decorators = [
+    /**
+     * @param {?} day
+     * @param {?} month
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.arrowright = /**
+     * @param {?} day
+     * @param {?} month
+     * @param {?} event
+     * @return {?}
+     */
+    function (day, month, event) {
+        var _this = this;
+        var /** @type {?} */ currentindex;
+        var /** @type {?} */ ismonthchanged = false;
+        var /** @type {?} */ drindex;
+        month.forEach(function (dayrow, dayrowindex) {
+            dayrow.forEach(function (element, index) {
+                if (day['id'] === element['id']) {
+                    if (index < dayrow.length - 1) {
+                        currentindex = index + 1;
+                        drindex = dayrowindex;
+                    }
+                    else {
+                        if ((dayrowindex === (month.length - 1)) && (index === (dayrow.length - 1))) {
+                            _this.nextMonth(event);
+                            ismonthchanged = true;
+                        }
+                        else {
+                            currentindex = 0;
+                            drindex = dayrowindex + 1;
+                        }
+                    }
+                }
+            });
+        });
+        this.refactoredRightArrow(ismonthchanged, month, drindex, currentindex);
+    };
+    /**
+     * @param {?} ismonthchanged
+     * @param {?} month
+     * @param {?} drindex
+     * @param {?} currentindex
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.refactoredRightArrow = /**
+     * @param {?} ismonthchanged
+     * @param {?} month
+     * @param {?} drindex
+     * @param {?} currentindex
+     * @return {?}
+     */
+    function (ismonthchanged, month, drindex, currentindex) {
+        if (!ismonthchanged) {
+            this.refactoredFocus(month, drindex, currentindex);
+        }
+        else {
+            this.setFocus();
+        }
+    };
+    /**
+     * @param {?} month
+     * @param {?} drindex
+     * @param {?} currentindex
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.refactoredFocus = /**
+     * @param {?} month
+     * @param {?} drindex
+     * @param {?} currentindex
+     * @return {?}
+     */
+    function (month, drindex, currentindex) {
+        var /** @type {?} */ itemid;
+        itemid = month[drindex][currentindex];
+        document.getElementById(itemid['id']).focus();
+    };
+    /**
+     * @param {?} day
+     * @param {?} month
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.arrowleft = /**
+     * @param {?} day
+     * @param {?} month
+     * @param {?} event
+     * @return {?}
+     */
+    function (day, month, event) {
+        var _this = this;
+        var /** @type {?} */ currentindex;
+        var /** @type {?} */ drindex;
+        var /** @type {?} */ ismonthchanged = false;
+        month.forEach(function (dayrow, dayrowindex) {
+            dayrow.forEach(function (element, index) {
+                if (day['id'] === element['id']) {
+                    if (index > 0) {
+                        currentindex = index - 1;
+                        drindex = dayrowindex;
+                    }
+                    else {
+                        if (dayrowindex === 0 && index === 0) {
+                            _this.prevMonth(event);
+                            ismonthchanged = true;
+                        }
+                        else {
+                            drindex = dayrowindex - 1;
+                            currentindex = 6;
+                        }
+                    }
+                }
+            });
+        });
+        this.refactoredarrow(ismonthchanged, month, drindex, currentindex);
+    };
+    /**
+     * @param {?} ismonthchanged
+     * @param {?} month
+     * @param {?} drindex
+     * @param {?} currentindex
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.refactoredarrow = /**
+     * @param {?} ismonthchanged
+     * @param {?} month
+     * @param {?} drindex
+     * @param {?} currentindex
+     * @return {?}
+     */
+    function (ismonthchanged, month, drindex, currentindex) {
+        var /** @type {?} */ itemid;
+        if (!ismonthchanged) {
+            itemid = month[drindex][currentindex];
+            document.getElementById(itemid['id']).focus();
+        }
+        else {
+            this.setFocus();
+        }
+    };
+    /**
+     * @param {?} day
+     * @param {?} month
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.arrowup = /**
+     * @param {?} day
+     * @param {?} month
+     * @param {?} event
+     * @return {?}
+     */
+    function (day, month, event) {
+        var _this = this;
+        var /** @type {?} */ isfirstrow = false;
+        var /** @type {?} */ drindex;
+        var /** @type {?} */ currentindex;
+        month.forEach(function (dayrow, dayrowindex) {
+            dayrow.forEach(function (element, index) {
+                if (day.id === element.id) {
+                    if (dayrowindex === 0) {
+                        isfirstrow = true;
+                        _this.prevMonth(event);
+                    }
+                    else {
+                        drindex = dayrowindex - 1;
+                        currentindex = index;
+                    }
+                }
+            });
+        });
+        if (!isfirstrow) {
+            var /** @type {?} */ itemid = void 0;
+            itemid = this.daysArray[drindex][currentindex];
+            document.getElementById(itemid['id']).focus();
+        }
+        else {
+            this.setFocus();
+        }
+    };
+    /**
+     * @param {?} day
+     * @param {?} month
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.arrowdown = /**
+     * @param {?} day
+     * @param {?} month
+     * @param {?} event
+     * @return {?}
+     */
+    function (day, month, event) {
+        var _this = this;
+        var /** @type {?} */ islastrow = false;
+        var /** @type {?} */ drindex;
+        var /** @type {?} */ currentindex;
+        month.forEach(function (dayrow, dayrowindex) {
+            dayrow.forEach(function (element, index) {
+                if (day.id === element.id) {
+                    if (dayrowindex === (month.length - 1)) {
+                        islastrow = true;
+                        _this.nextMonth(event);
+                    }
+                    else {
+                        drindex = dayrowindex + 1;
+                        currentindex = index;
+                    }
+                }
+            });
+        });
+        if (!islastrow) {
+            var /** @type {?} */ itemid = void 0;
+            itemid = this.daysArray[drindex][currentindex];
+            document.getElementById(itemid['id']).focus();
+        }
+        else {
+            this.setFocus();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.calculateScreenWidth = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ screenwidth = window.screen.width;
+        this.count = (screenwidth / 290);
+    };
+    AmexioMultipleDatePickerComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-number-input',
-                    template: "\n\n\n\n    <div class=\"inputgroup\">\n\n      <label *ngIf=\"haslabel\" role=\"number\"  id=\"{{componentId}}\"  [style.font-style]=\"fontstyle\" [style.font-family]=\"fontfamily\" [style.font-size]=\"fontsize\">\n          {{fieldlabel}}\n      </label>\n\n      <input type=\"number\" \n\n\n            role=\"number\"\n            tabindex=\"1\"\n       \n            aria-describedby=\"numberDes\"\n            attr.aria-labelledby=\"{{componentId}}\"\n            [attr.aria-required]=\"!allowblank\"\n            [attr.aria-invalid]=\"!isValid \"\n            (keyup.home)=\"onKeyUpHome($event)\"\n            (keyup.end)=\"onKeyUpEnd($event)\"\n\n\n\n             class=\"input-control\"\n             [ngClass]=\"model.touched ? allowblank ? '' : (isValid && model.touched) ? 'input-control-success' : 'input-control-error' :''\"\n             [(ngModel)]=\"value\"\n             (blur)=\"onBlurEvent()\" \n             (focus)=\"onFocus()\" \n             (input)=\"onInput()\" \n             (change)=\"onChangeEv()\"\n             [name]=\"name\" \n             [pattern]=\"regEx\"\n             [attr.placeholder]=\"placeholder\" \n             [attr.max]=\"maxvalue\" \n             [attr.min]=\"minvalue\" \n             [attr.disabled]=\"disabled ? true: null\"\n             [required]=\"!allowblank\" />\n\n\n      <ng-container *ngIf=\"iconfeedback\">\n          <span class=\"input-control-feedback\">\n              <span *ngIf=\"!isValid && model.touched\"><em class=\"fa fa-times\"></em></span>\n              <span *ngIf=\"isValid && model.touched\"><em class=\"fa fa-check\"></em></span>\n          </span>\n      </ng-container>\n\n      <input-help *ngIf=\"showToolTip && enablepopover\"\n\n      id=\"numberDes\"\n      role=\"tooltip\"\n\n      [error-msg]=\"errormsg\" \n      [max-error-msg]=\"maxerrormsg\"\n      [min-error-msg]=\"minerrormsg\"\n      [min-value]=\"minvalue\"\n      [max-value]=\"maxvalue\"\n      [min-msg]=\"minmsg\" \n      [max-msg]=\"maxmsg\"\n      [is-number]=\"true\"\n      >\n      </input-help>\n  \n      <span class=\"inputfieldbar\"></span>\n    </div>\n  ",
+                    selector: 'amexio-multiple-date-picker',
+                    template: "\n    <!--this div contains fieldlabel inputbox and icon -->\n    <div tabindex=\"{{inputtabindex}}\" (keyup.enter)=\"openPicker(rootDiv)\" aria-label=\"datetimepicker push button\" class=\"inputgroup\"\n        *ngIf=\"!inlineDatepicker\" #rootDiv>\n\n        <label>\n            {{fieldlabel}}\n        </label>\n        <!-- datepicker input -->\n        <ng-container *ngIf=\"datepicker && !timepicker\">\n            <input tabindex=\"-1\" type=\"text\" #pickerDt value=\"{{dateModel|date:dateformat}}\" [attr.disabled]=\"disabled ? true: null\"\n                [required]=\"required ? true: null\" (blur)=\"onBlur()\" (focusout)=\"onFocusOut(pickerDt)\" class=\"input-control\" [ngStyle]=\"{'cursor': readonly ? 'not-allowed':'pointer'}\"\n                [attr.placeholder]=\"placeholder\" />\n        </ng-container>\n\n        <div class=\"drodown-caret-down\" [ngStyle]=\"{'cursor':disabled ? 'not-allowed' : 'pointer'}\" (click)=\"openPicker(rootDiv)\">\n            <!-- datepicker icon -->\n            <ng-container *ngIf=\"!timepicker\">\n                <span>\n                    <amexio-c-icon key=\"datepicker_calendar\"></amexio-c-icon>\n                </span>\n\n            </ng-container>\n\n        </div>\n\n\n    </div>\n\n    <div [@changeState]=\"dropdownstyle.visibility\" [ngStyle]=\"dropdownstyle\">\n\n        <table>\n\n            <tr>\n                <td style=\"display: inline-flex; flex-flow: wrap\">\n\n                    <div tabindex=\"1\" aria-label=\"previous month list\" role=\"button\" style=\"padding: 125px 0px; cursor:pointer; opacity:0.7\"\n                        class=\"float-left\" (click)=\"updateMonthList('minus',$event)\" (keyup.enter)=\"updateMonthList('minus',$event)\">\n\n                        <amexio-floating-button [size]=\"'small'\" [relative]=\"true\" [icon]=\"'fa fa-angle-left'\" [type]=\"'theme-color'\">\n                        </amexio-floating-button>\n                    </div>\n\n                    <ng-container *ngFor=\"let itemdaysArray of  completeDaysArray; index as i\">\n\n                        <span [ngStyle]=\"{'padding-left': ((i+1) > count) ? '28px':'0px'}\">\n\n                            <span style=\"position: relative;\" [ngClass]=\"{'datetimepicker':!inlineDatepicker}\">\n                                <!-- datepicker starts -->\n                                <span aria-label=\"datepicker window opened \">\n                                    <!-- datepicker header starts and contains: 4 angles drop icon and title -->\n                                    <div aria-label=\"datetimepicker header\" class=\"datetimepickertopbar\" aria-label=\"datepicker header\" [ngStyle]=\"{'display': datepicker ? 'block' : 'none'}\">\n                                        <ul>\n\n                                            <li>\n\n                                                <span *ngIf=\"!dropdownDatepicker\">\n                                                    <!-- {{itemdaysArray.month}} -->\n                                                    {{itemdaysArray.date | date:'MMMM'}}\n\n                                                    <br>\n                                                    <span class=\"title\" style=\"cursor:auto\">\n                                                        {{itemdaysArray.date | date:'y'}}\n                                                        <!-- {{itemdaysArray.year}} -->\n                                                    </span>\n                                                </span>\n\n                                            </li>\n                                        </ul>\n                                    </div>\n\n\n                                    <div *ngIf=\"!drop\">\n                                        <ul class=\"weekdays\" [ngStyle]=\"{'display': datepicker ? 'block' : 'none'}\">\n                                            <li *ngFor=\"let dayTitle of daysTitle\">{{dayTitle.text}}</li>\n                                        </ul>\n\n                                        <ul id=\"{{daystabindex}}\" class=\"days\" [ngStyle]=\"{'display': datepicker ? 'block' : 'none'}\">\n\n                                            <ng-container *ngFor=\"let dayArray of itemdaysArray.montharray\">\n                                                <li [ngStyle]=\"{'cursor': day.isDisabled ? 'not-allowed' : 'pointer'}\" *ngFor=\"let day of dayArray\" (click)=\"onDateClick(day, $event)\"\n                                                    [ngClass]=\"{'date1':validateDays(day.date) , 'date1':day.isDisabled , 'notclickable':isDisabled}\">\n                                                    <span [attr.tabindex]=\"(day.selected ? 1: -1)\" id=\"{{day.id}}\" (keyup.arrowleft)=\"arrowleft(day,daysArray,$event)\" (keyup.arrowright)=\"arrowright(day,daysArray,$event)\"\n                                                        (keyup.arrowdown)=\"arrowdown(day,daysArray,$event)\" (keyup.arrowup)=\"arrowup(day,daysArray,$event)\"\n                                                        (keyup.enter)=\"onDateClick(day, $event)\" attr.aria-label=\"{{day.fulldate}}\"\n                                                        (click)=\"onDateClick(day, $event)\" class=\"day\" [ngClass]=\"{'active':day.selected, 'currentMonth':day.isCurrentMonth, 'notCurrentMonth':!day.isCurrentMonth,'invaliddays':validateDays(day.date), 'disabled':day.isDisabled}\">\n                                                        {{ day.date | date:'d' }}\n                                                    </span>\n                                                </li>\n                                            </ng-container>\n\n\n\n                                        </ul>\n                                    </div>\n                                </span>\n                                <!--datepicker ends  -->\n\n                            </span>\n\n                        </span>\n                        <!-- </ng-container> -->\n                    </ng-container>\n\n\n                    <div tabindex=\"1\" aria-label=\"next month list\" role=\"button\" style=\"padding: 125px 0px; cursor:pointer; opacity:0.7\" class=\"float-right\"\n                        (click)=\"updateMonthList('plus',$event)\" (keyup.enter)=\"updateMonthList('plus',$event)\">\n\n                        <amexio-floating-button [size]=\"'small'\" [relative]=\"true\" [icon]=\"'fa fa-angle-right'\" [type]=\"'theme-color'\">\n                        </amexio-floating-button>\n\n                    </div>\n                </td>\n            </tr>\n        </table>\n    </div>\n  ",
+                    animations: [
+                        trigger('changeState', [
+                            state('visible', style({
+                                transform: 'scale(1)',
+                            })),
+                            state('hidden', style({
+                                transform: 'scale(0)',
+                            })),
+                            transition('*=>*', animate('200ms')),
+                        ]),
+                    ],
                     providers: [{
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioNumberInputComponent; }), multi: true,
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioMultipleDatePickerComponent; }), multi: true,
                         }, {
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioNumberInputComponent; }), multi: true,
+                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioMultipleDatePickerComponent; }), multi: true,
                         }],
                 },] },
     ];
     /** @nocollapse */
-    AmexioNumberInputComponent.ctorParameters = function () { return []; };
-    AmexioNumberInputComponent.propDecorators = {
+    AmexioMultipleDatePickerComponent.ctorParameters = function () { return [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }
+    ]; };
+    AmexioMultipleDatePickerComponent.propDecorators = {
+        dateformat: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['date-format',] }],
+        datepicker: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['date-picker',] }],
+        timepicker: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['time-picker',] }],
         fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
-        allowblank: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['allow-blank',] }],
-        minvalue: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['min-value',] }],
-        maxvalue: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['max-value',] }],
-        minerrormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['min-error-msg',] }],
-        maxerrormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['max-error-msg',] }],
-        errormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['error-msg',] }],
         placeholder: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['place-holder',] }],
-        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        onBlur: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        input: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        focus: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['disabled',] }],
+        readonly: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['read-only',] }],
+        minDate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['min-date',] }],
+        maxDate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['max-date',] }],
+        diabledDate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['disabled-date',] }],
+        inlineDatepicker: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['inline-datepicker',] }],
+        dropdownDatepicker: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['dropdown-datepicker',] }],
+        numberofmonths: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['number-of-months',] }],
+        required: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
         change: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        iconfeedback: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-feedback',] }],
-        fontstyle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-style',] }],
-        fontfamily: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-family',] }],
-        fontsize: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-size',] }],
-        haslabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['has-label',] }],
-        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['name',] }],
-        pattern: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['pattern',] }],
-        enablepopover: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-popover',] }],
-        model: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"],] }]
+        input: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        isComponentValid: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
     };
-    return AmexioNumberInputComponent;
-}(ValueAccessorBase));
+    return AmexioMultipleDatePickerComponent;
+}(ListBaseDatepickerComponent));
 
-var __extends$15 = (undefined && undefined.__extends) || (function () {
+var __extends$21 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -42033,7 +47659,7 @@ var __extends$15 = (undefined && undefined.__extends) || (function () {
 *
 */
 var AmexioPasswordComponent = /** @class */ (function (_super) {
-    __extends$15(AmexioPasswordComponent, _super);
+    __extends$21(AmexioPasswordComponent, _super);
     function AmexioPasswordComponent() {
         var _this = _super.call(this) || this;
         _this.isValid = false;
@@ -42230,358 +47856,6 @@ var AmexioPasswordComponent = /** @class */ (function (_super) {
         name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['name',] }]
     };
     return AmexioPasswordComponent;
-}(ValueAccessorBase));
-
-var __extends$16 = (undefined && undefined.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* Created by  Pratik on 27/11/17.
-*/
-var AmexioRadioGroupComponent = /** @class */ (function (_super) {
-    __extends$16(AmexioRadioGroupComponent, _super);
-    // The internal dataviews model
-    // private innerValue: any = '';
-    function AmexioRadioGroupComponent(amxHttp, cd) {
-        var _this = _super.call(this) || this;
-        _this.amxHttp = amxHttp;
-        _this.cd = cd;
-        /*
-           Properties
-           name : default-value
-           datatype : string
-           version : 4.0 onwards
-           default :
-           description : Default Value to be checked
-           */
-        _this.defaultSelectedValue = '';
-        /*
-           Properties
-           name : data
-           datatype : any
-           version : 4.0 onwards
-           default :
-           description : 	Local data for radio group.
-           */
-        _this.data = [];
-        /*
-           Events
-           name : onSelection
-           datatype : any
-           version : 4.0 onwards
-           default :
-           description : Fires selection event
-           */
-        _this.onSelection = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        // Placeholders for the callbacks which are later provided
-        // by the Control Value Accessor
-        // private onTouchedCallback: () => void = noop;
-        // private onChangeCallback: (_: any) => void = noop;
-        _this.isComponentValid = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        _this.tabFocus = false;
-        return _this;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioRadioGroupComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.componentId = this.createCompId('radiogroup', this.name);
-        this.name = this.generateName(this.name, this.fieldlabel, 'radiogroup');
-        if (this.defaultSelectedValue) {
-            this.value = this.defaultSelectedValue;
-        }
-        this.isValid = this.allowblank;
-        this.isComponentValid.emit(this.allowblank);
-        if (this.httpmethod && this.httpurl) {
-            this.amxHttp.fetchData(this.httpurl, this.httpmethod).subscribe(function (response) {
-                _this.data = _this.getResponseData(response);
-            });
-        }
-        else if (this.data != null) {
-            this.data = this.getResponseData(this.data);
-        }
-    };
-    /**
-     * @param {?} viewData
-     * @return {?}
-     */
-    AmexioRadioGroupComponent.prototype.checkDefaultValidation = /**
-     * @param {?} viewData
-     * @return {?}
-     */
-    function (viewData) {
-        var _this = this;
-        viewData.forEach(function (opt) {
-            opt['tabindex'] = '-1';
-            opt['radioId'] = 'radio' + '_' + opt[_this.valuefield] + '_' + _this.getRandomString();
-            if (opt[_this.valuefield] === _this.innerValue || (opt.hasOwnProperty('selected') && opt.selected)) {
-                _this.isValid = true;
-                opt['selected'] = true;
-                opt['tabindex'] = '0';
-                _this.isComponentValid.emit(true);
-                return;
-            }
-            else {
-                opt['selected'] = false;
-                var /** @type {?} */ tempArray_1 = [];
-                viewData.forEach(function (option) {
-                    if (option.selected === false) {
-                        tempArray_1.push('0');
-                        if (tempArray_1.length === viewData.length) {
-                            viewData[0].tabindex = '0';
-                        }
-                    }
-                });
-            }
-        });
-    };
-    /**
-     * @param {?} viewData
-     * @return {?}
-     */
-    AmexioRadioGroupComponent.prototype.checkSelectedFlag = /**
-     * @param {?} viewData
-     * @return {?}
-     */
-    function (viewData) {
-        var _this = this;
-        viewData.forEach(function (opt) {
-            if (_this.innerValue === '' && (opt.hasOwnProperty('selected') && opt.selected)) {
-                _this.value = opt[_this.valuefield];
-                opt.tabindex = '0';
-                return;
-            }
-        });
-    };
-    /**
-     * @param {?} httpResponse
-     * @return {?}
-     */
-    AmexioRadioGroupComponent.prototype.getResponseData = /**
-     * @param {?} httpResponse
-     * @return {?}
-     */
-    function (httpResponse) {
-        var /** @type {?} */ responsedata = httpResponse;
-        if (this.datareader != null) {
-            var /** @type {?} */ dr = this.datareader.split('.');
-            if (dr != null) {
-                for (var _i = 0, dr_1 = dr; _i < dr_1.length; _i++) {
-                    var ir = dr_1[_i];
-                    responsedata = responsedata[ir];
-                }
-            }
-        }
-        else {
-            responsedata = httpResponse;
-        }
-        this.checkSelectedFlag(responsedata);
-        if (!this.allowblank) {
-            this.checkDefaultValidation(responsedata);
-        }
-        return responsedata;
-    };
-    // From ControlValueAccessor interface
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    AmexioRadioGroupComponent.prototype.writeValue = /**
-     * @param {?} value
-     * @return {?}
-     */
-    function (value) {
-        if (value !== this.innerValue) {
-            this.innerValue = value;
-            this.checkDefaultValidation(this.data);
-        }
-    };
-    // From ControlValueAccessor interface
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    AmexioRadioGroupComponent.prototype.registerOnChange = /**
-     * @param {?} fn
-     * @return {?}
-     */
-    function (fn) {
-        this.onChangeCallback = fn;
-    };
-    // From ControlValueAccessor interface
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    AmexioRadioGroupComponent.prototype.registerOnTouched = /**
-     * @param {?} fn
-     * @return {?}
-     */
-    function (fn) {
-        this.onTouchedCallback = fn;
-    };
-    Object.defineProperty(AmexioRadioGroupComponent.prototype, "value", {
-        // get accessor
-        get: /**
-         * @return {?}
-         */
-        function () {
-            return this.innerValue;
-        },
-        // set accessor including call the onchange callback
-        set: /**
-         * @param {?} v
-         * @return {?}
-         */
-        function (v) {
-            if (v !== this.innerValue) {
-                this.innerValue = v;
-                this.onChangeCallback(v);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    AmexioRadioGroupComponent.prototype.onBlur = /**
-     * @return {?}
-     */
-    function () {
-        this.tabFocus = false;
-        this.onTouchedCallback();
-    };
-    /**
-     * @return {?}
-     */
-    AmexioRadioGroupComponent.prototype.onFocus = /**
-     * @return {?}
-     */
-    function () {
-        this.tabFocus = true;
-    };
-    /**
-     * @param {?} row
-     * @return {?}
-     */
-    AmexioRadioGroupComponent.prototype.onClick = /**
-     * @param {?} row
-     * @return {?}
-     */
-    function (row) {
-        for (var _i = 0, _a = this.data; _i < _a.length; _i++) {
-            var r = _a[_i];
-            if (r.selected) {
-                r.selected = false;
-            }
-        }
-        for (var _b = 0, _c = this.data; _b < _c.length; _b++) {
-            var r = _c[_b];
-            if (r === row) {
-                r.selected = true;
-                this.isValid = true;
-                this.value = row[this.valuefield];
-                this.listCopy = Object.assign([], row);
-                delete this.listCopy.tabindex;
-                delete this.listCopy.radioId;
-                this.onSelection.emit(this.listCopy);
-                delete row.tabindex;
-                this.isComponentValid.emit(true);
-                this.onSelection.emit(row);
-            }
-            else {
-                r.selected = false;
-            }
-        }
-    };
-    // THIS MEHTOD CHECK INPUT IS VALID OR NOT
-    /**
-     * @return {?}
-     */
-    AmexioRadioGroupComponent.prototype.checkValidity = /**
-     * @return {?}
-     */
-    function () {
-        return this.isValid;
-    };
-    /**
-     * @param {?} c
-     * @return {?}
-     */
-    AmexioRadioGroupComponent.prototype.validate = /**
-     * @param {?} c
-     * @return {?}
-     */
-    function (c) {
-        return ((!this.allowblank && this.value) || this.allowblank) ? null : {
-            jsonParseError: {
-                valid: true,
-            },
-        };
-    };
-    AmexioRadioGroupComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-radio-group',
-                    template: "\n    <div role=\"radiogroup\" [attr.name]=\"name\" tabindex=\"1\" attr.aria-labelledby=\"{{componentId}}\" [attr.aria-disabled]=\"disabled\"\n      [attr.aria-required]=\"!allowblank\" class=\"inputgroup from-group\">\n      <div *ngIf=\"fieldlabel\">\n        <legend style=\"margin-bottom: .6rem; margin-top: 5px;\" id=\"{{componentId}}\">{{fieldlabel}}</legend>\n      </div>\n\n      <ng-container *ngIf=\"horizontal\">\n        <ng-container *ngFor=\"let rData of data let index=index\">\n          <label for=\"{{name+rData[displayfield]+index}}\" \n          [attr.aria-checked]=\"value\" \n          [attr.aria-disabled]=\"rData.disabled\"\n     \n            class=\"input-box-container\" style=\"padding-bottom:0px !important; margin: 5px !important\" (click)=\"onClick(rData)\"\n            [ngClass]=\"{'disable-component' : rData.disabled || disabled}\">\n            {{rData[displayfield]}}\n\n            <input [attr.tabindex]=\"disabled ? -1 : 1\"\n            style=\"top:0; left:0\" id=\"{{name+rData[displayfield]+index}}\"\n             type=\"radio\" \n\n              [required]=\"!allowblank\"\n               [attr.name]=\"name\" \n               [value]=\"rData?.selected ? rData[valuefield] : rData[valuefield] \"\n              [attr.disabled]=\"rData?.disabled ? true: null\" \n              (focus)=\"onFocus()\"\n              (blur)=\"onBlur()\"\n              [checked]=\"(value === rData[valuefield] || rData.selected)\">\n\n            <span class=\"input-box-radiobox-label\" [ngClass]=\"{'focusOnCheckbox':tabFocus}\" ></span>\n          </label>\n        </ng-container>\n      </ng-container>\n\n      <ng-container *ngIf=\"!horizontal\">\n        <ng-container *ngFor=\"let rData of data let index=index\">\n          <div>\n            <label for=\"{{name+rData[displayfield]+index}}\" [attr.aria-checked]=\"value\" [attr.aria-disabled]=\"rData.disabled\"\n              class=\"input-box-container\" style=\"padding-bottom:0px !important; margin: 5px !important\" (click)=\"onClick(rData)\"\n              [ngClass]=\"{'disable-component' : rData.disabled || disabled}\">{{rData[displayfield]}}\n              <input style=\"top:0; left:0\" id=\"{{name+rData[displayfield]+index}}\" type=\"radio\"\n              [attr.tabindex]=\"disabled ? -1 : 1\" [required]=\"!allowblank\" [attr.name]=\"name\" [value]=\"rData?.selected ? rData[valuefield] : rData[valuefield] \"\n              (focus)=\"onFocus()\"\n              (blur)=\"onBlur()\"\n              [attr.disabled]=\"rData?.disabled ? true: null\" [(ngModel)]=\"rData?.selected ? rData[valuefield] : value\"\n                [checked]=\"(value === rData[valuefield] || rData.selected)\">\n              <span class=\"input-box-radiobox-label\" [ngClass]=\"{'focusOnCheckbox':tabFocus}\"></span>\n            </label>\n          </div>\n        </ng-container>\n      </ng-container>\n    </div>\n  ",
-                    providers: [{
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioRadioGroupComponent; }), multi: true,
-                        }, {
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: AmexioRadioGroupComponent, multi: true,
-                        }],
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioRadioGroupComponent.ctorParameters = function () { return [
-        { type: CommonDataService },
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"] }
-    ]; };
-    AmexioRadioGroupComponent.propDecorators = {
-        allowblank: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['allow-blank',] }],
-        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
-        datareader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data-reader',] }],
-        httpmethod: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-method',] }],
-        httpurl: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-url',] }],
-        displayfield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['display-field',] }],
-        valuefield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['value-field',] }],
-        defaultSelectedValue: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['default-value',] }],
-        horizontal: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        onSelection: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        isComponentValid: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
-    };
-    return AmexioRadioGroupComponent;
 }(ValueAccessorBase));
 
 /**
@@ -43101,382 +48375,6 @@ var AmexioRangeSliderComponent = /** @class */ (function () {
     };
     return AmexioRangeSliderComponent;
 }());
-
-var __extends$17 = (undefined && undefined.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioRatingComponent = /** @class */ (function (_super) {
-    __extends$17(AmexioRatingComponent, _super);
-    function AmexioRatingComponent() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        /*
-          Properties
-          name : icon-class
-          datatype : string
-          version : 4.0 onwards
-          default : star-icon
-          description : Sets if custom icon class is required
-          */
-        _this.iconclass = 'star-icon';
-        /*
-          Properties
-          name : full-icon
-          datatype : string
-          version : 4.0 onwards
-          default :
-          description : 	Icon for selected rating .This attribute is useful only
-          when user have custom rating icons.example
-          */
-        _this.fullicon = '★';
-        /*
-          Properties
-          name : empty-icon
-          datatype : string
-          version : 4.0 onwards
-          default :
-          description : Icon for non-selected rating .This attribute is useful only
-          when user have custom rating icons.example
-          */
-        _this.emptyicon = '☆';
-        /*
-          Properties
-          name : titles
-          datatype : string array
-          version : 4.0 onwards
-          default : 1,2,3..
-          description : Array of titles
-          */
-        _this.titles = [];
-        _this.ratingRangeData = [];
-        // -------------------------------------------------------------------------
-        // Outputs
-        // -------------------------------------------------------------------------
-        /*
-          Events
-          name : onHover
-          datatype : any
-          version : 4.0 onwards
-          default :
-          description : Fires on hovering component
-          */
-        _this.onHover = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-          Events
-          name : onLeave
-          datatype : any
-          version : 4.0 onwards
-          default :
-          description : fires on leaving component and returns its value
-          */
-        _this.onLeave = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        _this.hovered = 0;
-        _this.hoveredPercent = undefined;
-        _this._max = 5;
-        return _this;
-    }
-    Object.defineProperty(AmexioRatingComponent.prototype, "max", {
-        get: /**
-         * @return {?}
-         */
-        function () {
-            return this._max;
-        },
-        /*
-        Properties
-        name : max
-        datatype : number
-        version : 4.0 onwards
-        default :
-        description : Number of stars for rating component.
-        */
-        set: /**
-         * @param {?} max
-         * @return {?}
-         */
-        function (max) {
-            this._max = max;
-            this.buildRanges();
-        },
-        enumerable: true,
-        configurable: true
-    });
-    // -------------------------------------------------------------------------
-    // Implemented from ControlValueAccessor
-    // -------------------------------------------------------------------------
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.writeValue = /**
-     * @param {?} value
-     * @return {?}
-     */
-    function (value) {
-        this.model = value;
-        this.setAttribute(value);
-    };
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.registerOnChange = /**
-     * @param {?} fn
-     * @return {?}
-     */
-    function (fn) {
-        this.onChange = fn;
-    };
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.registerOnTouched = /**
-     * @param {?} fn
-     * @return {?}
-     */
-    function (fn) {
-        this.onTouched = fn;
-    };
-    // -------------------------------------------------------------------------
-    // Implemented from Va..
-    // -------------------------------------------------------------------------
-    /**
-     * @param {?} c
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.validate = /**
-     * @param {?} c
-     * @return {?}
-     */
-    function (c) {
-        if (this.required && !c.value) {
-            return {
-                required: true,
-            };
-        }
-        return null;
-    };
-    // -------------------------------------------------------------------------
-    // Lifecycle callbacks
-    // -------------------------------------------------------------------------
-    /**
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.componentId = this.createCompId('rating', this.fieldlabel);
-        this.starId = 'star' + Math.floor(Math.random() * 1000 + 999);
-        for (var /** @type {?} */ i = 0; i < this.ratingRange.length; i++) {
-            var /** @type {?} */ obj = {};
-            obj['number'] = i + 1;
-            obj['selected'] = false;
-            obj['tabindex'] = '-1';
-            this.ratingRangeData.push(obj);
-        }
-        this.buildRanges();
-    };
-    // -------------------------------------------------------------------------
-    // Public Methods
-    // -------------------------------------------------------------------------
-    /**
-     * @param {?} item
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.calculateWidth = /**
-     * @param {?} item
-     * @return {?}
-     */
-    function (item) {
-        if (this.hovered > 0) {
-            if (this.hoveredPercent !== undefined && this.hovered === item) {
-                return this.hoveredPercent;
-            }
-            else {
-                return this.hovered >= item ? 100 : 0;
-            }
-        }
-        else {
-            return this.model >= item ? 100 : 100 - Math.round((item - this.model) * 10) * 10;
-        }
-    };
-    /**
-     * @param {?} hovered
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.setHovered = /**
-     * @param {?} hovered
-     * @return {?}
-     */
-    function (hovered) {
-        if (!this.readonly && !this.disabled) {
-            this.hovered = hovered;
-            this.onHover.emit(hovered);
-            this.ratingMethod(hovered);
-        }
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.changeHovered = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        if (!this.float) {
-            return;
-        }
-        var /** @type {?} */ target = /** @type {?} */ (event.target);
-        var /** @type {?} */ relativeX = event.pageX - target.offsetLeft;
-        var /** @type {?} */ percent = Math.round((relativeX * 100 / target.offsetWidth) / 10) * 10;
-        this.hoveredPercent = percent > 50 ? 100 : 50;
-    };
-    /**
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.resetHovered = /**
-     * @return {?}
-     */
-    function () {
-        this.hovered = 0;
-        this.hoveredPercent = undefined;
-        this.onLeave.emit(this.hovered);
-    };
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.rate = /**
-     * @param {?} value
-     * @return {?}
-     */
-    function (value) {
-        if (!this.readonly && !this.disabled && value >= 0 && value <= this.ratingRange.length) {
-            this.setAttribute(value);
-            var /** @type {?} */ newValue = this.hoveredPercent ? (value - 1) + this.hoveredPercent / 100 : value;
-            this.onChange(newValue);
-            this.model = newValue;
-        }
-    };
-    /**
-     * @param {?} item
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.rate1 = /**
-     * @param {?} item
-     * @return {?}
-     */
-    function (item) {
-        this.ratingMethod(item);
-    };
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.setAttribute = /**
-     * @param {?} value
-     * @return {?}
-     */
-    function (value) {
-        this.ratingRangeData.forEach(function (element) {
-            element.selected = false;
-            element.tabindex = '-1';
-            if (value >= element.number) {
-                element.selected = true;
-            }
-            if (value === element.number) {
-                element.tabindex = 0;
-            }
-        });
-    };
-    /**
-     * @param {?} item
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.ratingMethod = /**
-     * @param {?} item
-     * @return {?}
-     */
-    function (item) {
-        this.ratingRangeData.forEach(function (element) {
-            element.selected = false;
-            if (item + 1 >= element.number) {
-                element.selected = true;
-            }
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.buildRanges = /**
-     * @return {?}
-     */
-    function () {
-        this.ratingRange = this.range(1, this.max);
-    };
-    /**
-     * @param {?} start
-     * @param {?} end
-     * @return {?}
-     */
-    AmexioRatingComponent.prototype.range = /**
-     * @param {?} start
-     * @param {?} end
-     * @return {?}
-     */
-    function (start, end) {
-        var /** @type {?} */ foo = [];
-        for (var /** @type {?} */ i = start; i <= end; i++) {
-            foo.push(i);
-        }
-        return foo;
-    };
-    AmexioRatingComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-rating-input',
-                    template: "\n    <div tabindex=\"1\" role=\"radiogroup\" attr.aria-labelledby=\"{{componentId}}\" class=\"inputgroup\">\n      <ng-container *ngIf=\"fieldlabel\">\n        <legend id=\"{{componentId}}\">\n          {{fieldlabel}}\n        </legend>\n      </ng-container>\n\n      <div (mouseleave)=\"resetHovered()\" class=\"rating\" [class.disabled]=\"disabled\" [class.readonly]=\"readonly\">\n        <span *ngFor=\"let item of ratingRangeData; let index = index\">\n          <input (keyup.space)=\"rate1(index)\" style=\"top:0; left:0; position: absolute;\n            opacity: 0;\n            cursor: pointer;\"\n            value=\"{{model}}\" id=\"{{starId}}{{index}}\" [attr.aria-checked]=\"item.selected\" type=\"radio\" name=\"rating\" role=\"radio\">\n\n          <label for=\"{{starId}}{{index}}\" style=\"display: inline-flex;\">\n            <em [ngStyle]=\"{'cursor': readonly ? 'not-allowed' : 'pointer'}\" role=\"tooltip\" [attr.tabindex]=\"item.tabindex\"\n              (mouseenter)=\"setHovered(item.number)\" attr.aria-label=\"Star {{index+1}}\" (click)=\"rate(item.number)\"\n              [attr.data-icon]=\"fullicon\" class=\"{{ iconclass }} half{{(item.selected? 100 : 0) }}\" [title]=\"titles[index] || item.number\">{{\n              emptyicon }}</em>\n          </label>\n\n        </span>\n      </div>\n    </div>\n  ",
-                    providers: [{
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"],
-                            useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioRatingComponent; }),
-                            multi: true,
-                        },
-                        {
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"],
-                            useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioRatingComponent; }),
-                            multi: true,
-                        },
-                    ],
-                },] },
-    ];
-    AmexioRatingComponent.propDecorators = {
-        iconclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-class',] }],
-        fullicon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['full-icon',] }],
-        emptyicon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['empty-icon',] }],
-        readonly: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['read-only',] }],
-        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        required: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        float: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
-        titles: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        max: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        onHover: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        onLeave: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
-    };
-    return AmexioRatingComponent;
-}(AmexioFormValidator));
 
 /**
  * @fileoverview added by tsickle
@@ -45196,7 +50094,7 @@ var AmexioSpinnerComponent = /** @class */ (function () {
     return AmexioSpinnerComponent;
 }());
 
-var __extends$18 = (undefined && undefined.__extends) || (function () {
+var __extends$22 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -45228,7 +50126,7 @@ var __extends$18 = (undefined && undefined.__extends) || (function () {
 * Created by pratik on 20/12/17.
 */
 var AmexioTagsInputComponent = /** @class */ (function (_super) {
-    __extends$18(AmexioTagsInputComponent, _super);
+    __extends$22(AmexioTagsInputComponent, _super);
     function AmexioTagsInputComponent(displayFieldService, dataService, element, renderer, _cd) {
         var _this = _super.call(this, renderer, element, _cd) || this;
         _this.displayFieldService = displayFieldService;
@@ -45767,7 +50665,7 @@ var AmexioTagsInputComponent = /** @class */ (function (_super) {
     return AmexioTagsInputComponent;
 }(EventBaseComponent));
 
-var __extends$19 = (undefined && undefined.__extends) || (function () {
+var __extends$23 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -45798,7 +50696,7 @@ var __extends$19 = (undefined && undefined.__extends) || (function () {
 *
 */
 var AmexioTextAreaComponent = /** @class */ (function (_super) {
-    __extends$19(AmexioTextAreaComponent, _super);
+    __extends$23(AmexioTextAreaComponent, _super);
     function AmexioTextAreaComponent() {
         var _this = _super.call(this) || this;
         /*
@@ -45993,436 +50891,6 @@ var AmexioTextAreaComponent = /** @class */ (function (_super) {
     };
     return AmexioTextAreaComponent;
 }(ValueAccessorBase));
-
-var __extends$20 = (undefined && undefined.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
-var AmexioTextInputComponent = /** @class */ (function (_super) {
-    __extends$20(AmexioTextInputComponent, _super);
-    function AmexioTextInputComponent() {
-        var _this = _super.call(this) || this;
-        /*
-        Properties
-        name : icon-feedback
-        datatype : boolean
-        version : 4.0 onwards
-        default :false
-        description :
-        */
-        _this.iconfeedback = false;
-        /*
-        Properties
-        name : has-label
-        datatype : boolean
-        version : 4.0 onwards
-        default : false
-        description : Flag to set label
-        */
-        _this.haslabel = true;
-        _this.isValid = false;
-        /*
-         Events
-         name : onBlur
-         datatype : any
-         version : 4.0 onwards
-         default :
-         description : On blur event
-         */
-        _this.onBlur = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Events
-        name : input
-        datatype : any
-        version : none
-        default :
-        description :   On input event field.
-        */
-        _this.input = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Events
-        name : focus
-        datatype : any
-        version : none
-        default :
-        description : On focus event field.
-        */
-        _this.focus = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Events
-        name : change
-        datatype : any
-        version : none
-        default :
-        description : On field value change event
-        */
-        _this.change = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        _this.showToolTip = false;
-        return _this;
-    }
-    Object.defineProperty(AmexioTextInputComponent.prototype, "pattern", {
-        get: /**
-         * @return {?}
-         */
-        function () {
-            return this._pattern;
-        },
-        /*
-      Properties
-      name : pattern
-      datatype : string
-      version : 4.0 onwards
-      default :
-      description : Apply Reg-ex to the field
-      */
-        set: /**
-         * @param {?} value
-         * @return {?}
-         */
-        function (value) {
-            if (value != null) {
-                this._pattern = value;
-                this.regEx = new RegExp(this._pattern);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    AmexioTextInputComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.componentId = this.createCompId('textinput', this.name);
-        this.name = this.generateName(this.name, this.fieldlabel, 'textinput');
-    };
-    // THIS METHOD USED FOR BLUR EVENT.
-    /**
-     * @return {?}
-     */
-    AmexioTextInputComponent.prototype.onBlurEvent = /**
-     * @return {?}
-     */
-    function () {
-        this.showToolTip = false;
-        this.onBlur.emit(this.value);
-    };
-    // THIS METHOD USED FOR FOCUS EVENT .
-    /**
-     * @return {?}
-     */
-    AmexioTextInputComponent.prototype.onFocusEvent = /**
-     * @return {?}
-     */
-    function () {
-        this.showToolTip = true;
-        this.focus.emit(this.value);
-    };
-    // THIS METHOD USED FOR  INPUT EVENT .
-    /**
-     * @return {?}
-     */
-    AmexioTextInputComponent.prototype.onInput = /**
-     * @return {?}
-     */
-    function () {
-        this.isValid = this.isFieldValid();
-        this.input.emit(this.value);
-    };
-    // THIS METHOD USED FOR CHANGE EVENT  .
-    /**
-     * @return {?}
-     */
-    AmexioTextInputComponent.prototype.onChangeEv = /**
-     * @return {?}
-     */
-    function () {
-        this.change.emit(this.value);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTextInputComponent.prototype.isFieldValid = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ valid;
-        valid = (!this.allowblank && (this.value && ((this.value.length >= this.minlength) && this.value.length > 0)) ||
-            (!this.minlength && this.value && this.value.length > 0)) || this.allowblank;
-        return valid;
-    };
-    /**
-     * @param {?} c
-     * @return {?}
-     */
-    AmexioTextInputComponent.prototype.validate = /**
-     * @param {?} c
-     * @return {?}
-     */
-    function (c) {
-        return this.isFieldValid() ? null : {
-            jsonParseError: {
-                valid: true,
-            },
-        };
-    };
-    AmexioTextInputComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-text-input',
-                    template: "\n    <div class=\"inputgroup\">\n\n        <label *ngIf=\"haslabel\" role=\"input\" id=\"{{componentId}}\"  for=\"{{componentId}}\" [style.font-style]=\"fontstyle\" [style.font-family]=\"fontfamily\" [style.font-size]=\"fontsize\">\n          {{fieldlabel}}\n      </label>\n        <input type=\"text\" \n\n            role=\"text\" \n            tabindex=\"1\"\n            id=\"{{componentId}}\" \n            name=\"textID\"\n            attr.aria-labelledby=\"{{componentId}}\"\n            aria-describedby=\"textDec\"\n            [attr.aria-required]=\"!allowblank\"\n            [attr.aria-invalid]=\"!isValid \"\n\n\n\n            class=\"input-control\" \n            [ngClass]=\"model.touched ? allowblank ? '' : (isValid && model.touched) ? 'input-control-success' : 'input-control-error' :''\" \n            [(ngModel)]=\"value\"\n            (blur)=\"onBlurEvent()\" \n            (focus)=\"onFocusEvent()\" \n            (input)=\"onInput()\"\n            (change)=\"onChangeEv()\"\n            [name]=\"name\" \n            [pattern]=\"regEx\" \n            [attr.placeholder]=\"placeholder\" \n            [maxlength]=\"maxlength\" \n            [minlength]=\"minlength\" \n            [attr.disabled]=\"disabled ? true: null\"\n            [required]=\"!allowblank\" />\n\n        <ng-container *ngIf=\"iconfeedback\">\n            <span class=\"input-control-feedback\">\n              <span *ngIf=\"!isValid && model.touched\"><em class=\"fa fa-times\"></em></span>\n            <span *ngIf=\"isValid && model.touched\"><em class=\"fa fa-check\"></em></span>\n            </span>\n        </ng-container>\n\n          <input-help *ngIf=\"showToolTip && enablepopover\" \n\n          id=\"textDec\"\n          role=\"tooltip\"\n\n          [error-msg]=\"errormsg\" \n          [min-msg]=\"minmsg\" \n          [max-error-msg]=\"maxerrormsg\"\n          [min-error-msg]=\"minerrormsg\"\n          [min-length]=\"minlength\"\n          [max-length]=\"maxlength\"\n          [max-msg]=\"maxmsg\">\n          </input-help>\n   \n        <span class=\"inputfieldbar\"></span>\n    </div>\n  ",
-                    providers: [{
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioTextInputComponent; }), multi: true,
-                        }, {
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioTextInputComponent; }), multi: true,
-                        }],
-                    encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].None,
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioTextInputComponent.ctorParameters = function () { return []; };
-    AmexioTextInputComponent.propDecorators = {
-        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
-        minlength: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['min-length',] }],
-        maxlength: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['max-length',] }],
-        allowblank: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['allow-blank',] }],
-        minerrormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['min-error-msg',] }],
-        maxerrormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['max-error-msg',] }],
-        errormsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['error-msg',] }],
-        placeholder: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['place-holder',] }],
-        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        iconfeedback: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-feedback',] }],
-        fontstyle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-style',] }],
-        fontfamily: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-family',] }],
-        fontsize: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-size',] }],
-        haslabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['has-label',] }],
-        pattern: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['pattern',] }],
-        enablepopover: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-popover',] }],
-        model: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"],] }],
-        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['name',] }],
-        onBlur: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        input: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        focus: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        change: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
-    };
-    return AmexioTextInputComponent;
-}(ValueAccessorBase));
-
-var __extends$21 = (undefined && undefined.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var noop$9 = function () {
-};
-var AmexioToggleComponent = /** @class */ (function (_super) {
-    __extends$21(AmexioToggleComponent, _super);
-    function AmexioToggleComponent() {
-        var _this = _super.call(this) || this;
-        _this.onChange = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        _this.isComponentValid = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        _this.innerValue = '';
-        _this.onTouchedCallback = noop$9;
-        _this.onChangeCallback = noop$9;
-        return _this;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioToggleComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.componentId = this.createCompId('togglebtn', this.fieldlabel);
-        this.toggleId = this.createCompId('toggleId', this.fieldlabel);
-        if (this.shape === '' || this.shape == null) {
-            this.shape = 'round';
-        }
-        this.isValid = !this.required;
-        this.isComponentValid.emit(false);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioToggleComponent.prototype.onToggle = /**
-     * @return {?}
-     */
-    function () {
-        this.checked = !this.checked;
-        this.value = this.checked;
-        this.isValid = this.value;
-        this.isComponentValid.emit(this.value);
-        this.onChange.emit(this.value);
-    };
-    Object.defineProperty(AmexioToggleComponent.prototype, "value", {
-        // get accessor
-        get: /**
-         * @return {?}
-         */
-        function () {
-            return this.innerValue;
-        },
-        // set accessor including call the onchange callback
-        set: /**
-         * @param {?} v
-         * @return {?}
-         */
-        function (v) {
-            if (v !== this.innerValue) {
-                this.innerValue = v;
-                this.onChangeCallback(v);
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    // Set touched on blur
-    /**
-     * @return {?}
-     */
-    AmexioToggleComponent.prototype.onBlur = /**
-     * @return {?}
-     */
-    function () {
-        this.onTouchedCallback();
-    };
-    // From ControlValueAccessor interface
-    /**
-     * @param {?} value
-     * @return {?}
-     */
-    AmexioToggleComponent.prototype.writeValue = /**
-     * @param {?} value
-     * @return {?}
-     */
-    function (value) {
-        if (value && value !== this.innerValue) {
-            this.isValid = value;
-        }
-        if (!value && value !== this.innerValue) {
-            this.isValid = value;
-        }
-        this.innerValue = value;
-    };
-    // From ControlValueAccessor interface
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    AmexioToggleComponent.prototype.registerOnChange = /**
-     * @param {?} fn
-     * @return {?}
-     */
-    function (fn) {
-        this.onChangeCallback = fn;
-    };
-    // From ControlValueAccessor interface
-    /**
-     * @param {?} fn
-     * @return {?}
-     */
-    AmexioToggleComponent.prototype.registerOnTouched = /**
-     * @param {?} fn
-     * @return {?}
-     */
-    function (fn) {
-        this.onTouchedCallback = fn;
-    };
-    // THIS MEHTOD CHECK INPUT IS VALID OR NOT
-    /**
-     * @return {?}
-     */
-    AmexioToggleComponent.prototype.checkValidity = /**
-     * @return {?}
-     */
-    function () {
-        return this.isValid;
-    };
-    /**
-     * @param {?} c
-     * @return {?}
-     */
-    AmexioToggleComponent.prototype.validate = /**
-     * @param {?} c
-     * @return {?}
-     */
-    function (c) {
-        return ((this.required && this.value) || !this.required) ? null : {
-            jsonParseError: {
-                valid: true,
-            },
-        };
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioToggleComponent.prototype.onEventFilter = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        this.onToggle();
-    };
-    AmexioToggleComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-toggle',
-                    template: "\n    <div  id=\"{{componentId}}\" class=\"inputgroup\">\n      {{fieldlabel}}\n\n      <label  role=\"switch\" attr.aria-labelledby=\"{{componentId}}\" [attr.aria-checked]=\"checked\" tabindex=\"1\" for=\"{{toggleId}}\" \n      class=\"toggle\" \n      (keyup.space)=\"onEventFilter($event)\">\n\n        <input id=\"{{toggleId}}\" type=\"checkbox\"\n         style=\"top:0; left:0\" \n         [attr.checked]=\"checked\"\n         data-check-switch = \"\"\n          [attr.aria-required]=\"required\"\n          #rangeHndl \n          [(ngModel)]=\"value\"\n          (blur)=\"onBlur()\"\n          [attr.aria-checked]=\"checked\" \n          (change)=\"onToggle()\">\n        <span class=\"toggle-slider {{shape}}\">\n        </span>\n      </label>\n    </div>\n  ",
-                    providers: [{
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioToggleComponent; }), multi: true,
-                        }, {
-                            provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALIDATORS"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioToggleComponent; }), multi: true,
-                        }],
-                    encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].None,
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioToggleComponent.ctorParameters = function () { return []; };
-    AmexioToggleComponent.propDecorators = {
-        shape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
-        required: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        onChange: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        isComponentValid: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
-    };
-    return AmexioToggleComponent;
-}(AmexioFormValidator));
 
 /**
  * @fileoverview added by tsickle
@@ -46700,7 +51168,7 @@ var ToolBarActionComponent = /** @class */ (function () {
     return ToolBarActionComponent;
 }());
 
-var __extends$24 = (undefined && undefined.__extends) || (function () {
+var __extends$26 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -46733,7 +51201,7 @@ var __extends$24 = (undefined && undefined.__extends) || (function () {
  * @template T
  */
 var BaseInput = /** @class */ (function (_super) {
-    __extends$24(BaseInput, _super);
+    __extends$26(BaseInput, _super);
     function BaseInput() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
@@ -46810,7 +51278,7 @@ var BaseInput = /** @class */ (function (_super) {
     return BaseInput;
 }(ValueAccessorBase));
 
-var __extends$23 = (undefined && undefined.__extends) || (function () {
+var __extends$25 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -46843,7 +51311,7 @@ var __extends$23 = (undefined && undefined.__extends) || (function () {
  * @template T
  */
 var ListBaseComponent = /** @class */ (function (_super) {
-    __extends$23(ListBaseComponent, _super);
+    __extends$25(ListBaseComponent, _super);
     function ListBaseComponent(renderer, element, cd) {
         var _this = _super.call(this) || this;
         _this.renderer = renderer;
@@ -46953,7 +51421,7 @@ var ListBaseComponent = /** @class */ (function (_super) {
     return ListBaseComponent;
 }(BaseInput));
 
-var __extends$22 = (undefined && undefined.__extends) || (function () {
+var __extends$24 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -46985,7 +51453,7 @@ var __extends$22 = (undefined && undefined.__extends) || (function () {
 * Created by ketangote on 11/21/17
 */
 var AmexioTypeAheadComponent = /** @class */ (function (_super) {
-    __extends$22(AmexioTypeAheadComponent, _super);
+    __extends$24(AmexioTypeAheadComponent, _super);
     function AmexioTypeAheadComponent(displayFieldService, dataService, element, renderer, cd) {
         var _this = _super.call(this, renderer, element, cd) || this;
         _this.displayFieldService = displayFieldService;
@@ -47813,7 +52281,7 @@ var AmexioAccordionTabComponent = /** @class */ (function () {
     return AmexioAccordionTabComponent;
 }());
 
-var __extends$25 = (undefined && undefined.__extends) || (function () {
+var __extends$27 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -47844,7 +52312,7 @@ var __extends$25 = (undefined && undefined.__extends) || (function () {
 *
 */
 var AmexioAccordionComponent = /** @class */ (function (_super) {
-    __extends$25(AmexioAccordionComponent, _super);
+    __extends$27(AmexioAccordionComponent, _super);
     function AmexioAccordionComponent() {
         var _this = _super.call(this) || this;
         _this.flag = false;
@@ -48460,245 +52928,7 @@ var AmexioBoxComponent = /** @class */ (function () {
     return AmexioBoxComponent;
 }());
 
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
- * Copyright [2019] [Metamagic]
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * Created by pratik on 18/12/17.
- */
-var AmexioHeaderComponent = /** @class */ (function () {
-    function AmexioHeaderComponent() {
-        this.className = 'modal-window-header';
-        this.jstyfy = 'space-between';
-        this.background = '';
-        this.color = '';
-        this.closeable = false;
-        this.maximize = false;
-        this.isFullWindow = false;
-        this.closeableBehaiour = new rxjs_6(false);
-        this.maximizeBehaiour = new rxjs_6(false);
-    }
-    /**
-     * @return {?}
-     */
-    AmexioHeaderComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @param {?} maximize
-     * @param {?} isFullWindow
-     * @return {?}
-     */
-    AmexioHeaderComponent.prototype.setMaximizeData = /**
-     * @param {?} maximize
-     * @param {?} isFullWindow
-     * @return {?}
-     */
-    function (maximize, isFullWindow) {
-        this.maximize = maximize;
-        this.isFullWindow = isFullWindow;
-        this.maximizeBehaiour.next(this.isFullWindow);
-    };
-    /**
-     * @param {?} materialDesign
-     * @return {?}
-     */
-    AmexioHeaderComponent.prototype.setMaterialDesignStatus = /**
-     * @param {?} materialDesign
-     * @return {?}
-     */
-    function (materialDesign) {
-        if (materialDesign) {
-            this.background = 'white';
-            this.color = 'black';
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioHeaderComponent.prototype.sizeChange = /**
-     * @return {?}
-     */
-    function () {
-        this.isFullWindow = !this.isFullWindow;
-        this.maximizeBehaiour.next(this.isFullWindow);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioHeaderComponent.prototype.onCloseClick = /**
-     * @return {?}
-     */
-    function () {
-        this.closeableBehaiour.next(false);
-    };
-    AmexioHeaderComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-header', template: "\n  <ng-content></ng-content>\n  <span>\n  <amexio-c-icon class=\"cursor-style\" *ngIf=\"(isFullWindow && maximize )\"\n  [key]=\"'window_maximize'\" (onClick)=\"sizeChange()\"></amexio-c-icon>\n  <amexio-c-icon class=\"cursor-style\" *ngIf=\"(!isFullWindow && maximize )\"\n  [key]=\"'window_restore'\" (click)=\"sizeChange()\"></amexio-c-icon>\n  <amexio-c-icon class=\"cursor-style\"\n  style = \"padding-left: 10px\"\n  *ngIf=\"closeable\" [key]=\"'window_close'\" (onClick)=\"onCloseClick()\"></amexio-c-icon>\n  </span>\n  ",
-                    styles: [
-                        "\n  .cursor-style {\n  cursor:pointer;\n  }\n  ",
-                    ],
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioHeaderComponent.ctorParameters = function () { return []; };
-    AmexioHeaderComponent.propDecorators = {
-        className: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
-        jstyfy: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.justify-content',] }],
-        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.background',] }],
-        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.color',] }],
-        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
-    };
-    return AmexioHeaderComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
- * Copyright [2019] [Metamagic]
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * Created by pratik on 18/12/17.
- */
-var AmexioFooterComponent = /** @class */ (function () {
-    function AmexioFooterComponent() {
-        this.className = 'modal-window-footer';
-        this.footer = false;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioFooterComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.setFooterAlignment(this.footeralign);
-    };
-    /**
-     * @param {?} footeralign
-     * @return {?}
-     */
-    AmexioFooterComponent.prototype.setFooterAlignment = /**
-     * @param {?} footeralign
-     * @return {?}
-     */
-    function (footeralign) {
-        switch (footeralign) {
-            case 'right': {
-                this.alignClass = 'flex-end';
-                break;
-            }
-            case 'center': {
-                this.alignClass = 'center';
-                break;
-            }
-            case 'left': {
-                this.alignClass = 'flex-start';
-                break;
-            }
-            default: {
-                this.alignClass = 'flex-end';
-                break;
-            }
-        }
-    };
-    AmexioFooterComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-action', template: "\n    <ng-container *ngIf=\"footer\">\n      <ng-content></ng-content>\n    </ng-container>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioFooterComponent.ctorParameters = function () { return []; };
-    AmexioFooterComponent.propDecorators = {
-        className: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
-        footeralign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['footer-align',] }],
-        alignClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.justify-content',] }],
-        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
-    };
-    return AmexioFooterComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
- * Copyright [2019] [Metamagic]
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * Created by pratik on 18/12/17.
- */
-var AmexioBodyComponent = /** @class */ (function () {
-    function AmexioBodyComponent() {
-        this.className = 'window-middle';
-    }
-    /**
-     * @return {?}
-     */
-    AmexioBodyComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.height = this.bodyHeight + '%';
-    };
-    AmexioBodyComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-body', template: "\n    <ng-content></ng-content>\n  "
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioBodyComponent.ctorParameters = function () { return []; };
-    AmexioBodyComponent.propDecorators = {
-        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.height',] }],
-        className: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
-        bodyHeight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['body-height',] }],
-        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
-    };
-    return AmexioBodyComponent;
-}());
-
-var __extends$26 = (undefined && undefined.__extends) || (function () {
+var __extends$28 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -48730,7 +52960,7 @@ var __extends$26 = (undefined && undefined.__extends) || (function () {
 * Created by ketangote on 12/18/17.
 */
 var AmexioCardComponent = /** @class */ (function (_super) {
-    __extends$26(AmexioCardComponent, _super);
+    __extends$28(AmexioCardComponent, _super);
     function AmexioCardComponent(renderer) {
         var _this = _super.call(this) || this;
         _this.renderer = renderer;
@@ -49723,7 +53953,7 @@ var SocialUserInfo = /** @class */ (function () {
     return SocialUserInfo;
 }());
 
-var __extends$27 = (undefined && undefined.__extends) || (function () {
+var __extends$29 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -49738,7 +53968,7 @@ var __extends$27 = (undefined && undefined.__extends) || (function () {
  * @suppress {checkTypes} checked by tsc
  */
 var FacebookAuthComponent = /** @class */ (function (_super) {
-    __extends$27(FacebookAuthComponent, _super);
+    __extends$29(FacebookAuthComponent, _super);
     function FacebookAuthComponent(scriptLoadService) {
         var _this = _super.call(this) || this;
         _this.scriptLoadService = scriptLoadService;
@@ -49861,7 +54091,7 @@ var FacebookAuthComponent = /** @class */ (function (_super) {
     return FacebookAuthComponent;
 }(SocialBaseComponent));
 
-var __extends$28 = (undefined && undefined.__extends) || (function () {
+var __extends$30 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -49876,7 +54106,7 @@ var __extends$28 = (undefined && undefined.__extends) || (function () {
  * @suppress {checkTypes} checked by tsc
  */
 var GoogleAuthComponent = /** @class */ (function (_super) {
-    __extends$28(GoogleAuthComponent, _super);
+    __extends$30(GoogleAuthComponent, _super);
     function GoogleAuthComponent(meta, scriptLoadService) {
         var _this = _super.call(this) || this;
         _this.meta = meta;
@@ -49998,7 +54228,7 @@ var GoogleAuthComponent = /** @class */ (function (_super) {
     return GoogleAuthComponent;
 }(SocialBaseComponent));
 
-var __extends$29 = (undefined && undefined.__extends) || (function () {
+var __extends$31 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -50031,7 +54261,7 @@ var __extends$29 = (undefined && undefined.__extends) || (function () {
  * INFO: LINKEDIN AUTH COMPONENT IS USED FOR THIRD PARTY LOGIN USING LINKEDIN OAUTH API
  */
 var LinkedInAuthComponent = /** @class */ (function (_super) {
-    __extends$29(LinkedInAuthComponent, _super);
+    __extends$31(LinkedInAuthComponent, _super);
     function LinkedInAuthComponent(scriptLoadService) {
         var _this = _super.call(this) || this;
         _this.scriptLoadService = scriptLoadService;
@@ -50266,6 +54496,7 @@ var FORM_COMPONENTS$1 = [
     AmexioBadgeComponent,
     DarkmodeComponent,
     AmexioRangeSliderComponent,
+    AmexioMultipleDatePickerComponent,
 ];
 var AmexioFormsModule = /** @class */ (function () {
     function AmexioFormsModule() {
@@ -50298,6 +54529,2220 @@ var AmexioFormsModule = /** @class */ (function () {
                 },] },
     ];
     return AmexioFormsModule;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var OverlayContainerComponent = /** @class */ (function () {
+    function OverlayContainerComponent(_renderer) {
+        this._renderer = _renderer;
+        this.show = false;
+        this.right = null;
+        this.left = null;
+        this.top = null;
+        this.bottom = null;
+        this.marginLeft = null;
+        this.height = '100%';
+        this.arrowClass = 'leftTopArrow';
+        this.width = 'auto';
+        this.bodyHeight = null;
+        this.closeonescape = true;
+    }
+    /**
+     * @return {?}
+     */
+    OverlayContainerComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @return {?}
+     */
+    OverlayContainerComponent.prototype.onClose = /**
+     * @return {?}
+     */
+    function () {
+        this.resetData();
+    };
+    /**
+     * @return {?}
+     */
+    OverlayContainerComponent.prototype.resetData = /**
+     * @return {?}
+     */
+    function () {
+        this.left = null;
+        this.top = null;
+        this.right = null;
+        this.bottom = null;
+        this.marginLeft = null;
+        this.show = false;
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    OverlayContainerComponent.prototype.toggle = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        var _this = this;
+        this.resetData();
+        this.show = !this.show;
+        this.eventRef = event;
+        if (this.show && this.closeonescape) {
+            this.globalListenFunc = this._renderer.listen('document', 'keyup.esc', function (e) {
+                _this.show = false;
+                if (_this.globalListenFunc) {
+                    _this.globalListenFunc();
+                }
+            });
+        }
+    };
+    /**
+     * @return {?}
+     */
+    OverlayContainerComponent.prototype.setRenderPositionClass = /**
+     * @return {?}
+     */
+    function () {
+        if (this.position === 'relative') {
+            this.left = null;
+            this.marginLeft = null;
+        }
+        return {
+            'bottom': this.bottom + 'px', 'margin-left': this.marginLeft + 'px',
+            'right': this.right + 'px', 'margin-top': this.top + 'px',
+            'left': this.left + 'px', 'width': this.width,
+        };
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    OverlayContainerComponent.prototype.onAnimationStart = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        if (this.show) {
+            var /** @type {?} */ positions = this.findOverlayPosition(event.element, this.eventRef.target || this.eventRef.currentTarget);
+            this.top = this.eventRef.target.offsetHeight + 20;
+            this.left = this.eventRef.pageX - this.eventRef.target.offsetWidth;
+            this.marginLeft = this.eventRef.target.offsetWidth - this.left;
+            if (positions.right) {
+                this.iconPosition = {
+                    left: '-8px',
+                    right: '',
+                };
+                this.arrowClass = 'rightTopArrow';
+                this.left = null;
+                this.right = document.body.clientWidth - this.eventRef.pageX;
+                if (positions.bottom) {
+                    this.arrowClass = 'rightBottomArrow';
+                    this.top = null;
+                    this.bottom = Math.abs(document.body.offsetHeight - this.eventRef.pageY);
+                }
+            }
+            else {
+                this.iconPosition = {
+                    right: '-8px', left: '',
+                };
+                this.arrowClass = 'leftTopArrow';
+            }
+            if (!positions.right && positions.bottom) {
+                this.arrowClass = 'leftBottomArrow';
+                this.top = null;
+                this.bottom = Math.abs(document.body.offsetHeight - this.eventRef.pageY);
+            }
+            this.renderPositionClass = this.setRenderPositionClass();
+            if (this.bodyHeight) {
+                this.height = (window.outerHeight / 100) * this.bodyHeight + 'px';
+            }
+        }
+    };
+    /**
+     * @param {?} element
+     * @param {?} target
+     * @return {?}
+     */
+    OverlayContainerComponent.prototype.findOverlayPosition = /**
+     * @param {?} element
+     * @param {?} target
+     * @return {?}
+     */
+    function (element, target) {
+        var /** @type {?} */ rightAlign = false;
+        var /** @type {?} */ bottomAlign = false;
+        var /** @type {?} */ elementOuterHeight = element.offsetParent ? element.offsetHeight : '';
+        var /** @type {?} */ targetOuterHeight = target.offsetHeight;
+        var /** @type {?} */ targetOuterWidth = target.offsetWidth;
+        var /** @type {?} */ targetOffset = target.getBoundingClientRect();
+        var /** @type {?} */ windowScrollTop = this.getWindowScrollTop();
+        var /** @type {?} */ windowScrollLeft = this.getWindowScrollLeft();
+        var /** @type {?} */ viewport = this.getViewportDetails();
+        var /** @type {?} */ top;
+        var /** @type {?} */ left;
+        if (targetOffset.top + targetOuterHeight + elementOuterHeight > viewport.height) {
+            top = targetOffset.top + windowScrollTop - elementOuterHeight;
+            if (top < 0) {
+                top = 0 + windowScrollTop;
+            }
+            bottomAlign = true;
+        }
+        else {
+            top = targetOuterHeight + targetOffset.top + windowScrollTop;
+        }
+        if (targetOffset.left + targetOuterWidth + 150 > viewport.width) {
+            rightAlign = true;
+        }
+        else {
+            left = targetOffset.left + windowScrollLeft;
+        }
+        return { topPosi: top, leftPosi: left, right: rightAlign, bottom: bottomAlign };
+    };
+    /**
+     * @return {?}
+     */
+    OverlayContainerComponent.prototype.getWindowScrollTop = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ doc = document.documentElement;
+        return (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
+    };
+    /**
+     * @return {?}
+     */
+    OverlayContainerComponent.prototype.getWindowScrollLeft = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ doc = document.documentElement;
+        return (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
+    };
+    /**
+     * @return {?}
+     */
+    OverlayContainerComponent.prototype.getViewportDetails = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ win = window;
+        var /** @type {?} */ doc = document;
+        var /** @type {?} */ ele = doc.documentElement;
+        var /** @type {?} */ body = doc.getElementsByTagName('body')[0];
+        var /** @type {?} */ widthW = win.innerWidth || ele.clientWidth || body.clientWidth;
+        var /** @type {?} */ heightW = win.innerHeight || ele.clientHeight || body.clientHeight;
+        return { width: widthW, height: heightW };
+    };
+    /**
+     * @return {?}
+     */
+    OverlayContainerComponent.prototype.ngOnDestroy = /**
+     * @return {?}
+     */
+    function () {
+        if (this.globalListenFunc) {
+            this.globalListenFunc();
+        }
+    };
+    OverlayContainerComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-overlay-container',
+                    template: "\n\n    <ng-container *ngIf=\"show\">\n      <div #overlay class=\"overlayContainer {{arrowClass}}\"\n           [ngStyle]=\"renderPositionClass\"\n           [@animation]=\"{value: 'show'}\"\n           (@animation.start)=\"onAnimationStart($event)\">\n        <i *ngIf=\"closable\"\n           class=\"fa fa-times-circle-o iconClass \" [ngStyle]=\"iconPosition\"\n           aria-hidden=\"true\" (click)=\"onClose()\"></i>\n        <div class=\"containerClass\" [style.height]=\"height\">\n          <ng-content></ng-content>\n        </div>\n      </div>\n    </ng-container>\n\n\n\n\n\n  \n  ",
+                    animations: [
+                        trigger('animation', [
+                            state('void', style({
+                                transform: 'translateY(5%)',
+                                opacity: 0,
+                            })),
+                            state('show', style({
+                                transform: 'translateY(0)',
+                                opacity: 1,
+                            })),
+                            transition('void => show', animate('200ms')),
+                            transition('show => void', animate('200ms')),
+                        ]),
+                    ],
+                },] },
+    ];
+    /** @nocollapse */
+    OverlayContainerComponent.ctorParameters = function () { return [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }
+    ]; };
+    OverlayContainerComponent.propDecorators = {
+        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['closable',] }],
+        position: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position',] }],
+        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['width',] }],
+        bodyHeight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['body-height',] }],
+        closeonescape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['close-on-escape',] }]
+    };
+    return OverlayContainerComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var PANE_COMPONENTS = [
+    AmexioHeaderComponent,
+    AmexioFooterComponent,
+    AmexioBodyComponent,
+    AmexioFieldSetComponent,
+    AmexioWindowPaneComponent,
+    AmexioWindowHeaderComponent,
+    AmexioStepsComponent,
+    AmexioTabPillComponent,
+    AmexioTabComponent,
+    AmexioVerticalTabComponent,
+    AmexioRightVerticalTabComponent,
+    AmexioCarouselComponent,
+    AmexioTemplateDirective,
+    AmexioTemplateWrapperDirective,
+    StepBlockComponent,
+    AmexioPanelComponent,
+    AmexioPanelHeaderComponent,
+    AmexiodialoguePaneComponent,
+    AmexioFormComponent,
+    AmexioFormActionComponent,
+    AmexioFormHeaderComponent,
+    AmexioFormBodyComponent,
+    AmexioFormGroupDirective,
+    AmexioTabActionComponent,
+    AmexiotimelineComponent,
+    AmexiotimelineeventComponent,
+    OverlayContainerComponent,
+];
+var AmexioPaneModule = /** @class */ (function () {
+    function AmexioPaneModule() {
+    }
+    /**
+     * @return {?}
+     */
+    AmexioPaneModule.forRoot = /**
+     * @return {?}
+     */
+    function () {
+        return {
+            ngModule: AmexioPaneModule,
+            providers: [CommonDataService, DeviceQueryService, IconLoaderService],
+        };
+    };
+    AmexioPaneModule.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"], args: [{
+                    imports: [
+                        _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
+                        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
+                        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
+                        AmexioFormsModule,
+                        HttpClientModule,
+                        AmexioBaseContextMenuModule,
+                        AmexioCommonModule,
+                    ],
+                    entryComponents: [AmexioTabPillComponent],
+                    exports: PANE_COMPONENTS,
+                    declarations: PANE_COMPONENTS,
+                    providers: [CommonDataService, DeviceQueryService, IconLoaderService],
+                },] },
+    ];
+    return AmexioPaneModule;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var TitleModel = /** @class */ (function () {
+    function TitleModel() {
+        this.centerTitle = '';
+        this.previousTitle = '';
+        this.nextTitle = '';
+    }
+    /**
+     * @param {?} prev
+     * @param {?} center
+     * @param {?} next
+     * @return {?}
+     */
+    TitleModel.prototype.setTitle = /**
+     * @param {?} prev
+     * @param {?} center
+     * @param {?} next
+     * @return {?}
+     */
+    function (prev, center, next) {
+        this.previousTitle = prev;
+        this.centerTitle = center;
+        this.nextTitle = next;
+    };
+    return TitleModel;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioCarouselCEComponent = /** @class */ (function () {
+    function AmexioCarouselCEComponent(http, dataService) {
+        this.http = http;
+        this.dataService = dataService;
+        this.currentImageIndex = 0;
+        this.titleModel = new TitleModel();
+    }
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.httpmethod && this.httpurl) {
+            this.dataService.fetchData(this.httpurl, this.httpmethod).subscribe(function (response) {
+                _this.responseData = response;
+            }, function (error) {
+            }, function () {
+                _this.setData(_this.responseData);
+            });
+        }
+        else if (this.data) {
+            this.setData(this.data);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.templates.forEach(function (item) {
+            _this.itemTemplate = item.template;
+        });
+    };
+    /**
+     * @param {?} httpResponse
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.setData = /**
+     * @param {?} httpResponse
+     * @return {?}
+     */
+    function (httpResponse) {
+        var /** @type {?} */ responsedata = httpResponse;
+        // Check if key is added?
+        if (this.datareader != null) {
+            var /** @type {?} */ dr = this.datareader.split('.');
+            for (var _i = 0, dr_1 = dr; _i < dr_1.length; _i++) {
+                var ir = dr_1[_i];
+                responsedata = responsedata[ir];
+            }
+        }
+        else {
+            responsedata = httpResponse;
+        }
+        this.imageData = responsedata;
+        this.titleModel.previousTitle = this.imageData[this.imageData.length - 1].title ? this.imageData[this.imageData.length - 1].title : '';
+        this.titleModel.centerTitle = this.imageData[0].title ? this.imageData[0].title : '';
+        this.titleModel.nextTitle = this.imageData[1].title ? this.imageData[1].title : '';
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.dividedPreviousMethod = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.imageData.forEach(function (element, index) {
+            if (element && element.active) {
+                _this.currentImageIndex = index;
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.previousClick = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.dividedPreviousMethod();
+        if (this.currentImageIndex === 0) {
+            this.previousClickMethod();
+        }
+        else {
+            this.imageData.forEach(function (element, index) {
+                if (index === _this.currentImageIndex - 1) {
+                    var /** @type {?} */ duplicateIndex = _this.currentImageIndex - 1;
+                    _this.imageData[duplicateIndex].active = true;
+                    if (_this.imageData[duplicateIndex] && _this.imageData[duplicateIndex - 1] &&
+                        _this.imageData[duplicateIndex].title && _this.imageData[duplicateIndex + 1].title) {
+                        _this.titleModel.setTitle(_this.imageData[duplicateIndex - 1].title, _this.imageData[duplicateIndex].title, _this.imageData[duplicateIndex + 1].title);
+                    }
+                }
+                else {
+                    _this.imageData[index].active = false;
+                }
+            });
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.previousClickMethod = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.imageData[this.currentImageIndex].active = true;
+        var /** @type {?} */ lastIndex = this.imageData.length - 1;
+        this.currentImageIndex = this.imageData.length - 1;
+        this.imageData.forEach(function (element, index) {
+            if (index === _this.currentImageIndex) {
+                _this.imageData[index].active = true;
+                if (_this.imageData[lastIndex] && _this.imageData[lastIndex].title) {
+                    _this.titleModel.setTitle(_this.imageData[lastIndex - 1].title, _this.imageData[0].title, _this.imageData[lastIndex].title);
+                }
+            }
+            else {
+                _this.imageData[index]['active'] = false;
+            }
+        });
+    };
+    /**
+     * @param {?} i
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.onPreBtnHover = /**
+     * @param {?} i
+     * @return {?}
+     */
+    function (i) {
+        if (i === 0) {
+            this.preImagePath = this.imageData[this.imageData.length - 1].imagepath;
+        }
+        else {
+            var /** @type {?} */ ind = i - 1;
+            this.preImagePath = this.imageData[ind].imagepath;
+        }
+    };
+    /**
+     * @param {?} i
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.onNextBtnHover = /**
+     * @param {?} i
+     * @return {?}
+     */
+    function (i) {
+        if (i === 0) {
+            var /** @type {?} */ ind = i + 1;
+            this.nextImagePath = this.imageData[ind].imagepath;
+        }
+        else {
+            var /** @type {?} */ ind = i + 1;
+            if (ind === this.imageData.length) {
+                this.nextImagePath = this.imageData[0].imagepath;
+            }
+            else {
+                this.nextImagePath = this.imageData[ind].imagepath;
+            }
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.nextClick = /**
+     * @return {?}
+     */
+    function () {
+        this.dividedPreviousMethod();
+        if (this.currentImageIndex === 0) {
+            this.currentImageIndex = 1;
+            this.imageData[this.currentImageIndex].active = true;
+            this.setFlag();
+        }
+        else {
+            if (this.currentImageIndex === this.imageData.length - 1) {
+                this.currentImageIndex = 0;
+            }
+            else {
+                this.currentImageIndex++;
+            }
+            this.setFlag();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCarouselCEComponent.prototype.setFlag = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.imageData.forEach(function (element, index) {
+            if (index === _this.currentImageIndex) {
+                _this.imageData[index].active = true;
+            }
+            else {
+                _this.imageData[index]['active'] = false;
+            }
+        });
+    };
+    AmexioCarouselCEComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-carousel-ce',
+                    template: "\n    <div class=\"wrapper\" #tab>\n        <div *ngFor=\"let item of imageData ;let i=index\">\n            <ng-container *ngIf=\"item.active\">\n\n                <div class=\"ce-caroueslslideshow\" [ngStyle]=\"{'visibility':item.active ? 'visible':'hidden'}\">\n                    <div class=\"ce-caroueslimages\">\n\n                        <amexio-image path=\"{{item.imagepath}}\">\n                        </amexio-image>\n                    </div>\n                    <div [ngClass]=\"{'ce-carousel-textdata-left': position =='left',\n                                            'ce-carousel-textdata-right':position == 'right',\n                                            'ce-carousel-textdata-center': position == 'center'}\">\n                        <ng-template tabindex=\"1\" [amexioTemplateWrapper]=\"itemTemplate\" [item]=\"item\"></ng-template>\n                    </div>\n\n                    <div class=\"ce-caroueslbar\">\n                        <div class=\"ce-caroueslnav\">\n                            <a class=\"ce-caroueslnav-prev\">\n                                <span>Previous</span>\n                                <div (click)=\"previousClick()\" (mouseenter)=\"onPreBtnHover(i)\">\n                                    <amexio-image [path]='preImagePath'>\n                                    </amexio-image>\n                                </div>\n                            </a>\n                            <a class=\"ce-caroueslnav-next\">\n                                <span>Next</span>\n                                <div (click)=\"nextClick()\" (mouseenter)=\"onNextBtnHover(i)\">\n                                    <amexio-image [path]=\"nextImagePath\">\n                                    </amexio-image>\n                                </div>\n                            </a>\n                        </div>\n\n                        <div class=\"ce-caroueslnav-content\">\n                            <div class=\"ce-caroueslnav-content-prev\">\n                                <span> {{titleModel.previousTitle}}</span>\n                            </div>\n                            <div class=\"ce-caroueslnav-content-current\">\n                                <amexio-label>\n                                    {{titleModel.centerTitle}}\n                                </amexio-label>\n                            </div>\n                            <div class=\"ce-caroueslnav-content-next\">\n                                <span> {{titleModel.nextTitle}}</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </ng-container>\n        </div>\n    </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioCarouselCEComponent.ctorParameters = function () { return [
+        { type: HttpClient },
+        { type: CommonDataService }
+    ]; };
+    AmexioCarouselCEComponent.propDecorators = {
+        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        httpurl: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-url',] }],
+        datareader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data-reader',] }],
+        httpmethod: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['http-method',] }],
+        position: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position',] }],
+        templates: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTemplateDirective,] }],
+        tabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tab', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }]
+    };
+    return AmexioCarouselCEComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var ProgressModel = /** @class */ (function () {
+    function ProgressModel(firstDegree, secondDegree, progresscolor, inactiveprogresscolor) {
+        this.firstDegree = firstDegree;
+        this.secondDegree = secondDegree;
+        this.progresscolor = progresscolor;
+        this.inactiveprogresscolor = inactiveprogresscolor;
+    }
+    /**
+     * @return {?}
+     */
+    ProgressModel.prototype.getStyle = /**
+     * @return {?}
+     */
+    function () {
+        if (parseFloat(this.firstDegree) > -90 && parseFloat(this.firstDegree) < 90) {
+            return {
+                'background-image': 'linear-gradient( ' + this.firstDegree + ', ' + this.progresscolor +
+                    ' 50%, transparent 50%, transparent), linear-gradient(' + this.secondDegree + ', ' + this.progresscolor +
+                    ' 50%,' + this.inactiveprogresscolor + ' 50%, ' + this.inactiveprogresscolor + ')',
+            };
+        }
+        else {
+            return {
+                'background-image': 'linear-gradient( ' + this.firstDegree + ', ' + this.inactiveprogresscolor +
+                    ' 50%, transparent 50%, transparent), linear-gradient(' + this.secondDegree + ', ' + this.progresscolor +
+                    ' 50%,' + this.inactiveprogresscolor + ' 50%, ' + this.inactiveprogresscolor + ')',
+            };
+        }
+    };
+    return ProgressModel;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioProgressCEComponent = /** @class */ (function () {
+    function AmexioProgressCEComponent() {
+        /*
+             Properties
+             name : font-size
+             datatype : string
+             version : 5.6.0 onwards
+             default :
+             description : Set size to label of progress bar.
+             */
+        this.size = '30px';
+        /*
+             Properties
+             name : background-color
+             datatype : string
+             version : 5.6.0 onwards
+             default :
+             description : Set background color to the circular creative progress bar.
+             */
+        this.background = 'rgb(242,244,245)';
+        /*
+             Properties
+             name : background-color
+             datatype : string
+             version : 5.6.0 onwards
+             default :
+             description : Set label color to the circular creative progress bar.
+             */
+        this.labelcolor = 'black';
+        /*
+             Properties
+             name : progress-color
+             datatype : string
+             version : 5.6.0 onwards
+             default : '#2ecc71'
+             description : Set progress color to the border of creative progress bar.
+             */
+        this.progresscolor = '#1565c0';
+        /*
+             Properties
+             name : inactive-progress-color
+             datatype : string
+             version : 5.6.0 onwards
+             default : '#d0d0d0'
+             description : Set inactive color to the remaining border of creative progress bar.
+             */
+        this.inactiveprogresscolor = '#cce2f5';
+        /*
+          Properties
+          name : unit
+          datatype : string
+          version : 5.6.0 onwards
+          default : '%'
+          description : Set unit to the label of progress bar.
+          */
+        this.unit = '%';
+        this.showlabel = false;
+        this.showunit = false;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioProgressCEComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.dyanmicHeightCreation();
+        this.progressBarDegreeMap = new Map();
+        this.progressBarDegreeMap.set('0', new ProgressModel('90deg', '90deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('1', new ProgressModel('90deg', '93.6deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('2', new ProgressModel('90deg', '97.2deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('3', new ProgressModel('90deg', '100.8deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('4', new ProgressModel('90deg', '104.4deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('5', new ProgressModel('90deg', '108deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('6', new ProgressModel('90deg', '111.6deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('7', new ProgressModel('90deg', '115.2deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('8', new ProgressModel('90deg', '118.8deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('9', new ProgressModel('90deg', '122.4deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('10', new ProgressModel('90deg', '126deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('11', new ProgressModel('90deg', '129.6deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('12', new ProgressModel('90deg', '133.2deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('13', new ProgressModel('90deg', '136.8deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('14', new ProgressModel('90deg', '140.4deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('15', new ProgressModel('90deg', '144deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('16', new ProgressModel('90deg', '147.6deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('17', new ProgressModel('90deg', '151.2deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('18', new ProgressModel('90deg', '154.8deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('19', new ProgressModel('90deg', '158.4deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('20', new ProgressModel('90deg', '162deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('21', new ProgressModel('90deg', '165.6deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('22', new ProgressModel('90deg', '169.2deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('23', new ProgressModel('90deg', '172.8deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('24', new ProgressModel('90deg', '176.4deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('25', new ProgressModel('90deg', '180deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('26', new ProgressModel('90deg', '183.6deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('27', new ProgressModel('90deg', '187.2deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('28', new ProgressModel('90deg', '190.8deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('29', new ProgressModel('90deg', '194.4deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('30', new ProgressModel('90deg', '198deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('31', new ProgressModel('90deg', '201.6deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('32', new ProgressModel('90deg', '205.2deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('33', new ProgressModel('90deg', '208.8deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('34', new ProgressModel('90deg', '212.4deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('35', new ProgressModel('90deg', '216deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('36', new ProgressModel('90deg', '219.6deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('37', new ProgressModel('90deg', '223.2deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('38', new ProgressModel('90deg', '226.8deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('39', new ProgressModel('90deg', '230.4deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('40', new ProgressModel('90deg', '234deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('41', new ProgressModel('90deg', '237.6deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('42', new ProgressModel('90deg', '241.2deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('43', new ProgressModel('90deg', '244.8deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('44', new ProgressModel('90deg', '248.4deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('45', new ProgressModel('90deg', '252deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('46', new ProgressModel('90deg', '255.6deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('47', new ProgressModel('90deg', '259.2deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('48', new ProgressModel('90deg', '262.8deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('49', new ProgressModel('90deg', '266.4deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('50', new ProgressModel('-90deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('51', new ProgressModel('-86.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('52', new ProgressModel('-82.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('53', new ProgressModel('-79.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('54', new ProgressModel('-75.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('55', new ProgressModel('-72deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('56', new ProgressModel('-68.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('57', new ProgressModel('-64.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('58', new ProgressModel('-61.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('59', new ProgressModel('-57.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('60', new ProgressModel('-54deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('61', new ProgressModel('-50.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('62', new ProgressModel('-46.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('63', new ProgressModel('-43.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('64', new ProgressModel('-39.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('65', new ProgressModel('-36deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('66', new ProgressModel('-32.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('67', new ProgressModel('-28.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('68', new ProgressModel('-25.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('69', new ProgressModel('-21.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('70', new ProgressModel('-18deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('71', new ProgressModel('-14.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('72', new ProgressModel('-10.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('73', new ProgressModel('-7.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('74', new ProgressModel('-3.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('75', new ProgressModel('0deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('76', new ProgressModel('3.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('77', new ProgressModel('7.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('78', new ProgressModel('10.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('79', new ProgressModel('14.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('80', new ProgressModel('18deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('81', new ProgressModel('21.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('82', new ProgressModel('25.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('83', new ProgressModel('28.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('84', new ProgressModel('32.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('85', new ProgressModel('36deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('86', new ProgressModel('39.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('87', new ProgressModel('43.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('88', new ProgressModel('46.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('89', new ProgressModel('50.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('90', new ProgressModel('54deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('91', new ProgressModel('57.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('92', new ProgressModel('61.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('93', new ProgressModel('64.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('94', new ProgressModel('68.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('95', new ProgressModel('72deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('96', new ProgressModel('76.6deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('97', new ProgressModel('79.2deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('98', new ProgressModel('82.8deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('99', new ProgressModel('86.4deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.set('100', new ProgressModel('90deg', '270deg', this.progresscolor, this.inactiveprogresscolor));
+        this.progressBarDegreeMap.forEach(function (element, key) {
+            if (_this.progressvalue === parseInt(key, 10)) {
+                _this.pStyle = element.getStyle();
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioProgressCEComponent.prototype.dyanmicHeightCreation = /**
+     * @return {?}
+     */
+    function () {
+        if (this.width && this.width.length > 0 && this.height && this.height.length > 0) {
+            this.outerWidth = this.getCal(this.width);
+            this.outerHeight = this.getCal(this.height);
+        }
+    };
+    /**
+     * @param {?} value
+     * @return {?}
+     */
+    AmexioProgressCEComponent.prototype.getCal = /**
+     * @param {?} value
+     * @return {?}
+     */
+    function (value) {
+        return (parseInt(value, 10) + 32).toString() + 'px';
+    };
+    AmexioProgressCEComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-progress-ce',
+                    template: "\n    <!-- Radial -->\n    <ng-container *ngIf=\"type =='radial'\">\n        <div class=\"circularProgress\" [style.width]=\"outerWidth\" [style.height]=\"outerHeight\" [ngStyle]=\"pStyle\">\n            <div [style.background-color]=\"background\" [style.width]=\"width+'px'\" [style.height]=\"height+'px'\" class=\"innerCircle\"\n                [ngClass]=\"type\">\n                <label tabindex=\"0\" attr.aria-label=\"{{progressvalue}} {{unit}} {{tooltip}}\" [style.font-size]=\"size\"\n                    [style.color]=\"labelcolor\">\n                    <ng-container *ngIf=\"showlabel\">{{progressvalue }}</ng-container>\n                    <ng-container *ngIf=\"showunit\"> {{unit}}</ng-container>\n                </label>\n            </div>\n        </div>\n    </ng-container>\n    <!-- Ring -->\n    <ng-container *ngIf=\"type =='ring'\">\n        <div class=\"circularProgress\" [style.width]=\"outerWidth\" [style.height]=\"outerHeight\" [ngStyle]=\"pStyle\">\n            <div [style.width]=\"width+'px'\" [style.height]=\"height+'px'\" class=\"innerCircle\" [ngClass]=\"type\">\n                <label tabindex=\"0\" attr.aria-label=\"{{progressvalue}} {{unit}} {{tooltip}}\" [style.color]=\"labelcolor\"\n                    [style.font-size]=\"size\">\n                    <ng-container *ngIf=\"showlabel\">{{progressvalue }}</ng-container>\n                    <ng-container *ngIf=\"showunit\"> {{unit}}</ng-container>\n                </label>\n            </div>\n        </div>\n    </ng-container>\n\n    <!-- Pie -->\n    <ng-container *ngIf=\"type =='pie'\">\n        <div class=\"circularProgress\" [style.width]=\"outerWidth\" [style.height]=\"outerHeight\" [ngStyle]=\"pStyle\">\n            <div [style.width]=\"width+'px'\" [style.height]=\"height+'px'\" [ngClass]=\"type\" class=\"innerCircle\">\n                <label tabindex=\"0\" attr.aria-label=\"{{progressvalue}} {{unit}} {{tooltip}}\" [style.color]=\"labelcolor\"\n                    [style.font-size]=\"size\">\n                    <ng-container *ngIf=\"showlabel\">{{progressvalue }}</ng-container>\n                    <ng-container *ngIf=\"showunit\"> {{unit}}</ng-container>\n\n                </label>\n            </div>\n        </div>\n    </ng-container>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioProgressCEComponent.ctorParameters = function () { return []; };
+    AmexioProgressCEComponent.propDecorators = {
+        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }],
+        size: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-size',] }],
+        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background-color',] }],
+        labelcolor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['label-color',] }],
+        progresscolor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['progress-color',] }],
+        inactiveprogresscolor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['inactive-progress-color',] }],
+        unit: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['unit',] }],
+        label: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['label',] }],
+        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }],
+        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['width',] }],
+        progressvalue: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['progress-value',] }],
+        tooltip: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['tooltip',] }],
+        showlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-label',] }],
+        showunit: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-unit',] }]
+    };
+    return AmexioProgressCEComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+/*
+* Copyright [2019] [Metamagic]
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+var AmexioVideoPlayerComponent = /** @class */ (function () {
+    function AmexioVideoPlayerComponent() {
+        // Internal Use Only
+        this.rederVideo = true;
+        this.currentVolume = 1;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.onVolumeChange = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.videoPlayer.nativeElement.volume = this.currentVolume = event.target.value;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.updateMuteUI = /**
+     * @return {?}
+     */
+    function () {
+        if (this.videoPlayer.nativeElement.muted) {
+            this.isMuted = true;
+        }
+        else {
+            this.isMuted = false;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.onPlay = /**
+     * @return {?}
+     */
+    function () {
+        if (!this.isPlaying) {
+            this.videoPlayer.nativeElement.play();
+            this.isPlaying = true;
+        }
+        else {
+            this.videoPlayer.nativeElement.pause();
+            this.isPlaying = false;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.onTimeUpdate = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ percentage = Math.floor((100 / this.videoPlayer.nativeElement.duration) * this.videoPlayer.nativeElement.currentTime);
+        this.progressBar.nativeElement.value = percentage;
+        // Update the progress bar's text (for browsers that don't support the progress element)
+        this.progressBar.nativeElement.innerHTML = percentage + '% played';
+        if (percentage === 100) {
+            this.isPlaying = false;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.replayVideo = /**
+     * @return {?}
+     */
+    function () {
+        this.resetPlayer();
+        this.onPlay();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.resetPlayer = /**
+     * @return {?}
+     */
+    function () {
+        this.videoPlayer.nativeElement.pause();
+        this.progressBar.nativeElement.value = 0;
+        this.videoPlayer.nativeElement.currentTime = 0;
+        this.isPlaying = false;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.onFullScreen = /**
+     * @return {?}
+     */
+    function () {
+        var /** @type {?} */ elem = this.videoPlayer.nativeElement;
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+        }
+        else if (elem.mozRequestFullScreen) {
+            elem.mozRequestFullScreen();
+        }
+        else if (elem.webkitRequestFullscreen) {
+            elem.webkitRequestFullscreen();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioVideoPlayerComponent.prototype.onMute = /**
+     * @return {?}
+     */
+    function () {
+        if (!this.isMuted) {
+            this.videoPlayer.nativeElement.muted = true;
+            this.isMuted = true;
+            this.volumebar.nativeElement.value = 0;
+        }
+        else {
+            this.videoPlayer.nativeElement.muted = false;
+            this.isMuted = false;
+            this.volumebar.nativeElement.value = this.currentVolume;
+        }
+    };
+    AmexioVideoPlayerComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-video-player',
+                    template: "\n\n      <ng-container *ngIf=\"rederVideo\">\n      <video [style.width.px]=\"width\" controls>\n          <source [attr.src]=\"path\">\n          Your browser does not support HTML5 video.\n      </video>\n    </ng-container>\n  ",
+                    styles: ["\n    video{width:100%;height:100%;background:#000}progress{color:#4682b4;font-size:12px;width:220px;height:16px;border:none;margin-right:10px;background:#434343;border-radius:9px;vertical-align:middle}progress::-moz-progress-bar{color:#4682b4;background:#434343}progress[value]::-webkit-progress-bar{background-color:#434343;border-radius:2px;-webkit-box-shadow:0 2px 5px rgba(0,0,0,.25) inset;box-shadow:inset 0 2px 5px rgba(0,0,0,.25)}progress[value]::-webkit-progress-value{background-color:#4682b4}@media screen and (max-width:600px){video{border:1px solid #4682b4;width:98%;height:231px;background:#000}}\n  "],
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioVideoPlayerComponent.ctorParameters = function () { return []; };
+    AmexioVideoPlayerComponent.propDecorators = {
+        path: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        extension: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        rederVideo: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        videoPlayer: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['videoRef',] }],
+        progressBar: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['progressbar',] }],
+        volumebar: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['volumebar',] }]
+    };
+    return AmexioVideoPlayerComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var MEDIA_COMPONENTS = [
+    AmexioVideoPlayerComponent,
+    AmexioImageComponent,
+];
+var AmexioMediaModule = /** @class */ (function () {
+    function AmexioMediaModule() {
+    }
+    /**
+     * @return {?}
+     */
+    AmexioMediaModule.forRoot = /**
+     * @return {?}
+     */
+    function () {
+        return {
+            ngModule: AmexioMediaModule,
+            providers: [CommonDataService, DeviceQueryService],
+        };
+    };
+    AmexioMediaModule.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"], args: [{
+                    imports: [
+                        _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
+                        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
+                        HttpClientModule,
+                        AmexioCommonModule,
+                    ],
+                    exports: MEDIA_COMPONENTS,
+                    declarations: MEDIA_COMPONENTS,
+                    providers: [CommonDataService, DeviceQueryService, IconLoaderService],
+                },] },
+    ];
+    return AmexioMediaModule;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioFormActionCEComponent = /** @class */ (function () {
+    function AmexioFormActionCEComponent(formBuilder) {
+        this.formBuilder = formBuilder;
+        this.enableaction = false;
+        this.isFormValid = false;
+        this.showDialogue = false;
+        this.errorMsgArray = [];
+    }
+    /**
+     * @return {?}
+     */
+    AmexioFormActionCEComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    AmexioFormActionCEComponent.prototype.showErrors = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        this.errorMsgArray = [];
+        this.addErrorMsg();
+        this.showDialogue = !this.isFormValid;
+        if (!this.isFormValid) {
+            this.showDialogue = true;
+        }
+        else {
+            this.showDialogue = false;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioFormActionCEComponent.prototype.closeDialogue = /**
+     * @return {?}
+     */
+    function () {
+        this.showDialogue = !this.showDialogue;
+    };
+    // THIS METHOD IS USED FOR ADDING MSG
+    /**
+     * @return {?}
+     */
+    AmexioFormActionCEComponent.prototype.addErrorMsg = /**
+     * @return {?}
+     */
+    function () {
+        if (this.form && this.form.status === 'INVALID') {
+            for (var _i = 0, _a = Object.entries(this.form.controls); _i < _a.length; _i++) {
+                var _b = _a[_i], key = _b[0], value = _b[1];
+                if (value && value.status === 'INVALID') {
+                    var /** @type {?} */ errorObject = {};
+                    errorObject['label'] = key;
+                    this.errorMsgArray.push(errorObject);
+                }
+            }
+        }
+    };
+    /**
+     * @param {?} form
+     * @param {?} formFlag
+     * @return {?}
+     */
+    AmexioFormActionCEComponent.prototype.getValidationForm = /**
+     * @param {?} form
+     * @param {?} formFlag
+     * @return {?}
+     */
+    function (form, formFlag) {
+        this.enableaction = true;
+        this.formFlag = formFlag;
+        this.form = form;
+    };
+    AmexioFormActionCEComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'form-action-ce',
+                    template: "\n        <ng-container *ngIf=\"enableaction\">  \n          <span  *ngIf=\"!form.valid\" style=\"padding-bottom:10px;position:relative\">\n                  <button class=\"button\" [attr.title]=\"'click'\" (click)=\"showErrors($event)\" [ngClass]=\"'button-warning button-small button-round'\">\n                              <span class=\"button-text\">\n                                <span style=\"padding-right: 5px;\" *ngIf=\"icon\">\n                                  <amexio-c-icon [customclass]=\"icon\" >\n                                  </amexio-c-icon>\n                                </span>\n          <span style=\"padding-right: 5px;\" *ngIf=\"loading\">\n                                  <amexio-c-icon key=\"button-loading-icon\"></amexio-c-icon>\n                                </span> ?\n          </span>\n          </button>\n          <amexio-dialogue class=\"dailogue-header-ce\" [(show)]=\"showDialogue\" [custom]=\"true\" [content-align]=\"'left'\" [closable]=\"false\"\n              [title]=\"'Invalid Fields'\" [type]=\"'confirm'\">\n\n              <amexio-body *ngFor=\"let msg of errorMsgArray let index=index\">\n                  <amexio-label>{{index+1}}) {{msg.label}}</amexio-label><br>\n              </amexio-body>\n\n              <amexio-action>\n                  <amexio-button type=\"primary\" (onClick)=\"closeDialogue()\" [label]=\"'OK'\">\n                  </amexio-button>\n              </amexio-action>\n          </amexio-dialogue>\n          </span>\n        </ng-container>  \n    ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioFormActionCEComponent.ctorParameters = function () { return [
+        { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }
+    ]; };
+    return AmexioFormActionCEComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioCardCEActionComponent = /** @class */ (function () {
+    function AmexioCardCEActionComponent(formBuilder) {
+        this.formBuilder = formBuilder;
+        this.align = '';
+        this.direction = 'row';
+        this.cclass = '';
+        this.formFlag = false;
+        this.showError = false;
+        this.buttons = [];
+        this.isFormValid = false;
+        this.showDialogue = false;
+        this.errorMsgArray = [];
+    }
+    /**
+     * @return {?}
+     */
+    AmexioCardCEActionComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        if (this.bordertop) {
+            this.cclass = 'card-action-border';
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCardCEActionComponent.prototype.ngAfterViewInit = /**
+     * @return {?}
+     */
+    function () {
+        if (this.btns.length > 0) {
+            this.buttons = this.btns.toArray();
+        }
+        else if (this.btngrp.length > 0) {
+            this.buttons = this.btngrp.toArray()[0].buttons;
+        }
+    };
+    /**
+     * @param {?} data
+     * @return {?}
+     */
+    AmexioCardCEActionComponent.prototype.checkFormValidation = /**
+     * @param {?} data
+     * @return {?}
+     */
+    function (data) {
+        if (this.formAction && data && this.formFlag) {
+            this.form = data;
+            this.formAction.getValidationForm(this.form, this.formFlag);
+        }
+    };
+    AmexioCardCEActionComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-action-ce',
+                    template: "\n\n    <div   [ngStyle]=\"{'background': ' url(' + bgimage + ') center/cover no-repeat','height': height }\" [ngClass]=\"cclass\">\n        <div class=\"creative-footer\" [style.flex-direction]=\"direction\" [ngStyle]=\"{'color': color, 'background':background, 'justify-content': (align === 'start' || align === 'end') ? 'flex-'+align:align}\">\n            <ng-content></ng-content>\n            <form-action-ce *ngIf=\"(formFlag && showError)\"></form-action-ce>\n        </div>\n    </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioCardCEActionComponent.ctorParameters = function () { return [
+        { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }
+    ]; };
+    AmexioCardCEActionComponent.propDecorators = {
+        align: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['align',] }],
+        bgimage: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['bg-image',] }],
+        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['color',] }],
+        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background',] }],
+        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }],
+        bordertop: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['border-top',] }],
+        direction: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['direction',] }],
+        btns: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonComponent,] }],
+        btngrp: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonGroupComponent,] }],
+        formAction: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: [AmexioFormActionCEComponent,] }]
+    };
+    return AmexioCardCEActionComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioCardCEBodyComponent = /** @class */ (function () {
+    function AmexioCardCEBodyComponent() {
+        this.cardclass = 'card-container-body';
+        this.align = '';
+    }
+    AmexioCardCEBodyComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-body-ce',
+                    template: "\n      <div [ngStyle]=\"{'justify-content': (align === 'start' || align === 'end') ? 'flex-'+align:align,'background': ' url(' + bgimage + ') center/cover no-repeat', 'color': color,'background-color':background, 'height': height }\">\n          <ng-content></ng-content>\n      </div>\n    ",
+                },] },
+    ];
+    AmexioCardCEBodyComponent.propDecorators = {
+        cardclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
+        align: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['align',] }],
+        bgimage: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['bg-image',] }],
+        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['color',] }],
+        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background',] }],
+        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }]
+    };
+    return AmexioCardCEBodyComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioCardCEHeaderComponent = /** @class */ (function () {
+    function AmexioCardCEHeaderComponent() {
+        this.align = '';
+        this.verticalalign = '';
+        this.direction = 'row';
+        this.applyThemeColor = false;
+        this.cclass = '';
+        this.closeable = false;
+        this.maximize = false;
+        this.isFullWindow = false;
+        this.closeableBehaiour = new rxjs_6(false);
+        this.maximizeBehaiour = new rxjs_6(false);
+    }
+    /**
+     * @return {?}
+     */
+    AmexioCardCEHeaderComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        if (this.borderbottom) {
+            this.cclass = 'card-header-border';
+        }
+        this.setIconPosition();
+    };
+    /**
+     * @param {?} maximize
+     * @param {?} isFullWindow
+     * @return {?}
+     */
+    AmexioCardCEHeaderComponent.prototype.setMaximizeData = /**
+     * @param {?} maximize
+     * @param {?} isFullWindow
+     * @return {?}
+     */
+    function (maximize, isFullWindow) {
+        this.maximize = maximize;
+        this.isFullWindow = isFullWindow;
+        this.maximizeBehaiour.next(this.isFullWindow);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCardCEHeaderComponent.prototype.sizeChange = /**
+     * @return {?}
+     */
+    function () {
+        this.isFullWindow = !this.isFullWindow;
+        this.maximizeBehaiour.next(this.isFullWindow);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCardCEHeaderComponent.prototype.onCloseClick = /**
+     * @return {?}
+     */
+    function () {
+        this.closeableBehaiour.next(false);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCardCEHeaderComponent.prototype.setIconPosition = /**
+     * @return {?}
+     */
+    function () {
+        switch (this.verticalalign) {
+            case 'top': {
+                this.iconPosition = {
+                    top: '0',
+                    bottom: '',
+                };
+                break;
+            }
+            case 'center': {
+                this.iconPosition = {
+                    top: '',
+                    bottom: '',
+                };
+                break;
+            }
+            case 'bottom': {
+                this.iconPosition = {
+                    top: '',
+                    bottom: '0',
+                };
+                break;
+            }
+        }
+    };
+    AmexioCardCEHeaderComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-header-ce',
+                    template: "\n\n     <div  [ngClass]=\"cclass\" class=\"creative-header-div\" [ngStyle]=\"{'background': ' url(' + bgimage + ') center/cover no-repeat' }\">\n        <header  class=\"creative-header\" [style.flex-direction]=\"direction\"\n        [ngStyle]=\"{'justify-content': (align === 'start' || align === 'end') ? 'flex-'+align:align ,\n         'color': color,'background':background,'height': height}\"\n         [ngClass]=\"{'card-container-ce-theme-color': applyThemeColor}\"\n         >\n          \n                <ng-content></ng-content>\n            <span *ngIf=\"windowFlag\" class=\"creative-header-icon-div\" [ngStyle]=\"iconPosition\">\n                <amexio-c-icon class=\"cursor-style\" *ngIf=\"(isFullWindow && maximize )\" [key]=\"'window_maximize'\" (onClick)=\"sizeChange()\"></amexio-c-icon>\n                <amexio-c-icon class=\"cursor-style\" *ngIf=\"(!isFullWindow && maximize )\" [key]=\"'window_restore'\" (click)=\"sizeChange()\"></amexio-c-icon>\n                <amexio-c-icon class=\"cursor-style\" style=\"padding-left:5px;\" *ngIf=\"closeable\" [key]=\"'window_close'\" (onClick)=\"onCloseClick()\"></amexio-c-icon>\n             </span> \n        </header>\n    </div> \n \n \n \n  ",
+                    styles: [
+                        "\n  .cursor-style {\n  cursor:pointer;\n  }\n  ",
+                    ],
+                },] },
+    ];
+    AmexioCardCEHeaderComponent.propDecorators = {
+        align: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['align',] }],
+        verticalalign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon-align',] }],
+        bgimage: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['bg-image',] }],
+        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['color',] }],
+        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background',] }],
+        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }],
+        borderbottom: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['border-bottom',] }],
+        direction: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['direction',] }],
+        applyThemeColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['apply-theme-color',] }]
+    };
+    return AmexioCardCEHeaderComponent;
+}());
+
+var __extends$32 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioCardCEComponent = /** @class */ (function (_super) {
+    __extends$32(AmexioCardCEComponent, _super);
+    function AmexioCardCEComponent() {
+        var _this = _super.call(this) || this;
+        _this.windowFlag = false;
+        return _this;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioCardCEComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        if (!this.color) {
+            this.cclass = 'card-container-ce-color';
+        }
+        if (!this.background) {
+            this.cclass = this.cclass + ' card-container-ce-bg-color';
+        }
+        this.setWiderAndNarrower();
+        _super.prototype.ngOnInit.call(this);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCardCEComponent.prototype.ngAfterViewInit = /**
+     * @return {?}
+     */
+    function () {
+        _super.prototype.ngAfterViewInit.call(this);
+    };
+    // THIS METHOD CALLL FOR HEADER AND ACTION STYLE
+    /**
+     * @return {?}
+     */
+    AmexioCardCEComponent.prototype.setWiderAndNarrower = /**
+     * @return {?}
+     */
+    function () {
+        switch (this.styleType) {
+            case 'wider-header':
+                this.cclass = this.cclass + ' card-container-wider-header';
+                break;
+            case 'narrower-header':
+                this.cclass = this.cclass + ' card-container-narrower-header';
+                break;
+            case 'wider-action':
+                this.cclass = this.cclass + ' card-container-wider-action';
+                break;
+            case 'narrower-action':
+                this.cclass = this.cclass + ' card-container-narrower-action';
+                break;
+            case 'wider-all':
+                this.cclass = this.cclass + ' card-container-wider-header card-container-wider-action';
+                break;
+            case 'narrower-all':
+                this.cclass = this.cclass + ' card-container-narrower-header card-container-narrower-action';
+                break;
+            case 'wider-header-narrower-action':
+                this.cclass = this.cclass + ' card-container-wider-header card-container-narrower-action';
+                break;
+            case 'narrower-header-wider-action':
+                this.cclass = this.cclass + ' card-container-narrower-header card-container-wider-action';
+                break;
+            default:
+                break;
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCardCEComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        if (this.AmexioCardCEHeaderQueryList) {
+            this.amexioCardHeaderList = this.AmexioCardCEHeaderQueryList.toArray();
+            
+        }
+        this.setCardAligementForAllInnerComponent();
+    };
+    // TO SET ALIGN TO ALL INNER COMPONENT IN CARD
+    /**
+     * @return {?}
+     */
+    AmexioCardCEComponent.prototype.setCardAligementForAllInnerComponent = /**
+     * @return {?}
+     */
+    function () {
+        this.amexioCardHeaderList = this.AmexioCardCEHeaderQueryList.toArray();
+        if (this.amexioCardHeaderList[0]) {
+            this.amexioCardHeaderList[0].windowFlag = false;
+        }
+        if (this.amexioCardHeaderList[0] !== undefined && !this.amexioCardHeaderList[0].align &&
+            this.amexioCardHeaderList[0].align.length > 0) {
+            this.amexioCardHeaderList[0].align = this.align;
+        }
+        this.amexioCardBodyList = this.AmexioCardCEBodyQueryList.toArray();
+        if (this.amexioCardBodyList[0] !== undefined && !this.amexioCardBodyList[0].align && this.amexioCardBodyList[0].align.length > 0) {
+            this.amexioCardBodyList[0].align = this.align;
+        }
+        this.amexioCardActionList = this.AmexioCardCEActionQueryList.toArray();
+        if (this.amexioCardActionList[0] !== undefined && !this.amexioCardActionList[0].align &&
+            this.amexioCardActionList[0].align.length > 0) {
+            this.amexioCardActionList[0].align = this.align;
+        }
+        else if (this.amexioCardActionList[0] !== undefined &&
+            this.amexioCardActionList[0].align === '') {
+            this.amexioCardActionList[0].align = 'end';
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioCardCEComponent.prototype.ngOnDestroy = /**
+     * @return {?}
+     */
+    function () {
+        _super.prototype.ngOnDestroy.call(this);
+    };
+    AmexioCardCEComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-card-ce',
+                    template: "\n    <div style=\"height:100%;\" [ngStyle]=\"{'background': bgimage ? 'url(' + bgimage + ') center/cover no-repeat' : null}\" [ngClass]=\"cclass\">\n        <div class=\"card-container-ce\" [ngStyle]=\"{'justify-content': (align === 'start' || align === 'end') ? 'flex-'+align:align , 'color':color, 'background': background}\">\n            <ng-content></ng-content>\n            <div>\n            </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioCardCEComponent.ctorParameters = function () { return []; };
+    AmexioCardCEComponent.propDecorators = {
+        bgimage: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['bg-image',] }],
+        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['color',] }],
+        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background',] }],
+        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }],
+        align: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['align',] }],
+        styleType: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['style-type',] }],
+        AmexioCardCEHeaderQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEHeaderComponent,] }],
+        AmexioCardCEBodyQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEBodyComponent,] }],
+        AmexioCardCEActionQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEActionComponent,] }]
+    };
+    return AmexioCardCEComponent;
+}(LifeCycleBaseComponent));
+
+var __extends$33 = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioFormCEComponent = /** @class */ (function (_super) {
+    __extends$33(AmexioFormCEComponent, _super);
+    function AmexioFormCEComponent(formBuilder) {
+        var _this = _super.call(this) || this;
+        _this.formBuilder = formBuilder;
+        _this.showError = false;
+        _this.showErrorMsg = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        _this.componentError = [];
+        _this.windowFlag = false;
+        _this.checkForm = false;
+        _this.isFormValid = false;
+        _this.showDialogue = false;
+        _this.errorMsgArray = [];
+        return _this;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioFormCEComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        this.setCardAligementForAllInnerComponent();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioFormCEComponent.prototype.onResize = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @return {?}
+     */
+    AmexioFormCEComponent.prototype.ngAfterViewInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        var /** @type {?} */ ngContentModels = this.models.toArray();
+        var /** @type {?} */ innerModelArray = [];
+        this.fb.forEach(function (fbnode) {
+            var /** @type {?} */ modelarray = fbnode.modelsarray;
+            var /** @type {?} */ fgc = {};
+            modelarray.forEach(function (m) {
+                fgc[m.name] = m.control;
+                innerModelArray.push(m);
+            });
+            var /** @type {?} */ grp = _this.formBuilder.group(fgc);
+            _this.form.form.registerControl(fbnode.group, grp);
+        });
+        ngContentModels.forEach(function (model) {
+            if (!_this.isFieldPresentInParentAndChildBoth(innerModelArray, model.name)) {
+                if (!model.name || model.name === null) {
+                    model.name = model.valueAccessor['name'];
+                }
+                _this.form.control.registerControl(model.name, model.control);
+            }
+        });
+        this.clearTimeout = setTimeout(function () {
+            _this.form.form.updateValueAndValidity();
+        }, 100);
+        this.btns.toArray().forEach(function (btnCom) {
+            if ((btnCom.formbind === _this.fname) && !btnCom.disabled) {
+                _this.buttons.push(btnCom);
+            }
+        });
+        this.AmexioCardCEActionQueryList.toArray()[0].formFlag = true;
+        this.AmexioCardCEActionQueryList.toArray()[0].showError = this.showError;
+        this.AmexioCardCEHeaderQueryList.toArray()[0].windowFlag = false;
+        this.validateForm();
+        this.onResize();
+        _super.prototype.ngAfterViewInit.call(this);
+    };
+    /**
+     * @param {?} innerModelArray
+     * @param {?} name
+     * @return {?}
+     */
+    AmexioFormCEComponent.prototype.isFieldPresentInParentAndChildBoth = /**
+     * @param {?} innerModelArray
+     * @param {?} name
+     * @return {?}
+     */
+    function (innerModelArray, name) {
+        var /** @type {?} */ isPresent = false;
+        innerModelArray.forEach(function (innerModel) {
+            if (name === innerModel.name) {
+                isPresent = true;
+            }
+        });
+        return isPresent;
+    };
+    // THIS METHOD IS USED FOR DISABLE BUTTON
+    /**
+     * @return {?}
+     */
+    AmexioFormCEComponent.prototype.validateForm = /**
+     * @return {?}
+     */
+    function () {
+        if (this.form && this.form.status === 'INVALID') {
+            this.disableButton(true);
+        }
+        else {
+            this.disableButton(false);
+        }
+    };
+    /**
+     * @param {?} flag
+     * @return {?}
+     */
+    AmexioFormCEComponent.prototype.disableButton = /**
+     * @param {?} flag
+     * @return {?}
+     */
+    function (flag) {
+        this.buttons.forEach(function (btn) {
+            btn.disabled = flag;
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioFormCEComponent.prototype.ngAfterContentChecked = /**
+     * @return {?}
+     */
+    function () {
+        this.validateForm();
+        var /** @type {?} */ form;
+        form = this.form;
+        this.AmexioCardCEActionQueryList.toArray()[0].checkFormValidation(form);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioFormCEComponent.prototype.ngOnDestroy = /**
+     * @return {?}
+     */
+    function () {
+        clearTimeout(this.clearTimeout);
+        _super.prototype.ngOnDestroy.call(this);
+    };
+    /**
+     * @return {?}
+     */
+    AmexioFormCEComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.buttons = [];
+        if (!this.color) {
+            this.cclass = 'card-container-ce-color';
+        }
+        if (!this.background) {
+            this.cclass = this.cclass + ' card-container-ce-bg-color';
+        }
+        this.setWiderAndNarrower();
+        _super.prototype.ngOnInit.call(this);
+    };
+    // THIS METHOD CALLL FOR HEADER AND ACTION STYLE
+    /**
+     * @return {?}
+     */
+    AmexioFormCEComponent.prototype.setWiderAndNarrower = /**
+     * @return {?}
+     */
+    function () {
+        switch (this.styleType) {
+            case 'wider-header':
+                this.cclass = this.cclass + ' card-container-wider-header';
+                break;
+            case 'narrower-header':
+                this.cclass = this.cclass + ' card-container-narrower-header';
+                break;
+            case 'wider-action':
+                this.cclass = this.cclass + ' card-container-wider-action';
+                break;
+            case 'narrower-action':
+                this.cclass = this.cclass + ' card-container-narrower-action';
+                break;
+            case 'wider-all':
+                this.cclass = this.cclass + ' card-container-wider-header card-container-wider-action';
+                break;
+            case 'narrower-all':
+                this.cclass = this.cclass + ' card-container-narrower-header card-container-narrower-action';
+                break;
+            case 'wider-header-narrower-action':
+                this.cclass = this.cclass + ' card-container-wider-header card-container-narrower-action';
+                break;
+            case 'narrower-header-wider-action':
+                this.cclass = this.cclass + ' card-container-narrower-header card-container-wider-action';
+                break;
+            default:
+                break;
+        }
+    };
+    // TO SET ALIGN TO ALL INNER COMPONENT IN CARD
+    /**
+     * @return {?}
+     */
+    AmexioFormCEComponent.prototype.setCardAligementForAllInnerComponent = /**
+     * @return {?}
+     */
+    function () {
+        this.amexioCardHeaderList = this.AmexioCardCEHeaderQueryList.toArray();
+        if (this.amexioCardHeaderList[0] !== undefined && !this.amexioCardHeaderList[0].align &&
+            this.amexioCardHeaderList[0].align.length > 0) {
+            this.amexioCardHeaderList[0].align = this.align;
+        }
+        this.amexioCardBodyList = this.AmexioCardCEBodyQueryList.toArray();
+        if (this.amexioCardBodyList[0] !== undefined && !this.amexioCardBodyList[0].align && this.amexioCardBodyList[0].align.length > 0) {
+            this.amexioCardBodyList[0].align = this.align;
+        }
+        this.amexioCardActionList = this.AmexioCardCEActionQueryList.toArray();
+        if (this.amexioCardActionList[0] !== undefined && !this.amexioCardActionList[0].align &&
+            this.amexioCardActionList[0].align.length > 0) {
+            this.amexioCardActionList[0].align = this.align;
+        }
+        else if (this.amexioCardActionList[0] !== undefined &&
+            this.amexioCardActionList[0].align === '') {
+            this.amexioCardActionList[0].align = 'end';
+        }
+    };
+    AmexioFormCEComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-form-ce',
+                    template: "\n      <div [ngStyle]=\"{'background': bgimage ? 'url(' + bgimage + ') center/cover no-repeat' : null}\" [ngClass]=\"cclass\">\n          <div [ngStyle]=\"{'justify-content': (align === 'start' || align === 'end') ? 'flex-'+align:align , 'color':color, 'background': background}\">\n              <form name=\"fname\" class=\"form-container-ce form-group\">\n                  <ng-content></ng-content>\n              </form>\n          <div>\n      </div>\n    ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioFormCEComponent.ctorParameters = function () { return [
+        { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }
+    ]; };
+    AmexioFormCEComponent.propDecorators = {
+        fname: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['form-name',] }],
+        showError: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-error',] }],
+        showErrorMsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
+        bgimage: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['bg-image',] }],
+        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['color',] }],
+        background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background',] }],
+        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }],
+        align: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['align',] }],
+        styleType: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['style-type',] }],
+        AmexioCardCEHeaderQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEHeaderComponent,] }],
+        AmexioCardCEBodyQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEBodyComponent,] }],
+        AmexioCardCEActionQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEActionComponent,] }],
+        btns: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonComponent, { descendants: true },] }],
+        form: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgForm"],] }],
+        models: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"], { descendants: true },] }],
+        fb: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFormGroupDirective, { descendants: true },] }]
+    };
+    return AmexioFormCEComponent;
+}(LifeCycleBaseComponent));
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioHomePageCenterPanelComponent = /** @class */ (function () {
+    function AmexioHomePageCenterPanelComponent(matchMediaService) {
+        this.matchMediaService = matchMediaService;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioHomePageCenterPanelComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    AmexioHomePageCenterPanelComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-homepage-centerpanel',
+                    template: "\n    <div class=\"homepage-centerpanel\">\n        <ng-content></ng-content>\n    </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioHomePageCenterPanelComponent.ctorParameters = function () { return [
+        { type: DeviceQueryService }
+    ]; };
+    AmexioHomePageCenterPanelComponent.propDecorators = {
+        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }]
+    };
+    return AmexioHomePageCenterPanelComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioHomePageEastPanelComponent = /** @class */ (function () {
+    function AmexioHomePageEastPanelComponent(matchMediaService) {
+        this.matchMediaService = matchMediaService;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioHomePageEastPanelComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @return {?}
+     */
+    AmexioHomePageEastPanelComponent.prototype.ngAfterViewInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    AmexioHomePageEastPanelComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-homepage-eastpanel',
+                    template: "\n    <div class=\"homepage-westpanel\">\n        <ng-content></ng-content>\n    </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioHomePageEastPanelComponent.ctorParameters = function () { return [
+        { type: DeviceQueryService }
+    ]; };
+    AmexioHomePageEastPanelComponent.propDecorators = {
+        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }]
+    };
+    return AmexioHomePageEastPanelComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var AmexioHomePageWestPanelComponent = /** @class */ (function () {
+    function AmexioHomePageWestPanelComponent(matchMediaService) {
+        this.matchMediaService = matchMediaService;
+    }
+    /**
+     * @return {?}
+     */
+    AmexioHomePageWestPanelComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    AmexioHomePageWestPanelComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-homepage-westpanel',
+                    template: "\n    <div class=\"homepage-westpanel\">\n        <ng-content></ng-content>\n    </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioHomePageWestPanelComponent.ctorParameters = function () { return [
+        { type: DeviceQueryService }
+    ]; };
+    AmexioHomePageWestPanelComponent.propDecorators = {
+        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }]
+    };
+    return AmexioHomePageWestPanelComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var ViewportBackgroundComponent = /** @class */ (function () {
+    function ViewportBackgroundComponent() {
+    }
+    /**
+     * @return {?}
+     */
+    ViewportBackgroundComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @return {?}
+     */
+    ViewportBackgroundComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        // IMAGE
+        if (this.imageTemplate) {
+            this.imagePath = this.imageTemplate.path;
+            this.bgCss = 'bgCss' + Math.floor(Math.random() * 1000) + 'background';
+        }
+        // VIDEO
+        if (this.videoTemplate) {
+            this.videoPath = this.videoTemplate.path;
+        }
+    };
+    ViewportBackgroundComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-viewport-background',
+                    template: "\n    <!-- <div id=\"{{componentId}}\" class=\"backgroundCss filterCss {{bgCss}}\">\n         <ng-content></ng-content>\n    </div> -->\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    ViewportBackgroundComponent.ctorParameters = function () { return []; };
+    ViewportBackgroundComponent.propDecorators = {
+        imageTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [AmexioImageComponent,] }],
+        videoTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [AmexioVideoPlayerComponent,] }],
+        backgroundColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background-color',] }]
+    };
+    return ViewportBackgroundComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var ViewportContentBodyComponent = /** @class */ (function () {
+    function ViewportContentBodyComponent() {
+        this.scrollable = false;
+    }
+    /**
+     * @return {?}
+     */
+    ViewportContentBodyComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () { };
+    ViewportContentBodyComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-viewport-content-body',
+                    template: "\n\n            <ng-content></ng-content>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    ViewportContentBodyComponent.ctorParameters = function () { return []; };
+    ViewportContentBodyComponent.propDecorators = {
+        navTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [AmexioNavBarComponent,] }],
+        scrollable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['scrollable',] }]
+    };
+    return ViewportContentBodyComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var ViewportContentComponent = /** @class */ (function () {
+    function ViewportContentComponent() {
+        this.scrollable = false;
+    }
+    /**
+     * @return {?}
+     */
+    ViewportContentComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @return {?}
+     */
+    ViewportContentComponent.prototype.ngAfterViewInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @return {?}
+     */
+    ViewportContentComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        if (this.bgImageTemplate.backgroundColor) {
+            this.backgroundColor = this.bgImageTemplate.backgroundColor;
+        }
+        // IMAGE
+        if (this.bgImageTemplate.imagePath) {
+            this.backgroundCss = 'bgCss' + Math.floor(Math.random() * 1000) + 'backgound';
+            this.insertStyleSheetRule('.' + this.backgroundCss + '{ background-image: url(' + this.bgImageTemplate.imagePath + ')}');
+        }
+        // VIDEO
+        if (this.bgImageTemplate.videoPath) {
+            this.bgImageTemplate.videoTemplate.rederVideo = false;
+            this.bgvid = 'videoId' + Math.floor(Math.random() * 1000);
+            this.tempUrl = this.bgImageTemplate.videoPath;
+        }
+    };
+    /**
+     * @param {?} ruleText
+     * @return {?}
+     */
+    ViewportContentComponent.prototype.insertStyleSheetRule = /**
+     * @param {?} ruleText
+     * @return {?}
+     */
+    function (ruleText) {
+        var /** @type {?} */ sheets = document.styleSheets;
+        if (sheets.length === 0) {
+            var /** @type {?} */ style = document.createElement('style');
+            style.appendChild(document.createTextNode(''));
+            document.head.appendChild(style);
+        }
+        var /** @type {?} */ sheet = sheets[sheets.length - 1];
+        sheet.insertRule(ruleText, sheet.rules ? sheet.rules.length : sheet.cssRules.length);
+    };
+    ViewportContentComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-viewport-content',
+                    template: "\n\n    <div class=\"viewportContent {{backgroundCss}}\" [ngStyle]=\"{'height':height}\" onscroll=\"myFunction()\">\n        <video id=\"{{bgvid}}\" src=\"{{tempUrl}}\" type=\"video/mp4\" poster loop autoplay playsinline>\n        </video>\n        <div class=\"viewportBody\" [ngStyle]=\"{'overflow-y': internalScroll ? 'scroll' : 'hidden',\n    'background-color':backgroundColor, 'height':height}\">\n            <ng-content select=\"amexio-viewport-content-body\"></ng-content>\n\n        </div>\n    </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    ViewportContentComponent.ctorParameters = function () { return []; };
+    ViewportContentComponent.propDecorators = {
+        bgImageTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [ViewportBackgroundComponent,] }],
+        contentTemplate: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChild"], args: [ViewportContentBodyComponent,] }],
+        scrollable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['scrollable',] }]
+    };
+    return ViewportContentComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var ViewportComponent = /** @class */ (function () {
+    function ViewportComponent() {
+        this.scrollable = true;
+        this.type = '1';
+        this.pageColor = 'black';
+    }
+    /**
+     * @param {?} $event
+     * @return {?}
+     */
+    ViewportComponent.prototype.onWindowScroll = /**
+     * @param {?} $event
+     * @return {?}
+     */
+    function ($event) {
+        if ((this.type === '2') && (this.scrollable && window.scrollY > 0)) {
+            this.contentCollection.forEach(function (element) {
+                if (element.contentTemplate.navTemplate) {
+                    element.contentTemplate.navTemplate.transparent = false;
+                    element.contentTemplate.navTemplate.top = 0;
+                }
+            });
+        }
+        if (window.scrollY === 0) {
+            this.contentCollection.forEach(function (element) {
+                if (element.contentTemplate.navTemplate) {
+                    element.contentTemplate.navTemplate.transparent = true;
+                    element.contentTemplate.navTemplate.top = 'unset';
+                }
+            });
+        }
+    };
+    /**
+     * @return {?}
+     */
+    ViewportComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        document.body.style.backgroundColor = this.pageColor;
+        if (this.scrollable) {
+            this.overflow = 'auto';
+        }
+        else {
+            this.overflow = 'hidden';
+        }
+    };
+    /**
+     * @return {?}
+     */
+    ViewportComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.contentCollection = this.queryContent.toArray();
+        if (this.type === '2') {
+            this.contentCollection.forEach(function (element) {
+                if (element.contentTemplate.navTemplate) {
+                    element.contentTemplate.navTemplate.opacity = 0.7;
+                    element.contentTemplate.navTemplate.top = 'unset';
+                }
+            });
+        }
+        if (this.scrollable) {
+            this.contentCollection.forEach(function (element) {
+                element.internalScroll = false;
+                _this.getType(element);
+            });
+        }
+        else {
+            this.contentCollection.forEach(function (element) {
+                _this.getType(element);
+                if (element.scrollable) {
+                    element.internalScroll = true;
+                    element.height = 100 / _this.contentCollection.length + '%';
+                }
+                else {
+                    element.internalScroll = false;
+                }
+            });
+        }
+        this.insertStyleSheetRule('body' + '{ overflow-y:' + this.overflow + '}');
+    };
+    /**
+     * @param {?} ruleText
+     * @return {?}
+     */
+    ViewportComponent.prototype.insertStyleSheetRule = /**
+     * @param {?} ruleText
+     * @return {?}
+     */
+    function (ruleText) {
+        var /** @type {?} */ sheets = document.styleSheets;
+        if (sheets.length === 0) {
+            var /** @type {?} */ style = document.createElement('style');
+            style.appendChild(document.createTextNode(''));
+            document.head.appendChild(style);
+        }
+        var /** @type {?} */ sheet = sheets[sheets.length - 1];
+        sheet.insertRule(ruleText, sheet.rules ? sheet.rules.length : sheet.cssRules.length);
+    };
+    /**
+     * @param {?} element
+     * @return {?}
+     */
+    ViewportComponent.prototype.getType = /**
+     * @param {?} element
+     * @return {?}
+     */
+    function (element) {
+        if (this.type === '1' && element.contentTemplate.navTemplate) {
+            element.contentTemplate.navTemplate.transparent = true;
+        }
+        if (this.type === '2' && element.contentTemplate.navTemplate) {
+            element.contentTemplate.navTemplate.transparent = true;
+        }
+        if (this.type === '3' && element.contentTemplate.navTemplate) {
+            element.contentTemplate.navTemplate.transparent = false;
+        }
+    };
+    ViewportComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-viewport',
+                    template: "\n        <ng-content select=\"amexio-viewport-content\"></ng-content>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    ViewportComponent.ctorParameters = function () { return []; };
+    ViewportComponent.propDecorators = {
+        queryContent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [ViewportContentComponent,] }],
+        scrollable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['scrollable',] }],
+        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }],
+        pageColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['page-color',] }],
+        onWindowScroll: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostListener"], args: ['window:scroll', [],] }]
+    };
+    return ViewportComponent;
 }());
 
 /**
@@ -51581,13 +58026,13 @@ var AmexioNavActionComponent = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
-var noop$10 = function () {
+var noop$11 = function () {
 };
 var AmexioNavTextFieldComponent = /** @class */ (function () {
     function AmexioNavTextFieldComponent() {
         this.innerValue = '';
-        this.onTouchedCallback = noop$10;
-        this.onChangeCallback = noop$10;
+        this.onTouchedCallback = noop$11;
+        this.onChangeCallback = noop$11;
     }
     /**
      * @return {?}
@@ -52016,4588 +58461,7 @@ var AmexioNavModule = /** @class */ (function () {
     return AmexioNavModule;
 }());
 
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
- Component Name : Amexio Carousel
- Component Selector : <[amexioTemplate]>
- Component Description : Amexio CarouselView displays a collection of
- images or other content in a horizontal layout with built-in navigation between the items.
-
-*/
-var AmexioTemplateDirective = /** @class */ (function () {
-    function AmexioTemplateDirective(template) {
-        this.template = template;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioTemplateDirective.prototype.getType = /**
-     * @return {?}
-     */
-    function () {
-        return this.name;
-    };
-    AmexioTemplateDirective.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"], args: [{
-                    selector: '[amexioTemplate]',
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioTemplateDirective.ctorParameters = function () { return [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"] }
-    ]; };
-    AmexioTemplateDirective.propDecorators = {
-        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        name: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['amexioTemplate',] }]
-    };
-    return AmexioTemplateDirective;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* Created by pratik on 28/12/17.
-*/
-var AmexioCarouselComponent = /** @class */ (function () {
-    function AmexioCarouselComponent() {
-        // @ViewChild('kk') kk: ElementRef;
-        this.prevImage = -1;
-        this.nextImage = -1;
-        this.currImage = 0;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioCarouselComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.startTimeInterval();
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCarouselComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.templates.forEach(function (item) {
-            _this.itemTemplate = item.template;
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCarouselComponent.prototype.scrollData = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCarouselComponent.prototype.next = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ nxt = this.tabs.nativeElement;
-        nxt.scrollLeft = nxt.scrollLeft + 200;
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCarouselComponent.prototype.previous = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ prev = this.tabs.nativeElement;
-        prev.scrollLeft = prev.scrollLeft - 200;
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCarouselComponent.prototype.shuffle = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @param {?} item
-     * @return {?}
-     */
-    AmexioCarouselComponent.prototype.onArrowRight = /**
-     * @param {?} item
-     * @return {?}
-     */
-    function (item) {
-        if (this.data.length - 1 > item) {
-            var /** @type {?} */ currentitem = item + 1;
-            var /** @type {?} */ itemId = this.header + currentitem;
-            document.getElementById(itemId).focus();
-        }
-    };
-    /**
-     * @param {?} item
-     * @return {?}
-     */
-    AmexioCarouselComponent.prototype.onArrowLeft = /**
-     * @param {?} item
-     * @return {?}
-     */
-    function (item) {
-        if (item > 0) {
-            var /** @type {?} */ currentitem = item - 1;
-            var /** @type {?} */ itemId = this.header + currentitem;
-            document.getElementById(itemId).focus();
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCarouselComponent.prototype.startTimeInterval = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        if (this.shuffleinterval != null) {
-            this.timeInterval = setInterval(function () {
-                var /** @type {?} */ carouselItemPosix = _this.tabs.nativeElement;
-                if (!((carouselItemPosix.scrollWidth - carouselItemPosix.offsetWidth - carouselItemPosix.scrollLeft) <= 0)) {
-                    // go next
-                    carouselItemPosix.scrollLeft = carouselItemPosix.scrollLeft + 200;
-                }
-                else if (carouselItemPosix.scrollLeft > 0) {
-                    // go previous
-                    carouselItemPosix.scrollLeft = carouselItemPosix.scrollLeft - 200;
-                }
-            }, this.shuffleinterval);
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioCarouselComponent.prototype.stopTimeInterval = /**
-     * @return {?}
-     */
-    function () {
-        clearTimeout(this.timeInterval);
-    };
-    AmexioCarouselComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-carousel',
-                    template: "\n    <h4>{{header}}</h4>\n    <div class=\"tabwrapper\">\n      <div class=\"carouselnavigation float-left\" (click)=\"previous()\">\n        <amexio-c-icon key=\"carousel_previous\"></amexio-c-icon>\n      </div>\n      <div class=\"carouselnavigation float-right\" (click)=\"next()\">\n        <amexio-c-icon key=\"carousel_next\"></amexio-c-icon>\n      </div>\n      <ul #tab class=\"tab\">\n        <li attr.aria-label=\"'carousel {{rowno}}'\" tabindex=\"1\" id=\"{{header}}{{rowno}}\" class=\"tablistitems\" *ngFor=\"let item of data let rowno= index\" [ngClass]=\"{'list-carousel-items':item.isSelected}\"\n          (mouseover)=\"stopTimeInterval($event)\" (mouseleave)=\"startTimeInterval($event)\" (keyup.arrowleft)=\"onArrowLeft(rowno)\"\n          (keyup.arrowright)=\"onArrowRight(rowno)\">\n          <ng-template tabindex=\"1\" [amexioTemplateWrapper]=\"itemTemplate\" [item]=\"item\"></ng-template>\n        </li>\n      </ul>\n    </div>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioCarouselComponent.ctorParameters = function () { return []; };
-    AmexioCarouselComponent.propDecorators = {
-        header: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        shuffleinterval: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['shuffle-interval',] }],
-        templates: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTemplateDirective,] }],
-        tabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tab', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }]
-    };
-    return AmexioCarouselComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioTemplateWrapperDirective = /** @class */ (function () {
-    function AmexioTemplateWrapperDirective(viewContainer) {
-        this.viewContainer = viewContainer;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioTemplateWrapperDirective.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.render();
-    };
-    Object.defineProperty(AmexioTemplateWrapperDirective.prototype, "item", {
-        /*
-     Properties
-     name : get item
-     datatype :   any
-     version : 4.0 onwards
-     default : none
-     description : gets the carousel item
-     */
-        get: /**
-         * @return {?}
-         */
-        function () {
-            return this._item;
-        },
-        set: /**
-         * @param {?} item
-         * @return {?}
-         */
-        function (item) {
-            this._item = item;
-            if (this.view) {
-                this.view.destroy();
-                this.render();
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    AmexioTemplateWrapperDirective.prototype.render = /**
-     * @return {?}
-     */
-    function () {
-        this.view = this.viewContainer.createEmbeddedView(this.templateRef, {
-            $implicit: this.item, index: this.index,
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTemplateWrapperDirective.prototype.ngOnDestroy = /**
-     * @return {?}
-     */
-    function () {
-        this.view.destroy();
-    };
-    AmexioTemplateWrapperDirective.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"], args: [{
-                    selector: '[amexioTemplateWrapper]',
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioTemplateWrapperDirective.ctorParameters = function () { return [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"] }
-    ]; };
-    AmexioTemplateWrapperDirective.propDecorators = {
-        index: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        templateRef: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['amexioTemplateWrapper',] }],
-        item: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
-    };
-    return AmexioTemplateWrapperDirective;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexiodialoguePaneComponent = /** @class */ (function () {
-    function AmexiodialoguePaneComponent(renderer) {
-        this.renderer = renderer;
-        /*
-           Properties
-           name : button-size
-           datatype :  string
-           version : 4.2 onwards
-           default :
-           description : Different Sizes of Buttons availabe : large, default, small & xsmall
-           */
-        this.buttonsize = 'large' || 'small' || 'default' || 'xsmall';
-        this.showChange = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-           Events
-           name : actionStatus
-           datatype :  none
-           version : none
-           default : none
-           description : Fire when click on yes or no button
-           */
-        this.actionStatus = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-           Events
-           name : onSuccess
-           datatype :  none
-           version : none
-           default : none
-           description : Fire when click on yes or no button
-           */
-        this.onSuccess = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-           Events
-           name : onFailure
-           datatype :  none
-           version : none
-           default : none
-           description : Fire when click on yes or no button
-           */
-        this.onCancel = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-           Events
-           name : close
-           datatype :  none
-           version : none
-           default : none
-           description : Fire when user close dialogue
-           */
-        this.close = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.value = 0;
-        this.closable = true;
-        this.secondaryactionlabel = 'Cancel';
-        this.primaryactionlabel = 'Ok';
-        this.custom = false;
-        this.buttonsize = 'default';
-        this.buttontype = 'theme-color';
-        this.closeonescape = true;
-    }
-    /**
-     * @return {?}
-     */
-    AmexiodialoguePaneComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        if (this.showdialogue) {
-            this.show = this.showdialogue;
-        }
-        if (this.footeralign == null) {
-            this.footeralign = 'right';
-        }
-        if (this.contentalign == null || this.contentalign === '') {
-            this.contentalign = 'center';
-        }
-        if (this.type == null) {
-            this.type = 'confirm';
-        }
-        this.defaultStyle = this.getDefaultStyle();
-        this.buttontype = this.getStyle();
-        this.componentId = this.createCompId('dialog', this.type);
-    };
-    /**
-     * @return {?}
-     */
-    AmexiodialoguePaneComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        if (this.amexioFooter) {
-            this.amexioFooter.toArray().forEach(function (footer) {
-                footer.footer = true;
-            });
-        }
-    };
-    /**
-     * @param {?} changes
-     * @return {?}
-     */
-    AmexiodialoguePaneComponent.prototype.ngOnChanges = /**
-     * @param {?} changes
-     * @return {?}
-     */
-    function (changes) {
-        if (changes['show']) {
-            this.show = changes["show"].currentValue;
-            this.escapeMethod();
-        }
-        else if (changes['showdialogue']) {
-            this.show = changes["showdialogue"].currentValue;
-            this.escapeMethod();
-        }
-    };
-    // Method called on escape
-    /**
-     * @return {?}
-     */
-    AmexiodialoguePaneComponent.prototype.escapeMethod = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        if (this.show && this.closeonescape) {
-            this.globalListenFunc = this.renderer.listen('document', 'keyup.esc', function (e) {
-                _this.showdialogue = false;
-                _this.show = false;
-                _this.showChange.emit(false);
-            });
-        }
-        else if (this.globalListenFunc) {
-            this.globalListenFunc();
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexiodialoguePaneComponent.prototype.onCloseClick = /**
-     * @return {?}
-     */
-    function () {
-        if (this.closable) {
-            this.showdialogue = false;
-            this.show = false;
-            this.showChange.emit(false);
-            this.close.emit(false);
-        }
-    };
-    /**
-     * @param {?} v
-     * @return {?}
-     */
-    AmexiodialoguePaneComponent.prototype.getStatus = /**
-     * @param {?} v
-     * @return {?}
-     */
-    function (v) {
-        this.onCloseClick();
-        this.actionStatus.emit(v);
-        if (v === 'ok') {
-            this.onSuccess.emit(v);
-        }
-        else {
-            this.onCancel.emit(v);
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexiodialoguePaneComponent.prototype.getDefaultStyle = /**
-     * @return {?}
-     */
-    function () {
-        if (this.materialDesign) {
-            return 'transparent';
-        }
-        else {
-            return 'defualt';
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexiodialoguePaneComponent.prototype.getStyle = /**
-     * @return {?}
-     */
-    function () {
-        if (this.materialDesign) {
-            this.buttontype = 'transparent';
-            return this.buttontype;
-        }
-        else {
-            return this.buttontype;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexiodialoguePaneComponent.prototype.ngOnDestroy = /**
-     * @return {?}
-     */
-    function () {
-        if (this.globalListenFunc) {
-            this.globalListenFunc();
-        }
-    };
-    /**
-     * @param {?} inputType
-     * @param {?} name
-     * @return {?}
-     */
-    AmexiodialoguePaneComponent.prototype.createCompId = /**
-     * @param {?} inputType
-     * @param {?} name
-     * @return {?}
-     */
-    function (inputType, name) {
-        return inputType + '_' + name + '_' + Math.floor(Math.random() * 1000 + 999);
-    };
-    AmexiodialoguePaneComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-dialogue',
-                    template: "\n    <div class=\"root-window\" *ngIf=\"show\">\n        <!-- Generate BG shade for below modal -->\n    </div>\n\n    <div class=\"dialogue-sm\" [@animation]=\"{value: 'visible', params: {transitionParams: transitionOptions}}\" *ngIf=\"show\">\n        <div role=\"dialog\" attr.aria-labelledby=\"componentId\" class=\"dialogue-content\">\n            <header [ngClass]=\"{'dialogue-material-design':materialDesign ,'dialogue-header':!materialDesign }\">\n                <div id=\"{{componentId}}\" tabindex=\"1\" class=\"dialogue-table\">\n                    <div class=\"tablerow\">\n                        <div class=\"tablecol\">\n                            {{title}}\n                        </div>\n                        <div tabindex=\"1\" aria-label=\"close button\" class=\"tablecol float-right\">\n                            <div *ngIf=\"closable\" class=\"icon-style\">\n                                <amexio-c-icon [key]=\"'window_close'\" (onClick)=\"onCloseClick()\"></amexio-c-icon>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </header>\n            <div class=\"dialogue-middle\" [ngStyle]=\"{'text-align':custom ? contentalign :'center'}\">\n                <span role=\"dialog\" attr.aria-labelledby=\"componentId\" class=\"dialogue-icon\">\n            <span  [ngClass]=\"{'dialogue-success': messagetype  == 'help','dialogue-danger':messagetype  == 'error',\n                          'dialogue-warning': messagetype  == 'warning'}\"\n              *ngIf=\"messagetype  || messagetype  != '' \">\n              <amexio-c-icon [key]=\"'window-msgtype-'+ messagetype \"></amexio-c-icon>\n            </span>\n                <ng-container *ngIf=\"!custom\">\n                    <span id=\"{{componentId}}\" tabindex=\"1\" class=\"dialogue-message\">\n                {{message}}\n              </span>\n                </ng-container>\n                </span>\n                <ng-container *ngIf=\"custom\">\n                    <ng-content select=\"amexio-body\"></ng-content>\n                </ng-container>\n\n            </div>\n            <footer *ngIf=\"custom\" class=\"dialogue-footer\" [ngClass]=\"{'flex-start':(footeralign=='left'),'flex-end':(footeralign=='right'),'flex-center':(footeralign=='center')}\">\n                <ng-content select=\"amexio-action\"></ng-content>\n            </footer>\n\n            <footer *ngIf=\"!custom\" class=\"dialogue-footer\" [ngClass]=\"{'dialogue-material-design-footer':materialDesign ,\n                            'dialogue-footer':!materialDesign, 'flex-start':(footeralign=='left'),\n                            'flex-end':(footeralign=='right'),'flex-center':(footeralign=='center')}\">\n                <amexio-button *ngIf=\"type =='confirm'\" [size]=\"buttonsize\" [label]=\"secondaryactionlabel\" [type]=\"defaultStyle\" (onClick)=\"getStatus('cancel')\"></amexio-button>\n                <div class=\"custom-btn\">\n                    <amexio-button *ngIf=\"type =='confirm' || type == 'alert'\" [size]=\"buttonsize\" [label]=\"primaryactionlabel\" [ngStyle]=\"{'color':materialDesign ? 'blue':'white'}\" [type]=\"buttontype\" (onClick)=\"getStatus('ok')\">\n                    </amexio-button>\n                </div>\n\n            </footer>\n        </div>\n    </div>\n  ",
-                    animations: [
-                        trigger('animation', [
-                            state('void', style({
-                                transform: 'translate3d(0, 25%, 0) scale(0.9)',
-                                opacity: 0,
-                            })),
-                            state('visible', style({
-                                transform: 'none',
-                                opacity: 1,
-                            })),
-                            transition('* => *', animate('400ms cubic-bezier(0.25, 0.8, 0.25, 1)')),
-                        ]),
-                    ],
-                },] },
-    ];
-    /** @nocollapse */
-    AmexiodialoguePaneComponent.ctorParameters = function () { return [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }
-    ]; };
-    AmexiodialoguePaneComponent.propDecorators = {
-        closeonescape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['close-on-escape',] }],
-        buttontype: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['button-type',] }],
-        buttonsize: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['button-size',] }],
-        footeralign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['footer-align',] }],
-        contentalign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['content-align',] }],
-        showdialogue: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-dialogue',] }],
-        show: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        showChange: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        message: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        custom: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        primaryactionlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['primary-action-label',] }],
-        secondaryactionlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['secondary-action-label',] }],
-        messagetype: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['message-type',] }],
-        materialDesign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['material-design',] }],
-        actionStatus: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        onSuccess: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        onCancel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        close: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        amexioFooter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFooterComponent,] }]
-    };
-    return AmexiodialoguePaneComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioFieldSetComponent = /** @class */ (function () {
-    function AmexioFieldSetComponent() {
-    }
-    /**
-     * @return {?}
-     */
-    AmexioFieldSetComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        if (!this.collapsible) {
-            this.isActive = true;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioFieldSetComponent.prototype.onLegendClick = /**
-     * @return {?}
-     */
-    function () {
-        if (this.collapsible) {
-            this.isActive = !this.isActive;
-        }
-    };
-    AmexioFieldSetComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-fieldset',
-                    template: "\n    <fieldset>\n        <legend tabindex=\"1\" (keyup.enter)=\"onLegendClick()\" (keyup.space)=\"onLegendClick()\" role=\"heading\" aria-expanded=\" true\"\n            *ngIf=\"(title && title.length>0) || collapsible \" class=\"collapsible-legend\" (click)=\"onLegendClick()\">\n            <ng-container *ngIf=\"!collapsible\">\n                {{title}}\n            </ng-container>\n            <ng-container *ngIf=\"collapsible && !isActive\">\n                <amexio-c-icon [attr.aria-exapnded]=\"isActive\" style=\"padding-right:5px\" key=\"fieldset_expand\"></amexio-c-icon>{{title}}\n            </ng-container>\n            <ng-container *ngIf=\"collapsible && isActive\">\n                <amexio-c-icon style=\"padding-right:5px\" key=\"fieldset_collpase\"></amexio-c-icon>{{title}}\n            </ng-container>\n        </legend>\n        <div class=\"collapsible-fieldset\" [@fieldsetContent]=\"!isActive ? {value: 'hidden', params: {transitionParams: '400ms cubic-bezier(0.86, 0, 0.07, 1)'}} : {value: 'visible', params: {transitionParams: '400ms cubic-bezier(0.86, 0, 0.07, 1)'}}\"\n        [ngStyle]=\"{'overflow': isActive ? '': 'hidden'}\">\n            <ng-content></ng-content>\n        </div>\n    </fieldset> \n  ",
-                    animations: [
-                        trigger('fieldsetContent', [
-                            state('hidden', style({
-                                height: '0px',
-                            })),
-                            state('visible', style({
-                                height: '*',
-                            })),
-                            transition('visible => hidden', animate('400ms cubic-bezier(0.86, 0, 0.07, 1)')),
-                            transition('hidden => visible', animate('400ms cubic-bezier(0.86, 0, 0.07, 1)')),
-                        ]),
-                    ],
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioFieldSetComponent.ctorParameters = function () { return []; };
-    AmexioFieldSetComponent.propDecorators = {
-        collapsible: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
-    };
-    return AmexioFieldSetComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* Component Name : Amexio Form Action
-* Component Selector : <amexio-form-action>
-* Component Description : Amexio Form actions contains the action items within form
-*/
-var AmexioFormActionComponent = /** @class */ (function () {
-    function AmexioFormActionComponent() {
-        this.buttons = [];
-    }
-    /**
-     * @return {?}
-     */
-    AmexioFormActionComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @return {?}
-     */
-    AmexioFormActionComponent.prototype.ngAfterViewInit = /**
-     * @return {?}
-     */
-    function () {
-        if (this.btns.length > 0) {
-            this.buttons = this.btns.toArray();
-        }
-        else if (this.btngrp.length > 0) {
-            this.buttons = this.btngrp.toArray()[0].buttons;
-        }
-    };
-    AmexioFormActionComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-form-action', template: '<ng-content></ng-content>',
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioFormActionComponent.ctorParameters = function () { return []; };
-    AmexioFormActionComponent.propDecorators = {
-        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        btns: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonComponent,] }],
-        btngrp: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonGroupComponent,] }]
-    };
-    return AmexioFormActionComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
-var AmexioFormBodyComponent = /** @class */ (function () {
-    function AmexioFormBodyComponent() {
-    }
-    /**
-     * @return {?}
-     */
-    AmexioFormBodyComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    AmexioFormBodyComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-form-body', template: '<ng-content></ng-content>',
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioFormBodyComponent.ctorParameters = function () { return []; };
-    AmexioFormBodyComponent.propDecorators = {
-        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
-    };
-    return AmexioFormBodyComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioFormHeaderComponent = /** @class */ (function () {
-    function AmexioFormHeaderComponent() {
-    }
-    /**
-     * @return {?}
-     */
-    AmexioFormHeaderComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    AmexioFormHeaderComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-form-header', template: "\n        <ng-content></ng-content>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioFormHeaderComponent.ctorParameters = function () { return []; };
-    AmexioFormHeaderComponent.propDecorators = {
-        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
-    };
-    return AmexioFormHeaderComponent;
-}());
-
-var __extends$30 = (undefined && undefined.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
-var AmexioFormComponent = /** @class */ (function (_super) {
-    __extends$30(AmexioFormComponent, _super);
-    function AmexioFormComponent(formBuilder) {
-        var _this = _super.call(this) || this;
-        _this.formBuilder = formBuilder;
-        /*
-        Properties
-        name : show-error
-        datatype : boolean
-        version : 4.2 onwards
-        default : false
-        description : Flag to show form invalid error messages
-        */
-        _this.showError = false;
-        /*
-        Events
-        name : showErrorMsg
-        datatype : any
-        version : none
-        default :
-        description : Event fired if showError msg info button is clicked
-        */
-        _this.showErrorMsg = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        _this.componentError = [];
-        _this.checkForm = false;
-        _this.isFormValid = false;
-        _this.showDialogue = false;
-        _this.headeralign = 'left';
-        _this.footeralign = 'right';
-        _this.errorMsgArray = [];
-        return _this;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        // FOR HEADER PADING
-        this.headerComponentList = this.amexioHeader.toArray();
-        this.headerComponentList.forEach(function (item, currentIndex) {
-            if (item.padding) {
-                _this.headerPadding = item.padding;
-            }
-        });
-        // FOR BODY PADDING
-        this.bodyComponentList = this.amexioBody.toArray();
-        this.bodyComponentList.forEach(function (item, currentIndex) {
-            if (item.padding) {
-                _this.bodyPadding = item.padding;
-            }
-        });
-        // FOR FOOTER PADDING
-        this.footerComponentList = this.amexioFooter.toArray();
-        this.footerComponentList.forEach(function (item, currentIndex) {
-            if (item.padding) {
-                _this.footerPadding = item.padding;
-            }
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.onResize = /**
-     * @return {?}
-     */
-    function () {
-        if (this.bodyheight) {
-            var /** @type {?} */ h = (window.innerHeight / 100) * this.bodyheight;
-            if (this.formHeader && this.formHeader.nativeElement && this.formHeader.nativeElement.offsetHeight) {
-                h = h - this.formHeader.nativeElement.offsetHeight;
-            }
-            if (this.formFooter && this.formFooter.nativeElement && this.formFooter.nativeElement.offsetHeight) {
-                h = h - this.formFooter.nativeElement.offsetHeight;
-            }
-            if (this.bodyheight === 100) {
-                h = h - 40;
-            }
-            this.minHeight = h;
-            this.height = h;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.buttons = [];
-        _super.prototype.ngOnInit.call(this);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.ngAfterViewInit = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        _super.prototype.ngAfterViewInit.call(this);
-        var /** @type {?} */ ngContentModels = this.models.toArray();
-        var /** @type {?} */ innerModelArray = [];
-        this.fb.forEach(function (fbnode) {
-            var /** @type {?} */ modelarray = fbnode.modelsarray;
-            var /** @type {?} */ fgc = {};
-            modelarray.forEach(function (m) {
-                fgc[m.name] = m.control;
-                innerModelArray.push(m);
-            });
-            var /** @type {?} */ grp = _this.formBuilder.group(fgc);
-            _this.form.form.registerControl(fbnode.group, grp);
-        });
-        ngContentModels.forEach(function (model) {
-            if (!_this.isFieldPresentInParentAndChildBoth(innerModelArray, model.name)) {
-                if (!model.name || model.name === null) {
-                    model.name = model.valueAccessor['name'];
-                }
-                _this.form.control.registerControl(model.name, model.control);
-            }
-        });
-        this.clearTimeout = setTimeout(function () {
-            _this.form.form.updateValueAndValidity();
-        }, 100);
-        this.btns.toArray().forEach(function (btnCom) {
-            if ((btnCom.formbind === _this.fname) && !btnCom.disabled) {
-                _this.buttons.push(btnCom);
-            }
-        });
-        this.validateForm();
-        this.onResize();
-    };
-    /**
-     * @param {?} innerModelArray
-     * @param {?} name
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.isFieldPresentInParentAndChildBoth = /**
-     * @param {?} innerModelArray
-     * @param {?} name
-     * @return {?}
-     */
-    function (innerModelArray, name) {
-        var /** @type {?} */ isPresent = false;
-        innerModelArray.forEach(function (innerModel) {
-            if (name === innerModel.name) {
-                isPresent = true;
-            }
-        });
-        return isPresent;
-    };
-    /**
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.closeDialogue = /**
-     * @return {?}
-     */
-    function () {
-        this.showDialogue = !this.showDialogue;
-    };
-    // THIS METHOD IS USED FOR ADDING MSG
-    /**
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.addErrorMsg = /**
-     * @return {?}
-     */
-    function () {
-        if (this.form && this.form.status === 'INVALID') {
-            for (var _i = 0, _a = Object.entries(this.form.controls); _i < _a.length; _i++) {
-                var _b = _a[_i], key = _b[0], value = _b[1];
-                if (value && value.status === 'INVALID') {
-                    var /** @type {?} */ errorObject = {};
-                    errorObject['label'] = key;
-                    this.errorMsgArray.push(errorObject);
-                }
-            }
-        }
-    };
-    // REMOVE OBJECT FROM ARRAY
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.showErrors = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        this.errorMsgArray = [];
-        this.addErrorMsg();
-        this.showDialogue = !this.isFormValid;
-        if (!this.isFormValid) {
-            this.showDialogue = true;
-        }
-        else {
-            this.showDialogue = false;
-        }
-    };
-    // THIS METHOD IS USED FOR DISABLE BUTTON
-    /**
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.validateForm = /**
-     * @return {?}
-     */
-    function () {
-        if (this.form && this.form.status === 'INVALID') {
-            this.disableButton(true);
-        }
-        else {
-            this.disableButton(false);
-        }
-    };
-    /**
-     * @param {?} flag
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.disableButton = /**
-     * @param {?} flag
-     * @return {?}
-     */
-    function (flag) {
-        this.buttons.forEach(function (btn) {
-            btn.disabled = flag;
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.ngAfterContentChecked = /**
-     * @return {?}
-     */
-    function () {
-        this.validateForm();
-    };
-    /**
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.findformStyleClass = /**
-     * @return {?}
-     */
-    function () {
-        if (this.headeralign === 'right') {
-            return 'flex-end';
-        }
-        if (this.headeralign === 'left') {
-            return 'flex-start';
-        }
-        if (this.headeralign === 'center') {
-            return 'flex-center';
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioFormComponent.prototype.ngOnDestroy = /**
-     * @return {?}
-     */
-    function () {
-        _super.prototype.ngOnDestroy.call(this);
-        clearTimeout(this.clearTimeout);
-    };
-    AmexioFormComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-form',
-                    template: "\n    <form name=\"fname\" class=\"form-container form-group\" (window:resize)=\"onResize()\">\n\n        <header #formHeader class=\"form-header\" [style.padding]=\"headerPadding\" *ngIf=\"header\" [ngClass]=\"findformStyleClass()\">\n            <ng-content select=\"amexio-form-header\"></ng-content>\n        </header>\n\n        <div class=\"form-body formbody\" [style.padding]=\"bodyPadding\" [ngStyle]=\"{'height.px' : height,'overflow-y' : height!= null ? 'auto' : '','min-height.px' : minHeight}\">\n            <ng-content select=\"amexio-form-body\"></ng-content>\n        </div>\n\n        <footer #formFooter class=\"form-footer\" [style.padding]=\"footerPadding\" [ngClass]=\"{'flex-start':(footeralign=='left'),'flex-end':(footeralign=='right'),'flex-center':(footeralign=='center')}\">\n            <ng-content select=\"amexio-form-action\"></ng-content>\n            <br/>\n            <div *ngIf=\"!form.valid\" style=\"padding: 5px;\">\n                <button class=\"button\" [attr.title]=\"'click'\" (click)=\"showErrors($event)\" [ngClass]=\"'button-warning button-small button-round'\">\n                            <span class=\"button-text\">\n                              <span style=\"padding-right: 5px;\" *ngIf=\"icon\">\n                                <amexio-c-icon [customclass]=\"icon\" >\n                                </amexio-c-icon>\n                              </span>\n                              <span style=\"padding-right: 5px;\" *ngIf=\"loading\">\n                                <amexio-c-icon key=\"button-loading-icon\"></amexio-c-icon>\n                              </span>\n                              ?\n                            </span>\n                    </button>\n                <amexio-dialogue [close-on-escape]=\"true\" [(show)]=\"showDialogue\" [custom]=\"true\" [content-align]=\"'left'\" [closable]=\"false\" [title]=\"'Invalid Fields'\" [type]=\"'confirm'\">\n\n                    <amexio-body *ngFor=\"let msg of errorMsgArray let index=index\">\n                        <amexio-label>{{index+1}}) {{msg.label}}</amexio-label><br>\n                    </amexio-body>\n\n                    <amexio-action>\n                        <amexio-button type=\"primary\" (onClick)=\"closeDialogue()\" [label]=\"'OK'\">\n                        </amexio-button>\n                    </amexio-action>\n                </amexio-dialogue>\n            </div>\n        </footer>\n    </form>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioFormComponent.ctorParameters = function () { return [
-        { type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"] }
-    ]; };
-    AmexioFormComponent.propDecorators = {
-        headeralign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['header-align',] }],
-        footeralign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['footer-align',] }],
-        fname: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['form-name',] }],
-        header: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['header',] }],
-        showError: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-error',] }],
-        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        minHeight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['min-height',] }],
-        bodyheight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['body-height',] }],
-        formHeader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['formHeader', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
-        formFooter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['formFooter', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
-        showErrorMsg: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        amexioHeader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFormHeaderComponent,] }],
-        amexioBody: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFormBodyComponent,] }],
-        amexioFooter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFormActionComponent,] }],
-        btns: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonComponent, { descendants: true },] }],
-        form: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgForm"],] }],
-        models: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"], { descendants: true },] }],
-        fb: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFormGroupDirective, { descendants: true },] }]
-    };
-    return AmexioFormComponent;
-}(LifeCycleBaseComponent));
-
-var __extends$31 = (undefined && undefined.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*Created by pratik on 14/12/17.
-*/
-var AmexioPanelComponent = /** @class */ (function (_super) {
-    __extends$31(AmexioPanelComponent, _super);
-    function AmexioPanelComponent(renderer) {
-        var _this = _super.call(this) || this;
-        _this.renderer = renderer;
-        /*
-        Properties
-        name : collapsible
-        datatype :  boolean
-        version : 4.0 onwards
-        default : false
-        description : Pane will expand or collapse based on the boolean.
-        */
-        _this.collapsible = true;
-        _this.contentAlign = 'left';
-        _this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        _this.nodeRightClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        _this.rightClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        _this.mouseLocation = { left: 0, top: 0 };
-        _this.faFaIconUPCss = 'fa fa-caret-up';
-        _this.faFaIconDownCss = 'fa fa-caret-down';
-        _this.panelstyle = { visibility: 'visible' };
-        return _this;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioPanelComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.componentId = Math.random() * 1000 + 'panel';
-        if (!this.collapsible) {
-            this.expanded = true;
-        }
-        this.iconclassKey = this.expanded ? this.faFaIconUPCss : this.faFaIconDownCss;
-        if (this.height) {
-            return this.height;
-        }
-        this.updatestyle();
-        _super.prototype.ngOnInit.call(this);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioPanelComponent.prototype.ngAfterViewInit = /**
-     * @return {?}
-     */
-    function () {
-        _super.prototype.ngAfterViewInit.call(this);
-    };
-    /**
-     * @param {?} btn
-     * @return {?}
-     */
-    AmexioPanelComponent.prototype.onTabClick = /**
-     * @param {?} btn
-     * @return {?}
-     */
-    function (btn) {
-        btn.classList.toggle('active-accordion');
-        if (this.iconclassKey === this.faFaIconDownCss) {
-            this.iconclassKey = this.faFaIconUPCss;
-        }
-        else if (this.iconclassKey === this.faFaIconUPCss) {
-            this.iconclassKey = this.faFaIconDownCss;
-        }
-        this.expanded = !this.expanded;
-        this.updatestyle();
-        this.onClick.emit();
-    };
-    /**
-     * @param {?} Data
-     * @return {?}
-     */
-    AmexioPanelComponent.prototype.rightClickDataEmit = /**
-     * @param {?} Data
-     * @return {?}
-     */
-    function (Data) {
-        this.rightClick.emit(Data);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioPanelComponent.prototype.updatestyle = /**
-     * @return {?}
-     */
-    function () {
-        if (this.fit && this.expanded) {
-            this.panelstyle = { visibility: 'visible', state: 'visible' };
-        }
-        else if (this.fit && !this.expanded) {
-            this.panelstyle = { visibility: 'hidden', state: 'hidden' };
-        }
-        else if (!this.fit && this.expanded) {
-            this.panelstyle = { display: 'block', state: 'block' };
-        }
-        else if (!this.fit && !this.expanded) {
-            this.panelstyle = { display: 'none', state: 'none' };
-        }
-        else {
-            this.panelstyle = { visibility: 'visible', state: 'visible' };
-        }
-    };
-    // getcontextmenu
-    /**
-     * @return {?}
-     */
-    AmexioPanelComponent.prototype.getContextMenu = /**
-     * @return {?}
-     */
-    function () {
-        if (this.contextmenu && this.contextmenu.length > 0) {
-            this.flag = true;
-            this.addListner();
-        }
-    };
-    /**
-     * @param {?} elementRef
-     * @return {?}
-     */
-    AmexioPanelComponent.prototype.getListPosition = /**
-     * @param {?} elementRef
-     * @return {?}
-     */
-    function (elementRef) {
-        var /** @type {?} */ height = 240;
-        if ((window.screen.height - elementRef.getBoundingClientRect().bottom) < height) {
-            return true;
-        }
-        else {
-            return false;
-        }
-    };
-    /**
-     * @param {?} rightClickData
-     * @return {?}
-     */
-    AmexioPanelComponent.prototype.loadContextMenu = /**
-     * @param {?} rightClickData
-     * @return {?}
-     */
-    function (rightClickData) {
-        if (this.contextmenu && this.contextmenu.length > 0) {
-            this.mouseLocation.left = rightClickData.event.clientX;
-            this.mouseLocation.top = rightClickData.event.clientY;
-            this.getContextMenu();
-            this.posixUp = this.getListPosition(rightClickData.ref);
-            rightClickData.event.preventDefault();
-            rightClickData.event.stopPropagation();
-            this.rightClickNodeData = rightClickData.data;
-            this.nodeRightClick.emit(rightClickData);
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioPanelComponent.prototype.addListner = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.globalClickListenFunc = this.renderer.listen('document', 'click', function (e) {
-            _this.flag = false;
-            if (!_this.flag) {
-                _this.removeListner();
-            }
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioPanelComponent.prototype.removeListner = /**
-     * @return {?}
-     */
-    function () {
-        if (this.globalClickListenFunc) {
-            this.globalClickListenFunc();
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioPanelComponent.prototype.ngOnDestroy = /**
-     * @return {?}
-     */
-    function () {
-        _super.prototype.ngOnDestroy.call(this);
-        this.removeListner();
-    };
-    AmexioPanelComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-panel',
-                    template: "\n\n\n\n    <div    #id style=\"width: 100%\" (contextmenu)=\"loadContextMenu({event:$event,ref:id})\"  >\n        <ng-container *ngIf=\"collapsible; else elseBlock\"> \n            <div id=\"{{componentId}}\" [ngStyle]=\"{'background': bgColor, 'color': color}\"\n            *ngIf=\"header\" class=\"panel-accordion\" \n            (click)=\"onTabClick(btn1)\"    >\n                <amexio-toolbar\n                tabindex=\"0\" \n                role=\"heading\"\n                [attr.aria-expanded]=\"expanded\"\n                (keyup.enter)=\"onTabClick(btn1)\"\n                (keyup.space)=\"onTabClick(btn1)\"\n\n            \n                >\n                    <amexio-toolbar-item position-left  attr.aria-label=\"{{title}}\">\n                        <amexio-label  attr.aria-labelledby=\"{{componentId}}\" size=\"small\">\n                            {{title}}\n                        </amexio-label>\n                    </amexio-toolbar-item>\n                    <amexio-toolbar-item position-right>\n                        <ng-content select=\"amexio-panel-header\"></ng-content>\n                    </amexio-toolbar-item>\n                    <amexio-toolbar-item style=\"margin:auto\" position-right>\n                        <i [class]=\"iconclassKey\" aria-hidden=\"true\" #btn1></i>\n                    </amexio-toolbar-item>\n                </amexio-toolbar>\n            </div>\n        </ng-container>\n\n        <ng-template #elseBlock> {{expanded}}\n            <div    id=\"{{componentId}}\"   *ngIf=\"header\" class=\"panel-accordion\" (click)=\"onTabClick(btn1)\">\n                <amexio-toolbar\n                tabindex=\"0\" \n                [attr.aria-expanded]=\"expanded\"\n                (keyup.enter)=\"onTabClick(btn1)\"\n                (keyup.space)=\"onTabClick(btn1)\"\n            \n                >\n                    <amexio-toolbar-item position-left tabindex=\"0\" [attr.aria-expanded]=\"expanded\"  attr.aria-label=\"{{title}}\">\n                        <amexio-label  size=\"small\"   attr.aria-labelledby=\"{{componentId}}\" >\n                            {{title}}\n                        </amexio-label>\n                    </amexio-toolbar-item>\n                    <amexio-toolbar-item position-right>\n                        <ng-content select=\"amexio-panel-header\"></ng-content>\n                    </amexio-toolbar-item>\n                </amexio-toolbar>\n            </div>\n        </ng-template>\n    \n        <div tabindex=\"0\"  id=\"panelpanelId\" class=\"panel-panel\" [ngStyle]=\"{'border-color': border && bgColor}\" [ngClass]=\"{'panel-box-border':border}\" [style.textAlign]=\"contentAlign\" [style.height.px]=\"height\"\n            [@panelState]=\"panelstyle.state\">\n            <ng-content aria-labelledby=\"panelpanelId\" ></ng-content>\n        </div>\n\n        <ng-container *ngIf=\"flag && (this.contextmenu && this.contextmenu.length > 0)\">\n            <base-contextmenu tabindex=\"0\" [base-context-menu]=\"contextmenu\" [mouse-location-top]=\"mouseLocation.top\"\n                [mouse-location-left]=\"mouseLocation.left\" [is-FlagShow]=\"flag\" [right-click-data]=\"nodeRightClick\"\n                (onRightClick)=\"rightClickDataEmit($event)\" [position-up]=\"posixUp\">\n            </base-contextmenu>\n        </ng-container>\n    </div>\n  ",
-                    animations: [
-                        trigger('panelState', [
-                            state('hidden', style({
-                                visibility: 'hidden',
-                                height: '0px',
-                            })),
-                            state('visible', style({
-                                visibility: 'visible',
-                                height: '*',
-                            })),
-                            state('block', style({
-                                display: 'block',
-                                height: '*',
-                            })),
-                            state('none', style({
-                                display: 'none',
-                                height: '0px',
-                            })),
-                            transition('*=>*', animate('200ms')),
-                        ]),
-                    ],
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioPanelComponent.ctorParameters = function () { return [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }
-    ]; };
-    AmexioPanelComponent.propDecorators = {
-        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        header: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        expanded: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        border: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        collapsible: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        contextmenu: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['context-menu',] }],
-        color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        bgColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['background',] }],
-        contentAlign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['content-align',] }],
-        parentRef: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        fit: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['fit',] }],
-        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        nodeRightClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        rightClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
-    };
-    return AmexioPanelComponent;
-}(LifeCycleBaseComponent));
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
-var AmexioPanelHeaderComponent = /** @class */ (function () {
-    function AmexioPanelHeaderComponent() {
-        this.role = 'amexio-panel-header';
-    }
-    /**
-     * @return {?}
-     */
-    AmexioPanelHeaderComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    AmexioPanelHeaderComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-panel-header', template: "\n    <ng-content></ng-content>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioPanelHeaderComponent.ctorParameters = function () { return []; };
-    AmexioPanelHeaderComponent.propDecorators = {
-        role: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
-        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
-    };
-    return AmexioPanelHeaderComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var StepBlockComponent = /** @class */ (function () {
-    function StepBlockComponent() {
-    }
-    /**
-     * @return {?}
-     */
-    StepBlockComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    StepBlockComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-step-block', template: "\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    StepBlockComponent.ctorParameters = function () { return []; };
-    StepBlockComponent.propDecorators = {
-        active: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        label: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        icon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
-    };
-    return StepBlockComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*  Created by pratik on 15/12/17.
-*/
-var AmexioStepsComponent = /** @class */ (function () {
-    function AmexioStepsComponent() {
-        /*
-        Events
-        name : onClick
-        datatype : none
-        version : none
-        default : none
-        description :Event emitted on block click.
-        */
-        this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-        Events
-        name : getStepBlockData
-        datatype : none
-        version : none
-        default : none
-        description :Gives stepblock information .
-        */
-        this.getStepBlockData = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-    }
-    Object.defineProperty(AmexioStepsComponent.prototype, "data", {
-        get: /**
-         * @return {?}
-         */
-        function () {
-            return this._data;
-        },
-        set: /**
-         * @param {?} value
-         * @return {?}
-         */
-        function (value) {
-            this._data = value;
-            if (this.componentLoaded) {
-                this.updateComponent();
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @param {?} clickData
-     * @param {?} ev
-     * @return {?}
-     */
-    AmexioStepsComponent.prototype.onStepClick = /**
-     * @param {?} clickData
-     * @param {?} ev
-     * @return {?}
-     */
-    function (clickData, ev) {
-        this.getStepBlockData.emit({ event: ev, data: clickData });
-        this.onClick.emit(clickData);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioStepsComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        if (this.data && this.data.length > 0) {
-            this.stepPreviewData = JSON.parse(JSON.stringify(this.data));
-            this.stepBlockArray = this.data;
-        }
-        else {
-            this.stepBlockArray = this.stepBlocks.toArray();
-        }
-        this.componentLoaded = true;
-    };
-    /**
-     * @return {?}
-     */
-    AmexioStepsComponent.prototype.updateComponent = /**
-     * @return {?}
-     */
-    function () {
-        if (JSON.stringify(this.stepPreviewData) !== JSON.stringify(this.data)) {
-            this.stepPreviewData = JSON.parse(JSON.stringify(this.data));
-            this.stepBlockArray = this.data;
-        }
-    };
-    AmexioStepsComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-steps', template: "\n    <div class=\"stepwizard\" *ngIf=\"(index && !block && !icon)\">\n        <div class=\"stepwizard-row setup-panel\">\n            <div *ngFor=\"let stepBlock of stepBlockArray; let i = index\" class=\"stepwizard-step\">\n                <button type=\"button\" [disabled]=\"!stepBlock.active\" [ngClass]=\"{'disabled index-step-inactive':!stepBlock.active,\n            'active':stepBlock.active}\" class=\"btn-circle button button-primary\" (click)=\"onStepClick(stepBlock,$event)\">{{i + 1}}\n                </button>\n                <ng-container *ngIf=\"stepBlock.label && !stepBlock.active\">\n                    <p>{{stepBlock.label}}</p>\n                </ng-container>\n                <ng-container *ngIf=\"stepBlock.label && stepBlock.active\">\n                    <p><strong class=\"step-label-highlight\">{{stepBlock.label}}</strong></p>\n                </ng-container>\n            </div>\n        </div>\n    </div>\n\n    <!--this code use when user give icon true bydefault it is false-->\n    <div class=\"stepwizard\" *ngIf=\"(icon && !index && !block)\">\n        <div class=\"stepwizard-row setup-panel\">\n            <div *ngFor=\"let stepBlock of stepBlockArray; let i = index\" class=\"stepwizard-step\">\n                <ng-container *ngIf=\"stepBlock.icon && stepBlock.active\">\n                    <span [ngClass]=\"{'step-box-icon-active':stepBlock.active}\" (onClick)=\"onStepClick(stepBlock,$event)\">\n                        <amexio-c-icon [customclass]=\"stepBlock.icon\"></amexio-c-icon>\n                    </span>\n                </ng-container>\n                <ng-container *ngIf=\"stepBlock.icon && !stepBlock.active\">\n                    <span [ngClass]=\"{'step-block-icon-disable':!stepBlock.active}\">\n                        <amexio-c-icon [customclass]=\"stepBlock.icon\" (onClick)=\"onStepClick(stepBlock,$event)\"></amexio-c-icon>\n                    </span>\n                </ng-container>\n                <ng-container *ngIf=\"stepBlock.icon=='' || !stepBlock.icon\">\n                    <br>\n                </ng-container>\n                <ng-container *ngIf=\"stepBlock.label && !stepBlock.active\">\n                    <p style=\"cursor:not-allowed;\" (onClick)=\"onStepClick(stepBlock,$event)\">{{stepBlock.label}}</p>\n                </ng-container>\n                <ng-container *ngIf=\"stepBlock.label && stepBlock.active\">\n                    <p style=\"cursor:pointer;\"><strong class=\"step-label-highlight\" [ngClass]=\"{'step-box-label-active':stepBlock.active}\">{{stepBlock.label}}</strong></p>\n                </ng-container>\n            </div>\n        </div>\n    </div>\n\n    <!--This code use for steps of boxes-->\n    <div *ngIf=\"block\">\n        <div *ngIf=\"block\" role=\"tablist\" class=\"step-box-sqaure\">\n            <div class=\"step-box-table\">\n                <ng-container *ngFor=\"let stepBlock of stepBlockArray; let i = index\">\n                    <div role=\"link\" class=\"step-box-table-item\" [tabindex]=\"stepBlock.active ? 0 : -1\" [attr.aria-labelleby]=\"stepBlock.label\" (click)=\"onStepClick(stepBlock,$event)\" style=\"padding-top: 10px;\" [ngClass]=\"{'disabled step-box-table-item-hover ':!stepBlock.active,'active':stepBlock.active}\">\n                        <a>\n                            <ng-container *ngIf=\"index\">\n                                {{i + 1}}<br>\n                            </ng-container>\n                            <ng-container *ngIf=\"icon && stepBlock.icon\">\n                                <amexio-c-icon [customclass]=\"stepBlock.icon\"></amexio-c-icon>\n                            </ng-container>\n                            <ng-container *ngIf=\"stepBlock.label && !stepBlock.active\">\n                                <p style=\"word-wrap: break-word;\">{{stepBlock.label}}</p>\n                            </ng-container>\n                            <ng-container *ngIf=\"stepBlock.label && stepBlock.active\">\n                                <p style=\"word-wrap: break-word;\"><strong>{{stepBlock.label}}</strong></p>\n                            </ng-container>\n                        </a>\n                    </div>\n                </ng-container>\n\n            </div>\n        </div>\n\n    </div>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioStepsComponent.ctorParameters = function () { return []; };
-    AmexioStepsComponent.propDecorators = {
-        index: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        icon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        block: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        getStepBlockData: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        stepBlocks: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [StepBlockComponent,] }],
-        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data',] }]
-    };
-    return AmexioStepsComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* Created by pratik on 8/12/17.
-*/
-var AmexioTabPillComponent = /** @class */ (function () {
-    function AmexioTabPillComponent() {
-        /*
-        Properties
-        name : disabled
-        datatype : boolean
-        version : 4.1.4 onwards
-        default : false
-        description : Disable property for tab
-        */
-        this.disabled = false;
-        /*
-        Properties
-        name : active
-        datatype : boolean
-        version : 4.0 onwards
-        default : false
-        description : Set true for specific tab open as default tab..
-        */
-        this.active = false;
-        /*
-         Properties
-         name : closable
-         datatype : boolean
-         version : 4.2 onwards
-         default : false
-         description : Font color of label
-         */
-        this.closable = null;
-        this.tabId = Math.floor(Math.random() * 90000) + 10000;
-    }
-    /**
-     * @return {?}
-     */
-    AmexioTabPillComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    AmexioTabPillComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-tab', template: "\n    <div style = \"outline: none\" role=\"tabpanel\" tabindex=\"1\" class=\"tab-pane active\" attr.aria-labelledby=\"{{tablk}}\" [attr.id]=\"tabId\" [hidden]=\"!active\">\n      <ng-content></ng-content>\n      <ng-template #target></ng-template>\n    </div>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioTabPillComponent.ctorParameters = function () { return []; };
-    AmexioTabPillComponent.propDecorators = {
-        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        active: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        icon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        amexiocolor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['amexio-color',] }],
-        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        target: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['target', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"] },] }]
-    };
-    return AmexioTabPillComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* Created by ketangote on 12/1/17.
-*/
-var AmexioRightVerticalTabComponent = /** @class */ (function () {
-    function AmexioRightVerticalTabComponent(render, componentFactoryResolver) {
-        this.render = render;
-        this.componentFactoryResolver = componentFactoryResolver;
-        this.dummyArray = [];
-        this.componentId = '';
-        /*
-        Events
-        name : onClick
-        datatype :none
-        version : 4.0 onwards
-        default : none
-        description : Callback to invoke on activated tab event.
-        */
-        this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.tabPosition = 'top';
-    }
-    /**
-     * @return {?}
-     */
-    AmexioRightVerticalTabComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.componentId = Math.floor(Math.random() * 90000) + 10000 + '_tabc';
-    };
-    /**
-     * @return {?}
-     */
-    AmexioRightVerticalTabComponent.prototype.ngAfterViewInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @return {?}
-     */
-    AmexioRightVerticalTabComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        this.tabCollection = this.queryTabs.toArray();
-    };
-    /**
-     * @param {?} tab
-     * @return {?}
-     */
-    AmexioRightVerticalTabComponent.prototype.onTabClick = /**
-     * @param {?} tab
-     * @return {?}
-     */
-    function (tab) {
-        var _this = this;
-        if (!tab.disabled && !tab.header) {
-            for (var _i = 0, _a = this.tabCollection; _i < _a.length; _i++) {
-                var i = _a[_i];
-                if (i === tab) {
-                    i['active'] = true;
-                    this.asignTabPillClass(tab);
-                    this.onClick.emit(tab);
-                }
-                else {
-                    i['active'] = false;
-                    i['tabPillClass'] = '';
-                }
-            }
-            this.tabCollection.forEach(function (tab1) {
-                _this.asignTabPillClass(tab1);
-            });
-        }
-    };
-    /**
-     * @param {?} tabData
-     * @return {?}
-     */
-    AmexioRightVerticalTabComponent.prototype.asignTabPillClass = /**
-     * @param {?} tabData
-     * @return {?}
-     */
-    function (tabData) {
-        tabData.tabPillClass = '';
-        if ((!tabData.amexiocolor || tabData.amexiocolor === '') && tabData.active && (this.tabPosition === 'top')) {
-            tabData.tabPillClass = 'activetab';
-        }
-        if ((!tabData.amexiocolor || tabData.amexiocolor === '') && (this.tabPosition === 'bottom') && tabData.active) {
-            tabData.tabPillClass = 'bottomActivetab';
-        }
-        if (tabData.disabled) {
-            tabData.tabPillClass = 'disabled-tab';
-        }
-        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'top') && tabData.active) {
-            tabData.tabPillClass = 'activecolortab';
-        }
-        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'bottom') && tabData.active) {
-            tabData.tabPillClass = 'activebottomcolortab';
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioRightVerticalTabComponent.prototype.findTabStyleClass = /**
-     * @return {?}
-     */
-    function () {
-        if (this.tabPosition === 'top') {
-            return 'tabposition-right-top';
-        }
-        if (this.tabPosition === 'bottom') {
-            return 'tabposition-right-bottom';
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioRightVerticalTabComponent.prototype.closeAllTabs = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.tabCollection.forEach(function (tabs) {
-            if (tabs.closable === true || _this.closable === true) {
-                _this.closeTab(tabs);
-            }
-        });
-    };
-    /**
-     * @param {?} title
-     * @param {?} amexiocolor
-     * @param {?} closable
-     * @param {?} component
-     * @return {?}
-     */
-    AmexioRightVerticalTabComponent.prototype.addDynamicTab = /**
-     * @param {?} title
-     * @param {?} amexiocolor
-     * @param {?} closable
-     * @param {?} component
-     * @return {?}
-     */
-    function (title, amexiocolor, closable, component) {
-        // get a component factory for our TabComponent
-        var /** @type {?} */ tpCF = this.componentFactoryResolver.resolveComponentFactory(AmexioTabPillComponent);
-        var /** @type {?} */ tp = this.target.createComponent(tpCF);
-        // set the according properties on our component instance
-        var /** @type {?} */ instance = /** @type {?} */ (tp.instance);
-        instance.title = title;
-        instance.active = true;
-        instance.closable = closable;
-        instance['tabpillinstance'] = this.target;
-        if (instance.amexiocolor === '') {
-            instance.amexiocolor = 'amexio-top-tab-black';
-        }
-        else {
-            instance.amexiocolor = 'amexio-top-tab-' + amexiocolor;
-        }
-        // create dynamic component
-        var /** @type {?} */ dynCF = this.componentFactoryResolver.resolveComponentFactory(component);
-        var /** @type {?} */ dynCmp = tp.instance.target.createComponent(dynCF);
-        // Push new tab and select it.
-        this.dummyArray.push(tp);
-        this.tabCollection.push(tp.instance);
-        this.selectTab(tp.instance);
-        return dynCmp.instance;
-    };
-    /**
-     * @param {?} tab
-     * @return {?}
-     */
-    AmexioRightVerticalTabComponent.prototype.selectTab = /**
-     * @param {?} tab
-     * @return {?}
-     */
-    function (tab) {
-        var _this = this;
-        // deactivate all tabs
-        this.tabCollection.forEach(function (tab1) {
-            tab1.active = false;
-        });
-        tab.active = true;
-        this.tabCollection.forEach(function (tab1) {
-            _this.asignTabPillClass(tab1);
-        });
-    };
-    /**
-     * @param {?} tabNode
-     * @return {?}
-     */
-    AmexioRightVerticalTabComponent.prototype.closeTab = /**
-     * @param {?} tabNode
-     * @return {?}
-     */
-    function (tabNode) {
-        var _this = this;
-        var /** @type {?} */ newTab = [];
-        var /** @type {?} */ index = 0;
-        var /** @type {?} */ tabHighlightIndex = 0;
-        this.tabCollection.forEach(function (tab, i) {
-            tab.active = false;
-            if (tab.tabId === tabNode.tabId) {
-                tabHighlightIndex = index;
-                if (tab.hasOwnProperty('tabpillinstance')) {
-                    tab.target.remove();
-                }
-                else {
-                    _this.tabDomRemove(tab);
-                }
-            }
-            else if (tab.tabId !== tabNode.tabId) {
-                newTab.push(tab);
-            }
-            index++;
-        });
-        if (tabHighlightIndex === newTab.length) {
-            tabHighlightIndex--;
-        }
-        this.tabCollection = newTab;
-        if (tabHighlightIndex > -1) {
-            this.activateTab(newTab[tabHighlightIndex].tabId);
-        }
-        else {
-            this.activateTab(null);
-        }
-        if (this.tabCollection.length === 1) {
-            this.closable = false;
-        }
-        if (newTab.length === 1) {
-            newTab[0].closable = false;
-        }
-    };
-    /**
-     * @param {?} tab
-     * @return {?}
-     */
-    AmexioRightVerticalTabComponent.prototype.tabDomRemove = /**
-     * @param {?} tab
-     * @return {?}
-     */
-    function (tab) {
-        var /** @type {?} */ removeNode = document.getElementById(tab.tabId).parentNode;
-        var /** @type {?} */ parentRefNode = removeNode.parentNode;
-        parentRefNode.removeChild(removeNode);
-    };
-    /**
-     * @param {?} tabId
-     * @return {?}
-     */
-    AmexioRightVerticalTabComponent.prototype.activateTab = /**
-     * @param {?} tabId
-     * @return {?}
-     */
-    function (tabId) {
-        this.tabCollection.forEach(function (tab) {
-            tab.active = false;
-            if (tab.tabId === tabId) {
-                tab.active = true;
-            }
-        });
-    };
-    AmexioRightVerticalTabComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-right-vertical-tab-view',
-                    template: "\n    <div class=\"righttable\">\n        <div class=\"righttablerow\">\n            <div class=\"tablecol verticalalign-tabcontent\">\n                <div style=\"float:left\" class=\"tabcontent\" [attr.id]=\"componentId\">\n                    <ng-content></ng-content>\n                    <ng-template #target></ng-template>\n                </div>\n            </div>\n\n            <div style=\"float:right;height:580px\" class=\"righttablecol verticalalign-tabright\">\n                <div #tab class=\"verticalnavtab verticalnavtab-right\" [ngClass]=\"{'tabposition-right-top': (tabPosition==='top'),'tabposition-right-bottom':(tabPosition==='bottom')}\">\n                    <ul>\n                        <li *ngFor=\"let tabnode of tabCollection\">\n                            <div class=\"defaultnode\" [ngClass]=\"{'rightactivetab':tabnode.active,'disabled-tab':tabnode.disabled }\" (click)=\"onTabClick(tabnode)\" [ngStyle]=\"{'color': tabnode.amexiocolor}\">\n                                <span *ngIf=\"tabnode.icon\" [ngClass]=\"tabnode.icon\" aria-hidden=\"true\"></span>\n                                <span style=\"padding-left:5px\">{{tabnode.title}}</span>\n                                <span *ngIf=\"closable\" class=\"tablecol\">\n                    <amexio-c-icon key=\"tab_close\" (onClick)=\"closeTab(tabnode)\" style=\"padding-left:5px;float:right\"></amexio-c-icon>\n                  </span>\n                            </div>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n\n        </div>\n    </div>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioRightVerticalTabComponent.ctorParameters = function () { return [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] },
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ComponentFactoryResolver"] }
-    ]; };
-    AmexioRightVerticalTabComponent.propDecorators = {
-        tabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tab', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
-        queryTabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTabPillComponent,] }],
-        target: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['target', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"] },] }],
-        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        tabPosition: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
-    };
-    return AmexioRightVerticalTabComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioTabActionComponent = /** @class */ (function () {
-    function AmexioTabActionComponent() {
-        this.showContent = false;
-        this.actionComponent = '';
-    }
-    /**
-     * @return {?}
-     */
-    AmexioTabActionComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabActionComponent.prototype.checkActionComponent = /**
-     * @return {?}
-     */
-    function () {
-        this.textinput = this.queryTextinput.toArray();
-        if (this.textinput.length > 0) {
-            this.actionComponent = 'text';
-            this.textinput[0].haslabel = false;
-            this.textinput[0].iconfeedback = false;
-        }
-        this.checkbox = this.queryCheckbox.toArray();
-        if (this.checkbox.length > 0) {
-            this.actionComponent = 'checkbox';
-            this.checkbox[0].fieldlabel = '';
-        }
-        this.radioGroup = this.queryRadioGroup.toArray();
-        if (this.radioGroup.length > 0) {
-            this.actionComponent = 'radiogroup';
-            this.radioGroup[0].fieldlabel = '';
-            this.radioGroup[0].horizontal = true;
-        }
-        this.label = this.queryLabel.toArray();
-        if (this.label.length > 0) {
-            this.actionComponent = 'label';
-        }
-        this.number = this.queryNumber.toArray();
-        if (this.number.length > 0) {
-            this.actionComponent = 'number';
-            this.number[0].fieldlabel = '';
-        }
-        this.rating = this.queryRating.toArray();
-        if (this.rating.length > 0) {
-            this.actionComponent = 'rating';
-            this.rating[0].fieldlabel = '';
-        }
-        this.toggle = this.queryToggle.toArray();
-        if (this.toggle.length > 0) {
-            this.actionComponent = 'toggle';
-            this.toggle[0].fieldlabel = '';
-        }
-        this.button = this.queryButton.toArray();
-        if (this.button.length > 0) {
-            this.actionComponent = 'button';
-        }
-        this.image = this.queryImage.toArray();
-        if (this.image.length > 0) {
-            this.actionComponent = 'image';
-        }
-        this.dropdown = this.queryDropDown.toArray();
-        if (this.dropdown.length > 0) {
-            this.actionComponent = 'dropdown';
-            this.dropdown[0].fieldlabel = '';
-        }
-        this.checkboxgroup = this.queryCheckBoxGroup.toArray();
-        if (this.checkboxgroup.length > 0) {
-            this.actionComponent = 'checkboxgroup';
-            this.checkboxgroup[0].fieldlabel = '';
-            this.checkboxgroup[0].horizontal = true;
-        }
-    };
-    AmexioTabActionComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-tab-action',
-                    template: "\n   <ng-content></ng-content>\n   ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioTabActionComponent.ctorParameters = function () { return []; };
-    AmexioTabActionComponent.propDecorators = {
-        queryTextinput: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTextInputComponent, { descendants: true },] }],
-        queryCheckbox: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCheckBoxComponent, { descendants: true },] }],
-        queryRadioGroup: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioRadioGroupComponent, { descendants: true },] }],
-        queryLabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioLabelComponent, { descendants: true },] }],
-        queryNumber: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioNumberInputComponent, { descendants: true },] }],
-        queryRating: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioRatingComponent, { descendants: true },] }],
-        queryToggle: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioToggleComponent, { descendants: true },] }],
-        queryButton: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioButtonComponent, { descendants: true },] }],
-        queryImage: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioImageComponent, { descendants: true },] }],
-        queryDropDown: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioDropDownComponent, { descendants: true },] }],
-        queryCheckBoxGroup: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCheckBoxGroupComponent, { descendants: true },] }]
-    };
-    return AmexioTabActionComponent;
-}());
-
-var __extends$32 = (undefined && undefined.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* Created by ketangote on 12/1/17.
-*/
-var TOP_COMPONENT_CLASS_MAP = {
-    red: 'amexio-top-tab-red',
-    green: 'amexio-top-tab-green',
-    purple: 'amexio-top-tab-purple',
-    blue: 'amexio-top-tab-blue',
-    brown: 'amexio-top-tab-brown',
-    yellow: 'amexio-top-tab-yellow',
-    black: 'amexio-top-tab-black',
-    pink: 'amexio-top-tab-pink',
-    orange: 'amexio-top-tab-orange',
-};
-var BOTTOM_COMPONENT_CLASS_MAP = {
-    red: 'amexio-bottom-tab-red',
-    green: 'amexio-bottom-tab-green',
-    purple: 'amexio-bottom-tab-purple',
-    blue: 'amexio-bottom-tab-blue',
-    brown: 'amexio-bottom-tab-brown',
-    yellow: 'amexio-bottom-tab-yellow',
-    black: 'amexio-bottom-tab-black',
-    pink: 'amexio-bottom-tab-pink',
-    orange: 'amexio-bottom-tab-orange',
-};
-var AmexioTabComponent = /** @class */ (function (_super) {
-    __extends$32(AmexioTabComponent, _super);
-    function AmexioTabComponent(render, componentFactoryResolver, renderer) {
-        var _this = _super.call(this) || this;
-        _this.render = render;
-        _this.componentFactoryResolver = componentFactoryResolver;
-        _this.renderer = renderer;
-        /*
-           Properties
-           name :  context-menu
-           datatype : string
-           version : 5.0.1 onwards
-           default :
-           description : Context Menu provides the list of menus on right click.
-           */
-        _this.contextmenu = [];
-        /*
-           Events
-           name : rightClick
-           datatype : none
-           version : 5.0.1
-           default : none
-           description : It will gives you row clicked data.
-           */
-        _this.rightClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-           Events
-           name : onClick
-           datatype : none
-           version : none
-           default : none
-           description : Callback to invoke on activated tab event.
-           */
-        _this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        _this.showprev = false;
-        _this.shownext = false;
-        _this.mouseLocation = { left: 0, top: 0 };
-        _this.closeOthersConst = 'Close Others';
-        _this.dummyArray = [];
-        _this.tabPositionClass = '';
-        _this.componentId = '';
-        _this.map = new Map();
-        _this.prevtabindex = -1;
-        _this.currtabindex = -1;
-        _this.headeralign = 'left';
-        _this.typeActionAlign = 'left';
-        _this.tabPosition = 'top';
-        _this.fullPageTabs = false;
-        _this.action = false;
-        return _this;
-    }
-    Object.defineProperty(AmexioTabComponent.prototype, "tabLocalData", {
-        get: /**
-         * @return {?}
-         */
-        function () {
-            return this._tabLocalData;
-        },
-        set: /**
-         * @param {?} value
-         * @return {?}
-         */
-        function (value) {
-            this._tabLocalData = value;
-            if (this.componentLoaded) {
-                this.updateTabComponent();
-            }
-        },
-        enumerable: true,
-        configurable: true
-    });
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.componentLoaded = true;
-        this.componentId = Math.floor(Math.random() * 90000) + 10000 + '_tabc';
-        _super.prototype.ngOnInit.call(this);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.updateTabComponent = /**
-     * @return {?}
-     */
-    function () {
-        if (this.tabs.nativeElement.scrollWidth > this.tabs.nativeElement.clientWidth) {
-            this.headeralign = 'left';
-        }
-        this.adjustWidth();
-        if (this.tabs && this.tabs.nativeElement
-            && this.headerWidth && this.headerWidth.nativeElement
-            && this.tabAction && this.tabAction.nativeElement
-            && this.tabWidth1 !== this.tabs.nativeElement.offsetWidth) {
-            this.headWidth = (this.tabAction.nativeElement.scrollWidth + this.headerWidth.nativeElement.scrollWidth);
-            this.widthTabs = this.tabs.nativeElement.offsetWidth - this.headWidth;
-        }
-        if (JSON.stringify(this.tabPreviewData) !== JSON.stringify(this.tabLocalData)) {
-            this.tabPreviewData = JSON.parse(JSON.stringify(this.tabLocalData));
-            this.tabCollection = this.tabLocalData;
-        }
-        this.tabPositionClass = this.findTabStyleClass();
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.ngAfterViewInit = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        // set time out
-        setTimeout(function () {
-            _this.tabWidth1 = _this.tabs.nativeElement.offsetWidth;
-            _this.totalTabs = _this.tabCollection.length;
-            _this.updateTabComponent();
-            _this.tabCollection.forEach(function (element, index) {
-                element['tablk'] = Math.floor(Math.random() * 90000) + 10000 + '_tablk';
-                _super.prototype.ngAfterViewInit.call(_this);
-            });
-        }, 500);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.adjustWidth = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ tWidth = this.tabs.nativeElement.clientWidth;
-        var /** @type {?} */ tlistWidth = this.tabslist.nativeElement.scrollWidth;
-        var /** @type {?} */ hWidth = 0;
-        var /** @type {?} */ totalElWidth = tlistWidth + hWidth;
-        if (totalElWidth > tWidth) {
-            this.shownext = true;
-        }
-        else {
-            this.shownext = false;
-        }
-        if (this.fullPageTabs === true) {
-            if (totalElWidth > tWidth && this.fullPageTabs) {
-                this.shownext = true;
-            }
-            else {
-                this.singleTabWidth = totalElWidth / this.totalTabs;
-            }
-        }
-        this.onAdjustHeight();
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        if (this.tabLocalData && this.tabLocalData.length > 0) {
-            this.tabPreviewData = JSON.parse(JSON.stringify(this.tabLocalData));
-            this.tabCollection = this.tabLocalData;
-        }
-        else {
-            this.tabCollection = [];
-            this.tabCollection = this.queryTabs.toArray();
-        }
-        this.tabNodeProperties();
-        // To add action in tab
-        this.actionComp = this.queryAction.toArray();
-        if (this.actionComp.length > 0) {
-            this.actionComp[0].checkActionComponent();
-        }
-        this.tabPositionClass = this.findTabStyleClass();
-    };
-    /**
-     * @param {?} title
-     * @param {?} amexiocolor
-     * @param {?} closable
-     * @param {?} component
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.addDynamicTab = /**
-     * @param {?} title
-     * @param {?} amexiocolor
-     * @param {?} closable
-     * @param {?} component
-     * @return {?}
-     */
-    function (title, amexiocolor, closable, component) {
-        // get a component factory for our TabComponent
-        var /** @type {?} */ tpCF = this.componentFactoryResolver.resolveComponentFactory(AmexioTabPillComponent);
-        var /** @type {?} */ tp = this.target.createComponent(tpCF);
-        // set the according properties on our component instance
-        var /** @type {?} */ instance = /** @type {?} */ (tp.instance);
-        instance.title = title;
-        instance.active = true;
-        instance.closable = closable;
-        instance['tabpillinstance'] = this.target;
-        if (instance.amexiocolor === '') {
-            instance.amexiocolor = 'amexio-top-tab-black';
-        }
-        else {
-            instance.amexiocolor = 'amexio-top-tab-' + amexiocolor;
-        }
-        // create dynamic component
-        var /** @type {?} */ dynCF = this.componentFactoryResolver.resolveComponentFactory(component);
-        var /** @type {?} */ dynCmp = tp.instance.target.createComponent(dynCF);
-        // Push new tab and select it.
-        this.dummyArray.push(tp);
-        this.tabCollection.push(tp.instance);
-        this.selectTab(tp.instance);
-        this.adjustWidth();
-        return dynCmp.instance;
-    };
-    // Method to close all tab
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.closeAllTabs = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.tabCollection.forEach(function (tabs) {
-            if (tabs.closable || _this.closable) {
-                _this.closeTab(tabs);
-            }
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.closeAll = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.tabCollection.forEach(function (tabs) {
-            _this.closeTab(tabs);
-        });
-    };
-    /**
-     * @param {?} data
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.closeTabs = /**
-     * @param {?} data
-     * @return {?}
-     */
-    function (data) {
-        var _this = this;
-        var /** @type {?} */ tabList = [];
-        this.tabCollection.forEach(function (tabs) {
-            tabs.active = false;
-            data.forEach(function (opt) {
-                if (opt.toLowerCase() !== tabs.title.toLowerCase() && (tabs.closable || _this.closable)) {
-                    _this.closeTab(tabs);
-                }
-                else {
-                    tabList.push(tabs);
-                    _this.asignTabPillClass(tabs);
-                }
-            });
-        });
-        tabList[tabList.length - 1].active = true;
-        this.asignTabPillClass(tabList[tabList.length - 1]);
-    };
-    // Method to set active tab on the basis of tab sequence or tab title
-    /**
-     * @param {?} input
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.setActiveTab = /**
-     * @param {?} input
-     * @return {?}
-     */
-    function (input) {
-        var _this = this;
-        var /** @type {?} */ flag = false;
-        if (typeof input === 'string') {
-            this.tabCollection.forEach(function (tabs) {
-                tabs.tabPillClass = '';
-                if (input.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
-                    tabs.active = true;
-                    flag = true;
-                }
-                else {
-                    tabs.active = false;
-                }
-                _this.asignTabPillClass(tabs);
-            });
-        }
-        else if (typeof input === 'number') {
-            this.tabCollection.forEach(function (tabs, index) {
-                tabs.tabPillClass = '';
-                if (index + 1 === input) {
-                    tabs.active = true;
-                    flag = true;
-                }
-                else {
-                    tabs.active = false;
-                }
-                _this.asignTabPillClass(tabs);
-            });
-        }
-        return flag;
-    };
-    /**
-     * @param {?} disabledTabInput
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.setDisableTabs = /**
-     * @param {?} disabledTabInput
-     * @return {?}
-     */
-    function (disabledTabInput) {
-        var _this = this;
-        var /** @type {?} */ flag = false;
-        if (disabledTabInput.length > 0) {
-            disabledTabInput.forEach(function (ele) {
-                if (typeof ele === 'string') {
-                    _this.disableTabByString(flag, ele);
-                }
-                else if (typeof ele === 'number') {
-                    _this.disableTabByNumber(flag, ele);
-                }
-            });
-        }
-        return flag;
-    };
-    /**
-     * @param {?} flag
-     * @param {?} ele
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.disableTabByString = /**
-     * @param {?} flag
-     * @param {?} ele
-     * @return {?}
-     */
-    function (flag, ele) {
-        var _this = this;
-        this.tabCollection.forEach(function (tabs) {
-            tabs.tabPillClass = '';
-            if (ele.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
-                tabs.disabled = true;
-                flag = true;
-            }
-            _this.asignTabPillClass(tabs);
-        });
-    };
-    /**
-     * @param {?} flag
-     * @param {?} ele
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.disableTabByNumber = /**
-     * @param {?} flag
-     * @param {?} ele
-     * @return {?}
-     */
-    function (flag, ele) {
-        var _this = this;
-        this.tabCollection.forEach(function (tabs, index) {
-            tabs.tabPillClass = '';
-            if (index + 1 === ele) {
-                tabs.active = true;
-                flag = true;
-            }
-            else {
-                tabs.active = false;
-            }
-            _this.asignTabPillClass(tabs);
-        });
-    };
-    /**
-     * @param {?} disabledTabInput
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.setEnableTabs = /**
-     * @param {?} disabledTabInput
-     * @return {?}
-     */
-    function (disabledTabInput) {
-        var _this = this;
-        var /** @type {?} */ flag = false;
-        if (disabledTabInput.length > 0) {
-            disabledTabInput.forEach(function (ele) {
-                if (typeof ele === 'string') {
-                    _this.enableTabByString(flag, ele);
-                }
-                else if (typeof ele === 'number') {
-                    _this.enableTabByNumber(flag, ele);
-                }
-            });
-        }
-        return flag;
-    };
-    /**
-     * @param {?} flag
-     * @param {?} ele
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.enableTabByString = /**
-     * @param {?} flag
-     * @param {?} ele
-     * @return {?}
-     */
-    function (flag, ele) {
-        var _this = this;
-        this.tabCollection.forEach(function (tabs) {
-            tabs.tabPillClass = '';
-            if (ele.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
-                tabs.disabled = false;
-                flag = true;
-            }
-            _this.asignTabPillClass(tabs);
-        });
-    };
-    /**
-     * @param {?} flag
-     * @param {?} ele
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.enableTabByNumber = /**
-     * @param {?} flag
-     * @param {?} ele
-     * @return {?}
-     */
-    function (flag, ele) {
-        var _this = this;
-        this.tabCollection.forEach(function (tabs, index) {
-            tabs.tabPillClass = '';
-            if (index + 1 === ele) {
-                tabs.disabled = false;
-                flag = true;
-            }
-            _this.asignTabPillClass(tabs);
-        });
-    };
-    /**
-     * @param {?} tab
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.selectTab = /**
-     * @param {?} tab
-     * @return {?}
-     */
-    function (tab) {
-        var _this = this;
-        // deactivate all tabs
-        this.tabCollection.forEach(function (tab1) {
-            tab1.active = false;
-        });
-        tab.active = true;
-        this.tabCollection.forEach(function (tab1) {
-            _this.asignTabPillClass(tab1);
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.tabNodeProperties = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ tabWidth = this.tabCollection.length;
-        for (var /** @type {?} */ i = 0; i < tabWidth; i++) {
-            if (this.tabPosition === 'top') {
-                this.tabCollection[i].amexiocolor = TOP_COMPONENT_CLASS_MAP[this.tabCollection[i].amexiocolor];
-            }
-            else {
-                this.tabCollection[i].amexiocolor = BOTTOM_COMPONENT_CLASS_MAP[this.tabCollection[i].amexiocolor];
-            }
-            if (this.closable) {
-                if (this.tabCollection[i].closable === null || this.tabCollection[i].closable === true) {
-                    this.tabCollection[i].closable = true;
-                }
-                else if (this.tabCollection[i].closable === false) {
-                    this.tabCollection[i].closable = false;
-                }
-            }
-            this.asignTabPillClass(this.tabCollection[i]);
-        }
-    };
-    /**
-     * @param {?} tab
-     * @param {?} index
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.onTabClick = /**
-     * @param {?} tab
-     * @param {?} index
-     * @return {?}
-     */
-    function (tab, index) {
-        var _this = this;
-        if (!tab.disabled && !tab.header) {
-            for (var _i = 0, _a = this.tabCollection; _i < _a.length; _i++) {
-                var i = _a[_i];
-                if (i === tab) {
-                    i['active'] = true;
-                    i['index'] = index;
-                    this.asignTabPillClass(tab);
-                    this.onClick.emit(tab);
-                }
-                else {
-                    i['active'] = false;
-                    i['tabPillClass'] = '';
-                }
-            }
-            this.tabCollection.forEach(function (tab1) {
-                _this.asignTabPillClass(tab1);
-            });
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.onArrowRight = /**
-     * @return {?}
-     */
-    function () {
-        if (this.prevtabindex > -1) {
-            this.tabCollection[this.prevtabindex]['isSelected'] = false;
-        }
-        this.currtabindex++;
-        this.prevtabindex = this.currtabindex;
-        if (this.currtabindex >= this.tabCollection.length) {
-            this.currtabindex = 0;
-            this.prevtabindex = 0;
-        }
-        var /** @type {?} */ currentTab = this.tabCollection[this.currtabindex];
-        this.commonFocus(currentTab);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.onArrowLeft = /**
-     * @return {?}
-     */
-    function () {
-        if (this.prevtabindex > -1) {
-            this.tabCollection[this.prevtabindex]['isSelected'] = false;
-        }
-        this.prevtabindex--;
-        if (this.prevtabindex === -1) {
-            this.prevtabindex = this.tabCollection.length - 1;
-            this.currtabindex = -1;
-        }
-        this.tabCollection[this.prevtabindex]['isSelected'] = true;
-        var /** @type {?} */ currentTab = this.tabCollection[this.prevtabindex];
-        this.commonFocus(currentTab);
-        if (this.prevtabindex === 0) {
-            this.currtabindex = 0;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.onHomeClick = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ currentTab = this.tabCollection[0];
-        this.commonFocus(currentTab);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.onEndClick = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ currentTab = this.tabCollection[this.tabCollection.length - 1];
-        this.commonFocus(currentTab);
-    };
-    /**
-     * @param {?} currentTab
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.commonFocus = /**
-     * @param {?} currentTab
-     * @return {?}
-     */
-    function (currentTab) {
-        currentTab['isSelected'] = true;
-        var /** @type {?} */ tablk = document.getElementById(currentTab.tablk);
-        tablk.focus();
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.next = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ nxt = this.tabs.nativeElement;
-        nxt.scrollLeft = nxt.scrollLeft + 200;
-        if ((nxt.scrollWidth - nxt.offsetWidth - nxt.scrollLeft) <= 0) {
-            this.shownext = false;
-        }
-        this.showprev = true;
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.previous = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ prev = this.tabs.nativeElement;
-        prev.scrollLeft = prev.scrollLeft - 200;
-        if (prev.scrollLeft === 0) {
-            this.showprev = false;
-        }
-        this.shownext = true;
-    };
-    /**
-     * @param {?} tabNode
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.closeTab = /**
-     * @param {?} tabNode
-     * @return {?}
-     */
-    function (tabNode) {
-        var _this = this;
-        var /** @type {?} */ newTab = [];
-        var /** @type {?} */ index = 0;
-        var /** @type {?} */ tabHighlightIndex = 0;
-        this.tabCollection.forEach(function (tab, i) {
-            tab.active = false;
-            if (tab.tabId === tabNode.tabId) {
-                tabHighlightIndex = index;
-                if (tab.hasOwnProperty('tabpillinstance')) {
-                    tab.target.remove();
-                }
-                else {
-                    _this.tabDomRemove(tab);
-                }
-            }
-            else if (tab.tabId !== tabNode.tabId) {
-                newTab.push(tab);
-            }
-            index++;
-        });
-        if (tabHighlightIndex === newTab.length) {
-            tabHighlightIndex--;
-        }
-        this.tabCollection = newTab;
-        if (tabHighlightIndex > -1) {
-            this.activateTab(newTab[tabHighlightIndex].tabId);
-        }
-        else {
-            this.activateTab(null);
-        }
-        if (this.tabCollection.length === 1) {
-            this.closable = false;
-        }
-        if (newTab.length === 1) {
-            newTab[0].closable = false;
-        }
-    };
-    /**
-     * @param {?} tab
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.tabDomRemove = /**
-     * @param {?} tab
-     * @return {?}
-     */
-    function (tab) {
-        var /** @type {?} */ removeNode = document.getElementById(tab.tabId).parentNode;
-        var /** @type {?} */ parentRefNode = removeNode.parentNode;
-        parentRefNode.removeChild(removeNode);
-    };
-    /**
-     * @param {?} tabId
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.activateTab = /**
-     * @param {?} tabId
-     * @return {?}
-     */
-    function (tabId) {
-        var _this = this;
-        if (tabId !== null) {
-            this.tabCollection.forEach(function (tab) {
-                tab.active = false;
-                if (tab.tabId === tabId) {
-                    tab.active = true;
-                }
-                _this.asignTabPillClass(tab);
-            });
-        }
-    };
-    /**
-     * @param {?} tabData
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.asignTabPillClass = /**
-     * @param {?} tabData
-     * @return {?}
-     */
-    function (tabData) {
-        tabData.tabPillClass = '';
-        if ((!tabData.amexiocolor || tabData.amexiocolor === '') && tabData.active && (this.tabPosition === 'top')) {
-            tabData.tabPillClass = 'activetab';
-        }
-        if ((!tabData.amexiocolor || tabData.amexiocolor === '') && (this.tabPosition === 'bottom') && tabData.active) {
-            tabData.tabPillClass = 'bottomActivetab';
-        }
-        if (tabData.disabled) {
-            tabData.tabPillClass = 'disabled-tab';
-        }
-        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'top') && tabData.active && !this.activeBGColor) {
-            tabData.tabPillClass = 'activecolortab';
-        }
-        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'top') && tabData.active && this.activeBGColor) {
-            tabData.tabPillClass = 'activebgcolortab';
-        }
-        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'bottom') && tabData.active) {
-            tabData.tabPillClass = 'activebottomcolortab';
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.findTabStyleClass = /**
-     * @return {?}
-     */
-    function () {
-        if (this.headeralign === 'right' && !this.fullPageTabs) {
-            return 'tabposition-right';
-        }
-        if (this.headeralign === 'left' && !this.fullPageTabs) {
-            return 'tabposition-left';
-        }
-        if (this.fullPageTabs === true) {
-            return 'equally-align-tabs';
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.onAdjustHeight = /**
-     * @return {?}
-     */
-    function () {
-        if (this.bodyheight) {
-            var /** @type {?} */ h = (window.innerHeight / 100) * this.bodyheight;
-            if (this.tabs && this.tabs.nativeElement && this.tabs.nativeElement.offsetHeight) {
-                h = h - this.tabs.nativeElement.offsetHeight;
-            }
-            if (this.bodyheight === 100) {
-                h = h - 40;
-            }
-            this.minHeight = h;
-            this.height = h;
-        }
-    };
-    /**
-     * @param {?} event
-     * @param {?} row
-     * @param {?} id
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.loadContextMenu = /**
-     * @param {?} event
-     * @param {?} row
-     * @param {?} id
-     * @return {?}
-     */
-    function (event, row, id) {
-        this.tempSelectedFlag(this.tabCollection);
-        this.mouseLocation.left = event.clientX;
-        this.mouseLocation.top = event.clientY;
-        row.active = true;
-        this.getContextMenu();
-        this.posixUp = this.getListPosition(id);
-        if (this.contextmenu && this.contextmenu.length > 0) {
-            event.preventDefault();
-            event.stopPropagation();
-        }
-        this.rightClickRowData = row;
-    };
-    /**
-     * @param {?} tabs
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.tempSelectedFlag = /**
-     * @param {?} tabs
-     * @return {?}
-     */
-    function (tabs) {
-        tabs.forEach(function (tab) {
-            if (tab.active) {
-                tab.active = false;
-            }
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.getContextMenu = /**
-     * @return {?}
-     */
-    function () {
-        if (this.defaultContextMenu) {
-            var /** @type {?} */ obj = { text: 'Close All', icon: 'fa fa-close', disable: false };
-            var /** @type {?} */ obj2 = { text: this.closeOthersConst, icon: 'fa fa-close', seperator: false, disabled: false };
-            var /** @type {?} */ tmpflag = true;
-            for (var _i = 0, _a = this.contextmenu; _i < _a.length; _i++) {
-                var i = _a[_i];
-                if (i.text === 'Close All' || i.text === this.closeOthersConst) {
-                    tmpflag = false;
-                }
-            }
-            if (tmpflag) {
-                this.contextmenu.push(obj, obj2);
-            }
-            this.contextMenuFlag = true;
-            this.addListner();
-        }
-        else if (this.contextmenu && this.contextmenu.length > 0) {
-            this.contextMenuFlag = true;
-            this.addListner();
-        }
-    };
-    /**
-     * @param {?} elementRef
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.getListPosition = /**
-     * @param {?} elementRef
-     * @return {?}
-     */
-    function (elementRef) {
-        var /** @type {?} */ height = 240;
-        if ((window.screen.height - elementRef.getBoundingClientRect().bottom) < height) {
-            return true;
-        }
-        else {
-            return false;
-        }
-    };
-    /**
-     * @param {?} Data
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.rightClickDataEmit = /**
-     * @param {?} Data
-     * @return {?}
-     */
-    function (Data) {
-        var /** @type {?} */ temptab;
-        this.tabCollection.forEach(function (obj) {
-            if (obj.active) {
-                temptab = obj;
-            }
-        });
-        if (Data.nodeData.active) {
-            temptab = Data;
-        }
-        if (Data.menuData.text === 'Close All') {
-            this.closeAllTabs();
-        }
-        if (Data.menuData.text === this.closeOthersConst) {
-            this.closeOtherTabs(temptab);
-        }
-        this.rightClick.emit(Data);
-    };
-    /**
-     * @param {?} data
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.closeOtherTabs = /**
-     * @param {?} data
-     * @return {?}
-     */
-    function (data) {
-        var _this = this;
-        this.tabCollection.forEach(function (tabs) {
-            if (data.nodeData.title.toLowerCase() !== tabs.title.toLowerCase() && (tabs.closable || _this.closable)) {
-                _this.closeTab(tabs);
-            }
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.addListner = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.globalClickListenFunc = this.renderer.listen('document', 'click', function (e) {
-            _this.contextMenuFlag = false;
-            if (!_this.contextMenuFlag) {
-                _this.removeListner();
-            }
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.removeListner = /**
-     * @return {?}
-     */
-    function () {
-        if (this.globalClickListenFunc) {
-            this.globalClickListenFunc();
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.ngOnDestroy = /**
-     * @return {?}
-     */
-    function () {
-        this.removeListner();
-        _super.prototype.ngOnDestroy.call(this);
-    };
-    /**
-     * @param {?} input
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.showTab = /**
-     * @param {?} input
-     * @return {?}
-     */
-    function (input) {
-        var _this = this;
-        if (typeof input === 'string') {
-            this.tabCollection.forEach(function (tabs) {
-                if (input.trim().toLowerCase() !== tabs.title.trim().toLowerCase()) {
-                    tabs.hide = true;
-                    tabs['showflag'] = true;
-                    tabs.active = false;
-                }
-                else {
-                    tabs.hide = false;
-                    tabs['showflag'] = false;
-                    tabs.active = true;
-                }
-                _this.asignTabPillClass(tabs);
-            });
-        }
-        else if (typeof input === 'number') {
-            this.tabCollection.forEach(function (tabs, index) {
-                if (index !== input) {
-                    tabs.hide = true;
-                    tabs['showflag'] = true;
-                    tabs.active = false;
-                }
-                else {
-                    tabs.hide = false;
-                    tabs['showflag'] = false;
-                    tabs.active = true;
-                }
-            });
-        }
-    };
-    // Method to hide tab
-    /**
-     * @param {?} input
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.hideTab = /**
-     * @param {?} input
-     * @return {?}
-     */
-    function (input) {
-        var _this = this;
-        if (typeof input === 'string') {
-            this.tabCollection.forEach(function (tabs, index) {
-                if (input.trim().toLowerCase() === tabs.title.trim().toLowerCase() && tabs.active) {
-                    var /** @type {?} */ i = index + 1;
-                    tabs.hide = false;
-                    _this.tabCollection[i].active = true;
-                    var /** @type {?} */ newTab = _this.tabCollection[i];
-                    tabs.active = false;
-                    tabs['showflag'] = true;
-                    _this.asignTabPillClass(newTab);
-                }
-                else if (input.trim().toLowerCase() === tabs.title.trim().toLowerCase() && !tabs.active) {
-                    tabs.hide = true;
-                    tabs['showflag'] = true;
-                }
-            });
-        }
-        else if (typeof input === 'number') {
-            this.tabCollection.forEach(function (tabs, index) {
-                if (index !== input) {
-                    tabs.hide = true;
-                    tabs['showflag'] = false;
-                }
-                else {
-                    tabs.hide = false;
-                    tabs['showflag'] = true;
-                }
-            });
-        }
-    };
-    /**
-     * @param {?} input
-     * @param {?} flag
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.disableTab = /**
-     * @param {?} input
-     * @param {?} flag
-     * @return {?}
-     */
-    function (input, flag) {
-        var _this = this;
-        if (typeof input === 'string') {
-            this.tabCollection.forEach(function (tabs) {
-                if (input.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
-                    tabs.disabled = true;
-                    flag = true;
-                }
-                _this.asignTabPillClass(tabs);
-            });
-        }
-        else if (typeof input === 'number') {
-            this.tabCollection.forEach(function (tabs, index) {
-                if (index === input) {
-                    tabs.disabled = true;
-                    flag = true;
-                }
-                _this.asignTabPillClass(tabs);
-            });
-        }
-        else if (typeof input === 'object') {
-            this.disabledsplitmethod(input, flag);
-        }
-    };
-    /**
-     * @param {?} input
-     * @param {?} flag
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.disabledsplitmethod = /**
-     * @param {?} input
-     * @param {?} flag
-     * @return {?}
-     */
-    function (input, flag) {
-        var _this = this;
-        input.forEach(function (element) {
-            if (typeof element === 'string') {
-                _this.tabCollection.forEach(function (tabs) {
-                    if (element.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
-                        tabs.disabled = true;
-                        flag = true;
-                    }
-                    _this.asignTabPillClass(tabs);
-                });
-            }
-            else if (typeof element === 'number') {
-                _this.tabCollection.forEach(function (tabs, index) {
-                    if (index === element) {
-                        tabs.disabled = true;
-                        flag = true;
-                    }
-                    _this.asignTabPillClass(tabs);
-                });
-            }
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.getCurrentTab = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ currentindex;
-        this.tabCollection.forEach(function (tabs, index) {
-            if (tabs.active === true) {
-                currentindex = index;
-            }
-        });
-        return currentindex;
-    };
-    /**
-     * @param {?} input
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.deleteTab = /**
-     * @param {?} input
-     * @return {?}
-     */
-    function (input) {
-        var _this = this;
-        if (typeof input === 'string') {
-            this.tabCollection.forEach(function (tabs) {
-                if (input.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
-                    _this.closeTab(tabs);
-                }
-            });
-        }
-        else if (typeof input === 'number') {
-            this.tabCollection.forEach(function (tabs, index) {
-                if (index === input) {
-                    _this.closeTab(tabs);
-                }
-            });
-        }
-        else if (typeof input === 'object') {
-            this.deletetypeObject(input);
-        }
-    };
-    /**
-     * @param {?} input
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.deletetypeObject = /**
-     * @param {?} input
-     * @return {?}
-     */
-    function (input) {
-        var _this = this;
-        input.forEach(function (element) {
-            if (typeof element === 'string') {
-                _this.tabCollection.forEach(function (tabs) {
-                    if (element.trim().toLowerCase() === tabs.title.trim().toLowerCase()) {
-                        _this.closeTab(tabs);
-                    }
-                });
-            }
-            else if (typeof element === 'number') {
-                _this.tabCollection.forEach(function (tabs, index) {
-                    if (element === index) {
-                        _this.closeTab(tabs);
-                    }
-                });
-            }
-        });
-    };
-    /**
-     * @param {?} input
-     * @param {?} replacetab
-     * @return {?}
-     */
-    AmexioTabComponent.prototype.replaceTab = /**
-     * @param {?} input
-     * @param {?} replacetab
-     * @return {?}
-     */
-    function (input, replacetab) {
-        this.tabCollection.forEach(function (tabs, index) {
-            if (input === index) {
-                tabs.title = replacetab;
-            }
-        });
-    };
-    AmexioTabComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-tab-view',
-                    template: "\n    <div class=\"tabwrapper\">\n        <div *ngIf=\"showprev\" [ngClass]=\"{'tabnavigation float-right tabnavigation-bottom-left':tabPosition=='bottom', 'tabnavigation float-left':tabPosition=='top'}\" (click)=\"previous()\">\n            <amexio-c-icon key=\"tab_previous\"></amexio-c-icon>\n        </div>\n        <div *ngIf=\"shownext\" [ngClass]=\"{'tabnavigation float-right tabnavigation-bottom-right':tabPosition=='bottom','tabnavigation float-right':tabPosition=='top'}\" (click)=\"next()\">\n            <amexio-c-icon key=\"tab_next\"></amexio-c-icon>\n        </div>\n\n        <div #tab class=\"tab\"  role=\"tablist\" aria-labelledby=\"Tablist\" [ngClass]=\"{'bottomTab':tabPosition == 'bottom'}\">\n\n            <div #tabslist class=\"tablistitems {{tabPositionClass}}\">\n                <!-- HEADER -->\n\n                <div class=\"tablink\" style=\"padding-bottom:0%\" *ngIf=\"(this.action == true || header) && (fullPageTabs == false)\">\n                    <div class=\"table\">\n                        <div class=\"tablerow\">\n                            <div class=\"tablecol\">\n                                {{header}}\n                            </div>\n                            <div class=\"tablecol\">\n                                <ng-content select=\"amexio-tab-action\"></ng-content>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n\n\n\n                <div>\n                    <div *ngFor=\"let tabnode of tabCollection, let index = index\" class=\"tablink {{tabnode.amexiocolor+ ' '+tabnode.tabPillClass}}\" \n                    [style.width.px]=\"singleTabWidth\"  (contextmenu)=\"loadContextMenu($event,tabnode, tab)\">\n                        <div class=\"table1\" id=\"{{tabnode.tablk}}\" tabindex=\"1\" attr.aria-controls=\"{{tabnode.tabId}}\" role=\"tab\" (click)=\"onTabClick(tabnode, index)\" [ngStyle]=\"{'display': tabnode.showflag ? 'none':'table-cell'}\"\n                        (keyup.arrowright)=\"onArrowRight()\" (keyup.arrowleft)=\"onArrowLeft()\" (keyup.enter)=\"onTabClick(tabnode, index)\" (keyup.home)=\"onHomeClick()\" \n                        (keyup.end)=\"onEndClick()\">\n                            <div class=\"tablerow\">\n                                <div *ngIf=\"tabnode.icon\" class=\"tablecol\">\n                                    <amexio-c-icon *ngIf=\"tabnode.icon\" [customclass]=\"tabnode.icon\"></amexio-c-icon>\n                                </div>\n                                <div class=\"tablecol\">\n                                    {{tabnode.title}}\n                                </div>\n                                <div *ngIf=\"tabnode.closable\" class=\"tablecol\">\n                                    <amexio-c-icon key=\"tab_close\" (onClick)=\"closeTab(tabnode)\"></amexio-c-icon>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"tabcontent\" [attr.id]=\"componentId\" [ngStyle]=\"{'height.px' : height,'overflow-y' : height!= null ? 'auto' : '','min-height.px' : minHeight}\">\n        <ng-content></ng-content>\n        <ng-template #target></ng-template>\n    </div>\n\n\n    <ng-container *ngIf=\"contextMenuFlag\">\n        <base-contextmenu [base-context-menu]=\"contextmenu\" [mouse-location-top]=\"mouseLocation.top\" [mouse-location-left]=\"mouseLocation.left\" [is-FlagShow]=\"contextMenuFlag\" [right-click-data]=\"rightClickRowData\" (onRightClick)=\"rightClickDataEmit($event)\"\n            [position-up]=\"posixUp\">\n        </base-contextmenu>\n    </ng-container>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioTabComponent.ctorParameters = function () { return [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] },
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ComponentFactoryResolver"] },
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }
-    ]; };
-    AmexioTabComponent.propDecorators = {
-        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        headeralign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['header-align',] }],
-        action: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        typeActionAlign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['action-type-align',] }],
-        fullPageTabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['divide-header-equally',] }],
-        tabPosition: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['tab-position',] }],
-        header: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        bodyheight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['body-height',] }],
-        contextmenu: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['context-menu',] }],
-        defaultContextMenu: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['default-context-menu',] }],
-        activeBGColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['active-bg-color',] }],
-        rightClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        tabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tab', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
-        tabAction: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tabAction', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
-        headerWidth: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['headerWidth', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
-        headerName: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['headerName', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
-        tabslist: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tabslist', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
-        actionProperty: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['actionProperty', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
-        queryTabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTabPillComponent,] }],
-        target: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['target', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"] },] }],
-        queryAction: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTabActionComponent, { descendants: true },] }],
-        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        tabLocalData: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['tabLocalData',] }]
-    };
-    return AmexioTabComponent;
-}(LifeCycleBaseComponent));
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-* Created by ketangote on 12/1/17.
-*/
-var AmexioVerticalTabComponent = /** @class */ (function () {
-    function AmexioVerticalTabComponent(render, componentFactoryResolver) {
-        this.render = render;
-        this.componentFactoryResolver = componentFactoryResolver;
-        /*
-        Events
-        name : onClick
-        datatype : none
-        version : 4.0 onwards
-        default :none
-        description : Callback to invoke on activated tab event.
-        */
-        this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.dummyArray = [];
-        this.componentId = '';
-        this.tabPosition = 'top';
-    }
-    /**
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.componentId = Math.floor(Math.random() * 90000) + 10000 + '_tabc';
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.ngAfterViewInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        this.tabCollection = this.queryTabs.toArray();
-    };
-    /**
-     * @param {?} tab
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.onTabClick = /**
-     * @param {?} tab
-     * @return {?}
-     */
-    function (tab) {
-        var _this = this;
-        if (!tab.disabled && !tab.header) {
-            for (var _i = 0, _a = this.tabCollection; _i < _a.length; _i++) {
-                var i = _a[_i];
-                if (i === tab) {
-                    i['active'] = true;
-                    this.asignTabPillClass(tab);
-                    this.onClick.emit(tab);
-                }
-                else {
-                    i['active'] = false;
-                    i['tabPillClass'] = '';
-                }
-            }
-            this.tabCollection.forEach(function (tab1) {
-                _this.asignTabPillClass(tab1);
-            });
-        }
-    };
-    // Code to be done
-    /**
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.findTabStyleClass = /**
-     * @return {?}
-     */
-    function () {
-        if (this.tabPosition === 'top') {
-            return 'tabposition-top';
-        }
-        if (this.tabPosition === 'bottom') {
-            return 'tabposition-bottom';
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.closeAllTabs = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.tabCollection.forEach(function (tabs) {
-            if (tabs.closable === true || _this.closable === true) {
-                _this.closeTab(tabs);
-            }
-        });
-    };
-    /**
-     * @param {?} tabNode
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.closeTab = /**
-     * @param {?} tabNode
-     * @return {?}
-     */
-    function (tabNode) {
-        var _this = this;
-        var /** @type {?} */ newTab = [];
-        var /** @type {?} */ index = 0;
-        var /** @type {?} */ tabHighlightIndex = 0;
-        this.tabCollection.forEach(function (tab, i) {
-            tab.active = false;
-            if (tab.tabId === tabNode.tabId) {
-                tabHighlightIndex = index;
-                if (tab.hasOwnProperty('tabpillinstance')) {
-                    tab.target.remove();
-                }
-                else {
-                    _this.tabDomRemove(tab);
-                }
-            }
-            else if (tab.tabId !== tabNode.tabId) {
-                newTab.push(tab);
-            }
-            index++;
-        });
-        if (tabHighlightIndex === newTab.length) {
-            tabHighlightIndex--;
-        }
-        this.tabCollection = newTab;
-        if (tabHighlightIndex > -1) {
-            this.activateTab(newTab[tabHighlightIndex].tabId);
-        }
-        else {
-            this.activateTab(null);
-        }
-        if (this.tabCollection.length === 1) {
-            this.closable = false;
-        }
-        if (newTab.length === 1) {
-            newTab[0].closable = false;
-        }
-    };
-    /**
-     * @param {?} data
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.closeTabs = /**
-     * @param {?} data
-     * @return {?}
-     */
-    function (data) {
-        var _this = this;
-        var /** @type {?} */ tabList = [];
-        this.tabCollection.forEach(function (tabs) {
-            tabs.active = false;
-            data.forEach(function (opt) {
-                if (opt.toLowerCase() !== tabs.title.toLowerCase() && (tabs.closable === true || _this.closable === true)) {
-                    _this.closeTab(tabs);
-                }
-                else {
-                    tabList.push(tabs);
-                    _this.asignTabPillClass(tabs);
-                }
-            });
-        });
-        tabList[tabList.length - 1].active = true;
-        this.asignTabPillClass(tabList[tabList.length - 1]);
-    };
-    /**
-     * @param {?} tab
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.tabDomRemove = /**
-     * @param {?} tab
-     * @return {?}
-     */
-    function (tab) {
-        var /** @type {?} */ removeNode = document.getElementById(tab.tabId).parentNode;
-        var /** @type {?} */ parentRefNode = removeNode.parentNode;
-        parentRefNode.removeChild(removeNode);
-    };
-    /**
-     * @param {?} title
-     * @param {?} amexiocolor
-     * @param {?} closable
-     * @param {?} component
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.addDynamicTab = /**
-     * @param {?} title
-     * @param {?} amexiocolor
-     * @param {?} closable
-     * @param {?} component
-     * @return {?}
-     */
-    function (title, amexiocolor, closable, component) {
-        // get a component factory for our TabComponent
-        var /** @type {?} */ tpCF = this.componentFactoryResolver.resolveComponentFactory(AmexioTabPillComponent);
-        var /** @type {?} */ tp = this.target.createComponent(tpCF);
-        // set the according properties on our component instance
-        var /** @type {?} */ instance = /** @type {?} */ (tp.instance);
-        instance.title = title;
-        instance.active = true;
-        instance.closable = closable;
-        instance['tabpillinstance'] = this.target;
-        if (instance.amexiocolor === '') {
-            instance.amexiocolor = 'amexio-top-tab-black';
-        }
-        else {
-            instance.amexiocolor = 'amexio-top-tab-' + amexiocolor;
-        }
-        // create dynamic component
-        var /** @type {?} */ dynCF = this.componentFactoryResolver.resolveComponentFactory(component);
-        var /** @type {?} */ dynCmp = tp.instance.target.createComponent(dynCF);
-        // Push new tab and select it.
-        this.dummyArray.push(tp);
-        this.tabCollection.push(tp.instance);
-        this.selectTab(tp.instance);
-        return dynCmp.instance;
-    };
-    /**
-     * @param {?} tab
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.selectTab = /**
-     * @param {?} tab
-     * @return {?}
-     */
-    function (tab) {
-        var _this = this;
-        // deactivate all tabs
-        this.tabCollection.forEach(function (tab1) {
-            tab1.active = false;
-        });
-        tab.active = true;
-        this.tabCollection.forEach(function (tab1) {
-            _this.asignTabPillClass(tab1);
-        });
-    };
-    /**
-     * @param {?} tabData
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.asignTabPillClass = /**
-     * @param {?} tabData
-     * @return {?}
-     */
-    function (tabData) {
-        tabData.tabPillClass = '';
-        if ((!tabData.amexiocolor || tabData.amexiocolor === '') && tabData.active && (this.tabPosition === 'top')) {
-            tabData.tabPillClass = 'activetab';
-        }
-        if ((!tabData.amexiocolor || tabData.amexiocolor === '') && (this.tabPosition === 'bottom') && tabData.active) {
-            tabData.tabPillClass = 'bottomActivetab';
-        }
-        if (tabData.disabled) {
-            tabData.tabPillClass = 'disabled-tab';
-        }
-        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'top') && tabData.active) {
-            tabData.tabPillClass = 'activecolortab';
-        }
-        if ((tabData.amexiocolor !== '') && (this.tabPosition === 'bottom') && tabData.active) {
-            tabData.tabPillClass = 'activebottomcolortab';
-        }
-    };
-    /**
-     * @param {?} tabId
-     * @return {?}
-     */
-    AmexioVerticalTabComponent.prototype.activateTab = /**
-     * @param {?} tabId
-     * @return {?}
-     */
-    function (tabId) {
-        this.tabCollection.forEach(function (tab) {
-            tab.active = false;
-        });
-    };
-    AmexioVerticalTabComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-vertical-tab-view',
-                    template: "\n    <div class=\"vertical-table\">\n        <div class=\"vertical-tablerow\" style=\"height:580px\">\n            <div class=\"vertical-tablecol verticalalign-tableft\" [ngClass]=\"{'tabposition-top': (tabPosition==='top'),'tabposition-bottom':(tabPosition==='bottom')}\">\n                <div #tab class=\"verticalnavtab verticalnavtab-left\">\n                    <ul>\n                        <li *ngFor=\"let tabnode of tabCollection\">\n                            <div class=\"defaultnode\" [ngClass]=\"{'leftactivetab':tabnode.active,'disabled-tab':tabnode.disabled}\" (click)=\"onTabClick(tabnode)\" [ngStyle]=\"{'color': tabnode.amexiocolor}\">\n                                <span *ngIf=\"tabnode.icon\" [ngClass]=\"tabnode.icon\" style=\"padding-right:8px\" aria-hidden=\"true\"></span>\n                                <span>{{tabnode.title}}</span>\n                                <span *ngIf=\"closable\" class=\"tablecol\">\n                    <amexio-c-icon key=\"tab_close\" (onClick)=\"closeTab(tabnode)\" style=\"padding-left:5px;float:right\"></amexio-c-icon>\n                  </span>\n                            </div>\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <div class=\"vertical-tablecol verticalalign-tabcontent\">\n                <div class=\"tabcontent\" [attr.id]=\"componentId\">\n                    <ng-content></ng-content>\n                    <ng-template #target></ng-template>\n                </div>\n            </div>\n        </div>\n    </div>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioVerticalTabComponent.ctorParameters = function () { return [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] },
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ComponentFactoryResolver"] }
-    ]; };
-    AmexioVerticalTabComponent.propDecorators = {
-        tabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tab', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
-        queryTabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioTabPillComponent,] }],
-        target: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['target', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"] },] }],
-        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        tabPosition: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
-    };
-    return AmexioVerticalTabComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
-var AmexiotimelineeventComponent = /** @class */ (function () {
-    function AmexiotimelineeventComponent() {
-        this.timelineclass = 'timeline-item';
-        /*
-          Properties
-          name :contentborder
-          datatype :string
-          version : 4.2onwards
-          default : false
-          description : This will specify the content border in timeline.
-          */
-        this.contentborder = true;
-        this.alignment = 'center';
-    }
-    AmexiotimelineeventComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-timeline-event',
-                    template: "\n    <div \n\n    tabindex=\"0\"\n    attr.aria-label=\"{{alignment}}\"\n\n    class=\"timeline-badge \"  \n    [ngClass]=\"{'timeline-badge-center': (alignment === 'center')\n      , 'timeline-badge-left': (alignment === 'right')\n      , 'timeline-badge-right': (alignment === 'left')}\"\n      >\n    <amexio-c-icon [customclass]=\"icon\"></amexio-c-icon>\n    </div>\n    <div \n    tabindex=\"1\"\n    attr.aria-label=\"{{contentalignment}}\"\n    class=\"timeline-panel\" [ngClass]=\"{'timeline-panel-border':contentborder,\n     'timeline-panel-float-right': (contentalignment == 'right'),\n     'timeline-panel-float-left': (contentalignment == 'left'),\n     'timeline-panel-center': (alignment === 'center'),\n     'timeline-panel-right': (alignment === 'right'),\n     'timeline-panel-left': (alignment === 'left')}\">\n    <div \n    tabindex=\"1\"\n    *ngIf=\"label\"><b>{{label}}</b></div>\n\n    <ng-content></ng-content>\n    </div>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexiotimelineeventComponent.ctorParameters = function () { return []; };
-    AmexiotimelineeventComponent.propDecorators = {
-        timelineclass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
-        label: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['label',] }],
-        icon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['icon',] }],
-        contentborder: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['content-border',] }],
-        contentalignment: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['content-alignment',] }]
-    };
-    return AmexiotimelineeventComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioTimeLineModel = /** @class */ (function () {
-    function AmexioTimeLineModel(timelineevents, contentalignment, alignment) {
-        this.timelineevents = timelineevents;
-        this.alignment = alignment;
-        this.contentalignment = contentalignment;
-    }
-    return AmexioTimeLineModel;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
-var AmexiotimelineComponent = /** @class */ (function () {
-    function AmexiotimelineComponent(matchMediaService) {
-        this.matchMediaService = matchMediaService;
-        this.alignment = 'center';
-        var /** @type {?} */ that = this;
-        this.matchMediaService.OnPhone(function (mediaQueryList) {
-            that.mobileOrTabletMode();
-        });
-        this.matchMediaService.OnTablet(function (mediaQueryList) {
-            that.mobileOrTabletMode();
-        });
-        this.matchMediaService.OnDesktop(function (mediaQueryList) {
-            that.desktopMode();
-        });
-    }
-    /**
-     * @return {?}
-     */
-    AmexiotimelineComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @return {?}
-     */
-    AmexiotimelineComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        this.timelineevents = this.querylist.toArray();
-        this.initContentAlignment();
-    };
-    /**
-     * @return {?}
-     */
-    AmexiotimelineComponent.prototype.initContentAlignment = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        if (this.contentalignment) {
-            this.alignment = this.contentalignment;
-        }
-        var /** @type {?} */ hasContentAlignment = true;
-        this.timelineevents.forEach(function (timeline) {
-            if (timeline.contentalignment) {
-                hasContentAlignment = false;
-            }
-        });
-        if (hasContentAlignment) {
-            this.timelineevents.forEach(function (timeline, index) {
-                if (_this.contentalignment) {
-                    timeline.contentalignment = _this.contentalignment;
-                }
-                else {
-                    timeline.contentalignment = ((index % 2) === 0) ? 'right' : 'left';
-                }
-                timeline.alignment = _this.alignment;
-            });
-        }
-        this.timelineModel = new AmexioTimeLineModel(JSON.parse(JSON.stringify(this.timelineevents)), this.contentalignment, this.alignment);
-    };
-    /**
-     * @return {?}
-     */
-    AmexiotimelineComponent.prototype.mobileOrTabletMode = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.alignment = 'right';
-        this.timelineevents.forEach(function (timeline, index) {
-            timeline.contentalignment = 'right';
-            timeline.alignment = _this.alignment;
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexiotimelineComponent.prototype.desktopMode = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.alignment = this.timelineModel.alignment;
-        this.contentalignment = this.timelineModel.contentalignment;
-        this.timelineevents.forEach(function (timeline, index) {
-            var /** @type {?} */ originalTimelineEvent1 = _this.timelineModel.timelineevents[index];
-            timeline.contentalignment = originalTimelineEvent1.contentalignment;
-            timeline.alignment = originalTimelineEvent1.alignment;
-        });
-    };
-    AmexiotimelineComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-timeline',
-                    template: "\n    <div class='timeline' [ngClass]=\"{'timelinecenter': (alignment == 'center'), \n                                    'timelineleft': (alignment == 'left'), \n                                    'timelineright': (alignment == 'right')}\">\n      <ng-content></ng-content>\n    </div>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexiotimelineComponent.ctorParameters = function () { return [
-        { type: DeviceQueryService }
-    ]; };
-    AmexiotimelineComponent.propDecorators = {
-        querylist: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexiotimelineeventComponent,] }],
-        contentalignment: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['content-alignment',] }]
-    };
-    return AmexiotimelineComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
- * Copyright [2019] [Metamagic]
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * Created by ketangote on 12/18/17.
- */
-var AmexioWindowPaneComponent = /** @class */ (function () {
-    function AmexioWindowPaneComponent(renderer) {
-        this.renderer = renderer;
-        /*
-           Properties
-           name : vertical-position
-           datatype : string
-           version : 4.1 onwards
-           default : none
-           description : Postion of window vertically: top or bottom or center.
-           This attribute is ignored if user specify position explicitly
-           (using position-top/position-bottom/position-left/position-right)
-           */
-        this.verticalposition = 'center';
-        /*
-           Properties
-           name : close-on-escape
-           datatype : string
-           version : 4.2onwards
-           default : false
-           description : Enables And Disables the Escape button.
-           */
-        this.closeonescape = true;
-        this.showChange = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        /*
-           Properties
-           name : maximize
-           datatype : boolean
-           version : 4.0 onwards
-           default :false
-           description : User can maximize the window to full screen.
-           */
-        this.maximize = false;
-        /*
-           Properties
-           name : closable
-           datatype : boolean
-           version : 4.0 onwards
-           default : false
-           description : User can close the window.
-           */
-        this.closable = true;
-        /*
-           Properties
-           name : header
-           datatype : boolean
-           version : 4.0 onwards
-           default : false
-           description : it is flag that decides header visibility
-           */
-        this.header = true;
-        this.window = ' window-';
-        this.width = '90%';
-        this.nodeRightClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.rightClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.close = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-        this.mouseLocation = { left: 0, top: 0 };
-    }
-    /**
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.onCloseClick = /**
-     * @return {?}
-     */
-    function () {
-        if (this.closable) {
-            this.showWindow = false;
-            this.show = false;
-            this.showChange.emit(false);
-            this.close.emit(this.showWindow);
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-        this.setVerticlePosition();
-        this.setHorizontalPosition();
-        if (this.maximize) {
-            this.dummyWidth = this.width;
-            this.isFullWindow = true;
-            this.maximumWindowStyle = this.setMaximizeClass(this.isFullWindow);
-        }
-        if (this.showWindow) {
-            this.show = this.showWindow;
-        }
-    };
-    /**
-     * @param {?} isFullWindow
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.setMaximizeClass = /**
-     * @param {?} isFullWindow
-     * @return {?}
-     */
-    function (isFullWindow) {
-        this.isFullWindow = isFullWindow;
-        if (isFullWindow) {
-            this.width = '100%';
-            return {
-                'margin-top': '0', 'height': '100%',
-            };
-        }
-        else {
-            this.width = this.dummyWidth;
-            return {
-                'margin-top': '1%', 'height': '96%',
-            };
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.setVerticlePosition = /**
-     * @return {?}
-     */
-    function () {
-        switch (this.verticalposition) {
-            case 'top': {
-                this.verticalposition = 'flex-start';
-                break;
-            }
-            case 'center': {
-                this.verticalposition = 'center';
-                break;
-            }
-            case 'bottom': {
-                this.verticalposition = 'flex-end';
-                break;
-            }
-            default: {
-                this.verticalposition = 'center';
-                break;
-            }
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.setHorizontalPosition = /**
-     * @return {?}
-     */
-    function () {
-        switch (this.horizontalposition) {
-            case 'left': {
-                this.horizontalposition = 'flex-start';
-                break;
-            }
-            case 'center': {
-                this.horizontalposition = 'center';
-                break;
-            }
-            case 'right': {
-                this.horizontalposition = 'flex-end';
-                break;
-            }
-            default: {
-                this.horizontalposition = 'center';
-                break;
-            }
-        }
-    };
-    /* ASSIGN PROPERTIES TO FOOTER AND HEADER*/
-    /**
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.ngAfterContentInit = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        if (this.amexioFooter && this.footer) {
-            this.amexioFooter.toArray().forEach(function (footer) {
-                footer.footer = _this.footer;
-                footer.setFooterAlignment(_this.footeralign);
-            });
-        }
-        if (this.amexioHeader && this.header) {
-            this.amexioHeader.toArray()[0].closeable = this.closable;
-            if (this.maximize) {
-                this.amexioHeader.toArray()[0].setMaximizeData(this.maximize, this.isFullWindow);
-                this.amexioHeader.toArray()[0].maximizeBehaiour.subscribe(function (max) {
-                    _this.maximumWindowStyle = _this.setMaximizeClass(max);
-                });
-            }
-            this.amexioHeader.toArray()[0].setMaterialDesignStatus(this.materialDesign);
-            this.amexioHeader.toArray()[0].closeableBehaiour.subscribe(function (close) {
-                _this.onCloseClick();
-            });
-        }
-        if (this.amexioBody && this.bodyHeight) {
-            this.amexioBody.toArray()[0].height = this.bodyHeight + '%';
-        }
-    };
-    /**
-     * @param {?} changes
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.ngOnChanges = /**
-     * @param {?} changes
-     * @return {?}
-     */
-    function (changes) {
-        if (changes['show']) {
-            this.setShowFlag(changes["show"].currentValue);
-        }
-        if (changes['showWindow']) {
-            this.setShowFlag(changes["showWindow"].currentValue);
-        }
-    };
-    /**
-     * @param {?} changedValue
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.setShowFlag = /**
-     * @param {?} changedValue
-     * @return {?}
-     */
-    function (changedValue) {
-        var _this = this;
-        this.show = changedValue;
-        if (this.show && this.closeonescape) {
-            this.globalListenFunc = this.renderer.listen('document', 'keyup.esc', function (e) {
-                _this.showWindow = false;
-                _this.show = false;
-                _this.showChange.emit(false);
-                _this.close.emit(_this.showWindow);
-            });
-        }
-        else if (this.globalListenFunc) {
-            this.globalListenFunc();
-        }
-    };
-    // context menu code below
-    /**
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.getContextMenu = /**
-     * @return {?}
-     */
-    function () {
-        if (this.contextmenu && this.contextmenu.length > 0) {
-            this.flag = true;
-            this.addListner();
-        }
-    };
-    /**
-     * @param {?} elementRef
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.getListPosition = /**
-     * @param {?} elementRef
-     * @return {?}
-     */
-    function (elementRef) {
-        var /** @type {?} */ height = 240;
-        if ((window.screen.height - elementRef.getBoundingClientRect().bottom) < height) {
-            return true;
-        }
-        else {
-            return false;
-        }
-    };
-    /**
-     * @param {?} rightClickData
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.loadContextMenu = /**
-     * @param {?} rightClickData
-     * @return {?}
-     */
-    function (rightClickData) {
-        if (this.contextmenu && this.contextmenu.length > 0) {
-            this.mouseLocation.left = rightClickData.event.clientX;
-            this.mouseLocation.top = rightClickData.event.clientY;
-            this.getContextMenu();
-            this.posixUp = this.getListPosition(rightClickData.ref);
-            rightClickData.event.preventDefault();
-            rightClickData.event.stopPropagation();
-            this.rightClickNodeData = rightClickData.data;
-            this.nodeRightClick.emit(rightClickData);
-        }
-    };
-    /**
-     * @param {?} Data
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.rightClickDataEmit = /**
-     * @param {?} Data
-     * @return {?}
-     */
-    function (Data) {
-        this.rightClick.emit(Data);
-    };
-    /**
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.addListner = /**
-     * @return {?}
-     */
-    function () {
-        var _this = this;
-        this.globalClickListenFunc = this.renderer.listen('document', 'click', function (e) {
-            _this.flag = false;
-            if (!_this.flag) {
-                _this.removeListner();
-            }
-        });
-    };
-    /**
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.removeListner = /**
-     * @return {?}
-     */
-    function () {
-        if (this.globalClickListenFunc) {
-            this.globalClickListenFunc();
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioWindowPaneComponent.prototype.ngOnDestroy = /**
-     * @return {?}
-     */
-    function () {
-        this.removeListner();
-        if (this.globalListenFunc) {
-            this.globalListenFunc();
-        }
-    };
-    AmexioWindowPaneComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-window',
-                    template: "\n\n    <div #id *ngIf=\"show\" class=\"amexio-root-window\"  [style.justify-content]=\"horizontalposition\">\n      <div class=\"amexio-root-window-content\"\n           (contextmenu)=\"loadContextMenu({event:$event,ref:id})\"\n           [style.justify-content]=\"verticalposition\"\n           [ngStyle]=\"maximumWindowStyle\"\n           [ngClass]=\"{'content-max-height': (maximize && isFullWindow)}\"\n           [@animation]=\"{value: 'visible', params: {transitionParams: transitionOptions}}\"\n           [style.width]=\"width\">\n        <ng-content></ng-content>\n      </div>\n    </div>\n\n    <ng-container *ngIf=\"flag\">\n      <base-contextmenu style=\" z-index: 5; position: absolute;\" [base-context-menu]=\"contextmenu\" [mouse-location-top]=\"mouseLocation.top\"\n                        [mouse-location-left]=\"mouseLocation.left\" [is-FlagShow]=\"flag\" [right-click-data]=\"nodeRightClick\"\n                        (onRightClick)=\"rightClickDataEmit($event)\" [position-up]=\"posixUp\">\n      </base-contextmenu>\n    </ng-container>\n  ",
-                    animations: [
-                        trigger('animation', [
-                            state('void', style({
-                                transform: 'translate3d(0, 25%, 0) scale(0.9)',
-                                opacity: 0,
-                            })),
-                            state('visible', style({
-                                transform: 'none',
-                                opacity: 1,
-                            })),
-                            transition('* => *', animate('400ms cubic-bezier(0.25, 0.8, 0.25, 1)')),
-                        ]),
-                    ],
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioWindowPaneComponent.ctorParameters = function () { return [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }
-    ]; };
-    AmexioWindowPaneComponent.propDecorators = {
-        verticalposition: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['vertical-position',] }],
-        horizontalposition: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['horizontal-position',] }],
-        closeonescape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['close-on-escape',] }],
-        top: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position-top',] }],
-        footeralign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['footer-align',] }],
-        showWindow: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['show-window',] }],
-        materialDesign: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['material-design',] }],
-        show: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        windowHeader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['windowHeader', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
-        showChange: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        bodyHeight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['body-height',] }],
-        maximize: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        header: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        footer: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        contextmenu: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['context-menu',] }],
-        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['width',] }],
-        nodeRightClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        rightClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
-        amexioHeader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioHeaderComponent,] }],
-        amexioFooter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioFooterComponent,] }],
-        amexioBody: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioBodyComponent,] }],
-        close: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
-    };
-    return AmexioWindowPaneComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-/*
-* Copyright [2019] [Metamagic]
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*
-*/
-var AmexioWindowHeaderComponent = /** @class */ (function () {
-    function AmexioWindowHeaderComponent() {
-    }
-    /**
-     * @return {?}
-     */
-    AmexioWindowHeaderComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    AmexioWindowHeaderComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-window-header', template: "\n    <ng-content></ng-content>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioWindowHeaderComponent.ctorParameters = function () { return []; };
-    AmexioWindowHeaderComponent.propDecorators = {
-        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
-    };
-    return AmexioWindowHeaderComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var OverlayContainerComponent = /** @class */ (function () {
-    function OverlayContainerComponent(_renderer) {
-        this._renderer = _renderer;
-        this.show = false;
-        this.right = null;
-        this.left = null;
-        this.top = null;
-        this.bottom = null;
-        this.marginLeft = null;
-        this.height = '100%';
-        this.arrowClass = 'leftTopArrow';
-        this.width = 'auto';
-        this.bodyHeight = null;
-        this.closeonescape = true;
-    }
-    /**
-     * @return {?}
-     */
-    OverlayContainerComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    /**
-     * @return {?}
-     */
-    OverlayContainerComponent.prototype.onClose = /**
-     * @return {?}
-     */
-    function () {
-        this.resetData();
-    };
-    /**
-     * @return {?}
-     */
-    OverlayContainerComponent.prototype.resetData = /**
-     * @return {?}
-     */
-    function () {
-        this.left = null;
-        this.top = null;
-        this.right = null;
-        this.bottom = null;
-        this.marginLeft = null;
-        this.show = false;
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    OverlayContainerComponent.prototype.toggle = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        var _this = this;
-        this.resetData();
-        this.show = !this.show;
-        this.eventRef = event;
-        if (this.show && this.closeonescape) {
-            this.globalListenFunc = this._renderer.listen('document', 'keyup.esc', function (e) {
-                _this.show = false;
-                if (_this.globalListenFunc) {
-                    _this.globalListenFunc();
-                }
-            });
-        }
-    };
-    /**
-     * @return {?}
-     */
-    OverlayContainerComponent.prototype.setRenderPositionClass = /**
-     * @return {?}
-     */
-    function () {
-        if (this.position === 'relative') {
-            this.left = null;
-            this.marginLeft = null;
-        }
-        return {
-            'bottom': this.bottom + 'px', 'margin-left': this.marginLeft + 'px',
-            'right': this.right + 'px', 'margin-top': this.top + 'px',
-            'left': this.left + 'px', 'width': this.width,
-        };
-    };
-    /**
-     * @param {?} event
-     * @return {?}
-     */
-    OverlayContainerComponent.prototype.onAnimationStart = /**
-     * @param {?} event
-     * @return {?}
-     */
-    function (event) {
-        if (this.show) {
-            var /** @type {?} */ positions = this.findOverlayPosition(event.element, this.eventRef.target || this.eventRef.currentTarget);
-            this.top = this.eventRef.target.offsetHeight + 20;
-            this.left = this.eventRef.pageX - this.eventRef.target.offsetWidth;
-            this.marginLeft = this.eventRef.target.offsetWidth - this.left;
-            if (positions.right) {
-                this.iconPosition = {
-                    left: '-8px',
-                    right: '',
-                };
-                this.arrowClass = 'rightTopArrow';
-                this.left = null;
-                this.right = document.body.clientWidth - this.eventRef.pageX;
-                if (positions.bottom) {
-                    this.arrowClass = 'rightBottomArrow';
-                    this.top = null;
-                    this.bottom = Math.abs(document.body.offsetHeight - this.eventRef.pageY);
-                }
-            }
-            else {
-                this.iconPosition = {
-                    right: '-8px', left: '',
-                };
-                this.arrowClass = 'leftTopArrow';
-            }
-            if (!positions.right && positions.bottom) {
-                this.arrowClass = 'leftBottomArrow';
-                this.top = null;
-                this.bottom = Math.abs(document.body.offsetHeight - this.eventRef.pageY);
-            }
-            this.renderPositionClass = this.setRenderPositionClass();
-            if (this.bodyHeight) {
-                this.height = (window.outerHeight / 100) * this.bodyHeight + 'px';
-            }
-        }
-    };
-    /**
-     * @param {?} element
-     * @param {?} target
-     * @return {?}
-     */
-    OverlayContainerComponent.prototype.findOverlayPosition = /**
-     * @param {?} element
-     * @param {?} target
-     * @return {?}
-     */
-    function (element, target) {
-        var /** @type {?} */ rightAlign = false;
-        var /** @type {?} */ bottomAlign = false;
-        var /** @type {?} */ elementOuterHeight = element.offsetParent ? element.offsetHeight : '';
-        var /** @type {?} */ targetOuterHeight = target.offsetHeight;
-        var /** @type {?} */ targetOuterWidth = target.offsetWidth;
-        var /** @type {?} */ targetOffset = target.getBoundingClientRect();
-        var /** @type {?} */ windowScrollTop = this.getWindowScrollTop();
-        var /** @type {?} */ windowScrollLeft = this.getWindowScrollLeft();
-        var /** @type {?} */ viewport = this.getViewportDetails();
-        var /** @type {?} */ top;
-        var /** @type {?} */ left;
-        if (targetOffset.top + targetOuterHeight + elementOuterHeight > viewport.height) {
-            top = targetOffset.top + windowScrollTop - elementOuterHeight;
-            if (top < 0) {
-                top = 0 + windowScrollTop;
-            }
-            bottomAlign = true;
-        }
-        else {
-            top = targetOuterHeight + targetOffset.top + windowScrollTop;
-        }
-        if (targetOffset.left + targetOuterWidth + 150 > viewport.width) {
-            rightAlign = true;
-        }
-        else {
-            left = targetOffset.left + windowScrollLeft;
-        }
-        return { topPosi: top, leftPosi: left, right: rightAlign, bottom: bottomAlign };
-    };
-    /**
-     * @return {?}
-     */
-    OverlayContainerComponent.prototype.getWindowScrollTop = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ doc = document.documentElement;
-        return (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
-    };
-    /**
-     * @return {?}
-     */
-    OverlayContainerComponent.prototype.getWindowScrollLeft = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ doc = document.documentElement;
-        return (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
-    };
-    /**
-     * @return {?}
-     */
-    OverlayContainerComponent.prototype.getViewportDetails = /**
-     * @return {?}
-     */
-    function () {
-        var /** @type {?} */ win = window;
-        var /** @type {?} */ doc = document;
-        var /** @type {?} */ ele = doc.documentElement;
-        var /** @type {?} */ body = doc.getElementsByTagName('body')[0];
-        var /** @type {?} */ widthW = win.innerWidth || ele.clientWidth || body.clientWidth;
-        var /** @type {?} */ heightW = win.innerHeight || ele.clientHeight || body.clientHeight;
-        return { width: widthW, height: heightW };
-    };
-    /**
-     * @return {?}
-     */
-    OverlayContainerComponent.prototype.ngOnDestroy = /**
-     * @return {?}
-     */
-    function () {
-        if (this.globalListenFunc) {
-            this.globalListenFunc();
-        }
-    };
-    OverlayContainerComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-overlay-container',
-                    template: "\n\n    <ng-container *ngIf=\"show\">\n      <div #overlay class=\"overlayContainer {{arrowClass}}\"\n           [ngStyle]=\"renderPositionClass\"\n           [@animation]=\"{value: 'show'}\"\n           (@animation.start)=\"onAnimationStart($event)\">\n        <i *ngIf=\"closable\"\n           class=\"fa fa-times-circle-o iconClass \" [ngStyle]=\"iconPosition\"\n           aria-hidden=\"true\" (click)=\"onClose()\"></i>\n        <div class=\"containerClass\" [style.height]=\"height\">\n          <ng-content></ng-content>\n        </div>\n      </div>\n    </ng-container>\n\n\n\n\n\n  \n  ",
-                    animations: [
-                        trigger('animation', [
-                            state('void', style({
-                                transform: 'translateY(5%)',
-                                opacity: 0,
-                            })),
-                            state('show', style({
-                                transform: 'translateY(0)',
-                                opacity: 1,
-                            })),
-                            transition('void => show', animate('200ms')),
-                            transition('show => void', animate('200ms')),
-                        ]),
-                    ],
-                },] },
-    ];
-    /** @nocollapse */
-    OverlayContainerComponent.ctorParameters = function () { return [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"] }
-    ]; };
-    OverlayContainerComponent.propDecorators = {
-        closable: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['closable',] }],
-        position: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['position',] }],
-        width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['width',] }],
-        bodyHeight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['body-height',] }],
-        closeonescape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['close-on-escape',] }]
-    };
-    return OverlayContainerComponent;
-}());
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var PANE_COMPONENTS = [
-    AmexioHeaderComponent,
-    AmexioFooterComponent,
-    AmexioBodyComponent,
-    AmexioFieldSetComponent,
-    AmexioWindowPaneComponent,
-    AmexioWindowHeaderComponent,
-    AmexioStepsComponent,
-    AmexioTabPillComponent,
-    AmexioTabComponent,
-    AmexioVerticalTabComponent,
-    AmexioRightVerticalTabComponent,
-    AmexioCarouselComponent,
-    AmexioTemplateDirective,
-    AmexioTemplateWrapperDirective,
-    StepBlockComponent,
-    AmexioPanelComponent,
-    AmexioPanelHeaderComponent,
-    AmexiodialoguePaneComponent,
-    AmexioFormComponent,
-    AmexioFormActionComponent,
-    AmexioFormHeaderComponent,
-    AmexioFormBodyComponent,
-    AmexioFormGroupDirective,
-    AmexioTabActionComponent,
-    AmexiotimelineComponent,
-    AmexiotimelineeventComponent,
-    OverlayContainerComponent,
-];
-var AmexioPaneModule = /** @class */ (function () {
-    function AmexioPaneModule() {
-    }
-    /**
-     * @return {?}
-     */
-    AmexioPaneModule.forRoot = /**
-     * @return {?}
-     */
-    function () {
-        return {
-            ngModule: AmexioPaneModule,
-            providers: [CommonDataService, DeviceQueryService, IconLoaderService],
-        };
-    };
-    AmexioPaneModule.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"], args: [{
-                    imports: [
-                        _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
-                        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
-                        _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"],
-                        AmexioFormsModule,
-                        HttpClientModule,
-                        AmexioBaseContextMenuModule,
-                        AmexioCommonModule,
-                    ],
-                    entryComponents: [AmexioTabPillComponent],
-                    exports: PANE_COMPONENTS,
-                    declarations: PANE_COMPONENTS,
-                    providers: [CommonDataService, DeviceQueryService, IconLoaderService],
-                },] },
-    ];
-    return AmexioPaneModule;
-}());
-
-var __extends$33 = (undefined && undefined.__extends) || (function () {
+var __extends$34 = (undefined && undefined.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
         function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
@@ -56629,7 +58493,7 @@ var __extends$33 = (undefined && undefined.__extends) || (function () {
  * Created by Ashwini Agre on 06/03/19.
  */
 var AmexioWindowCEComponent = /** @class */ (function (_super) {
-    __extends$33(AmexioWindowCEComponent, _super);
+    __extends$34(AmexioWindowCEComponent, _super);
     function AmexioWindowCEComponent(renderer) {
         var _this = _super.call(this) || this;
         _this.renderer = renderer;

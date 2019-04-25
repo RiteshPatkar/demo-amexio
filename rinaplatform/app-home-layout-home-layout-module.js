@@ -42969,6 +42969,7 @@ var SharedService = /** @class */ (function () {
         this.customerDependentProduct = false;
         this.CDProductMapKey = new rxjs__WEBPACK_IMPORTED_MODULE_6__["BehaviorSubject"]('');
         this.baseUrl = _constant_service_constant__WEBPACK_IMPORTED_MODULE_5__["PRODUCT_BASE_URL"];
+        this.servicebaseUrl = _constant_service_constant__WEBPACK_IMPORTED_MODULE_5__["SERVER_BASE_URL"];
         // public customerBaseUrl = 'https://192.168.2.17:8080/customer/customerdemographicsdetails';
         this.customerBaseUrl = 'https://restapi.amexio.org:9890/rinashell/customer/customerdemographicsdetails';
         this.baseServerUrl = 'https://restapi.amexio.org:8991/alfahim/api/';
@@ -42987,6 +42988,9 @@ var SharedService = /** @class */ (function () {
     /* CREATE REST URL AND RETURN */
     SharedService.prototype.createRestUrl = function (postfixUrl) {
         return this.baseUrl + '/' + this.tenantId + '/' + postfixUrl;
+    };
+    SharedService.prototype.createServiceTypeRestUrl = function (postfixUrl) {
+        return this.servicebaseUrl + '/' + this.tenantId + '/' + postfixUrl;
     };
     SharedService.prototype.createCustomerRestUrl = function (postfixUrl) {
         return this.customerBaseUrl + '/' + this.tenantId + '/' + postfixUrl;
