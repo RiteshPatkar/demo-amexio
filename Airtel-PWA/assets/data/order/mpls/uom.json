@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "Kbps"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "Mbps"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "Gbps"
+    }
+  ]
+}

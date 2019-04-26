@@ -1,0 +1,83 @@
+{ "data": 
+[
+{
+"primaryKey": "1",
+"primaryDisplay": "Enterprise"
+},
+{
+"primaryKey": "2",
+"primaryDisplay": "IDC"
+},
+{
+"primaryKey": "3",
+"primaryDisplay": "Mega"
+},
+{
+"primaryKey": "4",
+"primaryDisplay": "95th Percentile"
+},
+{
+"primaryKey": "5",
+"primaryDisplay": "India One"
+},
+{
+"primaryKey": "6",
+"primaryDisplay": "Time of Day "
+},
+{
+"primaryKey": "7",
+"primaryDisplay": "Volume Usage Based"
+},
+{
+"primaryKey": "8",
+"primaryDisplay": "Classic"
+},
+{
+"primaryKey": "9",
+"primaryDisplay": "Flexi"
+},
+{
+"primaryKey": "10",
+"primaryDisplay": "BIS"
+},
+{
+"primaryKey": "11",
+"primaryDisplay": "Express"
+},
+{
+"primaryKey": "12",
+"primaryDisplay": "Educational"
+},
+{
+"primaryKey": "13",
+"primaryDisplay": "Premium Educational"
+},
+{
+"primaryKey": "14",
+"primaryDisplay": "Diamond"
+},
+{
+"primaryKey": "15",
+"primaryDisplay": "Gold"
+},
+{
+"primaryKey": "16",
+"primaryDisplay": "Silver"
+},
+{
+"primaryKey": "17",
+"primaryDisplay": "Dual POP Internet"
+},
+{
+"primaryKey": "18",
+"primaryDisplay": "Others"
+},
+{
+"primaryKey": "19",
+"primaryDisplay": "DDoS Detection & Mitigation"
+},
+{
+"primaryKey": "20",
+"primaryDisplay": "Managed Internet"
+}
+]}

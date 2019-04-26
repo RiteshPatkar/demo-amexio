@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "Router",
+      "checked": false
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "Modems",
+      "checked": false
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "Converters",
+       "checked": false
+    },
+    {
+      "primaryKey": "4",
+      "primaryDisplay": "Others",
+       "checked": false
+    }
+  ]
+}

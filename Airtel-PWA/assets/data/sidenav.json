@@ -1,13 +1,13 @@
 {
     "data":[
       {
-        "text": "Search",
+        "text": "Search Customer",
         "icon" : "fa fa-search",
         "link" : "searchcust",
         "selected":true
       },
       {
-        "text": "Add Account",
+        "text": "Customer Orders",
         "icon" : "fa fa-user-plus",
         "mdaIcon" : "email",
         "link" : "addaccount"

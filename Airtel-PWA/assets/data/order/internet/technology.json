@@ -1,0 +1,24 @@
+{ "data": 
+[
+{
+"primaryKey": "1",
+"primaryDisplay": "TDM"
+},
+{
+"primaryKey": "2",
+"primaryDisplay": "EoSDH"
+},
+{
+"primaryKey": "3",
+"primaryDisplay": "MEN"
+},{
+"primaryKey": "4",
+"primaryDisplay": "P2MP"
+},{
+"primaryKey": "5",
+"primaryDisplay": "P2P Radio"
+},{
+"primaryKey": "6",
+"primaryDisplay": "Others"
+}
+]}

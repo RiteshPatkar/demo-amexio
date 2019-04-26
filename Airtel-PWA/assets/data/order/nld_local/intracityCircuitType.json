@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "Clear Channel "
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "EOSDH"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "MEN P2P"
+    },
+    {
+      "primaryKey": "4",
+      "primaryDisplay": "MEN P2MP"
+    }
+  ]
+}

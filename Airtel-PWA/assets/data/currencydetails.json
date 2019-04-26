@@ -1,0 +1,16 @@
+{ "data": 
+    [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "currency1"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "currency2"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "currency3"
+    }
+  ]
+}

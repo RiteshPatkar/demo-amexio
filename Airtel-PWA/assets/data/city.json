@@ -1,0 +1,23 @@
+{ "data": 
+    [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "Kolkata"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "Delhi"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "Mumbai"
+    },
+    {
+        "primaryKey": "3",
+        "primaryDisplay": "Chennai"
+      },
+      {
+        "primaryKey": "3",
+        "primaryDisplay": "Gurugram"
+      }
+  ]}

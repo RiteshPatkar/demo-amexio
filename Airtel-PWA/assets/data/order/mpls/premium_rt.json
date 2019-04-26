@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "Voice",
+      "checked": false
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "Video",
+      "checked": false
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "Interactive Video",
+       "checked": false
+    },
+    {
+      "primaryKey": "4",
+      "primaryDisplay": "FTP",
+       "checked": false
+    },
+    {
+      "primaryKey": "5",
+      "primaryDisplay": "Internet",
+      "checked": false
+    }
+  ]
+}

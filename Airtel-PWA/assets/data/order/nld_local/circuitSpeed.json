@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "E1"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "D53"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "STM-1"
+    },
+    {
+      "primaryKey": "4",
+      "primaryDisplay": "STM-4"
+    },
+    {
+      "primaryKey": "5",
+      "primaryDisplay": "STM-16"
+    },
+    {
+      "primaryKey": "6",
+      "primaryDisplay": "Fast Ethernet"
+    },
+    {
+      "primaryKey": "7",
+      "primaryDisplay": "Gigabit Ethernet"
+    }
+  ]
+}

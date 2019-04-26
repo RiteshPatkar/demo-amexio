@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "V35"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "G 703"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "Ethernet"
+    },
+    {
+      "primaryKey": "4",
+      "primaryDisplay": "BNC"
+    },
+    {
+      "primaryKey": "5",
+      "primaryDisplay": "Optical "
+    },
+    {
+      "primaryKey": "6",
+      "primaryDisplay": "others"
+    }
+  ]
+}

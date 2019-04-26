@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "V.35"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "G.703"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "BNC"
+    },
+    {
+      "primaryKey": "4",
+      "primaryDisplay": "Ethernet"
+    },
+    {
+      "primaryKey": "5",
+      "primaryDisplay": "Others"
+    }
+  ]
+}

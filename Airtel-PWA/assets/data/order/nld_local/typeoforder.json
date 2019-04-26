@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "New"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "Upgrade"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "Downgrade"
+    },
+    {
+      "primaryKey": "4",
+      "primaryDisplay": "Price Revision"
+    },
+    {
+      "primaryKey": "5",
+      "primaryDisplay": "Additional Link"
+    },
+    {
+      "primaryKey": "6",
+      "primaryDisplay": "Shifting"
+    },
+    {
+      "primaryKey": "7",
+      "primaryDisplay": "Interface Change"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+        "primaryKey": "1",
+        "primaryDisplay":"V.35",
+        "checked":false
+    },  {
+        "primaryKey": "2",
+        "primaryDisplay":"G.703",
+        "checked":false
+    },  {
+        "primaryKey": "3",
+        "primaryDisplay":"BNC",
+        "checked":false
+    },  {
+        "primaryKey": "4",
+        "primaryDisplay":"FE",
+        "checked":false
+    },  {
+        "primaryKey": "5",
+        "primaryDisplay":"GigE",
+        "checked":false
+    },  {
+        "primaryKey": "6",
+        "primaryDisplay":"10G",
+        "checked":false
+    },  {
+        "primaryKey": "7",
+        "primaryDisplay":"STM-1",
+        "checked":false
+    },  {
+        "primaryKey": "8",
+        "primaryDisplay":"STM-4",
+        "checked":false
+    },  {
+        "primaryKey": "9",
+        "primaryDisplay":"STM-16",
+        "checked":false
+    },
+    {
+        "primaryKey": "10",
+        "primaryDisplay":"STM-64",
+        "checked":false
+    },{
+        "primaryKey": "11",
+        "primaryDisplay":"Others",
+        "checked":false
+    }
+  ]
+}

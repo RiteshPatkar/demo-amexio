@@ -1,0 +1,18 @@
+{ "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "Monthly"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "Quarterly"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "Half-Yearly"
+    },
+    {
+        "primaryKey": "4",
+        "primaryDisplay": "Yearly"
+      }
+  ]}

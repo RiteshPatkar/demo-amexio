@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "TDM"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "EoSDH"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "MEN"
+    },
+    {
+      "primaryKey": "4",
+      "primaryDisplay": "Radio P2P"
+    },
+    {
+      "primaryKey": "5",
+      "primaryDisplay": "Network Interface "
+    },
+    {
+      "primaryKey": "6",
+      "primaryDisplay": "Electrical"
+    },
+    {
+      "primaryKey": "7",
+      "primaryDisplay": "Optical"
+    },
+    {
+      "primaryKey": "8",
+      "primaryDisplay": "Ethernet"
+    }
+  ]
+}

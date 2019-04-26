@@ -1,0 +1,10 @@
+{ "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "INR"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "Others"
+    }
+  ]}

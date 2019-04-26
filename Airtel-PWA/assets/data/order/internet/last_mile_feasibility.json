@@ -1,0 +1,15 @@
+{ "data": 
+[
+{
+"primaryKey": "1",
+"primaryDisplay": "Copper"
+},
+{
+"primaryKey": "2",
+"primaryDisplay": "Fibre"
+},
+{
+"primaryKey": "3",
+"primaryDisplay": "RF"
+}
+]}

@@ -1,0 +1,10 @@
+{ "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "E Invoice"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "Physical Bill"
+    }
+  ]}

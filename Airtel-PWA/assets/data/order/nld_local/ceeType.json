@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "Rented - Fin. Lease "
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "Rented - Op. Lease"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "Purchased"
+    }
+  ]
+}

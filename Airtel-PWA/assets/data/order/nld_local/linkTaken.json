@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "Own Use"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "Resale"
+    }
+  ]
+}

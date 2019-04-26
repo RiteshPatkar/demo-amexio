@@ -1,0 +1,1 @@
+{ "data": [{ "primaryKey": "1", "primaryDisplay": "Layer 3 MPLS" }, { "primaryKey": "2", "primaryDisplay": "Layer 2 MPLS" }, { "primaryKey": "3", "primaryDisplay": "VPLS" }, { "primaryKey": "4", "primaryDisplay": " Multicast VPN" }, { "primaryKey": "5", "primaryDisplay": "Smart VC" }, { "primaryKey": "6", "primaryDisplay": "Others" }] }

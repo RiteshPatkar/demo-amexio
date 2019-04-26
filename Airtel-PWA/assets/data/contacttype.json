@@ -1,0 +1,14 @@
+{ "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "IT Dept"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "BPO"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "Finance"
+    }
+  ]}

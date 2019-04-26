@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "Hub & Spoke"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "Mesh Network"
+    }
+  ]
+}

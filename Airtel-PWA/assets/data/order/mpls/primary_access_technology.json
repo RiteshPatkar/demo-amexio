@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "TDM"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "EoSDH"
+    },
+    {
+      "primaryKey": "3",
+      "primaryDisplay": "MEN"
+    },
+    {
+      "primaryKey": "4",
+      "primaryDisplay": "Radio P2MP"
+    },
+    {
+      "primaryKey": "5",
+      "primaryDisplay": "Radio P2P"
+    },
+    {
+      "primaryKey": "6",
+      "primaryDisplay": "BWA"
+    },
+    {
+      "primaryKey": "7",
+      "primaryDisplay": "Others"
+    }
+  ]
+}

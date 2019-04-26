@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "primaryKey": "1",
+      "primaryDisplay": "Airtel"
+    },
+    {
+      "primaryKey": "2",
+      "primaryDisplay": "Other Service Provider"
+    }
+  ]
+}

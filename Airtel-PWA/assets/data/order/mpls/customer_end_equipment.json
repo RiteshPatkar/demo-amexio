@@ -1,0 +1,11 @@
+{
+    "data": [{
+            "primaryKey": "1",
+            "primaryDisplay": "Airtel Provided"
+        },
+        {
+            "primaryKey": "2",
+            "primaryDisplay": "Customer Owned"
+        }
+    ]
+}
