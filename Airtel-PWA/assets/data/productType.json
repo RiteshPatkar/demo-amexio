@@ -1,0 +1,20 @@
+{
+    "data":[
+      {
+        "productType":"1",
+        "productName":"Internet"
+      },
+      {
+        "productType":"2",
+        "productName":"MPLS"
+      },
+     {
+        "productType":"3",
+        "productName":"Local Loop"
+      },
+     {
+        "productType":"4",
+        "productName":"NLD"
+      }
+    ]
+}

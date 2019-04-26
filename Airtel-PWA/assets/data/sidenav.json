@@ -1,0 +1,16 @@
+{
+    "data":[
+      {
+        "text": "Search",
+        "icon" : "fa fa-search",
+        "link" : "searchcust",
+        "selected":true
+      },
+      {
+        "text": "Add Account",
+        "icon" : "fa fa-user-plus",
+        "mdaIcon" : "email",
+        "link" : "addaccount"
+       }
+    ]
+}

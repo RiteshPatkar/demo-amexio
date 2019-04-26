@@ -1,0 +1,16 @@
+{
+    "data":[
+      {
+        "category":"1",
+        "name":"Carrier / ISP"
+      },
+      {
+        "category":"2",
+        "name":" BPO / KPO / Call Center / OSP"
+      },
+     {
+        "category":"3",
+        "name":"Other Enterprise"
+      }
+    ]
+}
