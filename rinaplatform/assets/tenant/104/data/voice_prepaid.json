@@ -4,8 +4,8 @@
             "callEndDate": "14 Apr 2019 04:21:26 PM",
             "calledNumber": "938XXXXXXX",
             "callType": "Local",
-            "charges(P)": "0",
-            "duration(Sec)": "7",
+            "charges": "0",
+            "duration": "7",
             "balanceAfter": "4.65"
         },
         {
@@ -13,8 +13,8 @@
             "callEndDate": "14 Apr 2019 04:17:19 PM",
             "calledNumber": "938XXXXXXX",
             "callType": "Local",
-            "charges(P)": "0",
-            "duration(Sec)": "7",
+            "charges": "0",
+            "duration": "7",
             "balanceAfter": "4.65"
         },
         {
@@ -22,8 +22,8 @@
             "callEndDate": "14 Apr 2019 04:16:52 PM",
             "calledNumber": "938XXXXXXX",
             "callType": "Local",
-            "charges(P)": "0",
-            "duration(Sec)": "459",
+            "charges": "0",
+            "duration": "459",
             "balanceAfter": "4.65"
         },
         {
@@ -31,8 +31,8 @@
             "callEndDate": "14 Apr 2019 03:54:30 PM",
             "calledNumber": "938XXXXXXX",
             "callType": "Local",
-            "charges(P)": "0",
-            "duration(Sec)": "26",
+            "charges": "0",
+            "duration": "26",
             "balanceAfter": "4.65"
         },
         {
@@ -40,8 +40,8 @@
             "callEndDate": "13 Apr 2019 09:16:30 PM",
             "calledNumber": "938XXXXXXX",
             "callType": "Local",
-            "charges(P)": "0",
-            "duration(Sec)": "20",
+            "charges": "0",
+            "duration": "20",
             "balanceAfter": "4.65"
         }
     ]
