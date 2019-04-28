@@ -1,0 +1,23 @@
+
+
+
+{
+  "success": true,
+  "successMessage": "data loaded successfully",
+  "successCode": "success",
+  "errorMessage": null,
+  "errorCode": null,
+  "errors": null,
+  "response":
+[
+ {
+    "network": "متجر",
+    "checked": true
+    },
+    {
+      "network": "واي فاي نقطة ساخنة",
+      "checked": true
+    }
+]
+
+}
