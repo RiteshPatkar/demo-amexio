@@ -43052,8 +43052,8 @@ var SharedService = /** @class */ (function () {
         this.CDProductMapKey = new rxjs__WEBPACK_IMPORTED_MODULE_6__["BehaviorSubject"]('');
         this.baseUrl = _constant_service_constant__WEBPACK_IMPORTED_MODULE_5__["PRODUCT_BASE_URL"];
         this.servicebaseUrl = _constant_service_constant__WEBPACK_IMPORTED_MODULE_5__["SERVER_BASE_URL"];
-        this.customerBaseUrl = 'http://localhost:8080/customer/customerdemographicsdetails';
-        // public customerBaseUrl = 'https://restapi.amexio.org:9890/rinashell/customer/customerdemographicsdetails';
+        // public customerBaseUrl = 'http://localhost:8080/customer/customerdemographicsdetails';
+        this.customerBaseUrl = 'https://restapi.amexio.org:9890/rinashell/customer/customerdemographicsdetails';
         // 
         this.baseServerUrl = 'https://restapi.amexio.org:8991/alfahim/api/';
         this.extraServiceData = null;
@@ -43062,7 +43062,6 @@ var SharedService = /** @class */ (function () {
         this.store
             .select(function (state) { return state.authentication; })
             .subscribe(function (authState) {
-            debugger;
             _this._tenantId = authState.loginInfo.tenantId;
             _this.gamification = authState.loginInfo.gamification;
         });
