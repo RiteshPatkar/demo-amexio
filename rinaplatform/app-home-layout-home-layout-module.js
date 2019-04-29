@@ -41994,6 +41994,7 @@ var CenterLeftComponent = /** @class */ (function () {
     };
     CenterLeftComponent.prototype.gamificationHandle = function (gamification) {
         var _this = this;
+        this.gamificatioRef.clear();
         this._httpClient.get(this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["SERVER_BASE_URL"], 'gamification')).subscribe(function (res) {
             var data = _this._CFService.createComponentFactory(res.response.metadata);
             _this.enablegamification = true;
