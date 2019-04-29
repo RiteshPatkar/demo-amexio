@@ -63227,11 +63227,27 @@ var PropertyGridComponent = /** @class */ (function () {
         this.hasBorder = false;
         this.hasColon = false;
         this.enableKeyBold = false;
+        this.enableValueClick = false;
+        this.onValueClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
     }
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    PropertyGridComponent.prototype.onClick = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        if (event.link && event.link.length > 0) {
+            this.onValueClick.emit(event);
+        }
+    };
     PropertyGridComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-property-grid',
-                    template: "\n\n      <ng-container *ngIf=\"data && data.length > 0\">\n         <table [ngClass]=\"{'borderStyle': hasBorder}\" style=\"width: 100%\">\n             <tr *ngFor=\"let item of data\" >\n                <td class=\"field-name-align\" [ngClass]=\"{'borderStyle': hasBorder}\">\n                    <span *ngIf=\"item.fieldIcon\" style=\"padding-right: 5px\">\n                      <amexio-c-icon class=\"fa + {{item.fieldIcon}}\"></amexio-c-icon>\n                    </span>\n                  <span *ngIf=\"!item.onlyIcon\" [ngStyle]=\"{'font-weight': enableKeyBold ? 'bold': 'normal'}\">{{item.fieldName}}</span>\n                    <span *ngIf=\"hasColon\"> :</span>\n                </td>\n                <td class=\"field-name-align\"\n                    [ngClass]=\"{'borderStyle': hasBorder}\">\n                    {{item.fieldValue}}\n                </td>\n             </tr>\n         </table>\n      </ng-container>\n    ",
+                    template: "\n      <ng-container *ngIf=\"data && data.length > 0\">\n        <table [ngClass]=\"{'borderStyle': hasBorder}\" style=\"width: 100%\">\n          <tr *ngFor=\"let item of data\">\n            <td class=\"field-name-align\" [ngClass]=\"{'borderStyle': hasBorder}\">\n              <span *ngIf=\"item.fieldIcon\" style=\"padding-right: 5px\">\n                <amexio-c-icon class=\"fa + {{item.fieldIcon}}\"></amexio-c-icon>\n              </span>\n              <span *ngIf=\"!item.onlyIcon\"\n                [ngStyle]=\"{'font-weight': enableKeyBold ? 'bold': 'normal'}\">{{item.fieldName}}</span>\n              <span *ngIf=\"hasColon\"> :</span>\n            </td>\n            <td class=\"field-name-align\"\n              [ngClass]=\"{'borderStyle': hasBorder, 'isclickenabled':(item.link && item.link.length>0)}\"\n              (click)=\"onClick(item)\">\n              {{item.fieldValue}}\n            </td>\n          </tr>\n        </table>\n      </ng-container>\n    ",
+                    styles: ["\n      .isclickenabled{cursor:pointer;color:#0366d6;text-decoration:underline}\n    "],
                 },] },
     ];
     /** @nocollapse */
@@ -63240,7 +63256,9 @@ var PropertyGridComponent = /** @class */ (function () {
         data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['key-value-data',] }],
         hasBorder: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['has-border',] }],
         hasColon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['has-colon',] }],
-        enableKeyBold: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-key-bold',] }]
+        enableKeyBold: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-key-bold',] }],
+        enableValueClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-value-click',] }],
+        onValueClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"], args: ['onValueClick',] }]
     };
     return PropertyGridComponent;
 }());
@@ -65912,11 +65930,13 @@ var TimeUtil = /** @class */ (function () {
  * @suppress {checkTypes} checked by tsc
  */
 var PropertyGridModel = /** @class */ (function () {
-    function PropertyGridModel(_fieldName, _fieldValue, _fieldIcon, _onlyIcon) {
+    function PropertyGridModel(_fieldName, _fieldValue, _fieldIcon, _onlyIcon, _link, _data) {
         this.fieldName = _fieldName;
         this.fieldValue = _fieldValue;
         this.fieldIcon = _fieldIcon;
         this.onlyIcon = _onlyIcon;
+        this.link = _link;
+        this.data = _data;
     }
     return PropertyGridModel;
 }());

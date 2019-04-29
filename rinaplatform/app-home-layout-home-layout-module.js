@@ -41390,7 +41390,7 @@ var HomeLayoutModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"top-layout\" (window:resize)=\"onResize()\">\n    <div class=\" block-scroll static-block-left-one\" [style.width.%]=\"staticBlockWidth\">\n        <company-logo></company-logo>\n    </div>\n\n    <div class=\" block-scroll static-block-left-two\" [style.width.%]=\"staticBlockWidth\">\n      <customer-demo-graphic ></customer-demo-graphic>\n    </div>\n\n    <span>\n        <span  *ngIf=\"showPrev\" class=\"circle-css\" (click)=\"scrollprev()\">\n            <i  class=\"fa fa-angle-left scroll-prev-icon-css\" ></i>\n        </span>\n\n        <div #carouselref [@changeState]=\"!showrightpanel ? 'visible' : 'hidden'\" [ngStyle]=\"carrouselStyle\" class=\" block-scroll carouselblock\" [style.width.%]=\"carouselWidth\">\n            <div #ngcontentref >\n\n                        <div  class=\"property-grid-css\" [style.width.px]=\"parentdivWidth\" >\n                            <div *ngFor=\"let item of productPropertyStructureData\"  [style.width.px]=\"gridWidth\" >\n\n                                   <product-details [product]=\"item\"></product-details>\n\n                            </div>\n                        </div>\n            </div>\n        </div>\n          <span *ngIf=\"!showRightPanel\" class=\"showpanel\" (click)=\"showRightPanelClick()\">\n                <i class=\"fa fa-angle-left show-top-panel-icon-css\" ></i>\n         </span>\n\n        <span *ngIf=\"showNext\" class=\"circle-css\" (click)=\"scrollnext()\">\n         <i class=\"fa fa-angle-right scroll-next-icon-css\" ></i>\n        </span>\n    </span> \n    <div *ngIf=\"showRightPanel\" class=\" block-scroll static-block-right\" [style.width.%]=\"staticBlockWidth\">      \n    \n                <amexio-button  style=\"position: absolute;right:12px\"  [label]=\"'Logout'\" \n               [type]=\"'transparent'\" \n               [tooltip]=\"'Logout'\"\n                [icon]=\"'fa fa-sign-out'\"\n                (onClick)=\"logoutClick()\">\n</amexio-button>\n       \n \n\n        <i class=\"fa fa-angle-right icon-class\" (click)=\"collapserightpanelClick()\"></i>\n      <top-right></top-right>\n    </div>\n</div>\n<amexio-dialogue [show-dialogue]=\"confirmdialogue\" [title]=\"'Confirm'\" [message]=\"'Are you sure you want to logout?'\" [message-type]=\"'confirm'\"\n    [type]=\"'confirm'\" (actionStatus)=\"checkStatus($event)\" (close)=\"confirmdialogue = !confirmdialogue\">\n</amexio-dialogue>"
+module.exports = "<div class=\"top-layout\" (window:resize)=\"onResize()\">\n    <div class=\" block-scroll static-block-left-one\" [style.width.%]=\"staticBlockWidth\">\n        <company-logo></company-logo>\n    </div>\n\n    <div class=\" block-scroll static-block-left-two\" [style.width.%]=\"staticBlockWidth\">\n      <customer-demo-graphic ></customer-demo-graphic>\n    </div>\n\n    <span>\n        <span  *ngIf=\"showPrev\" class=\"circle-css\" (click)=\"scrollprev()\">\n            <i  class=\"fa fa-angle-left scroll-prev-icon-css\" ></i>\n        </span>\n\n        <div #carouselref [@changeState]=\"!showrightpanel ? 'visible' : 'hidden'\" [ngStyle]=\"carrouselStyle\" class=\" block-scroll carouselblock\" [style.width.%]=\"carouselWidth\">\n            <div #ngcontentref >\n\n                        <div  class=\"property-grid-css\" [style.width.px]=\"parentdivWidth\" >\n                            <div *ngFor=\"let item of productPropertyStructureData\"  [style.width.px]=\"gridWidth\" >\n\n                                   <product-details (onClick)=\"onProductLinkClick(item, $event)\" [product]=\"item\"></product-details>\n\n                            </div>\n                        </div>\n            </div>\n        </div>\n          <span *ngIf=\"!showRightPanel\" class=\"showpanel\" (click)=\"showRightPanelClick()\">\n                <i class=\"fa fa-angle-left show-top-panel-icon-css\" ></i>\n         </span>\n\n        <span *ngIf=\"showNext\" class=\"circle-css\" (click)=\"scrollnext()\">\n         <i class=\"fa fa-angle-right scroll-next-icon-css\" ></i>\n        </span>\n    </span> \n    <div *ngIf=\"showRightPanel\" class=\" block-scroll static-block-right\" [style.width.%]=\"staticBlockWidth\">      \n    \n                <amexio-button  style=\"position: absolute;right:12px\"  [label]=\"'Logout'\" \n               [type]=\"'transparent'\" \n               [tooltip]=\"'Logout'\"\n                [icon]=\"'fa fa-sign-out'\"\n                (onClick)=\"logoutClick()\">\n</amexio-button>\n       \n \n\n        <i class=\"fa fa-angle-right icon-class\" (click)=\"collapserightpanelClick()\"></i>\n      <top-right></top-right>\n    </div>\n</div>\n<amexio-dialogue [show-dialogue]=\"confirmdialogue\" [title]=\"'Confirm'\" [message]=\"'Are you sure you want to logout?'\" [message-type]=\"'confirm'\"\n    [type]=\"'confirm'\" (actionStatus)=\"checkStatus($event)\" (close)=\"confirmdialogue = !confirmdialogue\">\n</amexio-dialogue>"
 
 /***/ }),
 
@@ -41547,7 +41547,7 @@ var TopComponent = /** @class */ (function () {
             _this.chunkArray(product.propertyStructure, _this.productTemplateFieldCount).forEach(function (stru) {
                 var pStructure = [];
                 stru.forEach(function (property) {
-                    pStructure.push(new amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_2__["PropertyGridModel"](property.fieldLabel, data[property.fieldValue], '', false));
+                    pStructure.push(new amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_2__["PropertyGridModel"](property.fieldLabel, data[property.fieldValue], '', false, property.link));
                 });
                 _this.productPropertyStructureData.push(new _models_products_models__WEBPACK_IMPORTED_MODULE_5__["ProductPropertyStructure"](product.productName, product.productMapKey, pStructure, product.selected, product.productDetailsMapKey, product.helpMapkey, product.productTemplateId));
             });
@@ -41631,7 +41631,8 @@ var TopComponent = /** @class */ (function () {
         this.chunkArray(product.propertyStructure, this.productTemplateFieldCount).forEach(function (pstr) {
             var pStructure = [];
             pstr.forEach(function (property) {
-                pStructure.push(new amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_2__["PropertyGridModel"](property.fieldLabel, '', '', false));
+                debugger;
+                pStructure.push(new amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_2__["PropertyGridModel"](property.fieldLabel, '', '', false, property.link));
             });
             _this.productPropertyStructureData.push(new _models_products_models__WEBPACK_IMPORTED_MODULE_5__["ProductPropertyStructure"](product.productName, product.productMapKey, pStructure, product.selected, product.productDetailsMapKey, product.helpMapkey, product.productTemplateId));
         });
@@ -41727,6 +41728,9 @@ var TopComponent = /** @class */ (function () {
             this._router.navigate(['login']);
         }
     };
+    TopComponent.prototype.onProductLinkClick = function (structure, event) {
+        debugger;
+    };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('carouselref'),
         __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"])
@@ -41770,7 +41774,7 @@ var TopComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"workflowBtn\">\n\n<amexio-card [header]=\"false\"\n             [footer]=\"true\"\n             [footer-align]=\"'center'\">\n  <amexio-body>\n<amexio-row>\n  <amexio-column [size]=\"12\">\n    <search-box (search)=\"getSearchObject($event)\"></search-box>\n  </amexio-column>\n</amexio-row>\n    <amexio-row>\n      <amexio-column [size]=\"12\" >\n        <ng-container  *ngFor=\"let workflow of workflowList\">\n          <amexio-button [label]=\"workflow.workflowName\"\n                         [type]=\"'theme-color'\"\n                         (onClick)=\"workflowHandle(workflow)\"\n                         [disabled]=\"workflow.disabled\"\n                         [tooltip]=\"'large'\"\n                         [block]=\"true\">\n          </amexio-button>\n          <br>\n        </ng-container>\n      </amexio-column>\n    </amexio-row>\n  </amexio-body>\n  <amexio-action>\n    <amexio-row>\n      <amexio-column [size]=\"4\">\n        <amexio-image style=\"color: lightskyblue\" [icon-class]=\"'fa fa-file-pdf-o fa-2x'\" ></amexio-image>\n      </amexio-column>\n      <amexio-column [size]=\"4\">\n        <amexio-image style=\"color: blue\" [icon-class]=\"'fa fa-file-word-o fa-2x'\" ></amexio-image>\n      </amexio-column>\n      <amexio-column [size]=\"4\">\n        <amexio-image style=\"color: green\" [icon-class]=\"'fa fa-file-excel-o fa-2x'\" ></amexio-image>\n      </amexio-column>\n    </amexio-row>\n  </amexio-action>\n</amexio-card>\n</div>\n\n\n\n<!--<div  [ngStyle]=\"{'display': enableWindow ? 'block': 'none'}\" class=\"alfahim-root-window\">\n  <div> &nbsp; </div>\n  <div class=\"alfahim-root-window-inner\">\n    <div class=\"alfahim-root-window-content\">\n      <ng-template #workflowdynamic></ng-template>\n    </div>\n  </div>\n</div>-->\n\n<rina-window [show]=\"enableWindow\" [width]=\"'60%'\">\n  <ng-template #workflowdynamic></ng-template>\n</rina-window>\n\n\n\n"
+module.exports = "<div class=\"workflowBtn\">\n\n<amexio-card [header]=\"false\"\n             [footer]=\"true\"\n             [footer-align]=\"'center'\">\n  <amexio-body>\n<amexio-row>\n  <amexio-column [size]=\"12\">\n    <search-box (search)=\"getSearchObject($event)\"></search-box>\n  </amexio-column>\n</amexio-row>\n    <amexio-row>\n      <amexio-column [size]=\"12\" >\n        <ng-container  *ngFor=\"let workflow of workflowList\">\n          <amexio-button [label]=\"workflow.workflowName\"\n                         [type]=\"'theme-color'\"\n                         (onClick)=\"workflowHandle(workflow)\"\n                         [disabled]=\"workflow.disabled\"\n                         [tooltip]=\"'large'\"\n                         [block]=\"true\">\n          </amexio-button>\n          <br>\n        </ng-container>\n          <ng-container *ngIf=\"_SDService.gamification\"> \n<amexio-floating-button [position-bottom]=\"'30px'\" [position-right]=\"'5px'\"  [icon]=\"'fa fa-trophy'\" [type]=\"'red'\" (onClick)=\"gamificationHandle(gamification)\"></amexio-floating-button>\n   </ng-container>\n      </amexio-column>\n    </amexio-row>\n  </amexio-body>\n  <amexio-action>\n    <amexio-row>\n      <amexio-column [size]=\"4\">\n        <amexio-image style=\"color: lightskyblue\" [icon-class]=\"'fa fa-file-pdf-o fa-2x'\" ></amexio-image>\n      </amexio-column>\n      <amexio-column [size]=\"4\">\n        <amexio-image style=\"color: blue\" [icon-class]=\"'fa fa-file-word-o fa-2x'\" ></amexio-image>\n      </amexio-column>\n      <amexio-column [size]=\"4\">\n        <amexio-image style=\"color: green\" [icon-class]=\"'fa fa-file-excel-o fa-2x'\" ></amexio-image>\n      </amexio-column>\n    </amexio-row>\n  </amexio-action>\n</amexio-card>\n</div>\n\n\n\n<!--<div  [ngStyle]=\"{'display': enableWindow ? 'block': 'none'}\" class=\"alfahim-root-window\">\n  <div> &nbsp; </div>\n  <div class=\"alfahim-root-window-inner\">\n    <div class=\"alfahim-root-window-content\">\n      <ng-template #workflowdynamic></ng-template>\n    </div>\n  </div>\n</div>-->\n\n<rina-window [show]=\"enableWindow\" [width]=\"'60%'\">\n  <ng-template #workflowdynamic></ng-template>\n</rina-window>\n\n\n<amexio-window-ce [(show)]=\"enablegamification\"  [horizontal-position]=\"'right'\"\n    [vertical-position]=\"'bottom'\" width=\"40%\"> \n    <amexio-body-ce>\n      \n   <ng-template #gamification></ng-template>\n\n    </amexio-body-ce> \n</amexio-window-ce>\n\n"
 
 /***/ }),
 
@@ -41824,6 +41828,7 @@ var CenterLeftComponent = /** @class */ (function () {
         this._httpClient = _httpClient;
         this.workflowList = [];
         this.enableWindow = false;
+        this.enablegamification = false;
         this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_7__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_6__["fromShell"].getCustomerRefInfo)).subscribe(function (custInfo) {
             if (Object.keys(custInfo).length > 0) {
                 _this.customerInfo = custInfo;
@@ -41987,10 +41992,35 @@ var CenterLeftComponent = /** @class */ (function () {
             this._dataOperationService.getCustomerInfo(event);
         }
     };
+    CenterLeftComponent.prototype.gamificationHandle = function (gamification) {
+        var _this = this;
+        this._httpClient.get(this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["SERVER_BASE_URL"], 'gamification')).subscribe(function (res) {
+            var data = _this._CFService.createComponentFactory(res.response.metadata);
+            _this.enablegamification = true;
+            data.forEach(function (f) {
+                var componentRef = _this.gamificatioRef.createComponent(f.componentFactory);
+                componentRef.instance['httpClient'] = _this._httpClient;
+                if (componentRef.instance.hasOwnProperty('onCancel')) {
+                    componentRef.instance['onCancel'].subscribe(function (event) {
+                        _this.enablegamification = false;
+                    });
+                }
+                if (componentRef.instance.hasOwnProperty('onSubmit')) {
+                    componentRef.instance['onSubmit'].subscribe(function (event) {
+                        _this.enablegamification = false;
+                    });
+                }
+            });
+        });
+    };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('workflowdynamic', { read: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] }),
         __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"])
     ], CenterLeftComponent.prototype, "workflowDynamicRef", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('gamification', { read: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] }),
+        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"])
+    ], CenterLeftComponent.prototype, "gamificatioRef", void 0);
     CenterLeftComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'center-left',
@@ -42016,7 +42046,7 @@ var CenterLeftComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"inputgroup\" #rootDiv>\n  <input\n    id=\"input\"\n    role=\"combobox\"\n    name=\"searchbox\"\n    [(ngModel)]=\"searchId\"\n    type=\"text\" class=\"input-control\"\n    (focus)=\"focusHandle($event)\"\n    (blur)=\"blurHandle($event)\"\n    [attr.placeholder]=\"'search'\"/>\n  <span class=\"drodown-caret-down\" (click)=\"iconHandle()\" style=\"cursor: pointer\">\n      <i class=\"fa fa-search\"></i>\n      </span>\n  <span #dropdownitems  class=\"dropdown\"  [ngStyle]=\"dropdownstyle\">\n          <ul class=\"dropdown-list\">\n            <li (mousedown)=\"liClickHandle(item)\"  role=\"option\"  class=\"list-items\" *ngFor=\"let item of dropDownItemList\">{{item.key}} <i style=\"float: right\" [ngClass]=\"{'fa fa-check': item.selected}\" aria-hidden=\"true\"></i></li>\n          </ul>\n        </span>\n</div>\n<br>\n"
+module.exports = "<div style=\"line-height:24px\" class=\"inputgroup\" #rootDiv>\n  <input\n    id=\"input\"\n    role=\"combobox\"\n    name=\"searchbox\"\n    [(ngModel)]=\"searchId\"\n    type=\"text\" class=\"input-control\"\n    (focus)=\"focusHandle($event)\"\n    (blur)=\"blurHandle($event)\"\n    [attr.placeholder]=\"'search'\"/>\n  <span class=\"drodown-caret-down\" (click)=\"iconHandle()\" style=\"cursor: pointer\">\n      <i class=\"fa fa-search\"></i>\n      </span>\n  <span #dropdownitems  class=\"dropdown\"  [ngStyle]=\"dropdownstyle\">\n          <ul class=\"dropdown-list\">\n            <li (mousedown)=\"liClickHandle(item)\"  role=\"option\"  class=\"list-items\" *ngFor=\"let item of dropDownItemList\">{{item.key}} <i style=\"float: right\" [ngClass]=\"{'fa fa-check': item.selected}\" aria-hidden=\"true\"></i></li>\n          </ul>\n        </span>\n</div>\n<br>\n"
 
 /***/ }),
 
@@ -42582,7 +42612,7 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card-container product-card\">\n  <div class=\"card-body cardbody\" style=\"height: 100%\">\n    <div style=\"padding-left:4px;\">\n      <ng-container *ngIf=\"product.propertyStructure &&  product.propertyStructure.length > 0\">\n        <div class=\"inputgroup from-group\">\n          <label *ngIf=\"product.productTemplateId == '1'\" [ngClass]=\"{'disabled-Style': product.disabled}\" for=\"{{product.productName}}\"\n            class=\"input-box-container\" style=\"padding-bottom:0px !important;\">\n            <b>{{product.productName}}</b>\n            <input *ngIf=\"product.propertyStructure && product.propertyStructure.length >= 0\"\n              [attr.disabled]=\"product.disabled ? true: null\" (click)=\"selectProduct(product)\" style=\"top:0; left:0\"\n              id=\"{{product.productName}}\" type=\"radio\" name=\"selectTitle\" [value]=\"product.selected\"\n              [checked]=\"product.selected ? true : null\">\n\n            <span class=\"input-box-radiobox-label\"></span>\n          </label>\n        </div>\n        <amexio-property-grid [key-value-data]=\"product.propertyStructure\">\n        </amexio-property-grid>\n      </ng-container>\n      <ng-container *ngIf=\"product.propertyStructure && product.propertyStructure.length <= 0\">\n        <span><b style=\"display: block\">{{product.productName}}</b> Account Not Found.</span>\n      </ng-container>\n    </div>\n\n  </div>\n</div>\n"
+module.exports = "<div class=\"card-container product-card\">\n  <div class=\"card-body cardbody\" style=\"height: 100%\">\n    <div style=\"padding-left:4px;\">\n      <ng-container *ngIf=\"product.propertyStructure &&  product.propertyStructure.length > 0\">\n        <div class=\"inputgroup from-group\">\n          <label *ngIf=\"product.productTemplateId == '1'\" [ngClass]=\"{'disabled-Style': product.disabled}\" for=\"{{product.productName}}\"\n            class=\"input-box-container\" style=\"padding-bottom:0px !important;\">\n            <b>{{product.productName}}</b>\n            <input *ngIf=\"product.propertyStructure && product.propertyStructure.length >= 0\"\n              [attr.disabled]=\"product.disabled ? true: null\" (click)=\"selectProduct(product)\" style=\"top:0; left:0\"\n              id=\"{{product.productName}}\" type=\"radio\" name=\"selectTitle\" [value]=\"product.selected\"\n              [checked]=\"product.selected ? true : null\">\n\n            <span class=\"input-box-radiobox-label\"></span>\n          </label>\n        </div>\n        <amexio-property-grid (onValueClick)=\"onProductValueClicked($event)\" [key-value-data]=\"product.propertyStructure\">\n        </amexio-property-grid>\n      </ng-container>\n      <ng-container *ngIf=\"product.propertyStructure && product.propertyStructure.length <= 0\">\n        <span><b style=\"display: block\">{{product.productName}}</b> Account Not Found.</span>\n      </ng-container>\n    </div>\n\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -42619,11 +42649,11 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var ProductDetailsComponent = /** @class */ (function () {
     function ProductDetailsComponent(store) {
         this.store = store;
+        this.onProductLinkClick = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
     }
     ProductDetailsComponent.prototype.ngOnInit = function () {
     };
     ProductDetailsComponent.prototype.ngOnChanges = function (changes) {
-        debugger;
         if (changes['product'] && changes.product.currentValue.selected) {
             this.selectProduct(this.product);
         }
@@ -42631,10 +42661,17 @@ var ProductDetailsComponent = /** @class */ (function () {
     ProductDetailsComponent.prototype.selectProduct = function (product) {
         this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_2__["SelectedProductInfo"](product));
     };
+    ProductDetailsComponent.prototype.onProductValueClicked = function (event) {
+        this.onProductLinkClick.emit(event);
+    };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
         __metadata("design:type", _models_products_models__WEBPACK_IMPORTED_MODULE_3__["ProductPropertyStructure"])
     ], ProductDetailsComponent.prototype, "product", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])('onClick'),
+        __metadata("design:type", Object)
+    ], ProductDetailsComponent.prototype, "onProductLinkClick", void 0);
     ProductDetailsComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'product-details',
@@ -43011,11 +43048,13 @@ var SharedService = /** @class */ (function () {
         this.isNewUserFlow = false;
         this.appType = '1';
         this.customerDependentProduct = false;
+        this.gamification = false;
         this.CDProductMapKey = new rxjs__WEBPACK_IMPORTED_MODULE_6__["BehaviorSubject"]('');
         this.baseUrl = _constant_service_constant__WEBPACK_IMPORTED_MODULE_5__["PRODUCT_BASE_URL"];
         this.servicebaseUrl = _constant_service_constant__WEBPACK_IMPORTED_MODULE_5__["SERVER_BASE_URL"];
-        // public customerBaseUrl = 'https://192.168.2.17:8080/customer/customerdemographicsdetails';
-        this.customerBaseUrl = 'https://restapi.amexio.org:9890/rinashell/customer/customerdemographicsdetails';
+        this.customerBaseUrl = 'http://localhost:8080/customer/customerdemographicsdetails';
+        // public customerBaseUrl = 'https://restapi.amexio.org:9890/rinashell/customer/customerdemographicsdetails';
+        // 
         this.baseServerUrl = 'https://restapi.amexio.org:8991/alfahim/api/';
         this.extraServiceData = null;
         this.datePipe = datepipe;
@@ -43023,7 +43062,9 @@ var SharedService = /** @class */ (function () {
         this.store
             .select(function (state) { return state.authentication; })
             .subscribe(function (authState) {
+            debugger;
             _this._tenantId = authState.loginInfo.tenantId;
+            _this.gamification = authState.loginInfo.gamification;
         });
         this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_1__["select"])(src_app_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_2__["fromShell"].getCustomerRefInfo)).subscribe(function (customerRefInfo) {
             _this.customerRefInfo = customerRefInfo;

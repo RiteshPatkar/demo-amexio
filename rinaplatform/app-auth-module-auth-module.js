@@ -224,7 +224,7 @@ var LoginComponent = /** @class */ (function () {
         }, function () {
             if (response.success) {
                 // TENENT_ID =  response.response.tenantId;
-                _this.store.dispatch(new _auth_store_auth_action__WEBPACK_IMPORTED_MODULE_5__["AddLoginInfo"]({ 'userId': response.response.userId, 'tenantId': response.response.tenantId }));
+                _this.store.dispatch(new _auth_store_auth_action__WEBPACK_IMPORTED_MODULE_5__["AddLoginInfo"]({ 'userId': response.response.userId, 'tenantId': response.response.tenantId, 'gamification': response.response.gamification }));
                 _this._router.navigate(['home']);
                 _this.showLoader = false;
             }
