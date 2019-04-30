@@ -42210,13 +42210,14 @@ var DarkmodeComponent = /** @class */ (function () {
     DarkmodeComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-darkmode',
-                    template: "\n      <amexio-toggle\n      [field-label]=\"fieldLabel\" (onChange)=\"onToggleClick($event,nav)\">\n      </amexio-toggle>\n    ",
+                    template: "\n      <amexio-toggle\n      [field-label]=\"fieldLabel\" [shape]=\"shape\" (onChange)=\"onToggleClick($event,nav)\">\n      </amexio-toggle>\n    ",
                 },] },
     ];
     /** @nocollapse */
     DarkmodeComponent.ctorParameters = function () { return []; };
     DarkmodeComponent.propDecorators = {
-        fieldLabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }]
+        fieldLabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
+        shape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['shape',] }]
     };
     return DarkmodeComponent;
 }());

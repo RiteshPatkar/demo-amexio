@@ -42050,7 +42050,7 @@ var CenterLeftComponent = /** @class */ (function () {
         });
     };
     CenterLeftComponent.prototype.shownotification = function (type) {
-        if (type == 'changebillingaddress') {
+        if (type == 'changebillingaddress' || type == 'changeaddress') {
             this.msgData.push('Address changed successfully');
         }
         if (type == 'changebillingcycle') {
@@ -42058,6 +42058,12 @@ var CenterLeftComponent = /** @class */ (function () {
         }
         if (type == 'changebiilingpreferance') {
             this.msgData.push('Bill Preferances changed successfully');
+        }
+        if (type == 'changeenergyplan') {
+            this.msgData.push('Energy plan changed successfully');
+        }
+        if (type == 'updateinfo') {
+            this.msgData.push('Information updated successfully');
         }
     };
     __decorate([
