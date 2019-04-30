@@ -21752,7 +21752,7 @@ var AmexioNavMenuComponent = /** @class */ (function () {
     AmexioNavMenuComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-nav-menu',
-                    template: "\n    <div class=\"nav-dropdown\">\n        <a class=\"nav-dropbtn\" [ngStyle]=\"{'color':color}\" (mouseover)=\"onMouseoverTitle($event)\" (click)=\"onHeaderClick($event)\">\n            <span>\n                <i *ngIf=\"icon\" [ngClass]=\"icon\"></i>\n            </span>\n            {{title}}\n            <span>\n                <i class=\"dropdownicon fa fa-angle-down\"></i>\n            </span>\n        </a>\n\n        <div class=\"nav-dropdown-content\">\n\n            <a *ngFor=\"let node of data\" (click)=\"onClick(node, $event)\" (mouseover)=\"onNodeHover(node, $event)\">\n\n                <div>\n                    <span class=\"nav-dropdown-content-node\">\n                        <i *ngIf=\"icon\" [ngClass]=\"node.icon\"></i>&nbsp;\n                        <span>\n                            <span *ngIf=\"position == 'left' && node.submenus\">\n                                <i class=\"fa fa-angle-left\" style=\"padding-bottom:5px\" aria-hidden=\"true\"></i>\n                            </span>\n                            {{node.text}}\n                            <span *ngIf=\"position == 'right' && node.submenus\">\n                                <i class=\"fa fa-angle-right\" style=\"float:right ;padding-top:5px\" aria-hidden=\"true\"></i>\n\n                            </span>\n                        </span>\n                    </span>\n\n                    <span [ngClass]=\"{'submenunodes':position == 'right', 'submenunodesright':position == 'left' }\" *ngIf=\"node.submenus\">\n                        <amexio-nav-innermenu [color]=\"itemcolor\" [submenuposition]=\"position\" [data]=\"node.submenus\" (navLinkClick)=\"navItemClick($event)\">\n                        </amexio-nav-innermenu>\n                    </span>\n                </div>\n            </a>\n\n            <div *ngIf=\"type==='menucontainer'\" class=\"nav-menu-container\">\n                <a *ngFor=\"let node of data\" (click)=\"onClick(node, $event)\">\n                    <i *ngIf=\"icon\" [ngClass]=\"node.icon\"></i>&nbsp;{{node.text}}</a>\n                <ng-content></ng-content>\n            </div>\n        </div>\n    </div>\n  ",
+                    template: "\n    <div class=\"nav-dropdown\">\n        <a class=\"nav-dropbtn\" [ngStyle]=\"{'color':color}\" (mouseover)=\"onMouseoverTitle($event)\" (click)=\"onHeaderClick($event)\">\n            <span>\n                <i *ngIf=\"icon\" [ngClass]=\"icon\"></i>\n            </span>\n            <span>{{title}}</span>\n        \n            <span>\n                <i class=\"dropdownicon fa fa-angle-down\"></i>\n            </span>\n        </a>\n\n        <div class=\"nav-dropdown-content\">\n\n            <a *ngFor=\"let node of data\" (click)=\"onClick(node, $event)\" (mouseover)=\"onNodeHover(node, $event)\">\n\n                <div>\n                    <span class=\"nav-dropdown-content-node\">\n                        <i *ngIf=\"icon\" [ngClass]=\"node.icon\"></i>&nbsp;\n                        <span>\n                            <span *ngIf=\"position == 'left' && node.submenus\">\n                                <i class=\"fa fa-angle-left\" style=\"padding-bottom:5px\" aria-hidden=\"true\"></i>\n                            </span>\n                            {{node.text}}\n                    \n                            <span *ngIf=\"position == 'right' && node.submenus\">\n                                <i class=\"fa fa-angle-right\" style=\"float:right ;padding-top:5px\" aria-hidden=\"true\"></i>\n\n                            </span>\n                        </span>\n                    </span>\n\n                    <span [ngClass]=\"{'submenunodes':position == 'right', 'submenunodesright':position == 'left' }\" *ngIf=\"node.submenus\">\n                        <amexio-nav-innermenu [color]=\"itemcolor\" [submenuposition]=\"position\" [data]=\"node.submenus\" (navLinkClick)=\"navItemClick($event)\">\n                        </amexio-nav-innermenu>\n                    </span>\n                </div>\n            </a>\n\n            <div *ngIf=\"type==='menucontainer'\" class=\"nav-menu-container\">\n                <a *ngFor=\"let node of data\" (click)=\"onClick(node, $event)\">\n                    <i *ngIf=\"icon\" [ngClass]=\"node.icon\"></i>&nbsp;{{node.text}}</a>\n                <ng-content></ng-content>\n            </div>\n        </div>\n    </div>\n  ",
                 },] },
     ];
     /** @nocollapse */
@@ -21821,7 +21821,7 @@ var AmexioNavItemComponent = /** @class */ (function () {
      * @return {?}
      */
     function () {
-        if (this.type === 'link' || this.type === 'button') {
+        if (this.type === 'link' || this.type === 'button' || this.type === 'toggle') {
             this.isAction = true;
         }
         else if (this.type === 'textfield') {
@@ -35861,6 +35861,8 @@ var AmexioDropDownComponent = /** @class */ (function (_super) {
 var AmexioLabelComponent = /** @class */ (function () {
     function AmexioLabelComponent() {
         this.enableclick = false;
+        // For internal use
+        this.blackLabel = false;
         this.onClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
         this.tempStyleArray = ['large', 'medium', 'small', 'bold', 'large-bold', 'medium-bold', 'small-bold',
             'large-44', 'large-24', 'large-50', 'large-54', 'large-56', 'large-60', 'large-64', 'large-68', 'large-78', 'large-9vw',
@@ -35898,7 +35900,7 @@ var AmexioLabelComponent = /** @class */ (function () {
     AmexioLabelComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-label',
-                    template: "\n  <label style=\"outline: none\" role=\"text\" tabindex=\"1\" class=\"label-content {{styleClass}}\" (click)=\"onLabel($event)\"\n    [ngStyle]=\"{'color' : fontColor,'cursor': enableclick ? 'pointer': 'text'}\">\n    <ng-content></ng-content>\n    <span class=\"label-badge\" *ngIf=\"badge\">{{badge}}</span>\n  </label>\n  ",
+                    template: "\n  <label [ngClass]=\"{'labelFontClass': blackLabel}\" style=\"outline: none\"\n  role=\"text\" tabindex=\"1\" class=\"label-content {{styleClass}}\" (click)=\"onLabel($event)\"\n    [ngStyle]=\"{'color' : fontColor,'cursor': enableclick ? 'pointer': 'text'}\">\n    <ng-content></ng-content>\n    <span class=\"label-badge\" *ngIf=\"badge\">{{badge}}</span>\n  </label>\n  ",
                 },] },
     ];
     /** @nocollapse */
@@ -35908,6 +35910,7 @@ var AmexioLabelComponent = /** @class */ (function () {
         styleClass: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['size',] }],
         fontColor: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font-color',] }],
         enableclick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-click',] }],
+        blackLabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
         onClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
     };
     return AmexioLabelComponent;
@@ -42207,11 +42210,14 @@ var DarkmodeComponent = /** @class */ (function () {
     DarkmodeComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-darkmode',
-                    template: "\n      <!-- <amexio-toggle\n      [field-label]=\"'Darkmode'\" (onChange)=\"onToggleClick($event,nav)\">\n      </amexio-toggle> -->\n    ",
+                    template: "\n      <amexio-toggle\n      [field-label]=\"fieldLabel\" (onChange)=\"onToggleClick($event,nav)\">\n      </amexio-toggle>\n    ",
                 },] },
     ];
     /** @nocollapse */
     DarkmodeComponent.ctorParameters = function () { return []; };
+    DarkmodeComponent.propDecorators = {
+        fieldLabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }]
+    };
     return DarkmodeComponent;
 }());
 
@@ -58073,7 +58079,7 @@ var AmexioNavActionComponent = /** @class */ (function () {
     AmexioNavActionComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-nav-action',
-                    template: "\n    <a *ngIf=\"(type=='link')\" [ngStyle]=\"{'color':color}\" class=\"top-nav-link\"\n    (click)=\"onClick($event)\"><i *ngIf=\"icon\" [ngClass]=\"icon\"></i>{{title}}</a>\n\n    <button *ngIf=\"(type=='button')\" class=\"top-nav-button\" (click)=\"onClick($event)\">\n    <i *ngIf=\"icon\" style=\"padding-right:10px\" [ngClass]=\"icon\"></i>{{title}}</button>\n  ",
+                    template: "\n    <a *ngIf=\"(type=='link')\" [ngStyle]=\"{'color':color}\" class=\"top-nav-link\"\n    (click)=\"onClick($event)\"><i *ngIf=\"icon\" [ngClass]=\"icon\"></i>{{title}}</a>\n\n    <button *ngIf=\"(type=='button')\" class=\"top-nav-button\" (click)=\"onClick($event)\">\n    <i *ngIf=\"icon\" style=\"padding-right:10px\" [ngClass]=\"icon\"></i>{{title}}</button>\n    <div  *ngIf=\"(type=='toggle')\" class=\"top-nav-button\">\n    <amexio-darkmode></amexio-darkmode>\n    </div>\n    ",
                 },] },
     ];
     /** @nocollapse */
@@ -73282,7 +73288,7 @@ var StepWizardComponent = /** @class */ (function () {
     StepWizardComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-step-wizard',
-                    template: "\n    <amexio-card-ce>\n        <amexio-header-ce [background]=\"headerBackground\">\n            {{title}}\n        </amexio-header-ce>\n        <ul class=\"step-wizard step-wizard-horizontal\">\n            <li [attr.tabindex]=\"(item.activeClass === 'active') ? 1: -1\" *ngFor=\"let item of stepItemList; let i = index\"\n                [ngClass]=\"item.activeClass\">\n                <a>\n                    <span class=\"circle \">\n                        <ng-container *ngIf=\"item.icon \">\n                            <amexio-image [icon-class]=\"item.icon \"></amexio-image>\n                        </ng-container>\n                        <ng-container *ngIf=\"!item.icon && showStepNumber \">{{i+1}}</ng-container>\n                    </span>\n                    <ng-container *ngIf=\"item.title \">\n                        <ng-container *ngIf=\"item.icon && showStepNumber \">\n                            {{i+1}}\n                        </ng-container>\n                        <ng-container *ngIf=\"!isPhone\">\n                            {{item.title}}\n                        </ng-container>\n\n                    </ng-container>\n                </a>\n            </li>\n        </ul>\n        <amexio-body-ce>\n            <ng-content select=\"amexio-step-wizard-item\">\n            </ng-content>\n        </amexio-body-ce>\n    </amexio-card-ce>\n  ",
+                    template: "\n    <amexio-card-ce>\n        <amexio-header-ce [background]=\"headerBackground\">\n            {{title}}\n        </amexio-header-ce>\n        <ul class=\"step-wizard step-wizard-horizontal\">\n            <li [attr.tabindex]=\"(item.activeClass === 'active') ? 1: -1\" *ngFor=\"let item of stepItemList; let i = index\"\n                [ngClass]=\"item.activeClass\">\n                <a>\n                    <span class=\"circle \">\n                        <ng-container *ngIf=\"item.icon \">\n                            <amexio-image [icon-class]=\"item.icon \"></amexio-image>\n                        </ng-container>\n                        <ng-container *ngIf=\"!item.icon && showStepNumber \">{{i+1}}</ng-container>\n                    </span>\n                    <ng-container *ngIf=\"item.title \">\n                        <ng-container *ngIf=\"item.icon && showStepNumber \">\n                            {{i+1}}\n                        </ng-container>\n                        <ng-container *ngIf=\"!isPhone\">\n                            <span class=\"stepTitleColor\">\n                                    {{item.title}}\n                            </span>\n                        </ng-container>\n\n                    </ng-container>\n                </a>\n            </li>\n        </ul>\n        <amexio-body-ce>\n            <ng-content select=\"amexio-step-wizard-item\">\n            </ng-content>\n        </amexio-body-ce>\n    </amexio-card-ce>\n  ",
                 },] },
     ];
     /** @nocollapse */

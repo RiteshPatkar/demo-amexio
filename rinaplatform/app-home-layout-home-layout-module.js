@@ -41390,7 +41390,7 @@ var HomeLayoutModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"top-layout\" (window:resize)=\"onResize()\">\n    <div class=\" block-scroll static-block-left-one\" [style.width.%]=\"staticBlockWidth\">\n        <company-logo></company-logo>\n    </div>\n\n    <div class=\" block-scroll static-block-left-two\" [style.width.%]=\"staticBlockWidth\">\n      <customer-demo-graphic ></customer-demo-graphic>\n    </div>\n\n    <span>\n        <span  *ngIf=\"showPrev\" class=\"circle-css\" (click)=\"scrollprev()\">\n            <i  class=\"fa fa-angle-left scroll-prev-icon-css\" ></i>\n        </span>\n\n        <div #carouselref [@changeState]=\"!showrightpanel ? 'visible' : 'hidden'\" [ngStyle]=\"carrouselStyle\" class=\" block-scroll carouselblock\" [style.width.%]=\"carouselWidth\">\n            <div #ngcontentref >\n\n                        <div  class=\"property-grid-css\" [style.width.px]=\"parentdivWidth\" >\n                            <div *ngFor=\"let item of productPropertyStructureData\"  [style.width.px]=\"gridWidth\" >\n\n                                   <product-details (onClick)=\"onProductLinkClick(item, $event)\" [product]=\"item\"></product-details>\n\n                            </div>\n                        </div>\n            </div>\n        </div>\n          <span *ngIf=\"!showRightPanel\" class=\"showpanel\" (click)=\"showRightPanelClick()\">\n                <i class=\"fa fa-angle-left show-top-panel-icon-css\" ></i>\n         </span>\n\n        <span *ngIf=\"showNext\" class=\"circle-css\" (click)=\"scrollnext()\">\n         <i class=\"fa fa-angle-right scroll-next-icon-css\" ></i>\n        </span>\n    </span> \n    <div *ngIf=\"showRightPanel\" class=\" block-scroll static-block-right\" [style.width.%]=\"staticBlockWidth\">      \n    \n                <amexio-button  style=\"position: absolute;right:12px\"  [label]=\"'Logout'\" \n               [type]=\"'transparent'\" \n               [tooltip]=\"'Logout'\"\n                [icon]=\"'fa fa-sign-out'\"\n                (onClick)=\"logoutClick()\">\n</amexio-button>\n       \n \n\n        <i class=\"fa fa-angle-right icon-class\" (click)=\"collapserightpanelClick()\"></i>\n      <top-right></top-right>\n    </div>\n</div>\n<amexio-dialogue [show-dialogue]=\"confirmdialogue\" [title]=\"'Confirm'\" [message]=\"'Are you sure you want to logout?'\" [message-type]=\"'confirm'\"\n    [type]=\"'confirm'\" (actionStatus)=\"checkStatus($event)\" (close)=\"confirmdialogue = !confirmdialogue\">\n</amexio-dialogue>"
+module.exports = "<div class=\"top-layout\" (window:resize)=\"onResize()\">\n    <div class=\" block-scroll static-block-left-one\" [style.width.%]=\"staticBlockWidth\">\n        <company-logo></company-logo>\n    </div>\n\n    <div class=\" block-scroll static-block-left-two\" [style.width.%]=\"staticBlockWidth\">\n      <customer-demo-graphic ></customer-demo-graphic>\n    </div>\n\n    <span>\n        <span  *ngIf=\"showPrev\" class=\"circle-css\" (click)=\"scrollprev()\">\n            <i  class=\"fa fa-angle-left scroll-prev-icon-css\" ></i>\n        </span>\n\n        <div #carouselref [@changeState]=\"!showrightpanel ? 'visible' : 'hidden'\" [ngStyle]=\"carrouselStyle\" class=\" block-scroll carouselblock\" [style.width.%]=\"carouselWidth\">\n            <div #ngcontentref >\n\n                        <div  class=\"property-grid-css\" [style.width.px]=\"parentdivWidth\" >\n                            <div *ngFor=\"let item of productPropertyStructureData\"  [style.width.px]=\"gridWidth\" >\n\n                                   <product-details (onClick)=\"onProductLinkClick(item, $event)\" [product]=\"item\"></product-details>\n\n                            </div>\n                        </div>\n            </div>\n        </div>\n          <span *ngIf=\"!showRightPanel\" class=\"showpanel\" (click)=\"showRightPanelClick()\">\n                <i class=\"fa fa-angle-left show-top-panel-icon-css\" ></i>\n         </span>\n\n        <span *ngIf=\"showNext\" class=\"circle-css\" (click)=\"scrollnext()\">\n         <i class=\"fa fa-angle-right scroll-next-icon-css\" ></i>\n        </span>\n    </span> \n    <div *ngIf=\"showRightPanel\" class=\" block-scroll static-block-right\" [style.width.%]=\"staticBlockWidth\">      \n    \n                <amexio-button  style=\"position: absolute;right:12px\"  [label]=\"'Logout'\" \n               [type]=\"'transparent'\" \n               [tooltip]=\"'Logout'\"\n                [icon]=\"'fa fa-sign-out'\"\n                (onClick)=\"logoutClick()\">\n</amexio-button>\n       \n \n\n        <i class=\"fa fa-angle-right icon-class\" (click)=\"collapserightpanelClick()\"></i>\n      <top-right></top-right>\n    </div>\n</div>\n<amexio-dialogue [show-dialogue]=\"confirmdialogue\" [title]=\"'Confirm'\" [message]=\"'Are you sure you want to logout?'\" [message-type]=\"'confirm'\"\n    [type]=\"'confirm'\" (actionStatus)=\"checkStatus($event)\" (close)=\"confirmdialogue = !confirmdialogue\">\n</amexio-dialogue>\n <amexio-window-ce [(show)]=\"enableplan\"  [horizontal-position]=\"'center'\"\n    [vertical-position]=\"'center'\" width=\"25%\"> \n    <amexio-body-ce>\n      \n   <ng-template #plan></ng-template>\n\n    </amexio-body-ce> \n</amexio-window-ce> "
 
 /***/ }),
 
@@ -41415,6 +41415,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _services_shared_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../services/shared.service */ "./src/app/services/shared.service.ts");
 /* harmony import */ var _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../home-store/shell.action */ "./src/app/home-layout/home-store/shell.action.ts");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var src_app_services_component_factory_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! src/app/services/component.factory.service */ "./src/app/services/component.factory.service.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -41435,13 +41437,17 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
+
 var TopComponent = /** @class */ (function () {
-    function TopComponent(_SDService, store, _httpService, _router) {
+    function TopComponent(_SDService, store, _httpService, _router, _CFService, _httpClient) {
         var _this = this;
         this._SDService = _SDService;
         this.store = store;
         this._httpService = _httpService;
         this._router = _router;
+        this._CFService = _CFService;
+        this._httpClient = _httpClient;
         this.showNext = false;
         this.showPrev = false;
         this.showRightPanel = true;
@@ -41449,6 +41455,7 @@ var TopComponent = /** @class */ (function () {
         this.staticBlockWidth = 20;
         this.margin = 0.4;
         this.confirmdialogue = false;
+        this.enableplan = false;
         this.carrouselStyle = {};
         this.products = [];
         this.customerDependentProductbackup = [];
@@ -41729,7 +41736,27 @@ var TopComponent = /** @class */ (function () {
         }
     };
     TopComponent.prototype.onProductLinkClick = function (structure, event) {
+        var _this = this;
         debugger;
+        this.planRef.clear();
+        this._httpClient.get(this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_4__["SERVER_BASE_URL"], 'tariffplan')).subscribe(function (res) {
+            var data = _this._CFService.createComponentFactory(res.response.metadata);
+            _this.enableplan = true;
+            data.forEach(function (f) {
+                var componentRef = _this.planRef.createComponent(f.componentFactory);
+                componentRef.instance['httpClient'] = _this._httpClient;
+                if (componentRef.instance.hasOwnProperty('onCancel')) {
+                    componentRef.instance['onCancel'].subscribe(function (event) {
+                        _this.enableplan = false;
+                    });
+                }
+                if (componentRef.instance.hasOwnProperty('onSubmit')) {
+                    componentRef.instance['onSubmit'].subscribe(function (event) {
+                        _this.enableplan = false;
+                    });
+                }
+            });
+        });
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('carouselref'),
@@ -41739,6 +41766,10 @@ var TopComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('ngcontentref'),
         __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"])
     ], TopComponent.prototype, "ngcontentref", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('plan', { read: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] }),
+        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"])
+    ], TopComponent.prototype, "planRef", void 0);
     TopComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-top',
@@ -41758,7 +41789,9 @@ var TopComponent = /** @class */ (function () {
         }),
         __metadata("design:paramtypes", [_services_shared_service__WEBPACK_IMPORTED_MODULE_8__["SharedService"],
             _ngrx_store__WEBPACK_IMPORTED_MODULE_7__["Store"],
-            _services_http_service__WEBPACK_IMPORTED_MODULE_3__["HttpService"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["Router"]])
+            _services_http_service__WEBPACK_IMPORTED_MODULE_3__["HttpService"], _angular_router__WEBPACK_IMPORTED_MODULE_10__["Router"],
+            src_app_services_component_factory_service__WEBPACK_IMPORTED_MODULE_11__["ComponentFactoryService"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_12__["HttpClient"]])
     ], TopComponent);
     return TopComponent;
 }());
@@ -41774,7 +41807,7 @@ var TopComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"workflowBtn\">\n\n<amexio-card [header]=\"false\"\n             [footer]=\"true\"\n             [footer-align]=\"'center'\">\n  <amexio-body>\n<amexio-row>\n  <amexio-column [size]=\"12\">\n    <search-box (search)=\"getSearchObject($event)\"></search-box>\n  </amexio-column>\n</amexio-row>\n    <amexio-row>\n      <amexio-column [size]=\"12\" >\n        <ng-container  *ngFor=\"let workflow of workflowList\">\n          <amexio-button [label]=\"workflow.workflowName\"\n                         [type]=\"'theme-color'\"\n                         (onClick)=\"workflowHandle(workflow)\"\n                         [disabled]=\"workflow.disabled\"\n                         [tooltip]=\"'large'\"\n                         [block]=\"true\">\n          </amexio-button>\n          <br>\n        </ng-container>\n          <ng-container *ngIf=\"_SDService.gamification\"> \n<amexio-floating-button [position-bottom]=\"'30px'\" [position-right]=\"'5px'\"  [icon]=\"'fa fa-trophy'\" [type]=\"'red'\" (onClick)=\"gamificationHandle(gamification)\"></amexio-floating-button>\n   </ng-container>\n      </amexio-column>\n    </amexio-row>\n  </amexio-body>\n  <amexio-action>\n    <amexio-row>\n      <amexio-column [size]=\"4\">\n        <amexio-image style=\"color: lightskyblue\" [icon-class]=\"'fa fa-file-pdf-o fa-2x'\" ></amexio-image>\n      </amexio-column>\n      <amexio-column [size]=\"4\">\n        <amexio-image style=\"color: blue\" [icon-class]=\"'fa fa-file-word-o fa-2x'\" ></amexio-image>\n      </amexio-column>\n      <amexio-column [size]=\"4\">\n        <amexio-image style=\"color: green\" [icon-class]=\"'fa fa-file-excel-o fa-2x'\" ></amexio-image>\n      </amexio-column>\n    </amexio-row>\n  </amexio-action>\n</amexio-card>\n</div>\n\n\n\n<!--<div  [ngStyle]=\"{'display': enableWindow ? 'block': 'none'}\" class=\"alfahim-root-window\">\n  <div> &nbsp; </div>\n  <div class=\"alfahim-root-window-inner\">\n    <div class=\"alfahim-root-window-content\">\n      <ng-template #workflowdynamic></ng-template>\n    </div>\n  </div>\n</div>-->\n\n<rina-window [show]=\"enableWindow\" [width]=\"'60%'\">\n  <ng-template #workflowdynamic></ng-template>\n</rina-window>\n\n\n<amexio-window-ce [(show)]=\"enablegamification\"  [horizontal-position]=\"'right'\"\n    [vertical-position]=\"'bottom'\" width=\"40%\"> \n    <amexio-body-ce>\n      \n   <ng-template #gamification></ng-template>\n\n    </amexio-body-ce> \n</amexio-window-ce>\n\n"
+module.exports = "<div class=\"workflowBtn\">\n\n<amexio-card [header]=\"false\"\n             [footer]=\"true\"\n             [footer-align]=\"'center'\">\n  <amexio-body>\n<amexio-row>\n  <amexio-column [size]=\"12\">\n    <search-box (search)=\"getSearchObject($event)\"></search-box>\n  </amexio-column>\n</amexio-row>\n    <amexio-row>\n      <amexio-column [size]=\"12\" >\n        <ng-container  *ngFor=\"let workflow of workflowList\">\n          <amexio-button [label]=\"workflow.workflowName\"\n                         [type]=\"'theme-color'\"\n                         (onClick)=\"workflowHandle(workflow)\"\n                         [disabled]=\"workflow.disabled\"\n                         [tooltip]=\"'large'\"\n                         [block]=\"true\">\n          </amexio-button>\n          <br>\n        </ng-container>\n          <ng-container *ngIf=\"_SDService.gamification\"> \n<amexio-floating-button [position-bottom]=\"'30px'\" [position-right]=\"'5px'\"  [icon]=\"'fa fa-trophy'\" [type]=\"'red'\" (onClick)=\"gamificationHandle(gamification)\"></amexio-floating-button>\n   </ng-container>\n      </amexio-column>\n    </amexio-row>\n  </amexio-body>\n  <amexio-action>\n    <amexio-row>\n      <amexio-column [size]=\"4\">\n        <amexio-image style=\"color: lightskyblue\" [icon-class]=\"'fa fa-file-pdf-o fa-2x'\" ></amexio-image>\n      </amexio-column>\n      <amexio-column [size]=\"4\">\n        <amexio-image style=\"color: blue\" [icon-class]=\"'fa fa-file-word-o fa-2x'\" ></amexio-image>\n      </amexio-column>\n      <amexio-column [size]=\"4\">\n        <amexio-image style=\"color: green\" [icon-class]=\"'fa fa-file-excel-o fa-2x'\" ></amexio-image>\n      </amexio-column>\n    </amexio-row>\n  </amexio-action>\n</amexio-card>\n</div>\n\n\n\n<!--<div  [ngStyle]=\"{'display': enableWindow ? 'block': 'none'}\" class=\"alfahim-root-window\">\n  <div> &nbsp; </div>\n  <div class=\"alfahim-root-window-inner\">\n    <div class=\"alfahim-root-window-content\">\n      <ng-template #workflowdynamic></ng-template>\n    </div>\n  </div>\n</div>-->\n\n<rina-window [show]=\"enableWindow\" [width]=\"'60%'\">\n  <ng-template #workflowdynamic></ng-template>\n</rina-window>\n\n\n<amexio-window-ce [(show)]=\"enablegamification\"  [horizontal-position]=\"'right'\"\n    [vertical-position]=\"'bottom'\" width=\"40%\"> \n    <amexio-body-ce>\n      \n   <ng-template #gamification></ng-template>\n\n    </amexio-body-ce> \n</amexio-window-ce>\n\n\n\n      <amexio-notification\n  [background-color]=\"'orange'\"\n  [foreground-color]=\"'black'\"\n  [data]=\"msgData\"\n  [vertical-position]=\"'top'\"\n  [horizontal-position]=\"'center'\"\n  [close-on-escape] =\"true\"\n  [auto-dismiss-msg]=\"true\"\n  [auto-dismiss-msg-interval]=\"6000\">\n</amexio-notification>"
 
 /***/ }),
 
@@ -41829,6 +41862,7 @@ var CenterLeftComponent = /** @class */ (function () {
         this.workflowList = [];
         this.enableWindow = false;
         this.enablegamification = false;
+        this.msgData = [];
         this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_7__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_6__["fromShell"].getCustomerRefInfo)).subscribe(function (custInfo) {
             if (Object.keys(custInfo).length > 0) {
                 _this.customerInfo = custInfo;
@@ -41927,6 +41961,7 @@ var CenterLeftComponent = /** @class */ (function () {
                     }
                     if (componentRef.instance.hasOwnProperty('onSubmit')) {
                         componentRef.instance['onSubmit'].subscribe(function (event) {
+                            _this.shownotification(res.response.type);
                             _this.enableWindow = false;
                         });
                     }
@@ -42014,6 +42049,17 @@ var CenterLeftComponent = /** @class */ (function () {
             });
         });
     };
+    CenterLeftComponent.prototype.shownotification = function (type) {
+        if (type == 'changebillingaddress') {
+            this.msgData.push('Address changed successfully');
+        }
+        if (type == 'changebillingcycle') {
+            this.msgData.push('Bill cycle changed successfully');
+        }
+        if (type == 'changebiilingpreferance') {
+            this.msgData.push('Bill Preferances changed successfully');
+        }
+    };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('workflowdynamic', { read: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] }),
         __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"])
@@ -42088,7 +42134,7 @@ var SearchBoxComponent = /** @class */ (function () {
         this.showDropdown = false;
         this.dropDownItemList = [];
         this.searchId = '';
-        this.searchType = 1;
+        this.searchType = 2;
         this.search = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
     }
     SearchBoxComponent.prototype.ngOnInit = function () {
