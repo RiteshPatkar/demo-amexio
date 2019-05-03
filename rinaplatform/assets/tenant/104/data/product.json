@@ -1,0 +1,21 @@
+
+{
+  "success": true,
+  "successMessage": "data loaded successfully",
+  "successCode": "success",
+  "errorMessage": null,
+  "errorCode": null,
+  "errors": null,
+  "response":
+[
+  {
+    "id": "1",
+    "value": "Missed Call Notification"
+  },
+  {
+    "id": "2",
+    "value": "Auto-roaming"
+  }
+]
+
+}

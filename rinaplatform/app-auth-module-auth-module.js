@@ -223,7 +223,7 @@ var LoginComponent = /** @class */ (function () {
             _this.showLoader = false;
         }, function () {
             if (response.success) {
-                // TENENT_ID =  response.response.tenantId;
+                _this.changethemes(response.response.theme);
                 _this.store.dispatch(new _auth_store_auth_action__WEBPACK_IMPORTED_MODULE_5__["AddLoginInfo"]({ 'userId': response.response.userId, 'tenantId': response.response.tenantId, 'gamification': response.response.gamification }));
                 _this._router.navigate(['home']);
                 _this.showLoader = false;
@@ -233,6 +233,13 @@ var LoginComponent = /** @class */ (function () {
                 _this.showLoader = false;
             }
         });
+    };
+    LoginComponent.prototype.changethemes = function (theme) {
+        if (theme && theme.length > 0) {
+            theme.forEach(function (style) {
+                document.documentElement.style.setProperty(style.key, style.value);
+            });
+        }
     };
     LoginComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
