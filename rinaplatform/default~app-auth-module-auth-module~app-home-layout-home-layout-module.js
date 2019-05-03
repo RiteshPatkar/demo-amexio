@@ -53462,14 +53462,47 @@ var GridConstants = /** @class */ (function () {
 var AmexioGridComponent = /** @class */ (function () {
     function AmexioGridComponent(_gridlayoutService) {
         this._gridlayoutService = _gridlayoutService;
+        this.isInit = false;
         this.desktopWidth = '(min-width: 1025px)';
         this.mobileWidth = '(max-width: 767px)';
         this.tabletWidth = '(min-width: 768px) and (max-width: 1024px)';
     }
+    Object.defineProperty(AmexioGridComponent.prototype, "layout", {
+        get: /**
+         * @return {?}
+         */
+        function () {
+            return this._layout;
+        },
+        set: /**
+         * @param {?} value
+         * @return {?}
+         */
+        function (value) {
+            if (value != null) {
+                this._layout = value;
+                if (this.isInit) {
+                    this.gridInit();
+                }
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
     /**
      * @return {?}
      */
     AmexioGridComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        this.gridInit();
+        this.isInit = true;
+    };
+    /**
+     * @return {?}
+     */
+    AmexioGridComponent.prototype.gridInit = /**
      * @return {?}
      */
     function () {
@@ -53501,8 +53534,19 @@ var AmexioGridComponent = /** @class */ (function () {
             style.appendChild(document.createTextNode(''));
             document.head.appendChild(style);
         }
-        var /** @type {?} */ sheet = sheets[sheets.length - 1];
-        sheet.insertRule(ruleText, sheet.rules ? sheet.rules.length : sheet.cssRules.length);
+        var /** @type {?} */ isCssAdded = false;
+        for (var _i = 0, sheets_1 = sheets; _i < sheets_1.length; _i++) {
+            var sh = sheets_1[_i];
+            var /** @type {?} */ sheet = sh;
+            if (!isCssAdded && (sheet && sheet.href === null && sheet.rules)) {
+                try {
+                    sheet.insertRule(ruleText, 0);
+                    isCssAdded = true;
+                }
+                catch (/** @type {?} */ e) {
+                }
+            }
+        }
     };
     /**
      * @return {?}
@@ -62357,7 +62401,8 @@ var AmexioListBoxComponent = /** @class */ (function () {
             .listen('document', 'click', function (event) {
             if (_this.viewData.length > 0) {
                 _this.viewData.forEach(function (element, index) {
-                    if (_this.prevlistindex !== -1 && _this.viewData[_this.prevlistindex]['ishoverselected'] === true) {
+                    if (_this.prevlistindex !== -1 && _this.viewData[_this.prevlistindex].hasOwnProperty('ishoverselected')
+                        && _this.viewData[_this.prevlistindex]['ishoverselected'] === true) {
                         _this.viewData[_this.prevlistindex]['ishoverselected'] = false;
                         _this.prevlistindex = -1;
                         _this.listindex = -1;
