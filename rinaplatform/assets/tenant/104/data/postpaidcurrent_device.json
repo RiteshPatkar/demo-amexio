@@ -1,0 +1,23 @@
+{
+    "data": [{
+            "seq": "1",
+            "parameter": "IMEI",
+            "description": "3294860666889315"
+        },
+        {
+            "seq": "2",
+            "parameter": "Make",
+            "description": "Huawei"
+        },
+        {
+            "seq": "3",
+            "parameter": "Model",
+            "description": "Nova 3I"
+        },
+        {
+            "seq": "4",
+            "parameter": "4G Compatibility",
+            "description": "Yes"
+        }
+    ]
+}
