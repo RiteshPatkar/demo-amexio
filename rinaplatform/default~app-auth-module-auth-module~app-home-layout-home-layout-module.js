@@ -37300,7 +37300,7 @@ var AmexioToggleComponent = /** @class */ (function (_super) {
     AmexioToggleComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-toggle',
-                    template: "\n    <div  id=\"{{componentId}}\" class=\"inputgroup\">\n      {{fieldlabel}}\n\n      <label  role=\"switch\" attr.aria-labelledby=\"{{componentId}}\" [attr.aria-checked]=\"checked\" tabindex=\"1\" for=\"{{toggleId}}\" \n      class=\"toggle\" \n      (keyup.space)=\"onEventFilter($event)\">\n\n        <input id=\"{{toggleId}}\" type=\"checkbox\"\n         style=\"top:0; left:0\" \n         [attr.checked]=\"checked\"\n         data-check-switch = \"\"\n          [attr.aria-required]=\"required\"\n          #rangeHndl \n          [(ngModel)]=\"value\"\n          (blur)=\"onBlur()\"\n          [attr.aria-checked]=\"checked\" \n          (change)=\"onToggle()\">\n        <span class=\"toggle-slider {{shape}}\">\n        </span>\n      </label>\n    </div>\n  ",
+                    template: "\n    <div id=\"{{componentId}}\" class=\"inputgroup\">\n      {{fieldlabel}}\n\n\n      <label role=\"switch\" attr.aria-labelledby=\"{{componentId}}\" [attr.aria-checked]=\"checked\" tabindex=\"1\" for=\"{{toggleId}}\"\n        [ngClass]=\"{smallToggle:(size == 'small' && type != 2),\n        smallType2Toggle:(size == 'small' && type == 2),\n\n        mediumToggle:(size == 'medium' && type != 2),\n        mediumType2Toggle:(size == 'medium' && type == 2),\n\n        largeToggle:(size == 'large' && type != 2),\n        largeType2Toggle:(size == 'large' && type == 2)\n\n    }\"\n        (keyup.space)=\"onEventFilter($event)\">\n\n        <input id=\"{{toggleId}}\" type=\"checkbox\" style=\"top:0; left:0;display: none;\" [attr.checked]=\"checked\" data-check-switch=\"\"\n          [attr.aria-required]=\"required\" #rangeHndl [(ngModel)]=\"value\" (blur)=\"onBlur()\" [attr.aria-checked]=\"checked\"\n          (change)=\"onToggle()\">\n        <span class=\"toggle-slider {{shape}}\" [ngClass]=\"\n        {\n          smallToggleSlider :(size == 'small' && type != 2),\n          smallType2ToggleSlider :(size == 'small' && type == 2),\n\n         mediumToggleSlider : (size == 'medium' && type !=2),\n         mediumType2ToggleSlider : (size == 'medium' && type ==2),\n\n         largeToggleSlider : (size == 'large' && type !=2),\n         largeType2ToggleSlider : (size == 'large' && type ==2)\n      }\">\n\n        </span>\n      </label>\n    </div>\n  ",
                     providers: [{
                             provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioToggleComponent; }), multi: true,
                         }, {
@@ -37315,6 +37315,8 @@ var AmexioToggleComponent = /** @class */ (function (_super) {
         shape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
         fieldlabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
         required: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        size: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['size',] }],
+        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }],
         onChange: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
         isComponentValid: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
     };
@@ -40121,10 +40123,7 @@ var SearchboxtoolComponent = /** @class */ (function (_super) {
         if (keyword != null && keyword !== ' ') {
             var /** @type {?} */ search_term_1 = keyword.toLowerCase();
             this.localData.forEach(function (item) {
-                if (item != null && item[_this.displayfield].toLowerCase().startsWith(search_term_1)) {
-                    _this.viewData.push(item);
-                    _this.isListFlag = true;
-                }
+                _this.tempOnInputClick(item, search_term_1);
             });
             this.keyup.emit(event);
         }
@@ -40138,6 +40137,37 @@ var SearchboxtoolComponent = /** @class */ (function (_super) {
         if (!this.selectedValue || this.selectedValue === '') {
             this.viewData = [];
             this.isListFlag = false;
+        }
+    };
+    /**
+     * @param {?} item
+     * @param {?} search_term
+     * @return {?}
+     */
+    SearchboxtoolComponent.prototype.tempOnInputClick = /**
+     * @param {?} item
+     * @param {?} search_term
+     * @return {?}
+     */
+    function (item, search_term) {
+        for (var _i = 0, _a = Object.entries(item); _i < _a.length; _i++) {
+            var _b = _a[_i], key = _b[0], value = _b[1];
+            var /** @type {?} */ val = void 0;
+            val = value;
+            this.a = key;
+            // For New Input enable-filter
+            if (item && (this.enablefilter) && (val.startsWith(search_term))
+                && item !== null && item[this.displayfield]) {
+                this.isListFlag = true;
+                this.viewData.push(item);
+            }
+            else {
+                if ((!this.enablefilter) && item !== null && val.startsWith(search_term)
+                    && item[this.displayfield].toLowerCase().startsWith(search_term)) {
+                    this.isListFlag = true;
+                    this.viewData.push(item);
+                }
+            }
         }
     };
     /**
@@ -40155,12 +40185,7 @@ var SearchboxtoolComponent = /** @class */ (function (_super) {
             if (keyword != null && keyword !== ' ') {
                 var /** @type {?} */ search_term_2 = keyword.toLowerCase();
                 this.localData.forEach(function (item1) {
-                    if (item1 != null && item1[_this.displayfield].toLowerCase().startsWith(search_term_2)) {
-                        // if word exist in start
-                        // if word exist in start
-                        _this.viewData.push(item1);
-                        _this.isListFlag = true;
-                    }
+                    _this.tempOnInputClick(item1, search_term_2);
                 });
                 this.searchFlag = true;
                 this.onBaseFocusEvent({});
@@ -40480,6 +40505,7 @@ var SearchboxtoolComponent = /** @class */ (function (_super) {
         title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
         valuefield: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['value-field',] }],
         width: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        enablefilter: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-global-filter',] }],
         keyup: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
         onSearchItemClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
         onSearchClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
@@ -42144,6 +42170,7 @@ var AmexioCreditcardComponent = /** @class */ (function () {
  */
 var DarkmodeComponent = /** @class */ (function () {
     function DarkmodeComponent() {
+        this.size = 'medium';
         this.themesdata = [];
         this.themeStyles = [];
         this.themesdata = [
@@ -42210,14 +42237,16 @@ var DarkmodeComponent = /** @class */ (function () {
     DarkmodeComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-darkmode',
-                    template: "\n      <amexio-toggle\n      [field-label]=\"fieldLabel\" [shape]=\"shape\" (onChange)=\"onToggleClick($event,nav)\">\n      </amexio-toggle>\n    ",
+                    template: "\n      <amexio-toggle\n      [field-label]=\"fieldLabel\" [size]=\"size\" [type]=\"type\" [shape]=\"shape\" (onChange)=\"onToggleClick($event,nav)\">\n      </amexio-toggle>\n    ",
                 },] },
     ];
     /** @nocollapse */
     DarkmodeComponent.ctorParameters = function () { return []; };
     DarkmodeComponent.propDecorators = {
         fieldLabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
-        shape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['shape',] }]
+        shape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['shape',] }],
+        type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }],
+        size: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['size',] }]
     };
     return DarkmodeComponent;
 }());
@@ -58748,7 +58777,7 @@ var AmexioWindowCEComponent = /** @class */ (function (_super) {
      */
     function () {
         var _this = this;
-        if (this.amexioHeader) {
+        if (this.amexioHeader && this.amexioHeader.toArray.length > 0) {
             this.amexioHeader.toArray()[0].closeable = this.closable;
             this.amexioHeader.toArray()[0].windowFlag = true;
             if (this.maximize) {
