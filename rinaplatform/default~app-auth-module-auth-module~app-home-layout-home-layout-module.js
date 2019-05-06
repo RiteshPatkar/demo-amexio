@@ -53409,35 +53409,24 @@ var AmexioGridItemComponent = /** @class */ (function () {
      * @return {?}
      */
     function (ruleText) {
-        if (document && document.styleSheets) {
-            var /** @type {?} */ sheets = document.styleSheets;
-            if (sheets.length === 0) {
-                var /** @type {?} */ style = document.createElement('style');
-                if (style) {
-                    style.appendChild(document.createTextNode(''));
-                    document.head.appendChild(style);
+        var /** @type {?} */ sheets = document.styleSheets;
+        if (sheets.length === 0) {
+            var /** @type {?} */ style = document.createElement('style');
+            style.appendChild(document.createTextNode(''));
+            document.head.appendChild(style);
+        }
+        var /** @type {?} */ isCssAdded = false;
+        for (var _i = 0, sheets_1 = sheets; _i < sheets_1.length; _i++) {
+            var sh = sheets_1[_i];
+            var /** @type {?} */ sheet = sh;
+            if (!isCssAdded && (sheet && sheet.href === null && sheet.rules)) {
+                try {
+                    sheet.insertRule(ruleText, 0);
+                    isCssAdded = true;
+                }
+                catch (/** @type {?} */ e) {
                 }
             }
-            if (sheets && sheets.length > 1) {
-                var /** @type {?} */ sheet = sheets[sheets.length - 1];
-                this.addRule(sheet, ruleText);
-            }
-        }
-    };
-    // TO ADD RULE
-    /**
-     * @param {?} sheet
-     * @param {?} ruleText
-     * @return {?}
-     */
-    AmexioGridItemComponent.prototype.addRule = /**
-     * @param {?} sheet
-     * @param {?} ruleText
-     * @return {?}
-     */
-    function (sheet, ruleText) {
-        if (sheet) {
-            sheet.insertRule(ruleText, sheet.rules ? sheet.rules.length : sheet.cssRules.length);
         }
     };
     AmexioGridItemComponent.decorators = [
@@ -58153,7 +58142,7 @@ var AmexioNavActionComponent = /** @class */ (function () {
     AmexioNavActionComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-nav-action',
-                    template: "\n    <a *ngIf=\"(type=='link')\" [ngStyle]=\"{'color':color}\" class=\"top-nav-link\"\n    (click)=\"onClick($event)\"><i *ngIf=\"icon\" [ngClass]=\"icon\"></i>{{title}}</a>\n\n    <button *ngIf=\"(type=='button')\" class=\"top-nav-button\" (click)=\"onClick($event)\">\n    <i *ngIf=\"icon\" style=\"padding-right:10px\" [ngClass]=\"icon\"></i>{{title}}</button>\n    <div  *ngIf=\"(type=='toggle')\" class=\"top-nav-button\">\n    <amexio-darkmode></amexio-darkmode>\n    </div>\n    ",
+                    template: "\n    <a *ngIf=\"(type=='link')\" [ngStyle]=\"{'color':color}\" class=\"top-nav-link\"\n    (click)=\"onClick($event)\"><i *ngIf=\"icon\" [ngClass]=\"icon\"></i>{{title}}</a>\n\n    <button *ngIf=\"(type=='button')\" class=\"top-nav-button\" (click)=\"onClick($event)\">\n    <i *ngIf=\"icon\" style=\"padding-right:10px\" [ngClass]=\"icon\"></i>{{title}}</button>\n    <div  *ngIf=\"(type=='toggle')\" class=\"top-nav-button\">\n    <amexio-darkmode [size]=\"'small'\"></amexio-darkmode>\n    </div>\n    ",
                 },] },
     ];
     /** @nocollapse */
@@ -58777,9 +58766,11 @@ var AmexioWindowCEComponent = /** @class */ (function (_super) {
      */
     function () {
         var _this = this;
-        if (this.amexioHeader && this.amexioHeader.toArray.length > 0) {
-            this.amexioHeader.toArray()[0].closeable = this.closable;
-            this.amexioHeader.toArray()[0].windowFlag = true;
+        if (this.amexioHeader && this.amexioHeader.toArray().length > 0) {
+            setTimeout(function () {
+                _this.amexioHeader.toArray()[0].closeable = _this.closable;
+                _this.amexioHeader.toArray()[0].windowFlag = true;
+            }, 3000);
             if (this.maximize) {
                 this.amexioHeader.toArray()[0].setMaximizeData(this.maximize, this.isFullWindow);
                 this.amexioHeader.toArray()[0].maximizeBehaiour.subscribe(function (max) {
