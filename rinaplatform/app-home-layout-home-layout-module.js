@@ -41743,6 +41743,7 @@ var TopComponent = /** @class */ (function () {
             this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["AddCustomerRef"]({}));
             this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["SearchInfo"]({}));
             this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["SelectedProductInfo"]({}));
+            this.store.dispatch(new _home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["ErrorInfo"]({ errorMsg: '' }));
             this._router.navigate(['login']);
             this.changeTheme();
         }
@@ -42600,9 +42601,12 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
         });
         /* GET ERROR MSG */
         this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_4__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_5__["fromShell"].getErrorInfo)).subscribe(function (errorInfo) {
-            if (Object.keys(errorInfo).length > 0) {
+            if (errorInfo.hasOwnProperty('errorMsg') && errorInfo.errorMsg !== "") {
                 _this.errorMsg = errorInfo.errorMsg;
                 _this.errordialoguematerial = true;
+            }
+            else {
+                _this.errordialoguematerial = false;
             }
         });
     }
