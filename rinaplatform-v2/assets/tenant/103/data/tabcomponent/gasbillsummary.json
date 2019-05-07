@@ -1,0 +1,86 @@
+{
+  "billSummary": {
+    "period": "15 Aug 18 - 13 Nov 18 (91 days)",
+    "rate": "Domestic General",
+    "meterDetails": [
+      {
+        "meterNo": "EC505238",
+        "previousRead": "2650 (A)",
+        "currentRead": "2858 (A)",
+        "volumeX": "203",
+        "correctionFactorX": "1.0221",
+        "heatingValue": "32.8",
+        "usageMJ": "8078.33",
+        "nswRebate": null,
+        "discountsandRebates": null,
+        "total": null,
+        "totalElecCharges": null,
+        "chargesLessDiscount": null
+      },
+      {
+        "meterNo": null,
+        "previousRead": null,
+        "currentRead": null,
+        "volumeX": null,
+        "correctionFactorX": null,
+        "heatingValue": "Total MJ",
+        "usageMJ": "8078.33",
+        "nswRebate": null,
+        "discountsandRebates": null,
+        "total": null,
+        "totalElecCharges": null,
+        "chargesLessDiscount": null
+      }
+    ],
+    "billDetails": [
+      {
+        "title": "Usage",
+        "usage": "",
+        "charge": "",
+        "amount": "",
+        "billDays": "",
+        "bold": false
+      },
+      {
+        "title": "First 0-1885",
+        "usage": "1856",
+        "charge": "4.59 c/MJ",
+        "amount": "$68.67",
+        "billDays": "91",
+        "bold": false
+      },
+      {
+        "title": "Next 1886-3740",
+        "usage": "1856",
+        "charge": "3.42 c/MJ",
+        "amount": "$45.89 ",
+        "billDays": "91",
+        "bold": false
+      },
+      {
+        "title": "Next 3741-249814",
+        "usage": "4344.33",
+        "charge": "3.33 c/MJ",
+        "amount": "$102.20",
+        "billDays": "91",
+        "bold": false
+      },
+      {
+        "title": "Supply Charge",
+        "usage": "",
+        "charge": "61.90 c/Day",
+        "amount": "$56.42",
+        "billDays": "91",
+        "bold": false
+      },
+      {
+        "title": "Total (excl GST)",
+        "usage": "",
+        "charge": "",
+        "amount": "$270.18 ",
+        "billDays": "",
+        "bold": true
+      }
+    ]
+  }
+}

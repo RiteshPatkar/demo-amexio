@@ -1,0 +1,57 @@
+{
+    "data": [{
+            "sessionStartDate": "14 Apr 2019 02:58:38 PM",
+            "sessionEndDate": "14 Apr 2019 00:55:58 PM",
+            "usageType": "4G",
+            "usageKB": "8038.05",
+            "usageMB": "7.85",
+            "coreDeduction": "0",
+            "flexDeduction": "0",
+            "chargeType": "Free"
+        },
+        {
+
+            "sessionStartDate": "14 Apr 2019 02:58:28 PM",
+            "sessionEndDate": "14 Apr 2019 02:58:35 PM",
+            "usageType": "3G",
+            "usageKB": "50.52",
+            "usageMB": "0.05",
+            "coreDeduction": "0",
+            "flexDeduction": "0",
+            "chargeType": "Free"
+        },
+        {
+
+            "sessionStartDate": "14 Apr 2019 01:29:00 PM",
+            "sessionEndDate": "14 Apr 2019 02:26:20 PM",
+            "usageType": "4G",
+            "usageKB": "827.96",
+            "usageMB": "0.81",
+            "coreDeduction": "0",
+            "flexDeduction": "0",
+            "chargeType": "Free"
+        },
+        {
+
+            "sessionStartDate": "14 Apr 2019 01:29:00 PM",
+            "sessionEndDate": "14 Apr 2019 02:58:21 PM",
+            "usageType": "4G",
+            "usageKB": "1770.51",
+            "usageMB": "1.73",
+            "coreDeduction": "0",
+            "flexDeduction": "0",
+            "chargeType": "Free"
+        },
+        {
+
+            "sessionStartDate": "14 Apr 2019 12:16:10 PM",
+            "sessionEndDate": "14 Apr 2019 12:20:30 PM",
+            "usageType": "4G",
+            "usageKB": "7158",
+            "usageMB": "6.99",
+            "coreDeduction": "0",
+            "flexDeduction": "0",
+            "chargeType": "Free"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+
+{
+  "success": true,
+  "successMessage": "data loaded successfully",
+  "successCode": "success",
+  "errorMessage": null,
+  "errorCode": null,
+  "errors": null,
+  "response":
+[
+  {
+    "id": "1",
+    "value": "Abroad"
+  },
+  {
+    "id": "2",
+    "value": "Dispute"
+  },
+  {
+    "id": "3",
+    "value": "MNP"
+  },
+  {
+    "id": "4",
+    "value": "Payment Agency"
+  }
+]
+
+}

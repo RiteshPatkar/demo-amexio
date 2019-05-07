@@ -1,0 +1,36 @@
+{
+    "data": [{
+            "mode": "Online",
+            "retailerID": "NA",
+            "activationDate": "14 Apr 2019 02:58:38 PM",
+            "dataPack": "TESURF 50 1 GB",
+            "validity": "3 Days",
+            "lastChargeAmount": "50"
+        },
+        {
+            "mode": "Retail",
+            "retailerID": "10038934",
+            "activationDate": "14 Apr 2019 02:58:28 PM",
+            "dataPack": "TESURF 299 1.5 GB",
+            "validity": "30 Days",
+            "lastChargeAmount": "299"
+
+        },
+        {
+            "mode": "Online",
+            "retailerID": "Prepaid",
+            "activationDate": "14 Apr 2019 01:29:00 PM",
+            "dataPack": "TESURF 50 1 GB",
+            "validity": "3 Days",
+            "lastChargeAmount": "50"
+        },
+        {
+            "mode": "Online",
+            "retailerID": "Prepaid",
+            "activationDate": "14 Apr 2019 01:29:00 PM",
+            "dataPack": "TESURF 299 1.5 GB",
+            "validity": "3 Days",
+            "lastChargeAmount": "50"
+        }
+    ]
+}

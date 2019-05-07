@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "successMessage": "Record found successfully",
+  "errorMessage": null,
+  "response": {
+    "data": {
+      "srNo": "3-7412345678",
+      "ticketType": "Enquiry",
+      "srOpenDate": "22/04/2019 13:00",
+      "dueDate": "23/024/2019 13:00",
+      "subType": "Network Related",
+      "type": "Network",
+      "affectedArea":"Quezon City",
+      "scheduledResolution": "22/04/2019 13:00",
+      "estimatedResolution": "23/024/2019 13:00"
+    }
+  }
+}

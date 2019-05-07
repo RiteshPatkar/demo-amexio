@@ -1,0 +1,29 @@
+
+{
+  "success": true,
+  "successMessage": "data loaded successfully",
+  "successCode": "success",
+  "errorMessage": null,
+  "errorCode": null,
+  "errors": null,
+  "response":
+[
+  {
+    "id": "1",
+    "value": "Call in"
+  },
+  {
+    "id": "2",
+    "value": "Email"
+  },
+  {
+    "id": "3",
+    "value": "Chat"
+  },
+  {
+    "id": "4",
+    "value": "Walk-in"
+  }
+]
+
+}

@@ -1,0 +1,45 @@
+{
+  "interactionHistory": [
+    {
+      "srNo": "3-7412345678",
+      "ticketType": "Enquiry",
+      "category":"Service Request",
+      "type":"Network",
+      "subType":"Network related",
+      "openDate": "22/04/2019 13:00",
+      "dueDate": "23/04/2019 13:00",
+      "status": "Open"
+    },
+    {
+       "srNo": "3-8731461611",
+      "ticketType": "Request",
+      "category":"Service Request",
+      "type":"Service Disconnection",
+      "subType":"Port Out",
+      "openDate": "20/02/2019 17:35",
+      "dueDate": "22/02/2019 17:00",
+      "status": "Closed"
+        },
+      {
+       "srNo": "3-8520997970",
+      "ticketType": "Request",
+      "category":"Service Request",
+      "type":"Tariff or Offers",
+      "subType":"Entertainment Add-on",
+      "openDate": "19/01/2019 11:43",
+      "dueDate": "20/01/2019 12:00",
+      "status": "Closed"
+        },
+      {
+       "srNo": "3-7412345678",
+      "ticketType": "Order",
+      "category":"Trouble Ticket",
+      "type":"Service Failure",
+      "subType":"Voice Call Affected",
+      "openDate": "10/01/2019 09:30",
+      "dueDate": "11/01/2019 09:30",
+      "status": "Closed"
+
+        }
+  ]
+}

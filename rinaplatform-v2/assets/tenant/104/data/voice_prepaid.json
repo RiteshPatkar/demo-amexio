@@ -1,0 +1,48 @@
+{
+    "data": [{
+            "callStartDate": "14 Apr 2019 04:21:20 PM",
+            "callEndDate": "14 Apr 2019 04:21:26 PM",
+            "calledNumber": "938XXXXXXX",
+            "callType": "Local",
+            "charges": "0",
+            "duration": "7",
+            "balanceAfter": "4.65"
+        },
+        {
+            "callStartDate": "14 Apr 2019 04:17:12 PM",
+            "callEndDate": "14 Apr 2019 04:17:19 PM",
+            "calledNumber": "938XXXXXXX",
+            "callType": "Local",
+            "charges": "0",
+            "duration": "7",
+            "balanceAfter": "4.65"
+        },
+        {
+            "callStartDate": "14 Apr 2019 04:09:14 PM",
+            "callEndDate": "14 Apr 2019 04:16:52 PM",
+            "calledNumber": "938XXXXXXX",
+            "callType": "Local",
+            "charges": "0",
+            "duration": "459",
+            "balanceAfter": "4.65"
+        },
+        {
+            "callStartDate": "14 Apr 2019 03:53:54 PM",
+            "callEndDate": "14 Apr 2019 03:54:30 PM",
+            "calledNumber": "938XXXXXXX",
+            "callType": "Local",
+            "charges": "0",
+            "duration": "26",
+            "balanceAfter": "4.65"
+        },
+        {
+            "callStartDate": "13 Apr 2019 09:16:10 PM",
+            "callEndDate": "13 Apr 2019 09:16:30 PM",
+            "calledNumber": "938XXXXXXX",
+            "callType": "Local",
+            "charges": "0",
+            "duration": "20",
+            "balanceAfter": "4.65"
+        }
+    ]
+}

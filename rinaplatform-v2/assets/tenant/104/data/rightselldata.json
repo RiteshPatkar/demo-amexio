@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "successMessage": "data loaded successfully",
+  "successCode": "success",
+  "errorMessage": null,
+  "errorCode": null,
+  "errors": null,
+  "data": [
+    {
+      "plan": "1799",
+      "offerdescription": "This plan comes with the data plan that'll go with your lifestyle and usage. The 19GB mobile data allows you to keep up with a hectic schedule. This is the recommended line-only plan for you!",
+      "hookdata": "19GB",
+      "rebuttaldata": "24GB",
+      "entertainmentplandata": "20GB"
+    },
+    {
+      "plan": "1999",
+      "offerdescription": "Everything from your social life to your work:Stay updated on your favorite shows and stream new episodes at home or on your commute! Get an additional 21GB data on top of all offers.",
+      "hookdata": "21GB",
+      "rebuttaldata": "26GB",
+      "entertainmentplandata": "22GB"
+    },
+    {
+      "plan": "2499",
+      "offerdescription": "Now you can enjoy more calls, texts, and entertainment add-ons that will help you do more with this line-only plan.",
+      "hookdata": "26GB",
+      "rebuttaldata": "31GB",
+      "entertainmentplandata": "27GB"
+    }
+  ]
+}

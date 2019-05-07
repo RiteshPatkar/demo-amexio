@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "successMessage": "Record found successfully",
+  "errorMessage": null,
+  "response": {
+    "customerId": "92455720-67b0-4f0c-a9ca-3caa13512a4b",
+      "customerNo": "169290",
+      "uaeId": null,
+      "name": "Jack Brown ",
+      "firstName": "Jack ",
+      "lastName": "Brown",
+      "mobile": "+61 423 070 111",
+      "companyName": "",
+      "operatingStatus": "",
+      "email": "jackbrown31@Hotmail.com",
+      "birthday": "Jan 20",
+      "altNumber": "N/A",
+      "anniversary": "September 16",
+      "profileImageUrl": "assets/images/169281.png",
+      "customerClass": "",
+      "preferredModeOfContact": "Mobile",
+      "vehicles": null,
+      "uniqueNo": "200 022 907 955",
+      "addressLabel": "1-35 Bardia Rd Carlingford NSW 2118 Australia",
+      "address": {
+        "addressLine1": "1-35",
+        "addressLine2": "Bardia Rd",
+        "city": "Carlingford",
+        "state": "NSW",
+        "country": "Australia",
+        "postCode": "2118"
+      },
+      "type": "2",
+      "primaryKey": "92455720-67b0-4f0c-a9ca-3caa13512a4b",
+      "primaryDisplay": "Jack Brown "  }
+}

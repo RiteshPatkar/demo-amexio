@@ -1,0 +1,36 @@
+{
+    "postpaidoffers": [
+        {
+            "plan": "TESurf50",
+            "amount": "P 50",
+            "data": "1 GB",
+            "includes": "Choice of access to Facebook, Viber, Snapchat, Spotify Basic, YouTube+",
+            "validity": "3 Days",
+            "select": false
+        },
+        {
+             "plan": "TESurf299",
+            "amount": "P 299",
+            "data": "1.5 GB",
+            "includes": "Data Rollover + Choice of access to Facebook, Viber, Snapchat, Spotify Basic, YouTube+",
+            "validity": "30 Days",
+            "select": true
+        },
+        {
+             "plan": "TESurf599",
+            "amount": "P 599",
+            "data": "4 GB",
+            "includes": "Data Rollover + Choice of access to Facebook, Viber, Snapchat, Spotify Basic, YouTube+",
+            "validity": "30 Days",
+            "select": false
+        },
+        {
+             "plan": "TESurf999",
+            "amount": "P 999",
+            "data": "8 GB",
+            "includes": "Data Rollover + Choice of access to Facebook, Viber, Snapchat, Spotify Basic, YouTube+",
+            "validity": "30 Days",
+            "select": false
+        }
+    ]
+}

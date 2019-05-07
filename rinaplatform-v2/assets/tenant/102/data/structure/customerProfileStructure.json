@@ -1,0 +1,40 @@
+{
+  "propertyStructure": [
+    {
+      "fieldLabel": "Customer ID",
+      "fieldValue": "customerId"
+    },
+    {
+      "fieldLabel": "Mobile #",
+      "fieldValue": "mobile"
+    },
+    {
+      "fieldLabel": "Name",
+      "fieldValue": "name"
+    },
+    {
+      "fieldLabel": "Company",
+      "fieldValue": "companyName"
+    },
+    {
+      "fieldLabel": "Emirates ID",
+      "fieldValue": "uaeId"
+    },
+    {
+      "fieldLabel": "Email",
+      "fieldValue": "email"
+    },
+    {
+      "fieldLabel": "Alt Number",
+      "fieldValue": "altNumber"
+    },
+    {
+      "fieldLabel": "Birthday",
+      "fieldValue": "birthday"
+    },
+    {
+      "fieldLabel": "Anniversary",
+      "fieldValue": "anniversary"
+    }
+  ]
+}

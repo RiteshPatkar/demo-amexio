@@ -1,0 +1,80 @@
+{
+  "tenantId": 104,
+  "type": "productdetailsstructure",
+  "metadata": {
+    "products": [
+      {
+        "productName": "telecom",
+        "productMapKey": "telecom",
+        "productDetailsMapKey": "vehicleuidetails",
+        "productTemplateId": "3",
+        "propertyStructure": [
+          {
+            "fieldLabel": "Customer ID #",
+            "fieldValue": "customerId"
+          },
+          {
+            "fieldLabel": "Tariff Plan",
+            "fieldValue": "tariffPlan"
+          },
+          {
+            "fieldLabel": "Activation Date",
+            "fieldValue": "activationDate"
+          },
+          {
+            "fieldLabel": "Contract",
+            "fieldValue": "contract"
+          },
+          {
+            "fieldLabel": "Handset",
+            "fieldValue": "handset"
+          },
+          {
+            "fieldLabel": "Unbilled Amount",
+            "fieldValue": "unbilledAmount"
+          },
+          {
+            "fieldLabel": "Last Payment Date",
+            "fieldValue": "lastPaymentDate"
+          },
+           {
+            "fieldLabel": "Outstanding Balance",
+            "fieldValue": "outstandingBalance"
+          },
+          {
+            "fieldLabel": "Bill Date",
+            "fieldValue": "billDate"
+          },
+           {
+            "fieldLabel": "Mobile App Registered",
+            "fieldValue": "mobileAppRegistered"
+          },
+          {
+            "fieldLabel": "eKYC",
+            "fieldValue": "eKYC"
+          },
+          {
+            "fieldLabel": "Self Service Registered",
+            "fieldValue": "selfServiceRegistered"
+          },
+          {
+            "fieldLabel": "Bill Type",
+            "fieldValue": "billType"
+          },
+           {
+            "fieldLabel": "Credit Monitoring Exposure",
+            "fieldValue": "creditMonitoringExposure"
+          },
+          {
+            "fieldLabel": "Next Bill Date",
+            "fieldValue": "nextBillDate"
+          },
+          {
+            "fieldLabel": "Open SRs",
+            "fieldValue": "openSRs"
+          }
+        ]
+      }
+    ]
+  }
+}

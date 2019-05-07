@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "successMessage": "Record found successfully",
+  "errorMessage": null,
+  "response": {
+    "customerId": "72795720-67b0-4f0c-a9ca-3caa1350462b",
+    "currentEnergyPlan": {
+      "plan": "Origin Saver ending 28 Feb 19",
+      "benefits": [
+        "Pay-On-Time Usage Discount (21%)",
+        "Life Support Rebate"
+      ]
+    },
+    "purposedEnergyPlan": [
+      {
+        "name": "Bill Saver",
+        "planId": "ORI685938MR",
+        "startDate": "March 31, 2019",
+        "endDate": "March 30, 2020 ",
+        "selected": false,
+        "electricityUsageCharges": "10% off our electricity usage charges",
+        "naturalGasUsageCharges": "10% off our natural gas usage charges",
+        "estimatedElectricityPrice": [
+          {
+            "noOfPerson": "1 person",
+            "energyConsumption": "Low 11 kWh /day",
+            "priceWithDiscount": "$1530 with discount",
+            "price": "$1530 per year"
+          },
+          {
+            "noOfPerson": "2 to 3 person",
+            "energyConsumption": "Medium 15.1 kWh /day",
+            "priceWithDiscount": "$1960 with discount",
+            "price": "$1960 per year"
+          },
+          {
+            "noOfPerson": "4 to 5+ person",
+            "energyConsumption": "High 19.7 kWh /day",
+            "priceWithDiscount": "$2440 with discount",
+            "price": "$2440 per year"
+          }
+        ],
+        "dailySupplyCharges": "66.99 cents/day",
+        "generalUsageRates": "2.13 to 3.95 cents/MJ",
+        "connectionFee": "$41.25"
+      },
+      {
+        "name": "Daily Saver",
+        "planId": "ORI595938MR",
+        "startDate": "March 31, 2019",
+        "endDate": "March 30, 2020 ",
+        "selected": false,
+        "electricityUsageCharges": "3% off our electricity usage charges",
+        "naturalGasUsageCharges": "5% off our electricity usage charges",
+        "estimatedElectricityPrice": null,
+        "dailySupplyCharges": null,
+        "generalUsageRates": null,
+        "connectionFee": null
+      }
+    ],
+    "primaryKey": "72795720-67b0-4f0c-a9ca-3caa1350462b",
+    "primaryDisplay": "72795720-67b0-4f0c-a9ca-3caa1350462b"
+  }
+}

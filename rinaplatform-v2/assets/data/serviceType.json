@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "message": "data retrieved successfully",
+  "data":[
+    {
+      "serviceType": "Deduction Query"
+    },
+    {
+      "serviceType": "Change in address"
+    },
+    {
+      "serviceType": "Product Query"
+    },
+    {
+      "serviceType": "Usage Query"
+    },
+    {
+      "serviceType": "General"
+    }
+  ]
+}

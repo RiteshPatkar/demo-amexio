@@ -1,0 +1,36 @@
+{
+  "tenantId": 104,
+  "type": "customerprofilestructure",
+  "metadata": {
+    "propertyStructure": [
+      {
+        "fieldLabel": "Mobile #",
+        "fieldValue": "mobile"
+      },
+      {
+        "fieldLabel": "Subscriber",
+        "fieldValue": "subscriber"
+      },
+      {
+        "fieldLabel": "Operating Status",
+        "fieldValue": "operatingStatus"
+      },
+       {
+        "fieldLabel": "Status",
+        "fieldValue": "status"
+      },
+      {
+        "fieldLabel": "Email",
+        "fieldValue": "email"
+      },
+         {
+        "fieldLabel": "Address",
+        "fieldValue": "addressLabel"
+      },
+      {
+        "fieldLabel": "Alt Number",
+        "fieldValue": "altNumber"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "successMessage": "data loaded successfully",
+  "successCode": "success",
+  "errorMessage": null,
+  "errorCode": null,
+  "errors": null,
+  "data": [
+    {
+      "plan": "299",
+      "offerdescription": "Based on your load and usage history, we recommend this plan",
+      "hookdata": "1.5GB",
+      "rebuttaldata": "This promo also includes 2 GB of extra entertainment (watch and play) ",
+      "entertainmentplandata": "If you don’t use this data within 30 days, it will automatically get added to your data capacity on your next data load"
+    },
+    {
+      "plan": "599",
+      "offerdescription": "If you are looking for the best data plan, we recommend this plan",
+      "hookdata": "4GB",
+      "rebuttaldata": "This promo also includes 2 GB of extra entertainment (watch and play) ",
+      "entertainmentplandata": "If you don’t use this data within 30 days, it will automatically get added to your data capacity on your next data load"
+    }
+  ]
+}
