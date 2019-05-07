@@ -43222,7 +43222,7 @@ var ProductsPanelComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\"  [body-height]=\"35\">\n  <amexio-body>\n    <div>\n      <amexio-button style=\"position: absolute;right:100px\" [label]=\"'Logout'\" [type]=\"'transparent'\"\n        [tooltip]=\"'Logout'\" [icon]=\"'fa fa-sign-out'\" (onClick)=\"logoutClick()\">\n      </amexio-button>\n      <ng-container *ngIf=\"uiLoadingCount > 0\">\n        <amexio-badge [absolute]=\"true\" [background]=\"'black'\" [color]=\"'white'\" [top]=\"'0px'\" [right]=\"'10px'\">\n          <amexio-label size=\"red\">Loading ui structure..</amexio-label>\n        </amexio-badge>\n      </ng-container>\n      <b style=\"position: absolute;right:100px; top:40px;\" >{{date | date : 'short'}}</b>\n    </div>\n    <amexio-row>\n      <amexio-column size=\"6\" style=\"padding-top:32%\">\n        <amexio-progress-ce [type]=\"'pie'\" [background-color]=\"'var(--componentHeaderBGColor)'\" [tooltip]=\"'completed'\"\n          [label-color]=\"'white'\" [progress-color]=\"'var(--componentHeaderBGColor)'\" [inactive-progress-color]=\"'var(--componentDisabledBGColor)'\" [show-label]=\"true\"\n          [show-unit]=\"true\" [progress-value]=\"63\">\n        </amexio-progress-ce>\n      </amexio-column>\n      <amexio-column size=\"6\" *ngIf=\"showguage\" style=\"padding-top:32%\">\n        <amexio-progress-ce [type]=\"'pie'\" [background-color]=\"'var(--componentHeaderBGColor)'\" [tooltip]=\"'completed'\"\n          [label-color]=\"'white'\" [progress-color]=\"'var(--componentHeaderBGColor)'\" [inactive-progress-color]=\"'var(--componentDisabledBGColor)'\" [show-label]=\"true\"\n          [show-unit]=\"true\" [progress-value]=\"20\">\n        </amexio-progress-ce>\n      </amexio-column>\n    </amexio-row>\n    <!-- <div style=\"display: inline-flex; justify-content: center; width:100%;\">\n        <amexio-darkmode></amexio-darkmode>\n    </div>         -->\n  </amexio-body>\n</amexio-card>\n\n<amexio-dialogue [show-dialogue]=\"confirmdialogue\" [title]=\"'Confirm'\" [message]=\"'Are you sure you want to logout?'\"\n  [message-type]=\"'confirm'\" [type]=\"'confirm'\" (actionStatus)=\"checkStatus($event)\"\n  (close)=\"confirmdialogue = !confirmdialogue\">\n</amexio-dialogue>"
+module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\"  [body-height]=\"35\">\n  <amexio-body>\n    <div>\n      <amexio-button style=\"position: absolute;right:100px\" [label]=\"'Logout'\" [type]=\"'transparent'\"\n        [tooltip]=\"'Logout'\" [icon]=\"'fa fa-sign-out'\" (onClick)=\"logoutClick()\">\n      </amexio-button>\n      <ng-container *ngIf=\"uiLoadingCount > 0\">\n        <amexio-badge [absolute]=\"true\" [background]=\"'black'\" [color]=\"'white'\" [top]=\"'0px'\" [right]=\"'10px'\">\n          <amexio-label size=\"red\">Loading ui structure..</amexio-label>\n        </amexio-badge>\n      </ng-container>\n      <b style=\"position: absolute;right:100px; top:40px;\" >{{date | date : 'short'}}</b>\n    </div>\n    <amexio-row>\n      <amexio-column size=\"6\" style=\"padding-top:32%\">\n        <amexio-progress-ce [type]=\"'pie'\" [background-color]=\"'var(--componentHeaderBGColor)'\" [tooltip]=\"'completed'\"\n          [label-color]=\"'white'\" [progress-color]=\"'var(--componentHeaderBGColor)'\" [inactive-progress-color]=\"'var(--componentDisabledBGColor)'\" [show-label]=\"true\"\n          [show-unit]=\"true\" [progress-value]=\"80\">\n        </amexio-progress-ce>\n      </amexio-column>\n      <amexio-column size=\"6\" *ngIf=\"showguage\" style=\"padding-top:32%\">\n        <amexio-progress-ce [type]=\"'pie'\" [background-color]=\"'var(--componentHeaderBGColor)'\" [tooltip]=\"'completed'\"\n          [label-color]=\"'white'\" [progress-color]=\"'var(--componentHeaderBGColor)'\" [inactive-progress-color]=\"'var(--componentDisabledBGColor)'\" [show-label]=\"true\"\n          [show-unit]=\"true\" [progress-value]=\"68\">\n        </amexio-progress-ce>\n      </amexio-column>\n    </amexio-row>\n    <!-- <div style=\"display: inline-flex; justify-content: center; width:100%;\">\n        <amexio-darkmode></amexio-darkmode>\n    </div>         -->\n  </amexio-body>\n</amexio-card>\n\n<amexio-dialogue [show-dialogue]=\"confirmdialogue\" [title]=\"'Confirm'\" [message]=\"'Are you sure you want to logout?'\"\n  [message-type]=\"'confirm'\" [type]=\"'confirm'\" (actionStatus)=\"checkStatus($event)\"\n  (close)=\"confirmdialogue = !confirmdialogue\">\n</amexio-dialogue>"
 
 /***/ }),
 
@@ -43241,6 +43241,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ngrx/store */ "./node_modules/@ngrx/store/fesm5/store.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var src_app_home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/home-layout/home-store/shell.action */ "./src/app/home-layout/home-store/shell.action.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -43258,11 +43259,13 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var TopRightComponent = /** @class */ (function () {
-    function TopRightComponent(store, _router) {
+    function TopRightComponent(store, _router, _httpClient) {
         var _this = this;
         this.store = store;
         this._router = _router;
+        this._httpClient = _httpClient;
         this.uiLoadingCount = [];
         this.confirmdialogue = false;
         this.showguage = false;
@@ -43299,15 +43302,29 @@ var TopRightComponent = /** @class */ (function () {
             this.store.dispatch(new src_app_home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_4__["AddCustomerRef"]({}));
             this.store.dispatch(new src_app_home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_4__["SearchInfo"]({}));
             this.store.dispatch(new src_app_home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_4__["SelectedProductInfo"]({}));
+            this.store.dispatch(new src_app_home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_4__["ErrorInfo"]({ errorMsg: '' }));
             this._router.navigate(['login']);
+            this.changeTheme();
         }
+    };
+    TopRightComponent.prototype.changeTheme = function () {
+        var response;
+        this._httpClient.get('assets/theme/theme.json').subscribe(function (res) {
+            response = res;
+        }, function (error) {
+            console.log(error);
+        }, function () {
+            response.theme.forEach(function (style) {
+                document.documentElement.style.setProperty(style.key, style.value);
+            });
+        });
     };
     TopRightComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'top-right',
             template: __webpack_require__(/*! ./top-right.component.html */ "./src/app/layout-components/top-right/top-right.component.html")
         }),
-        __metadata("design:paramtypes", [_ngrx_store__WEBPACK_IMPORTED_MODULE_2__["Store"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]])
+        __metadata("design:paramtypes", [_ngrx_store__WEBPACK_IMPORTED_MODULE_2__["Store"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"], _angular_common_http__WEBPACK_IMPORTED_MODULE_5__["HttpClient"]])
     ], TopRightComponent);
     return TopRightComponent;
 }());
