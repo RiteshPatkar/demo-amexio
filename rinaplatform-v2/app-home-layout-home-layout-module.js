@@ -41367,7 +41367,7 @@ var HomeComponent = /** @class */ (function () {
     }
     HomeComponent.prototype.setLayout = function () {
         this.gridcss = this.gridcss + "-" + new Date().getTime();
-        if (this.tenantId === 102) {
+        if (this.tenantId === 1002) {
             this.rinalayoutConfigDesktop1 = new amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_2__["GridConfig"](this.gridcss, amexio_ng_extensions__WEBPACK_IMPORTED_MODULE_2__["GridConstants"].Desktop)
                 .addlayout(["ringleftblock", "rinaproducts", "rinaproducts", "rinacustomerdemographics", "rinatenantbranding"])
                 .addlayout(["ringleftblock", "rinacentertablayout", "rinacentertablayout", "rinacentertablayout", "rinaworkflows"]);
@@ -41391,7 +41391,7 @@ var HomeComponent = /** @class */ (function () {
         }, 500);
     };
     HomeComponent.prototype.getDirection = function () {
-        if (this.tenantId === 102) {
+        if (this.tenantId === 1002) {
             return "left";
         }
         else {
@@ -41399,7 +41399,7 @@ var HomeComponent = /** @class */ (function () {
         }
     };
     HomeComponent.prototype.isHCEnabled = function () {
-        return (this.tenantId === 102 || this.tenantId === 104);
+        return (this.tenantId === 1002 || this.tenantId === 1004);
     };
     HomeComponent.prototype.calculateSize = function () {
         var _this = this;
@@ -42616,7 +42616,7 @@ var CenterRightComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\" [body-height]=\"35\">\n    <amexio-body>\n       <ng-template #dynamic></ng-template>\n    </amexio-body>\n </amexio-card>"
+module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\" [body-height]=\"33\">\n    <amexio-body>\n       <ng-template #dynamic></ng-template>\n    </amexio-body>\n </amexio-card>"
 
 /***/ }),
 
@@ -42711,7 +42711,7 @@ var CompanyLogoComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\"  [body-height]=\"35\">\n  <amexio-body>\n    <amexio-property-grid [key-value-data]=\"customerKeyValuedata\">\n    </amexio-property-grid>\n    <ng-container *ngIf=\"badge != null\" >\n      <amexio-badge [absolute]=\"true\" [background]=\"'red'\" [color]=\"'white'\" [bottom]=\"'0px'\" [right]=\"'0px'\">\n        <amexio-label size=\"medium-bold\">{{badge}}</amexio-label>\n      </amexio-badge>\n    </ng-container>\n  </amexio-body>\n</amexio-card>\n\n<amexio-window\n[(show)]=\"enableWindow\"\n[close-on-escape]=\"true\"\n[material-design]=\"true\"\n[width]=\"'70%'\">\n<amexio-header>\n  <b>{{'Open Service Requests' | uppercase}}</b>\n</amexio-header>\n<amexio-body>\n  <ng-template #custDynamic></ng-template>\n</amexio-body>\n</amexio-window>\n\n\n<amexio-dialogue [(show)]=\"errordialoguematerial\"\n               [close-on-escape]=\"true\"\n               [material-design]=\"true\"\n               [message]=\"errorMsg\"\n               [primary-action-label]=\"'Ok'\"\n               [title]=\"'Error'\"\n               [message-type]=\"'error'\"\n               [type]=\"'alert'\">\n</amexio-dialogue>\n"
+module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\"  [body-height]=\"33\">\n  <amexio-body>\n    <amexio-property-grid [key-value-data]=\"customerKeyValuedata\">\n    </amexio-property-grid>\n    <ng-container *ngIf=\"badge != null\" >\n      <amexio-badge [absolute]=\"true\" [background]=\"'red'\" [color]=\"'white'\" [bottom]=\"'0px'\" [right]=\"'0px'\">\n        <amexio-label size=\"medium-bold\">{{badge}}</amexio-label>\n      </amexio-badge>\n    </ng-container>\n  </amexio-body>\n</amexio-card>\n\n<amexio-window\n[(show)]=\"enableWindow\"\n[close-on-escape]=\"true\"\n[material-design]=\"true\"\n[width]=\"'70%'\">\n<amexio-header>\n  <b>{{'Open Service Requests' | uppercase}}</b>\n</amexio-header>\n<amexio-body>\n  <ng-template #custDynamic></ng-template>\n</amexio-body>\n</amexio-window>\n\n\n<amexio-dialogue [(show)]=\"errordialoguematerial\"\n               [close-on-escape]=\"true\"\n               [material-design]=\"true\"\n               [message]=\"errorMsg\"\n               [primary-action-label]=\"'Ok'\"\n               [title]=\"'Error'\"\n               [message-type]=\"'error'\"\n               [type]=\"'alert'\">\n</amexio-dialogue>\n"
 
 /***/ }),
 
@@ -42873,7 +42873,7 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<amexio-card [header]=\"false\" [footer]=\"false\"  [body-height]=\"35\">\n  <amexio-body>\n      <label *ngIf=\"product.productTemplateId == '1' && product.propertyStructure.length > 0\" [ngClass]=\"{'disabled-Style': product.disabled}\"\n      for=\"{{product.productName}}\" class=\"input-box-container\" style=\"padding-bottom:0px !important;\">\n      <b>{{product.productName}}</b>\n      <input *ngIf=\"product.propertyStructure && product.propertyStructure.length >= 0\"\n        [attr.disabled]=\"product.disabled ? true: null\" (click)=\"selectProduct(product)\" style=\"top:0; left:0\"\n        id=\"{{product.productName}}\" type=\"radio\" name=\"selectTitle\" [value]=\"product.selected\"\n        [checked]=\"product.selected ? true : null\">\n\n      <span class=\"input-box-radiobox-label\"></span>\n    </label>\n    <label *ngIf=\"product.propertyStructure && product.propertyStructure.length <= 0\"><b\n        style=\"display: block\">{{product.productName}}</b> Account Not Found.\n    </label>\n    <amexio-property-grid (onValueClick)=\"onProductValueClicked($event)\" [key-value-data]=\"product.propertyStructure\">\n    </amexio-property-grid>\n  </amexio-body>\n</amexio-card>\n"
+module.exports = "\n<amexio-card [header]=\"false\" [footer]=\"false\"  [body-height]=\"33\">\n  <amexio-body>\n      <label *ngIf=\"product.productTemplateId == '1' && product.propertyStructure.length > 0\" [ngClass]=\"{'disabled-Style': product.disabled}\"\n      for=\"{{product.productName}}\" class=\"input-box-container\" style=\"padding-bottom:0px !important;\">\n      <b>{{product.productName}}</b>\n      <input *ngIf=\"product.propertyStructure && product.propertyStructure.length >= 0\"\n        [attr.disabled]=\"product.disabled ? true: null\" (click)=\"selectProduct(product)\" style=\"top:0; left:0\"\n        id=\"{{product.productName}}\" type=\"radio\" name=\"selectTitle\" [value]=\"product.selected\"\n        [checked]=\"product.selected ? true : null\">\n\n      <span class=\"input-box-radiobox-label\"></span>\n    </label>\n    <label *ngIf=\"product.propertyStructure && product.propertyStructure.length <= 0\"><b\n        style=\"display: block\">{{product.productName}}</b> Account Not Found.\n    </label>\n    <amexio-property-grid (onValueClick)=\"onProductValueClicked($event)\" [key-value-data]=\"product.propertyStructure\">\n    </amexio-property-grid>\n  </amexio-body>\n</amexio-card>\n"
 
 /***/ }),
 
@@ -43236,7 +43236,7 @@ var ProductsPanelComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\" [body-height]=\"35\">\n  <amexio-body>\n    <div>\n      <amexio-button style=\"position: absolute;right:100px\" [label]=\"'Logout'\" [type]=\"'transparent'\"\n        [tooltip]=\"'Logout'\" [icon]=\"'fa fa-sign-out'\" (onClick)=\"logoutClick()\">\n      </amexio-button>\n      <ng-container *ngIf=\"uiLoadingCount > 0\">\n        <amexio-badge [absolute]=\"true\" [background]=\"'black'\" [color]=\"'white'\" [top]=\"'0px'\" [right]=\"'10px'\">\n          <amexio-label size=\"red\">Loading ui structure..</amexio-label>\n        </amexio-badge>\n      </ng-container>\n      <b style=\"position: absolute;right:100px; top:40px;\" >{{date | date : 'short'}}</b>\n    </div>\n    <amexio-row>\n      <amexio-column size=\"6\" style=\"padding-top:32%\">\n        <amexio-progress-ce [type]=\"'pie'\" [background-color]=\"'var(--componentHeaderBGColor)'\" [tooltip]=\"'completed'\"\n          [label-color]=\"'white'\" [progress-color]=\"'var(--componentHeaderBGColor)'\" [inactive-progress-color]=\"'var(--componentDisabledBGColor)'\" [show-label]=\"true\"\n          [show-unit]=\"true\" [progress-value]=\"80\">\n        </amexio-progress-ce>\n      </amexio-column>\n      <amexio-column size=\"6\" *ngIf=\"showguage\" style=\"padding-top:32%\">\n        <amexio-progress-ce [type]=\"'pie'\" [background-color]=\"'var(--componentHeaderBGColor)'\" [tooltip]=\"'completed'\"\n          [label-color]=\"'white'\" [progress-color]=\"'var(--componentHeaderBGColor)'\" [inactive-progress-color]=\"'var(--componentDisabledBGColor)'\" [show-label]=\"true\"\n          [show-unit]=\"true\" [progress-value]=\"68\">\n        </amexio-progress-ce>\n      </amexio-column>\n    </amexio-row>\n    <amexio-row>\n      <amexio-column size=\"12\">\n          <div style=\"display: inline-flex; justify-content: center; width:100%;\">\n              <i style=\"margin: 10px\" class=\"fa fa-sun-o\"></i>  \n              <amexio-darkmode [size]=\"'small'\" [type]=\"2\"></amexio-darkmode>\n              <i style=\"margin: 10px\" class=\"fa fa-moon-o\"></i>  \n            </div>                \n      </amexio-column>\n    </amexio-row>\n  </amexio-body>\n</amexio-card>\n\n<amexio-dialogue [show-dialogue]=\"confirmdialogue\" [title]=\"'Confirm'\" [message]=\"'Are you sure you want to logout?'\"\n  [message-type]=\"'confirm'\" [type]=\"'confirm'\" (actionStatus)=\"checkStatus($event)\"\n  (close)=\"confirmdialogue = !confirmdialogue\">\n</amexio-dialogue>"
+module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\" [body-height]=\"33\">\n  <amexio-body>\n    <div>\n      <amexio-button style=\"position: absolute;right:100px\" [label]=\"'Logout'\" [type]=\"'transparent'\"\n        [tooltip]=\"'Logout'\" [icon]=\"'fa fa-sign-out'\" (onClick)=\"logoutClick()\">\n      </amexio-button>\n      <ng-container *ngIf=\"uiLoadingCount > 0\">\n        <amexio-badge [absolute]=\"true\" [background]=\"'black'\" [color]=\"'white'\" [top]=\"'0px'\" [right]=\"'10px'\">\n          <amexio-label size=\"red\">Loading ui structure..</amexio-label>\n        </amexio-badge>\n      </ng-container>\n      <b style=\"position: absolute;right:100px; top:40px;\" >{{date | date : 'short'}}</b>\n    </div>\n    <amexio-row>\n      <amexio-column size=\"6\" style=\"padding-top:32%\">\n        <amexio-progress-ce [type]=\"'pie'\" [background-color]=\"'var(--componentHeaderBGColor)'\" [tooltip]=\"'completed'\"\n          [label-color]=\"'white'\" [progress-color]=\"'var(--componentHeaderBGColor)'\" [inactive-progress-color]=\"'var(--componentDisabledBGColor)'\" [show-label]=\"true\"\n          [show-unit]=\"true\" [progress-value]=\"80\">\n        </amexio-progress-ce>\n      </amexio-column>\n      <amexio-column size=\"6\" *ngIf=\"showguage\" style=\"padding-top:32%\">\n        <amexio-progress-ce [type]=\"'pie'\" [background-color]=\"'var(--componentHeaderBGColor)'\" [tooltip]=\"'completed'\"\n          [label-color]=\"'white'\" [progress-color]=\"'var(--componentHeaderBGColor)'\" [inactive-progress-color]=\"'var(--componentDisabledBGColor)'\" [show-label]=\"true\"\n          [show-unit]=\"true\" [progress-value]=\"68\">\n        </amexio-progress-ce>\n      </amexio-column>\n    </amexio-row>\n    <amexio-row>\n      <amexio-column size=\"12\">\n          <div style=\"display: inline-flex; justify-content: center; width:100%;\">\n              <i style=\"margin: 10px\" class=\"fa fa-sun-o\"></i>  \n              <amexio-darkmode [size]=\"'small'\" [type]=\"2\"></amexio-darkmode>\n              <i style=\"margin: 10px\" class=\"fa fa-moon-o\"></i>  \n            </div>                \n      </amexio-column>\n    </amexio-row>\n  </amexio-body>\n</amexio-card>\n\n<amexio-dialogue [show-dialogue]=\"confirmdialogue\" [title]=\"'Confirm'\" [message]=\"'Are you sure you want to logout?'\"\n  [message-type]=\"'confirm'\" [type]=\"'confirm'\" (actionStatus)=\"checkStatus($event)\"\n  (close)=\"confirmdialogue = !confirmdialogue\">\n</amexio-dialogue>"
 
 /***/ }),
 

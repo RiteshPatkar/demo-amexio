@@ -33206,7 +33206,6 @@ var rxjs_6 = rxjs.BehaviorSubject;
  */
 var AmexioHeaderComponent = /** @class */ (function () {
     function AmexioHeaderComponent() {
-        this.className = 'modal-window-header';
         this.jstyfy = 'space-between';
         this.background = '';
         this.color = '';
@@ -33216,6 +33215,22 @@ var AmexioHeaderComponent = /** @class */ (function () {
         this.closeableBehaiour = new rxjs_6(false);
         this.maximizeBehaiour = new rxjs_6(false);
     }
+    Object.defineProperty(AmexioHeaderComponent.prototype, "c1", {
+        get: /**
+         * @return {?}
+         */
+        function () { return this.aComponent; },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(AmexioHeaderComponent.prototype, "c2", {
+        get: /**
+         * @return {?}
+         */
+        function () { return this.aComponent1; },
+        enumerable: true,
+        configurable: true
+    });
     /**
      * @return {?}
      */
@@ -33283,7 +33298,8 @@ var AmexioHeaderComponent = /** @class */ (function () {
     /** @nocollapse */
     AmexioHeaderComponent.ctorParameters = function () { return []; };
     AmexioHeaderComponent.propDecorators = {
-        className: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['attr.class',] }],
+        c1: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['class.modal-card-header',] }],
+        c2: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['class.modal-window-header',] }],
         jstyfy: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.justify-content',] }],
         background: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.background',] }],
         color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"], args: ['style.color',] }],
@@ -39617,6 +39633,7 @@ var AmexioWindowPaneComponent = /** @class */ (function () {
         }
         if (this.amexioHeader && this.header) {
             this.amexioHeader.toArray()[0].closeable = this.closable;
+            this.amexioHeader.toArray()[0].aComponent1 = 'window';
             if (this.maximize) {
                 this.amexioHeader.toArray()[0].setMaximizeData(this.maximize, this.isFullWindow);
                 this.amexioHeader.toArray()[0].maximizeBehaiour.subscribe(function (max) {
@@ -52209,6 +52226,7 @@ var AmexioCardComponent = /** @class */ (function (_super) {
         // FOR HEADER PADING
         this.headerComponentList = this.amexioHeader.toArray();
         this.headerComponentList.forEach(function (item, currentIndex) {
+            item.aComponent = 'card';
             if (item.padding) {
                 _this.headerPadding = item.padding;
             }
@@ -52376,7 +52394,7 @@ var AmexioCardComponent = /** @class */ (function (_super) {
     AmexioCardComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-card',
-                    template: "\n    <div #id class=\"card-container\" *ngIf=\"show\" (window:resize)=\"onResize()\" (contextmenu)=\"loadContextMenu({event:$event,ref:id})\">\n        <header #cardHeader [ngClass]=\"themeCss\" [style.padding]=\"headerPadding\" class=\"card-header\" *ngIf=\"header\"\n         [ngClass]=\"{'flex-start':(headeralign=='left'),'flex-end':(headeralign=='right'),'flex-center':(headeralign=='center')}\">\n            <ng-content select=\"amexio-header\"></ng-content>\n        </header>\n        <div class=\"card-body cardbody\" [style.padding]=\"bodyPadding\"\n         [ngStyle]=\"{'height.px' : height,'overflow-y' : height!= null ? 'auto' : '','min-height.px' : minHeight}\">\n            <ng-content select=\"amexio-body\"></ng-content>\n        </div>\n        <footer #cardFooter [style.padding]=\"footerPadding\" class=\"card-footer\" *ngIf=\"footer\"\n         [ngClass]=\"{'flex-start':(footeralign=='left'),'flex-end':(footeralign=='right'),'flex-center':(footeralign=='center')}\">\n            <ng-content select=\"amexio-action\"></ng-content>\n        </footer>\n    </div>\n\n    <ng-container *ngIf=\"flag\">\n        <base-contextmenu \n        [base-context-menu]=\"contextmenu\" \n        [mouse-location-top]=\"mouseLocation.top\"\n        [mouse-location-left]=\"mouseLocation.left\" \n        [is-FlagShow]=\"flag\" \n        [right-click-data]=\"nodeRightClick\"\n        (onRightClick) =\"rightClickDataEmit($event)\"\n        [position-up]=\"posixUp\">\n        </base-contextmenu>\n    </ng-container>\n  ",
+                    template: "\n    <div #id class=\"card-container\" *ngIf=\"show\" (window:resize)=\"onResize()\" (contextmenu)=\"loadContextMenu({event:$event,ref:id})\">\n        <header #cardHeader [ngClass]=\"themeCss\" [style.padding]=\"headerPadding\" class=\"card-header\" *ngIf=\"header\"\n         [ngClass]=\"{'flex-start':(headeralign=='left'),'flex-end':(headeralign=='right'),'flex-center':(headeralign=='center')}\">\n            <ng-content style=\"background: yellow\" select=\"amexio-header\"></ng-content>\n        </header>\n        <div class=\"card-body cardbody\" [style.padding]=\"bodyPadding\"\n         [ngStyle]=\"{'height.px' : height,'overflow-y' : height!= null ? 'auto' : '','min-height.px' : minHeight}\">\n            <ng-content select=\"amexio-body\"></ng-content>\n        </div>\n        <footer #cardFooter [style.padding]=\"footerPadding\" class=\"card-footer\" *ngIf=\"footer\"\n         [ngClass]=\"{'flex-start':(footeralign=='left'),'flex-end':(footeralign=='right'),'flex-center':(footeralign=='center')}\">\n            <ng-content select=\"amexio-action\"></ng-content>\n        </footer>\n    </div>\n\n    <ng-container *ngIf=\"flag\">\n        <base-contextmenu \n        [base-context-menu]=\"contextmenu\" \n        [mouse-location-top]=\"mouseLocation.top\"\n        [mouse-location-left]=\"mouseLocation.left\" \n        [is-FlagShow]=\"flag\" \n        [right-click-data]=\"nodeRightClick\"\n        (onRightClick) =\"rightClickDataEmit($event)\"\n        [position-up]=\"posixUp\">\n        </base-contextmenu>\n    </ng-container>\n  ",
                 },] },
     ];
     /** @nocollapse */
@@ -65194,6 +65212,7 @@ var ColorPaletteDirective = /** @class */ (function () {
      * @return {?}
      */
     function () {
+        var _this = this;
         this.themejson = [
             {
                 themeName: 'amexio-theme-color1',
@@ -65248,10 +65267,14 @@ var ColorPaletteDirective = /** @class */ (function () {
             this.hostComponent.setColorPalette(this.colorPalette + '-Gradient');
         }
         if (this.colorPalette === 'vibrant' && !this.gradient) {
-            this.getBGColorStyles(this.hostComponent);
+            setTimeout(function () {
+                _this.getBGColorStyles(_this.hostComponent);
+            }, 1000);
         }
         else if (this.colorPalette === 'vibrant' && this.gradient) {
-            this.getGradientStyles(this.hostComponent);
+            setTimeout(function () {
+                _this.getGradientStyles(_this.hostComponent);
+            }, 1000);
         }
         if (this.colorPalette === 'random') {
             this.randomThemeCall();

@@ -12,7 +12,9 @@
  left:0;
  position: fixed;
 }
-
+.amexio-root-window{
+    z-index:1000 !important;
+}
 .alfahim-root-window > div{
  display: flex; flex-direction: row; justify-content: center;
 }
