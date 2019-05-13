@@ -3,7 +3,10 @@
 .input-box-checkbox-label{
   background-color: var(--componentBGColor);
 }
-
+.card-container{
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 10px 0 rgba(0, 0, 0, 0.10);
+}
+/* 
 .card-container{
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 10px 0 rgba(0, 0, 0, 0.10);
 }
@@ -39,14 +42,82 @@ customer-demo-graphic .field-name-align{
 amexio-grid-item {
   padding: 0px !important; 
   position: relative; 
+} */
+
+amexio-grid-item {
+  padding: 2px !important; 
+  position: relative; 
+}
+.griditemcontainer-body{
+  height: 100%;
+}
+
+customer-demo-graphic{
+  display: block;
+  height: 100%;
+  padding-bottom: 2px;
+}
+
+company-logo{
+  display: block;
+  height: 100%;
+  padding-bottom: 2px;
+  
+}
+
+company-logo > amexio-card > div > div{
+  overflow-y: hidden !important;
 }
 
 
-.top-right{
-  position: absolute; 
-  top:10px; 
-  right:15px; 
-  cursor: pointer;
+center-left > amexio-card > div > .card-body{
+  padding: 0px !important;
+}
+
+
+center-middle > amexio-card > div > .card-body{
+  padding: 0px !important;
+}
+
+center-right > amexio-card > div > .card-body{
+  padding: 0px !important;
+}
+
+company-logo .floatingbutton-circle{
+  padding: 15px;
+}
+
+customer-demo-graphic .card-body{
+  padding: 0px !important;
+  padding-left: 5px !important;
+}
+
+customer-demo-graphic .field-name-align{
+  padding: 0px;
+  vertical-align: top;
+  word-break: break-word;
+}
+ 
+
+products-panel{
+  display: block;
+  height: 100%;
+  padding-bottom: 2px;
+}
+
+top-right{
+  display: block;
+  padding-bottom: 2px;
+}
+
+center-right{
+  display: block;
+  padding-top: 2px;
+}
+
+
+center-right > amexio-card > div > .card-body{
+  padding: 0px !important;
 }
 
 .circularProgress {
@@ -84,7 +155,6 @@ amexio-grid-item {
 .productspanel{
   display: flex; 
   flex-flow: row nowrap; 
-  width: 99.50%; 
   position: relative;
   height: 100%;
 }
