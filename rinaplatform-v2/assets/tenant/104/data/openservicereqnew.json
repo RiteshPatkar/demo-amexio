@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "successMessage": "Record found successfully",
+  "errorMessage": null,
+    "data": {
+      "serviceStatus": "Outgoing calling barred",
+      "reason":"Bill not paid",
+      "outstandingBalance": "P1568.90",
+      "eligibity": "Eligible for P2P (Promise to Pay) for 1 week for P392.2",
+      "percentage": "(25% of total outstanding)",
+      "action": "Verify Customer Address",
+      "address": "101 Dela Rosa Street, Legazpi Village, Makati"
+    }
+  
+}
+
+
+                
