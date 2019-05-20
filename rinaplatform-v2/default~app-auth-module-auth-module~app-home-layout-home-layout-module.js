@@ -6336,7 +6336,7 @@ var ReactiveFormsModule = /** @class */ (function () {
 /*!***********************************************************************!*\
   !*** ./node_modules/amexio-ng-extensions/amexio-ng-extensions.es5.js ***!
   \***********************************************************************/
-/*! exports provided: AmexioWidgetModule, CommonDataService, DeviceQueryService, IconLoaderService, Icon, AmexioCreditCardModel, GridConfig, GridConstants, GoogleMapOverlays, AvailableSlotsModel, DayModel, TimeModel, TimeUtil, PropertyGridModel, AmexioFormsModule, LoadRecaptchaService, COMPONENT_CLASS_MAP, AmexioButtonComponent, AmexioButtonGroupComponent, ScriptLoadService, AmexioNavModule, AmexioSideNavComponent, SideNavNodeComponent, AmexioNavBarComponent, KEY_CODE_notify, AmexioNotificationComponent, AmexioLayoutModule, AmexioAccordionHeaderComponent, AmexioAccordionTabComponent, AmexioAccordionComponent, AccordionService, AmexioBorderLayoutItemComponent, AmexioBorderLayoutComponent, AmexioBoxComponent, AmexioCardComponent, AmexioColumnComponent, AmexioGridComponent, AmexioGridItemComponent, AmexioRowComponent, AmexioGridLayoutService, AmexioDataModule, GoogleMapScriptService, AmexioListBoxComponent, AmexioTreeViewComponent, AmexioPaginatorComponent, TreeDataTableComponent, AmexioGoogleMapComponent, AmexioDashBoardModule, DashboardLoaderService, DashBoardTitleComponent, DataPointCenterComponent, DataPointsComponent, DataPointEastComponent, DataPointNorthComponent, DataPointSouthComponent, DataPointWestComponent, GaugeChartComponent, AmexioChartsModule, AreaChartComponent, BarChartComponent, BubbleChartComponent, CandlestickChartComponent, CandlestickWaterfallChartComponent, ChartAreaComponent, ChartLegendComponent, ChartTitleComponent, ColumnChartComponent, ComboChartComponent, DonutChartComponent, GanttChartComponent, HistogramChartComponent, HorizontalAxisComponent, LineChartComponent, PieChartComponent, ScatterChartComponent, TimeLineChartComponent, VerticalAxisComponent, ChartLoaderService, AmexioMapModule, MapPropertiesComponent, GeoChartComponent, TreeMapComponent, MapTitleComponent, MapLoaderService, AmexioPaneModule, AmexioFooterComponent, AmexioBodyComponent, AmexioCarouselComponent, AmexioTemplateDirective, AmexioTemplateWrapperDirective, AmexiodialoguePaneComponent, AmexioFieldSetComponent, AmexioFormActionComponent, AmexioFormBodyComponent, AmexioFormComponent, AmexioFormHeaderComponent, AmexioHeaderComponent, AmexioPanelHeaderComponent, AmexioStepsComponent, StepBlockComponent, AmexioRightVerticalTabComponent, AmexioTabActionComponent, TOP_COMPONENT_CLASS_MAP, BOTTOM_COMPONENT_CLASS_MAP, AmexioTabComponent, AmexioTabPillComponent, AmexioVerticalTabComponent, AmexiotimelineComponent, AmexiotimelineeventComponent, AmexioWindowPaneComponent, AmexioWindowHeaderComponent, OverlayContainerComponent, AmexioFormGroupDirective, AmexioEnterpriseModule, MultiMediaCarouselComponent, ContentComponent, AmexioYoutubePlayerComponent, AmexioWeekDayAvailiblityComponent, AmexioCalendarComponent, AmexioCalendarDayTimeWiseComponent, AmexioCalendarMonthComponent, AmexioCalendarYearComponent, AmexioMediaModule, AmexioVideoPlayerComponent, DisplayFieldService, ɵec, ɵed, ɵc, ɵb, ɵa, ɵs, ɵbc, ɵg, ɵd, ɵe, ɵp, ɵt, ɵh, ɵr, ɵbl, ɵl, ɵdi, ɵdl, ɵea, ɵdj, ɵdk, ɵdm, ɵdo, ɵdn, ɵdp, ɵdt, ɵdq, ɵdr, ɵds, ɵeb, ɵdv, ɵdy, ɵdz, ɵdx, ɵdw, ɵdu, ɵcz, ɵcx, ɵcy, ɵda, ɵdh, ɵdc, ɵdd, ɵdb, ɵdg, ɵde, ɵdf, ɵee, ɵef, ɵeg, ɵbw, ɵbv, ɵch, ɵbb, ɵbd, ɵbe, ɵbg, ɵbf, ɵm, ɵca, ɵcb, ɵbz, ɵci, ɵbk, ɵbr, ɵbq, ɵo, ɵv, ɵbm, ɵbo, ɵbp, ɵn, ɵbn, ɵck, ɵw, ɵx, ɵu, ɵcj, ɵba, ɵbx, ɵbh, ɵbi, ɵcf, ɵcc, ɵce, ɵcd, ɵcg, ɵby, ɵbj, ɵy, ɵk, ɵz, ɵbs, ɵbu, ɵbt, ɵq, ɵi, ɵj, ɵcl, ɵcu, ɵcr, ɵcs, ɵct, ɵcq, ɵco, ɵcm, ɵcn, ɵcp, ɵcv, ɵcw, ɵf */
+/*! exports provided: AmexioWidgetModule, CommonDataService, DeviceQueryService, IconLoaderService, Icon, AmexioCreditCardModel, GridConfig, GridConstants, GoogleMapOverlays, AvailableSlotsModel, DayModel, TimeModel, TimeUtil, PropertyGridModel, AmexioFormsModule, LoadRecaptchaService, COMPONENT_CLASS_MAP, AmexioButtonComponent, AmexioButtonGroupComponent, ScriptLoadService, AmexioNavModule, AmexioSideNavComponent, SideNavNodeComponent, AmexioNavBarComponent, KEY_CODE_notify, AmexioNotificationComponent, AmexioLayoutModule, AmexioAccordionHeaderComponent, AmexioAccordionTabComponent, AmexioAccordionComponent, AccordionService, AmexioBorderLayoutItemComponent, AmexioBorderLayoutComponent, AmexioBoxComponent, AmexioCardComponent, AmexioColumnComponent, AmexioGridComponent, AmexioGridItemComponent, AmexioRowComponent, AmexioGridLayoutService, AmexioDataModule, GoogleMapScriptService, AmexioListBoxComponent, AmexioTreeViewComponent, AmexioPaginatorComponent, TreeDataTableComponent, AmexioGoogleMapComponent, AmexioDashBoardModule, DashboardLoaderService, DashBoardTitleComponent, DataPointCenterComponent, DataPointsComponent, DataPointEastComponent, DataPointNorthComponent, DataPointSouthComponent, DataPointWestComponent, GaugeChartComponent, AmexioChartsModule, AreaChartComponent, BarChartComponent, BubbleChartComponent, CandlestickChartComponent, CandlestickWaterfallChartComponent, ChartAreaComponent, ChartLegendComponent, ChartTitleComponent, ColumnChartComponent, ComboChartComponent, DonutChartComponent, GanttChartComponent, HistogramChartComponent, HorizontalAxisComponent, LineChartComponent, PieChartComponent, ScatterChartComponent, TimeLineChartComponent, VerticalAxisComponent, ChartLoaderService, AmexioMapModule, MapPropertiesComponent, GeoChartComponent, TreeMapComponent, MapTitleComponent, MapLoaderService, AmexioPaneModule, AmexioFooterComponent, AmexioBodyComponent, AmexioCarouselComponent, AmexioTemplateDirective, AmexioTemplateWrapperDirective, AmexiodialoguePaneComponent, AmexioFieldSetComponent, AmexioFormActionComponent, AmexioFormBodyComponent, AmexioFormComponent, AmexioFormHeaderComponent, AmexioHeaderComponent, AmexioPanelHeaderComponent, AmexioStepsComponent, StepBlockComponent, AmexioRightVerticalTabComponent, AmexioTabActionComponent, TOP_COMPONENT_CLASS_MAP, BOTTOM_COMPONENT_CLASS_MAP, AmexioTabComponent, AmexioTabPillComponent, AmexioVerticalTabComponent, AmexiotimelineComponent, AmexiotimelineeventComponent, AmexioWindowPaneComponent, AmexioWindowHeaderComponent, OverlayContainerComponent, AmexioFormGroupDirective, AmexioEnterpriseModule, MultiMediaCarouselComponent, ContentComponent, AmexioYoutubePlayerComponent, AmexioWeekDayAvailiblityComponent, AmexioCalendarComponent, AmexioCalendarDayTimeWiseComponent, AmexioCalendarMonthComponent, AmexioCalendarYearComponent, AmexioMediaModule, AmexioVideoPlayerComponent, DisplayFieldService, ɵee, ɵef, ɵc, ɵb, ɵa, ɵs, ɵbc, ɵg, ɵd, ɵe, ɵp, ɵt, ɵh, ɵr, ɵbl, ɵl, ɵdk, ɵdn, ɵec, ɵdl, ɵdm, ɵdo, ɵdq, ɵdp, ɵdr, ɵdv, ɵds, ɵdt, ɵdu, ɵed, ɵdx, ɵea, ɵeb, ɵdz, ɵdy, ɵdw, ɵdb, ɵcz, ɵda, ɵdc, ɵdj, ɵde, ɵdf, ɵdd, ɵdi, ɵdg, ɵdh, ɵeg, ɵeh, ɵei, ɵbw, ɵbv, ɵch, ɵbb, ɵbd, ɵbe, ɵbg, ɵbf, ɵm, ɵca, ɵcb, ɵbz, ɵci, ɵbk, ɵbr, ɵbq, ɵo, ɵv, ɵbm, ɵbo, ɵbp, ɵn, ɵbn, ɵck, ɵw, ɵx, ɵu, ɵcj, ɵba, ɵbx, ɵbh, ɵbi, ɵcf, ɵcc, ɵce, ɵcd, ɵcg, ɵby, ɵbj, ɵy, ɵk, ɵz, ɵbs, ɵbu, ɵbt, ɵq, ɵi, ɵj, ɵcl, ɵcu, ɵcr, ɵcs, ɵct, ɵcq, ɵco, ɵcm, ɵcn, ɵcp, ɵcv, ɵcw, ɵcx, ɵcy, ɵf */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6466,8 +6466,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AmexioMediaModule", function() { return AmexioMediaModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AmexioVideoPlayerComponent", function() { return AmexioVideoPlayerComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DisplayFieldService", function() { return DisplayFieldService; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵec", function() { return AmexioRuntimeModule; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵed", function() { return AmexioRuntimeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵee", function() { return AmexioRuntimeModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵef", function() { return AmexioRuntimeComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵc", function() { return AmexioCommonModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵb", function() { return AmexioContextMenuComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return AmexioBaseContextMenuModule; });
@@ -6482,40 +6482,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵr", function() { return ListBaseComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbl", function() { return ListBaseDatepickerComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵl", function() { return ValueAccessorBase; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdi", function() { return AmexioCreativeModule; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdl", function() { return AmexioCardCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵea", function() { return AmexioCarouselCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdj", function() { return AmexioCardCEActionComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdk", function() { return AmexioCardCEBodyComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdm", function() { return AmexioCardCEHeaderComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdo", function() { return AmexioFormCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdn", function() { return AmexioFormActionCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdp", function() { return AmexioHomePageCenterPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdt", function() { return AmexioHomePageComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdq", function() { return AmexioHomePageEastPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdr", function() { return AmexioHomePageNorthPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵds", function() { return AmexioHomePageWestPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeb", function() { return AmexioMenuCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdv", function() { return AmexioProgressCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdy", function() { return ViewportBackgroundComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdz", function() { return ViewportContentBodyComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdx", function() { return ViewportContentComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdw", function() { return ViewportComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdu", function() { return AmexioWindowCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcz", function() { return AmexioGridColumnComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcx", function() { return AmexioDatagridComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcy", function() { return DataGridFilterComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵda", function() { return AmexioDataGridHeaderComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdh", function() { return AmexioItemSelectorComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdc", function() { return AmexioProgressMultiBarComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdd", function() { return AmexioProgressBarComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdb", function() { return PropertyGridComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdg", function() { return AmexioFilterTreeComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵde", function() { return HorizontalTreeViewNodeComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdf", function() { return HorizontalTreeViewComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵee", function() { return ColorPaletteDirective; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵef", function() { return StepWizardComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeg", function() { return StepWizardItemComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdk", function() { return AmexioCreativeModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdn", function() { return AmexioCardCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵec", function() { return AmexioCarouselCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdl", function() { return AmexioCardCEActionComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdm", function() { return AmexioCardCEBodyComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdo", function() { return AmexioCardCEHeaderComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdq", function() { return AmexioFormCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdp", function() { return AmexioFormActionCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdr", function() { return AmexioHomePageCenterPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdv", function() { return AmexioHomePageComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵds", function() { return AmexioHomePageEastPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdt", function() { return AmexioHomePageNorthPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdu", function() { return AmexioHomePageWestPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵed", function() { return AmexioMenuCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdx", function() { return AmexioProgressCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵea", function() { return ViewportBackgroundComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeb", function() { return ViewportContentBodyComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdz", function() { return ViewportContentComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdy", function() { return ViewportComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdw", function() { return AmexioWindowCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdb", function() { return AmexioGridColumnComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcz", function() { return AmexioDatagridComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵda", function() { return DataGridFilterComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdc", function() { return AmexioDataGridHeaderComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdj", function() { return AmexioItemSelectorComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵde", function() { return AmexioProgressMultiBarComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdf", function() { return AmexioProgressBarComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdd", function() { return PropertyGridComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdi", function() { return AmexioFilterTreeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdg", function() { return HorizontalTreeViewNodeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdh", function() { return HorizontalTreeViewComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeg", function() { return ColorPaletteDirective; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeh", function() { return StepWizardComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵei", function() { return StepWizardItemComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbw", function() { return AmexioSearchAdvanceComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbv", function() { return SearchboxtoolComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵch", function() { return AmexioBadgeComponent; });
@@ -6576,6 +6576,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcp", function() { return AmexioNavTextFieldComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcv", function() { return AmexioSideNavInnerNodeComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcw", function() { return AmexioPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcx", function() { return PanelItemComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcy", function() { return SlidingPanelComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵf", function() { return FilterPipe; });
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
@@ -21823,7 +21825,7 @@ var AmexioNavItemComponent = /** @class */ (function () {
      * @return {?}
      */
     function () {
-        if (this.type === 'link' || this.type === 'button' || this.type === 'toggle') {
+        if (this.type === 'link' || this.type === 'button' || this.type === 'toggle' || this.type === 'slider') {
             this.isAction = true;
         }
         else if (this.type === 'textfield') {
@@ -22323,6 +22325,7 @@ var AmexioNavBarComponent = /** @class */ (function () {
         this.lhsWidth = '5%';
         this.isExpand = false;
         this.isPhone = false;
+        this.navItemPresent = false;
         if (this.matchMediaService.IsTablet() || this.matchMediaService.IsPhone()) {
             this.mobilemode = true;
             this.isPhone = true;
@@ -22360,9 +22363,12 @@ var AmexioNavBarComponent = /** @class */ (function () {
     function () {
         var _this = this;
         this.navItemComponents = this.navitems.toArray();
-        this.navItemComponents.forEach(function (element) {
-            element.itemcolor = _this.color;
-        });
+        if (this.navItemComponents && this.navItemComponents.length > 0) {
+            this.navItemPresent = true;
+            this.navItemComponents.forEach(function (element) {
+                element.itemcolor = _this.color;
+            });
+        }
     };
     /**
      * @return {?}
@@ -22571,7 +22577,7 @@ var AmexioNavBarComponent = /** @class */ (function () {
     };
     AmexioNavBarComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-nav', template: "\n    <nav #navbar class=\"topnav {{themeCss}}\" [ngStyle]=\"{'color': color, 'top': top, 'opacity': opacity}\" [ngClass]=\"{'topnav-mobile':mobilemode, 'transparentNav':transparent}\" (window:resize)=\"resize($event)\">\n\n        <div #navbarfixed  [ngClass]=\"{'lhs-mobile':mobilemode}\"\n         [ngStyle]=\"{'flex': !title || !logo ? 'none':''}\">\n            <div class=\"topnav-lhs-inner\" [ngClass]=\"{'topnav-lhs-inner-mobile':mobilemode, 'topnav-lhs-nologo': logo==''}\">\n                <span>\n\n                <span style=\"padding-left: 40px;\" *ngIf=\"sidenav\">  &nbsp;</span>\n\n                <span *ngIf=\"(!(mobilemode && sidenav) && homepageType ==='1')\" class=\"homepage-bar-collapse\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-bars' \"></amexio-image> &nbsp;</span>\n\n                <img alt=\"title \" style=\"cursor: pointer \" (click)=\"onNavLogoClick.emit($event) \" (load)=\"onImageLoad() \" *ngIf=\"logo \" [attr.src]=\"logo \" class=\"navbar-logo \">\n                <a (click)=\"onNavTitleClick.emit($event)\" [ngStyle]=\"{'color': color}\">{{title}}</a>\n\n\n                <ng-container *ngIf=\"homepageType=='2' && !sidenav\">\n                    <ng-container *ngIf=\"!isIconLeft\">\n                        <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-chevron-right' \"></amexio-image></span>\n                    </ng-container>\n                    <ng-container *ngIf=\"isIconLeft\">\n                        <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image  [icon-class]=\" 'fa fa-chevron-left' \"></amexio-image></span>\n                    </ng-container>\n                </ng-container>\n\n                </span>\n\n                <span *ngIf=\"mobilemode\" class=\"float-right mobilebar\" (click)=\"toggleDrawerPanel($event)\">\n                  <em *ngIf=\"!toggle\" class=\"fa fa-caret-down fa-2x\"></em>\n                  <em *ngIf=\"toggle\" class=\"fa fa-caret-up fa-2x\"></em>\n              </span>\n            </div>\n        </div>\n\n        <div #navbaritems *ngIf=\"toggle\" class=\"topnav-rhs\" [ngClass]=\"{'rhs-mobile':mobilemode, 'transparentNav1':transparent && mobilemode}\">\n            <div class=\"topnavmainbar\" [ngClass]=\"{'topnavmainbar-mobile':mobilemode}\">\n                <div #navbaritems1 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-left]\"></ng-content>\n                </div>\n                <div #navbaritems2 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-center]\"></ng-content>\n                </div>\n                <div #navbaritems3 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-right]\"></ng-content>\n                </div>\n            </div>\n        </div>\n        <!--\n      <div #navbarfixed [ngStyle]=\"{'flex': !mobilemode ? lhsWidth : '','flex-width': !mobilemode ? lhsWidth :'' }\"\n                   [ngClass]=\"{ ' topnav-lhs-mobile':mobilemode,'topnav-lhs topnav-lhs-color':!mobilemode} \">\n          <div [ngClass]=\"{'homepage-expand': (isExpand && !mobilemode),'homepage-collapse':(!isExpand && !mobilemode) }\">\n\n              <ng-container *ngIf=\"!isLHSHide || mobilemode\">\n                  <span [ngClass]=\" sidenav ? 'sidenav-padding':'' \" [ngStyle]=\"{ 'padding-left':sidenav ? '40px': '0px'} \">\n                <span *ngIf=\"homepageType=='1' && !isPhone\" class=\"homepage-bar-collapse\"  (click)=\"onArrowClick($event)\"  ><amexio-image [icon-class]=\" 'fa fa-bars' \"></amexio-image></span>\n                  <img alt=\"title \" style=\"cursor: pointer \" (click)=\"onNavLogoClick.emit($event) \" (load)=\"onImageLoad() \" *ngIf=\"logo \" [attr.src]=\"logo \" class=\"navbar-logo \">\n                  <a (click)=\"onNavTitleClick.emit($event) \">{{title}}</a>\n                  </span>\n              </ng-container>\n              <ng-container *ngIf=\"!isPhone\">\n                  <span *ngIf=\"homepageType=='3' || isLHSHide \" (click)=\"onExpandIconClick($event) \" class=\"homepage3-bar\">\n                <amexio-image *ngIf=\"!isExpand\" [icon-class]=\" 'fa fa-bars' \"></amexio-image>\n                <amexio-image *ngIf=\"isExpand\" [icon-class]=\" 'fa fa-times-circle' \"></amexio-image>\n              </span>\n              </ng-container>\n              <ng-container *ngIf=\"homepageType=='2' && !sidenav\">\n                  <ng-container *ngIf=\"!isIconLeft\">\n                      <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-chevron-right' \"></amexio-image></span>\n                  </ng-container>\n                  <ng-container *ngIf=\"isIconLeft\">\n                      <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image  [icon-class]=\" 'fa fa-chevron-left' \"></amexio-image></span>\n                  </ng-container>\n              </ng-container>\n          </div>\n          <div *ngIf=\"mobilemode\" class=\"float-right mobilebar\" (click)=\"toggleDrawerPanel($event)\">\n              <em *ngIf=\"!toggle\" class=\"fa fa-caret-down fa-2x\"></em>\n              <em *ngIf=\"toggle\" class=\"fa fa-caret-up fa-2x\"></em>\n          </div>\n      </div>\n      <div #navbaritems *ngIf=\"toggle\" [ngClass]=\"{'topnav-rhs topnav-rhs-color':!mobilemode}\">\n          <div class=\"topnavmainbar\" [ngClass]=\"{'topnavmainbar-mobile':mobilemode}\">\n              <div #navbaritems1 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-left]\"></ng-content>\n              </div>\n              <div #navbaritems2 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-center]\"></ng-content>\n              </div>\n              <div #navbaritems3 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-right]\"></ng-content>\n              </div>\n\n          </div>\n      </div>\n\n    -->\n    </nav>\n  ",
+                    selector: 'amexio-nav', template: "\n    <nav #navbar class=\"topnav {{themeCss}}\" [ngStyle]=\"{'color': color, 'top': top, 'opacity': opacity}\" [ngClass]=\"{'topnav-mobile':mobilemode, 'transparentNav':transparent}\" (window:resize)=\"resize($event)\">\n\n        <div #navbarfixed  [ngClass]=\"{'lhs-mobile':mobilemode}\"\n         [ngStyle]=\"{'flex': !title || !logo ? 'none':''}\">\n            <div class=\"topnav-lhs-inner\" [ngClass]=\"{'topnav-lhs-inner-mobile':mobilemode, 'topnav-lhs-nologo': logo==''}\">\n                <span>\n\n                <span style=\"padding-left: 40px;\" *ngIf=\"sidenav\">  &nbsp;</span>\n\n                <span *ngIf=\"(!(mobilemode && sidenav) && homepageType ==='1')\" class=\"homepage-bar-collapse\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-bars' \"></amexio-image> &nbsp;</span>\n\n                <img alt=\"title \" style=\"cursor: pointer \" (click)=\"onNavLogoClick.emit($event) \" (load)=\"onImageLoad() \" *ngIf=\"logo \" [attr.src]=\"logo \" class=\"navbar-logo \">\n                <a (click)=\"onNavTitleClick.emit($event)\" [ngStyle]=\"{'color': color}\">{{title}}</a>\n\n\n                <ng-container *ngIf=\"homepageType=='2' && !sidenav\">\n                    <ng-container *ngIf=\"!isIconLeft\">\n                        <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-chevron-right' \"></amexio-image></span>\n                    </ng-container>\n                    <ng-container *ngIf=\"isIconLeft\">\n                        <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image  [icon-class]=\" 'fa fa-chevron-left' \"></amexio-image></span>\n                    </ng-container>\n                </ng-container>\n\n                </span>\n\n                <span *ngIf=\"mobilemode && navItemPresent\" class=\"float-right mobilebar\" (click)=\"toggleDrawerPanel($event)\">\n                  <em *ngIf=\"!toggle\" class=\"fa fa-caret-down fa-2x\"></em>\n                  <em *ngIf=\"toggle\" class=\"fa fa-caret-up fa-2x\"></em>\n              </span>\n            </div>\n        </div>\n\n        <div #navbaritems *ngIf=\"toggle\" class=\"topnav-rhs\" [ngClass]=\"{'rhs-mobile':mobilemode, 'transparentNav1':transparent && mobilemode}\">\n            <div class=\"topnavmainbar\" [ngClass]=\"{'topnavmainbar-mobile':mobilemode}\">\n                <div #navbaritems1 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-left]\"></ng-content>\n                </div>\n                <div #navbaritems2 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-center]\"></ng-content>\n                </div>\n                <div #navbaritems3 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-right]\"></ng-content>\n                </div>\n            </div>\n        </div>\n        <!--\n      <div #navbarfixed [ngStyle]=\"{'flex': !mobilemode ? lhsWidth : '','flex-width': !mobilemode ? lhsWidth :'' }\"\n                   [ngClass]=\"{ ' topnav-lhs-mobile':mobilemode,'topnav-lhs topnav-lhs-color':!mobilemode} \">\n          <div [ngClass]=\"{'homepage-expand': (isExpand && !mobilemode),'homepage-collapse':(!isExpand && !mobilemode) }\">\n\n              <ng-container *ngIf=\"!isLHSHide || mobilemode\">\n                  <span [ngClass]=\" sidenav ? 'sidenav-padding':'' \" [ngStyle]=\"{ 'padding-left':sidenav ? '40px': '0px'} \">\n                <span *ngIf=\"homepageType=='1' && !isPhone\" class=\"homepage-bar-collapse\"  (click)=\"onArrowClick($event)\"  ><amexio-image [icon-class]=\" 'fa fa-bars' \"></amexio-image></span>\n                  <img alt=\"title \" style=\"cursor: pointer \" (click)=\"onNavLogoClick.emit($event) \" (load)=\"onImageLoad() \" *ngIf=\"logo \" [attr.src]=\"logo \" class=\"navbar-logo \">\n                  <a (click)=\"onNavTitleClick.emit($event) \">{{title}}</a>\n                  </span>\n              </ng-container>\n              <ng-container *ngIf=\"!isPhone\">\n                  <span *ngIf=\"homepageType=='3' || isLHSHide \" (click)=\"onExpandIconClick($event) \" class=\"homepage3-bar\">\n                <amexio-image *ngIf=\"!isExpand\" [icon-class]=\" 'fa fa-bars' \"></amexio-image>\n                <amexio-image *ngIf=\"isExpand\" [icon-class]=\" 'fa fa-times-circle' \"></amexio-image>\n              </span>\n              </ng-container>\n              <ng-container *ngIf=\"homepageType=='2' && !sidenav\">\n                  <ng-container *ngIf=\"!isIconLeft\">\n                      <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-chevron-right' \"></amexio-image></span>\n                  </ng-container>\n                  <ng-container *ngIf=\"isIconLeft\">\n                      <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image  [icon-class]=\" 'fa fa-chevron-left' \"></amexio-image></span>\n                  </ng-container>\n              </ng-container>\n          </div>\n          <div *ngIf=\"mobilemode\" class=\"float-right mobilebar\" (click)=\"toggleDrawerPanel($event)\">\n              <em *ngIf=\"!toggle\" class=\"fa fa-caret-down fa-2x\"></em>\n              <em *ngIf=\"toggle\" class=\"fa fa-caret-up fa-2x\"></em>\n          </div>\n      </div>\n      <div #navbaritems *ngIf=\"toggle\" [ngClass]=\"{'topnav-rhs topnav-rhs-color':!mobilemode}\">\n          <div class=\"topnavmainbar\" [ngClass]=\"{'topnavmainbar-mobile':mobilemode}\">\n              <div #navbaritems1 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-left]\"></ng-content>\n              </div>\n              <div #navbaritems2 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-center]\"></ng-content>\n              </div>\n              <div #navbaritems3 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-right]\"></ng-content>\n              </div>\n\n          </div>\n      </div>\n\n    -->\n    </nav>\n  ",
                 },] },
     ];
     /** @nocollapse */
@@ -33543,10 +33549,19 @@ var AmexioPanelComponent = /** @class */ (function (_super) {
     function (themeClass) {
         this.themeCss = themeClass;
     };
+    /**
+     * @return {?}
+     */
+    AmexioPanelComponent.prototype.changeHeaderColor = /**
+     * @return {?}
+     */
+    function () {
+        this.gradientFlag = true;
+    };
     AmexioPanelComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-panel',
-                    template: "\n\n\n\n    <div    #id style=\"width: 100%\" (contextmenu)=\"loadContextMenu({event:$event,ref:id})\"  >\n        <ng-container *ngIf=\"collapsible; else elseBlock\"> \n            <div id=\"{{componentId}}\" [ngStyle]=\"{'background': bgColor, 'color': color}\"\n            *ngIf=\"header\" class=\"panel-accordion\"  [ngClass]=\"themeCss\"\n            (click)=\"onTabClick(btn1)\"    >\n                <amexio-toolbar\n                tabindex=\"0\" \n                role=\"heading\"\n                [attr.aria-expanded]=\"expanded\"\n                (keyup.enter)=\"onTabClick(btn1)\"\n                (keyup.space)=\"onTabClick(btn1)\"\n\n            \n                >\n                    <amexio-toolbar-item position-left  attr.aria-label=\"{{title}}\">\n                        <amexio-label  attr.aria-labelledby=\"{{componentId}}\" size=\"small\">\n                            {{title}}\n                        </amexio-label>\n                    </amexio-toolbar-item>\n                    <amexio-toolbar-item position-right>\n                        <ng-content select=\"amexio-panel-header\"></ng-content>\n                    </amexio-toolbar-item>\n                    <amexio-toolbar-item style=\"margin:auto\" position-right>\n                        <i [class]=\"iconclassKey\" aria-hidden=\"true\" #btn1></i>\n                    </amexio-toolbar-item>\n                </amexio-toolbar>\n            </div>\n        </ng-container>\n\n        <ng-template #elseBlock> {{expanded}}\n            <div    id=\"{{componentId}}\"   *ngIf=\"header\" class=\"panel-accordion\" (click)=\"onTabClick(btn1)\">\n                <amexio-toolbar\n                tabindex=\"0\" \n                [attr.aria-expanded]=\"expanded\"\n                (keyup.enter)=\"onTabClick(btn1)\"\n                (keyup.space)=\"onTabClick(btn1)\"\n            \n                >\n                    <amexio-toolbar-item position-left tabindex=\"0\" [attr.aria-expanded]=\"expanded\"  attr.aria-label=\"{{title}}\">\n                        <amexio-label  size=\"small\"   attr.aria-labelledby=\"{{componentId}}\" >\n                            {{title}}\n                        </amexio-label>\n                    </amexio-toolbar-item>\n                    <amexio-toolbar-item position-right>\n                        <ng-content select=\"amexio-panel-header\"></ng-content>\n                    </amexio-toolbar-item>\n                </amexio-toolbar>\n            </div>\n        </ng-template>\n    \n        <div tabindex=\"0\"  id=\"panelpanelId\" class=\"panel-panel\" [ngStyle]=\"{'border-color': border && bgColor}\" [ngClass]=\"{'panel-box-border':border}\" [style.textAlign]=\"contentAlign\" [style.height.px]=\"height\"\n            [@panelState]=\"panelstyle.state\">\n            <ng-content aria-labelledby=\"panelpanelId\" ></ng-content>\n        </div>\n\n        <ng-container *ngIf=\"flag && (this.contextmenu && this.contextmenu.length > 0)\">\n            <base-contextmenu tabindex=\"0\" [base-context-menu]=\"contextmenu\" [mouse-location-top]=\"mouseLocation.top\"\n                [mouse-location-left]=\"mouseLocation.left\" [is-FlagShow]=\"flag\" [right-click-data]=\"nodeRightClick\"\n                (onRightClick)=\"rightClickDataEmit($event)\" [position-up]=\"posixUp\">\n            </base-contextmenu>\n        </ng-container>\n    </div>\n  ",
+                    template: "\n\n\n\n    <div    #id style=\"width: 100%\" (contextmenu)=\"loadContextMenu({event:$event,ref:id})\"  >\n        <ng-container *ngIf=\"collapsible; else elseBlock\"> \n            <div id=\"{{componentId}}\" [ngStyle]=\"{'background': bgColor, 'color': color}\"\n            *ngIf=\"header\" class=\"panel-accordion\"  [ngClass]=\"themeCss\"\n            (click)=\"onTabClick(btn1)\"    >\n                <amexio-toolbar\n                tabindex=\"0\" \n                role=\"heading\"\n                [attr.aria-expanded]=\"expanded\"\n                (keyup.enter)=\"onTabClick(btn1)\"\n                (keyup.space)=\"onTabClick(btn1)\">\n                    <amexio-toolbar-item [ngStyle]=\"{'color': gradientFlag ? 'white':''}\" position-left  attr.aria-label=\"{{title}}\">\n                        <amexio-label  attr.aria-labelledby=\"{{componentId}}\" size=\"small\">\n                            {{title}}\n                        </amexio-label>\n                    </amexio-toolbar-item>\n                    <amexio-toolbar-item [ngStyle]=\"{'color': gradientFlag ? 'black':''}\" position-right>\n                        <ng-content select=\"amexio-panel-header\"></ng-content>\n                    </amexio-toolbar-item>\n                    <amexio-toolbar-item [ngStyle]=\"{'color': gradientFlag ? 'black':''}\" style=\"margin:auto\" position-right>\n                        <i [class]=\"iconclassKey\" aria-hidden=\"true\" #btn1></i>\n                    </amexio-toolbar-item>\n                </amexio-toolbar>\n            </div>\n        </ng-container>\n\n        <ng-template #elseBlock> {{expanded}}\n            <div    id=\"{{componentId}}\"   *ngIf=\"header\" class=\"panel-accordion\" (click)=\"onTabClick(btn1)\">\n                <amexio-toolbar\n                tabindex=\"0\" \n                [attr.aria-expanded]=\"expanded\"\n                (keyup.enter)=\"onTabClick(btn1)\"\n                (keyup.space)=\"onTabClick(btn1)\"\n            \n                >\n                    <amexio-toolbar-item position-left tabindex=\"0\" [attr.aria-expanded]=\"expanded\"  attr.aria-label=\"{{title}}\">\n                        <amexio-label  size=\"small\"   attr.aria-labelledby=\"{{componentId}}\" >\n                            {{title}}\n                        </amexio-label>\n                    </amexio-toolbar-item>\n                    <amexio-toolbar-item position-right>\n                        <ng-content select=\"amexio-panel-header\"></ng-content>\n                    </amexio-toolbar-item>\n                </amexio-toolbar>\n            </div>\n        </ng-template>\n    \n        <div tabindex=\"0\"  id=\"panelpanelId\" class=\"panel-panel\" [ngStyle]=\"{'border-color': border && bgColor}\" [ngClass]=\"{'panel-box-border':border}\" [style.textAlign]=\"contentAlign\" [style.height.px]=\"height\"\n            [@panelState]=\"panelstyle.state\">\n            <ng-content aria-labelledby=\"panelpanelId\" ></ng-content>\n        </div>\n\n        <ng-container *ngIf=\"flag && (this.contextmenu && this.contextmenu.length > 0)\">\n            <base-contextmenu tabindex=\"0\" [base-context-menu]=\"contextmenu\" [mouse-location-top]=\"mouseLocation.top\"\n                [mouse-location-left]=\"mouseLocation.left\" [is-FlagShow]=\"flag\" [right-click-data]=\"nodeRightClick\"\n                (onRightClick)=\"rightClickDataEmit($event)\" [position-up]=\"posixUp\">\n            </base-contextmenu>\n        </ng-container>\n    </div>\n  ",
                     animations: [
                         trigger('panelState', [
                             state('hidden', style({
@@ -42266,27 +42281,37 @@ var AmexioCreditcardComponent = /** @class */ (function () {
  */
 var DarkmodeComponent = /** @class */ (function () {
     function DarkmodeComponent() {
+        this.type = 2;
         this.size = 'medium';
+        this.mode = 'day-night';
+        this.stepVal = 0;
+        this.maxValue = 2;
+        this.sepiaColorCode = '#f4ecd8';
+        this.sepiaFontColor = '#020202';
         this.themesdata = [];
         this.themeStyles = [];
+        this.appBackground = '--appBackground';
+        this.appForeground = '--appForegroundColor';
+        this.componentBackground = '--componentBGColor';
+        this.componentForeground = '--componentFontColor';
         this.themesdata = [
             {
-                varName: '--appBackground',
+                varName: this.appBackground,
                 darkValue: '#2d2d2d',
                 themeValue: '#f5f5f5',
             },
             {
-                varName: '--appForegroundColor',
+                varName: this.appForeground,
                 darkValue: '#f5f5f5',
                 themeValue: '#121212',
             },
             {
-                varName: '--componentBGColor',
+                varName: this.componentBackground,
                 darkValue: '#121212',
                 themeValue: '#ffffff',
             },
             {
-                varName: '--componentFontColor',
+                varName: this.componentForeground,
                 darkValue: '#ffffff',
                 themeValue: '#121212',
             },
@@ -42299,6 +42324,10 @@ var DarkmodeComponent = /** @class */ (function () {
      * @return {?}
      */
     function () {
+        if (this.mode === 'custom') {
+            this.maxValue = this.colorData.length - 1;
+            this.otherMode();
+        }
     };
     /**
      * @param {?} event
@@ -42330,10 +42359,63 @@ var DarkmodeComponent = /** @class */ (function () {
             document.documentElement.style.setProperty(style.name, style.value);
         });
     };
+    /**
+     * @return {?}
+     */
+    DarkmodeComponent.prototype.onChange = /**
+     * @return {?}
+     */
+    function () {
+        if (this.mode === 'sepia') {
+            this.sepiaMode();
+        }
+        else if (this.mode === 'custom') {
+            this.otherMode();
+        }
+    };
+    /**
+     * @return {?}
+     */
+    DarkmodeComponent.prototype.sepiaMode = /**
+     * @return {?}
+     */
+    function () {
+        if (this.stepVal === 0) {
+            this.onToggleClick(false);
+        }
+        if (this.stepVal === 1) {
+            document.documentElement.style.setProperty(this.appBackground, this.sepiaColorCode);
+            document.documentElement.style.setProperty(this.appForeground, this.sepiaFontColor);
+            document.documentElement.style.setProperty(this.componentBackground, this.sepiaColorCode);
+            document.documentElement.style.setProperty(this.componentForeground, this.sepiaFontColor);
+        }
+        if (this.stepVal === 2) {
+            this.onToggleClick(true);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    DarkmodeComponent.prototype.otherMode = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.colorData && this.colorData.length > 0) {
+            this.colorData.forEach(function (element, index) {
+                if (_this.stepVal === index) {
+                    document.documentElement.style.setProperty(_this.appBackground, element.bgColor);
+                    document.documentElement.style.setProperty(_this.appForeground, element.fgColor);
+                    document.documentElement.style.setProperty(_this.componentBackground, element.bgColor);
+                    document.documentElement.style.setProperty(_this.componentForeground, element.fgColor);
+                }
+            });
+        }
+    };
     DarkmodeComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-darkmode',
-                    template: "\n      <amexio-toggle\n      [field-label]=\"fieldLabel\" [size]=\"size\" [type]=\"type\" [shape]=\"shape\" (onChange)=\"onToggleClick($event)\">\n      </amexio-toggle>\n    ",
+                    template: "\n      <ng-container *ngIf=\"mode === 'day-night'\">\n              <amexio-toggle\n              [field-label]=\"fieldLabel\" [size]=\"size\" [type]=\"type\" [shape]=\"shape\" (onChange)=\"onToggleClick($event)\">\n              </amexio-toggle>\n              </ng-container>\n        \n              <ng-container *ngIf=\"mode !== 'day-night'\">\n              <amexio-slider (onChange) =\"onChange()\" [type]=\"type\" min-value=\"0\" [max-value]=\"maxValue\" [step-value]=\"1\" [(ngModel)]=\"stepVal\">\n              </amexio-slider>\n              </ng-container>\n        \n        \n    ",
                 },] },
     ];
     /** @nocollapse */
@@ -42342,7 +42424,9 @@ var DarkmodeComponent = /** @class */ (function () {
         fieldLabel: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['field-label',] }],
         shape: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['shape',] }],
         type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['type',] }],
-        size: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['size',] }]
+        size: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['size',] }],
+        mode: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['mode',] }],
+        colorData: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data',] }]
     };
     return DarkmodeComponent;
 }());
@@ -46144,8 +46228,10 @@ var AmexioMultipleDatePickerComponent = /** @class */ (function (_super) {
         this.initDaysTitle();
         this.todate.setDate(this.fromdate.getDate() + 7);
         // set from to on completedayarray
-        this.setfromtooncompletedayarray();
+        // this.setfromtooncompletedayarray();
         this.calculateMonthBlocks();
+        this.fromdate = null;
+        this.todate = null;
     };
     /**
      * @return {?}
@@ -46183,6 +46269,7 @@ var AmexioMultipleDatePickerComponent = /** @class */ (function (_super) {
      * @return {?}
      */
     function (elem, event) {
+        this.resetDisabledaysBeforeFrom();
         this.calculateMonthBlocks();
         this.fromtab = true;
         this.totab = false;
@@ -46205,6 +46292,7 @@ var AmexioMultipleDatePickerComponent = /** @class */ (function (_super) {
      * @return {?}
      */
     function (elem, event) {
+        this.setDisableDaysBeforeFrom();
         this.fromtab = false;
         this.totab = true;
         this.tocardselected = true;
@@ -46365,36 +46453,68 @@ var AmexioMultipleDatePickerComponent = /** @class */ (function (_super) {
         this.validateDaysForMinMax();
     };
     /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.setDisableDaysBeforeFrom = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.fromdate) {
+            this.completeDaysArray.forEach(function (daysarray) {
+                daysarray.montharray.forEach(function (dayobject) {
+                    dayobject.forEach(function (singleday) {
+                        if (singleday.date < _this.fromdate) {
+                            singleday.isDisabled = true;
+                        }
+                    });
+                });
+            });
+        }
+    };
+    /**
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.resetDisabledaysBeforeFrom = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (this.fromdate) {
+            this.completeDaysArray.forEach(function (daysarray) {
+                daysarray.montharray.forEach(function (dayobject) {
+                    dayobject.forEach(function (singleday) {
+                        if (singleday.date < _this.fromdate) {
+                            singleday.isDisabled = false;
+                        }
+                    });
+                });
+            });
+        }
+        this.disableddays();
+    };
+    /**
      * @param {?} dateObj
      * @param {?} event
+     * @param {?} elem
      * @return {?}
      */
     AmexioMultipleDatePickerComponent.prototype.onDateClick = /**
      * @param {?} dateObj
      * @param {?} event
+     * @param {?} elem
      * @return {?}
      */
-    function (dateObj, event) {
+    function (dateObj, event, elem) {
         // refactored code
         this.setVisibility(dateObj);
         if (dateObj.isDisabled === false) {
             if (this.fromcardselected) {
-                //  dateObj will be new from
-                if (this.fromdate && this.todate && (this.todate.getDate() !== this.fromdate.getDate() + 1)) {
-                    // refactor ondateclick()
-                    this.fromdateRefactored(dateObj);
-                }
-                else if (this.fromdate && (this.todate.getDate() === this.fromdate.getDate() + 1)) {
-                    // update only todate
-                    this.clearTo();
-                    this.assignTo(dateObj);
-                    this.todate = dateObj.date;
-                }
+                this.refactoredOnDateClick(dateObj, event, elem);
+                this.onfromCardSelected(dateObj, event, elem);
             }
-            if (this.tocardselected && this.fromdate) {
-                this.clearTo();
-                this.assignTo(dateObj);
-                this.todate = dateObj.date;
+            if (this.tocardselected) {
+                this.onToCardSelected(dateObj, event, elem);
             }
             this.change.emit(dateObj.date);
         }
@@ -46403,6 +46523,80 @@ var AmexioMultipleDatePickerComponent = /** @class */ (function (_super) {
         }
         this.resetRange();
         this.setRange();
+    };
+    /**
+     * @param {?} dateObj
+     * @param {?} event
+     * @param {?} elem
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.refactoredOnDateClick = /**
+     * @param {?} dateObj
+     * @param {?} event
+     * @param {?} elem
+     * @return {?}
+     */
+    function (dateObj, event, elem) {
+        if ((this.fromdate == null) && (this.todate == null)) {
+            this.clearFrom();
+            this.assignFrom(dateObj);
+            this.fromdate = dateObj.date;
+            this.toPicker(elem, event);
+            this.clearTo();
+            this.todate = null;
+            this.setDisableDaysBeforeFrom();
+        }
+        else if (this.fromdate && (this.todate == null)) {
+            this.clearFrom();
+            this.assignFrom(dateObj);
+            this.fromdate = dateObj.date;
+            this.toPicker(elem, event);
+            this.setDisableDaysBeforeFrom();
+        }
+    };
+    /**
+     * @param {?} dateObj
+     * @param {?} event
+     * @param {?} elem
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.onfromCardSelected = /**
+     * @param {?} dateObj
+     * @param {?} event
+     * @param {?} elem
+     * @return {?}
+     */
+    function (dateObj, event, elem) {
+        if (this.fromdate && this.todate) {
+            this.clearFrom();
+            this.assignFrom(dateObj);
+            this.fromdate = dateObj.date;
+            if (dateObj.date > this.todate) {
+                this.clearTo();
+                this.todate = null;
+                this.toPicker(elem, event);
+                this.setDisableDaysBeforeFrom();
+            }
+        }
+    };
+    /**
+     * @param {?} dateObj
+     * @param {?} event
+     * @param {?} elem
+     * @return {?}
+     */
+    AmexioMultipleDatePickerComponent.prototype.onToCardSelected = /**
+     * @param {?} dateObj
+     * @param {?} event
+     * @param {?} elem
+     * @return {?}
+     */
+    function (dateObj, event, elem) {
+        if (this.fromdate && (dateObj.date > this.fromdate)) {
+            this.clearTo();
+            this.assignTo(dateObj);
+            this.todate = dateObj.date;
+        }
     };
     /**
      * @param {?} dateObj
@@ -46669,6 +46863,9 @@ var AmexioMultipleDatePickerComponent = /** @class */ (function (_super) {
         this.validateMinMaxDate();
         this.disableddays();
         this.validateDaysForMinMax();
+        // call set range
+        this.resetRange();
+        this.setRange();
     };
     /**
      * @param {?} event
@@ -46759,7 +46956,7 @@ var AmexioMultipleDatePickerComponent = /** @class */ (function (_super) {
     AmexioMultipleDatePickerComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-multiple-date-picker',
-                    template: "\n    <div #rootDiv>\n\n\n        <span class=\"mainspan\">\n\n            <div (click)=\"fromPicker(rootDiv, $event)\" style=\"background-color: white; border-right-style: outset;\" class=\"fromdiv\">\n                <span class=\"lbl_text appendButton10 latoBold\">\n                    {{fromlabel}}\n                </span>\n                <i class=\"fa fa-angle-down dropicon\"></i>\n                <span id=\"parentdate\" class=\"blackText font20\">\n                    <span class=\"font30 lactoBlack\">\n                        {{fromdate | date :'dd'}}\n                    </span>\n                    <span class=\"\">\n                        {{fromdate | date: 'MMM'}} '\n                    </span>\n                    <span class=\"\">\n                        {{fromdate | date: 'yy'}}\n                    </span>\n                    <span>\n                        <!-- <br> -->\n                        <!-- <code> -->\n                        <h6 style=\"padding: 0%; margin:1%; opacity:0.5\">\n                            {{fromdate | date: 'EEEE'}}\n                        </h6>\n                        <!-- </code> -->\n                    </span>\n                </span>\n\n            </div>\n\n            <div (click)=\"toPicker(rootDiv, $event)\" style=\"background-color: white\" class=\"fromdiv pointer\">\n                <span class=\"lbl_text appendButton10 latoBold\">\n                    {{tolabel}}\n                </span>\n                <i class=\"fa fa-angle-down dropicon\"></i>\n                <span id=\"parentdate\" class=\"blackText font20\">\n                    <span class=\"font30 lactoBlack\">\n                        {{todate | date :'dd'}}\n                    </span>\n                    <span class=\"\">\n                        {{todate | date: 'MMM'}} '\n                    </span>\n                    <span class=\"\">\n                        {{todate | date: 'yy'}}\n                    </span>\n                    <span>\n                        <!-- <br> -->\n                        <!-- <code> -->\n                        <h6 style=\"padding: 0%; margin:1%; opacity:0.5\">\n                            {{todate | date: 'EEEE'}}\n                        </h6>\n                        <!-- </code> -->\n                    </span>\n                </span>\n            </div>\n\n        </span>\n        <div [ngStyle]=\"dropdownstyle\" [style.width]=\"totalwidth+'px'\" *ngIf=\"datepicker\" class=\"datePickerContainer datetabs\">\n            <div class=\"flightCalOverlay\">\n                <div class=\"dayPickerFlightWrap\">\n                    <div class=\"RangeExample\">\n                        <div class=\"dayPickerHeader dayToFromCont blackText\">\n                            <div class=\"calHeading makeFlex\">\n                                <div class=\"dateFiled active\" [ngClass]=\"{'activecolordatetab':fromtab}\" (click)=\"fromPicker(rootDiv, $event)\">\n                                    <p class=\"font16 blackText latoBold appendRight30\">\n                                        <span class=\"widgetSprite icCalendar appendRight10\">\n                                            <amexio-c-icon key=\"datepicker_calendar\"></amexio-c-icon>\n                                        </span>\n                                        <span class=\"selectedDateField appendBottom8 pointer\">\n                                            {{fromdate | date: 'dd'}} {{fromdate | date: 'MMM'}} {{fromdate | date: 'yy'}}\n                                            <!-- 15 Sep 19 -->\n                                        </span>\n                                    </p>\n                                </div>\n                                <div class=\"font16 blackText lactoBlack dashed appendRight30\"> - </div>\n                                <div class=\"dateFiled active\" [ngClass]=\"{'activecolordatetab':totab}\" (click)=\"toPicker(rootDiv, $event)\">\n                                    <p class=\"font16 blackText latoBold appendRight30\">\n                                        <span class=\"widgetSprite icCalendar appendRight10\">\n                                            <amexio-c-icon key=\"datepicker_calendar\"></amexio-c-icon>\n                                        </span>\n                                        <span class=\"selectedDateField appendBottom8 pointer\">\n                                            {{todate | date: 'dd'}} {{todate | date: 'MMM'}} {{todate | date: 'yy'}}\n                                            <!-- 15 Sep 19 -->\n                                        </span>\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n\n                    </div>\n                </div>\n            </div>\n            <!--  -->\n            <!-- [@changeState]=\"dropdownstyle.visibility\" [ngStyle]=\"dropdownstyle\"  -->\n            <div style=\"position: absolute; width:100%; padding-right:5px; overflow-y: scroll\">\n                <div style=\"display: inline-flex; flex-flow: wrap;\">\n\n                    <ng-container *ngFor=\"let itemdaysArray of  completeDaysArray; index as i\">\n                        <!-- {{itterablemontharray | json}} -->\n                        <!-- <ng-container *ngIf=\" item % 3 == 0 \" ng> -->\n\n                        <span [ngStyle]=\"{'padding-left': ((i+1) > count) ? '28px':'0px'}\">\n\n\n                            <span style=\"position: relative;\" [ngClass]=\"{'datetimepicker':!inlineDatepicker}\">\n                                <!-- datepicker starts -->\n                                <span aria-label=\"datepicker window opened \">\n                                    <!-- datepicker header starts and contains: 4 angles drop icon and title -->\n                                    <div aria-label=\"datetimepicker header\" class=\"datetimepickertopbar\" aria-label=\"datepicker header\" [ngStyle]=\"{'display': datepicker ? 'block' : 'none'}\">\n                                        <ul>\n                                            <!-- \n                              -->\n                                            <li>\n                                                <span (click)=\"updateMonthList('minus',$event)\" (keyup.enter)=\"updateMonthList('minus',$event)\" [ngStyle]=\"{'cursor': backarrowflag ? 'not-allowed':'pointer'}\"\n                                                    *ngIf=\"itemdaysArray.prevarrow\" tabindex=\"0\" role=\"button\" aria-label=\"Previous Month\">\n                                                    <!-- left arrow icon -->\n                                                    <i class=\"fa fa-arrow-left arrowiconshadow\" [ngStyle]=\"{'opacity': backarrowflag ? '0.2' : ''}\" style=\"float:left\" aria-hidden=\"true\"></i>\n                                                </span>\n\n                                                <span (click)=\"updateMonthList('plus',$event)\" (keyup.enter)=\"updateMonthList('plus',$event)\" class=\"pointer\" *ngIf=\"itemdaysArray.nextarrow\"\n                                                    [ngStyle]=\"{'cursor': forwardarrowflag ? 'not-allowed':'pointer'}\" tabindex=\"0\"\n                                                    role=\"button\" aria-label=\"Next Month\">\n                                                    <!-- right arrow icon -->\n                                                    <i class=\"fa fa-arrow-right arrowiconshadow\" [ngStyle]=\"{'opacity': forwardarrowflag ? '0.2' : ''}\" style=\"float:right\" aria-hidden=\"true\"></i>\n                                                </span>\n                                                <span class=\"title\" style=\"cursor:auto\">\n                                                    <!-- {{itemdaysArray.month}} -->\n                                                    {{itemdaysArray.date | date:'MMMM'}} {{itemdaysArray.date | date:'y'}}\n                                                </span>\n\n                                            </li>\n                                        </ul>\n                                    </div>\n\n\n                                    <div *ngIf=\"!drop\">\n                                        <ul class=\"weekdays\" [ngStyle]=\"{'display': datepicker ? 'block' : 'none'}\">\n                                            <li *ngFor=\"let dayTitle of daysTitle\">{{dayTitle.text}}</li>\n                                        </ul>\n\n                                        <ul id=\"{{daystabindex}}\" class=\"days\" [ngStyle]=\"{'display': datepicker ? 'block' : 'none'}\">\n\n                                            <ng-container *ngFor=\"let dayArray of itemdaysArray.montharray\">\n                                                <li [ngStyle]=\"{'cursor': day.isDisabled ? 'not-allowed' : 'pointer'}\" *ngFor=\"let day of dayArray\" [ngClass]=\"{'date1':validateDays(day.date) , 'date1':day.isDisabled , 'notclickable':isDisabled}\">\n                                                    <span [attr.tabindex]=\"(day.selected ? 1: -1)\" id=\"{{day.id}}\" (keyup.arrowleft)=\"arrowleft(day,daysArray,$event)\" (keyup.arrowright)=\"arrowright(day,daysArray,$event)\"\n                                                        (keyup.arrowdown)=\"arrowdown(day,daysArray,$event)\" (keyup.arrowup)=\"arrowup(day,daysArray,$event)\"\n                                                        (keyup.enter)=\"onDateClick(day, $event)\" attr.aria-label=\"{{day.fulldate}}\"\n                                                        (click)=\"onDateClick(day, $event)\" class=\"day\" [ngClass]=\"{'active': (day.from || day.to) , 'datesrange': day.range, 'currentMonth':day.isCurrentMonth, 'notCurrentMonth':!day.isCurrentMonth,'invaliddays':validateDays(day.date), 'disabled':day.isDisabled}\">\n                                                        {{ day.date | date:'d' }}\n                                                    </span>\n                                                </li>\n                                            </ng-container>\n                                        </ul>\n                                    </div>\n                                </span>\n                                <!--datepicker ends  -->\n\n                            </span>\n\n                        </span>\n                        <!-- </ng-container> -->\n                    </ng-container>\n                </div>\n            </div>\n        </div>\n\n\n    </div>\n  ",
+                    template: "\n    <div #rootDiv>\n\n\n        <span class=\"mainspan\">\n  \n            <div (click)=\"fromPicker(rootDiv, $event)\" style=\"background-color: white; border-right-style: outset;\" class=\"fromdiv\">\n                <span class=\"lbl_text appendButton10 latoBold\">\n                    {{fromlabel}}\n                </span>\n                <i class=\"fa fa-angle-down dropicon\"></i>\n                <span id=\"parentdate\" class=\"blackText font20\">\n                    <span class=\"font30 lactoBlack\">\n                        {{fromdate | date :'dd'}}\n                    </span>\n                    <span class=\"\">\n                        {{fromdate | date: 'MMM'}} <ng-container *ngIf = \"fromdate !== null\"> ' </ng-container>\n                    </span>\n                    <span class=\"\">\n                        {{fromdate | date: 'yy'}}\n                    </span>\n                    <span>\n                        <!-- <br> -->\n                        <!-- <code> -->\n                        <h6 style=\"padding: 0%; margin:1%; opacity:0.5\">\n                            {{fromdate | date: 'EEEE'}}\n                        </h6>\n                        <!-- </code> -->\n                    </span>\n                </span>\n  \n            </div>\n  \n            <div [ngClass] = \"{'disabled':(todate == null)}\" (click)=\"toPicker(rootDiv, $event)\" style=\"background-color: white\" class=\"fromdiv pointer\">\n                <span class=\"lbl_text appendButton10 latoBold\">\n                    {{tolabel}}\n                </span>\n                <i class=\"fa fa-angle-down dropicon\"></i>\n                <span id=\"parentdate\" class=\"blackText font20\">\n                    <span class=\"font30 lactoBlack\">\n                        {{todate | date :'dd'}}\n                    </span>\n                    <span class=\"\">\n                        {{todate | date: 'MMM'}} <ng-container *ngIf = \"todate !== null\"> ' </ng-container>\n                    </span>\n                    <span class=\"\">\n                        {{todate | date: 'yy'}}\n                    </span>\n                    <span>\n                        <!-- <br> -->\n                        <!-- <code> -->\n                        <h6 style=\"padding: 0%; margin:1%; opacity:0.5\">\n                            {{todate | date: 'EEEE'}}\n                        </h6>\n                        <!-- </code> -->\n                    </span>\n                </span>\n            </div>\n  \n        </span>\n        <div [ngStyle]=\"dropdownstyle\" [style.width]=\"totalwidth+'px'\" *ngIf=\"datepicker\" class=\"datePickerContainer datetabs\">\n            <div class=\"flightCalOverlay\">\n                <div class=\"dayPickerFlightWrap\">\n                    <div class=\"RangeExample\">\n                        <div class=\"dayPickerHeader dayToFromCont blackText\">\n                            <div class=\"calHeading makeFlex\">\n                                <div class=\"dateFiled active\" [ngClass]=\"{'activecolordatetab':fromtab}\" (click)=\"fromPicker(rootDiv, $event)\">\n                                    <p class=\"font16 blackText latoBold appendRight30\">\n                                        <span class=\"widgetSprite icCalendar appendRight10\">\n                                            <amexio-c-icon key=\"datepicker_calendar\"></amexio-c-icon>\n                                        </span>\n                                        <span class=\"selectedDateField appendBottom8 pointer\">\n                                            {{fromdate | date: 'dd'}} {{fromdate | date: 'MMM'}} {{fromdate | date: 'yy'}}\n                                            <!-- 15 Sep 19 -->\n                                        </span>\n                                    </p>\n                                </div>\n                                <div class=\"font16 blackText lactoBlack dashed appendRight30\"> - </div>\n                                <div class=\"dateFiled active\" [ngClass]=\"{'activecolordatetab':totab, 'disabled': (todate == null)}\" (click)=\"toPicker(rootDiv, $event)\">\n                                    <p class=\"font16 blackText latoBold appendRight30\">\n                                        <span class=\"widgetSprite icCalendar appendRight10\">\n                                            <amexio-c-icon key=\"datepicker_calendar\"></amexio-c-icon>\n                                        </span>\n                                        <span class=\"selectedDateField appendBottom8 pointer\">\n                                            {{todate | date: 'dd'}} {{todate | date: 'MMM'}} {{todate | date: 'yy'}}\n                                            <!-- 15 Sep 19 -->\n                                        </span>\n                                    </p>\n                                </div>\n                            </div>\n                        </div>\n  \n                    </div>\n                </div>\n            </div>\n            <!--  -->\n            <!-- [@changeState]=\"dropdownstyle.visibility\" [ngStyle]=\"dropdownstyle\"  -->\n            <div style=\"position: absolute; width:100%; padding-right:5px; overflow-y: scroll\">\n                <div style=\"display: inline-flex; flex-flow: wrap;\">\n  \n                    <ng-container *ngFor=\"let itemdaysArray of  completeDaysArray; index as i\">\n                        <!-- {{itterablemontharray | json}} -->\n                        <!-- <ng-container *ngIf=\" item % 3 == 0 \" ng> -->\n  \n                        <span [ngStyle]=\"{'padding-left': ((i+1) > count) ? '28px':'0px'}\">\n  \n  \n                            <span style=\"position: relative;\" [ngClass]=\"{'datetimepicker':!inlineDatepicker}\">\n                                <!-- datepicker starts -->\n                                <span aria-label=\"datepicker window opened \">\n                                    <!-- datepicker header starts and contains: 4 angles drop icon and title -->\n                                    <div aria-label=\"datetimepicker header\" class=\"datetimepickertopbar\" aria-label=\"datepicker header\" [ngStyle]=\"{'display': datepicker ? 'block' : 'none'}\">\n                                        <ul>\n                                            <!-- \n                              -->\n                                            <li>\n                                                <span (click)=\"updateMonthList('minus',$event)\" (keyup.enter)=\"updateMonthList('minus',$event)\" [ngStyle]=\"{'cursor': backarrowflag ? 'not-allowed':'pointer'}\"\n                                                    *ngIf=\"itemdaysArray.prevarrow\" tabindex=\"0\" role=\"button\" aria-label=\"Previous Month\">\n                                                    <!-- left arrow icon -->\n                                                    <i class=\"fa fa-arrow-left arrowiconshadow\" [ngStyle]=\"{'opacity': backarrowflag ? '0.2' : ''}\" style=\"float:left\" aria-hidden=\"true\"></i>\n                                                </span>\n  \n                                                <span (click)=\"updateMonthList('plus',$event)\" (keyup.enter)=\"updateMonthList('plus',$event)\" class=\"pointer\" *ngIf=\"itemdaysArray.nextarrow\"\n                                                    [ngStyle]=\"{'cursor': forwardarrowflag ? 'not-allowed':'pointer'}\" tabindex=\"0\"\n                                                    role=\"button\" aria-label=\"Next Month\">\n                                                    <!-- right arrow icon -->\n                                                    <i class=\"fa fa-arrow-right arrowiconshadow\" [ngStyle]=\"{'opacity': forwardarrowflag ? '0.2' : ''}\" style=\"float:right\" aria-hidden=\"true\"></i>\n                                                </span>\n                                                <span class=\"title\" style=\"cursor:auto\">\n                                                    <!-- {{itemdaysArray.month}} -->\n                                                    {{itemdaysArray.date | date:'MMMM'}} {{itemdaysArray.date | date:'y'}}\n                                                </span>\n  \n                                            </li>\n                                        </ul>\n                                    </div>\n  \n  \n                                    <div *ngIf=\"!drop\">\n                                        <ul class=\"weekdays\" [ngStyle]=\"{'display': datepicker ? 'block' : 'none'}\">\n                                            <li *ngFor=\"let dayTitle of daysTitle\">{{dayTitle.text}}</li>\n                                        </ul>\n  \n                                        <ul id=\"{{daystabindex}}\" class=\"days\" [ngStyle]=\"{'display': datepicker ? 'block' : 'none'}\">\n  \n                                            <ng-container *ngFor=\"let dayArray of itemdaysArray.montharray\">\n                                                <li [ngStyle]=\"{'cursor': day.isDisabled ? 'not-allowed' : 'pointer'}\" *ngFor=\"let day of dayArray\" [ngClass]=\"{'date1':validateDays(day.date) , 'date1':day.isDisabled , 'notclickable':isDisabled}\">\n                                                    <span [attr.tabindex]=\"(day.selected ? 1: -1)\" id=\"{{day.id}}\" (keyup.arrowleft)=\"arrowleft(day,daysArray,$event)\" (keyup.arrowright)=\"arrowright(day,daysArray,$event)\"\n                                                        (keyup.arrowdown)=\"arrowdown(day,daysArray,$event)\" (keyup.arrowup)=\"arrowup(day,daysArray,$event)\"\n                                                        (keyup.enter)=\"onDateClick(day, $event, rootDiv)\" attr.aria-label=\"{{day.fulldate}}\"\n                                                        (click)=\"onDateClick(day, $event, rootDiv)\" class=\"day\" [ngClass]=\"{'active': (day.from || day.to) , 'datesrange': day.range, 'currentMonth':day.isCurrentMonth, 'notCurrentMonth':!day.isCurrentMonth,'invaliddays':validateDays(day.date), 'disabled':day.isDisabled}\">\n                                                        {{ day.date | date:'d' }}\n                                                    </span>\n                                                </li>\n                                            </ng-container>\n                                        </ul>\n                                    </div>\n                                </span>\n                                <!--datepicker ends  -->\n  \n                            </span>\n  \n                        </span>\n                        <!-- </ng-container> -->\n                    </ng-container>\n                </div>\n            </div>\n        </div>\n  \n  \n      </div>\n  ",
                     animations: [
                         trigger('changeState', [
                             state('visible', style({
@@ -51119,7 +51316,7 @@ var AmexioTypeAheadComponent = /** @class */ (function (_super) {
     AmexioTypeAheadComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-typeahead',
-                    template: "\n\n\n    <div class=\"inputgroup form-group\" (keyup.esc) =\"closeOnEScapeKey($event)\">\n\n      <label  id=\"fieldlabel\" for=\"{{componentId}}\"  *ngIf=\"haslabel\" [style.font-style]=\"fontstyle\" [style.font-family]=\"fontfamily\" [style.font-size]=\"fontsize\">\n        {{fieldlabel}}\n      </label>\n\n      <input type=\"hidden\"  [(ngModel)]=\"value\" [name]=\"name\" #model=\"ngModel\" required (ngModelChange)=\"onChange($event)\">\n  \n      <div class=\"input-container\" >\n              <input \n                      id=\"{{componentId}}\"\n                      aria-autocomplete=\"list\"\t\n                      role=\"combobox\"\n                      [attr.aria-expanded]=\"ariaListExpand\"\n                      type=\"text\" class=\"input-control\"\n                      [ngClass]=\"{'input-control-error': ((model.dirty || model.touched || (value && value.length>0)) && !model.valid),\n                      'input-disabled' : disabled}\"\n                      [required]=\"!allowblank\" \n                      [value]=\"displayValue\"\n                      [attr.placeholder]=\"placeholder\"\n                      [attr.disabled] = \"disabled ? true: null\"\n                      (focus)=\"focus($event)\"\n                      (input)=\"input($event)\"\n                      (keyup)=\"keyup($event)\"\n                      (blur)=\"blur($event)\"\n                      (keyup.end)=\"focustoLast()\"\n                      />\n              <em *ngIf=\"(iconfeedback && (model.dirty || model.touched) && model.valid)\" class=\"fa fa-check\"></em>\n              <em *ngIf=\"(iconfeedback && (model.dirty || model.touched) && !model.valid)\" class=\"fa fa-times icon-error\"></em>\n      </div>\n  \n      <dropdown-list-item [@changeState]=\"dropdownstyle.visibility\" class=\"dropdown\" [ngStyle]=\"dropdownstyle\"  \n                          [data]=\"viewdata\" [display-field]=\"displayfield\" [value-field]=\"valuefield\" \n                          [highlight-row]=\"rowindex\" [display-value]=\"displayValue\" \n                          (itemclick)=\"onDropDownListItemClick($event)\">\n      </dropdown-list-item>\n    </div>\n  ",
+                    template: "\n\n\n    <div class=\"inputgroup form-group\" (keyup.esc) =\"closeOnEScapeKey($event)\">\n\n      <label  id=\"fieldlabel\" for=\"{{componentId}}\"  *ngIf=\"haslabel\" [style.font-style]=\"fontstyle\" [style.font-family]=\"fontfamily\" [style.font-size]=\"fontsize\">\n        {{fieldlabel}}\n      </label>\n\n      <input type=\"hidden\"  [(ngModel)]=\"value\" [name]=\"name\" #model=\"ngModel\" required (ngModelChange)=\"onChange($event)\">\n  \n      <div class=\"input-container\" >\n              <input \n                      id=\"{{componentId}}\"\n                      aria-autocomplete=\"list\"\t\n                      role=\"combobox\"\n                      [(ngModel)]=\"value\"\n                      [attr.aria-expanded]=\"ariaListExpand\"\n                      type=\"text\" class=\"input-control\"\n                      [ngClass]=\"{'input-control-error': ((model.dirty || model.touched || (value && value.length>0)) && !model.valid),\n                      'input-disabled' : disabled}\"\n                      [required]=\"!allowblank\" \n                      [value]=\"displayValue\"\n                      [attr.placeholder]=\"placeholder\"\n                      [attr.disabled] = \"disabled ? true: null\"\n                      (focus)=\"focus($event)\"\n                      (input)=\"input($event)\"\n                      (keyup)=\"keyup($event)\"\n                      (blur)=\"blur($event)\"\n                      (keyup.end)=\"focustoLast()\"\n                      />\n              <em *ngIf=\"(iconfeedback && (model.dirty || model.touched) && model.valid)\" class=\"fa fa-check\"></em>\n              <em *ngIf=\"(iconfeedback && (model.dirty || model.touched) && !model.valid)\" class=\"fa fa-times icon-error\"></em>\n      </div>\n  \n      <dropdown-list-item [@changeState]=\"dropdownstyle.visibility\" class=\"dropdown\" [ngStyle]=\"dropdownstyle\"  \n                          [data]=\"viewdata\" [display-field]=\"displayfield\" [value-field]=\"valuefield\" \n                          [highlight-row]=\"rowindex\" [display-value]=\"displayValue\" \n                          (itemclick)=\"onDropDownListItemClick($event)\">\n      </dropdown-list-item>\n    </div>\n  ",
                     animations: [
                         trigger('changeState', [
                             state('visible', style({
@@ -51340,6 +51537,34 @@ var AmexioInputHelperComponent = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
+var AmexioAccordionHeaderComponent = /** @class */ (function () {
+    function AmexioAccordionHeaderComponent() {
+    }
+    /**
+     * @return {?}
+     */
+    AmexioAccordionHeaderComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    AmexioAccordionHeaderComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-accordion-header', template: "\n    <ng-content></ng-content>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    AmexioAccordionHeaderComponent.ctorParameters = function () { return []; };
+    AmexioAccordionHeaderComponent.propDecorators = {
+        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
+    };
+    return AmexioAccordionHeaderComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
 /*
 * Copyright [2019] [Metamagic]
 *
@@ -51381,6 +51606,21 @@ var AmexioAccordionTabComponent = /** @class */ (function () {
     function () {
         this.componentId = '' + Math.floor(Math.random() * 1000 + 999);
         this.emittedEvent.emit({ keydown: true, current: this });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioAccordionTabComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        setTimeout(function () {
+            _this.accordionHeaderData = _this.amexioAccHeader.toArray();
+            if (_this.accordionHeaderData && _this.accordionHeaderData.length > 0) {
+                _this.headerPresent = true;
+            }
+        }, 500);
     };
     /**
      * @return {?}
@@ -51439,10 +51679,19 @@ var AmexioAccordionTabComponent = /** @class */ (function () {
     function (themeClass) {
         this.themeCss = themeClass;
     };
+    /**
+     * @return {?}
+     */
+    AmexioAccordionTabComponent.prototype.changeHeaderColor = /**
+     * @return {?}
+     */
+    function () {
+        this.gradientFlag = true;
+    };
     AmexioAccordionTabComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-accordion-tab',
-                    template: "\n    <button #btn [ngClass]=\"themeCss\" role=\"button\" id=\"{{componentId}}\" tabindex=\"0\" (click)=\"emitEvent()\" [attr.aria-expanded]=\"active\"\n      (keyup.enter)=\"onEnterClick()\" (keyup.arrowdown)=\"onArrowDown()\" (keyup.arrowup)=\"onArrowUp()\" class=\"{{isTransparent ? 'accordion-transparent' : 'accordion'}} {{active ? 'active-accordion' : ''}} {{disabled ? 'accordion-disable' : ''}}\"\n      (mouseover)=\"hover=true\" (mouseleave)=\"hover=false\" [ngStyle]=\"{color: hover==true ? bgColor : color, backgroundColor: hover==true  ? color : bgColor}\">\n      <div style=\"float: left;\" *ngIf=\"leftIcon\">\n        <em class=\"fa {{leftIcon}}\"></em>\n      </div>\n      <ng-container>\n        {{header}}\n        <div style=\"float: right\" role=\"img\" aria-label=\"close push button\" tabindex=\"0\">\n          <ng-content select=\"amexio-accordion-header\">&nbsp;</ng-content> &nbsp;\n          <em *ngIf=\"!angleIcon\" class=\"fa\" [ngClass]=\"{'fa-plus' : !active,'fa-minus' : active}\" aria-hidden=\"true\"></em>\n          <em *ngIf=\"angleIcon\" class=\"fa\" [ngClass]=\"{'fa-angle-down' : !active,'fa-angle-up' : active}\" aria-hidden=\"true\"></em>\n        </div>\n      </ng-container>\n    </button>\n    <div role=\"region\" attr.aria-labelledby=\"{{componentId}}\" tabindex=\"0\" [@accordionState]=\"active ? 'visible':'hidden'\"\n      class=\"panel\">\n      <ng-content></ng-content>\n    </div>\n  ",
+                    template: "\n    <button #btn [ngClass]=\"themeCss\" role=\"button\" id=\"{{componentId}}\" tabindex=\"0\" (click)=\"emitEvent()\" [attr.aria-expanded]=\"active\"\n      (keyup.enter)=\"onEnterClick()\" (keyup.arrowdown)=\"onArrowDown()\" (keyup.arrowup)=\"onArrowUp()\" class=\"{{isTransparent ? 'accordion-transparent' : 'accordion'}} {{active ? 'active-accordion' : ''}} {{disabled ? 'accordion-disable' : ''}}\"\n      (mouseover)=\"hover=true\" (mouseleave)=\"hover=false\" [ngStyle]=\"{color: hover==true ? bgColor : color, backgroundColor: hover==true  ? color : bgColor}\">\n      <div style=\"float: left;\" *ngIf=\"leftIcon\">\n        <em class=\"fa {{leftIcon}}\"></em>\n      </div>\n      <ng-container>\n       <span [ngStyle]=\"{'color': gradientFlag ? 'white':''}\">{{header}}</span> \n        <div [ngStyle]=\"{'color': gradientFlag ? 'black':''}\" style=\"float: right\" role=\"img\" aria-label=\"close push button\" tabindex=\"0\">\n          <ng-content select=\"amexio-accordion-header\">&nbsp;</ng-content> &nbsp;\n          <em *ngIf=\"!angleIcon\" class=\"fa\" [ngClass]=\"{'fa-plus' : !active,'fa-minus' : active}\" aria-hidden=\"true\"></em>\n          <em *ngIf=\"angleIcon\" class=\"fa\" [ngClass]=\"{'fa-angle-down' : !active,'fa-angle-up' : active}\" aria-hidden=\"true\"></em>\n        </div>\n      </ng-container>\n    </button>\n    <div role=\"region\" attr.aria-labelledby=\"{{componentId}}\" tabindex=\"0\" [@accordionState]=\"active ? 'visible':'hidden'\"\n      class=\"panel\">\n      <ng-content></ng-content>\n    </div>\n  ",
                     animations: [
                         trigger('accordionState', [
                             state('hidden', style({
@@ -51469,7 +51718,8 @@ var AmexioAccordionTabComponent = /** @class */ (function () {
         angleIcon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['angle-icon',] }],
         disabled: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['disabled',] }],
         data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['data',] }],
-        btn: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['btn',] }]
+        btn: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['btn',] }],
+        amexioAccHeader: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioAccordionHeaderComponent,] }]
     };
     return AmexioAccordionTabComponent;
 }());
@@ -51677,34 +51927,6 @@ var AmexioAccordionComponent = /** @class */ (function (_super) {
     };
     return AmexioAccordionComponent;
 }(LifeCycleBaseComponent));
-
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
-var AmexioAccordionHeaderComponent = /** @class */ (function () {
-    function AmexioAccordionHeaderComponent() {
-    }
-    /**
-     * @return {?}
-     */
-    AmexioAccordionHeaderComponent.prototype.ngOnInit = /**
-     * @return {?}
-     */
-    function () {
-    };
-    AmexioAccordionHeaderComponent.decorators = [
-        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-accordion-header', template: "\n    <ng-content></ng-content>\n  ",
-                },] },
-    ];
-    /** @nocollapse */
-    AmexioAccordionHeaderComponent.ctorParameters = function () { return []; };
-    AmexioAccordionHeaderComponent.propDecorators = {
-        padding: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
-    };
-    return AmexioAccordionHeaderComponent;
-}());
 
 /**
  * @fileoverview added by tsickle
@@ -52196,7 +52418,19 @@ var AmexioCardComponent = /** @class */ (function (_super) {
      * @return {?}
      */
     function () {
+        var _this = this;
         _super.prototype.ngOnInit.call(this);
+        this.polarideStyleMap = new Map();
+        this.polarideStyleMap.set('tilted-minus-2-degree', 'card-container-pol-styl');
+        this.polarideStyleMap.set('tilted-2-degree', 'card-container-pol-styl2');
+        this.polarideStyleMap.set('tilted-4-degree', 'card-container-pol-styl3');
+        this.polarideStyleMap.set('tilted-minus-4-degree', 'card-container-pol-styl4');
+        this.polarideStyleMap.forEach(function (ele, key) {
+            if (key === _this.styletype) {
+                _this.tempPolaride = ele;
+            }
+        });
+        return 'this.tempPolaide';
     };
     /**
      * @return {?}
@@ -52394,7 +52628,7 @@ var AmexioCardComponent = /** @class */ (function (_super) {
     AmexioCardComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-card',
-                    template: "\n    <div #id class=\"card-container\" *ngIf=\"show\" (window:resize)=\"onResize()\" (contextmenu)=\"loadContextMenu({event:$event,ref:id})\">\n        <header #cardHeader [ngClass]=\"themeCss\" [style.padding]=\"headerPadding\" class=\"card-header\" *ngIf=\"header\"\n         [ngClass]=\"{'flex-start':(headeralign=='left'),'flex-end':(headeralign=='right'),'flex-center':(headeralign=='center')}\">\n            <ng-content style=\"background: yellow\" select=\"amexio-header\"></ng-content>\n        </header>\n        <div class=\"card-body cardbody\" [style.padding]=\"bodyPadding\"\n         [ngStyle]=\"{'height.px' : height,'overflow-y' : height!= null ? 'auto' : '','min-height.px' : minHeight}\">\n            <ng-content select=\"amexio-body\"></ng-content>\n        </div>\n        <footer #cardFooter [style.padding]=\"footerPadding\" class=\"card-footer\" *ngIf=\"footer\"\n         [ngClass]=\"{'flex-start':(footeralign=='left'),'flex-end':(footeralign=='right'),'flex-center':(footeralign=='center')}\">\n            <ng-content select=\"amexio-action\"></ng-content>\n        </footer>\n    </div>\n\n    <ng-container *ngIf=\"flag\">\n        <base-contextmenu \n        [base-context-menu]=\"contextmenu\" \n        [mouse-location-top]=\"mouseLocation.top\"\n        [mouse-location-left]=\"mouseLocation.left\" \n        [is-FlagShow]=\"flag\" \n        [right-click-data]=\"nodeRightClick\"\n        (onRightClick) =\"rightClickDataEmit($event)\"\n        [position-up]=\"posixUp\">\n        </base-contextmenu>\n    </ng-container>\n  ",
+                    template: "\n    <div #id class=\"card-container\" *ngIf=\"show\" (window:resize)=\"onResize()\" \n    (contextmenu)=\"loadContextMenu({event:$event,ref:id})\" [ngClass]=\"tempPolaride\">\n        <header #cardHeader [ngClass]=\"themeCss\" [style.padding]=\"headerPadding\" class=\"card-header\" *ngIf=\"header\"\n         [ngClass]=\"{'flex-start':(headeralign=='left'),'flex-end':(headeralign=='right'),'flex-center':(headeralign=='center')}\">\n            <ng-content select=\"amexio-header\"></ng-content>\n        </header>\n        <div class=\"card-body cardbody\" [style.padding]=\"bodyPadding\"\n         [ngStyle]=\"{'height.px' : height,'overflow-y' : height!= null ? 'auto' : '','min-height.px' : minHeight}\">\n            <ng-content select=\"amexio-body\"></ng-content>\n        </div>\n        <footer #cardFooter [style.padding]=\"footerPadding\" class=\"card-footer\" *ngIf=\"footer\"\n         [ngClass]=\"{'flex-start':(footeralign=='left'),'flex-end':(footeralign=='right'),'flex-center':(footeralign=='center')}\">\n            <ng-content select=\"amexio-action\"></ng-content>\n        </footer>\n    </div>\n\n    <ng-container *ngIf=\"flag\">\n        <base-contextmenu \n        [base-context-menu]=\"contextmenu\" \n        [mouse-location-top]=\"mouseLocation.top\"\n        [mouse-location-left]=\"mouseLocation.left\" \n        [is-FlagShow]=\"flag\" \n        [right-click-data]=\"nodeRightClick\"\n        (onRightClick) =\"rightClickDataEmit($event)\"\n        [position-up]=\"posixUp\">\n        </base-contextmenu>\n    </ng-container>\n  ",
                 },] },
     ];
     /** @nocollapse */
@@ -52411,6 +52645,7 @@ var AmexioCardComponent = /** @class */ (function (_super) {
         minHeight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['min-height',] }],
         bodyheight: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['body-height',] }],
         contextmenu: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['context-menu',] }],
+        styletype: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['polaroid-type',] }],
         parentRef: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
         nodeRightClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
         rightClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
@@ -52910,7 +53145,6 @@ var AmexioGridComponent = /** @class */ (function () {
                 this.cssGenerationCommonMethod(layoutData, this.tabletWidth, GridConstants.Desktop);
             }
             else {
-                this.cssGenerationCommonMethod(layoutData, this.tabletWidth, GridConstants.Desktop);
                 this.cssGenerationCommonMethod(layoutData, this.tabletWidth, GridConstants.Tablet);
             }
             if (layoutData.mobile.length === 0 && layoutData.tab.length === 0) {
@@ -54160,6 +54394,162 @@ var OverlayContainerComponent = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
+var PanelItemComponent = /** @class */ (function () {
+    function PanelItemComponent() {
+        this.activePane = 'left';
+        this.childPanelClicked = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
+        this.isSwipeTriggered = false;
+        this.hasContent = false;
+        this.showrow = true;
+        this.showngcontent = false;
+        this.clicked = false;
+    }
+    /**
+     * @return {?}
+     */
+    PanelItemComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+        console.log('showrow', this.showrow);
+    };
+    /**
+     * @return {?}
+     */
+    PanelItemComponent.prototype.ngAfterViewInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @return {?}
+     */
+    PanelItemComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        this.hasContent = this.tref.nativeElement.childNodes.length > 0;
+    };
+    /**
+     * @param {?} event
+     * @return {?}
+     */
+    PanelItemComponent.prototype.onPanelClick = /**
+     * @param {?} event
+     * @return {?}
+     */
+    function (event) {
+        if (this.hasContent) {
+            this.isSwipeTriggered = true;
+            this.clicked = true;
+            this.childPanelClicked.emit(this.title);
+        }
+    };
+    PanelItemComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-panel-item',
+                    template: "\n      <div [@slide]=\"!showrow ? 'right' : ''\">\n\n          <ng-container *ngIf=\"showrow\">\n            <div style=\"cursor: pointer\" (click)=\" onPanelClick($event)\">\n              <div class=\"panelitemrow\" >\n                <span style=\"padding-right: 5px;\" *ngIf=\"icon\">\n                  <amexio-c-icon [customclass]=\"icon\" [label]=\"title\">\n                  </amexio-c-icon>\n                </span>\n                <span *ngIf=\"!icon\">\n                  {{title}}\n                </span>\n                <span *ngIf=\"hasContent\" style=\"float:right;padding-right:2%\">\n                  <amexio-c-icon [customclass]=\"'fa fa-arrow-right'\">\n                  </amexio-c-icon>\n                </span>\n              </div>\n  \n            </div>\n          </ng-container>\n  \n        </div>\n           <div [@slide]=\"!showngcontent ? 'left' : ''\" #tref [ngStyle]=\"{'display':showngcontent ? 'block': 'none'}\">\n  \n            <ng-content>\n  \n            </ng-content>\n          </div>\n  \n   \n    ",
+                    animations: [
+                        trigger('slide', [
+                            state('left', style({ transform: 'translateX(100%)' })),
+                            state('right', style({ transform: 'translateX(-100%)' })),
+                            transition('* => *', animate(500)),
+                        ]),
+                    ],
+                },] },
+    ];
+    /** @nocollapse */
+    PanelItemComponent.ctorParameters = function () { return []; };
+    PanelItemComponent.propDecorators = {
+        activePane: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        icon: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        title: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        tref: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['tref', { read: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },] }],
+        childPanelClicked: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }]
+    };
+    return PanelItemComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+var SlidingPanelComponent = /** @class */ (function () {
+    function SlidingPanelComponent() {
+        this.showbackarrow = false;
+    }
+    /**
+     * @return {?}
+     */
+    SlidingPanelComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @return {?}
+     */
+    SlidingPanelComponent.prototype.ngAfterContentInit = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.ChildPanelSlidersCollection = this.queryTabs.toArray();
+        this.ChildPanelSlidersCollection.forEach(function (node) {
+            return node.childPanelClicked.subscribe(function (title) { return _this.onPaneClick(title); });
+        });
+    };
+    /**
+     * @return {?}
+     */
+    SlidingPanelComponent.prototype.restorePanelState = /**
+     * @return {?}
+     */
+    function () {
+        this.ChildPanelSlidersCollection.forEach(function (node) {
+            node.showrow = true;
+            node.showngcontent = false;
+        });
+        this.showbackarrow = false;
+    };
+    /**
+     * @param {?} title
+     * @return {?}
+     */
+    SlidingPanelComponent.prototype.onPaneClick = /**
+     * @param {?} title
+     * @return {?}
+     */
+    function (title) {
+        this.showbackarrow = true;
+        this.ChildPanelSlidersCollection.forEach(function (node) {
+            if (node.title === title) {
+                node.showrow = false;
+                node.showngcontent = true;
+            }
+            else {
+                node.showrow = false;
+                node.showngcontent = false;
+            }
+        });
+    };
+    SlidingPanelComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'amexio-sliding-panel',
+                    template: "\n      <div>\n          <div *ngIf=\"header && !showbackarrow\" class=\"panelheader\" style=\"font-weight: bold\">\n              {{header}}\n          </div>\n          <div *ngIf=\"showbackarrow\" class=\"panelheader\">\n              <span style=\"cursor:pointer\" (click)=\"restorePanelState()\">\n                  <amexio-c-icon [customclass]=\"'fa fa-arrow-left'\">\n                  </amexio-c-icon>\n              </span>\n          </div>\n          <ng-content select=\"amexio-panel-item \">\n\n          </ng-content>\n      </div>\n    ",
+                },] },
+    ];
+    SlidingPanelComponent.propDecorators = {
+        header: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        queryTabs: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [PanelItemComponent,] }]
+    };
+    return SlidingPanelComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
 var PANE_COMPONENTS = [
     AmexioHeaderComponent,
     AmexioFooterComponent,
@@ -54188,6 +54578,8 @@ var PANE_COMPONENTS = [
     AmexiotimelineComponent,
     AmexiotimelineeventComponent,
     OverlayContainerComponent,
+    PanelItemComponent,
+    SlidingPanelComponent,
 ];
 var AmexioPaneModule = /** @class */ (function () {
     function AmexioPaneModule() {
@@ -54579,6 +54971,8 @@ var AmexioCarouselCEComponent = /** @class */ (function () {
  */
 var AmexioMenuCEComponent = /** @class */ (function () {
     function AmexioMenuCEComponent() {
+        this.font = 'Titillium Web';
+        this.position = 'left';
         this.menuAlignment = 'left';
     }
     /**
@@ -54598,17 +54992,18 @@ var AmexioMenuCEComponent = /** @class */ (function () {
     AmexioMenuCEComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-menu-ce',
-                    template: "\n    <div class=\"content\">\n      <div *ngFor=\"let node of data\" [ngClass]='animatedClass' [ngStyle]=\"{'text-align': menuAlignment}\">\n        <a style=\"text-decoration: none;\" href=\"#\" (mouseover)=\"node.hover=true\" (mouseleave)=\"node.hover=false\" [ngStyle]=\"{'font-family':font, 'font-size': size+'px'}\">{{node.label}}</a>\n      </div>\n    </div>\n  ",
+                    template: "\n    <div \n    [ngClass]=\"{textLeftPosition: (position == 'left'),\n     textRightPosition: (position == 'right'), \n     textCenterPosition: (position == 'center')}\">\n        <div *ngFor=\"let node of data\" \n        [ngClass]='animatedClass'\n        [ngStyle]=\"{'text-align': menuAlignment}\">\n        <a style=\"text-decoration: none;\" href=\"#\"\n        (mouseover)=\"node.hover=true\" \n        (mouseleave)=\"node.hover=false\"\n        [ngStyle]=\"{'font-family':font, 'font-size': size+'px'}\"\n        >{{node.label}}</a>\n      </div>\n    </div>\n  ",
                 },] },
     ];
     /** @nocollapse */
     AmexioMenuCEComponent.ctorParameters = function () { return []; };
     AmexioMenuCEComponent.propDecorators = {
         data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
-        font: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        font: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['font',] }],
         size: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
         color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
         type: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['animation-type',] }],
+        position: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['menu-positioning',] }],
         menuAlignment: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['menu-alignment',] }]
     };
     return AmexioMenuCEComponent;
@@ -55447,6 +55842,7 @@ var AmexioCardCEComponent = /** @class */ (function (_super) {
      * @return {?}
      */
     function () {
+        var _this = this;
         if (!this.color) {
             this.cclass = 'card-container-ce-color';
         }
@@ -55455,6 +55851,17 @@ var AmexioCardCEComponent = /** @class */ (function (_super) {
         }
         this.setWiderAndNarrower();
         _super.prototype.ngOnInit.call(this);
+        this.polarideStyleMapCE = new Map();
+        this.polarideStyleMapCE.set('tilted-minus-2-degree', 'card-container-pol-styl');
+        this.polarideStyleMapCE.set('tilted-2-degree', 'card-container-pol-styl2');
+        this.polarideStyleMapCE.set('tilted-4-degree', 'card-container-pol-styl3');
+        this.polarideStyleMapCE.set('tilted-minus-4-degree', 'card-container-pol-styl4');
+        this.polarideStyleMapCE.forEach(function (ele, key) {
+            if (key === _this.transformType) {
+                _this.tempPolarideCE = ele;
+            }
+        });
+        return 'this.tempPolaideCE';
     };
     /**
      * @return {?}
@@ -55562,7 +55969,7 @@ var AmexioCardCEComponent = /** @class */ (function (_super) {
     AmexioCardCEComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-card-ce',
-                    template: "\n    <div style=\"height:100%;\" [ngStyle]=\"{'background': bgimage ? 'url(' + bgimage + ') center/cover no-repeat' : null}\" [ngClass]=\"cclass\">\n        <div class=\"card-container-ce\" [ngStyle]=\"{'justify-content': (align === 'start' || align === 'end') ? 'flex-'+align:align , 'color':color, 'background': background}\">\n            <ng-content></ng-content>\n            <div>\n            </div>\n  ",
+                    template: "\n    <div style=\"height:100%;\"  class=\"{{tempPolarideCE}}\" [ngStyle]=\"{'background': bgimage ? 'url(' + bgimage + ') center/cover no-repeat' : null}\" [ngClass]=\"cclass\">\n        <div class=\"card-container-ce\" [ngStyle]=\"{'justify-content': (align === 'start' || align === 'end') ? 'flex-'+align:align , 'color':color, 'background': background}\">\n            <ng-content></ng-content>\n            <div>\n            </div>\n  ",
                 },] },
     ];
     /** @nocollapse */
@@ -55574,6 +55981,7 @@ var AmexioCardCEComponent = /** @class */ (function (_super) {
         height: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['height',] }],
         align: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['align',] }],
         styleType: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['style-type',] }],
+        transformType: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['polaroid-type',] }],
         AmexioCardCEHeaderQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEHeaderComponent,] }],
         AmexioCardCEBodyQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEBodyComponent,] }],
         AmexioCardCEActionQueryList: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"], args: [AmexioCardCEActionComponent,] }]
@@ -57531,7 +57939,7 @@ var AmexioNavActionComponent = /** @class */ (function () {
     AmexioNavActionComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-nav-action',
-                    template: "\n    <a *ngIf=\"(type=='link')\" [ngStyle]=\"{'color':color}\" class=\"top-nav-link\"\n    (click)=\"onClick($event)\"><i *ngIf=\"icon\" [ngClass]=\"icon\"></i>{{title}}</a>\n\n    <button *ngIf=\"(type=='button')\" class=\"top-nav-button\" (click)=\"onClick($event)\">\n    <i *ngIf=\"icon\" style=\"padding-right:10px\" [ngClass]=\"icon\"></i>{{title}}</button>\n    <div  *ngIf=\"(type=='toggle')\" class=\"top-nav-button\">\n    <amexio-darkmode [size]=\"'small'\"></amexio-darkmode>\n    </div>\n    ",
+                    template: "\n    <a *ngIf=\"(type=='link')\" [ngStyle]=\"{'color':color}\" class=\"top-nav-link\"\n    (click)=\"onClick($event)\"><i *ngIf=\"icon\" [ngClass]=\"icon\"></i>{{title}}</a>\n\n    <button *ngIf=\"(type=='button')\" class=\"top-nav-button\" (click)=\"onClick($event)\">\n    <i *ngIf=\"icon\" style=\"padding-right:10px\" [ngClass]=\"icon\"></i>{{title}}</button>\n    <div  *ngIf=\"(type=='slider')\" style=\"width: 60px;\n    padding-bottom: 20px;\" class=\"top-nav-button\">\n    <amexio-darkmode [type]=\"2\"  [mode]=\"'sepia'\" [size]=\"'small'\"></amexio-darkmode>\n    </div>\n    <div  *ngIf=\"(type=='toggle')\" class=\"top-nav-button\">\n    <amexio-darkmode [type]=\"2\"  [mode]=\"'day-night'\" [size]=\"'small'\"></amexio-darkmode>\n    </div>\n    ",
                 },] },
     ];
     /** @nocollapse */
@@ -59377,6 +59785,7 @@ var AmexioDatagridComponent = /** @class */ (function () {
                 data.push({ expanded: false, isSelected: false, group: groupName, groupData: groups[groupName] });
             }
         }
+        this.data = data;
         /*-------Aggregation---------*/
         this.renderData();
         this.cd.detectChanges();
@@ -65212,7 +65621,6 @@ var ColorPaletteDirective = /** @class */ (function () {
      * @return {?}
      */
     function () {
-        var _this = this;
         this.themejson = [
             {
                 themeName: 'amexio-theme-color1',
@@ -65266,18 +65674,15 @@ var ColorPaletteDirective = /** @class */ (function () {
         else if (this.colorPalette !== 'classic' && this.colorPalette !== 'vibrant' && this.colorPalette !== 'random' && this.gradient) {
             this.hostComponent.setColorPalette(this.colorPalette + '-Gradient');
         }
-        if (this.colorPalette === 'vibrant' && !this.gradient) {
-            setTimeout(function () {
-                _this.getBGColorStyles(_this.hostComponent);
-            }, 1000);
-        }
-        else if (this.colorPalette === 'vibrant' && this.gradient) {
-            setTimeout(function () {
-                _this.getGradientStyles(_this.hostComponent);
-            }, 1000);
+        if (this.colorPalette === 'vibrant') {
+            this.vibrantThemeCall();
         }
         if (this.colorPalette === 'random') {
             this.randomThemeCall();
+        }
+        if ((this.hostComponent.amexioComponentId === ColorPaletteConstants.accordion ||
+            this.hostComponent.amexioComponentId === ColorPaletteConstants.panel) && this.gradient) {
+            this.hostComponent.changeHeaderColor();
         }
     };
     /**
@@ -65390,6 +65795,25 @@ var ColorPaletteDirective = /** @class */ (function () {
         else {
             var /** @type {?} */ randomIndex = Math.round(Math.random() * (this.themejson.length - 1));
             this.hostComponent.setColorPalette(this.gradientThemeJson[randomIndex].themeName);
+        }
+    };
+    /**
+     * @return {?}
+     */
+    ColorPaletteDirective.prototype.vibrantThemeCall = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        if (!this.gradient) {
+            setTimeout(function () {
+                _this.getBGColorStyles(_this.hostComponent);
+            }, 1000);
+        }
+        else if (this.gradient) {
+            setTimeout(function () {
+                _this.getGradientStyles(_this.hostComponent);
+            }, 1000);
         }
     };
     ColorPaletteDirective.decorators = [
