@@ -42856,7 +42856,7 @@ var CompanyLogoComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\"  [body-height]=\"33\">\n  <amexio-body>\n    <amexio-property-grid [key-value-data]=\"customerKeyValuedata\">\n    </amexio-property-grid>\n    <ng-container *ngIf=\"badge != null\" >\n      <amexio-badge [absolute]=\"true\" [background]=\"'red'\" [color]=\"'white'\" [bottom]=\"'0px'\" [right]=\"'0px'\">\n        <amexio-label size=\"medium-bold\">{{badge}}</amexio-label>\n      </amexio-badge>\n    </ng-container>\n  </amexio-body>\n</amexio-card>\n\n<!--<amexio-window\n[(show)]=\"enableWindow\"\n[close-on-escape]=\"true\"\n[material-design]=\"true\"\n[width]=\"'70%'\">\n<amexio-header>\n  <b>{{'Open Service Requests' | uppercase}}</b>\n</amexio-header>\n<amexio-body>\n  <ng-template #custDynamic></ng-template>\n</amexio-body>\n</amexio-window>-->\n\n\n\n<amexio-window\n  [(show)]=\"enableWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'70%'\">\n  <amexio-header>\n    <b>{{'Alert' | uppercase}}</b>\n  </amexio-header>\n  <amexio-body>\n    <ng-template #custDynamic></ng-template>\n  </amexio-body>\n</amexio-window>\n\n\n<amexio-dialogue [(show)]=\"errordialoguematerial\"\n               [close-on-escape]=\"true\"\n               [material-design]=\"true\"\n               [message]=\"errorMsg\"\n               [primary-action-label]=\"'Ok'\"\n               [title]=\"'Error'\"\n               [message-type]=\"'error'\"\n               [type]=\"'alert'\">\n</amexio-dialogue>\n"
+module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\"  [body-height]=\"33\">\n  <amexio-body>\n    <amexio-property-grid [key-value-data]=\"customerKeyValuedata\">\n    </amexio-property-grid>\n    <ng-container *ngIf=\"badge != null\" >\n      <amexio-badge [absolute]=\"true\" [background]=\"'red'\" [color]=\"'white'\" [bottom]=\"'0px'\" [right]=\"'0px'\">\n        <amexio-label size=\"medium-bold\">{{badge}}</amexio-label>\n      </amexio-badge>\n    </ng-container>\n  </amexio-body>\n</amexio-card>\n\n<!--<amexio-window\n[(show)]=\"enableWindow\"\n[close-on-escape]=\"true\"\n[material-design]=\"true\"\n[width]=\"'70%'\">\n<amexio-header>\n  <b>{{'Open Service Requests' | uppercase}}</b>\n</amexio-header>\n<amexio-body>\n  <ng-template #custDynamic></ng-template>\n</amexio-body>\n</amexio-window>-->\n\n\n\n<amexio-window\n  [(show)]=\"enableWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'70%'\">\n  <amexio-header>\n    <b>{{windowHeaderName | uppercase}}</b>\n  </amexio-header>\n  <amexio-body>\n    <ng-template #custDynamic></ng-template>\n  </amexio-body>\n</amexio-window>\n\n\n<amexio-dialogue [(show)]=\"errordialoguematerial\"\n               [close-on-escape]=\"true\"\n               [material-design]=\"true\"\n               [message]=\"errorMsg\"\n               [primary-action-label]=\"'Ok'\"\n               [title]=\"'Error'\"\n               [message-type]=\"'error'\"\n               [type]=\"'alert'\">\n</amexio-dialogue>\n"
 
 /***/ }),
 
@@ -42920,6 +42920,7 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
         this.enableWindow = false;
         this.errordialoguematerial = false;
         this.errorMsg = '';
+        this.windowHeaderName = 'Open Service Requests';
         this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_4__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_5__["fromShell"].getCustomerInfo)).subscribe(function (custInfo) {
             _this.updateCustomerProfileStructure(custInfo);
         });
@@ -42953,6 +42954,9 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
                         setTimeout(function () {
                             var data = _this._CFService.createComponentFactory(res.response.metadata);
                             _this.enableWindow = true;
+                            if (call.callUrl == 'openservicerequestnew') {
+                                _this.windowHeaderName = 'alert';
+                            }
                             _this.workflowDynamicRef.clear();
                             data.forEach(function (f) {
                                 var componentRef = _this.workflowDynamicRef.createComponent(f.componentFactory);
@@ -43520,6 +43524,8 @@ var TopRightComponent = /** @class */ (function () {
             this.store.dispatch(new src_app_home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_4__["SearchInfo"]({}));
             this.store.dispatch(new src_app_home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_4__["SelectedProductInfo"]({}));
             this.store.dispatch(new src_app_home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_4__["ErrorInfo"]({ errorMsg: '' }));
+            this._SDService.hotdealIcon = false;
+            this._SDService.handshakeIcon = false;
             this._router.navigate(['login']);
             this.changeTheme();
         }
