@@ -1,0 +1,23 @@
+
+
+
+{
+  "success": true,
+  "successMessage": "data loaded successfully",
+  "successCode": "success",
+  "errorMessage": null,
+  "errorCode": null,
+  "errors": null,
+  "response":
+[
+ {
+        "network": "STORE",
+      "checked": true
+    },
+    {
+      "network": "WIFI HOTSPOT",
+      "checked": true
+    }
+]
+
+}

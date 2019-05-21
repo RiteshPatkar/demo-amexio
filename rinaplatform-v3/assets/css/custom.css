@@ -1,0 +1,85 @@
+.alfahim-root-window {
+ background: rgba(128, 127, 127, 0.6);
+ height: 100%;
+ width: 100%;
+ overflow: auto;
+ position: fixed;
+ z-index: 1000;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ top: 0;
+ left:0;
+ position: fixed;
+}
+.amexio-root-window{
+    z-index:1000 !important;
+}
+.alfahim-root-window > div{
+ display: flex; flex-direction: row; justify-content: center;
+}
+
+.alfahim-root-window-inner{
+ height: auto; width: 100%;
+}
+
+.alfahim-root-window-content {
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: start;
+ height: auto;
+ min-width: 50%;
+ width: auto;
+ max-width: 80%;
+}
+
+.inputgroup > label {
+ margin-bottom: unset;
+}
+
+.alfahim-root-window-content> existing-customer {
+ width: 100%;
+ height: 100%;
+}
+
+ 
+
+.alfahimstepbox{
+ display: flex; flex-direction: row; justify-content: space-evenly; position: relative;
+
+}
+
+.alfahimstepbox:before {
+ background-color:lightgray;
+ top: 50%;
+ bottom: 0;
+ position: absolute;
+ content: " ";
+ width: 100%;
+ height: 1px;
+ z-index: 0;
+}
+
+.alfahimstepboxitems{
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ padding: 10px;
+ border-radius: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ font-size : 2em;
+}
+
+.alfahimstepboxitems-active{
+ color: black;
+}
+
+.alfahimstepboxitems-deactive{
+ color: lightgray;
+}
+
+ 

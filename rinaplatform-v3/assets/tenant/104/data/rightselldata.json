@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "successMessage": "data loaded successfully",
+  "successCode": "success",
+  "errorMessage": null,
+  "errorCode": null,
+  "errors": null,
+  "data": [
+    {
+      "plan": "Device Upgrade",
+      "plandescription": "There’s a device upgrade available for you. Since you are using Huawei, there’s a new 5G compatible device that’s just right for you!",
+      "offerdescription": "Huawei Mate 20 Pro: The most charismatic flagship from Huawei!",
+      "icon": "assets/images/phone.jpg",
+      "free": "Free Shipping",
+      "premium": "",
+      "hook": "",
+      "hookdata": [
+        "Great cameras: 40MP rear camera; 24MP selfie camera",
+        "Enticing design and display: 6.39 inchesOLED display",
+        "Reliable Performance: 6GB RAM, 128GB Internal storage",
+        "Long lasting battery life: 4200mAh",
+        "Blazing fast supercharging"
+      ],
+      "rebuttaldata": "If you go upgrade your device with the current plan, you get a discount of P5,000 on the MRP",
+      "entertainmentplandata": "If you go upgrade your device and your plan to ThePLAN 1999, you get a discount of P8,000 on the MRP",
+      "rebutdes": ""
+    },
+    {
+      "plan": "The PLAN 1799",
+      "plandescription": "with FREE P200 Jamba Juice Gift Card",
+      "offerdescription": "This plan comes with the data plan that'll go with your lifestyle and usage. The 19GB mobile data allows you to keep up with a hectic schedule. This is the recommended line-only plan for you!",
+      "icon": "assets/images/img.jpeg",
+      "free": "Free SIM Card Shipping",
+      "premium": "Spotify Premium (1GB allocation per month for 3 months)",
+      "hook": "With Call and Data Plan, you get:",
+      "hookdata": [
+        "19GB Mobile Internet",
+        "Unli All-Net Text",
+        "Unli Calls to TE/TM",
+        "6 months contract period"
+      ],
+      "rebuttaldata": "If you go for an All Data plan, you get 24GB Mobile Internet",
+      "entertainmentplandata": "If you go for an Entertainment plan, you get 20GB Mobile Internet;",
+      "rebutdes": "You also get 10 GB of extra entertainment (extra data to stream and download videos from within streaming apps you’re subscribed to like YouTube, Netflix, Tribe, HOOQ, Cartoon Network, and DisneyLife)"
+    },
+    {
+      "plan": "The PLAN 1999",
+      "plandescription": "with FREE P200 Jamba Juice Gift Card",
+      "offerdescription": "Everything from your social life to your work:Stay updated on your favorite shows and stream new episodes at home or on your commute! Get an additional 21GB data on top of all offers.",
+      "icon": "assets/images/img.jpeg",
+      "free": "Free SIM Card Shipping",
+      "premium": "Spotify Premium (1GB allocation per month for 3 months)",
+      "hook": "With Call and Data Plan, you get:",
+      "hookdata": [
+        "19GB Mobile Internet",
+        "Unli All-Net Text",
+        "Unli Calls to TE/TM",
+        "6 months contract period"
+      ],
+      "rebuttaldata": "If you go for an All Data plan, you get 26GB Mobile Internet",
+      "rebutdes": "You also get 10 GB of extra entertainment (extra data to stream and download videos from within streaming apps you’re subscribed to like YouTube, Netflix, Tribe, HOOQ, Cartoon Network, and DisneyLife)",
+      "entertainmentplandata": "If you go for an Entertainment plan, you get 22GB Mobile Internet; "
+    }
+  ]
+}

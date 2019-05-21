@@ -1,0 +1,55 @@
+{
+  "response": {
+    "name":"Rachql",
+    "image":"assets/images/reaward.png",
+    "pointimage":"assets/images/pointimage.png",
+    "points": [
+      {
+        "task": "Plan Upgrades",
+        "total": "5",
+        "dailyPoints": "250",
+        "monthlyPoints": "1100"
+      },
+     {
+        "task": "Handset Sale",
+        "total": "1",
+        "dailyPoints": "400",
+        "monthlyPoints": "400"
+      },
+      {
+        "task": "New Service Activation",
+        "total": "10",
+        "dailyPoints": "250",
+        "monthlyPoints": "1800"
+      }
+    ],
+    "dailyLeadBoard1":[
+      {
+        "name":"Adam",
+        "points":"1250 Points"
+      },
+      {
+        "name":"Jenny",
+        "points":"1200 Points"
+      },
+      {
+        "name":"Hugh",
+        "points":"1200 Points"
+      }
+      ],
+     "dailyLeadBoard2":[
+      {
+        "name":"Abdul",
+        "points":"1150 Points"
+      },
+      {
+        "name":"Elaine",
+        "points":"1150 Points"
+      },
+      {
+        "name":"Blake",
+        "points":"1100 Points"
+      }
+      ]
+  }
+}

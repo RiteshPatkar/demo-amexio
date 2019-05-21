@@ -1,0 +1,32 @@
+{
+    "response":{
+    "tenantId": 104,
+    "mobileNo": "639157169206",
+    "type": "customerdemographics",
+    "data": {
+        "customerId": "72795720-67b0-4f0c-a9ca-3caa1355622b",
+        "customerNo": "83085294",
+        "status": "Active",
+        "name": "Mr. John Doe ",
+        "firstName": "Mr. John",
+        "lastName": "Doe",
+        "mobile": "+63 915 716 9206",
+        "operatingStatus": "Active",
+        "email": "johndoe554@gmail.com",
+        "altNumber": "+63 999 999 9999",
+        "profileImageUrl": "assets/images/169281.png",
+        "addressLabel": "101 Dela Rosa Street, Legazpi Village, Makati ",
+        "address": {
+            "addressLine1": "101",
+            "addressLine2": "Dela Rosa Street",
+            "city": "Legazpi Village",
+            "state": "Makati",
+            "country": "Philippines",
+            "postCode": ""
+        },
+        "type": "4",
+        "primaryKey": "72795720-67b0-4f0c-a9ca-3caa1355622b",
+        "primaryDisplay": "Mr. John Doe"
+    }
+}
+}

@@ -1,0 +1,47 @@
+{
+  "response": {
+    "tenantId": "",
+    "mobileNo": "",
+    "type": "",
+    "handset": [
+      {
+        "handsetname": "Iphone X"
+      }
+    ],
+    "operatingsystem": [
+      {
+        "operatingsystemname": "ios 11"
+      }
+    ],
+    "brands": [
+      {
+        "brands": "Apple Iphone XR(64 GB)"
+      }
+    ],
+    "dataspeed": [
+      {
+        "dataspeed": "19.35 mbps"
+      }
+    ],
+    "price": [
+      {
+        "price": "73,500"
+      }
+    ],
+    "handsetdata": [
+      {
+        "handsetmodelname": "Apple Iphone X",
+        "handsetmodeldesc": "(Space Grey, 3GB RAM, 64 GB Storage)",
+        "handsetimage": "assets/images/iphonex.png",
+        "gridname": "PLAN BREAKDOWN",
+        "propertygriddata":{
+          "monthlyfee":"P1,499.00",
+          "onetimecashout":"P32,400.00",
+          "total":"P33,899.00"
+        },
+        "color":"Space Grey",
+        "sizename":"64GB"
+      }
+    ]
+  }
+}

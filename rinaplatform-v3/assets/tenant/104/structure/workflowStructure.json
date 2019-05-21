@@ -1,0 +1,85 @@
+{
+    "tenantId": 104,
+    "type": "workflow",
+    "metadata": {
+      "workflow": [
+        {
+          "workflowName": "CHANGE BILLING ADDRESS",
+          "disabled": true,
+          "type": "CBA",
+          "workflowId": "CBA",
+          "workflowDataUrl": "changebillingaddress"
+        },
+        {
+          "workflowName": "CHANGE BILLING CYCLE",
+          "disabled": true,
+          "type": "CBC",
+          "workflowId": "CBC",
+          "workflowDataUrl": "changebillingcycle"
+        },
+        {
+          "workflowName": "CHANGE BILLING PREFERANCE",
+          "disabled": true,
+          "type": "CBP",
+          "workflowId": "CBP",
+          "workflowDataUrl": "changebiilingpreferance"
+        },
+        {
+          "workflowName": "PROMISE TO PAY  ",
+          "disabled": true,
+          "type": "PTP",
+          "workflowId": "PTP",
+          "workflowDataUrl": "promisetopay"
+        },
+        {
+          "workflowName": "SIM PROFILE",
+          "disabled": true,
+          "type": "SP",
+          "workflowId": "SP",
+          "workflowDataUrl": "simprofile"
+        },
+        {
+          "workflowName": "TEMPORARY CREDIT LIMIT",
+          "disabled": true,
+          "type": "TCL",
+          "workflowId": "TCL",
+          "workflowDataUrl": "temporarycreditlimit"
+        },
+          {
+          "workflowName": "MI ACTIVATION / DEACTIVATION",
+          "disabled": true,
+          "type": "MIAD",
+          "workflowId": "MIAD",
+          "workflowDataUrl": "miactivation"
+        },
+        {
+          "workflowName": "VAS ACTIVATION / DEACTIVATION ",
+          "disabled": true,
+          "type": "VAD",
+          "workflowId": "VAD",
+          "workflowDataUrl": "vasactivation"
+        },
+        {
+          "workflowName": "IR ACTIVATION / DEACTIVATION ",
+          "disabled": true,
+          "type": "IRAD",
+          "workflowId": "IRAD",
+          "workflowDataUrl": "iractivation"
+        },
+         {
+          "workflowName": "FUP PURCHASE",
+          "disabled": true,
+          "type": "WI",
+          "workflowId": "WI",
+          "workflowDataUrl": "waiver"
+        },
+        {
+          "workflowName": "NETWORK COVERAGE ",
+          "disabled": true,
+          "type": "NC",
+          "workflowId": "NC",
+          "workflowDataUrl": "networkcoverage"
+        }
+      ]
+    }
+  }

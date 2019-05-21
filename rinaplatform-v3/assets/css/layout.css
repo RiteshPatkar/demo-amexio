@@ -1,0 +1,193 @@
+/* You can add global styles to this file, and also import other style files */
+
+.input-box-checkbox-label{
+  background-color: var(--componentBGColor);
+}
+.card-container{
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 10px 0 rgba(0, 0, 0, 0.10);
+}
+/* 
+.card-container{
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 10px 0 rgba(0, 0, 0, 0.10);
+}
+  
+center-left > amexio-card > div > .card-body{
+  padding: 0px !important;
+}
+
+
+center-middle > amexio-card > div > .card-body{
+  padding: 0px !important;
+}
+
+center-right > amexio-card > div > .card-body{
+  padding: 0px !important;
+}
+
+company-logo .floatingbutton-circle{
+  padding: 15px;
+}
+
+customer-demo-graphic .card-body{
+  padding: 0px !important;
+  padding-left: 5px !important;
+}
+
+customer-demo-graphic .field-name-align{
+  padding: 0px;
+  vertical-align: top;
+  word-break: break-word;
+}
+ 
+amexio-grid-item {
+  padding: 0px !important; 
+  position: relative; 
+} */
+
+amexio-grid-item {
+  padding: 2px !important; 
+  position: relative; 
+}
+.griditemcontainer-body{
+  height: 100%;
+}
+
+customer-demo-graphic{
+  display: block;
+  height: 100%;
+  padding-bottom: 2px;
+}
+
+company-logo{
+  display: block;
+  height: 100%;
+  padding-bottom: 2px;
+  
+}
+
+company-logo > amexio-card > div > div{
+  overflow-y: hidden !important;
+}
+
+
+center-left > amexio-card > div > .card-body{
+  padding: 0px !important;
+}
+
+
+center-middle > amexio-card > div > .card-body{
+  padding: 0px !important;
+}
+
+center-right > amexio-card > div > .card-body{
+  padding: 0px !important;
+}
+
+company-logo .floatingbutton-circle{
+  padding: 15px;
+}
+
+customer-demo-graphic .card-body{
+  padding: 0px !important;
+  padding-left: 5px !important;
+}
+
+customer-demo-graphic .field-name-align{
+  padding: 0px;
+  vertical-align: top;
+  word-break: break-word;
+}
+ 
+
+products-panel{
+  display: block;
+  height: 100%;
+  padding-bottom: 2px;
+}
+
+top-right{
+  display: block;
+  padding-bottom: 2px;
+}
+
+center-right{
+  display: block;
+  padding-top: 2px;
+}
+
+
+center-right > amexio-card > div > .card-body{
+  padding: 0px !important;
+}
+
+.circularProgress {
+  margin: 0px !important;
+}
+
+.center-right{
+  position: absolute; 
+  top:40%; 
+  right:15px; 
+  cursor: pointer;
+}
+
+
+.previous{
+  position: absolute;
+  left: 0px;
+  top: 42%;
+  margin: 0px -10px;
+}
+
+.next{
+  position: absolute;
+  right: 0px;
+  top: 42%;
+  margin: 0px -10px;
+}
+
+.product-panel{
+  display: block; 
+  overflow: hidden; 
+  height: 100%;
+}
+
+.productspanel{
+  display: flex; 
+  flex-flow: row nowrap; 
+  position: relative;
+  height: 100%;
+}
+
+product-details{
+  padding-right: 5px;
+}
+
+product-details .card-body{
+  padding: 0px !important;
+  padding-left: 5px !important; 
+}  
+
+product-details .input-box-container{
+  margin-bottom: 0px;
+  margin-left: 5px;
+  padding-left: 30px;
+}
+ 
+product-details .field-name-align{
+  padding: 0px;
+  vertical-align: top;
+  word-break: break-word;
+}
+
+center-middle .tabcontent{
+  overflow-x: hidden;
+}
+
+base-tab-component  > amexio-layout-columns{
+  background-color : unset !important;
+}
+base-tab-component  > amexio-layout-columns > amexio-layout-item{
+  background-color : unset !important;
+}
+

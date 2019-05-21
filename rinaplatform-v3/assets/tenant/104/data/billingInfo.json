@@ -1,0 +1,25 @@
+{
+  "response": {
+    "tenantId": "",
+    "mobileNo": "",
+    "type": "",
+    "data": {
+      "billsummary": {
+        "billdate": "08/Mar-07/Apr/19",
+        "duedate": "27/Apr/19"
+      },
+      "previousbilling": {
+        "previousbalance": "P 1,478.09",
+        "paymentreceived": "P 1,478.09",
+        "adjustments": "P 0.00",
+        "currentcharges": "P 6,267.84"
+      },
+      "totalamountdue": "P 6,267.84",
+      "duebilling": {
+        "currentamountdue": "(P 6,267.84)",
+        "afterduedate": "(P 6,267.84)",
+        "unbilledamount": "P 0.00"
+      }
+    }
+  }
+}

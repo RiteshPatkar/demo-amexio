@@ -1,0 +1,31 @@
+{
+    "data": [{
+            "make": "Huawei",
+            "model": "Nova 3I",
+            "imei": "66889315",
+            "activationDate": "14 Jul 2018 11:37:38",
+            "tillDate": ""
+        },{
+            "make": "Apple",
+            "model": "iPhone 5S",
+            "imei": "35208607",
+            "activationDate": "14 Jul 2018 11:35:09",
+            "tillDate": "14 Jul 2018 11:37:38"
+        },
+        {
+            "make": "Lenovo",
+            "model": "A6020a40",
+            "imei": "86317703",
+            "activationDate": "15 Jun 2018 22:56:50",
+            "tillDate": "14 Jul 2018 11:35:09"
+
+        },
+        {
+            "make": "Ericsson",
+            "model": "N5321",
+            "imei": "35398005",
+            "activationDate": "15 Jun 2018 22:55:39",
+            "tillDate": "15 Jun 2018 22:56:50"
+        }
+    ]
+}

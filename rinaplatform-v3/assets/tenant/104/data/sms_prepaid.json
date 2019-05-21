@@ -1,0 +1,38 @@
+{
+    "data": [{
+            "sMSSentDate": "12 Apr 2019 04:21:19 PM",
+            "recipientNumber": "938XXXXXXX",
+            "smsType": "Local",
+            "charges": "0",
+            "balanceAfter": "4.65"
+        },
+        {
+            "sMSSentDate": "11 Apr 2019 06:00:14 PM",
+            "recipientNumber": "938XXXXXXX",
+            "smsType": "Local",
+            "charges": "0",
+            "balanceAfter": "4.65"
+        },
+        {
+            "sMSSentDate": "11 Apr 2019 08:30:00 PM",
+            "recipientNumber": "938XXXXXXX",
+            "smsType": "Local",
+            "charges": "0",
+            "balanceAfter": "4.65"
+        },
+        {
+            "sMSSentDate": "10 Apr 2019 09:40:46 AM",
+            "recipientNumber": "938XXXXXXX",
+            "smsType": "Local",
+            "charges": "0",
+            "balanceAfter": "4.65"
+        },
+        {
+            "sMSSentDate": "09 Apr 2019 10:16:14 AM",
+            "recipientNumber": "938XXXXXXX",
+            "smsType": "Local",
+            "charges": "0",
+            "balanceAfter": "4.65"
+        }
+    ]
+}

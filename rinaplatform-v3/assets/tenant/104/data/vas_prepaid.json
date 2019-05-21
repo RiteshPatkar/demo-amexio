@@ -1,0 +1,35 @@
+{
+    "data": [{
+            "status": "D",
+            "serviceType": "prepaid",
+            "activationDate": "31 Aug 2018 18:01:05",
+            "deactivationDate": "4 Oct 2018 13:20:50",
+            "serviceName": "CRBT_ONM361M",
+            "lastChargeAmount": "36"
+        },
+        {
+            "status": "D",
+            "serviceType": "prepaid",
+            "activationDate": "5 Jun 2018 9:50:11",
+            "deactivationDate": "14 Jul 2018 15:33:40",
+            "serviceName": "CTPROFILE_15M",
+            "lastChargeAmount": "15"
+        },
+        {
+            "status": "D",
+            "serviceType": "prepaid",
+            "activationDate": "2 May 2018 19:42:47 ",
+            "deactivationDate": "10 May 2018 23:32:17",
+            "serviceName": "CRBT_CTSB39M",
+            "lastChargeAmount": "39"
+        },
+        {
+            "status": "D",
+            "serviceType": "prepaid",
+            "activationDate": "18 Oct 2016 14:10:04",
+            "deactivationDate": "4 Oct 2017 17:41:11",
+            "serviceName": "CRBT",
+            "lastChargeAmount": "30"
+        }
+    ]
+}

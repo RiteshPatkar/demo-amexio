@@ -1,0 +1,34 @@
+{
+  "interactionHistory": [
+    {
+      "srNo": "3-7412345678",
+      "ticketType": "Request",
+      "openDate": "25/2/2019 13:00",
+      "dueDate": "27/2/2019 13:00",
+      "status": "Open",
+      "priority": "3-Medium",
+      "agentRemarks": "Field Engineer Visit Schedule for 27/02/2019",
+      "createdBy": "900012345",
+      "createdDate": "25/2/2019 13:00",
+      "assignedFieldEngineer": "John Doe",
+      "scheduleVistTime": "27/2/2019 14:30",
+      "estimatedVistTime": "27/2/2019 16:30",
+      "reason": "Delay on previous assigned job"
+    },
+    {
+      "srNo": "5-7412329671",
+      "ticketType": "Query",
+      "openDate": "11/01/2019 10:00",
+      "dueDate": "13/01/2019 10:00",
+      "status": "Closed",
+      "priority": "5-Low",
+      "agentRemarks": "Query: Location change",
+      "createdBy": "900056789",
+      "createdDate": "11/01/2019 10:00",
+      "assignedFieldEngineer": null,
+      "scheduleVistTime": null,
+      "estimatedVistTime": null,
+      "reason": null
+    }
+  ]
+}

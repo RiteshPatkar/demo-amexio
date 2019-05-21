@@ -1,0 +1,33 @@
+{
+    "monthlyData": [{ "month": "7 may", "sms": 23 },
+        { "month": "7 jun", "sms": 3 },
+        { "month": "7 july", "sms": 3 },
+        { "month": "7 aug", "sms": 3 },
+        { "month": "7 sep", "sms": 0 },
+        { "month": "7 oct", "sms": 7 }
+    ],
+    "catSplitData": [
+        ["type", "count"],
+        ["Local", 14],
+        ["National Roaming", 10],
+        ["STD", 2],
+        ["ISD", 1],
+        ["Inti Roaming", 3],
+        ["Social Numbers", 2]
+    ],
+    "local": [
+        ["type", "count"],
+        ["TE2TE", 6],
+        ["TE2O", 8]
+    ],
+    "international": [
+        ["type", "count"],
+        ["TE2F", 3],
+        ["TE2TE", 6],
+        ["TE2O", 6]
+    ],
+    "intiroaming": [
+        ["type", "count"],
+        ["SMS", 3]
+    ]
+}
