@@ -42977,6 +42977,9 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
                             if (call.callUrl == 'openservicerequestnew') {
                                 _this.windowHeaderName = 'alert';
                             }
+                            if (call.callUrl == 'openservicerequest') {
+                                _this.windowHeaderName = 'Open Service Requests';
+                            }
                             _this.workflowDynamicRef.clear();
                             data.forEach(function (f) {
                                 var componentRef = _this.workflowDynamicRef.createComponent(f.componentFactory);

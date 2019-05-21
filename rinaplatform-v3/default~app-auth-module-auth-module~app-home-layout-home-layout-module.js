@@ -59662,21 +59662,16 @@ var AmexioDatagridComponent = /** @class */ (function () {
                     resultData.push(row);
                 }
             });
-            if (resultData.length > (1 * this.pagesize)) {
-                this.pagingRegenration();
-                this.renderData();
-            }
-            else {
-                this.viewRows = resultData;
+            if (resultData.length < (1 * this.pagesize)) {
                 this.currentPage = 1;
                 this.maxPage = 1;
             }
+            this.data = resultData;
         }
         else {
             this.data = this.filterCloneData;
-            this.pagingRegenration();
-            this.renderData();
         }
+        this.renderData();
     };
     /**
      * @param {?} row
@@ -59818,6 +59813,7 @@ var AmexioDatagridComponent = /** @class */ (function () {
             for (var /** @type {?} */ pageNo = 1; pageNo <= this.maxPage; pageNo++) {
                 this.pageNumbers.push(pageNo);
             }
+            this.totalPages = this.pageNumbers.length;
         }
         if (this.pagesize >= 1) {
             this.getPageSize();
@@ -59981,21 +59977,16 @@ var AmexioDatagridComponent = /** @class */ (function () {
                     resultData.push(option);
                 }
             });
-            if (resultData.length > (1 * this.pagesize)) {
-                this.pagingRegenration();
-                this.renderData();
-            }
-            else {
-                this.viewRows = resultData;
+            if (resultData.length < (1 * this.pagesize)) {
                 this.currentPage = 1;
                 this.maxPage = 1;
             }
+            this.data = resultData;
         }
         else {
             this.data = this.filterCloneData;
-            this.pagingRegenration();
-            this.renderData();
         }
+        this.renderData();
     };
     /**
      * @param {?} data
@@ -60085,21 +60076,6 @@ var AmexioDatagridComponent = /** @class */ (function () {
         }
         else {
             return key !== value;
-        }
-    };
-    /**
-     * @return {?}
-     */
-    AmexioDatagridComponent.prototype.pagingRegenration = /**
-     * @return {?}
-     */
-    function () {
-        this.maxPage = Math.floor((this.data.length / this.pagesize));
-        if ((this.data.length % this.pagesize) > 0) {
-            this.maxPage++;
-        }
-        for (var /** @type {?} */ pageNo = 1; pageNo <= this.maxPage; pageNo++) {
-            this.pageNumbers.push(pageNo);
         }
     };
     /**
@@ -62693,6 +62669,7 @@ var AmexioPaginatorComponent = /** @class */ (function () {
         if (this.size == null || this.size === '') {
             this.size = 'medium';
         }
+        this.dummyRowData = JSON.parse(JSON.stringify(this.rows));
         this.initializePages();
         this.componentId = this.createCompId('paginator', this.pages);
     };
@@ -62722,6 +62699,7 @@ var AmexioPaginatorComponent = /** @class */ (function () {
             this.initializePages();
         }
         if (change["rows"] && !change["rows"].isFirstChange()) {
+            this.dummyRowData = change["rows"].currentValue;
             this.initializePages();
         }
     };
@@ -63015,6 +62993,7 @@ var AmexioPaginatorComponent = /** @class */ (function () {
         this.fullPageSet.length = 0;
         this.activePages.length = 0;
         this.pageIndex.length = 0;
+        this.rows = this.dummyRowData;
     };
     AmexioPaginatorComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
