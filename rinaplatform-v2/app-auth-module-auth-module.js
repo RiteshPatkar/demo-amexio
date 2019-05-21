@@ -213,7 +213,6 @@ var LoginComponent = /** @class */ (function () {
     };
     LoginComponent.prototype.loginHandle = function () {
         var _this = this;
-        debugger;
         var response;
         this.showLoader = true;
         this._httpClient.post(_constant_service_constant__WEBPACK_IMPORTED_MODULE_7__["Auth_URL"], this.loginModel).subscribe(function (res) {

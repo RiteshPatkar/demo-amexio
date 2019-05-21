@@ -42635,7 +42635,6 @@ var CenterMiddleComponent = /** @class */ (function () {
         /* GET DATA FROM STORE AND UPDATE MODEL */
         var _this = this;
         this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_3__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_4__["fromShell"].getSelectdProduct)).subscribe(function (selectdProduct) {
-            debugger;
             if (Object.keys(selectdProduct).length > 0) {
                 _this._httpClient.get(_this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_5__["SERVER_BASE_URL"], selectdProduct.productDetailsMapKey)).subscribe(function (res) {
                     var data = _this._componentFactoryService.createComponentFactory(res.response.metadata);
@@ -42876,7 +42875,7 @@ var CompanyLogoComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\"  [body-height]=\"33\">\n  <amexio-body>\n    <amexio-property-grid [key-value-data]=\"customerKeyValuedata\">\n    </amexio-property-grid>\n    <ng-container *ngIf=\"badge != null\" >\n      <amexio-badge [absolute]=\"true\" [background]=\"'red'\" [color]=\"'white'\" [bottom]=\"'0px'\" [right]=\"'0px'\">\n        <amexio-label size=\"medium-bold\">{{badge}}</amexio-label>\n      </amexio-badge>\n    </ng-container>\n  </amexio-body>\n</amexio-card>\n\n<!--<amexio-window\n[(show)]=\"enableWindow\"\n[close-on-escape]=\"true\"\n[material-design]=\"true\"\n[width]=\"'70%'\">\n<amexio-header>\n  <b>{{'Open Service Requests' | uppercase}}</b>\n</amexio-header>\n<amexio-body>\n  <ng-template #custDynamic></ng-template>\n</amexio-body>\n</amexio-window>-->\n\n\n\n<amexio-window\n  [(show)]=\"enableWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'50%'\">\n  <amexio-header>\n    <b>{{windowHeaderName | uppercase}}</b>\n  </amexio-header>\n  <amexio-body>\n    <ng-template #custDynamic></ng-template>\n  </amexio-body>\n</amexio-window>\n\n\n<amexio-dialogue [(show)]=\"errordialoguematerial\"\n               [close-on-escape]=\"true\"\n               [material-design]=\"true\"\n               [message]=\"errorMsg\"\n               [primary-action-label]=\"'Ok'\"\n               [title]=\"'Error'\"\n               [message-type]=\"'error'\"\n               [type]=\"'alert'\">\n</amexio-dialogue>\n"
+module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\"  [body-height]=\"33\">\n  <amexio-body>\n    <amexio-property-grid [key-value-data]=\"customerKeyValuedata\">\n    </amexio-property-grid>\n    <ng-container *ngIf=\"badge != null\" >\n      <amexio-badge [absolute]=\"true\" [background]=\"'red'\" [color]=\"'white'\" [bottom]=\"'0px'\" [right]=\"'0px'\">\n        <amexio-label size=\"medium-bold\">{{badge}}</amexio-label>\n      </amexio-badge>\n    </ng-container>\n  </amexio-body>\n</amexio-card>\n\n<!--<amexio-window\n[(show)]=\"enableWindow\"\n[close-on-escape]=\"true\"\n[material-design]=\"true\"\n[width]=\"'70%'\">\n<amexio-header>\n  <b>{{'Open Service Requests' | uppercase}}</b>\n</amexio-header>\n<amexio-body>\n  <ng-template #custDynamic></ng-template>\n</amexio-body>\n</amexio-window>-->\n\n\n\n<amexio-window\n  [(show)]=\"enableWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"windowwidth\">\n  <amexio-header>\n    <b>{{windowHeaderName | uppercase}}</b>\n  </amexio-header>\n  <amexio-body>\n    <ng-template #custDynamic></ng-template>\n  </amexio-body>\n</amexio-window>\n\n\n<amexio-dialogue [(show)]=\"errordialoguematerial\"\n               [close-on-escape]=\"true\"\n               [material-design]=\"true\"\n               [message]=\"errorMsg\"\n               [primary-action-label]=\"'Ok'\"\n               [title]=\"'Error'\"\n               [message-type]=\"'error'\"\n               [type]=\"'alert'\">\n</amexio-dialogue>\n"
 
 /***/ }),
 
@@ -42941,6 +42940,7 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
         this.errordialoguematerial = false;
         this.errorMsg = '';
         this.windowHeaderName = 'Open Service Requests';
+        this.windowwidth = '70%';
         this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_4__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_5__["fromShell"].getCustomerInfo)).subscribe(function (custInfo) {
             _this.updateCustomerProfileStructure(custInfo);
         });
@@ -42976,9 +42976,11 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
                             _this.enableWindow = true;
                             if (call.callUrl == 'openservicerequestnew') {
                                 _this.windowHeaderName = 'alert';
+                                _this.windowwidth = '50%';
                             }
                             if (call.callUrl == 'openservicerequest') {
                                 _this.windowHeaderName = 'Open Service Requests';
+                                _this.windowwidth = '70%';
                             }
                             _this.workflowDynamicRef.clear();
                             data.forEach(function (f) {
@@ -42993,7 +42995,6 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
     };
     CustomerDemoGraphicComponent.prototype.getCustomerProfileStructure = function () {
         var _this = this;
-        debugger;
         this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["PushUiStatus"](1));
         var response;
         this._httpService.fetch(this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["SERVER_BASE_URL"], _constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["REST_URLS"].CUSTOMER_PROFILE_STRUCTURE), 'get').subscribe(function (res) {
@@ -43001,7 +43002,6 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
         }, function (error) {
             _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["PopUiStatus"](1));
         }, function () {
-            debugger;
             _this.customerProfileStructure = response.response.metadata;
             _this.createCustomerPropertyStructure();
             _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_9__["PopUiStatus"](1));
@@ -43228,7 +43228,6 @@ var ProductsPanelComponent = /** @class */ (function () {
             }, function (error) {
                 _this.store.dispatch(new src_app_home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_7__["PopUiStatus"](1));
             }, function () {
-                debugger;
                 if (response_1.response.metadata.hasOwnProperty('customerDependantProduct') && response_1.response.metadata.customerDependantProduct) {
                     _this.customerDependentProductbackup = JSON.parse(JSON.stringify(response_1.response.metadata.products));
                     _this._SDService.customerDependentProduct = response_1.response.metadata.customerDependantProduct;
@@ -43403,7 +43402,6 @@ var ProductsPanelComponent = /** @class */ (function () {
                     componentRef.instance['httpClient'] = _this._httpClient;
                     if (componentRef.instance.hasOwnProperty('onSubmit')) {
                         componentRef.instance['onSubmit'].subscribe(function (event) {
-                            debugger;
                             _this.enableWindow = false;
                             _this.imageDataDynamicRef.clear();
                             _this._httpService.fetch(_this._SDService.createExecutableRestUrl(src_app_constant_service_constant__WEBPACK_IMPORTED_MODULE_8__["SERVER_BASE_URL"], event.data.key), 'get').subscribe(function (res) {
