@@ -43380,6 +43380,7 @@ var ProductsPanelComponent = /** @class */ (function () {
     };
     ProductsPanelComponent.prototype.onImageClick = function (key) {
         var _this = this;
+        this.windowHeader = 'Alert';
         this.alertwindowwidth = '50%';
         this.showLoader = true;
         var responseData;
