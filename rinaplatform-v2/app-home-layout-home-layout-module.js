@@ -42326,6 +42326,8 @@ var CenterLeftComponent = /** @class */ (function () {
         var custresponse;
         var response;
         this.workflowDynamicRef.clear();
+        this._SDService.hotdealIcon = false;
+        this._SDService.handshakeIcon = false;
         if (event.searchOption.hasOwnProperty('searchHandler')) {
             this._httpClient.get(this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["CUST_BASE_URL"], event.searchId + '/' + event.searchType)).subscribe(function (res) {
                 custresponse = res.response;
@@ -42338,34 +42340,50 @@ var CenterLeftComponent = /** @class */ (function () {
                         _this.searchProductSepcWorkflow(custresponse.data.productMapKey);
                         _this._SDService.updateProductKey(custresponse.data.productMapKey);
                     }
-                    _this._httpClient.get(_this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["SERVER_BASE_URL"], event.searchOption.searchHandler.handlerUrl)).subscribe(function (res) {
-                        var data = _this._CFService.createComponentFactory(res.response.metadata);
-                        _this.enableWindow = true;
-                        data.forEach(function (f) {
-                            var componentRef = _this.workflowDynamicRef.createComponent(f.componentFactory);
-                            componentRef.instance['httpClient'] = _this._httpClient;
-                            componentRef.instance['serviceRef'] = _this._SDService;
-                            componentRef.instance['customerModel'] = custresponse.data;
-                            componentRef.instance['customerRef'] = custresponse;
-                            if (componentRef.instance.hasOwnProperty('onCancel')) {
-                                componentRef.instance['onCancel'].subscribe(function (event) {
-                                    _this.enableWindow = false;
-                                });
+                    if (event.searchOption.searchHandler.handlerUrl !== "") {
+                        _this._httpClient.get(_this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["SERVER_BASE_URL"], event.searchOption.searchHandler.handlerUrl)).subscribe(function (res) {
+                            var data = _this._CFService.createComponentFactory(res.response.metadata);
+                            _this.enableWindow = true;
+                            data.forEach(function (f) {
+                                var componentRef = _this.workflowDynamicRef.createComponent(f.componentFactory);
+                                componentRef.instance['httpClient'] = _this._httpClient;
+                                componentRef.instance['serviceRef'] = _this._SDService;
+                                componentRef.instance['customerModel'] = custresponse.data;
+                                componentRef.instance['customerRef'] = custresponse;
+                                if (componentRef.instance.hasOwnProperty('onCancel')) {
+                                    componentRef.instance['onCancel'].subscribe(function (event) {
+                                        _this.enableWindow = false;
+                                    });
+                                }
+                                if (componentRef.instance.hasOwnProperty('onSubmit')) {
+                                    componentRef.instance['onSubmit'].subscribe(function (event) {
+                                        _this.enableWindow = false;
+                                    });
+                                }
+                                if (componentRef.instance.hasOwnProperty('onSuccess')) {
+                                    componentRef.instance['onSuccess'].subscribe(function (response) {
+                                        _this.enableWindow = false;
+                                        _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["UpdateCustomerInfo"](response.data));
+                                        _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["AddCustomerRef"](response));
+                                    });
+                                }
+                            });
+                        });
+                    }
+                    else {
+                        _this._httpClient.get(_this._SDService.createCustomerRestUrl(custresponse.accountNo)).subscribe(function (res) {
+                            response = res;
+                        }, function (error) {
+                            console.log(error);
+                        }, function () {
+                            if (response.success) {
+                                _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["UpdateCustomerInfo"](response.response.data));
+                                _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["AddCustomerRef"](response.response));
                             }
-                            if (componentRef.instance.hasOwnProperty('onSubmit')) {
-                                componentRef.instance['onSubmit'].subscribe(function (event) {
-                                    _this.enableWindow = false;
-                                });
-                            }
-                            if (componentRef.instance.hasOwnProperty('onSuccess')) {
-                                componentRef.instance['onSuccess'].subscribe(function (response) {
-                                    _this.enableWindow = false;
-                                    _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["UpdateCustomerInfo"](response.data));
-                                    _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["AddCustomerRef"](response));
-                                });
+                            else {
                             }
                         });
-                    });
+                    }
                 }
                 else {
                     _this.store.dispatch(new _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_8__["ErrorInfo"]({ errorMsg: 'Record Not Found For ' + event.searchId }));
@@ -42959,6 +42977,9 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
                             if (call.callUrl == 'openservicerequestnew') {
                                 _this.windowHeaderName = 'alert';
                             }
+                            if (call.callUrl == 'openservicerequest') {
+                                _this.windowHeaderName = 'Open Service Requests';
+                            }
                             _this.workflowDynamicRef.clear();
                             data.forEach(function (f) {
                                 var componentRef = _this.workflowDynamicRef.createComponent(f.componentFactory);
@@ -43105,7 +43126,7 @@ var ProductDetailsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div #productspanel class=\"productspanel\">\n    <product-details style=\"width: 100%;\"  *ngFor=\"let item of productPropertyStructureData; last as isLast;\"\n        [ngStyle]=\"{ 'min-width': (productPropertyStructureData.length>2)?minWidth+'px' : unset, 'padding-right':(isLast)?'0px':'5px'}\"\n        (onClick)=\"onProductLinkClick(item, $event)\"  [product]=\"item\">\n      <ng-container>\n   <span  *ngIf=\"(isLast && _SDService.tenantId == 1004)\" style=\"cursor: pointer\">\n     <br><br>\n      &nbsp;<amexio-image *ngIf=\"_SDService.handshakeIcon\" [width]=\"'50px'\" [height]=\"'50px'\" [path]=\"'assets/images/handshake.png'\" (onClick)=\"onImageClick('handshake')\"></amexio-image>&nbsp;\n      <amexio-image *ngIf=\"_SDService.handshakeIcon\" [width]=\"'50px'\" [height]=\"'50px'\" [path]=\"'assets/images/mail.png'\" (onClick)=\"onImageClick('message')\"></amexio-image>&nbsp;\n      <amexio-image *ngIf=\"_SDService.hotdealIcon\" [width]=\"'50px'\" [height]=\"'50px'\" [path]=\"'assets/images/bargains.png'\" (onClick)=\"onImageClick('hotdeal')\"></amexio-image>\n   </span>\n      </ng-container>\n    </product-details>\n</div>\n\n<amexio-window-ce [(show)]=\"enableplan\" [horizontal-position]=\"'center'\" [vertical-position]=\"'center'\" width=\"25%\">\n    <amexio-header-ce vertical-align=\"top\" border-bottom=\"true\">\n        <amexio-label size=\"small-bold\"> Tariff Plan</amexio-label>\n    </amexio-header-ce>\n    <amexio-body-ce>\n\n        <ng-template #plan></ng-template>\n\n    </amexio-body-ce>\n</amexio-window-ce>\n\n\n<amexio-window\n  [(show)]=\"enableWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"alertwindowwidth\">\n  <amexio-header>\n    <b>{{ windowHeader | uppercase}}</b>\n  </amexio-header>\n  <amexio-body>\n    <ng-template #imageDataDynamic></ng-template>\n  </amexio-body>\n</amexio-window>\n\n<amexio-window\n  [(show)]=\"enableWindowConfirm\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'50%'\">\n  <amexio-header>&nbsp;\n  </amexio-header>\n  <amexio-body>\n    <ng-template #imageDataDynamic1></ng-template>\n  </amexio-body>\n</amexio-window>\n\n\n<amexio-spinner [show]=showLoader [type]=\"'rectanglebounce'\" [vertical-position]=\"'center'\" [horizontal-position]=\"'center'\" [color]=\"'yellow'\">\n</amexio-spinner>\n"
+module.exports = "<div #productspanel class=\"productspanel\">\n    <product-details style=\"width: 100%;\"  *ngFor=\"let item of productPropertyStructureData; last as isLast;\"\n        [ngStyle]=\"{ 'min-width': (productPropertyStructureData.length>2)?minWidth+'px' : unset, 'padding-right':(isLast)?'0px':'5px'}\"\n        (onClick)=\"onProductLinkClick(item, $event)\"  [product]=\"item\">\n      <ng-container>\n   <span  *ngIf=\"(isLast && _SDService.tenantId == 10004)\" style=\"cursor: pointer\">\n     <br><br>\n      &nbsp;<amexio-image *ngIf=\"_SDService.handshakeIcon\" [width]=\"'50px'\" [height]=\"'50px'\" [path]=\"'assets/images/handshake.png'\" (onClick)=\"onImageClick('handshake')\"></amexio-image>&nbsp;\n      <amexio-image *ngIf=\"_SDService.handshakeIcon\" [width]=\"'50px'\" [height]=\"'50px'\" [path]=\"'assets/images/mail.png'\" (onClick)=\"onImageClick('message')\"></amexio-image>&nbsp;\n      <amexio-image *ngIf=\"_SDService.hotdealIcon\" [width]=\"'50px'\" [height]=\"'50px'\" [path]=\"'assets/images/bargains.png'\" (onClick)=\"onImageClick('hotdeal')\"></amexio-image>\n   </span>\n      </ng-container>\n    </product-details>\n</div>\n\n<amexio-window-ce [(show)]=\"enableplan\" [horizontal-position]=\"'center'\" [vertical-position]=\"'center'\" width=\"25%\">\n    <amexio-header-ce vertical-align=\"top\" border-bottom=\"true\">\n        <amexio-label size=\"small-bold\"> Tariff Plan</amexio-label>\n    </amexio-header-ce>\n    <amexio-body-ce>\n\n        <ng-template #plan></ng-template>\n\n    </amexio-body-ce>\n</amexio-window-ce>\n\n\n<amexio-window\n  [(show)]=\"enableWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"alertwindowwidth\">\n  <amexio-header>\n    <b>{{ windowHeader | uppercase}}</b>\n  </amexio-header>\n  <amexio-body>\n    <ng-template #imageDataDynamic></ng-template>\n  </amexio-body>\n</amexio-window>\n\n<amexio-window\n  [(show)]=\"enableWindowConfirm\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'50%'\">\n  <amexio-header>&nbsp;\n  </amexio-header>\n  <amexio-body>\n    <ng-template #imageDataDynamic1></ng-template>\n  </amexio-body>\n</amexio-window>\n\n\n<amexio-spinner [show]=showLoader [type]=\"'rectanglebounce'\" [vertical-position]=\"'center'\" [horizontal-position]=\"'center'\" [color]=\"'yellow'\">\n</amexio-spinner>\n"
 
 /***/ }),
 
