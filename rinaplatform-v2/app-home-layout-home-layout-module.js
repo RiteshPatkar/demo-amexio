@@ -42311,6 +42311,8 @@ var CenterLeftComponent = /** @class */ (function () {
                                     _this._SDService.handshakeIcon = true;
                                 }
                             }
+                            _this._SDService.remarksData.push(event.message + ';');
+                            _this._SDService.createRemakData();
                             _this.msgData.push(event.message);
                             _this.enableWindow = false;
                         });
@@ -42856,7 +42858,7 @@ var CompanyLogoComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\"  [body-height]=\"33\">\n  <amexio-body>\n    <amexio-property-grid [key-value-data]=\"customerKeyValuedata\">\n    </amexio-property-grid>\n    <ng-container *ngIf=\"badge != null\" >\n      <amexio-badge [absolute]=\"true\" [background]=\"'red'\" [color]=\"'white'\" [bottom]=\"'0px'\" [right]=\"'0px'\">\n        <amexio-label size=\"medium-bold\">{{badge}}</amexio-label>\n      </amexio-badge>\n    </ng-container>\n  </amexio-body>\n</amexio-card>\n\n<!--<amexio-window\n[(show)]=\"enableWindow\"\n[close-on-escape]=\"true\"\n[material-design]=\"true\"\n[width]=\"'70%'\">\n<amexio-header>\n  <b>{{'Open Service Requests' | uppercase}}</b>\n</amexio-header>\n<amexio-body>\n  <ng-template #custDynamic></ng-template>\n</amexio-body>\n</amexio-window>-->\n\n\n\n<amexio-window\n  [(show)]=\"enableWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'70%'\">\n  <amexio-header>\n    <b>{{windowHeaderName | uppercase}}</b>\n  </amexio-header>\n  <amexio-body>\n    <ng-template #custDynamic></ng-template>\n  </amexio-body>\n</amexio-window>\n\n\n<amexio-dialogue [(show)]=\"errordialoguematerial\"\n               [close-on-escape]=\"true\"\n               [material-design]=\"true\"\n               [message]=\"errorMsg\"\n               [primary-action-label]=\"'Ok'\"\n               [title]=\"'Error'\"\n               [message-type]=\"'error'\"\n               [type]=\"'alert'\">\n</amexio-dialogue>\n"
+module.exports = "<amexio-card [header]=\"false\" [footer]=\"false\"  [body-height]=\"33\">\n  <amexio-body>\n    <amexio-property-grid [key-value-data]=\"customerKeyValuedata\">\n    </amexio-property-grid>\n    <ng-container *ngIf=\"badge != null\" >\n      <amexio-badge [absolute]=\"true\" [background]=\"'red'\" [color]=\"'white'\" [bottom]=\"'0px'\" [right]=\"'0px'\">\n        <amexio-label size=\"medium-bold\">{{badge}}</amexio-label>\n      </amexio-badge>\n    </ng-container>\n  </amexio-body>\n</amexio-card>\n\n<!--<amexio-window\n[(show)]=\"enableWindow\"\n[close-on-escape]=\"true\"\n[material-design]=\"true\"\n[width]=\"'70%'\">\n<amexio-header>\n  <b>{{'Open Service Requests' | uppercase}}</b>\n</amexio-header>\n<amexio-body>\n  <ng-template #custDynamic></ng-template>\n</amexio-body>\n</amexio-window>-->\n\n\n\n<amexio-window\n  [(show)]=\"enableWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'50%'\">\n  <amexio-header>\n    <b>{{windowHeaderName | uppercase}}</b>\n  </amexio-header>\n  <amexio-body>\n    <ng-template #custDynamic></ng-template>\n  </amexio-body>\n</amexio-window>\n\n\n<amexio-dialogue [(show)]=\"errordialoguematerial\"\n               [close-on-escape]=\"true\"\n               [material-design]=\"true\"\n               [message]=\"errorMsg\"\n               [primary-action-label]=\"'Ok'\"\n               [title]=\"'Error'\"\n               [message-type]=\"'error'\"\n               [type]=\"'alert'\">\n</amexio-dialogue>\n"
 
 /***/ }),
 
@@ -43103,7 +43105,7 @@ var ProductDetailsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div #productspanel class=\"productspanel\">\n    <product-details style=\"width: 100%;\"  *ngFor=\"let item of productPropertyStructureData; last as isLast;\"\n        [ngStyle]=\"{ 'min-width': (productPropertyStructureData.length>2)?minWidth+'px' : unset, 'padding-right':(isLast)?'0px':'5px'}\"\n        (onClick)=\"onProductLinkClick(item, $event)\"  [product]=\"item\">\n      <ng-container>\n   <span  *ngIf=\"(isLast && _SDService.tenantId == 1004)\" style=\"cursor: pointer\">\n     <br><br>\n      &nbsp;<amexio-image *ngIf=\"_SDService.handshakeIcon\" [width]=\"'50px'\" [height]=\"'50px'\" [path]=\"'assets/images/handshake.png'\" (onClick)=\"onImageClick('handshake')\"></amexio-image>&nbsp;\n      <amexio-image *ngIf=\"_SDService.handshakeIcon\" [width]=\"'50px'\" [height]=\"'50px'\" [path]=\"'assets/images/mail.png'\" (onClick)=\"onImageClick('message')\"></amexio-image>&nbsp;\n      <amexio-image *ngIf=\"_SDService.hotdealIcon\" [width]=\"'50px'\" [height]=\"'50px'\" [path]=\"'assets/images/bargains.png'\" (onClick)=\"onImageClick('hotdeal')\"></amexio-image>\n   </span>\n      </ng-container>\n    </product-details>\n</div>\n\n<amexio-window-ce [(show)]=\"enableplan\" [horizontal-position]=\"'center'\" [vertical-position]=\"'center'\" width=\"25%\">\n    <amexio-header-ce vertical-align=\"top\" border-bottom=\"true\">\n        <amexio-label size=\"small-bold\"> Tariff Plan</amexio-label>\n    </amexio-header-ce>\n    <amexio-body-ce>\n\n        <ng-template #plan></ng-template>\n\n    </amexio-body-ce>\n</amexio-window-ce>\n\n\n<amexio-window\n  [(show)]=\"enableWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'70%'\">\n  <amexio-header>\n    <b>{{ windowHeader | uppercase}}</b>\n  </amexio-header>\n  <amexio-body>\n    <ng-template #imageDataDynamic></ng-template>\n  </amexio-body>\n</amexio-window>\n\n<amexio-window\n  [(show)]=\"enableWindowConfirm\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'70%'\">\n  <amexio-header>&nbsp;\n  </amexio-header>\n  <amexio-body>\n    <ng-template #imageDataDynamic1></ng-template>\n  </amexio-body>\n</amexio-window>\n\n\n<amexio-spinner [show]=showLoader [type]=\"'rectanglebounce'\" [vertical-position]=\"'center'\" [horizontal-position]=\"'center'\" [color]=\"'yellow'\">\n</amexio-spinner>\n"
+module.exports = "<div #productspanel class=\"productspanel\">\n    <product-details style=\"width: 100%;\"  *ngFor=\"let item of productPropertyStructureData; last as isLast;\"\n        [ngStyle]=\"{ 'min-width': (productPropertyStructureData.length>2)?minWidth+'px' : unset, 'padding-right':(isLast)?'0px':'5px'}\"\n        (onClick)=\"onProductLinkClick(item, $event)\"  [product]=\"item\">\n      <ng-container>\n   <span  *ngIf=\"(isLast && _SDService.tenantId == 1004)\" style=\"cursor: pointer\">\n     <br><br>\n      &nbsp;<amexio-image *ngIf=\"_SDService.handshakeIcon\" [width]=\"'50px'\" [height]=\"'50px'\" [path]=\"'assets/images/handshake.png'\" (onClick)=\"onImageClick('handshake')\"></amexio-image>&nbsp;\n      <amexio-image *ngIf=\"_SDService.handshakeIcon\" [width]=\"'50px'\" [height]=\"'50px'\" [path]=\"'assets/images/mail.png'\" (onClick)=\"onImageClick('message')\"></amexio-image>&nbsp;\n      <amexio-image *ngIf=\"_SDService.hotdealIcon\" [width]=\"'50px'\" [height]=\"'50px'\" [path]=\"'assets/images/bargains.png'\" (onClick)=\"onImageClick('hotdeal')\"></amexio-image>\n   </span>\n      </ng-container>\n    </product-details>\n</div>\n\n<amexio-window-ce [(show)]=\"enableplan\" [horizontal-position]=\"'center'\" [vertical-position]=\"'center'\" width=\"25%\">\n    <amexio-header-ce vertical-align=\"top\" border-bottom=\"true\">\n        <amexio-label size=\"small-bold\"> Tariff Plan</amexio-label>\n    </amexio-header-ce>\n    <amexio-body-ce>\n\n        <ng-template #plan></ng-template>\n\n    </amexio-body-ce>\n</amexio-window-ce>\n\n\n<amexio-window\n  [(show)]=\"enableWindow\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"alertwindowwidth\">\n  <amexio-header>\n    <b>{{ windowHeader | uppercase}}</b>\n  </amexio-header>\n  <amexio-body>\n    <ng-template #imageDataDynamic></ng-template>\n  </amexio-body>\n</amexio-window>\n\n<amexio-window\n  [(show)]=\"enableWindowConfirm\"\n  [close-on-escape]=\"true\"\n  [material-design]=\"true\"\n  [width]=\"'50%'\">\n  <amexio-header>&nbsp;\n  </amexio-header>\n  <amexio-body>\n    <ng-template #imageDataDynamic1></ng-template>\n  </amexio-body>\n</amexio-window>\n\n\n<amexio-spinner [show]=showLoader [type]=\"'rectanglebounce'\" [vertical-position]=\"'center'\" [horizontal-position]=\"'center'\" [color]=\"'yellow'\">\n</amexio-spinner>\n"
 
 /***/ }),
 
@@ -43167,6 +43169,7 @@ var ProductsPanelComponent = /** @class */ (function () {
         this.enableWindowConfirm = false;
         this.showLoader = false;
         this.windowHeader = 'Alert';
+        this.alertwindowwidth = '50%';
         this.enableplan = false;
         this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_1__["select"])(src_app_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_4__["fromShell"].getCustomerRefInfo)).subscribe(function (custRefInfo) {
             if (Object.keys(custRefInfo).length > 0) {
@@ -43357,6 +43360,7 @@ var ProductsPanelComponent = /** @class */ (function () {
     };
     ProductsPanelComponent.prototype.onImageClick = function (key) {
         var _this = this;
+        this.alertwindowwidth = '50%';
         this.showLoader = true;
         var responseData;
         this._httpService.fetch(this._SDService.createExecutableRestUrl(src_app_constant_service_constant__WEBPACK_IMPORTED_MODULE_8__["SERVER_BASE_URL"], key), 'get').subscribe(function (res) {
@@ -43371,6 +43375,7 @@ var ProductsPanelComponent = /** @class */ (function () {
                 _this.imageDataDynamicRef.clear();
                 if (key == 'hotdeal') {
                     _this.windowHeader = 'right sell';
+                    _this.alertwindowwidth = '70%';
                 }
                 data.forEach(function (f) {
                     var componentRef = _this.imageDataDynamicRef.createComponent(f.componentFactory);
@@ -43848,6 +43853,8 @@ var SharedService = /** @class */ (function () {
         this.customerDependentProduct = false;
         this.gamification = false;
         this.CDProductMapKey = new rxjs__WEBPACK_IMPORTED_MODULE_6__["BehaviorSubject"]('');
+        this.remark = '';
+        this.remarksData = [];
         this.baseUrl = _constant_service_constant__WEBPACK_IMPORTED_MODULE_5__["PRODUCT_BASE_URL"];
         this.servicebaseUrl = _constant_service_constant__WEBPACK_IMPORTED_MODULE_5__["SERVER_BASE_URL"];
         // public customerBaseUrl = 'http://localhost:8080/customer/customerdemographicsdetails';
@@ -43932,6 +43939,13 @@ var SharedService = /** @class */ (function () {
         this.widdownMap.set(7, 7);
         this.widdownMap.set(8, 8);
         this.widdownMap.set(11, 11);
+    };
+    SharedService.prototype.createRemakData = function () {
+        var _this = this;
+        this.remark = '';
+        this.remarksData.forEach(function (rem) {
+            _this.remark = _this.remark + ' ' + rem;
+        });
     };
     SharedService.prototype.updateProductKey = function (key) {
         this.CDProductMapKey.next(key);
