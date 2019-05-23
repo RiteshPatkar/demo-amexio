@@ -42204,7 +42204,7 @@ var CenterLeftComponent = /** @class */ (function () {
         this.enableWindow = false;
         this.enablegamification = false;
         this.msgData = [];
-        this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_7__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_6__["fromShell"].getCustomerRefInfo)).subscribe(function (custInfo) {
+        this.subscription1 = this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_7__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_6__["fromShell"].getCustomerRefInfo)).subscribe(function (custInfo) {
             if (Object.keys(custInfo).length > 0) {
                 _this.customerInfo = custInfo;
                 _this.enableWorkFlow();
@@ -42213,7 +42213,7 @@ var CenterLeftComponent = /** @class */ (function () {
                 _this.disableWorkFlow();
             }
         });
-        this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_7__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_6__["fromShell"].getSelectdProduct)).subscribe(function (productInfo) {
+        this.subscription2 = this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_7__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_6__["fromShell"].getSelectdProduct)).subscribe(function (productInfo) {
             _this.productData = productInfo;
         });
     }
@@ -42226,6 +42226,10 @@ var CenterLeftComponent = /** @class */ (function () {
     };
     CenterLeftComponent.prototype.ngOnInit = function () {
         this.getWorkflowList();
+    };
+    CenterLeftComponent.prototype.ngOnDestroy = function () {
+        this.subscription1.unsubscribe();
+        this.subscription2.unsubscribe();
     };
     CenterLeftComponent.prototype.enableWorkFlow = function () {
         if (this.workflowList && this.workflowList.length > 0) {
@@ -42326,8 +42330,7 @@ var CenterLeftComponent = /** @class */ (function () {
         var custresponse;
         var response;
         this.workflowDynamicRef.clear();
-        this._SDService.hotdealIcon = false;
-        this._SDService.handshakeIcon = false;
+        this._SDService.reset();
         if (event.searchOption.hasOwnProperty('searchHandler')) {
             this._httpClient.get(this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["CUST_BASE_URL"], event.searchId + '/' + event.searchType)).subscribe(function (res) {
                 custresponse = res.response;
@@ -42632,10 +42635,11 @@ var CenterMiddleComponent = /** @class */ (function () {
         this._httpClient = _httpClient;
     }
     CenterMiddleComponent.prototype.ngOnInit = function () {
-        /* GET DATA FROM STORE AND UPDATE MODEL */
         var _this = this;
-        this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_3__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_4__["fromShell"].getSelectdProduct)).subscribe(function (selectdProduct) {
+        /* GET DATA FROM STORE AND UPDATE MODEL */
+        this.subscription = this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_3__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_4__["fromShell"].getSelectdProduct)).subscribe(function (selectdProduct) {
             if (Object.keys(selectdProduct).length > 0) {
+                var response = void 0;
                 _this._httpClient.get(_this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_5__["SERVER_BASE_URL"], selectdProduct.productDetailsMapKey)).subscribe(function (res) {
                     var data = _this._componentFactoryService.createComponentFactory(res.response.metadata);
                     _this.viewContainerRef.clear();
@@ -42655,6 +42659,9 @@ var CenterMiddleComponent = /** @class */ (function () {
                 _this.viewContainerRef.clear();
             }
         });
+    };
+    CenterMiddleComponent.prototype.ngOnDestroy = function () {
+        this.subscription.unsubscribe();
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('dynamic', {
@@ -42734,7 +42741,7 @@ var CenterRightComponent = /** @class */ (function () {
     }
     CenterRightComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_1__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_2__["fromShell"].getSelectdProduct)).subscribe(function (selectdProduct) {
+        this.subscription = this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_1__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_2__["fromShell"].getSelectdProduct)).subscribe(function (selectdProduct) {
             if (Object.keys(selectdProduct).length > 0 && selectdProduct.hasOwnProperty('helpMapkey')) {
                 _this._httpClient.get(_this._SDService.createExecutableRestUrl(_constant_service_constant__WEBPACK_IMPORTED_MODULE_3__["SERVER_BASE_URL"], selectdProduct.helpMapkey)).subscribe(function (res) {
                     var data = _this._componentFactoryService.createComponentFactory(res.response.metadata);
@@ -42750,6 +42757,9 @@ var CenterRightComponent = /** @class */ (function () {
                 _this.viewContainerRef.clear();
             }
         });
+    };
+    CenterRightComponent.prototype.ngOnDestroy = function () {
+        this.subscription.unsubscribe();
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('dynamic', {
@@ -42941,7 +42951,7 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
         this.errorMsg = '';
         this.windowHeaderName = 'Open Service Requests';
         this.windowwidth = '70%';
-        this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_4__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_5__["fromShell"].getCustomerInfo)).subscribe(function (custInfo) {
+        this.subscription = this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_4__["select"])(_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_5__["fromShell"].getCustomerInfo)).subscribe(function (custInfo) {
             _this.updateCustomerProfileStructure(custInfo);
         });
         /* GET ERROR MSG */
@@ -42957,6 +42967,9 @@ var CustomerDemoGraphicComponent = /** @class */ (function () {
     }
     CustomerDemoGraphicComponent.prototype.ngOnInit = function () {
         this.getCustomerProfileStructure();
+    };
+    CustomerDemoGraphicComponent.prototype.ngOnDestroy = function () {
+        this.subscription.unsubscribe();
     };
     CustomerDemoGraphicComponent.prototype.updateCustomerProfileStructure = function (customerInfo) {
         var _this = this;
@@ -43063,6 +43076,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ngrx/store */ "./node_modules/@ngrx/store/fesm5/store.js");
 /* harmony import */ var _home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../home-layout/home-store/shell.action */ "./src/app/home-layout/home-store/shell.action.ts");
 /* harmony import */ var _models_products_models__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../models/products.models */ "./src/app/models/products.models.ts");
+/* harmony import */ var src_app_services_shared_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/services/shared.service */ "./src/app/services/shared.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -43079,16 +43093,19 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var ProductDetailsComponent = /** @class */ (function () {
-    function ProductDetailsComponent(store) {
+    function ProductDetailsComponent(store, _SDService) {
         this.store = store;
+        this._SDService = _SDService;
         this.onProductLinkClick = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
     }
     ProductDetailsComponent.prototype.ngOnInit = function () {
     };
     ProductDetailsComponent.prototype.ngOnChanges = function (changes) {
-        if (changes['product'] && changes.product.currentValue.selected) {
+        if (changes['product'] && changes.product.currentValue.selected && !this._SDService.isProductSelected) {
             this.selectProduct(this.product);
+            this._SDService.isProductSelected = true;
         }
     };
     ProductDetailsComponent.prototype.selectProduct = function (product) {
@@ -43110,7 +43127,7 @@ var ProductDetailsComponent = /** @class */ (function () {
             selector: 'product-details',
             template: __webpack_require__(/*! ./product-details.component.html */ "./src/app/layout-components/product-details/product-details.component.html")
         }),
-        __metadata("design:paramtypes", [_ngrx_store__WEBPACK_IMPORTED_MODULE_1__["Store"]])
+        __metadata("design:paramtypes", [_ngrx_store__WEBPACK_IMPORTED_MODULE_1__["Store"], src_app_services_shared_service__WEBPACK_IMPORTED_MODULE_4__["SharedService"]])
     ], ProductDetailsComponent);
     return ProductDetailsComponent;
 }());
@@ -43192,7 +43209,7 @@ var ProductsPanelComponent = /** @class */ (function () {
         this.windowHeader = 'Alert';
         this.alertwindowwidth = '50%';
         this.enableplan = false;
-        this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_1__["select"])(src_app_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_4__["fromShell"].getCustomerRefInfo)).subscribe(function (custRefInfo) {
+        this.subscription = this.store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_1__["select"])(src_app_home_layout_home_store_shell_reducer__WEBPACK_IMPORTED_MODULE_4__["fromShell"].getCustomerRefInfo)).subscribe(function (custRefInfo) {
             if (Object.keys(custRefInfo).length > 0) {
                 _this.updateProductInfo(custRefInfo);
             }
@@ -43217,6 +43234,9 @@ var ProductsPanelComponent = /** @class */ (function () {
         });
     }
     ProductsPanelComponent.prototype.ngOnInit = function () {
+    };
+    ProductsPanelComponent.prototype.ngOnDestroy = function () {
+        this.subscription.unsubscribe();
     };
     ProductsPanelComponent.prototype.getProductDetailsStructure = function () {
         var _this = this;
@@ -43247,17 +43267,25 @@ var ProductsPanelComponent = /** @class */ (function () {
         var _this = this;
         var cloneData = JSON.parse(JSON.stringify(this.productPropertyStructureData));
         if (cloneData && cloneData.length > 0) {
-            cloneData.forEach(function (pData) {
-                _this._httpService.fetch(_this._SDService.createExecutableRestUrl(src_app_constant_service_constant__WEBPACK_IMPORTED_MODULE_8__["PRODUCT_BASE_URL"], custRefInfo.accountNo + '/' + pData.productMapKey), 'get').subscribe(function (res) {
-                    if (pData.productTemplateId == '2' || pData.productTemplateId == '3') {
-                        _this.updateTemplatewiseData(res.response.data);
-                    }
-                    else {
+            var callRestrct = cloneData[0];
+            if (callRestrct.productTemplateId != '2' && callRestrct.productTemplateId != '3') {
+                cloneData.forEach(function (pData) {
+                    _this._httpService.fetch(_this._SDService.createExecutableRestUrl(src_app_constant_service_constant__WEBPACK_IMPORTED_MODULE_8__["PRODUCT_BASE_URL"], custRefInfo.accountNo + '/' + pData.productMapKey), 'get').subscribe(function (res) {
                         _this.productPropertyStructureData = _this.replaceOriginalData(_this.updatePropertyStructure(res.response, pData.productMapKey));
                         _this.productPropertyStructureData[0].selected = true;
-                    }
+                    });
                 });
-            });
+            }
+            else {
+                var response_2;
+                this._httpService.fetch(this._SDService.createExecutableRestUrl(src_app_constant_service_constant__WEBPACK_IMPORTED_MODULE_8__["PRODUCT_BASE_URL"], custRefInfo.accountNo + '/' + callRestrct.productMapKey), 'get').subscribe(function (res) {
+                    response_2 = res;
+                }, function (err) {
+                    console.log(err);
+                }, function () {
+                    _this.updateTemplatewiseData(response_2.response.data);
+                });
+            }
         }
     };
     ProductsPanelComponent.prototype.updateTemplatewiseData = function (data) {
@@ -43272,8 +43300,8 @@ var ProductsPanelComponent = /** @class */ (function () {
                 _this.productPropertyStructureData.push(new src_app_models_products_models__WEBPACK_IMPORTED_MODULE_6__["ProductPropertyStructure"](product.productName, product.productMapKey, pStructure, product.selected, product.productDetailsMapKey, product.helpMapkey, product.productTemplateId));
             });
         });
-        this.productPropertyStructureData[0].selected = true;
         this.productPropertyStructureData = JSON.parse(JSON.stringify(this.productPropertyStructureData));
+        this.productPropertyStructureData[0].selected = true;
     };
     ProductsPanelComponent.prototype.updatePropertyStructure = function (pData, productMapKey) {
         var returnObject;
@@ -43549,8 +43577,7 @@ var TopRightComponent = /** @class */ (function () {
             this.store.dispatch(new src_app_home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_4__["SearchInfo"]({}));
             this.store.dispatch(new src_app_home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_4__["SelectedProductInfo"]({}));
             this.store.dispatch(new src_app_home_layout_home_store_shell_action__WEBPACK_IMPORTED_MODULE_4__["ErrorInfo"]({ errorMsg: '' }));
-            this._SDService.hotdealIcon = false;
-            this._SDService.handshakeIcon = false;
+            this._SDService.reset();
             this._router.navigate(['login']);
             this.changeTheme();
         }
@@ -43884,6 +43911,7 @@ var SharedService = /** @class */ (function () {
         this.extraServiceData = null;
         this.hotdealIcon = false;
         this.handshakeIcon = false;
+        this.isProductSelected = false;
         this.datePipe = datepipe;
         this.addWindowMap();
         this.store
@@ -43939,6 +43967,12 @@ var SharedService = /** @class */ (function () {
     };
     SharedService.prototype.getAssitantList = function (id) {
         return this.httpClient.get(this.baseServerUrl + 'map/' + id);
+    };
+    /* Reset flags on search */
+    SharedService.prototype.reset = function () {
+        this.hotdealIcon = false;
+        this.handshakeIcon = false;
+        this.isProductSelected = false;
     };
     /* WINDOW TOGGLE SERVICE CODE*/
     SharedService.prototype.getNextWindow = function (windowNumber) {
