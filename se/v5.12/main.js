@@ -129,7 +129,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"hasThemeInit;else themeInitContent\">\n  <amexio-nav [enable-side-nav-position]=\"true\" \n  [title]=\"'Amexio Component Examples'\"\n  [logo]=\"'assets/images/logos/amexio-logo.png'\">\n  <amexio-nav-item position-left [type]=\"'slider'\">\n  </amexio-nav-item>\n  <amexio-nav-item position-right\n    [icon]=\"'fa fa-home fa-fw fa-lg'\"\n    [title]=\"'Home'\" \n    [type]=\"'link'\" \n    (onNavItemClick)=\"onClick('http://demo.amexio.tech')\" \n    style=\"cursor: pointer;\" >\n  </amexio-nav-item>\n  <amexio-nav-item position-right\n    [type]=\"'link'\"\n    [icon]=\"'fa fa-user-circle fa-fw fa-lg'\" \n    [title]=\"'John Doe'\" \n    style=\"cursor: pointer;\" \n    (onNavItemClick)=\"onUserClick()\">\n  </amexio-nav-item>\n  <amexio-nav-item position-right *ngFor=\"let menus of topMenuData\" \n  [type]=\"'menu'\" \n  [title]=\"menus.text\"\n  [data]=\"menus.submenus\"\n  [icon]=\"menus.icon\"\n  (onNavItemClick)=\"externalLink($event)\">\t\t\t\n  </amexio-nav-item>       \n  \n  </amexio-nav>\n  \n  \n  <amexio-row>\n    <amexio-column [size]=\"'2pt5'\" style=\"padding-top: 68px;\">\n      <amexio-side-nav [http-url]=\"'assets/data/menus/sidebar.json'\" \n                      [http-method]=\"'get'\" \n                      [height]=\"'92%'\" \n                      [data-reader]=\"'data'\"\n                      (nodeClick)=\"routeToLink($event)\">\n      </amexio-side-nav>\n    </amexio-column>\n    <amexio-column [size]=\"'9pt5'\">\n      <div class=\"route-container\">\n        <div class=\"loadingnav\" *ngIf=\"isRouteLoading\">Loading&#8230;</div>\n        <router-outlet></router-outlet>\n      </div>\n    </amexio-column>\n  </amexio-row>\n  \n  \n  <amexio-floating-panel [event]=\"event\" [show]=\"showfloatplanel\">\n  <amexio-card >\n    <amexio-body>\n      <div class=\"floating-theme\">\n      <amexio-tab-view  [closable]=\"false\">\n        <amexio-tab title=\"Material\" [active]=\"true\">\n          <div style=\"height: 350px;overflow-x: auto\">\n            <amexio-row *ngFor=\"let objArray of materialThemeArray\" >\n              <ng-container *ngFor=\"let obj of objArray\">\n                <amexio-column style=\"cursor: pointer\" [size]=\"4\"  (click)=\"themeChange(obj)\">\n                  <amexio-image [path]=\"'assets/images/themematerialicons/'+ obj.link\"></amexio-image><br><b>{{obj.themeName}}</b>\n                </amexio-column>\n              </ng-container>\n            </amexio-row>\n          </div>\n        </amexio-tab>\n        <!-- <amexio-tab title=\"Amexio\">\n          <div style=\"height: 350px;overflow-x: auto\">\n            <amexio-row *ngFor=\"let objArray of amexioThemeArray\" >\n              <ng-container *ngFor=\"let obj of objArray\">\n                <amexio-column style=\"cursor: pointer\" [size]=\"4\"  (click)=\"themeChange(obj)\">\n                  <amexio-image [path]=\"'assets/images/themeamexioicon/'+ obj.link\"></amexio-image><br><b>{{obj.themeName}}</b>\n                </amexio-column>\n              </ng-container>\n            </amexio-row>\n          </div>\n        </amexio-tab> -->\n      </amexio-tab-view>\n    </div>\n    </amexio-body>\n  </amexio-card>\n  </amexio-floating-panel>\n  </div>\n  \n  <ng-template #themeInitContent>\n    <style>\n      .loading {\n        position: absolute;\n        top: 50%;\n        left: 50%;\n      }\n      .loading-bar {\n        display: inline-block;\n        width: 4px;\n        height: 18px;\n        border-radius: 4px;\n        animation: loading 1s ease-in-out infinite;\n      }\n      .loading-bar:nth-child(1) {\n        background-color: #3498db;\n        animation-delay: 0;\n      }\n      .loading-bar:nth-child(2) {\n        background-color: #c0392b;\n        animation-delay: 0.09s;\n      }\n      .loading-bar:nth-child(3) {\n        background-color: #f1c40f;\n        animation-delay: .18s;\n      }\n      .loading-bar:nth-child(4) {\n        background-color: #27ae60;\n        animation-delay: .27s;\n      }\n      @keyframes loading {\n        0% {\n          transform: scale(1);\n        }\n        20% {\n          transform: scale(1, 2.2);\n        }\n        40% {\n          transform: scale(1);\n        }\n      }\n    </style>\n    <div class=\"loading\">\n      <div class=\"loading-bar\"></div>\n      <div class=\"loading-bar\"></div>\n      <div class=\"loading-bar\"></div>\n      <div class=\"loading-bar\"></div>\n    </div>\n  </ng-template>\n  "
+module.exports = "<div *ngIf=\"hasThemeInit;else themeInitContent\">\n  <amexio-nav [enable-side-nav-position]=\"true\" \n  [title]=\"'Amexio Component Examples'\"\n  [logo]=\"'assets/images/logos/amexio-logo.png'\">\n  <amexio-nav-item position-left [type]=\"'slider'\">\n  </amexio-nav-item>\n  <amexio-nav-item position-right\n    [icon]=\"'fa fa-home fa-fw fa-lg'\"\n    [title]=\"'Home'\" \n    [type]=\"'link'\" \n    (onNavItemClick)=\"onClick('http://demo.amexio.tech')\" \n    style=\"cursor: pointer;\" >\n  </amexio-nav-item>\n  <amexio-nav-item position-right\n    [type]=\"'link'\"\n    [icon]=\"'fa fa-user-circle fa-fw fa-lg'\" \n    [title]=\"'John Doe'\" \n    style=\"cursor: pointer;\" \n    (onNavItemClick)=\"onUserClick()\">\n  </amexio-nav-item>\n  <amexio-nav-item position-right *ngFor=\"let menus of topMenuData\" \n  [type]=\"'menu'\" \n  [title]=\"menus.text\"\n  [data]=\"menus.submenus\"\n  [icon]=\"menus.icon\"\n  (onNavItemClick)=\"externalLink($event)\">\t\t\t\n  </amexio-nav-item>       \n  \n  </amexio-nav>\n  \n  \n  <amexio-row>\n    <amexio-column [size]=\"'2pt5'\" style=\"padding-top: 68px;\">\n      <amexio-side-nav [http-url]=\"'assets/data/menus/sidebar.json'\" \n                      [http-method]=\"'get'\" \n                      [height]=\"'92%'\" \n                      [data-reader]=\"'data'\"\n                      (nodeClick)=\"routeToLink($event)\">\n      </amexio-side-nav>\n    </amexio-column>\n    <amexio-column [size]=\"'9pt5'\">\n      <div class=\"route-container\">\n        <div class=\"loadingnav\" *ngIf=\"isRouteLoading\">Loading&#8230;</div>\n        <router-outlet></router-outlet>\n      </div>\n    </amexio-column>\n  </amexio-row>\n  \n  \n  <amexio-floating-panel1 [event]=\"event\" [show]=\"showfloatplanel\">\n  <amexio-card >\n    <amexio-body>\n      <div class=\"floating-theme\">\n      <amexio-tab-view  [closable]=\"false\">\n        <amexio-tab title=\"Material\" [active]=\"true\">\n          <div style=\"height: 350px;overflow-x: auto\">\n            <amexio-row *ngFor=\"let objArray of materialThemeArray\" >\n              <ng-container *ngFor=\"let obj of objArray\">\n                <amexio-column style=\"cursor: pointer\" [size]=\"4\"  (click)=\"themeChange(obj)\">\n                  <amexio-image [path]=\"'assets/images/themematerialicons/'+ obj.link\"></amexio-image><br><b>{{obj.themeName}}</b>\n                </amexio-column>\n              </ng-container>\n            </amexio-row>\n          </div>\n        </amexio-tab>\n        <!-- <amexio-tab title=\"Amexio\">\n          <div style=\"height: 350px;overflow-x: auto\">\n            <amexio-row *ngFor=\"let objArray of amexioThemeArray\" >\n              <ng-container *ngFor=\"let obj of objArray\">\n                <amexio-column style=\"cursor: pointer\" [size]=\"4\"  (click)=\"themeChange(obj)\">\n                  <amexio-image [path]=\"'assets/images/themeamexioicon/'+ obj.link\"></amexio-image><br><b>{{obj.themeName}}</b>\n                </amexio-column>\n              </ng-container>\n            </amexio-row>\n          </div>\n        </amexio-tab> -->\n      </amexio-tab-view>\n    </div>\n    </amexio-body>\n  </amexio-card>\n  </amexio-floating-panel1>\n  </div>\n  \n  <ng-template #themeInitContent>\n    <style>\n      .loading {\n        position: absolute;\n        top: 50%;\n        left: 50%;\n      }\n      .loading-bar {\n        display: inline-block;\n        width: 4px;\n        height: 18px;\n        border-radius: 4px;\n        animation: loading 1s ease-in-out infinite;\n      }\n      .loading-bar:nth-child(1) {\n        background-color: #3498db;\n        animation-delay: 0;\n      }\n      .loading-bar:nth-child(2) {\n        background-color: #c0392b;\n        animation-delay: 0.09s;\n      }\n      .loading-bar:nth-child(3) {\n        background-color: #f1c40f;\n        animation-delay: .18s;\n      }\n      .loading-bar:nth-child(4) {\n        background-color: #27ae60;\n        animation-delay: .27s;\n      }\n      @keyframes loading {\n        0% {\n          transform: scale(1);\n        }\n        20% {\n          transform: scale(1, 2.2);\n        }\n        40% {\n          transform: scale(1);\n        }\n      }\n    </style>\n    <div class=\"loading\">\n      <div class=\"loading-bar\"></div>\n      <div class=\"loading-bar\"></div>\n      <div class=\"loading-bar\"></div>\n      <div class=\"loading-bar\"></div>\n    </div>\n  </ng-template>\n  "
 
 /***/ }),
 
@@ -452,7 +452,7 @@ var AppModule = /** @class */ (function () {
                 _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
                 _pages_dashboardex_dashboardex_component__WEBPACK_IMPORTED_MODULE_6__["DashboardComponent"],
                 _pages_sampleformex_sampleformex_component__WEBPACK_IMPORTED_MODULE_7__["SampleFormComponent"],
-                _component_floatingpanel_component__WEBPACK_IMPORTED_MODULE_10__["AmexioFloatingPanelComponent"]
+                _component_floatingpanel_component__WEBPACK_IMPORTED_MODULE_10__["AmexioFloatingPanelComponent1"]
             ],
             imports: [
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_0__["BrowserAnimationsModule"],
@@ -489,12 +489,12 @@ module.exports = "<div class=\"floatingpanel\">\n    <div class=\"floatingpanelb
 /*!******************************************************!*\
   !*** ./src/app/component/floatingpanel.component.ts ***!
   \******************************************************/
-/*! exports provided: AmexioFloatingPanelComponent */
+/*! exports provided: AmexioFloatingPanelComponent1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AmexioFloatingPanelComponent", function() { return AmexioFloatingPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AmexioFloatingPanelComponent1", function() { return AmexioFloatingPanelComponent1; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
@@ -526,20 +526,20 @@ var __param = (undefined && undefined.__param) || function (paramIndex, decorato
  */
 
 
-var AmexioFloatingPanelComponent = /** @class */ (function () {
-    function AmexioFloatingPanelComponent(document, elementRef) {
+var AmexioFloatingPanelComponent1 = /** @class */ (function () {
+    function AmexioFloatingPanelComponent1(document, elementRef) {
         this.document = document;
         this.elementRef = elementRef;
         this.show = true;
     }
-    Object.defineProperty(AmexioFloatingPanelComponent.prototype, "event", {
+    Object.defineProperty(AmexioFloatingPanelComponent1.prototype, "event", {
         get: function () {
             return this._event;
         },
         enumerable: true,
         configurable: true
     });
-    Object.defineProperty(AmexioFloatingPanelComponent.prototype, "setEvent", {
+    Object.defineProperty(AmexioFloatingPanelComponent1.prototype, "setEvent", {
         set: function (value) {
             this._event = value;
             // this.adjustPosition();
@@ -547,9 +547,9 @@ var AmexioFloatingPanelComponent = /** @class */ (function () {
         enumerable: true,
         configurable: true
     });
-    AmexioFloatingPanelComponent.prototype.ngOnInit = function () {
+    AmexioFloatingPanelComponent1.prototype.ngOnInit = function () {
     };
-    AmexioFloatingPanelComponent.prototype.adjustPosition = function () {
+    AmexioFloatingPanelComponent1.prototype.adjustPosition = function () {
         //debugger;
         var cr = this.event.currentTarget.getBoundingClientRect();
         var x = cr.x;
@@ -578,37 +578,37 @@ var AmexioFloatingPanelComponent = /** @class */ (function () {
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('position-top'),
         __metadata("design:type", String)
-    ], AmexioFloatingPanelComponent.prototype, "top", void 0);
+    ], AmexioFloatingPanelComponent1.prototype, "top", void 0);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('position-bottom'),
         __metadata("design:type", String)
-    ], AmexioFloatingPanelComponent.prototype, "bottom", void 0);
+    ], AmexioFloatingPanelComponent1.prototype, "bottom", void 0);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('position-left'),
         __metadata("design:type", String)
-    ], AmexioFloatingPanelComponent.prototype, "left", void 0);
+    ], AmexioFloatingPanelComponent1.prototype, "left", void 0);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('position-right'),
         __metadata("design:type", String)
-    ], AmexioFloatingPanelComponent.prototype, "right", void 0);
+    ], AmexioFloatingPanelComponent1.prototype, "right", void 0);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('event'),
         __metadata("design:type", Object),
         __metadata("design:paramtypes", [Object])
-    ], AmexioFloatingPanelComponent.prototype, "setEvent", null);
+    ], AmexioFloatingPanelComponent1.prototype, "setEvent", null);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])('show'),
         __metadata("design:type", Boolean)
-    ], AmexioFloatingPanelComponent.prototype, "show", void 0);
-    AmexioFloatingPanelComponent = __decorate([
+    ], AmexioFloatingPanelComponent1.prototype, "show", void 0);
+    AmexioFloatingPanelComponent1 = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'amexio-floating-panel',
+            selector: 'amexio-floating-panel1',
             template: __webpack_require__(/*! ./floatingpanel.component.html */ "./src/app/component/floatingpanel.component.html")
         }),
         __param(0, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_common__WEBPACK_IMPORTED_MODULE_1__["DOCUMENT"])),
         __metadata("design:paramtypes", [Object, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]])
-    ], AmexioFloatingPanelComponent);
-    return AmexioFloatingPanelComponent;
+    ], AmexioFloatingPanelComponent1);
+    return AmexioFloatingPanelComponent1;
 }());
 
 
