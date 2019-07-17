@@ -1,64 +1,4 @@
-.Layout1{
-  gap: 0px !important;
-}
-
-.chartLayout{
-  gap: 0px !important;
-}
-
-
-.image-top-center{
-  margin-top: -25px;
-  width: 50%;
-}
-
-.card-container-narrower-header amexio-header-ce {
-  margin-top: -20px;
-  border-radius : 10px;
-}
-
-.creative-header, .card-container-narrower-header, amexio-card-ce > div , .card-container-ce {
-  border-radius: 10px;
-}
-
-.timeline .timeline-item .timeline-panel{
-  padding: 10px 0px;
-}
-.datatable .datatable-header{
-  /* background-color: unset;
-  color: rgb(255, 75, 31); */
-}
-
-.sidenav .activenode{
-  background-color: unset;
-  color: #ff7c6b;
-}
-
-.sidenav .defaultnode:hover{
-  background-color: unset;
-  color: #ff7c6b;
-}
-
-
-.sidenav .headernode:hover {
-  background-color: unset;
-  color:  #ff7c6b;
-}
-
-
-dashboard-three .datatable-height, .datatable-header, .datatable{
-  box-shadow: unset;
-}
-
-.temperature {
-  width: 100%;
-}
-
-.temperature td{
-  width: 25%;
-  text-align: center;
-}
-
+ 
 .login-page-div {
   width: 100%; height: 100%;
   background-repeat: no-repeat;
@@ -69,15 +9,4 @@ dashboard-three .datatable-height, .datatable-header, .datatable{
   min-width: 300px;
   min-height:360px;
   margin-right: 100px;
-}
-.login-page-column-css {
-  font-size:2em;
-  margin-top:20px;
-}
-.btn-css{
-  margin-top: 10px;
-}
-
-.topnav a{
-  color: white;
 }
