@@ -6336,7 +6336,7 @@ var ReactiveFormsModule = /** @class */ (function () {
 /*!***********************************************************************!*\
   !*** ./node_modules/amexio-ng-extensions/amexio-ng-extensions.es5.js ***!
   \***********************************************************************/
-/*! exports provided: AmexioWidgetModule, CommonDataService, DeviceQueryService, IconLoaderService, Icon, AmexioCreditCardModel, GridConfig, GridConstants, GoogleMapOverlays, AvailableSlotsModel, DayModel, TimeModel, TimeUtil, PropertyGridModel, AmexioFormsModule, LoadRecaptchaService, COMPONENT_CLASS_MAP, AmexioButtonComponent, AmexioButtonGroupComponent, ScriptLoadService, AmexioNavModule, AmexioSideNavComponent, SideNavNodeComponent, AmexioNavBarComponent, KEY_CODE_notify, AmexioNotificationComponent, AmexioLayoutModule, AmexioAccordionHeaderComponent, AmexioAccordionTabComponent, AmexioAccordionComponent, AccordionService, AmexioBorderLayoutItemComponent, AmexioBorderLayoutComponent, AmexioBoxComponent, AmexioCardComponent, AmexioColumnComponent, AmexioGridComponent, AmexioGridItemComponent, AmexioRowComponent, AmexioGridLayoutService, AmexioDataModule, GoogleMapScriptService, AmexioListBoxComponent, AmexioTreeViewComponent, AmexioPaginatorComponent, TreeDataTableComponent, AmexioGoogleMapComponent, AmexioDashBoardModule, DashboardLoaderService, DashBoardTitleComponent, DataPointCenterComponent, DataPointsComponent, DataPointEastComponent, DataPointNorthComponent, DataPointSouthComponent, DataPointWestComponent, GaugeChartComponent, AmexioChartsModule, AreaChartComponent, BarChartComponent, BubbleChartComponent, CandlestickChartComponent, CandlestickWaterfallChartComponent, ChartAreaComponent, ChartLegendComponent, ChartTitleComponent, ColumnChartComponent, ComboChartComponent, DonutChartComponent, GanttChartComponent, HistogramChartComponent, HorizontalAxisComponent, LineChartComponent, PieChartComponent, ScatterChartComponent, TimeLineChartComponent, VerticalAxisComponent, ChartLoaderService, AmexioMapModule, MapPropertiesComponent, GeoChartComponent, TreeMapComponent, MapTitleComponent, MapLoaderService, AmexioPaneModule, AmexioFooterComponent, AmexioBodyComponent, AmexioCarouselComponent, AmexioTemplateDirective, AmexioTemplateWrapperDirective, AmexiodialoguePaneComponent, AmexioFieldSetComponent, AmexioFormActionComponent, AmexioFormBodyComponent, AmexioFormComponent, AmexioFormHeaderComponent, AmexioHeaderComponent, AmexioPanelHeaderComponent, AmexioStepsComponent, StepBlockComponent, AmexioRightVerticalTabComponent, AmexioTabActionComponent, TOP_COMPONENT_CLASS_MAP, BOTTOM_COMPONENT_CLASS_MAP, AmexioTabComponent, AmexioTabPillComponent, AmexioVerticalTabComponent, AmexiotimelineComponent, AmexiotimelineeventComponent, AmexioWindowPaneComponent, AmexioWindowHeaderComponent, OverlayContainerComponent, AmexioFormGroupDirective, AmexioEnterpriseModule, MultiMediaCarouselComponent, ContentComponent, AmexioYoutubePlayerComponent, AmexioWeekDayAvailiblityComponent, AmexioCalendarComponent, AmexioCalendarDayTimeWiseComponent, AmexioCalendarMonthComponent, AmexioCalendarYearComponent, AmexioMediaModule, AmexioVideoPlayerComponent, DisplayFieldService, ɵee, ɵef, ɵc, ɵb, ɵa, ɵs, ɵbc, ɵg, ɵd, ɵe, ɵp, ɵt, ɵh, ɵr, ɵbl, ɵl, ɵdk, ɵdn, ɵec, ɵdl, ɵdm, ɵdo, ɵdq, ɵdp, ɵdr, ɵdv, ɵds, ɵdt, ɵdu, ɵed, ɵdx, ɵea, ɵeb, ɵdz, ɵdy, ɵdw, ɵdb, ɵcz, ɵda, ɵdc, ɵdj, ɵde, ɵdf, ɵdd, ɵdi, ɵdg, ɵdh, ɵeg, ɵeh, ɵei, ɵbw, ɵbv, ɵch, ɵbb, ɵbd, ɵbe, ɵbg, ɵbf, ɵm, ɵca, ɵcb, ɵbz, ɵci, ɵbk, ɵbr, ɵbq, ɵo, ɵv, ɵbm, ɵbo, ɵbp, ɵn, ɵbn, ɵck, ɵw, ɵx, ɵu, ɵcj, ɵba, ɵbx, ɵbh, ɵbi, ɵcf, ɵcc, ɵce, ɵcd, ɵcg, ɵby, ɵbj, ɵy, ɵk, ɵz, ɵbs, ɵbu, ɵbt, ɵq, ɵi, ɵj, ɵcl, ɵcu, ɵcr, ɵcs, ɵct, ɵcq, ɵco, ɵcm, ɵcn, ɵcp, ɵcv, ɵcw, ɵcx, ɵcy, ɵf */
+/*! exports provided: AmexioWidgetModule, CommonDataService, DeviceQueryService, IconLoaderService, Icon, AmexioCreditCardModel, GridConfig, GridConstants, GoogleMapOverlays, AvailableSlotsModel, DayModel, TimeModel, TimeUtil, PropertyGridModel, AmexioFormsModule, LoadRecaptchaService, COMPONENT_CLASS_MAP, AmexioButtonComponent, AmexioButtonGroupComponent, ScriptLoadService, AmexioNavModule, AmexioSideNavComponent, SideNavNodeComponent, AmexioNavBarComponent, KEY_CODE_notify, AmexioNotificationComponent, AmexioLayoutModule, AmexioAccordionHeaderComponent, AmexioAccordionTabComponent, AmexioAccordionComponent, AccordionService, AmexioBorderLayoutItemComponent, AmexioBorderLayoutComponent, AmexioBoxComponent, AmexioCardComponent, AmexioColumnComponent, AmexioGridComponent, AmexioGridItemComponent, AmexioRowComponent, AmexioGridLayoutService, AmexioDataModule, GoogleMapScriptService, AmexioListBoxComponent, AmexioTreeViewComponent, AmexioPaginatorComponent, TreeDataTableComponent, AmexioGoogleMapComponent, AmexioDashBoardModule, DashboardLoaderService, DashBoardTitleComponent, DataPointCenterComponent, DataPointsComponent, DataPointEastComponent, DataPointNorthComponent, DataPointSouthComponent, DataPointWestComponent, GaugeChartComponent, AmexioChartsModule, AreaChartComponent, BarChartComponent, BubbleChartComponent, CandlestickChartComponent, CandlestickWaterfallChartComponent, ChartAreaComponent, ChartLegendComponent, ChartTitleComponent, ColumnChartComponent, ComboChartComponent, DonutChartComponent, GanttChartComponent, HistogramChartComponent, HorizontalAxisComponent, LineChartComponent, PieChartComponent, ScatterChartComponent, TimeLineChartComponent, VerticalAxisComponent, ChartLoaderService, AmexioMapModule, MapPropertiesComponent, GeoChartComponent, TreeMapComponent, MapTitleComponent, MapLoaderService, AmexioPaneModule, AmexioFooterComponent, AmexioBodyComponent, AmexioCarouselComponent, AmexioTemplateDirective, AmexioTemplateWrapperDirective, AmexiodialoguePaneComponent, AmexioFieldSetComponent, AmexioFormActionComponent, AmexioFormBodyComponent, AmexioFormComponent, AmexioFormHeaderComponent, AmexioHeaderComponent, AmexioPanelHeaderComponent, AmexioStepsComponent, StepBlockComponent, AmexioRightVerticalTabComponent, AmexioTabActionComponent, TOP_COMPONENT_CLASS_MAP, BOTTOM_COMPONENT_CLASS_MAP, AmexioTabComponent, AmexioTabPillComponent, AmexioVerticalTabComponent, AmexiotimelineComponent, AmexiotimelineeventComponent, AmexioWindowPaneComponent, AmexioWindowHeaderComponent, OverlayContainerComponent, AmexioFormGroupDirective, AmexioEnterpriseModule, MultiMediaCarouselComponent, ContentComponent, AmexioYoutubePlayerComponent, AmexioWeekDayAvailiblityComponent, AmexioCalendarComponent, AmexioCalendarDayTimeWiseComponent, AmexioCalendarMonthComponent, AmexioCalendarYearComponent, AmexioMediaModule, AmexioVideoPlayerComponent, DisplayFieldService, ɵef, ɵeg, ɵc, ɵb, ɵa, ɵs, ɵbc, ɵg, ɵd, ɵe, ɵp, ɵt, ɵh, ɵr, ɵbl, ɵl, ɵdl, ɵdo, ɵed, ɵdm, ɵdn, ɵdp, ɵdr, ɵdq, ɵds, ɵdw, ɵdt, ɵdu, ɵdv, ɵee, ɵdy, ɵeb, ɵec, ɵea, ɵdz, ɵdx, ɵdc, ɵda, ɵdb, ɵdd, ɵdk, ɵdf, ɵdg, ɵde, ɵdj, ɵdh, ɵdi, ɵeh, ɵei, ɵej, ɵbw, ɵbv, ɵch, ɵbb, ɵbd, ɵbe, ɵbg, ɵbf, ɵm, ɵca, ɵcb, ɵbz, ɵci, ɵbk, ɵbr, ɵbq, ɵo, ɵv, ɵbm, ɵbo, ɵbp, ɵn, ɵbn, ɵck, ɵw, ɵx, ɵu, ɵcj, ɵba, ɵbx, ɵbh, ɵbi, ɵcf, ɵcc, ɵce, ɵcd, ɵcg, ɵby, ɵbj, ɵy, ɵk, ɵz, ɵbs, ɵbu, ɵbt, ɵq, ɵi, ɵj, ɵcl, ɵcv, ɵcs, ɵct, ɵcu, ɵcr, ɵcm, ɵcp, ɵcn, ɵco, ɵcq, ɵcw, ɵcx, ɵcy, ɵcz, ɵf */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6466,8 +6466,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AmexioMediaModule", function() { return AmexioMediaModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AmexioVideoPlayerComponent", function() { return AmexioVideoPlayerComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DisplayFieldService", function() { return DisplayFieldService; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵee", function() { return AmexioRuntimeModule; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵef", function() { return AmexioRuntimeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵef", function() { return AmexioRuntimeModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeg", function() { return AmexioRuntimeComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵc", function() { return AmexioCommonModule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵb", function() { return AmexioContextMenuComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵa", function() { return AmexioBaseContextMenuModule; });
@@ -6482,40 +6482,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵr", function() { return ListBaseComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbl", function() { return ListBaseDatepickerComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵl", function() { return ValueAccessorBase; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdk", function() { return AmexioCreativeModule; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdn", function() { return AmexioCardCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵec", function() { return AmexioCarouselCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdl", function() { return AmexioCardCEActionComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdm", function() { return AmexioCardCEBodyComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdo", function() { return AmexioCardCEHeaderComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdq", function() { return AmexioFormCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdp", function() { return AmexioFormActionCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdr", function() { return AmexioHomePageCenterPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdv", function() { return AmexioHomePageComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵds", function() { return AmexioHomePageEastPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdt", function() { return AmexioHomePageNorthPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdu", function() { return AmexioHomePageWestPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵed", function() { return AmexioMenuCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdx", function() { return AmexioProgressCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵea", function() { return ViewportBackgroundComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeb", function() { return ViewportContentBodyComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdz", function() { return ViewportContentComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdy", function() { return ViewportComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdw", function() { return AmexioWindowCEComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdb", function() { return AmexioGridColumnComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcz", function() { return AmexioDatagridComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵda", function() { return DataGridFilterComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdc", function() { return AmexioDataGridHeaderComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdj", function() { return AmexioItemSelectorComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵde", function() { return AmexioProgressMultiBarComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdf", function() { return AmexioProgressBarComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdd", function() { return PropertyGridComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdi", function() { return AmexioFilterTreeComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdg", function() { return HorizontalTreeViewNodeComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdh", function() { return HorizontalTreeViewComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeg", function() { return ColorPaletteDirective; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeh", function() { return StepWizardComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵei", function() { return StepWizardItemComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdl", function() { return AmexioCreativeModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdo", function() { return AmexioCardCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵed", function() { return AmexioCarouselCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdm", function() { return AmexioCardCEActionComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdn", function() { return AmexioCardCEBodyComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdp", function() { return AmexioCardCEHeaderComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdr", function() { return AmexioFormCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdq", function() { return AmexioFormActionCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵds", function() { return AmexioHomePageCenterPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdw", function() { return AmexioHomePageComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdt", function() { return AmexioHomePageEastPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdu", function() { return AmexioHomePageNorthPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdv", function() { return AmexioHomePageWestPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵee", function() { return AmexioMenuCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdy", function() { return AmexioProgressCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeb", function() { return ViewportBackgroundComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵec", function() { return ViewportContentBodyComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵea", function() { return ViewportContentComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdz", function() { return ViewportComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdx", function() { return AmexioWindowCEComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdc", function() { return AmexioGridColumnComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵda", function() { return AmexioDatagridComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdb", function() { return DataGridFilterComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdd", function() { return AmexioDataGridHeaderComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdk", function() { return AmexioItemSelectorComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdf", function() { return AmexioProgressMultiBarComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdg", function() { return AmexioProgressBarComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵde", function() { return PropertyGridComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdj", function() { return AmexioFilterTreeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdh", function() { return HorizontalTreeViewNodeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵdi", function() { return HorizontalTreeViewComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵeh", function() { return ColorPaletteDirective; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵei", function() { return StepWizardComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵej", function() { return StepWizardItemComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbw", function() { return AmexioSearchAdvanceComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵbv", function() { return SearchboxtoolComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵch", function() { return AmexioBadgeComponent; });
@@ -6565,19 +6565,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵi", function() { return AmexioLayoutComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵj", function() { return AmexioLayoutItemComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcl", function() { return AmexioImageComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcu", function() { return AmexioBreadcrumbComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcr", function() { return DockbarComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcs", function() { return DockedBarToolComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵct", function() { return AmexioMenuBarComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcq", function() { return AmexioInnerNavMenuComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵco", function() { return AmexioNavActionComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcm", function() { return AmexioNavItemComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcn", function() { return AmexioNavMenuComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcp", function() { return AmexioNavTextFieldComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcv", function() { return AmexioSideNavInnerNodeComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcw", function() { return AmexioPanelComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcx", function() { return PanelItemComponent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcy", function() { return SlidingPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcv", function() { return AmexioBreadcrumbComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcs", function() { return DockbarComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵct", function() { return DockedBarToolComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcu", function() { return AmexioMenuBarComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcr", function() { return AmexioInnerNavMenuComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcm", function() { return MoreContentComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcp", function() { return AmexioNavActionComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcn", function() { return AmexioNavItemComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵco", function() { return AmexioNavMenuComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcq", function() { return AmexioNavTextFieldComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcw", function() { return AmexioSideNavInnerNodeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcx", function() { return AmexioPanelComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcy", function() { return PanelItemComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵcz", function() { return SlidingPanelComponent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵf", function() { return FilterPipe; });
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
@@ -21756,7 +21757,7 @@ var AmexioNavMenuComponent = /** @class */ (function () {
     AmexioNavMenuComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-nav-menu',
-                    template: "\n    <div class=\"nav-dropdown\">\n        <a class=\"nav-dropbtn\" [ngStyle]=\"{'color':color}\" (mouseover)=\"onMouseoverTitle($event)\" (click)=\"onHeaderClick($event)\">\n            <span>\n                <i *ngIf=\"icon\" [ngClass]=\"icon\"></i>\n            </span>\n            <span>{{title}}</span>\n        \n            <span>\n                <i class=\"dropdownicon fa fa-angle-down\"></i>\n            </span>\n        </a>\n\n        <div class=\"nav-dropdown-content\">\n\n            <a *ngFor=\"let node of data\" (click)=\"onClick(node, $event)\" (mouseover)=\"onNodeHover(node, $event)\">\n\n                <div>\n                    <span class=\"nav-dropdown-content-node\">\n                        <i *ngIf=\"icon\" [ngClass]=\"node.icon\"></i>&nbsp;\n                        <span>\n                            <span *ngIf=\"position == 'left' && node.submenus\">\n                                <i class=\"fa fa-angle-left\" style=\"padding-bottom:6px; padding-right:6px;\" aria-hidden=\"true\"></i>\n                            </span>\n                            {{node.text}}\n                    \n                            <span *ngIf=\"position == 'right' && node.submenus\">\n                                <i class=\"fa fa-angle-right\" style=\"float:right ;padding-top:5px\" aria-hidden=\"true\"></i>\n\n                            </span>\n                        </span>\n                    </span>\n\n                    <span [ngClass]=\"{'submenunodes':position == 'right', 'submenunodesright':position == 'left' }\" *ngIf=\"node.submenus\">\n                        <amexio-nav-innermenu [color]=\"itemcolor\" [submenuposition]=\"position\" [data]=\"node.submenus\" (navLinkClick)=\"navItemClick($event)\">\n                        </amexio-nav-innermenu>\n                    </span>\n                </div>\n            </a>\n\n            <div *ngIf=\"type==='menucontainer'\" class=\"nav-menu-container\">\n                <a *ngFor=\"let node of data\" (click)=\"onClick(node, $event)\">\n                    <i *ngIf=\"icon\" [ngClass]=\"node.icon\"></i>&nbsp;{{node.text}}</a>\n                <ng-content></ng-content>\n            </div>\n        </div>\n    </div>\n  ",
+                    template: "\n    <div class=\"nav-dropdown\">\n        <a class=\"nav-dropbtn\"  style=\"white-space: nowrap\" [ngStyle]=\"{'color':color}\" (mouseover)=\"onMouseoverTitle($event)\" (click)=\"onHeaderClick($event)\">\n            <span style=\"white-space: nowrap\">\n                <i *ngIf=\"icon\" [ngClass]=\"icon\"></i>\n            </span>\n            <span style=\"white-space: nowrap\">{{title}}</span>\n        \n            <span style=\"white-space: nowrap\">\n                <i class=\"dropdownicon fa fa-angle-down\"></i>\n            </span>\n        </a>\n\n        <div class=\"nav-dropdown-content\">\n\n            <a *ngFor=\"let node of data\" (click)=\"onClick(node, $event)\" (mouseover)=\"onNodeHover(node, $event)\">\n\n                <div>\n                    <span class=\"nav-dropdown-content-node\">\n                        <i *ngIf=\"icon\" [ngClass]=\"node.icon\"></i>&nbsp;\n                        <span>\n                            <span *ngIf=\"position == 'left' && node.submenus\">\n                                <i class=\"fa fa-angle-left\" style=\"padding-bottom:6px; padding-right:6px;\" aria-hidden=\"true\"></i>\n                            </span>\n                            {{node.text}}\n                    \n                            <span *ngIf=\"position == 'right' && node.submenus\">\n                                <i class=\"fa fa-angle-right\" style=\"float:right ;padding-top:5px\" aria-hidden=\"true\"></i>\n\n                            </span>\n                        </span>\n                    </span>\n\n                    <span [ngClass]=\"{'submenunodes':position == 'right', 'submenunodesright':position == 'left' }\" *ngIf=\"node.submenus\">\n                        <amexio-nav-innermenu [color]=\"itemcolor\" [submenuposition]=\"position\" [data]=\"node.submenus\" (navLinkClick)=\"navItemClick($event)\">\n                        </amexio-nav-innermenu>\n                    </span>\n                </div>\n            </a>\n\n            <div *ngIf=\"type==='menucontainer'\" class=\"nav-menu-container\">\n                <a *ngFor=\"let node of data\" (click)=\"onClick(node, $event)\">\n                    <i *ngIf=\"icon\" [ngClass]=\"node.icon\"></i>&nbsp;{{node.text}}</a>\n                <ng-content></ng-content>\n            </div>\n        </div>\n    </div>\n  ",
                 },] },
     ];
     /** @nocollapse */
@@ -21817,6 +21818,10 @@ var AmexioNavItemComponent = /** @class */ (function () {
         this.innerValue = '';
         this.onTouchedCallback = noop$1;
         this.onChangeCallback = noop$1;
+        this.componentId = '';
+        this.offsetWidth = 0;
+        this.componentId = Math.floor(Math.random() * 90000) + 10000 + '_navctyt';
+        this.offsetWidth = this.elementref.nativeElement.offsetWidth;
     }
     /**
      * @return {?}
@@ -22021,7 +22026,7 @@ var AmexioNavItemComponent = /** @class */ (function () {
     AmexioNavItemComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
                     selector: 'amexio-nav-item',
-                    template: "\n    <div class=\"topnavmainbarinneritems\" [ngClass]=\"{'topnavmainbarinneritems-mobile':mobilemode,\n     'nav-dropdown-content-right':enablerightclass}\">\n        <amexio-nav-action *ngIf=\"isAction\" [color]=\"itemcolor\" [type]=\"type\" [title]=\"title\" [icon]=\"icon\" (navLinkClick)=\"navItemClick($event)\"></amexio-nav-action>\n        <amexio-nav-textfield *ngIf=\"isTextField\" [color]=\"itemcolor\" [(ngModel)]=\"value\" [title]=\"title\"></amexio-nav-textfield>\n        <amexio-nav-menu *ngIf=\"isMenu\" [color]=\"itemcolor\" [title]=\"title\" [icon]=\"icon\" [data]=\"data\" (onNavItemClick)=\"navItemClick($event)\">\n        </amexio-nav-menu>\n        <amexio-nav-menu *ngIf=\"isMenuContainer\" [color]=\"itemcolor\" [title]=\"title\" [icon]=\"icon\" [type]=\"type\" (navLinkClick)=\"navItemClick($event)\">\n            <ng-content></ng-content>\n        </amexio-nav-menu>\n    </div>\n  ",
+                    template: "\n    <div  [attr.id]=\"componentId\" class=\"topnavmainbarinneritems\" [ngClass]=\"{'topnavmainbarinneritems-mobile':mobilemode,\n     'nav-dropdown-content-right':enablerightclass}\">\n        <amexio-nav-action *ngIf=\"isAction\" [color]=\"itemcolor\" [type]=\"type\" [title]=\"title\" [icon]=\"icon\" (navLinkClick)=\"navItemClick($event)\"></amexio-nav-action>\n        <amexio-nav-textfield *ngIf=\"isTextField\" [color]=\"itemcolor\" [(ngModel)]=\"value\" [title]=\"title\"></amexio-nav-textfield>\n        <amexio-nav-menu *ngIf=\"isMenu\" [color]=\"itemcolor\" [title]=\"title\" [icon]=\"icon\" [data]=\"data\" (onNavItemClick)=\"navItemClick($event)\">\n        </amexio-nav-menu>\n        <amexio-nav-menu *ngIf=\"isMenuContainer\" [color]=\"itemcolor\" [title]=\"title\" [icon]=\"icon\" [type]=\"type\" (navLinkClick)=\"navItemClick($event)\">\n            <ng-content></ng-content>\n        </amexio-nav-menu>\n    </div>\n  ",
                     providers: [{
                             provide: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function () { return AmexioNavItemComponent; }), multi: true,
                         }],
@@ -22311,6 +22316,7 @@ var AmexioNavBarComponent = /** @class */ (function () {
         description : transparent nav bar
         */
         this.transparent = false;
+        this.enableMoreMode = false;
         this.amexioComponentId = 'amexio-navbar';
         this.onNavLogoClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
         this.onNavTitleClick = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
@@ -22326,14 +22332,11 @@ var AmexioNavBarComponent = /** @class */ (function () {
         this.isExpand = false;
         this.isPhone = false;
         this.navItemPresent = false;
-        if (this.matchMediaService.IsTablet() || this.matchMediaService.IsPhone()) {
-            this.mobilemode = true;
-            this.isPhone = true;
-        }
-        else {
-            this.mobilemode = false;
-            this.isPhone = false;
-        }
+        this.moreBucket = [];
+        this.resizeItemCollection = [];
+        this.isItemRemoved = false;
+        this.morePadding = 0;
+        this.moreCheckWidth = 0;
     }
     /**
      * @return {?}
@@ -22369,6 +22372,7 @@ var AmexioNavBarComponent = /** @class */ (function () {
                 element.itemcolor = _this.color;
             });
         }
+        this.type = this.navItemComponents[0].type;
     };
     /**
      * @return {?}
@@ -22392,7 +22396,29 @@ var AmexioNavBarComponent = /** @class */ (function () {
                 (this.navbaritems2.nativeElement.offsetWidth) +
                 (this.navbaritems2.nativeElement.offsetWidth) +
                 (this.navbaritems3.nativeElement.offsetWidth));
+        }
+        if (this.navbarfixed && this.navbarfixed.nativeElement) {
+            this.moreCheckWidth = this.moreCheckWidth + this.navbarfixed.nativeElement.offsetWidth;
+        }
+        if (this.navbaritems1 && this.navbaritems1.nativeElement) {
+            this.moreCheckWidth = this.moreCheckWidth + this.navbarfixed.nativeElement.offsetWidth;
+        }
+        if (this.navbaritems2 && this.navbaritems2.nativeElement) {
+            this.moreCheckWidth = this.moreCheckWidth + this.navbarfixed.nativeElement.offsetWidth;
+        }
+        if (!this.enableMoreMode) {
             this.handleDeviceSetting();
+        }
+        else {
+            if (this.matchMediaService.IsPhone()) {
+                this.mobilemode = true;
+                this.isPhone = true;
+            }
+            else {
+                this.mobilemode = false;
+                this.isPhone = false;
+            }
+            this.createMoreContent();
         }
     };
     /**
@@ -22456,45 +22482,19 @@ var AmexioNavBarComponent = /** @class */ (function () {
     function () {
         if (this.matchMediaService.IsTablet() || this.matchMediaService.IsPhone()) {
             this.mobilemode = true;
-            this.isPhone = true;
-        }
-        else {
-            this.mobilemode = false;
-            this.isPhone = false;
-        }
-        if (this.sidenavspace) {
-            this.sideNavbar();
-        }
-        var /** @type {?} */ navbarwidth = this.navbar.nativeElement.offsetWidth;
-        var /** @type {?} */ navbarheight = this.navbar.nativeElement.offsetHeight;
-        if (!this.navfixeditem) {
-            this.navfixeditem = this.navbarfixed.nativeElement.offsetWidth;
-        }
-        if (!this.navitemwidth) {
-            var /** @type {?} */ navbaritems1Width = 0;
-            var /** @type {?} */ navbaritems2Width = 0;
-            var /** @type {?} */ navbaritems3Width = 0;
-            if (this.navbaritems1) {
-                navbaritems1Width = this.navbaritems1.nativeElement.offsetWidth;
-            }
-            if (this.navbaritems2) {
-                navbaritems2Width = this.navbaritems2.nativeElement.offsetWidth;
-            }
-            if (this.navbaritems3) {
-                navbaritems3Width = this.navbaritems3.nativeElement.offsetWidth;
-            }
-            this.navitemwidth = (this.navfixeditem + navbaritems1Width + navbaritems2Width + navbaritems3Width);
-        }
-        var /** @type {?} */ navbaravailablewidth = (navbarwidth - (this.navfixeditem + this.navitemwidth));
-        if ((navbaravailablewidth < 10 || navbarheight > 100)) {
-            this.mobilemode = true;
             this.toggle = false;
-            this.notifyNavItems(navbarwidth);
+            this.isPhone = true;
+            if (this.sidenavspace) {
+                this.sidenav = true;
+            }
         }
         else {
             this.mobilemode = false;
             this.toggle = true;
-            this.notifyNavItems(navbarwidth);
+            this.isPhone = false;
+            if (this.sidenavspace) {
+                this.sidenav = false;
+            }
         }
     };
     /**
@@ -22520,7 +22520,22 @@ var AmexioNavBarComponent = /** @class */ (function () {
      * @return {?}
      */
     function (event) {
-        this.handleDeviceSetting();
+        if (!this.enableMoreMode) {
+            this.handleDeviceSetting();
+        }
+        else {
+            if (this.matchMediaService.IsPhone()) {
+                this.mobilemode = true;
+                this.toggle = false;
+                this.isPhone = true;
+            }
+            else {
+                this.mobilemode = false;
+                this.toggle = true;
+                this.isPhone = false;
+            }
+            this.createMoreContent();
+        }
         if (this.homepageType === '3') {
             if (!this.isExpand) {
                 this.lhsWidth = '0 0 19%';
@@ -22575,9 +22590,86 @@ var AmexioNavBarComponent = /** @class */ (function () {
     function (themeClass) {
         this.themeCss = themeClass;
     };
+    /**
+     * @return {?}
+     */
+    AmexioNavBarComponent.prototype.createMoreContent = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        this.resizeItemCollection = [];
+        this.moreBucket = [];
+        if (!this.mobilemode) {
+            if (!this.isItemRemoved && this.navItemComponents && this.navItemComponents.length > 0) {
+                this.navItemComponents.forEach(function (nvitem) {
+                    if (nvitem.type === 'menu') {
+                        nvitem.offsetWidth = nvitem.elementref.nativeElement.offsetWidth;
+                        var /** @type {?} */ node = document.getElementById(nvitem.componentId);
+                        node.parentNode.removeChild(node);
+                    }
+                });
+                this.isItemRemoved = true;
+            }
+            if (this.navItemComponents && this.navItemComponents.length > 0) {
+                this.contentOperation();
+            }
+        }
+        else {
+            this.navItemComponents.forEach(function (nvitem) {
+                if (nvitem.type === 'menu') {
+                    _this.resizeItemCollection.push(nvitem);
+                }
+            });
+        }
+        this.setPadding();
+    };
+    /**
+     * @return {?}
+     */
+    AmexioNavBarComponent.prototype.contentOperation = /**
+     * @return {?}
+     */
+    function () {
+        var _this = this;
+        var /** @type {?} */ itemsWidth = 0;
+        var /** @type {?} */ gapWidth = 0;
+        if (this.moreCheckWidth === 0 || this.moreCheckWidth < 200) {
+            gapWidth = 200;
+        }
+        else {
+            gapWidth = 0;
+            itemsWidth = this.moreCheckWidth;
+        }
+        this.navItemComponents.forEach(function (nvitem) {
+            if (nvitem.type === 'menu') {
+                if (_this.navbar.nativeElement.offsetWidth > (itemsWidth + gapWidth) || ((_this.navbar.nativeElement.offsetWidth - itemsWidth) > 200)) {
+                    itemsWidth = (itemsWidth + nvitem.offsetWidth);
+                    _this.resizeItemCollection.push(nvitem);
+                }
+                else {
+                    _this.moreBucket.push(nvitem);
+                }
+            }
+        });
+    };
+    /**
+     * @return {?}
+     */
+    AmexioNavBarComponent.prototype.setPadding = /**
+     * @return {?}
+     */
+    function () {
+        if (this.moreBucket.length > 0) {
+            this.morePadding = 50;
+        }
+        else {
+            this.morePadding = 0;
+        }
+    };
     AmexioNavBarComponent.decorators = [
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
-                    selector: 'amexio-nav', template: "\n    <nav #navbar class=\"topnav {{themeCss}}\" [ngStyle]=\"{'color': color, 'top': top, 'opacity': opacity}\" [ngClass]=\"{'topnav-mobile':mobilemode, 'transparentNav':transparent}\"\n        (window:resize)=\"resize($event)\">\n\n        <div #navbarfixed [ngClass]=\"{'lhs-mobile':mobilemode}\" [ngStyle]=\"{'flex': !title || !logo ? 'none':''}\" style=\"padding-bottom:0.2%\">\n            <div class=\"topnav-lhs-inner\" [ngClass]=\"{'topnav-lhs-inner-mobile':mobilemode, 'topnav-lhs-nologo': logo==''}\">\n                <span>\n\n                    <span style=\"padding-left: 40px;\" *ngIf=\"sidenav\"> &nbsp;</span>\n                    <span *ngIf=\"(!mobilemode && !sidenav && homepageType ==='1')\" class=\"homepage-bar-collapse\" (click)=\"onArrowClick($event)\">\n                        <amexio-image [icon-class]=\" 'fa fa-bars' \"></amexio-image> &nbsp;\n                    </span>\n\n                    <img alt=\"title \" style=\"cursor: pointer \" (click)=\"onNavLogoClick.emit($event) \" (load)=\"onImageLoad() \"\n                        *ngIf=\"logo \" [attr.src]=\"logo \" class=\"navbar-logo \">\n                    <a (click)=\"onNavTitleClick.emit($event)\" [ngStyle]=\"{'color': color}\">{{title}}</a>\n\n\n                    <ng-container *ngIf=\"homepageType=='2' && !sidenav\">\n                        <ng-container *ngIf=\"!isIconLeft\">\n                            <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\">\n                                <amexio-image [icon-class]=\" 'fa fa-chevron-right' \"></amexio-image>\n                            </span>\n                        </ng-container>\n                        <ng-container *ngIf=\"isIconLeft\">\n                            <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\">\n                                <amexio-image [icon-class]=\" 'fa fa-chevron-left' \"></amexio-image>\n                            </span>\n                        </ng-container>\n                    </ng-container>\n\n                </span>\n\n                <span *ngIf=\"mobilemode && navItemPresent\" class=\"float-right mobilebar\" (click)=\"toggleDrawerPanel($event)\">\n                    <em *ngIf=\"!toggle\" class=\"fa fa-caret-down fa-2x\"></em>\n                    <em *ngIf=\"toggle\" class=\"fa fa-caret-up fa-2x\"></em>\n                </span>\n            </div>\n        </div>\n\n        <div #navbaritems *ngIf=\"toggle\" class=\"topnav-rhs\" [ngClass]=\"{'rhs-mobile':mobilemode, 'transparentNav1':transparent && mobilemode}\">\n            <div class=\"topnavmainbar\" [ngClass]=\"{'topnavmainbar-mobile':mobilemode}\">\n                <div #navbaritems1 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-left]\"></ng-content>\n                </div>\n                <div #navbaritems2 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-center]\"></ng-content>\n                </div>\n                <div #navbaritems3 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-right]\"></ng-content>\n                </div>\n            </div>\n        </div>\n        <!--\n      <div #navbarfixed [ngStyle]=\"{'flex': !mobilemode ? lhsWidth : '','flex-width': !mobilemode ? lhsWidth :'' }\"\n                   [ngClass]=\"{ ' topnav-lhs-mobile':mobilemode,'topnav-lhs topnav-lhs-color':!mobilemode} \">\n          <div [ngClass]=\"{'homepage-expand': (isExpand && !mobilemode),'homepage-collapse':(!isExpand && !mobilemode) }\">\n\n              <ng-container *ngIf=\"!isLHSHide || mobilemode\">\n                  <span [ngClass]=\" sidenav ? 'sidenav-padding':'' \" [ngStyle]=\"{ 'padding-left':sidenav ? '40px': '0px'} \">\n                <span *ngIf=\"homepageType=='1' && !isPhone\" class=\"homepage-bar-collapse\"  (click)=\"onArrowClick($event)\"  ><amexio-image [icon-class]=\" 'fa fa-bars' \"></amexio-image></span>\n                  <img alt=\"title \" style=\"cursor: pointer \" (click)=\"onNavLogoClick.emit($event) \" (load)=\"onImageLoad() \" *ngIf=\"logo \" [attr.src]=\"logo \" class=\"navbar-logo \">\n                  <a (click)=\"onNavTitleClick.emit($event) \">{{title}}</a>\n                  </span>\n              </ng-container>\n              <ng-container *ngIf=\"!isPhone\">\n                  <span *ngIf=\"homepageType=='3' || isLHSHide \" (click)=\"onExpandIconClick($event) \" class=\"homepage3-bar\">\n                <amexio-image *ngIf=\"!isExpand\" [icon-class]=\" 'fa fa-bars' \"></amexio-image>\n                <amexio-image *ngIf=\"isExpand\" [icon-class]=\" 'fa fa-times-circle' \"></amexio-image>\n              </span>\n              </ng-container>\n              <ng-container *ngIf=\"homepageType=='2' && !sidenav\">\n                  <ng-container *ngIf=\"!isIconLeft\">\n                      <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-chevron-right' \"></amexio-image></span>\n                  </ng-container>\n                  <ng-container *ngIf=\"isIconLeft\">\n                      <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image  [icon-class]=\" 'fa fa-chevron-left' \"></amexio-image></span>\n                  </ng-container>\n              </ng-container>\n          </div>\n          <div *ngIf=\"mobilemode\" class=\"float-right mobilebar\" (click)=\"toggleDrawerPanel($event)\">\n              <em *ngIf=\"!toggle\" class=\"fa fa-caret-down fa-2x\"></em>\n              <em *ngIf=\"toggle\" class=\"fa fa-caret-up fa-2x\"></em>\n          </div>\n      </div>\n      <div #navbaritems *ngIf=\"toggle\" [ngClass]=\"{'topnav-rhs topnav-rhs-color':!mobilemode}\">\n          <div class=\"topnavmainbar\" [ngClass]=\"{'topnavmainbar-mobile':mobilemode}\">\n              <div #navbaritems1 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-left]\"></ng-content>\n              </div>\n              <div #navbaritems2 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-center]\"></ng-content>\n              </div>\n              <div #navbaritems3 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-right]\"></ng-content>\n              </div>\n\n          </div>\n      </div>\n\n    -->\n    </nav>\n  ",
+                    selector: 'amexio-nav', template: "\n    <nav #navbar class=\"topnav {{themeCss}}\" [ngStyle]=\"{'color': color, 'top': top, 'opacity': opacity}\" [ngClass]=\"{'topnav-mobile':mobilemode, 'transparentNav':transparent}\"\n        (window:resize)=\"resize($event)\">\n\n        <div #navbarfixed [ngClass]=\"{'lhs-mobile':mobilemode}\" [ngStyle]=\"{'flex': !title || !logo ? 'none':''}\" style=\"padding-bottom:0.2%\">\n            <div class=\"topnav-lhs-inner\" [ngClass]=\"{'topnav-lhs-inner-mobile':mobilemode, 'topnav-lhs-nologo': logo==''}\">\n                <span>\n\n                    <span style=\"padding-left: 40px;\" *ngIf=\"sidenav\"> &nbsp;</span>\n                    <span *ngIf=\"(!mobilemode && !sidenav && homepageType ==='1')\" class=\"homepage-bar-collapse\" (click)=\"onArrowClick($event)\">\n                        <amexio-image [icon-class]=\" 'fa fa-bars' \"></amexio-image> &nbsp;\n                    </span>\n\n                    <img alt=\"title \" style=\"cursor: pointer \" (click)=\"onNavLogoClick.emit($event) \" (load)=\"onImageLoad() \"\n                        *ngIf=\"logo \" [attr.src]=\"logo \" class=\"navbar-logo \">\n                    <a (click)=\"onNavTitleClick.emit($event)\" [ngStyle]=\"{'color': color}\">{{title}}</a>\n\n\n                    <ng-container *ngIf=\"homepageType=='2' && !sidenav\">\n                        <ng-container *ngIf=\"!isIconLeft\">\n                            <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\">\n                                <amexio-image [icon-class]=\" 'fa fa-chevron-right' \"></amexio-image>\n                            </span>\n                        </ng-container>\n                        <ng-container *ngIf=\"isIconLeft\">\n                            <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\">\n                                <amexio-image [icon-class]=\" 'fa fa-chevron-left' \"></amexio-image>\n                            </span>\n                        </ng-container>\n                    </ng-container>\n\n                </span>\n\n                <span *ngIf=\"mobilemode && navItemPresent\" class=\"float-right mobilebar\" (click)=\"toggleDrawerPanel($event)\">\n                    <em *ngIf=\"!toggle\" class=\"fa fa-caret-down fa-2x\"></em>\n                    <em *ngIf=\"toggle\" class=\"fa fa-caret-up fa-2x\"></em>\n                </span>\n            </div>\n        </div>\n\n        <div #navbaritems *ngIf=\"toggle\" class=\"topnav-rhs\" [ngClass]=\"{'rhs-mobile':mobilemode, 'transparentNav1':transparent && mobilemode}\">\n            <div class=\"topnavmainbar\" [ngClass]=\"{'topnavmainbar-mobile':mobilemode}\">\n                <div #navbaritems1 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-left]\"></ng-content>\n                </div>\n                <div #navbaritems2 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-center]\"></ng-content>\n                </div>\n                <div #navbaritems3 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                    <ng-content select=\"[position-right]\"></ng-content>\n               \n                    <ng-container *ngIf=\"enableMoreMode\"> \n                        <amexio-nav-item  *ngFor=\"let node of resizeItemCollection\" [type]=\"node.type\"\n                        [title]=\"node.title\"  [data]=\"node.data\" [icon]=\"node.icon\">\n                         </amexio-nav-item >\n                \n                                <more-content  *ngIf=\"moreBucket.length\"  #moreItem [data]=\"moreBucket\" [isMobileView]=\"mobilemode\"></more-content>             \n       \n                    </ng-container>               \n                </div>\n            </div>\n        </div>\n        <!--\n      <div #navbarfixed [ngStyle]=\"{'flex': !mobilemode ? lhsWidth : '','flex-width': !mobilemode ? lhsWidth :'' }\"\n                   [ngClass]=\"{ ' topnav-lhs-mobile':mobilemode,'topnav-lhs topnav-lhs-color':!mobilemode} \">\n          <div [ngClass]=\"{'homepage-expand': (isExpand && !mobilemode),'homepage-collapse':(!isExpand && !mobilemode) }\">\n\n              <ng-container *ngIf=\"!isLHSHide || mobilemode\">\n                  <span [ngClass]=\" sidenav ? 'sidenav-padding':'' \" [ngStyle]=\"{ 'padding-left':sidenav ? '40px': '0px'} \">\n                <span *ngIf=\"homepageType=='1' && !isPhone\" class=\"homepage-bar-collapse\"  (click)=\"onArrowClick($event)\"  ><amexio-image [icon-class]=\" 'fa fa-bars' \"></amexio-image></span>\n                  <img alt=\"title \" style=\"cursor: pointer \" (click)=\"onNavLogoClick.emit($event) \" (load)=\"onImageLoad() \" *ngIf=\"logo \" [attr.src]=\"logo \" class=\"navbar-logo \">\n                  <a (click)=\"onNavTitleClick.emit($event) \">{{title}}</a>\n                  </span>\n              </ng-container>\n              <ng-container *ngIf=\"!isPhone\">\n                  <span *ngIf=\"homepageType=='3' || isLHSHide \" (click)=\"onExpandIconClick($event) \" class=\"homepage3-bar\">\n                <amexio-image *ngIf=\"!isExpand\" [icon-class]=\" 'fa fa-bars' \"></amexio-image>\n                <amexio-image *ngIf=\"isExpand\" [icon-class]=\" 'fa fa-times-circle' \"></amexio-image>\n              </span>\n              </ng-container>\n              <ng-container *ngIf=\"homepageType=='2' && !sidenav\">\n                  <ng-container *ngIf=\"!isIconLeft\">\n                      <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image [icon-class]=\" 'fa fa-chevron-right' \"></amexio-image></span>\n                  </ng-container>\n                  <ng-container *ngIf=\"isIconLeft\">\n                      <span class=\"collaspe-icon-style\" (click)=\"onArrowClick($event)\"><amexio-image  [icon-class]=\" 'fa fa-chevron-left' \"></amexio-image></span>\n                  </ng-container>\n              </ng-container>\n          </div>\n          <div *ngIf=\"mobilemode\" class=\"float-right mobilebar\" (click)=\"toggleDrawerPanel($event)\">\n              <em *ngIf=\"!toggle\" class=\"fa fa-caret-down fa-2x\"></em>\n              <em *ngIf=\"toggle\" class=\"fa fa-caret-up fa-2x\"></em>\n          </div>\n      </div>\n      <div #navbaritems *ngIf=\"toggle\" [ngClass]=\"{'topnav-rhs topnav-rhs-color':!mobilemode}\">\n          <div class=\"topnavmainbar\" [ngClass]=\"{'topnavmainbar-mobile':mobilemode}\">\n              <div #navbaritems1 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-left]\"></ng-content>\n              </div>\n              <div #navbaritems2 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-center]\"></ng-content>\n              </div>\n              <div #navbaritems3 class=\"topnavmainbaritems\" [ngClass]=\"{'topnavmainbaritems-mobile':mobilemode}\">\n                  <ng-content select=\"[position-right]\"></ng-content>\n              </div>\n\n          </div>\n      </div>\n\n    -->\n    </nav>\n  ",
                 },] },
     ];
     /** @nocollapse */
@@ -22590,6 +22682,7 @@ var AmexioNavBarComponent = /** @class */ (function () {
         sidenavspace: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-side-nav-position',] }],
         transparent: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['transparent',] }],
         color: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['color',] }],
+        enableMoreMode: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['enable-more-mode',] }],
         homepageType: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"], args: ['home-page-type',] }],
         onNavLogoClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
         onNavTitleClick: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"] }],
@@ -57967,6 +58060,48 @@ var AmexioInnerNavMenuComponent = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
+var MoreContentComponent = /** @class */ (function () {
+    function MoreContentComponent() {
+        this.data = [];
+        this.isMobileView = false;
+        this.showMoreContent = false;
+    }
+    /**
+     * @return {?}
+     */
+    MoreContentComponent.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    /**
+     * @return {?}
+     */
+    MoreContentComponent.prototype.moreToggle = /**
+     * @return {?}
+     */
+    function () {
+        this.showMoreContent = !this.showMoreContent;
+    };
+    MoreContentComponent.decorators = [
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"], args: [{
+                    selector: 'more-content',
+                    template: "\n\n\n    <div style=\" display: flex;margin-bottom: 40%; flex-direction: column; margin-left: 60px \" class=\"topnavmainbaritems\">\n            <div style=\"position: fixed;right:0;cursor: pointer;\" (click)=\"moreToggle()\">\n                <div>\n                \n                   <span >More</span>\n                    <span *ngIf=\"!showMoreContent\">\n                            <i class=\"fa fa-angle-down\" style=\"padding: 0px 5px;margin-bottom: 2px;;\" aria-hidden=\"true\"></i>\n                    </span>\n                    <span *ngIf=\"showMoreContent\">\n                            <i class=\"fa fa-angle-up\" style=\"padding: 0px 5px;margin-bottom: 2px;;\" aria-hidden=\"true\"></i>\n                    </span>\n                </div>\n                <ng-container *ngIf=\"showMoreContent\">\n                        <div class=\"more-content\" style=\"right: 5px;\">\n                            <amexio-nav-item style=\"display: block; margin-bottom: 10px;\" [icon]=\"node.icon\" *ngFor=\"let node of data\" [type]=\"node.type\" [title]=\"node.title\" [data]=\"node.data\">\n                            </amexio-nav-item>\n        \n                        </div>        \n                    </ng-container>\n            </div>\n  ",
+                },] },
+    ];
+    /** @nocollapse */
+    MoreContentComponent.ctorParameters = function () { return []; };
+    MoreContentComponent.propDecorators = {
+        data: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }],
+        isMobileView: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"] }]
+    };
+    return MoreContentComponent;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
 var AmexioNavActionComponent = /** @class */ (function () {
     function AmexioNavActionComponent() {
         /*
@@ -58409,6 +58544,7 @@ var AmexioSideNavInnerNodeComponent = /** @class */ (function () {
 var NAV_COMPONENTS = [
     AmexioSideNavComponent,
     SideNavNodeComponent,
+    MoreContentComponent,
     AmexioNavBarComponent,
     AmexioNavItemComponent,
     AmexioNotificationComponent,
