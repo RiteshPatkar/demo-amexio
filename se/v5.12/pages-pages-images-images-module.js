@@ -29,9 +29,7 @@ var ImagesComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'images',
             template: __webpack_require__(/*! ./images.html */ "./src/app/pages/pages/images/images.html"),
-            styles: [
-                "\n    \n    "
-            ]
+            styles: ["\n    \n    "]
         }),
         __metadata("design:paramtypes", [])
     ], ImagesComponent);

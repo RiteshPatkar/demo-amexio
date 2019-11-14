@@ -270,7 +270,6 @@ var DataGridComponent = /** @class */ (function () {
     };
     DataGridComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            moduleId: module.i,
             selector: 'data-grid',
             template: __webpack_require__(/*! ./datagrid.component.html */ "./src/app/pages/datagrid/datagrid.component.html")
         }),

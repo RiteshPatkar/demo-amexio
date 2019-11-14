@@ -123,7 +123,6 @@ var TemplatesGridComponent = /** @class */ (function () {
     };
     TemplatesGridComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            moduleId: module.i,
             selector: 'templates',
             template: __webpack_require__(/*! ./templates.component.html */ "./src/app/pages/templates/templates.component.html"),
             styles: ["\n    .listbox-StatusYellow {\n      background-color: yellow;\n    }\n    .listbox-StatusGreen  {\n      background-color: green;\n     }\n    .listbox-StatusRed {\n      background-color: red;\n  }\n  \n  \n.red {\n    color: red!important;\n   \n}\n.green {\n    color: green!important;\n   \n}\n.yellow {\n    color: yellow!important;\n    \n}\n.template-progressBar .progress{\n  height:5px !important;\n}  \n"]

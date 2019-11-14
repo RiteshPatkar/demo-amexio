@@ -32,9 +32,7 @@ var LoginComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'login',
             template: __webpack_require__(/*! ./login.html */ "./src/app/pages/pages/login/login.html"),
-            styles: [
-                "\n    \n    "
-            ]
+            styles: ["\n    \n    "]
         }),
         __metadata("design:paramtypes", [])
     ], LoginComponent);
